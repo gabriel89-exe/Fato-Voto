@@ -1,11 +1,18 @@
+import Link from "next/link";
 import { notFound } from "next/navigation";
 import AvatarCandidato from "@/components/AvatarCandidato";
 import DadoOficial from "@/components/DadoOficial";
 import FaixaSituacao from "@/components/FaixaSituacao";
+import { IconeInfo, IconeSeta } from "@/components/icones";
 import NumeroUrna from "@/components/NumeroUrna";
 import PastilhaPartido from "@/components/PastilhaPartido";
 import ResumoPlataforma from "@/components/ResumoPlataforma";
-import { candidatos, DATA_REVISAO, obterCandidato, obterPartido } from "@/lib/dados";
+import {
+  candidatos,
+  DATA_REVISAO,
+  obterCandidato,
+  obterPartido,
+} from "@/lib/dados";
 import { dataCurta, idadeEm, numero as fmtNumero } from "@/lib/formato";
 
 export function generateStaticParams() {
@@ -43,15 +50,21 @@ export default async function PaginaCandidato({
 
   return (
     <div className="envelope py-6 sm:py-8">
-      <article>
-        <header className="flex flex-col gap-4 sm:flex-row sm:items-start">
+      <Link
+        href="/candidatos"
+        className="inline-flex items-center gap-1.5 text-sm text-tinta-700 no-underline transition-colors hover:text-tinta-900"
+      >
+        <IconeSeta className="h-3.5 w-3.5 rotate-180" />
+        Voltar para a lista
+      </Link>
+
+      <article className="mt-4">
+        <header className="painel-vidro flex flex-col gap-4 p-5 motion-safe:animate-surgir sm:flex-row sm:items-start sm:p-6">
           <AvatarCandidato nome={candidato.nomeUrna} tamanho="lg" />
 
           <div className="min-w-0 flex-1">
             <h1>{candidato.nomeUrna}</h1>
-            <p className="text-tinta-600">
-              Nome civil: {candidato.nomeCivil}
-            </p>
+            <p className="text-tinta-600">Nome civil: {candidato.nomeCivil}</p>
 
             <div className="mt-3">
               <NumeroUrna numero={candidato.numero} tamanho="lg" />
@@ -87,13 +100,16 @@ export default async function PaginaCandidato({
           />
         </div>
 
-        <p
-          role="status"
-          className="mt-5 rounded-md border border-tinta-300 bg-superficie-baixa px-4 py-3 text-sm text-tinta-700"
-        >
-          <strong>Página provisória.</strong> As abas Perfil, Proposta, Mandato
-          e Bens, com os gráficos e a lista de votações, entram no passo 5.
-        </p>
+        <div role="status" className="aviso-callout mt-5 flex gap-3">
+          <IconeInfo className="mt-0.5 shrink-0 text-tinta-500" />
+          <span>
+            <strong className="font-semibold text-tinta-900">
+              Página provisória.
+            </strong>{" "}
+            As abas Perfil, Proposta, Mandato e Bens, com os gráficos e a lista
+            de votações, entram no passo 5.
+          </span>
+        </div>
 
         <h2 className="mt-8">Proposta de governo</h2>
         <p className="mt-1 text-sm text-tinta-600">
@@ -146,8 +162,7 @@ export default async function PaginaCandidato({
 
         <h2 className="mt-10">Dados declarados</h2>
         <p className="mt-1 text-sm text-tinta-600">
-          Informações declaradas pela própria candidatura no momento do
-          registro.
+          Informações declaradas pela própria candidatura no momento do registro.
         </p>
 
         <div className="mt-4">

@@ -8,6 +8,93 @@ type Props = { className?: string };
 
 const base = "h-5 w-5 shrink-0";
 
+/**
+ * Marca do site. Um quadrado dividido: metade solida (o dado oficial),
+ * metade tracejada (o resumo da plataforma). Ecoa o par que estrutura
+ * todas as paginas, sem citar urna, cedula ou voto.
+ */
+export function IconeMarca({ className = "" }: Props) {
+  return (
+    <svg
+      viewBox="0 0 24 24"
+      aria-hidden="true"
+      className={`h-6 w-6 shrink-0 ${className}`}
+    >
+      <rect
+        x="2.5"
+        y="2.5"
+        width="19"
+        height="19"
+        rx="4.5"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="1.7"
+      />
+      <path d="M12 3.2v17.6" stroke="currentColor" strokeWidth="1.4" />
+      <rect
+        x="4.2"
+        y="4.2"
+        width="7.8"
+        height="15.6"
+        rx="2.6"
+        fill="currentColor"
+        opacity="0.14"
+      />
+      <path
+        d="M6.4 9h3.2M6.4 12h3.2M6.4 15h3.2"
+        stroke="currentColor"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+      />
+      <path
+        d="M14.4 9h3.2M14.4 12h3.2M14.4 15h2.2"
+        stroke="currentColor"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeDasharray="0.1 2.7"
+      />
+    </svg>
+  );
+}
+
+/** Seta para a direita: usada nos cartoes de navegacao e nos links de secao. */
+export function IconeSeta({ className = "" }: Props) {
+  return (
+    <svg
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      aria-hidden="true"
+      className={`h-4 w-4 shrink-0 ${className}`}
+    >
+      <path d="M5 12h14M13 6l6 6-6 6" />
+    </svg>
+  );
+}
+
+/** Informacao: usada nos avisos neutros (pagina provisoria, dado ausente). */
+export function IconeInfo({ className = "" }: Props) {
+  return (
+    <svg
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.8"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      aria-hidden="true"
+      className={`${base} ${className}`}
+    >
+      <circle cx="12" cy="12" r="9" />
+      <path d="M12 11v5" />
+      <path d="M12 7.6h.01" />
+    </svg>
+  );
+}
+
 /** Documento carimbado: marca de dado oficial. */
 export function IconeDocumentoOficial({ className = "" }: Props) {
   return (

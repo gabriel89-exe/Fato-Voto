@@ -1,3 +1,4 @@
+import { IconeInfo } from "@/components/icones";
 import { DATA_COLETA, ESTADO, FONTE_PADRAO } from "@/lib/dados";
 import { dataPorExtenso } from "@/lib/formato";
 
@@ -36,15 +37,21 @@ const FONTES = [
 
 export default function PaginaFontes() {
   return (
-    <div className="envelope py-8">
-      <article className="mx-auto max-w-3xl space-y-5">
+    <div className="envelope py-8 sm:py-10">
+      <article className="entrada mx-auto max-w-3xl space-y-5">
+        <span className="chip">Fontes dos dados</span>
+
         <h1>De onde vêm os dados</h1>
 
-        <p className="rounded-md border border-tinta-300 bg-superficie-baixa px-4 py-3 text-sm">
-          <strong>Aviso:</strong> nenhuma das fontes abaixo é real. Elas
-          descrevem o formato que a plataforma usaria, com nomes inventados
-          para o estado fictício de {ESTADO.nome}.
-        </p>
+        <div className="aviso-callout flex gap-3">
+          <IconeInfo className="mt-0.5 shrink-0 text-tinta-500" />
+          <span>
+            <strong className="font-semibold text-tinta-900">Aviso:</strong>{" "}
+            nenhuma das fontes abaixo é real. Elas descrevem o formato que a
+            plataforma usaria, com nomes inventados para o estado fictício de{" "}
+            {ESTADO.nome}.
+          </span>
+        </div>
 
         <p className="text-tinta-700">
           Última coleta simulada: {dataPorExtenso(DATA_COLETA)}. Cada bloco de
@@ -54,7 +61,10 @@ export default function PaginaFontes() {
 
         <div className="space-y-4">
           {FONTES.map((fonte) => (
-            <section key={fonte.nome} className="cartao p-4">
+            <section
+              key={fonte.nome}
+              className="cartao cartao-interativo p-5"
+            >
               <h2 className="text-lg">{fonte.nome}</h2>
               <dl className="mt-2 space-y-2 text-sm">
                 <div>

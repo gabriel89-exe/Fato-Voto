@@ -28,7 +28,7 @@ export default function CartaoCandidato({
   const partido = obterPartido(candidato.partidoId);
 
   return (
-    <li className="cartao h-full">
+    <li className="cartao cartao-interativo h-full">
       <article className="flex h-full flex-col gap-3 p-4">
         <div className="flex items-start gap-3">
           <AvatarCandidato nome={candidato.nomeUrna} tamanho="sm" />

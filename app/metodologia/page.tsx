@@ -1,23 +1,31 @@
+import { IconeInfo } from "@/components/icones";
+
 export const metadata = { title: "Metodologia" };
 
 export default function PaginaMetodologia() {
   return (
-    <div className="envelope py-8">
-      <article className="mx-auto max-w-2xl space-y-5">
+    <div className="envelope py-8 sm:py-10">
+      <article className="entrada mx-auto max-w-2xl space-y-5">
+        <span className="chip">Metodologia</span>
+
         <h1>Como tratamos os dados</h1>
 
-        <p className="rounded-md border border-tinta-300 bg-superficie-baixa px-4 py-3 text-sm">
-          <strong>Aviso:</strong> este site é um protótipo. Os dados exibidos
-          foram inventados para testar a interface. O texto abaixo descreve como
-          a plataforma funcionaria com dados reais.
-        </p>
+        <div className="aviso-callout flex gap-3">
+          <IconeInfo className="mt-0.5 shrink-0 text-tinta-500" />
+          <span>
+            <strong className="font-semibold text-tinta-900">Aviso:</strong>{" "}
+            este site é um protótipo. Os dados exibidos foram inventados para
+            testar a interface. O texto abaixo descreve como a plataforma
+            funcionaria com dados reais.
+          </span>
+        </div>
 
         <section className="space-y-2">
           <h2>De onde vêm os números</h2>
           <p className="text-tinta-700">
             Todo dado exibido vem de um registro público. Nós não criamos
-            números novos, não estimamos e não completamos informação que
-            falta. Quando um campo não existe na fonte, a tela mostra{" "}
+            números novos, não estimamos e não completamos informação que falta.
+            Quando um campo não existe na fonte, a tela mostra{" "}
             <strong>Não informado</strong>.
           </p>
         </section>
@@ -28,13 +36,13 @@ export default function PaginaMetodologia() {
             O site tem dois tipos de conteúdo e eles nunca se misturam. O
             <strong> dado oficial</strong> aparece em bloco com moldura azul e
             barra na lateral, sempre com a fonte e a data da coleta. O
-            <strong> resumo escrito por nós</strong> aparece em bloco de
-            moldura tracejada, com aviso de que foi produzido pela plataforma.
+            <strong> resumo escrito por nós</strong> aparece em bloco de moldura
+            tracejada, com aviso de que foi produzido pela plataforma.
           </p>
           <p className="text-tinta-700">
-            Nossos resumos só reorganizam o que está no documento, em frases
-            mais curtas. Eles não avaliam, não comparam e não dizem se uma
-            proposta é boa.
+            Nossos resumos só reorganizam o que está no documento, em frases mais
+            curtas. Eles não avaliam, não comparam e não dizem se uma proposta é
+            boa.
           </p>
         </section>
 
@@ -58,10 +66,10 @@ export default function PaginaMetodologia() {
           <h2>Por que a ordem é sorteada</h2>
           <p className="text-tinta-700">
             Qualquer ordem fixa favorece alguém. A ordem alfabética favorece
-            nomes com A. A ordem por número favorece partidos antigos. Por isso
-            a lista sai sorteada, e o sorteio vale para a sua sessão inteira,
-            para a lista não mudar embaixo do seu dedo. Você pode trocar para
-            ordem por nome ou por número quando quiser.
+            nomes com A. A ordem por número favorece partidos antigos. Por isso a
+            lista sai sorteada, e o sorteio vale para a sua sessão inteira, para
+            a lista não mudar embaixo do seu dedo. Você pode trocar para ordem
+            por nome ou por número quando quiser.
           </p>
         </section>
 
@@ -77,19 +85,19 @@ export default function PaginaMetodologia() {
         <section className="space-y-2">
           <h2>Valores de bens</h2>
           <p className="text-tinta-700">
-            Os valores de bens aparecem como foram declarados, em reais da
-            época de cada declaração. Eles não são corrigidos pela inflação,
-            então comparar anos diferentes exige cuidado. Esse aviso aparece
-            junto do gráfico.
+            Os valores de bens aparecem como foram declarados, em reais da época
+            de cada declaração. Eles não são corrigidos pela inflação, então
+            comparar anos diferentes exige cuidado. Esse aviso aparece junto do
+            gráfico.
           </p>
         </section>
 
         <section className="space-y-2">
           <h2>Erros</h2>
           <p className="text-tinta-700">
-            Se um dado estiver diferente da fonte oficial, a fonte oficial
-            vale. Cada bloco de dado tem link para o documento de origem para
-            você conferir por conta própria.
+            Se um dado estiver diferente da fonte oficial, a fonte oficial vale.
+            Cada bloco de dado tem link para o documento de origem para você
+            conferir por conta própria.
           </p>
         </section>
       </article>

@@ -4,25 +4,61 @@
 
 @layer base {
   :root {
-    /* Altura da tarja de prototipo, usada para deslocar o conteudo. */
-    --altura-tarja: 2.25rem;
+    /* Altura exata da tarja de prototipo. O cabecalho gruda logo abaixo. */
+    --altura-tarja: 2.5rem;
+    --altura-cabecalho: 3.75rem;
   }
 
   html {
     -webkit-text-size-adjust: 100%;
+    scroll-padding-top: calc(var(--altura-tarja) + var(--altura-cabecalho) + 1rem);
   }
 
   body {
-    @apply bg-superficie text-tinta-900 antialiased;
+    @apply bg-superficie text-tinta-900 antialiased font-sans;
     font-size: 1rem;
-    line-height: 1.6;
+    line-height: 1.65;
+    min-height: 100vh;
+    background-image: radial-gradient(
+        58rem 42rem at 8% -12%,
+        rgba(29, 65, 96, 0.1),
+        transparent 60%
+      ),
+      radial-gradient(
+        46rem 40rem at 104% 4%,
+        rgba(63, 107, 143, 0.09),
+        transparent 58%
+      ),
+      radial-gradient(
+        40rem 44rem at 50% 128%,
+        rgba(120, 153, 179, 0.1),
+        transparent 62%
+      );
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+
+  /* Grao fino por cima de tudo, para o fundo nao ficar chapado. */
+  body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    pointer-events: none;
+    opacity: 0.035;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
   }
 
   /* Foco sempre visivel, em qualquer elemento, com contraste alto. */
   :focus-visible {
-    outline: 3px solid theme("colors.tinta.900");
+    outline: 3px solid theme("colors.oficial.borda");
     outline-offset: 2px;
-    border-radius: 2px;
+    border-radius: 3px;
+  }
+
+  ::selection {
+    background: theme("colors.oficial.leve");
+    color: theme("colors.oficial.texto");
   }
 
   /* Rolagem suave so para quem nao pediu menos movimento. */
@@ -32,22 +68,36 @@
     }
   }
 
+  /* Quem pede menos movimento nao recebe nenhuma animacao nem transicao. */
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.001ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.001ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+
   h1,
   h2,
   h3,
   h4 {
-    @apply font-semibold text-tinta-900;
+    @apply font-display font-semibold text-tinta-900;
     text-wrap: balance;
+    letter-spacing: -0.012em;
   }
 
   h1 {
-    @apply text-2xl sm:text-3xl;
-    line-height: 1.25;
+    font-size: clamp(1.9rem, 1.15rem + 3.4vw, 2.9rem);
+    line-height: 1.12;
+    letter-spacing: -0.021em;
   }
 
   h2 {
     @apply text-xl sm:text-2xl;
-    line-height: 1.3;
+    line-height: 1.24;
   }
 
   h3 {
@@ -55,7 +105,11 @@
   }
 
   a {
-    @apply underline underline-offset-2 decoration-tinta-300 hover:decoration-tinta-700;
+    @apply underline underline-offset-2 decoration-tinta-300 transition-colors;
+  }
+
+  a:hover {
+    @apply decoration-tinta-700;
   }
 
   table {
@@ -79,23 +133,87 @@
   }
 
   .botao-primario {
-    @apply alvo-toque gap-2 rounded-md bg-tinta-800 px-5 py-3 text-base font-semibold
-           text-white no-underline hover:bg-tinta-900;
+    @apply alvo-toque relative gap-2 rounded-xl px-5 py-3 text-base font-semibold
+           text-white no-underline;
+    background-image: linear-gradient(180deg, #2a343f 0%, #161c22 100%);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.08),
+      0 10px 24px -10px rgba(18, 23, 28, 0.5);
+    transition: transform 0.18s theme("transitionTimingFunction.suave"),
+      box-shadow 0.18s ease, filter 0.18s ease;
+  }
+
+  .botao-primario:hover {
+    transform: translateY(-1px);
+    filter: brightness(1.07);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1),
+      0 16px 30px -12px rgba(18, 23, 28, 0.55);
+  }
+
+  .botao-primario:active {
+    transform: translateY(0);
+    filter: brightness(0.97);
   }
 
   .botao-secundario {
-    @apply alvo-toque gap-2 rounded-md border-2 border-tinta-300 bg-superficie-alta px-4 py-2
-           text-base font-medium text-tinta-800 no-underline hover:border-tinta-500;
+    @apply alvo-toque gap-2 rounded-xl border border-tinta-200 px-4 py-2
+           text-base font-medium text-tinta-800 no-underline;
+    background-image: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.92),
+      rgba(255, 255, 255, 0.62)
+    );
+    -webkit-backdrop-filter: blur(6px);
+    backdrop-filter: blur(6px);
+    box-shadow: 0 1px 2px rgba(18, 23, 28, 0.04);
+    transition: border-color 0.18s ease, box-shadow 0.18s ease,
+      transform 0.18s theme("transitionTimingFunction.suave");
+  }
+
+  .botao-secundario:hover {
+    @apply border-tinta-400;
+    transform: translateY(-1px);
+    box-shadow: 0 8px 20px -10px rgba(18, 23, 28, 0.28);
   }
 
   .campo {
-    @apply w-full rounded-md border-2 border-tinta-300 bg-superficie-alta px-3 py-3
-           text-base text-tinta-900 placeholder:text-tinta-500 focus:border-tinta-700;
+    @apply w-full rounded-xl border border-tinta-300 bg-superficie-alta px-3.5 py-3
+           text-base text-tinta-900 placeholder:text-tinta-400;
+    box-shadow: inset 0 1px 2px rgba(18, 23, 28, 0.05);
+    transition: border-color 0.16s ease, box-shadow 0.16s ease;
     min-height: 44px;
   }
 
+  .campo:focus {
+    @apply border-oficial-borda outline-none;
+    box-shadow: inset 0 1px 2px rgba(18, 23, 28, 0.05),
+      0 0 0 4px rgba(29, 65, 96, 0.14);
+  }
+
   .cartao {
-    @apply rounded-lg border border-tinta-200 bg-superficie-alta;
+    @apply rounded-2xl border border-tinta-200 bg-superficie-alta;
+    box-shadow: 0 1px 2px rgba(18, 23, 28, 0.04), 0 1px 3px rgba(18, 23, 28, 0.05);
+  }
+
+  /* Profundidade e resposta ao hover — sem cor, sem selo. A estrutura,
+     o tamanho e o peso do cartao continuam iguais para toda candidatura. */
+  .cartao-interativo {
+    transition: transform 0.2s theme("transitionTimingFunction.suave"),
+      box-shadow 0.2s ease, border-color 0.2s ease;
+  }
+
+  .cartao-interativo:hover {
+    @apply border-tinta-300;
+    transform: translateY(-3px);
+    box-shadow: 0 22px 40px -20px rgba(18, 23, 28, 0.24),
+      0 8px 16px -10px rgba(18, 23, 28, 0.12);
+  }
+
+  .painel-vidro {
+    @apply rounded-2xl border border-white/70 bg-superficie-alta/80;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 1px 2px rgba(18, 23, 28, 0.04),
+      0 16px 36px -22px rgba(18, 23, 28, 0.24);
   }
 
   /* Rotulo pequeno de metadado (fonte, data de coleta, autodeclaracao). */
@@ -104,8 +222,33 @@
   }
 
   .chip {
-    @apply inline-flex items-center gap-1.5 rounded-full border border-tinta-300
-           bg-superficie-alta px-3 py-1 text-sm text-tinta-800;
+    @apply inline-flex items-center gap-1.5 rounded-full border border-tinta-200
+           px-3 py-1 text-sm text-tinta-800;
+    background-image: linear-gradient(180deg, #ffffff, #eef1f3);
+    box-shadow: 0 1px 1px rgba(18, 23, 28, 0.04);
+  }
+
+  /* Aviso neutro (pagina provisoria, dado ausente). Barra cinza a esquerda:
+     chama atencao sem entrar na gramatica azul/areia do conteudo. */
+  .aviso-callout {
+    @apply relative overflow-hidden rounded-xl border border-tinta-200
+           bg-superficie-alta/75 px-4 py-3 text-sm text-tinta-700;
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+  }
+
+  .aviso-callout::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 3px;
+    background: linear-gradient(
+      180deg,
+      theme("colors.tinta.400"),
+      theme("colors.tinta.300")
+    );
   }
 }
 
@@ -137,8 +280,62 @@
   .hachura-aviso {
     background-image: repeating-linear-gradient(
       -45deg,
-      rgba(26, 18, 6, 0.18) 0 6px,
+      rgba(26, 18, 6, 0.16) 0 6px,
       transparent 6px 12px
     );
+  }
+
+  /* Malha de linhas atras dos heros. Some nas bordas por mascara. */
+  .grade-fundo {
+    background-image: linear-gradient(
+        rgba(18, 23, 28, 0.05) 1px,
+        transparent 1px
+      ),
+      linear-gradient(90deg, rgba(18, 23, 28, 0.05) 1px, transparent 1px);
+    background-size: 46px 46px;
+    -webkit-mask-image: radial-gradient(
+      ellipse 78% 62% at 50% 0%,
+      #000 42%,
+      transparent 80%
+    );
+    mask-image: radial-gradient(
+      ellipse 78% 62% at 50% 0%,
+      #000 42%,
+      transparent 80%
+    );
+  }
+
+  /* Entrada em cascata para grupos pequenos (heros, introducoes). */
+  .entrada > * {
+    animation: surgir 0.6s theme("transitionTimingFunction.suave") both;
+  }
+  .entrada > *:nth-child(1) {
+    animation-delay: 0.03s;
+  }
+  .entrada > *:nth-child(2) {
+    animation-delay: 0.09s;
+  }
+  .entrada > *:nth-child(3) {
+    animation-delay: 0.15s;
+  }
+  .entrada > *:nth-child(4) {
+    animation-delay: 0.21s;
+  }
+  .entrada > *:nth-child(5) {
+    animation-delay: 0.27s;
+  }
+  .entrada > *:nth-child(6) {
+    animation-delay: 0.33s;
+  }
+  .entrada > *:nth-child(7) {
+    animation-delay: 0.39s;
+  }
+  .entrada > *:nth-child(n + 8) {
+    animation-delay: 0.45s;
+  }
+
+  /* Entrada uniforme para listas longas (nao escalona: ficaria lento). */
+  .entrada-lista > * {
+    animation: surgir-suave 0.5s theme("transitionTimingFunction.suave") both;
   }
 }
