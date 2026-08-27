@@ -6,6 +6,46 @@
 /*  GAZETA — sistema visual de diario oficial de eleicao.             */
 /* ================================================================== */
 
+/* Keyframes declarados aqui (e nao so no tailwind.config) porque o JIT
+   do Tailwind descarta @keyframes cuja classe animate-* nunca aparece
+   no markup — e o sistema referencia as animacoes por nome cru no CSS. */
+@keyframes surgir {
+  0% {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes surgir-suave {
+  0% {
+    opacity: 0;
+    transform: translateY(9px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes risca-h {
+  0% {
+    transform: scaleX(0);
+  }
+  100% {
+    transform: scaleX(1);
+  }
+}
+@keyframes desliza-bandeira {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
 @layer base {
   :root {
     --altura-tarja: 2.5rem;
@@ -290,6 +330,47 @@
       -45deg,
       rgba(26, 18, 6, 0.16) 0 6px,
       transparent 6px 12px
+    );
+  }
+
+  /* Tarja de prototipo: gradiente com as cores da bandeira do Brasil,
+     rolando devagar. A faixa colorida vive num ::before de largura dupla
+     que desliza por transform (roda no compositor, nao "congela"). O tile
+     tem 50% da largura e comeca/termina no verde, entao o loop nao emenda.
+     Para sozinho em prefers-reduced-motion (regra global). */
+  .tarja-bandeira {
+    background-color: #00923f;
+  }
+
+  .tarja-bandeira::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    width: 200%;
+    background-image: linear-gradient(
+      90deg,
+      #00923f 0%,
+      #1a9e52 12%,
+      #ffd400 30%,
+      #ffd400 40%,
+      #002776 50%,
+      #ffd400 60%,
+      #ffd400 70%,
+      #1a9e52 88%,
+      #00923f 100%
+    );
+    background-size: 50% 100%;
+    background-repeat: repeat;
+    animation: desliza-bandeira 13s linear infinite;
+    will-change: transform;
+  }
+
+  /* Hachura por cima do gradiente, sem ser arrastada pela animacao. */
+  .tarja-hachura {
+    background-image: repeating-linear-gradient(
+      -45deg,
+      rgba(20, 19, 16, 0.22) 0 6px,
+      transparent 6px 13px
     );
   }
 

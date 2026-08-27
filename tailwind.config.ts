@@ -146,12 +146,17 @@ const config: Config = {
           "0%": { backgroundPosition: "0 0" },
           "100%": { backgroundPosition: "48px 0" },
         },
+        "desliza-bandeira": {
+          "0%": { transform: "translateX(0)" },
+          "100%": { transform: "translateX(-50%)" },
+        },
       },
       animation: {
         surgir: "surgir 0.62s cubic-bezier(0.22,1,0.36,1) both",
         "surgir-suave": "surgir-suave 0.5s cubic-bezier(0.22,1,0.36,1) both",
         "risca-h": "risca-h 0.7s cubic-bezier(0.22,1,0.36,1) both",
         "arrastar-hachura": "arrastar-hachura 14s linear infinite",
+        "desliza-bandeira": "desliza-bandeira 13s linear infinite",
       },
       transitionTimingFunction: {
         suave: "cubic-bezier(0.22,1,0.36,1)",
