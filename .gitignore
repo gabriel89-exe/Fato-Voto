@@ -7,3 +7,6 @@ next-env.d.ts
 
 .vercel
 .env*
+
+# Snapshots crus da coleta: grandes e reproduziveis pelos scripts.
+dados-brutos

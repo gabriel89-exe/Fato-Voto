@@ -1,0 +1,2382 @@
+{
+  "fonte": {
+    "nome": "Câmara dos Deputados — Dados Abertos",
+    "url": "https://dadosabertos.camara.leg.br/",
+    "licenca": "Dados abertos, uso livre com citação da fonte"
+  },
+  "uf": "ES",
+  "legislatura": 57,
+  "coletadoEm": "2026-08-27T20:31:31.719Z",
+  "referencia": {
+    "bancada": 10,
+    "medianaDespesas": 1783876.5800000024,
+    "menor": 1342372.0999999933,
+    "maior": 1866667.8599999982
+  },
+  "parlamentares": [
+    {
+      "id": "camara-204356",
+      "idExterno": 204356,
+      "cargo": "Deputado Federal",
+      "uf": "ES",
+      "nomeUrna": "Amaro Neto",
+      "nomeCivil": "AMARO ROCHA NASCIMENTO NETO",
+      "partido": "PP",
+      "siglasNaLegislatura": [
+        "REPUBLICANOS",
+        "PP"
+      ],
+      "trocouDePartido": true,
+      "situacao": "Exercício",
+      "condicaoEleitoral": "Titular",
+      "dataNascimento": "1976-12-04",
+      "ufNascimento": "ES",
+      "escolaridade": "Pós-Graduação",
+      "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/204356.jpg",
+      "paginaOficial": "https://www.camara.leg.br/deputados/204356",
+      "despesas": {
+        "total": 1737917.820000002,
+        "documentos": 875,
+        "porTipo": [
+          {
+            "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
+            "valor": 1031997.03
+          },
+          {
+            "tipo": "LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES",
+            "valor": 348556.42
+          },
+          {
+            "tipo": "PASSAGEM AÉREA - SIGEPA",
+            "valor": 148114.87999999986
+          },
+          {
+            "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
+            "valor": 136499.33999999997
+          },
+          {
+            "tipo": "COMBUSTÍVEIS E LUBRIFICANTES.",
+            "valor": 72750.15
+          }
+        ],
+        "porMes": [
+          {
+            "competencia": "2023-01",
+            "valor": 3849.23
+          },
+          {
+            "competencia": "2023-02",
+            "valor": 24672.270000000004
+          },
+          {
+            "competencia": "2023-03",
+            "valor": 27309.829999999998
+          },
+          {
+            "competencia": "2023-04",
+            "valor": 63189.310000000005
+          },
+          {
+            "competencia": "2023-05",
+            "valor": 27925.349999999995
+          },
+          {
+            "competencia": "2023-06",
+            "valor": 27174.53
+          },
+          {
+            "competencia": "2023-07",
+            "valor": 34290.33
+          },
+          {
+            "competencia": "2023-08",
+            "valor": 34176.229999999996
+          },
+          {
+            "competencia": "2023-09",
+            "valor": 45922.73
+          },
+          {
+            "competencia": "2023-10",
+            "valor": 50857.619999999995
+          },
+          {
+            "competencia": "2023-11",
+            "valor": 51347.11
+          },
+          {
+            "competencia": "2023-12",
+            "valor": 77117.88
+          },
+          {
+            "competencia": "2024-01",
+            "valor": 36069.16
+          },
+          {
+            "competencia": "2024-02",
+            "valor": 50349.76999999999
+          },
+          {
+            "competencia": "2024-03",
+            "valor": 59758.549999999996
+          },
+          {
+            "competencia": "2024-04",
+            "valor": 45603.67999999999
+          },
+          {
+            "competencia": "2024-05",
+            "valor": 47950.780000000006
+          },
+          {
+            "competencia": "2024-06",
+            "valor": 47150.03
+          },
+          {
+            "competencia": "2024-07",
+            "valor": 49766.07
+          },
+          {
+            "competencia": "2024-08",
+            "valor": 29458.550000000003
+          },
+          {
+            "competencia": "2024-09",
+            "valor": 32075.9
+          },
+          {
+            "competencia": "2024-10",
+            "valor": 34758.39
+          },
+          {
+            "competencia": "2024-11",
+            "valor": 65913.93
+          },
+          {
+            "competencia": "2024-12",
+            "valor": 11268.6
+          },
+          {
+            "competencia": "2025-01",
+            "valor": 79566.81999999999
+          },
+          {
+            "competencia": "2025-02",
+            "valor": 32162.579999999998
+          },
+          {
+            "competencia": "2025-03",
+            "valor": 50210.01
+          },
+          {
+            "competencia": "2025-04",
+            "valor": 46482.29
+          },
+          {
+            "competencia": "2025-05",
+            "valor": 41444.780000000006
+          },
+          {
+            "competencia": "2025-06",
+            "valor": 57449.50999999999
+          },
+          {
+            "competencia": "2025-07",
+            "valor": 65298.12
+          },
+          {
+            "competencia": "2025-08",
+            "valor": 56036.240000000005
+          },
+          {
+            "competencia": "2025-09",
+            "valor": 26244.160000000003
+          },
+          {
+            "competencia": "2025-10",
+            "valor": 27051.11
+          },
+          {
+            "competencia": "2025-11",
+            "valor": 26686.7
+          },
+          {
+            "competencia": "2025-12",
+            "valor": 2687.0999999999995
+          },
+          {
+            "competencia": "2026-01",
+            "valor": 43158.64000000001
+          },
+          {
+            "competencia": "2026-02",
+            "valor": 46405.39
+          },
+          {
+            "competencia": "2026-03",
+            "valor": 46987.19
+          },
+          {
+            "competencia": "2026-04",
+            "valor": 46192.530000000006
+          },
+          {
+            "competencia": "2026-05",
+            "valor": 30365.120000000006
+          },
+          {
+            "competencia": "2026-06",
+            "valor": 20118.770000000004
+          },
+          {
+            "competencia": "2026-07",
+            "valor": 13510.689999999997
+          },
+          {
+            "competencia": "2026-08",
+            "valor": 1904.24
+          }
+        ]
+      }
+    },
+    {
+      "id": "camara-204355",
+      "idExterno": 204355,
+      "cargo": "Deputado Federal",
+      "uf": "ES",
+      "nomeUrna": "Da Vitoria",
+      "nomeCivil": "JOSIAS MARIO DA VITORIA",
+      "partido": "PP",
+      "siglasNaLegislatura": [
+        "PP"
+      ],
+      "trocouDePartido": false,
+      "situacao": "Exercício",
+      "condicaoEleitoral": "Titular",
+      "dataNascimento": "1971-06-02",
+      "ufNascimento": "ES",
+      "escolaridade": "Superior",
+      "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/204355.jpg",
+      "paginaOficial": "https://www.camara.leg.br/deputados/204355",
+      "despesas": {
+        "total": 1778893.300000003,
+        "documentos": 1265,
+        "porTipo": [
+          {
+            "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
+            "valor": 773103.1299999999
+          },
+          {
+            "tipo": "PASSAGEM AÉREA - SIGEPA",
+            "valor": 395785.5399999999
+          },
+          {
+            "tipo": "LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES",
+            "valor": 221185
+          },
+          {
+            "tipo": "COMBUSTÍVEIS E LUBRIFICANTES.",
+            "valor": 196910.59999999998
+          },
+          {
+            "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
+            "valor": 165000
+          },
+          {
+            "tipo": "TELEFONIA",
+            "valor": 22671.230000000032
+          },
+          {
+            "tipo": "HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.",
+            "valor": 3922.8
+          },
+          {
+            "tipo": "PASSAGEM AÉREA - RPA",
+            "valor": 315
+          }
+        ],
+        "porMes": [
+          {
+            "competencia": "2023-01",
+            "valor": 11363.33
+          },
+          {
+            "competencia": "2023-02",
+            "valor": 19960.590000000004
+          },
+          {
+            "competencia": "2023-03",
+            "valor": 34509.79
+          },
+          {
+            "competencia": "2023-04",
+            "valor": 38301.200000000004
+          },
+          {
+            "competencia": "2023-05",
+            "valor": 43832.92000000001
+          },
+          {
+            "competencia": "2023-06",
+            "valor": 43572.12
+          },
+          {
+            "competencia": "2023-07",
+            "valor": 37159.50999999999
+          },
+          {
+            "competencia": "2023-08",
+            "valor": 43526.04999999999
+          },
+          {
+            "competencia": "2023-09",
+            "valor": 39872.350000000006
+          },
+          {
+            "competencia": "2023-10",
+            "valor": 44902.520000000004
+          },
+          {
+            "competencia": "2023-11",
+            "valor": 49521.619999999995
+          },
+          {
+            "competencia": "2023-12",
+            "valor": 45101.01000000001
+          },
+          {
+            "competencia": "2024-01",
+            "valor": 40323.600000000006
+          },
+          {
+            "competencia": "2024-02",
+            "valor": 53843.240000000005
+          },
+          {
+            "competencia": "2024-03",
+            "valor": 45637.70999999999
+          },
+          {
+            "competencia": "2024-04",
+            "valor": 50367.91
+          },
+          {
+            "competencia": "2024-05",
+            "valor": 44309.90000000001
+          },
+          {
+            "competencia": "2024-06",
+            "valor": 36755.659999999996
+          },
+          {
+            "competencia": "2024-07",
+            "valor": 41845.930000000015
+          },
+          {
+            "competencia": "2024-08",
+            "valor": 44716.64
+          },
+          {
+            "competencia": "2024-09",
+            "valor": 43272.86000000001
+          },
+          {
+            "competencia": "2024-10",
+            "valor": 42607.66
+          },
+          {
+            "competencia": "2024-11",
+            "valor": 44864.95
+          },
+          {
+            "competencia": "2024-12",
+            "valor": 60595.23000000001
+          },
+          {
+            "competencia": "2025-01",
+            "valor": 48622.17999999999
+          },
+          {
+            "competencia": "2025-02",
+            "valor": 51544.58
+          },
+          {
+            "competencia": "2025-03",
+            "valor": 35995.96000000001
+          },
+          {
+            "competencia": "2025-04",
+            "valor": 52097.13
+          },
+          {
+            "competencia": "2025-05",
+            "valor": 52736.08000000001
+          },
+          {
+            "competencia": "2025-06",
+            "valor": 70668.18999999997
+          },
+          {
+            "competencia": "2025-07",
+            "valor": 63957.219999999994
+          },
+          {
+            "competencia": "2025-08",
+            "valor": 35740.22
+          },
+          {
+            "competencia": "2025-09",
+            "valor": 36778.25
+          },
+          {
+            "competencia": "2025-10",
+            "valor": 32870.32
+          },
+          {
+            "competencia": "2025-11",
+            "valor": 28372.37
+          },
+          {
+            "competencia": "2025-12",
+            "valor": 12466.91
+          },
+          {
+            "competencia": "2026-01",
+            "valor": 40915.24999999999
+          },
+          {
+            "competencia": "2026-02",
+            "valor": 39240.700000000004
+          },
+          {
+            "competencia": "2026-03",
+            "valor": 40790.40999999999
+          },
+          {
+            "competencia": "2026-04",
+            "valor": 25166.809999999998
+          },
+          {
+            "competencia": "2026-05",
+            "valor": 39034.41
+          },
+          {
+            "competencia": "2026-06",
+            "valor": 29387.72
+          },
+          {
+            "competencia": "2026-07",
+            "valor": 35608.899999999994
+          },
+          {
+            "competencia": "2026-08",
+            "valor": 6135.39
+          }
+        ]
+      }
+    },
+    {
+      "id": "camara-220528",
+      "idExterno": 220528,
+      "cargo": "Deputado Federal",
+      "uf": "ES",
+      "nomeUrna": "Dr. Victor Linhalis",
+      "nomeCivil": "VICTOR GAROZI LINHALIS",
+      "partido": "PSB",
+      "siglasNaLegislatura": [
+        "PODE",
+        "PSB"
+      ],
+      "trocouDePartido": true,
+      "situacao": "Exercício",
+      "condicaoEleitoral": "Titular",
+      "dataNascimento": "1986-01-02",
+      "ufNascimento": "ES",
+      "escolaridade": "Pós-Graduação",
+      "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/220528.jpg",
+      "paginaOficial": "https://www.camara.leg.br/deputados/220528",
+      "despesas": {
+        "total": 1866667.8599999982,
+        "documentos": 859,
+        "porTipo": [
+          {
+            "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
+            "valor": 787764.67
+          },
+          {
+            "tipo": "LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES",
+            "valor": 362476.6699999999
+          },
+          {
+            "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
+            "valor": 334215.8200000002
+          },
+          {
+            "tipo": "PASSAGEM AÉREA - SIGEPA",
+            "valor": 270434.9400000001
+          },
+          {
+            "tipo": "COMBUSTÍVEIS E LUBRIFICANTES.",
+            "valor": 92487.12000000002
+          },
+          {
+            "tipo": "TELEFONIA",
+            "valor": 10870.199999999993
+          },
+          {
+            "tipo": "HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.",
+            "valor": 5024.8099999999995
+          },
+          {
+            "tipo": "PASSAGEM AÉREA - REEMBOLSO",
+            "valor": 3393.63
+          }
+        ],
+        "porMes": [
+          {
+            "competencia": "2023-02",
+            "valor": 18289.190000000006
+          },
+          {
+            "competencia": "2023-03",
+            "valor": 23999.820000000007
+          },
+          {
+            "competencia": "2023-04",
+            "valor": 14298.02
+          },
+          {
+            "competencia": "2023-05",
+            "valor": 39412.100000000006
+          },
+          {
+            "competencia": "2023-06",
+            "valor": 35708.69000000001
+          },
+          {
+            "competencia": "2023-07",
+            "valor": 6819.83
+          },
+          {
+            "competencia": "2023-08",
+            "valor": 21344.78
+          },
+          {
+            "competencia": "2023-09",
+            "valor": 39387.87
+          },
+          {
+            "competencia": "2023-10",
+            "valor": 48801.25
+          },
+          {
+            "competencia": "2023-11",
+            "valor": 42816.420000000006
+          },
+          {
+            "competencia": "2023-12",
+            "valor": 172066.24
+          },
+          {
+            "competencia": "2024-01",
+            "valor": 44511.62000000001
+          },
+          {
+            "competencia": "2024-02",
+            "valor": 43189.71000000001
+          },
+          {
+            "competencia": "2024-03",
+            "valor": 56037.850000000006
+          },
+          {
+            "competencia": "2024-04",
+            "valor": 68276.58
+          },
+          {
+            "competencia": "2024-05",
+            "valor": 42042.9
+          },
+          {
+            "competencia": "2024-06",
+            "valor": 42905.41999999999
+          },
+          {
+            "competencia": "2024-07",
+            "valor": 35552.899999999994
+          },
+          {
+            "competencia": "2024-08",
+            "valor": 43496.07000000001
+          },
+          {
+            "competencia": "2024-09",
+            "valor": 45375.770000000004
+          },
+          {
+            "competencia": "2024-10",
+            "valor": 43479.80999999999
+          },
+          {
+            "competencia": "2024-11",
+            "valor": 32135.670000000002
+          },
+          {
+            "competencia": "2024-12",
+            "valor": 58397.009999999995
+          },
+          {
+            "competencia": "2025-01",
+            "valor": 13635.95
+          },
+          {
+            "competencia": "2025-02",
+            "valor": 29967.11
+          },
+          {
+            "competencia": "2025-03",
+            "valor": 68514.84
+          },
+          {
+            "competencia": "2025-04",
+            "valor": 33247.03
+          },
+          {
+            "competencia": "2025-05",
+            "valor": 35726.58
+          },
+          {
+            "competencia": "2025-06",
+            "valor": 38855.770000000004
+          },
+          {
+            "competencia": "2025-07",
+            "valor": 46443.729999999996
+          },
+          {
+            "competencia": "2025-08",
+            "valor": 37340.979999999996
+          },
+          {
+            "competencia": "2025-09",
+            "valor": 36596.299999999996
+          },
+          {
+            "competencia": "2025-10",
+            "valor": 35444.240000000005
+          },
+          {
+            "competencia": "2025-11",
+            "valor": 37370.44
+          },
+          {
+            "competencia": "2025-12",
+            "valor": 140024.94
+          },
+          {
+            "competencia": "2026-01",
+            "valor": 35018.45
+          },
+          {
+            "competencia": "2026-02",
+            "valor": 75813.22
+          },
+          {
+            "competencia": "2026-03",
+            "valor": 32388.739999999998
+          },
+          {
+            "competencia": "2026-04",
+            "valor": 32844.62
+          },
+          {
+            "competencia": "2026-05",
+            "valor": 90215.85
+          },
+          {
+            "competencia": "2026-06",
+            "valor": 19054.23
+          },
+          {
+            "competencia": "2026-07",
+            "valor": 9819.32
+          }
+        ]
+      }
+    },
+    {
+      "id": "camara-178871",
+      "idExterno": 178871,
+      "cargo": "Deputado Federal",
+      "uf": "ES",
+      "nomeUrna": "Evair Vieira de Melo",
+      "nomeCivil": "EVAIR VIEIRA DE MELO",
+      "partido": "REPUBLICANOS",
+      "siglasNaLegislatura": [
+        "PP",
+        "REPUBLICANOS"
+      ],
+      "trocouDePartido": true,
+      "situacao": "Exercício",
+      "condicaoEleitoral": "Titular",
+      "dataNascimento": "1972-04-02",
+      "ufNascimento": "ES",
+      "escolaridade": "Pós-Graduação",
+      "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/178871.jpg",
+      "paginaOficial": "https://www.camara.leg.br/deputados/178871",
+      "despesas": {
+        "total": 1840583.0699999996,
+        "documentos": 1470,
+        "porTipo": [
+          {
+            "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
+            "valor": 825981.73
+          },
+          {
+            "tipo": "LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES",
+            "valor": 389943.67
+          },
+          {
+            "tipo": "COMBUSTÍVEIS E LUBRIFICANTES.",
+            "valor": 249575.6900000001
+          },
+          {
+            "tipo": "PASSAGEM AÉREA - SIGEPA",
+            "valor": 237095.39
+          },
+          {
+            "tipo": "TELEFONIA",
+            "valor": 58238.00999999999
+          },
+          {
+            "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
+            "valor": 38899.4
+          },
+          {
+            "tipo": "HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.",
+            "valor": 28083.14
+          },
+          {
+            "tipo": "SERVIÇO DE TÁXI, PEDÁGIO E ESTACIONAMENTO",
+            "valor": 8175.939999999997
+          },
+          {
+            "tipo": "PASSAGEM AÉREA - REEMBOLSO",
+            "valor": 3922.5299999999997
+          },
+          {
+            "tipo": "SERVIÇOS POSTAIS",
+            "valor": 667.57
+          }
+        ],
+        "porMes": [
+          {
+            "competencia": "2023-01",
+            "valor": 13703.9
+          },
+          {
+            "competencia": "2023-02",
+            "valor": 24003.78
+          },
+          {
+            "competencia": "2023-03",
+            "valor": 38969.94999999999
+          },
+          {
+            "competencia": "2023-04",
+            "valor": 29742.429999999997
+          },
+          {
+            "competencia": "2023-05",
+            "valor": 37773.52000000001
+          },
+          {
+            "competencia": "2023-06",
+            "valor": 46075.71
+          },
+          {
+            "competencia": "2023-07",
+            "valor": 48938.90000000001
+          },
+          {
+            "competencia": "2023-08",
+            "valor": 42980.93000000001
+          },
+          {
+            "competencia": "2023-09",
+            "valor": 34191.119999999995
+          },
+          {
+            "competencia": "2023-10",
+            "valor": 44038.07
+          },
+          {
+            "competencia": "2023-11",
+            "valor": 73798.03999999998
+          },
+          {
+            "competencia": "2023-12",
+            "valor": 81204.22999999998
+          },
+          {
+            "competencia": "2024-01",
+            "valor": 34787.939999999995
+          },
+          {
+            "competencia": "2024-02",
+            "valor": 45087.29999999999
+          },
+          {
+            "competencia": "2024-03",
+            "valor": 42042.59
+          },
+          {
+            "competencia": "2024-04",
+            "valor": 50692.29
+          },
+          {
+            "competencia": "2024-05",
+            "valor": 52841.50000000001
+          },
+          {
+            "competencia": "2024-06",
+            "valor": 62477.7
+          },
+          {
+            "competencia": "2024-07",
+            "valor": 59762.3
+          },
+          {
+            "competencia": "2024-08",
+            "valor": 48134.51
+          },
+          {
+            "competencia": "2024-09",
+            "valor": 53039.74999999999
+          },
+          {
+            "competencia": "2024-10",
+            "valor": 44095.899999999994
+          },
+          {
+            "competencia": "2024-11",
+            "valor": 35269.24
+          },
+          {
+            "competencia": "2024-12",
+            "valor": 7360.029999999999
+          },
+          {
+            "competencia": "2025-01",
+            "valor": 46462.81
+          },
+          {
+            "competencia": "2025-02",
+            "valor": 71445.50999999997
+          },
+          {
+            "competencia": "2025-03",
+            "valor": 42012.960000000014
+          },
+          {
+            "competencia": "2025-04",
+            "valor": 34797.12
+          },
+          {
+            "competencia": "2025-05",
+            "valor": 60500.65
+          },
+          {
+            "competencia": "2025-06",
+            "valor": 42389.73999999999
+          },
+          {
+            "competencia": "2025-07",
+            "valor": 39233.44999999999
+          },
+          {
+            "competencia": "2025-08",
+            "valor": 38202.38999999999
+          },
+          {
+            "competencia": "2025-09",
+            "valor": 37361.31999999999
+          },
+          {
+            "competencia": "2025-10",
+            "valor": 38717.510000000024
+          },
+          {
+            "competencia": "2025-11",
+            "valor": 43932.84
+          },
+          {
+            "competencia": "2025-12",
+            "valor": 14758.36
+          },
+          {
+            "competencia": "2026-01",
+            "valor": 62227.87999999998
+          },
+          {
+            "competencia": "2026-02",
+            "valor": 38445.39
+          },
+          {
+            "competencia": "2026-03",
+            "valor": 39631.46
+          },
+          {
+            "competencia": "2026-04",
+            "valor": 39624.770000000004
+          },
+          {
+            "competencia": "2026-05",
+            "valor": 54402.27
+          },
+          {
+            "competencia": "2026-06",
+            "valor": 19475.72
+          },
+          {
+            "competencia": "2026-07",
+            "valor": 21041.519999999993
+          },
+          {
+            "competencia": "2026-08",
+            "valor": 4907.77
+          }
+        ]
+      }
+    },
+    {
+      "id": "camara-220529",
+      "idExterno": 220529,
+      "cargo": "Deputado Federal",
+      "uf": "ES",
+      "nomeUrna": "Gilson Daniel",
+      "nomeCivil": "GILSON DANIEL BATISTA",
+      "partido": "PODE",
+      "siglasNaLegislatura": [
+        "PODE"
+      ],
+      "trocouDePartido": false,
+      "situacao": "Exercício",
+      "condicaoEleitoral": "Titular",
+      "dataNascimento": "1978-07-17",
+      "ufNascimento": "RJ",
+      "escolaridade": "Mestrado",
+      "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/220529.jpg",
+      "paginaOficial": "https://www.camara.leg.br/deputados/220529",
+      "despesas": {
+        "total": 1788859.8600000017,
+        "documentos": 1363,
+        "porTipo": [
+          {
+            "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
+            "valor": 851190
+          },
+          {
+            "tipo": "LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES",
+            "valor": 380681.32
+          },
+          {
+            "tipo": "PASSAGEM AÉREA - SIGEPA",
+            "valor": 203840.13
+          },
+          {
+            "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
+            "valor": 187416.80999999988
+          },
+          {
+            "tipo": "COMBUSTÍVEIS E LUBRIFICANTES.",
+            "valor": 134025.16000000003
+          },
+          {
+            "tipo": "HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.",
+            "valor": 20151.310000000005
+          },
+          {
+            "tipo": "PASSAGEM AÉREA - REEMBOLSO",
+            "valor": 5020.9
+          },
+          {
+            "tipo": "PASSAGEM AÉREA - RPA",
+            "valor": 3719.95
+          },
+          {
+            "tipo": "SERVIÇO DE TÁXI, PEDÁGIO E ESTACIONAMENTO",
+            "valor": 1484.7000000000005
+          },
+          {
+            "tipo": "TELEFONIA",
+            "valor": 1062.78
+          },
+          {
+            "tipo": "AQUISIÇÃO DE TOKENS E CERTIFICADOS DIGITAIS",
+            "valor": 266.8
+          }
+        ],
+        "porMes": [
+          {
+            "competencia": "2023-02",
+            "valor": 24357.730000000003
+          },
+          {
+            "competencia": "2023-03",
+            "valor": 27585.599999999988
+          },
+          {
+            "competencia": "2023-04",
+            "valor": 37288.09
+          },
+          {
+            "competencia": "2023-05",
+            "valor": 35859.689999999995
+          },
+          {
+            "competencia": "2023-06",
+            "valor": 41807.100000000006
+          },
+          {
+            "competencia": "2023-07",
+            "valor": 36248.81999999999
+          },
+          {
+            "competencia": "2023-08",
+            "valor": 70173.17
+          },
+          {
+            "competencia": "2023-09",
+            "valor": 48473.89000000001
+          },
+          {
+            "competencia": "2023-10",
+            "valor": 46571.97000000003
+          },
+          {
+            "competencia": "2023-11",
+            "valor": 68189.98
+          },
+          {
+            "competencia": "2023-12",
+            "valor": 59720.35
+          },
+          {
+            "competencia": "2024-01",
+            "valor": 29047.510000000002
+          },
+          {
+            "competencia": "2024-02",
+            "valor": 57759.420000000006
+          },
+          {
+            "competencia": "2024-03",
+            "valor": 70806.26000000001
+          },
+          {
+            "competencia": "2024-04",
+            "valor": 72308.86000000002
+          },
+          {
+            "competencia": "2024-05",
+            "valor": 47442.46000000001
+          },
+          {
+            "competencia": "2024-06",
+            "valor": 42148.880000000005
+          },
+          {
+            "competencia": "2024-07",
+            "valor": 43647.11000000001
+          },
+          {
+            "competencia": "2024-08",
+            "valor": 40129.19000000002
+          },
+          {
+            "competencia": "2024-09",
+            "valor": 33549.12000000001
+          },
+          {
+            "competencia": "2024-10",
+            "valor": 47822.780000000006
+          },
+          {
+            "competencia": "2024-11",
+            "valor": 23353.969999999998
+          },
+          {
+            "competencia": "2024-12",
+            "valor": 31323.22
+          },
+          {
+            "competencia": "2025-01",
+            "valor": 44977.30000000001
+          },
+          {
+            "competencia": "2025-02",
+            "valor": 54691.109999999986
+          },
+          {
+            "competencia": "2025-03",
+            "valor": 33835.41
+          },
+          {
+            "competencia": "2025-04",
+            "valor": 67906.47
+          },
+          {
+            "competencia": "2025-05",
+            "valor": 36303.86
+          },
+          {
+            "competencia": "2025-06",
+            "valor": 49131.33
+          },
+          {
+            "competencia": "2025-07",
+            "valor": 39428.82
+          },
+          {
+            "competencia": "2025-08",
+            "valor": 35705.98999999999
+          },
+          {
+            "competencia": "2025-09",
+            "valor": 24629.69
+          },
+          {
+            "competencia": "2025-10",
+            "valor": 25347.33
+          },
+          {
+            "competencia": "2025-11",
+            "valor": 64296.11000000001
+          },
+          {
+            "competencia": "2025-12",
+            "valor": 43527.44
+          },
+          {
+            "competencia": "2026-01",
+            "valor": 36617.640000000014
+          },
+          {
+            "competencia": "2026-02",
+            "valor": 38277.29999999998
+          },
+          {
+            "competencia": "2026-03",
+            "valor": 40178.909999999996
+          },
+          {
+            "competencia": "2026-04",
+            "valor": 38050.219999999994
+          },
+          {
+            "competencia": "2026-05",
+            "valor": 39627.07000000001
+          },
+          {
+            "competencia": "2026-06",
+            "valor": 19637.010000000006
+          },
+          {
+            "competencia": "2026-07",
+            "valor": 19949.699999999993
+          },
+          {
+            "competencia": "2026-08",
+            "valor": 1125.98
+          }
+        ]
+      }
+    },
+    {
+      "id": "camara-220526",
+      "idExterno": 220526,
+      "cargo": "Deputado Federal",
+      "uf": "ES",
+      "nomeUrna": "Gilvan da Federal",
+      "nomeCivil": "GILVAN AGUIAR COSTA",
+      "partido": "PL",
+      "siglasNaLegislatura": [
+        "PL"
+      ],
+      "trocouDePartido": false,
+      "situacao": "Exercício",
+      "condicaoEleitoral": "Titular",
+      "dataNascimento": "1976-09-24",
+      "ufNascimento": "MA",
+      "escolaridade": "Superior",
+      "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/220526.jpg",
+      "paginaOficial": "https://www.camara.leg.br/deputados/220526",
+      "despesas": {
+        "total": 1455471.770000001,
+        "documentos": 1662,
+        "porTipo": [
+          {
+            "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
+            "valor": 427328.7
+          },
+          {
+            "tipo": "LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES",
+            "valor": 350325.9
+          },
+          {
+            "tipo": "PASSAGEM AÉREA - SIGEPA",
+            "valor": 286845.16000000015
+          },
+          {
+            "tipo": "COMBUSTÍVEIS E LUBRIFICANTES.",
+            "valor": 134925.34000000003
+          },
+          {
+            "tipo": "HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.",
+            "valor": 120827.18999999986
+          },
+          {
+            "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
+            "valor": 120479.98999999993
+          },
+          {
+            "tipo": "SERVIÇO DE TÁXI, PEDÁGIO E ESTACIONAMENTO",
+            "valor": 7161.429999999999
+          },
+          {
+            "tipo": "TELEFONIA",
+            "valor": 4084.5699999999993
+          },
+          {
+            "tipo": "PASSAGEM AÉREA - RPA",
+            "valor": 1789.75
+          },
+          {
+            "tipo": "PASSAGEM AÉREA - REEMBOLSO",
+            "valor": 1547
+          },
+          {
+            "tipo": "FORNECIMENTO DE ALIMENTAÇÃO DO PARLAMENTAR",
+            "valor": 156.74
+          }
+        ],
+        "porMes": [
+          {
+            "competencia": "2023-02",
+            "valor": 6036.62
+          },
+          {
+            "competencia": "2023-03",
+            "valor": 8508.140000000001
+          },
+          {
+            "competencia": "2023-04",
+            "valor": 12033.62
+          },
+          {
+            "competencia": "2023-05",
+            "valor": 20490.26
+          },
+          {
+            "competencia": "2023-06",
+            "valor": 67040.53
+          },
+          {
+            "competencia": "2023-07",
+            "valor": 29560.539999999997
+          },
+          {
+            "competencia": "2023-08",
+            "valor": 44417.54000000001
+          },
+          {
+            "competencia": "2023-09",
+            "valor": 88843.66
+          },
+          {
+            "competencia": "2023-10",
+            "valor": 35825.36000000001
+          },
+          {
+            "competencia": "2023-11",
+            "valor": 58740.829999999994
+          },
+          {
+            "competencia": "2023-12",
+            "valor": 48507.96
+          },
+          {
+            "competencia": "2024-01",
+            "valor": 33389.85
+          },
+          {
+            "competencia": "2024-02",
+            "valor": 40652.81
+          },
+          {
+            "competencia": "2024-03",
+            "valor": 49001.74000000001
+          },
+          {
+            "competencia": "2024-04",
+            "valor": 54121.499999999985
+          },
+          {
+            "competencia": "2024-05",
+            "valor": 35495.85999999999
+          },
+          {
+            "competencia": "2024-06",
+            "valor": 44071.38000000001
+          },
+          {
+            "competencia": "2024-07",
+            "valor": 37639.38
+          },
+          {
+            "competencia": "2024-08",
+            "valor": 39733.70999999999
+          },
+          {
+            "competencia": "2024-09",
+            "valor": 56642.80000000002
+          },
+          {
+            "competencia": "2024-10",
+            "valor": 37758.56
+          },
+          {
+            "competencia": "2024-11",
+            "valor": 38275.79
+          },
+          {
+            "competencia": "2024-12",
+            "valor": 44836.119999999995
+          },
+          {
+            "competencia": "2025-01",
+            "valor": 26809.52
+          },
+          {
+            "competencia": "2025-02",
+            "valor": 31219.109999999997
+          },
+          {
+            "competencia": "2025-03",
+            "valor": 45731.079999999994
+          },
+          {
+            "competencia": "2025-04",
+            "valor": 41157.14000000001
+          },
+          {
+            "competencia": "2025-05",
+            "valor": 9977.83
+          },
+          {
+            "competencia": "2025-08",
+            "valor": 35544.66
+          },
+          {
+            "competencia": "2025-09",
+            "valor": 37656.27
+          },
+          {
+            "competencia": "2025-10",
+            "valor": 42743.119999999995
+          },
+          {
+            "competencia": "2025-11",
+            "valor": 32214.43
+          },
+          {
+            "competencia": "2025-12",
+            "valor": 26062.81
+          },
+          {
+            "competencia": "2026-01",
+            "valor": 30778.520000000004
+          },
+          {
+            "competencia": "2026-02",
+            "valor": 25643.16
+          },
+          {
+            "competencia": "2026-03",
+            "valor": 28232.92
+          },
+          {
+            "competencia": "2026-04",
+            "valor": 26355.07
+          },
+          {
+            "competencia": "2026-05",
+            "valor": 34919.93
+          },
+          {
+            "competencia": "2026-06",
+            "valor": 20535.5
+          },
+          {
+            "competencia": "2026-07",
+            "valor": 26603.600000000002
+          },
+          {
+            "competencia": "2026-08",
+            "valor": 1662.54
+          }
+        ]
+      }
+    },
+    {
+      "id": "camara-178873",
+      "idExterno": 178873,
+      "cargo": "Deputado Federal",
+      "uf": "ES",
+      "nomeUrna": "Helder Salomão",
+      "nomeCivil": "HELDER IGNACIO SALOMAO",
+      "partido": "PT",
+      "siglasNaLegislatura": [
+        "PT"
+      ],
+      "trocouDePartido": false,
+      "situacao": "Exercício",
+      "condicaoEleitoral": "Titular",
+      "dataNascimento": "1964-03-08",
+      "ufNascimento": "ES",
+      "escolaridade": "Pós-Graduação",
+      "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/178873.jpg",
+      "paginaOficial": "https://www.camara.leg.br/deputados/178873",
+      "despesas": {
+        "total": 1342372.0999999933,
+        "documentos": 2309,
+        "porTipo": [
+          {
+            "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
+            "valor": 456280.6
+          },
+          {
+            "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
+            "valor": 290536.24999999965
+          },
+          {
+            "tipo": "LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES",
+            "valor": 244990.84
+          },
+          {
+            "tipo": "COMBUSTÍVEIS E LUBRIFICANTES.",
+            "valor": 139194.90999999986
+          },
+          {
+            "tipo": "PASSAGEM AÉREA - SIGEPA",
+            "valor": 74348.99
+          },
+          {
+            "tipo": "TELEFONIA",
+            "valor": 51018.530000000006
+          },
+          {
+            "tipo": "HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.",
+            "valor": 43827.51000000001
+          },
+          {
+            "tipo": "PASSAGEM AÉREA - REEMBOLSO",
+            "valor": 29566.41999999999
+          },
+          {
+            "tipo": "SERVIÇO DE TÁXI, PEDÁGIO E ESTACIONAMENTO",
+            "valor": 12532.049999999977
+          },
+          {
+            "tipo": "ASSINATURA DE PUBLICAÇÕES",
+            "valor": 76
+          }
+        ],
+        "porMes": [
+          {
+            "competencia": "2023-01",
+            "valor": 5500
+          },
+          {
+            "competencia": "2023-02",
+            "valor": 15410.369999999999
+          },
+          {
+            "competencia": "2023-03",
+            "valor": 19689.539999999994
+          },
+          {
+            "competencia": "2023-04",
+            "valor": 15649.489999999998
+          },
+          {
+            "competencia": "2023-05",
+            "valor": 31721.88
+          },
+          {
+            "competencia": "2023-06",
+            "valor": 35222.2
+          },
+          {
+            "competencia": "2023-07",
+            "valor": 21361.459999999995
+          },
+          {
+            "competencia": "2023-08",
+            "valor": 26210.75
+          },
+          {
+            "competencia": "2023-09",
+            "valor": 21954.13999999999
+          },
+          {
+            "competencia": "2023-10",
+            "valor": 31705.100000000002
+          },
+          {
+            "competencia": "2023-11",
+            "valor": 49069.03999999999
+          },
+          {
+            "competencia": "2023-12",
+            "valor": 26598.3
+          },
+          {
+            "competencia": "2024-01",
+            "valor": 26114.609999999997
+          },
+          {
+            "competencia": "2024-02",
+            "valor": 25595.009999999987
+          },
+          {
+            "competencia": "2024-03",
+            "valor": 22899.65999999998
+          },
+          {
+            "competencia": "2024-04",
+            "valor": 20337.699999999993
+          },
+          {
+            "competencia": "2024-05",
+            "valor": 32593.709999999992
+          },
+          {
+            "competencia": "2024-06",
+            "valor": 34368.750000000015
+          },
+          {
+            "competencia": "2024-07",
+            "valor": 29243.879999999997
+          },
+          {
+            "competencia": "2024-08",
+            "valor": 27127.99
+          },
+          {
+            "competencia": "2024-09",
+            "valor": 28496.32
+          },
+          {
+            "competencia": "2024-10",
+            "valor": 30960.399999999998
+          },
+          {
+            "competencia": "2024-11",
+            "valor": 33006.92
+          },
+          {
+            "competencia": "2024-12",
+            "valor": 32646.56
+          },
+          {
+            "competencia": "2025-01",
+            "valor": 36501.43000000001
+          },
+          {
+            "competencia": "2025-02",
+            "valor": 35311.979999999996
+          },
+          {
+            "competencia": "2025-03",
+            "valor": 40545.31999999998
+          },
+          {
+            "competencia": "2025-04",
+            "valor": 35703.48999999998
+          },
+          {
+            "competencia": "2025-05",
+            "valor": 36123.94999999999
+          },
+          {
+            "competencia": "2025-06",
+            "valor": 31359.079999999998
+          },
+          {
+            "competencia": "2025-07",
+            "valor": 32341.64
+          },
+          {
+            "competencia": "2025-08",
+            "valor": 35042.24
+          },
+          {
+            "competencia": "2025-09",
+            "valor": 36176.400000000016
+          },
+          {
+            "competencia": "2025-10",
+            "valor": 35141.829999999994
+          },
+          {
+            "competencia": "2025-11",
+            "valor": 40602.85999999999
+          },
+          {
+            "competencia": "2025-12",
+            "valor": 51726.579999999994
+          },
+          {
+            "competencia": "2026-01",
+            "valor": 35117.51000000001
+          },
+          {
+            "competencia": "2026-02",
+            "valor": 42562.62000000001
+          },
+          {
+            "competencia": "2026-03",
+            "valor": 44373.32999999999
+          },
+          {
+            "competencia": "2026-04",
+            "valor": 46329.4
+          },
+          {
+            "competencia": "2026-05",
+            "valor": 46346.340000000004
+          },
+          {
+            "competencia": "2026-06",
+            "valor": 22615.45
+          },
+          {
+            "competencia": "2026-07",
+            "valor": 14930.07
+          },
+          {
+            "competencia": "2026-08",
+            "valor": 36.8
+          }
+        ]
+      }
+    },
+    {
+      "id": "camara-220527",
+      "idExterno": 220527,
+      "cargo": "Deputado Federal",
+      "uf": "ES",
+      "nomeUrna": "Jack Rocha",
+      "nomeCivil": "JACKELINE OLIVEIRA ROCHA",
+      "partido": "PT",
+      "siglasNaLegislatura": [
+        "PT"
+      ],
+      "trocouDePartido": false,
+      "situacao": "Exercício",
+      "condicaoEleitoral": "Titular",
+      "dataNascimento": "1983-08-26",
+      "ufNascimento": "ES",
+      "escolaridade": "Superior Incompleto",
+      "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/220527.jpg",
+      "paginaOficial": "https://www.camara.leg.br/deputados/220527",
+      "despesas": {
+        "total": 1656286.2500000016,
+        "documentos": 1407,
+        "porTipo": [
+          {
+            "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
+            "valor": 692542.65
+          },
+          {
+            "tipo": "LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES",
+            "valor": 309713
+          },
+          {
+            "tipo": "PASSAGEM AÉREA - SIGEPA",
+            "valor": 273742.4000000001
+          },
+          {
+            "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
+            "valor": 236685.6600000001
+          },
+          {
+            "tipo": "COMBUSTÍVEIS E LUBRIFICANTES.",
+            "valor": 99461.17999999992
+          },
+          {
+            "tipo": "HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.",
+            "valor": 36842.729999999996
+          },
+          {
+            "tipo": "SERVIÇO DE TÁXI, PEDÁGIO E ESTACIONAMENTO",
+            "valor": 3609.8200000000006
+          },
+          {
+            "tipo": "PASSAGEM AÉREA - REEMBOLSO",
+            "valor": 1929.66
+          },
+          {
+            "tipo": "TELEFONIA",
+            "valor": 1691.8899999999999
+          },
+          {
+            "tipo": "PASSAGENS TERRESTRES, MARÍTIMAS OU FLUVIAIS",
+            "valor": 67.25999999999999
+          }
+        ],
+        "porMes": [
+          {
+            "competencia": "2023-02",
+            "valor": 3797.87
+          },
+          {
+            "competencia": "2023-03",
+            "valor": 5536.7
+          },
+          {
+            "competencia": "2023-04",
+            "valor": 7956.29
+          },
+          {
+            "competencia": "2023-05",
+            "valor": 6704.509999999999
+          },
+          {
+            "competencia": "2023-06",
+            "valor": 11310.8
+          },
+          {
+            "competencia": "2023-07",
+            "valor": 47315.43
+          },
+          {
+            "competencia": "2023-08",
+            "valor": 81399.65
+          },
+          {
+            "competencia": "2023-09",
+            "valor": 32852.859999999986
+          },
+          {
+            "competencia": "2023-10",
+            "valor": 130027.45000000003
+          },
+          {
+            "competencia": "2023-11",
+            "valor": 90739.84
+          },
+          {
+            "competencia": "2023-12",
+            "valor": 65146.450000000004
+          },
+          {
+            "competencia": "2024-01",
+            "valor": 29221.420000000002
+          },
+          {
+            "competencia": "2024-02",
+            "valor": 27590.45
+          },
+          {
+            "competencia": "2024-03",
+            "valor": 75171.97
+          },
+          {
+            "competencia": "2024-04",
+            "valor": 38792.8
+          },
+          {
+            "competencia": "2024-05",
+            "valor": 34526.42999999999
+          },
+          {
+            "competencia": "2024-06",
+            "valor": 31619.029999999995
+          },
+          {
+            "competencia": "2024-07",
+            "valor": 47336.60999999998
+          },
+          {
+            "competencia": "2024-08",
+            "valor": 49230.48
+          },
+          {
+            "competencia": "2024-09",
+            "valor": 20537.609999999993
+          },
+          {
+            "competencia": "2024-10",
+            "valor": 18172.210000000003
+          },
+          {
+            "competencia": "2024-11",
+            "valor": 28205.43
+          },
+          {
+            "competencia": "2024-12",
+            "valor": 93125.22999999995
+          },
+          {
+            "competencia": "2025-01",
+            "valor": 18911.350000000006
+          },
+          {
+            "competencia": "2025-02",
+            "valor": 59689.149999999994
+          },
+          {
+            "competencia": "2025-03",
+            "valor": 34673.06000000001
+          },
+          {
+            "competencia": "2025-04",
+            "valor": 68769.8
+          },
+          {
+            "competencia": "2025-05",
+            "valor": 36446.799999999996
+          },
+          {
+            "competencia": "2025-06",
+            "valor": 42115.94
+          },
+          {
+            "competencia": "2025-07",
+            "valor": 27685.520000000004
+          },
+          {
+            "competencia": "2025-08",
+            "valor": 28006.120000000003
+          },
+          {
+            "competencia": "2025-09",
+            "valor": 22125.149999999998
+          },
+          {
+            "competencia": "2025-10",
+            "valor": 26439.82
+          },
+          {
+            "competencia": "2025-11",
+            "valor": 48380.48
+          },
+          {
+            "competencia": "2025-12",
+            "valor": 37868.25
+          },
+          {
+            "competencia": "2026-01",
+            "valor": 13603.02
+          },
+          {
+            "competencia": "2026-02",
+            "valor": 19947.52
+          },
+          {
+            "competencia": "2026-03",
+            "valor": 42509.56
+          },
+          {
+            "competencia": "2026-04",
+            "valor": 31917.510000000002
+          },
+          {
+            "competencia": "2026-05",
+            "valor": 42603.08
+          },
+          {
+            "competencia": "2026-06",
+            "valor": 51584.07
+          },
+          {
+            "competencia": "2026-07",
+            "valor": 24798
+          },
+          {
+            "competencia": "2026-08",
+            "valor": 1894.53
+          }
+        ]
+      }
+    },
+    {
+      "id": "camara-220530",
+      "idExterno": 220530,
+      "cargo": "Deputado Federal",
+      "uf": "ES",
+      "nomeUrna": "Messias Donato",
+      "nomeCivil": "Manoel Messias Donato Bezerra",
+      "partido": "UNIÃO",
+      "siglasNaLegislatura": [
+        "REPUBLICANOS",
+        "UNIÃO"
+      ],
+      "trocouDePartido": true,
+      "situacao": "Exercício",
+      "condicaoEleitoral": "Titular",
+      "dataNascimento": "1976-08-06",
+      "ufNascimento": "BA",
+      "escolaridade": "Mestrado",
+      "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/220530.jpg",
+      "paginaOficial": "https://www.camara.leg.br/deputados/220530",
+      "despesas": {
+        "total": 1807597.72,
+        "documentos": 1179,
+        "porTipo": [
+          {
+            "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
+            "valor": 868928.9700000001
+          },
+          {
+            "tipo": "LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES",
+            "valor": 365341.54000000004
+          },
+          {
+            "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
+            "valor": 260879.15999999992
+          },
+          {
+            "tipo": "PASSAGEM AÉREA - SIGEPA",
+            "valor": 198179.41
+          },
+          {
+            "tipo": "COMBUSTÍVEIS E LUBRIFICANTES.",
+            "valor": 108619.23999999993
+          },
+          {
+            "tipo": "HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.",
+            "valor": 5570.67
+          },
+          {
+            "tipo": "FORNECIMENTO DE ALIMENTAÇÃO DO PARLAMENTAR",
+            "valor": 78.73
+          }
+        ],
+        "porMes": [
+          {
+            "competencia": "2023-02",
+            "valor": 21640.32
+          },
+          {
+            "competencia": "2023-03",
+            "valor": 28705.169999999995
+          },
+          {
+            "competencia": "2023-04",
+            "valor": 32136.039999999997
+          },
+          {
+            "competencia": "2023-05",
+            "valor": 64613.67000000001
+          },
+          {
+            "competencia": "2023-06",
+            "valor": 37713.25000000001
+          },
+          {
+            "competencia": "2023-07",
+            "valor": 36818.93
+          },
+          {
+            "competencia": "2023-08",
+            "valor": 47214.15
+          },
+          {
+            "competencia": "2023-09",
+            "valor": 37201.44999999999
+          },
+          {
+            "competencia": "2023-10",
+            "valor": 55053.3
+          },
+          {
+            "competencia": "2023-11",
+            "valor": 51065.380000000005
+          },
+          {
+            "competencia": "2023-12",
+            "valor": 70561.36
+          },
+          {
+            "competencia": "2024-01",
+            "valor": 18577.07
+          },
+          {
+            "competencia": "2024-02",
+            "valor": 41223.34
+          },
+          {
+            "competencia": "2024-03",
+            "valor": 38846.619999999995
+          },
+          {
+            "competencia": "2024-04",
+            "valor": 29719.4
+          },
+          {
+            "competencia": "2024-05",
+            "valor": 58948.11
+          },
+          {
+            "competencia": "2024-06",
+            "valor": 26612.88
+          },
+          {
+            "competencia": "2024-07",
+            "valor": 41772.25
+          },
+          {
+            "competencia": "2024-08",
+            "valor": 24909.82
+          },
+          {
+            "competencia": "2024-09",
+            "valor": 51955.909999999996
+          },
+          {
+            "competencia": "2024-10",
+            "valor": 55169.649999999994
+          },
+          {
+            "competencia": "2024-11",
+            "valor": 78085.14
+          },
+          {
+            "competencia": "2024-12",
+            "valor": 64364.48
+          },
+          {
+            "competencia": "2025-01",
+            "valor": 28860.27
+          },
+          {
+            "competencia": "2025-02",
+            "valor": 35252.479999999996
+          },
+          {
+            "competencia": "2025-03",
+            "valor": 39177.6
+          },
+          {
+            "competencia": "2025-04",
+            "valor": 41901.55
+          },
+          {
+            "competencia": "2025-05",
+            "valor": 53401.640000000014
+          },
+          {
+            "competencia": "2025-06",
+            "valor": 44723.12999999999
+          },
+          {
+            "competencia": "2025-07",
+            "valor": 41589.939999999995
+          },
+          {
+            "competencia": "2025-08",
+            "valor": 59287.93
+          },
+          {
+            "competencia": "2025-09",
+            "valor": 53836.35000000001
+          },
+          {
+            "competencia": "2025-10",
+            "valor": 53363.51
+          },
+          {
+            "competencia": "2025-11",
+            "valor": 33645.48
+          },
+          {
+            "competencia": "2025-12",
+            "valor": 27827.800000000003
+          },
+          {
+            "competencia": "2026-01",
+            "valor": 38085.74
+          },
+          {
+            "competencia": "2026-02",
+            "valor": 31940.449999999997
+          },
+          {
+            "competencia": "2026-03",
+            "valor": 37118.399999999994
+          },
+          {
+            "competencia": "2026-04",
+            "valor": 43761.55999999999
+          },
+          {
+            "competencia": "2026-05",
+            "valor": 95111.22999999998
+          },
+          {
+            "competencia": "2026-06",
+            "valor": 24760.8
+          },
+          {
+            "competencia": "2026-07",
+            "valor": 11044.169999999998
+          }
+        ]
+      }
+    },
+    {
+      "id": "camara-160517",
+      "idExterno": 160517,
+      "cargo": "Deputado Federal",
+      "uf": "ES",
+      "nomeUrna": "Paulo Folletto",
+      "nomeCivil": "PAULO ROBERTO FOLLETTO",
+      "partido": "PSB",
+      "siglasNaLegislatura": [
+        "PSB"
+      ],
+      "trocouDePartido": false,
+      "situacao": "Exercício",
+      "condicaoEleitoral": "Titular",
+      "dataNascimento": "1956-04-30",
+      "ufNascimento": "ES",
+      "escolaridade": "Superior",
+      "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/160517.jpg",
+      "paginaOficial": "https://www.camara.leg.br/deputados/160517",
+      "despesas": {
+        "total": 1789806.1800000032,
+        "documentos": 910,
+        "porTipo": [
+          {
+            "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
+            "valor": 732541.9
+          },
+          {
+            "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
+            "valor": 394000.7599999997
+          },
+          {
+            "tipo": "LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES",
+            "valor": 336965.7999999999
+          },
+          {
+            "tipo": "PASSAGEM AÉREA - SIGEPA",
+            "valor": 154991.43999999992
+          },
+          {
+            "tipo": "COMBUSTÍVEIS E LUBRIFICANTES.",
+            "valor": 132956.12000000002
+          },
+          {
+            "tipo": "TELEFONIA",
+            "valor": 21426.430000000008
+          },
+          {
+            "tipo": "PASSAGEM AÉREA - RPA",
+            "valor": 10827.829999999998
+          },
+          {
+            "tipo": "HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.",
+            "valor": 3200
+          },
+          {
+            "tipo": "ASSINATURA DE PUBLICAÇÕES",
+            "valor": 2895.9
+          }
+        ],
+        "porMes": [
+          {
+            "competencia": "2023-01",
+            "valor": 6845.6
+          },
+          {
+            "competencia": "2023-02",
+            "valor": 22486.82
+          },
+          {
+            "competencia": "2023-03",
+            "valor": 44351.19000000001
+          },
+          {
+            "competencia": "2023-04",
+            "valor": 39519.619999999995
+          },
+          {
+            "competencia": "2023-05",
+            "valor": 48247.66
+          },
+          {
+            "competencia": "2023-06",
+            "valor": 44842.01
+          },
+          {
+            "competencia": "2023-07",
+            "valor": 45312.29999999999
+          },
+          {
+            "competencia": "2023-08",
+            "valor": 67214.27000000002
+          },
+          {
+            "competencia": "2023-09",
+            "valor": 56821.91000000001
+          },
+          {
+            "competencia": "2023-10",
+            "valor": 61805.04
+          },
+          {
+            "competencia": "2023-11",
+            "valor": 32874.92999999999
+          },
+          {
+            "competencia": "2023-12",
+            "valor": 38001.16
+          },
+          {
+            "competencia": "2024-01",
+            "valor": 33674.520000000004
+          },
+          {
+            "competencia": "2024-02",
+            "valor": 56937.38999999999
+          },
+          {
+            "competencia": "2024-03",
+            "valor": 57060.80000000001
+          },
+          {
+            "competencia": "2024-04",
+            "valor": 26404.650000000005
+          },
+          {
+            "competencia": "2024-05",
+            "valor": 22792.36
+          },
+          {
+            "competencia": "2024-06",
+            "valor": 29796.469999999994
+          },
+          {
+            "competencia": "2024-07",
+            "valor": 40728.65
+          },
+          {
+            "competencia": "2024-08",
+            "valor": 48263.439999999995
+          },
+          {
+            "competencia": "2024-09",
+            "valor": 45827.75
+          },
+          {
+            "competencia": "2024-10",
+            "valor": 30870.79
+          },
+          {
+            "competencia": "2024-11",
+            "valor": 61432.97999999998
+          },
+          {
+            "competencia": "2024-12",
+            "valor": 70659.27999999998
+          },
+          {
+            "competencia": "2025-01",
+            "valor": 54525.64
+          },
+          {
+            "competencia": "2025-02",
+            "valor": 62455.16000000002
+          },
+          {
+            "competencia": "2025-03",
+            "valor": 69391.34999999998
+          },
+          {
+            "competencia": "2025-04",
+            "valor": 64025.140000000014
+          },
+          {
+            "competencia": "2025-05",
+            "valor": 29901.65
+          },
+          {
+            "competencia": "2025-06",
+            "valor": 29966.87
+          },
+          {
+            "competencia": "2025-07",
+            "valor": 33451.34
+          },
+          {
+            "competencia": "2025-08",
+            "valor": 15471.07
+          },
+          {
+            "competencia": "2025-09",
+            "valor": 39502.04
+          },
+          {
+            "competencia": "2025-10",
+            "valor": 45744.090000000004
+          },
+          {
+            "competencia": "2025-11",
+            "valor": 48143.19000000001
+          },
+          {
+            "competencia": "2025-12",
+            "valor": 50963.03999999999
+          },
+          {
+            "competencia": "2026-01",
+            "valor": 41940.520000000004
+          },
+          {
+            "competencia": "2026-02",
+            "valor": 44175.259999999995
+          },
+          {
+            "competencia": "2026-03",
+            "valor": 45446.28
+          },
+          {
+            "competencia": "2026-04",
+            "valor": 33007.3
+          },
+          {
+            "competencia": "2026-05",
+            "valor": 25559.06
+          },
+          {
+            "competencia": "2026-06",
+            "valor": 12256.64
+          },
+          {
+            "competencia": "2026-07",
+            "valor": 10268.869999999999
+          },
+          {
+            "competencia": "2026-08",
+            "valor": 840.0799999999999
+          }
+        ]
+      }
+    }
+  ]
+}
