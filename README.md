@@ -31,10 +31,24 @@ npm run dados
 > `npx next ...` não funcionam nesta pasta — renomear a pasta para algo sem `&`
 > resolveria de vez.
 
+## Antes de mexer no projeto
+
+Dois documentos valem mais que este README, e devem ser lidos primeiro:
+
+- **[`docs/principios.md`](docs/principios.md)** — o que o projeto se recusa a
+  fazer e as regras que decorrem disso (ordem sorteada, nenhuma cor com valor de
+  juízo, todo número com denominador). Em conflito entre uma ideia boa e uma
+  regra de lá, a regra ganha.
+- **[`docs/fontes-de-dados.md`](docs/fontes-de-dados.md)** — o que cada fonte
+  pública entrega e onde cada uma trava, incluindo armadilhas que falham em
+  silêncio. Leitura obrigatória antes de escrever coleta.
+
 ## Estrutura
 
 ```
 /app             rotas (App Router)
+/docs            princípios do projeto e mapa das fontes de dados
+/scripts/coleta  coleta de dados públicos reais (piloto: ES)
 /components      UI do domínio (DadoOficial, ResumoPlataforma, cartões, ícones)
 /components/ui   kit shadcn/ui vestido com a identidade do site
 /lib             dados, formatação, cn (busca e sorteio entram no passo 3)

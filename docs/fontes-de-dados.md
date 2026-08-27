@@ -1,0 +1,180 @@
+# Fontes de dados
+
+Mapa das fontes públicas que alimentam a plataforma, o que cada uma entrega de
+fato e onde cada uma trava. Verificado em **27/08/2026**.
+
+Portais públicos mudam sem aviso. Se algo aqui parar de bater com a realidade,
+**corrija este arquivo no mesmo commit em que corrigir o código** — um mapa
+desatualizado custa mais caro que mapa nenhum, porque manda a pessoa para o
+lugar errado com confiança.
+
+---
+
+## Resumo
+
+| Fonte | Entrega | Acesso por script? |
+|---|---|---|
+| TSE — DivulgaCandContas | Candidaturas, bens, propostas, certidões | Só via navegador |
+| TSE — Dados Abertos | Os mesmos dados, em lote (ZIP/CSV) | Só via navegador |
+| Câmara dos Deputados | Mandato federal: votações, despesas, proposições | Sim, livre |
+| Senado Federal | Mandato no Senado | Sim, livre |
+| Portal da Transparência | Emendas parlamentares | Sim, **exige token** |
+| ALES (Assembleia do ES) | Mandato estadual | Não há API |
+
+---
+
+## TSE — DivulgaCandContas
+
+**O melhor caminho para candidaturas.** É a API que serve o site público de
+divulgação de candidaturas. Dispensa os arquivos em lote e está sempre
+atualizada.
+
+Base: `https://divulgacandcontas.tse.jus.br/divulga/rest/v1`
+
+O `idEleicao` das eleições gerais de **2026 é `20322002026`**.
+
+### Endpoints
+
+```
+/eleicao/anos-eleitorais
+/eleicao/eleicao-atual?idEleicao={idEleicao}
+/candidatura/listar/2026/{UF}/{idEleicao}/{codCargo}/candidatos
+/candidatura/buscar/2026/{UF}/{idEleicao}/candidato/{idCandidato}
+```
+
+A ordem dos segmentos importa: `.../2026/ES/{idEleicao}/...` funciona,
+`.../2026/{idEleicao}/ES/...` devolve 400.
+
+### Códigos de cargo
+
+| Código | Cargo |
+|---|---|
+| 1 | Presidente |
+| 2 | Vice-presidente |
+| 3 | Governador |
+| 4 | Vice-governador |
+| 5 | Senador |
+| 6 | Deputado Federal |
+| 7 | Deputado Estadual |
+| 9 / 10 | 1º e 2º Suplente de senador |
+
+### O que o detalhe do candidato traz
+
+Numa única chamada: identificação e número de urna, partido e coligação, bens
+declarados com total, **arquivos em PDF** (proposta de governo e certidões
+criminais), situação do registro, **eleições anteriores**, gasto de campanha,
+processos de cassação, escolaridade, ocupação, cor/raça e naturalidade.
+
+### Dois cuidados obrigatórios
+
+**Não republicar CPF nem título de eleitor.** Os dois vêm no retorno. Devem ser
+descartados **na coleta**, antes de qualquer gravação: dado sensível que não é
+gravado não vaza.
+
+**Respeitar as flags de divulgação.** O retorno traz `st_DIVULGA`,
+`st_DIVULGA_BENS` e `st_DIVULGA_ARQUIVOS` — o próprio tribunal marca, caso a
+caso, o que está autorizado a aparecer. Quando um campo for omitido por
+determinação da fonte, **dizer isso na tela**, em vez de deixar o campo mudo:
+espaço vazio sem explicação é lido como culpa do candidato.
+
+### Volume do piloto (ES, 2026)
+
+| Cargo | Candidaturas |
+|---|---|
+| Presidente (nacional) | 13 |
+| Governador | 5 |
+| Senador | 11 |
+| Deputado Federal | 136 |
+| Deputado Estadual | 409 |
+| **Total** | **574** |
+
+574 chamadas de detalhe. Coleta de minutos, não de gigabytes.
+
+---
+
+## TSE — Portal de Dados Abertos
+
+`https://dadosabertos.tse.jus.br` — os mesmos dados em lote: candidaturas, bens,
+coligações, **proposta de governo por UF** e **certidões criminais por UF**.
+
+Serve como plano B e para séries históricas. Para o dia a dia, o
+DivulgaCandContas é melhor: mais fresco e sem ZIP de dezenas de MB.
+
+---
+
+## O bloqueio da Akamai (vale para todo `tse.jus.br`)
+
+Todo o domínio responde **403 Access Denied** para cliente programático —
+`curl`, `fetch` de servidor, biblioteca HTTP — **mesmo com User-Agent de
+navegador**. O bloqueio é de borda: acontece antes de a aplicação ver a
+requisição.
+
+De dentro de um navegador real funciona normalmente. Consequência prática: **a
+coleta do TSE precisa de navegador headless (Playwright)**. Câmara, Senado e
+Portal da Transparência não têm essa restrição.
+
+Sintoma que engana: um caminho errado também volta 403 em vez de 404, porque a
+borda responde antes. Ao depurar endpoint do TSE, teste primeiro no navegador —
+lá o 404 aparece como 404.
+
+---
+
+## Câmara dos Deputados
+
+`https://dadosabertos.camara.leg.br/api/v2` — aberta, sem chave, sem cadastro.
+A mais generosa das fontes: entrega até a **URL do PDF de cada nota fiscal** da
+cota parlamentar.
+
+### Duas armadilhas que falham em silêncio
+
+**1. O filtro `ano=` não funciona em despesas.** Em
+`/deputados/{id}/despesas`, filtrar por `ano` devolve lista vazia — sem erro,
+sem aviso. O que funciona é `idLegislatura`. A legislatura 57 é 2023–2027.
+
+```
+✗ /deputados/204356/despesas?ano=2024        → []
+✓ /deputados/204356/despesas?idLegislatura=57 → 875 documentos
+```
+
+**2. A lista de deputados devolve um registro por filiação, não por pessoa.**
+Quem trocou de partido no mandato aparece mais de uma vez. Na coleta de
+27/08/2026, as 10 cadeiras do ES vieram como **15 registros**, porque 4
+parlamentares mudaram de sigla.
+
+Isso não é defeito: é informação. A coleta junta por `id` e guarda a sequência
+de siglas — troca de partido é fato público relevante, registrado sem adjetivo.
+
+---
+
+## Senado Federal
+
+`https://legis.senado.leg.br/dadosabertos` — aberta, funciona por script.
+Devolve JSON com estrutura herdada de XML (bastante aninhada).
+
+---
+
+## Portal da Transparência — emendas parlamentares
+
+Única fonte de emendas. **Exige token gratuito**, e obtê-lo é passo manual:
+
+1. Cadastrar e-mail em
+   `https://portaldatransparencia.gov.br/api-de-dados/cadastrar-email`
+2. O token chega por e-mail
+3. Enviar em cada requisição no header `chave-api-dados`
+
+O token vai para `.env.local`, **nunca** para um arquivo versionado.
+
+---
+
+## ALES — Assembleia Legislativa do Espírito Santo
+
+`https://www.al.es.gov.br/Transparencia/DadosAbertos`
+
+O ponto mais incerto do piloto. Tem portal de dados abertos e de transparência,
+com frequência em plenário e verba de gabinete, e o ALES Digital tem a base de
+produção legislativa. Mas **não há API documentada** — provavelmente exige
+raspagem de HTML/CSV.
+
+Enquanto isso não estiver de pé, deputado estadual tem candidatura, bens e
+proposta de governo (pelo TSE), mas não histórico de atuação. **A lacuna precisa
+estar declarada na ficha**, senão o vazio é lido como "não fez nada".
