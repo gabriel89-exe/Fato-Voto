@@ -1,5 +1,9 @@
 import Link from "next/link";
 import { IconeBusca, IconeSeta } from "@/components/icones";
+import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+
 import { candidatos, DATA_COLETA, ESTADO } from "@/lib/dados";
 import { dataPorExtenso } from "@/lib/formato";
 
@@ -69,14 +73,18 @@ export default function PaginaInicial() {
         </div>
 
         <div className="mt-7 flex flex-wrap gap-3">
-          <a href="#buscar" className="botao-primario">
-            <IconeBusca className="h-4 w-4" />
-            Buscar candidato
-          </a>
-          <Link href="/candidatos" className="botao-secundario">
-            Lista completa
-            <IconeSeta />
-          </Link>
+          <Button asChild>
+            <a href="#buscar">
+              <IconeBusca />
+              Buscar candidato
+            </a>
+          </Button>
+          <Button asChild variant="secundario">
+            <Link href="/candidatos">
+              Lista completa
+              <IconeSeta />
+            </Link>
+          </Button>
         </div>
       </header>
 
@@ -95,6 +103,10 @@ export default function PaginaInicial() {
           role="search"
           className="painel mt-6 p-5 sm:p-7"
         >
+          {/* Rotulo de manchete, nao de metadado: fica como <label> cru.
+              O <Label> do kit e mono/versal e existe para os rotulos
+              pequenos dos filtros — forcar um no outro seria sobrescrever
+              cinco classes para voltar ao ponto de partida. */}
           <label
             htmlFor="busca-inicial"
             className="block font-display text-xl font-semibold tracking-[-0.02em] text-tinta-900"
@@ -111,7 +123,7 @@ export default function PaginaInicial() {
               <span className="pointer-events-none absolute left-3.5 top-1/2 -translate-y-1/2 text-tinta-400">
                 <IconeBusca />
               </span>
-              <input
+              <Input
                 id="busca-inicial"
                 name="busca"
                 type="search"
@@ -119,25 +131,25 @@ export default function PaginaInicial() {
                 enterKeyHint="search"
                 aria-describedby="ajuda-busca-inicial"
                 placeholder="Amanda, goncalves, 24…"
-                className="campo pl-11 text-lg"
+                className="pl-11 text-lg"
               />
             </div>
-            <button type="submit" className="botao-primario justify-center">
-              <IconeBusca className="h-4 w-4" />
+            <Button type="submit">
+              <IconeBusca />
               Buscar
-            </button>
+            </Button>
           </div>
 
           <div className="mt-4 flex flex-wrap items-center gap-2">
             <span className="rotulo-meta">Exemplos</span>
             {["Amanda", "goncalves", "24"].map((exemplo) => (
-              <Link
+              <Badge
                 key={exemplo}
-                href={`/candidatos?busca=${exemplo}`}
-                className="chip no-underline transition-colors hover:bg-tinta-900 hover:text-papel-alta"
+                asChild
+                className="transition-colors hover:bg-tinta-900 hover:text-papel-alta"
               >
-                {exemplo}
-              </Link>
+                <Link href={`/candidatos?busca=${exemplo}`}>{exemplo}</Link>
+              </Badge>
             ))}
           </div>
         </form>

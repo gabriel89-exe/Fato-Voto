@@ -52,6 +52,58 @@
     --altura-cabecalho: 4rem;
     --acento: #1f3a5f;
     --regua: #1b1a16;
+
+    /* ================================================================
+       Ponte shadcn/ui.
+
+       Todo componente em components/ui usa os nomes do shadcn
+       (bg-background, text-muted-foreground, border-border...). Estas
+       variaveis sao o unico lugar onde esses nomes viram a paleta da
+       GAZETA. Trocar a identidade do site = trocar este bloco.
+
+       Formato obrigatorio: triplete HSL sem a funcao hsl(), porque o
+       tailwind.config as consome como hsl(var(--x)) e precisa poder
+       injetar opacidade (hsl(var(--x) / 0.5)).
+
+       CUIDADO COM O NOME: --accent aqui e o cinza-papel de realce de
+       menu do shadcn. O azul de carimbo da GAZETA e --acento (com O),
+       exposto no Tailwind como `text-acento`. Sao coisas diferentes.
+       ================================================================ */
+
+    /* Superficies */
+    --background: 45 38.1% 91.8%; /* papel */
+    --foreground: 48 10.2% 9.6%; /* tinta-900 */
+    --card: 45 54.5% 95.7%; /* papel-alta */
+    --card-foreground: 48 10.2% 9.6%;
+    --popover: 45 54.5% 95.7%;
+    --popover-foreground: 48 10.2% 9.6%;
+
+    /* Acoes */
+    --primary: 48 10.2% 9.6%; /* tinta-900 — o botao primario e tinta */
+    --primary-foreground: 45 54.5% 95.7%;
+    --secondary: 45 54.5% 95.7%;
+    --secondary-foreground: 48 10.2% 9.6%;
+
+    /* Apoio */
+    --muted: 44.3 32.4% 86.1%; /* papel-baixa */
+    --muted-foreground: 43.3 9.2% 38.4%; /* tinta-500 */
+    --accent: 44.3 32.4% 86.1%; /* realce de item de menu */
+    --accent-foreground: 48 10.2% 9.6%;
+
+    /* Acao destrutiva. Deliberadamente SEM vermelho: neste site nenhuma
+       cor pode ser lida como juizo de valor, entao o que distingue a
+       acao destrutiva e a forma (moldura dupla) e o texto, nunca o
+       matiz. Ver a regra de produto no topo do tailwind.config.ts. */
+    --destructive: 45 11.1% 7.1%; /* tinta-950 */
+    --destructive-foreground: 45 54.5% 95.7%;
+
+    /* Molduras e foco */
+    --border: 48 10.2% 9.6%; /* filete grosso de tinta */
+    --input: 48 10.2% 9.6%;
+    --ring: 214.7 50.8% 24.7%; /* azul de carimbo */
+
+    /* Cantos vivos. A GAZETA nao arredonda nada. */
+    --radius: 0px;
   }
 
   html {
@@ -196,7 +248,14 @@
     @apply flex items-baseline gap-4 pb-3 filete;
   }
 
-  /* --- Controles: cantos vivos, sombra dura deslocada. --- */
+  /* --- Controles: cantos vivos, sombra dura deslocada. ---
+
+     SUPERADAS. `.botao-primario`, `.botao-secundario`, `.campo` e
+     `.aviso-callout` nasceram antes do kit e hoje sao o gemeo em CSS
+     puro de <Button>, <Input> e <Alert> (components/ui). Nenhum arquivo
+     .tsx as usa mais. Ficam so como rede de seguranca para markup fora
+     do React; em codigo novo, use os componentes. Podem ser apagadas
+     quando ninguem sentir falta. */
   .botao-primario {
     @apply alvo-toque gap-2 border-2 border-tinta-900 bg-tinta-900 px-5 py-3
            font-mono text-sm font-semibold uppercase tracking-[0.1em] text-papel-alta no-underline;

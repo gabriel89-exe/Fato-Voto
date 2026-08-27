@@ -1,5 +1,6 @@
 import CartaoCandidato from "@/components/CartaoCandidato";
 import { IconeInfo } from "@/components/icones";
+import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 import { candidatos, ESTADO } from "@/lib/dados";
 import type { Cargo } from "@/types";
 
@@ -38,20 +39,15 @@ export default async function PaginaCandidatos({
           Candidatos{cargo ? <span className="text-tinta-400"> · {cargo}</span> : null}
         </h1>
 
-        <div
-          role="status"
-          className="aviso-callout mt-6 flex gap-3"
-        >
-          <IconeInfo className="mt-0.5 shrink-0 text-tinta-500" />
-          <span>
-            <strong className="font-bold text-tinta-900">
-              Página provisória.
-            </strong>{" "}
+        <Alert className="mt-6">
+          <IconeInfo />
+          <AlertTitle>Página provisória</AlertTitle>
+          <AlertDescription>
             A busca instantânea, os filtros e a ordenação sorteada ainda serão
             construídos (passos 3 e 4). A ordem abaixo é a ordem do arquivo de
             dados e ainda não é sorteada.
-          </span>
-        </div>
+          </AlertDescription>
+        </Alert>
       </header>
 
       <ul className="entrada-lista mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">

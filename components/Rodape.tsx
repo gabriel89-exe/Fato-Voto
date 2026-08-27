@@ -6,6 +6,9 @@ const LINKS = [
   { href: "/fontes", rotulo: "Fontes dos dados" },
   { href: "/candidatos", rotulo: "Lista de candidatos" },
   { href: "/comparar", rotulo: "Comparar candidatos" },
+  // Pagina de trabalho, nao de produto. Fica so aqui, fora da navegacao
+  // principal, e sai do rodape quando o prototipo virar site.
+  { href: "/interface", rotulo: "Kit de interface" },
 ];
 
 /** Rodape / expediente — presente em todas as paginas. */

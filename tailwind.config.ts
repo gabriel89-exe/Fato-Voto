@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+import animate from "tailwindcss-animate";
 
 /**
  * Identidade: GAZETA.
@@ -20,6 +21,51 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
+        /* ----------------------------------------------------------------
+           Ponte shadcn/ui -> GAZETA.
+           Os componentes de components/ui falam a lingua do shadcn
+           (background, foreground, primary, muted...). Aqui esses nomes
+           sao amarrados as variaveis CSS de app/globals.css, que por sua
+           vez apontam para a paleta de papel e tinta. Consequencia
+           pratica: um componente novo baixado do shadcn ja nasce com a
+           identidade do site, sem retrabalho.
+           ---------------------------------------------------------------- */
+        border: "hsl(var(--border))",
+        input: "hsl(var(--input))",
+        ring: "hsl(var(--ring))",
+        background: "hsl(var(--background))",
+        foreground: "hsl(var(--foreground))",
+        primary: {
+          DEFAULT: "hsl(var(--primary))",
+          foreground: "hsl(var(--primary-foreground))",
+        },
+        secondary: {
+          DEFAULT: "hsl(var(--secondary))",
+          foreground: "hsl(var(--secondary-foreground))",
+        },
+        muted: {
+          DEFAULT: "hsl(var(--muted))",
+          foreground: "hsl(var(--muted-foreground))",
+        },
+        accent: {
+          DEFAULT: "hsl(var(--accent))",
+          foreground: "hsl(var(--accent-foreground))",
+        },
+        /* Nao existe vermelho neste sistema. Ver a nota em globals.css:
+           cor nenhuma pode ser lida como juizo de valor, entao a acao
+           destrutiva se distingue por forma e texto, nao por matiz. */
+        destructive: {
+          DEFAULT: "hsl(var(--destructive))",
+          foreground: "hsl(var(--destructive-foreground))",
+        },
+        popover: {
+          DEFAULT: "hsl(var(--popover))",
+          foreground: "hsl(var(--popover-foreground))",
+        },
+        card: {
+          DEFAULT: "hsl(var(--card))",
+          foreground: "hsl(var(--card-foreground))",
+        },
         // Papel de jornal, quente.
         papel: {
           DEFAULT: "#f2eee2",
@@ -112,6 +158,13 @@ const config: Config = {
           "monospace",
         ],
       },
+      borderRadius: {
+        /* A GAZETA e de cantos vivos: --radius e 0px. O token existe
+           mesmo assim porque todo componente shadcn o consome. */
+        lg: "var(--radius)",
+        md: "calc(var(--radius) - 2px)",
+        sm: "calc(var(--radius) - 4px)",
+      },
       maxWidth: {
         conteudo: "75rem",
         leitura: "40rem",
@@ -146,6 +199,14 @@ const config: Config = {
           "0%": { backgroundPosition: "0 0" },
           "100%": { backgroundPosition: "48px 0" },
         },
+        "accordion-abre": {
+          from: { height: "0" },
+          to: { height: "var(--radix-accordion-content-height)" },
+        },
+        "accordion-fecha": {
+          from: { height: "var(--radix-accordion-content-height)" },
+          to: { height: "0" },
+        },
         "desliza-bandeira": {
           "0%": { transform: "translateX(0)" },
           "100%": { transform: "translateX(-50%)" },
@@ -157,13 +218,15 @@ const config: Config = {
         "risca-h": "risca-h 0.7s cubic-bezier(0.22,1,0.36,1) both",
         "arrastar-hachura": "arrastar-hachura 14s linear infinite",
         "desliza-bandeira": "desliza-bandeira 13s linear infinite",
+        "accordion-abre": "accordion-abre 0.22s cubic-bezier(0.22,1,0.36,1)",
+        "accordion-fecha": "accordion-fecha 0.18s cubic-bezier(0.22,1,0.36,1)",
       },
       transitionTimingFunction: {
         suave: "cubic-bezier(0.22,1,0.36,1)",
       },
     },
   },
-  plugins: [],
+  plugins: [animate],
 };
 
 export default config;

@@ -7,6 +7,7 @@ import { IconeInfo, IconeSeta } from "@/components/icones";
 import NumeroUrna from "@/components/NumeroUrna";
 import PastilhaPartido from "@/components/PastilhaPartido";
 import ResumoPlataforma from "@/components/ResumoPlataforma";
+import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 import {
   candidatos,
   DATA_REVISAO,
@@ -112,16 +113,14 @@ export default async function PaginaCandidato({
           />
         </div>
 
-        <div role="status" className="aviso-callout mt-6 flex gap-3">
-          <IconeInfo className="mt-0.5 shrink-0 text-tinta-500" />
-          <span>
-            <strong className="font-bold text-tinta-900">
-              Página provisória.
-            </strong>{" "}
+        <Alert className="mt-6">
+          <IconeInfo />
+          <AlertTitle>Página provisória</AlertTitle>
+          <AlertDescription>
             As abas Perfil, Proposta, Mandato e Bens, com os gráficos e a lista
             de votações, entram no passo 5.
-          </span>
-        </div>
+          </AlertDescription>
+        </Alert>
 
         <div className="secao-cabeca mt-12">
           <span className="folio">

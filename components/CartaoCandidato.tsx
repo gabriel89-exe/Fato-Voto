@@ -2,6 +2,7 @@ import Link from "next/link";
 import AvatarCandidato from "@/components/AvatarCandidato";
 import NumeroUrna from "@/components/NumeroUrna";
 import PastilhaPartido from "@/components/PastilhaPartido";
+import { Button } from "@/components/ui/button";
 import { obterPartido } from "@/lib/dados";
 import { idadeEm } from "@/lib/formato";
 import type { Candidato } from "@/types";
@@ -92,12 +93,9 @@ export default function CartaoCandidato({
             </div>
           </dl>
 
-          <Link
-            href={`/candidato/${candidato.id}`}
-            className="botao-secundario mt-1 w-full justify-center"
-          >
-            Ver ficha
-          </Link>
+          <Button asChild variant="secundario" className="mt-1 w-full">
+            <Link href={`/candidato/${candidato.id}`}>Ver ficha</Link>
+          </Button>
         </div>
       </article>
     </li>

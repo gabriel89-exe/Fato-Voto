@@ -1,4 +1,5 @@
 import { IconeInfo } from "@/components/icones";
+import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 import { DATA_COLETA, ESTADO, FONTE_PADRAO } from "@/lib/dados";
 import { dataPorExtenso } from "@/lib/formato";
 
@@ -48,14 +49,14 @@ export default function PaginaFontes() {
 
         <h1 className="mt-6">De onde vêm os dados</h1>
 
-        <div className="aviso-callout mt-6 flex gap-3">
-          <IconeInfo className="mt-0.5 shrink-0 text-tinta-500" />
-          <span>
-            <strong className="font-bold text-tinta-900">Aviso:</strong> nenhuma
-            das fontes abaixo é real. Elas descrevem o formato que a plataforma
-            usaria, com nomes inventados para o estado fictício de {ESTADO.nome}.
-          </span>
-        </div>
+        <Alert className="mt-6">
+          <IconeInfo />
+          <AlertTitle>Nenhuma fonte abaixo é real</AlertTitle>
+          <AlertDescription>
+            Elas descrevem o formato que a plataforma usaria, com nomes
+            inventados para o estado fictício de {ESTADO.nome}.
+          </AlertDescription>
+        </Alert>
 
         <p className="mt-6 text-tinta-700">
           Cada bloco de dado no site repete a fonte e a data da própria coleta,

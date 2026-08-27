@@ -1,5 +1,7 @@
 import Link from "next/link";
 import { IconeInfo, IconeSeta } from "@/components/icones";
+import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
+import { Button } from "@/components/ui/button";
 
 export const metadata = { title: "Comparar candidatos" };
 
@@ -19,22 +21,25 @@ export default function PaginaComparar() {
           lado, com as mesmas informações na mesma ordem.
         </p>
 
-        <div role="status" className="aviso-callout mt-6 flex gap-3">
-          <IconeInfo className="mt-0.5 shrink-0 text-tinta-500" />
-          <span>
-            <strong className="font-bold text-tinta-900">
-              Ainda não construído.
-            </strong>{" "}
-            O comparador é o passo 6 do plano de execução.
-          </span>
-        </div>
+        <Alert className="mt-6">
+          <IconeInfo />
+          <AlertTitle>Ainda não construído</AlertTitle>
+          <AlertDescription>
+            O comparador é o passo 6 do plano de execução. Os controles que ele
+            vai usar — diálogo de seleção, caixas de marcação e tabela
+            comparativa — já existem no{" "}
+            <Link href="/interface">kit de interface</Link>.
+          </AlertDescription>
+        </Alert>
 
-        <p className="mt-7">
-          <Link href="/candidatos" className="botao-primario">
-            Ver a lista de candidatos
-            <IconeSeta />
-          </Link>
-        </p>
+        <div className="mt-7">
+          <Button asChild>
+            <Link href="/candidatos">
+              Ver a lista de candidatos
+              <IconeSeta />
+            </Link>
+          </Button>
+        </div>
       </article>
     </div>
   );

@@ -1,4 +1,5 @@
 import { IconeInfo } from "@/components/icones";
+import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 
 export const metadata = { title: "Metodologia" };
 
@@ -65,15 +66,14 @@ export default function PaginaMetodologia() {
 
         <h1 className="mt-6">Como tratamos os dados</h1>
 
-        <div className="aviso-callout mt-6 flex gap-3">
-          <IconeInfo className="mt-0.5 shrink-0 text-tinta-500" />
-          <span>
-            <strong className="font-bold text-tinta-900">Aviso:</strong> este
-            site é um protótipo. Os dados exibidos foram inventados para testar a
-            interface. O texto abaixo descreve como a plataforma funcionaria com
-            dados reais.
-          </span>
-        </div>
+        <Alert className="mt-6">
+          <IconeInfo />
+          <AlertTitle>Este site é um protótipo</AlertTitle>
+          <AlertDescription>
+            Os dados exibidos foram inventados para testar a interface. O texto
+            abaixo descreve como a plataforma funcionaria com dados reais.
+          </AlertDescription>
+        </Alert>
 
         <div className="mt-10 space-y-10">
           {SECOES.map((secao, i) => (
