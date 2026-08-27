@@ -1,13 +1,13 @@
 import Link from "next/link";
 import { IconeBusca, IconeSeta } from "@/components/icones";
-import { candidatos, ESTADO } from "@/lib/dados";
+import { candidatos, DATA_COLETA, ESTADO } from "@/lib/dados";
+import { dataPorExtenso } from "@/lib/formato";
 
 /**
- * Home.
+ * Home — primeira pagina da gazeta.
  *
- * Estrutura em faixas numeradas, no estilo de um sumario. A primeira
- * faixa e a casca escura (hero). O restante e papel claro. O elemento
- * principal e o campo de busca — um GET comum, funciona sem JavaScript.
+ * O elemento principal e o campo de busca (§ 01). O formulario e um GET
+ * comum para /candidatos, entao a busca funciona sem JavaScript.
  */
 export default function PaginaInicial() {
   const totalGovernador = candidatos.filter(
@@ -37,185 +37,212 @@ export default function PaginaInicial() {
   ];
 
   return (
-    <>
-      {/* ---------- Faixa 1: hero na casca escura ---------- */}
-      <section className="casca casca-planta">
-        <div className="envelope entrada py-16 sm:py-24">
-          <span className="chip">
-            <span
-              aria-hidden="true"
-              className="h-1.5 w-1.5 rounded-full bg-casca-suave"
-            />
-            {ESTADO.nome} ({ESTADO.sigla}) · {ESTADO.anoEleicao}
+    <div className="envelope">
+      {/* ================= Cabeçote da edição ================= */}
+      <header className="entrada pt-8 sm:pt-12">
+        <p className="folio flex-wrap justify-between gap-y-1 border-y-2 border-tinta-900 py-2">
+          <span>
+            {ESTADO.nome} ({ESTADO.sigla}) — Edição {ESTADO.anoEleicao}
           </span>
+          <span className="text-tinta-400">
+            Coleta simulada · {dataPorExtenso(DATA_COLETA)}
+          </span>
+        </p>
 
-          <h1 className="mt-6 max-w-4xl text-casca-texto">
-            Consulte os dados de quem está na disputa
-          </h1>
+        <h1 className="mt-6 max-w-[14ch] sm:mt-8">
+          Quem está na disputa
+        </h1>
 
-          <p className="mt-5 max-w-2xl text-lg text-casca-suave">
-            Um registro público, em linguagem simples, das candidaturas ao
-            governo e ao senado de {ESTADO.nome} ({ESTADO.sigla}) em{" "}
-            {ESTADO.anoEleicao}. Sem ranking, sem nota, sem recomendação.
+        <div className="mt-6 grid gap-6 border-t border-tinta-300 pt-6 sm:grid-cols-12 sm:gap-8">
+          <p className="font-display text-xl font-medium leading-[1.15] tracking-[-0.02em] text-tinta-800 sm:col-span-5 sm:text-2xl">
+            Um registro público das candidaturas ao governo e ao senado de{" "}
+            {ESTADO.nome}. Sem ranking, sem nota, sem recomendação.
           </p>
-
-          <div className="mt-8 flex flex-wrap gap-3">
-            <a href="#buscar" className="botao-primario">
-              <IconeBusca className="h-4 w-4" />
-              Buscar candidato
-            </a>
-            <Link href="/candidatos" className="botao-secundario">
-              Ver a lista completa
-              <IconeSeta />
-            </Link>
+          <div className="capitular text-[1.05rem] leading-relaxed text-tinta-700 sm:col-span-7">
+            Cada candidatura tem uma ficha com os mesmos campos, na mesma ordem,
+            com o mesmo peso: número de urna, partido, situação do registro,
+            proposta de governo e dados declarados no momento do registro. O
+            texto que a plataforma escreve fica sempre separado do documento
+            oficial, em moldura diferente, para você nunca confundir um com o
+            outro.
           </div>
         </div>
+
+        <div className="mt-7 flex flex-wrap gap-3">
+          <a href="#buscar" className="botao-primario">
+            <IconeBusca className="h-4 w-4" />
+            Buscar candidato
+          </a>
+          <Link href="/candidatos" className="botao-secundario">
+            Lista completa
+            <IconeSeta />
+          </Link>
+        </div>
+      </header>
+
+      {/* ================= § 01 — Buscar ================= */}
+      <section id="buscar" className="mt-16 scroll-mt-32 sm:mt-24">
+        <div className="secao-cabeca">
+          <span className="folio">
+            <b>§ 01</b>
+          </span>
+          <h2>Buscar</h2>
+        </div>
+
+        <form
+          action="/candidatos"
+          method="get"
+          role="search"
+          className="painel mt-6 p-5 sm:p-7"
+        >
+          <label
+            htmlFor="busca-inicial"
+            className="block font-display text-xl font-semibold tracking-[-0.02em] text-tinta-900"
+          >
+            Por nome ou número de urna
+          </label>
+          <p id="ajuda-busca-inicial" className="mt-2 text-sm text-tinta-600">
+            Pode escrever sem acento e sem maiúscula. Digitar só o começo do
+            número também funciona.
+          </p>
+
+          <div className="mt-4 flex flex-col gap-2.5 sm:flex-row">
+            <div className="relative flex-1">
+              <span className="pointer-events-none absolute left-3.5 top-1/2 -translate-y-1/2 text-tinta-400">
+                <IconeBusca />
+              </span>
+              <input
+                id="busca-inicial"
+                name="busca"
+                type="search"
+                autoComplete="off"
+                enterKeyHint="search"
+                aria-describedby="ajuda-busca-inicial"
+                placeholder="Amanda, goncalves, 24…"
+                className="campo pl-11 text-lg"
+              />
+            </div>
+            <button type="submit" className="botao-primario justify-center">
+              <IconeBusca className="h-4 w-4" />
+              Buscar
+            </button>
+          </div>
+
+          <div className="mt-4 flex flex-wrap items-center gap-2">
+            <span className="rotulo-meta">Exemplos</span>
+            {["Amanda", "goncalves", "24"].map((exemplo) => (
+              <Link
+                key={exemplo}
+                href={`/candidatos?busca=${exemplo}`}
+                className="chip no-underline transition-colors hover:bg-tinta-900 hover:text-papel-alta"
+              >
+                {exemplo}
+              </Link>
+            ))}
+          </div>
+        </form>
       </section>
 
-      <div className="envelope space-y-16 py-14 sm:space-y-20 sm:py-20">
-        {/* ---------- Faixa 2: busca ---------- */}
-        <section id="buscar" className="scroll-mt-32">
-          <p className="rotulo-secao">
-            <span>01</span> Buscar
-          </p>
+      {/* ================= § 02 — Edições por cargo ================= */}
+      <section className="mt-16 sm:mt-24">
+        <div className="secao-cabeca">
+          <span className="folio">
+            <b>§ 02</b>
+          </span>
+          <h2>Cadernos por cargo</h2>
+        </div>
 
-          <form
-            action="/candidatos"
-            method="get"
-            role="search"
-            className="painel mt-5 p-5 sm:p-7"
-          >
-            <label
-              htmlFor="busca-inicial"
-              className="block font-display text-xl text-tinta-900"
+        <ul className="mt-6 grid border-2 border-tinta-900 sm:grid-cols-2">
+          {cargos.map((item, i) => (
+            <li
+              key={item.cargo}
+              className={i > 0 ? "border-t-2 border-tinta-900 sm:border-l-2 sm:border-t-0" : ""}
             >
-              Por nome ou número de urna
-            </label>
-            <p id="ajuda-busca-inicial" className="rotulo-meta mt-2 normal-case">
-              Pode escrever sem acento e sem maiúscula. Digitar só o começo do
-              número também funciona.
-            </p>
-
-            <div className="mt-4 flex flex-col gap-2 sm:flex-row">
-              <div className="relative flex-1">
-                <span className="pointer-events-none absolute left-3.5 top-1/2 -translate-y-1/2 text-tinta-400">
-                  <IconeBusca />
-                </span>
-                <input
-                  id="busca-inicial"
-                  name="busca"
-                  type="search"
-                  autoComplete="off"
-                  enterKeyHint="search"
-                  aria-describedby="ajuda-busca-inicial"
-                  placeholder="Ex.: Amanda, goncalves, 24"
-                  className="campo pl-11 font-mono text-lg"
-                />
-              </div>
-              <button type="submit" className="botao-primario justify-center">
-                <IconeBusca className="h-4 w-4" />
-                Buscar
-              </button>
-            </div>
-
-            <div className="mt-4 flex flex-wrap items-center gap-2">
-              <span className="rotulo-meta">Exemplos</span>
-              {["Amanda", "goncalves", "24"].map((exemplo) => (
-                <Link
-                  key={exemplo}
-                  href={`/candidatos?busca=${exemplo}`}
-                  className="chip no-underline transition-colors hover:border-tinta-500 hover:text-tinta-900"
-                >
-                  {exemplo}
-                </Link>
-              ))}
-            </div>
-          </form>
-        </section>
-
-        {/* ---------- Faixa 3: listas por cargo ---------- */}
-        <section>
-          <p className="rotulo-secao">
-            <span>02</span> Listas por cargo
-          </p>
-
-          <ul className="mt-5 grid gap-4 sm:grid-cols-2">
-            {cargos.map((item) => (
-              <li key={item.cargo}>
-                <Link
-                  href={item.href}
-                  className="cartao cartao-interativo group flex h-full items-center justify-between gap-4 p-6 no-underline"
-                >
-                  <span className="flex flex-col gap-1.5">
-                    <span className="font-display text-xl text-tinta-900">
-                      {item.cargo}
-                    </span>
-                    <span className="rotulo-meta normal-case">
-                      {item.total} candidaturas registradas
-                    </span>
+              <Link
+                href={item.href}
+                className="group flex h-full items-center justify-between gap-4 bg-papel-alta p-6 no-underline transition-colors hover:bg-papel sm:p-8"
+              >
+                <span className="flex flex-col gap-2">
+                  <span className="font-display text-2xl font-bold tracking-[-0.03em] text-tinta-900 sm:text-3xl">
+                    {item.cargo}
                   </span>
-                  <span className="grid h-10 w-10 shrink-0 place-items-center rounded-full border border-tinta-300 text-tinta-500 transition-all duration-200 group-hover:translate-x-0.5 group-hover:border-tinta-600 group-hover:text-tinta-900">
-                    <IconeSeta />
+                  <span className="rotulo-meta">
+                    {String(item.total).padStart(2, "0")} candidaturas
                   </span>
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </section>
-
-        {/* ---------- Faixa 4: panorama ---------- */}
-        <section>
-          <p className="rotulo-secao">
-            <span>03</span> Panorama
-          </p>
-
-          <dl className="mt-5 grid grid-cols-3 divide-x divide-tinta-200 overflow-hidden rounded-xl border border-tinta-200 bg-papel-alta">
-            {panorama.map((item) => (
-              <div key={item.rotulo} className="px-3 py-6 text-center">
-                <dd className="font-mono text-3xl font-semibold tabular-nums text-tinta-900 sm:text-4xl">
-                  {String(item.valor).padStart(2, "0")}
-                </dd>
-                <dt className="rotulo-meta mt-2 normal-case">{item.rotulo}</dt>
-              </div>
-            ))}
-          </dl>
-        </section>
-
-        {/* ---------- Faixa 5: como funciona ---------- */}
-        <section>
-          <p className="rotulo-secao">
-            <span>04</span> Como este site trata os dados
-          </p>
-
-          <ol className="mt-5 divide-y divide-tinta-200 overflow-hidden rounded-xl border border-tinta-200 bg-papel-alta">
-            {principios.map((texto, i) => (
-              <li key={texto} className="flex gap-4 p-5">
-                <span className="font-mono text-sm text-tinta-400">
-                  {String(i + 1).padStart(2, "0")}
                 </span>
-                <span className="text-tinta-700">{texto}</span>
-              </li>
-            ))}
-          </ol>
+                <span className="font-mono text-2xl text-tinta-400 transition-transform duration-200 group-hover:translate-x-1 group-hover:text-acento">
+                  →
+                </span>
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </section>
 
-          <p className="mt-5 flex flex-wrap gap-x-6 gap-y-2">
-            <Link
-              href="/metodologia"
-              className="inline-flex items-center gap-1.5 font-medium text-tinta-800"
+      {/* ================= § 03 — Panorama ================= */}
+      <section className="mt-16 sm:mt-24">
+        <div className="secao-cabeca">
+          <span className="folio">
+            <b>§ 03</b>
+          </span>
+          <h2>Panorama</h2>
+        </div>
+
+        <dl className="mt-6 grid grid-cols-3 border-2 border-tinta-900 bg-papel-alta">
+          {panorama.map((item, i) => (
+            <div
+              key={item.rotulo}
+              className={`px-3 py-7 text-center ${
+                i > 0 ? "border-l-2 border-tinta-900" : ""
+              }`}
             >
-              Metodologia completa
-              <IconeSeta className="h-3.5 w-3.5" />
-            </Link>
-            <Link
-              href="/fontes"
-              className="inline-flex items-center gap-1.5 font-medium text-tinta-800"
+              <dd className="font-display text-4xl font-bold tabular-nums text-tinta-900 sm:text-6xl">
+                {String(item.valor).padStart(2, "0")}
+              </dd>
+              <dt className="rotulo-meta mt-2">{item.rotulo}</dt>
+            </div>
+          ))}
+        </dl>
+      </section>
+
+      {/* ================= § 04 — Princípios ================= */}
+      <section className="mt-16 sm:mt-24">
+        <div className="secao-cabeca">
+          <span className="folio">
+            <b>§ 04</b>
+          </span>
+          <h2>Princípios de edição</h2>
+        </div>
+
+        <ol className="mt-6 border-2 border-tinta-900 bg-papel-alta">
+          {principios.map((texto, i) => (
+            <li
+              key={texto}
+              className={`flex gap-5 p-5 sm:p-6 ${
+                i > 0 ? "border-t border-tinta-300" : ""
+              }`}
             >
-              De onde vêm os dados
-              <IconeSeta className="h-3.5 w-3.5" />
-            </Link>
-          </p>
-        </section>
-      </div>
-    </>
+              <span className="font-display text-2xl font-bold leading-none text-tinta-300">
+                {String(i + 1).padStart(2, "0")}
+              </span>
+              <span className="text-tinta-700">{texto}</span>
+            </li>
+          ))}
+        </ol>
+
+        <p className="mt-6 flex flex-wrap gap-x-8 gap-y-2 font-mono text-sm uppercase tracking-[0.08em]">
+          <Link href="/metodologia" className="inline-flex items-center gap-2">
+            Metodologia
+            <IconeSeta className="h-3.5 w-3.5" />
+          </Link>
+          <Link href="/fontes" className="inline-flex items-center gap-2">
+            Fontes dos dados
+            <IconeSeta className="h-3.5 w-3.5" />
+          </Link>
+        </p>
+      </section>
+
+      <div className="filete-dupla mt-16 sm:mt-24" />
+    </div>
   );
 }

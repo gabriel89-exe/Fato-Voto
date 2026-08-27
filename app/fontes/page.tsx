@@ -37,76 +37,73 @@ const FONTES = [
 
 export default function PaginaFontes() {
   return (
-    <>
-      <section className="casca casca-planta">
-        <div className="envelope entrada py-12 sm:py-16">
-          <span className="chip">Fontes dos dados</span>
-          <h1 className="mt-5 max-w-3xl text-casca-texto">
-            De onde vêm os dados
-          </h1>
-          <p className="mt-4 font-mono text-sm uppercase tracking-[0.14em] text-casca-suave">
-            Última coleta simulada · {dataPorExtenso(DATA_COLETA)}
-          </p>
+    <div className="envelope py-8 sm:py-12">
+      <article className="entrada mx-auto max-w-3xl">
+        <p className="folio flex-wrap justify-between gap-y-1 border-y-2 border-tinta-900 py-2">
+          <span>Procedência</span>
+          <span className="text-tinta-400">
+            Coleta simulada · {dataPorExtenso(DATA_COLETA)}
+          </span>
+        </p>
+
+        <h1 className="mt-6">De onde vêm os dados</h1>
+
+        <div className="aviso-callout mt-6 flex gap-3">
+          <IconeInfo className="mt-0.5 shrink-0 text-tinta-500" />
+          <span>
+            <strong className="font-bold text-tinta-900">Aviso:</strong> nenhuma
+            das fontes abaixo é real. Elas descrevem o formato que a plataforma
+            usaria, com nomes inventados para o estado fictício de {ESTADO.nome}.
+          </span>
         </div>
-      </section>
 
-      <div className="envelope py-10 sm:py-14">
-        <article className="mx-auto max-w-3xl space-y-8">
-          <div className="aviso-callout flex gap-3">
-            <IconeInfo className="mt-0.5 shrink-0 text-tinta-500" />
-            <span>
-              <strong className="font-semibold text-tinta-900">Aviso:</strong>{" "}
-              nenhuma das fontes abaixo é real. Elas descrevem o formato que a
-              plataforma usaria, com nomes inventados para o estado fictício de{" "}
-              {ESTADO.nome}.
+        <p className="mt-6 text-tinta-700">
+          Cada bloco de dado no site repete a fonte e a data da própria coleta,
+          para você não precisar voltar aqui.
+        </p>
+
+        <ol className="mt-8 space-y-5">
+          {FONTES.map((fonte, i) => (
+            <li key={fonte.nome} className="cartao p-5 sm:p-6">
+              <div className="secao-cabeca">
+                <span className="folio">
+                  <b>§ {String(i + 1).padStart(2, "0")}</b>
+                </span>
+                <h2 className="text-[1.35rem] sm:text-[1.6rem]">{fonte.nome}</h2>
+              </div>
+              <dl className="mt-4 space-y-3 text-sm">
+                <div>
+                  <dt className="rotulo-meta">Órgão de origem</dt>
+                  <dd className="mt-0.5 text-tinta-800">{fonte.orgao}</dd>
+                </div>
+                <div>
+                  <dt className="rotulo-meta">O que vem daí</dt>
+                  <dd className="mt-0.5 text-tinta-800">{fonte.conteudo}</dd>
+                </div>
+                <div>
+                  <dt className="rotulo-meta">Atualização</dt>
+                  <dd className="mt-0.5 text-tinta-800">{fonte.atualizacao}</dd>
+                </div>
+              </dl>
+            </li>
+          ))}
+        </ol>
+
+        <section className="mt-10">
+          <div className="secao-cabeca">
+            <span className="folio">
+              <b>§ 05</b>
             </span>
+            <h2 className="text-[1.35rem] sm:text-[1.6rem]">Links quebrados</h2>
           </div>
-
-          <p className="text-tinta-700">
-            Cada bloco de dado no site repete a fonte e a data da própria coleta,
-            para você não precisar voltar aqui.
+          <p className="mt-4 text-tinta-700">
+            Documentos oficiais somem do ar com frequência. Por isso guardamos
+            uma cópia de cada documento coletado, junto com a data e uma
+            identificação do arquivo (hash), que permite conferir se a cópia é
+            igual ao original.
           </p>
-
-          <ol className="space-y-4">
-            {FONTES.map((fonte, i) => (
-              <li
-                key={fonte.nome}
-                className="cartao cartao-interativo p-5 sm:p-6"
-              >
-                <p className="rotulo-secao">
-                  <span>{String(i + 1).padStart(2, "0")}</span> {fonte.nome}
-                </p>
-                <dl className="mt-4 space-y-3 text-sm">
-                  <div>
-                    <dt className="rotulo-meta">Órgão de origem</dt>
-                    <dd className="mt-0.5 text-tinta-800">{fonte.orgao}</dd>
-                  </div>
-                  <div>
-                    <dt className="rotulo-meta">O que vem daí</dt>
-                    <dd className="mt-0.5 text-tinta-800">{fonte.conteudo}</dd>
-                  </div>
-                  <div>
-                    <dt className="rotulo-meta">Atualização</dt>
-                    <dd className="mt-0.5 text-tinta-800">{fonte.atualizacao}</dd>
-                  </div>
-                </dl>
-              </li>
-            ))}
-          </ol>
-
-          <section>
-            <p className="rotulo-secao">
-              <span>05</span> Links quebrados
-            </p>
-            <p className="mt-4 text-tinta-700">
-              Documentos oficiais somem do ar com frequência. Por isso guardamos
-              uma cópia de cada documento coletado, junto com a data e uma
-              identificação do arquivo (hash), que permite conferir se a cópia é
-              igual ao original.
-            </p>
-          </section>
-        </article>
-      </div>
-    </>
+        </section>
+      </article>
+    </div>
   );
 }

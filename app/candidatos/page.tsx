@@ -1,6 +1,6 @@
 import CartaoCandidato from "@/components/CartaoCandidato";
 import { IconeInfo } from "@/components/icones";
-import { candidatos } from "@/lib/dados";
+import { candidatos, ESTADO } from "@/lib/dados";
 import type { Cargo } from "@/types";
 
 export const metadata = { title: "Candidatos" };
@@ -23,24 +23,28 @@ export default async function PaginaCandidatos({
   const lista = cargo ? candidatos.filter((c) => c.cargo === cargo) : candidatos;
 
   return (
-    <>
-      <section className="casca casca-planta">
-        <div className="envelope entrada py-12 sm:py-16">
-          <span className="chip">Lista de candidaturas</span>
-          <h1 className="mt-5 text-casca-texto">
-            Candidatos{cargo ? ` a ${cargo}` : ""}
-          </h1>
-          <p className="mt-4 font-mono text-sm uppercase tracking-[0.14em] text-casca-suave">
-            {String(lista.length).padStart(2, "0")} fichas
-          </p>
-        </div>
-      </section>
+    <div className="envelope py-8 sm:py-12">
+      <header className="entrada">
+        <p className="folio flex-wrap justify-between gap-y-1 border-y-2 border-tinta-900 py-2">
+          <span>
+            {ESTADO.nome} ({ESTADO.sigla}) — Edição {ESTADO.anoEleicao}
+          </span>
+          <span className="text-tinta-400">
+            {String(lista.length).padStart(2, "0")} verbetes
+          </span>
+        </p>
 
-      <div className="envelope py-10 sm:py-14">
-        <div role="status" className="aviso-callout flex gap-3">
+        <h1 className="mt-6">
+          Candidatos{cargo ? <span className="text-tinta-400"> · {cargo}</span> : null}
+        </h1>
+
+        <div
+          role="status"
+          className="aviso-callout mt-6 flex gap-3"
+        >
           <IconeInfo className="mt-0.5 shrink-0 text-tinta-500" />
           <span>
-            <strong className="font-semibold text-tinta-900">
+            <strong className="font-bold text-tinta-900">
               Página provisória.
             </strong>{" "}
             A busca instantânea, os filtros e a ordenação sorteada ainda serão
@@ -48,13 +52,13 @@ export default async function PaginaCandidatos({
             dados e ainda não é sorteada.
           </span>
         </div>
+      </header>
 
-        <ul className="entrada-lista mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {lista.map((candidato) => (
-            <CartaoCandidato key={candidato.id} candidato={candidato} />
-          ))}
-        </ul>
-      </div>
-    </>
+      <ul className="entrada-lista mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+        {lista.map((candidato) => (
+          <CartaoCandidato key={candidato.id} candidato={candidato} />
+        ))}
+      </ul>
+    </div>
   );
 }

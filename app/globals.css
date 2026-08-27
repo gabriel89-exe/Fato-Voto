@@ -2,47 +2,51 @@
 @tailwind components;
 @tailwind utilities;
 
+/* ================================================================== */
+/*  GAZETA — sistema visual de diario oficial de eleicao.             */
+/* ================================================================== */
+
 @layer base {
   :root {
-    /* Altura exata da tarja de prototipo. O cabecalho gruda logo abaixo. */
     --altura-tarja: 2.5rem;
-    --altura-cabecalho: 3.75rem;
+    --altura-cabecalho: 4rem;
+    --acento: #1f3a5f;
+    --regua: #1b1a16;
   }
 
   html {
     -webkit-text-size-adjust: 100%;
     scroll-padding-top: calc(
-      var(--altura-tarja) + var(--altura-cabecalho) + 1rem
+      var(--altura-tarja) + var(--altura-cabecalho) + 1.5rem
     );
   }
 
   body {
-    @apply bg-papel text-tinta-900 antialiased font-sans;
-    font-size: 1rem;
-    line-height: 1.65;
+    @apply bg-papel text-tinta-900 antialiased font-texto;
+    font-size: 1.02rem;
+    line-height: 1.62;
     min-height: 100vh;
   }
 
-  /* Grao fino sobre o papel, para o fundo nao ficar chapado. */
+  /* Grao de papel de jornal + linha de base tenue. */
   body::before {
     content: "";
     position: fixed;
     inset: 0;
     z-index: -1;
     pointer-events: none;
-    opacity: 0.03;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+    opacity: 0.05;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.82' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
   }
 
   :focus-visible {
-    outline: 3px solid theme("colors.oficial.borda");
+    outline: 3px solid var(--acento);
     outline-offset: 2px;
-    border-radius: 3px;
   }
 
   ::selection {
-    background: theme("colors.tinta.900");
-    color: theme("colors.papel.alta");
+    background: var(--acento);
+    color: #faf7ee;
   }
 
   @media (prefers-reduced-motion: no-preference) {
@@ -62,50 +66,61 @@
     }
   }
 
+  /* --- Titulos: Bricolage Grotesque, apertados, grandes. --- */
   h1,
   h2,
   h3,
   h4 {
     @apply font-display font-semibold text-tinta-900;
     text-wrap: balance;
-    letter-spacing: -0.014em;
+    letter-spacing: -0.03em;
+    line-height: 0.98;
   }
 
   h1 {
-    font-size: clamp(2.1rem, 1.2rem + 4.2vw, 3.6rem);
-    line-height: 1.06;
-    letter-spacing: -0.026em;
+    font-size: clamp(2.6rem, 1.3rem + 6vw, 5.25rem);
+    font-weight: 700;
+    letter-spacing: -0.04em;
   }
 
   h2 {
-    font-size: clamp(1.4rem, 1.1rem + 1.4vw, 1.95rem);
-    line-height: 1.18;
-    letter-spacing: -0.02em;
+    font-size: clamp(1.7rem, 1.15rem + 2.4vw, 2.6rem);
+    letter-spacing: -0.032em;
+    line-height: 1.02;
   }
 
   h3 {
-    @apply text-base sm:text-lg;
+    font-size: clamp(1.15rem, 1rem + 0.6vw, 1.4rem);
+    line-height: 1.08;
   }
 
   a {
-    @apply underline underline-offset-2 decoration-tinta-300 transition-colors;
+    color: var(--acento);
+    text-decoration-line: underline;
+    text-underline-offset: 3px;
+    text-decoration-thickness: 1.5px;
+    text-decoration-color: rgba(31, 58, 95, 0.4);
+    transition: text-decoration-color 0.15s ease, background-color 0.15s ease;
   }
 
   a:hover {
-    @apply decoration-tinta-700;
+    text-decoration-color: var(--acento);
   }
 
   table {
     @apply w-full text-left;
   }
-
   caption {
     @apply text-left text-sm text-tinta-600 pb-2;
+  }
+
+  strong,
+  b {
+    font-weight: 700;
   }
 }
 
 @layer components {
-  /* Bloco de conteudo padrao do site. */
   .envelope {
     @apply mx-auto w-full max-w-conteudo px-4 sm:px-6;
   }
@@ -114,198 +129,137 @@
     @apply inline-flex items-center justify-center min-h-toque min-w-toque;
   }
 
-  /* ------------------------------------------------------------------ */
-  /* Casca institucional — as faixas escuras que emolduram o site.     */
-  /* ------------------------------------------------------------------ */
-  .casca {
-    @apply relative isolate bg-casca text-casca-texto;
+  /* --- Filetes --- */
+  .filete {
+    border-bottom: 2px solid var(--regua);
+  }
+  .filete-fina {
+    border-bottom: 1px solid theme("colors.tinta.300");
+  }
+  .filete-dupla {
+    border-top: 3px double var(--regua);
   }
 
-  /* Planta baixa: grade tenue so dentro da casca. */
-  .casca-planta::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    z-index: -1;
-    pointer-events: none;
-    background-image: theme("backgroundImage.planta-casca");
-    background-size: theme("backgroundSize.planta");
-    -webkit-mask-image: radial-gradient(
-      120% 90% at 20% 0%,
-      #000 30%,
-      transparent 75%
-    );
-    mask-image: radial-gradient(120% 90% at 20% 0%, #000 30%, transparent 75%);
+  /* --- Folio: o marcador "№ 01" no estilo de sumario impresso. --- */
+  .folio {
+    @apply inline-flex items-center gap-2 font-mono text-[0.7rem] font-medium uppercase text-tinta-500;
+    letter-spacing: theme("letterSpacing.folio");
   }
 
-  /* Rotulo de secao numerado, no estilo de sumario editorial. */
-  .rotulo-secao {
-    @apply flex items-center gap-3 font-mono text-xs font-medium uppercase tracking-[0.22em] text-tinta-500;
+  .folio > b {
+    @apply font-semibold text-acento;
+    letter-spacing: 0.08em;
   }
 
-  .rotulo-secao > span:first-child {
-    @apply inline-flex items-center justify-center rounded border border-tinta-300
-           px-1.5 py-0.5 text-[0.7rem] font-semibold text-tinta-700;
+  /* Cabecalho de secao: folio + regua que "risca" na entrada. */
+  .secao-cabeca {
+    @apply flex items-baseline gap-4 pb-3 filete;
   }
 
-  .rotulo-secao::after {
-    content: "";
-    flex: 1;
-    height: 1px;
-    background: theme("colors.tinta.200");
-  }
-
-  .casca .rotulo-secao > span:first-child {
-    @apply border-casca-borda text-casca-texto;
-  }
-
-  .casca .rotulo-secao {
-    @apply text-casca-suave;
-  }
-
-  .casca .rotulo-secao::after {
-    background: theme("colors.casca.borda");
-  }
-
-  /* ------------------------------------------------------------------ */
-  /* Controles                                                          */
-  /* ------------------------------------------------------------------ */
+  /* --- Controles: cantos vivos, sombra dura deslocada. --- */
   .botao-primario {
-    @apply alvo-toque relative gap-2 rounded-lg bg-tinta-900 px-5 py-3 text-base
-           font-semibold text-papel-alta no-underline;
-    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.08),
-      0 10px 22px -12px rgba(18, 23, 28, 0.6);
-    transition: transform 0.18s theme("transitionTimingFunction.suave"),
-      background-color 0.18s ease, box-shadow 0.18s ease;
+    @apply alvo-toque gap-2 border-2 border-tinta-900 bg-tinta-900 px-5 py-3
+           font-mono text-sm font-semibold uppercase tracking-[0.1em] text-papel-alta no-underline;
+    box-shadow: theme("boxShadow.bloco-sm");
+    transition: transform 0.14s theme("transitionTimingFunction.suave"),
+      box-shadow 0.14s ease, background-color 0.14s ease;
   }
-
   .botao-primario:hover {
-    @apply bg-tinta-800;
-    transform: translateY(-1px);
-    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1),
-      0 16px 28px -14px rgba(18, 23, 28, 0.65);
+    @apply bg-acento-forte;
+    transform: translate(-2px, -2px);
+    box-shadow: 5px 5px 0 0 var(--acento);
   }
-
   .botao-primario:active {
-    transform: translateY(0);
-  }
-
-  .casca .botao-primario {
-    @apply bg-papel-alta text-tinta-900;
-  }
-
-  .casca .botao-primario:hover {
-    @apply bg-papel;
+    transform: translate(0, 0);
+    box-shadow: 1px 1px 0 0 var(--regua);
   }
 
   .botao-secundario {
-    @apply alvo-toque gap-2 rounded-lg border border-tinta-300 bg-papel-alta px-4 py-2
-           text-base font-medium text-tinta-800 no-underline;
-    transition: border-color 0.18s ease, background-color 0.18s ease,
-      transform 0.18s theme("transitionTimingFunction.suave");
+    @apply alvo-toque gap-2 border-2 border-tinta-900 bg-papel-alta px-4 py-2.5
+           font-mono text-sm font-medium uppercase tracking-[0.08em] text-tinta-900 no-underline;
+    box-shadow: theme("boxShadow.bloco-sm");
+    transition: transform 0.14s theme("transitionTimingFunction.suave"),
+      box-shadow 0.14s ease, background-color 0.14s ease;
   }
-
   .botao-secundario:hover {
-    @apply border-tinta-500 bg-papel;
-    transform: translateY(-1px);
+    @apply bg-papel;
+    transform: translate(-2px, -2px);
+    box-shadow: theme("boxShadow.bloco");
   }
-
-  .casca .botao-secundario {
-    @apply border-casca-borda bg-transparent text-casca-texto;
-  }
-
-  .casca .botao-secundario:hover {
-    @apply border-casca-suave bg-casca-alta;
+  .botao-secundario:active {
+    transform: translate(0, 0);
+    box-shadow: 1px 1px 0 0 var(--regua);
   }
 
   .campo {
-    @apply w-full rounded-lg border border-tinta-300 bg-papel-alta px-3.5 py-3
-           text-base text-tinta-900 placeholder:text-tinta-400;
-    box-shadow: inset 0 1px 2px rgba(18, 23, 28, 0.05);
-    transition: border-color 0.16s ease, box-shadow 0.16s ease;
-    min-height: 44px;
+    @apply w-full border-2 border-tinta-900 bg-papel-alta px-3.5 py-3
+           font-mono text-base text-tinta-900 placeholder:text-tinta-400;
+    box-shadow: inset 2px 2px 0 0 rgba(27, 26, 22, 0.08);
+    transition: box-shadow 0.14s ease;
+    min-height: 46px;
   }
-
   .campo:focus {
-    @apply border-oficial-borda outline-none;
-    box-shadow: inset 0 1px 2px rgba(18, 23, 28, 0.05),
-      0 0 0 4px rgba(29, 65, 96, 0.16);
+    outline: none;
+    box-shadow: inset 2px 2px 0 0 rgba(27, 26, 22, 0.08),
+      0 0 0 3px var(--acento);
   }
 
-  /* ------------------------------------------------------------------ */
-  /* Superficies de papel                                              */
-  /* ------------------------------------------------------------------ */
+  /* --- Superficies de papel --- */
   .cartao {
-    @apply rounded-xl border border-tinta-200 bg-papel-alta;
-    box-shadow: 0 1px 2px rgba(18, 23, 28, 0.04),
-      0 1px 3px rgba(18, 23, 28, 0.05);
+    @apply border-2 border-tinta-900 bg-papel-alta;
   }
 
   .painel {
-    @apply rounded-xl border border-tinta-200 bg-papel-alta;
-    box-shadow: 0 1px 2px rgba(18, 23, 28, 0.04),
-      0 18px 40px -24px rgba(18, 23, 28, 0.26);
+    @apply border-2 border-tinta-900 bg-papel-alta;
+    box-shadow: theme("boxShadow.bloco");
   }
 
-  /* Ficha de arquivo: o formato dos cartoes de candidatura. Uma aba
-     monoespacada no topo. IDENTICA para toda candidatura — sem cor,
-     sem selo, sem peso diferente. */
-  .cartao-arquivo {
-    @apply relative rounded-xl border border-tinta-200 bg-papel-alta pt-3;
-    box-shadow: 0 1px 2px rgba(18, 23, 28, 0.04),
-      0 1px 3px rgba(18, 23, 28, 0.05);
+  /* Verbete: a ficha de candidatura. IDENTICA para todos — mesma borda,
+     mesma sombra, mesmo peso. Aba de folio no topo, sem cor. */
+  .cartao-verbete {
+    @apply relative border-2 border-tinta-900 bg-papel-alta;
+    box-shadow: theme("boxShadow.bloco-sm");
+    transition: transform 0.16s theme("transitionTimingFunction.suave"),
+      box-shadow 0.16s ease;
+  }
+  .cartao-verbete:hover {
+    transform: translate(-3px, -3px);
+    box-shadow: theme("boxShadow.bloco");
   }
 
-  .cartao-arquivo::before {
-    content: "";
-    position: absolute;
-    left: 1.25rem;
-    right: 1.25rem;
-    top: 0;
-    height: 3px;
-    border-radius: 0 0 3px 3px;
-    background: theme("colors.tinta.300");
-  }
-
-  .cartao-interativo {
-    transition: transform 0.2s theme("transitionTimingFunction.suave"),
-      box-shadow 0.2s ease, border-color 0.2s ease;
-  }
-
-  .cartao-interativo:hover {
-    @apply border-tinta-300;
-    transform: translateY(-3px);
-    box-shadow: 0 24px 44px -24px rgba(18, 23, 28, 0.26),
-      0 8px 16px -12px rgba(18, 23, 28, 0.14);
-  }
-
+  /* --- Rotulo de metadado: mono, versal, tracado. --- */
   .rotulo-meta {
-    @apply font-mono text-[0.7rem] uppercase leading-snug tracking-[0.1em] text-tinta-500;
+    @apply font-mono text-[0.68rem] font-medium uppercase leading-snug tracking-[0.13em] text-tinta-500;
   }
 
+  /* --- Chip / etiqueta de recorte --- */
   .chip {
-    @apply inline-flex items-center gap-1.5 rounded-full border border-tinta-300
-           bg-papel-alta px-3 py-1 font-mono text-xs uppercase tracking-[0.12em] text-tinta-700;
+    @apply inline-flex items-center gap-1.5 border border-tinta-900 bg-papel-alta
+           px-2.5 py-1 font-mono text-[0.68rem] font-medium uppercase tracking-[0.13em] text-tinta-800;
   }
 
-  .casca .chip {
-    @apply border-casca-borda bg-casca-alta text-casca-suave;
-  }
-
-  /* Aviso neutro (pagina provisoria, dado ausente). */
+  /* --- Aviso neutro: caixa com filete grosso a esquerda. --- */
   .aviso-callout {
-    @apply relative overflow-hidden rounded-lg border border-tinta-200 bg-papel-alta
-           px-4 py-3 text-sm text-tinta-700;
+    @apply relative border-2 border-tinta-900 bg-papel-alta px-4 py-3 text-sm text-tinta-700;
   }
-
   .aviso-callout::before {
     content: "";
     position: absolute;
     left: 0;
     top: 0;
     bottom: 0;
-    width: 3px;
-    background: theme("colors.tinta.400");
+    width: 6px;
+    background: var(--regua);
+  }
+
+  /* --- Sumario: lista com pontilhado guia (leaders). --- */
+  .sumario-item {
+    @apply flex items-baseline gap-2;
+  }
+  .sumario-item > .leader {
+    flex: 1;
+    border-bottom: 1px dotted theme("colors.tinta.300");
+    transform: translateY(-0.25em);
   }
 }
 
@@ -321,7 +275,6 @@
     white-space: nowrap;
     border-width: 0;
   }
-
   .apenas-leitor-foco:focus {
     position: static;
     width: auto;
@@ -340,33 +293,62 @@
     );
   }
 
-  /* Entrada em cascata para grupos pequenos (heros, introducoes). */
+  /* Grelha de colunas tenue — textura de diagramacao. */
+  .grelha-colunas {
+    background-image: repeating-linear-gradient(
+      to right,
+      transparent 0,
+      transparent calc(25% - 1px),
+      theme("colors.tinta.200") calc(25% - 1px),
+      theme("colors.tinta.200") 25%
+    );
+  }
+
+  /* Capitular na abertura de um texto longo. */
+  .capitular::first-letter {
+    float: left;
+    font-family: var(--fonte-display), sans-serif;
+    font-weight: 700;
+    font-size: 3.4em;
+    line-height: 0.82;
+    padding-right: 0.08em;
+    margin-top: 0.04em;
+    color: theme("colors.tinta.900");
+  }
+
+  /* Entrada em cascata para grupos pequenos. */
   .entrada > * {
-    animation: surgir 0.6s theme("transitionTimingFunction.suave") both;
+    animation: surgir 0.62s theme("transitionTimingFunction.suave") both;
   }
   .entrada > *:nth-child(1) {
-    animation-delay: 0.03s;
+    animation-delay: 0.04s;
   }
   .entrada > *:nth-child(2) {
-    animation-delay: 0.1s;
+    animation-delay: 0.12s;
   }
   .entrada > *:nth-child(3) {
-    animation-delay: 0.17s;
+    animation-delay: 0.2s;
   }
   .entrada > *:nth-child(4) {
-    animation-delay: 0.24s;
+    animation-delay: 0.28s;
   }
   .entrada > *:nth-child(5) {
-    animation-delay: 0.31s;
+    animation-delay: 0.36s;
   }
   .entrada > *:nth-child(6) {
-    animation-delay: 0.38s;
+    animation-delay: 0.44s;
   }
   .entrada > *:nth-child(n + 7) {
-    animation-delay: 0.44s;
+    animation-delay: 0.5s;
   }
 
   .entrada-lista > * {
     animation: surgir-suave 0.5s theme("transitionTimingFunction.suave") both;
+  }
+
+  /* Filete que se desenha da esquerda para a direita. */
+  .risca {
+    transform-origin: left;
+    animation: risca-h 0.7s theme("transitionTimingFunction.suave") both;
   }
 }

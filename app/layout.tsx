@@ -1,32 +1,37 @@
 import type { Metadata, Viewport } from "next";
-import { Fraunces, IBM_Plex_Mono, Libre_Franklin } from "next/font/google";
+import {
+  Bricolage_Grotesque,
+  JetBrains_Mono,
+  Newsreader,
+} from "next/font/google";
 import Cabecalho from "@/components/Cabecalho";
 import Rodape from "@/components/Rodape";
 import TarjaPrototipo from "@/components/TarjaPrototipo";
 import "./globals.css";
 
 /**
- * Tipografia.
+ * Tipografia da GAZETA.
  *
- * Fraunces (serif editorial) nos titulos: voz de "registro publico".
- * Libre Franklin no corpo: origem civica, leitura confortavel no celular.
- * IBM Plex Mono nos dados, rotulos e numeros: reforca a ideia de ficha
- * e de documento. As familias entram por CSS custom property.
+ * Bricolage Grotesque: manchetes. Grotesca contemporanea, apertada,
+ * com carater — a "voz" impressa do site.
+ * Newsreader: corpo de texto. Serifa de jornal feita para tela.
+ * JetBrains Mono: dados, rotulos, folios, datalinha. Reforca a ideia
+ * de registro tabelado.
  */
-const fonteDisplay = Fraunces({
+const fonteDisplay = Bricolage_Grotesque({
   subsets: ["latin"],
   variable: "--fonte-display",
   display: "swap",
-  axes: ["opsz"],
 });
 
-const fonteTexto = Libre_Franklin({
+const fonteTexto = Newsreader({
   subsets: ["latin"],
-  variable: "--fonte-sans",
+  style: ["normal", "italic"],
+  variable: "--fonte-texto",
   display: "swap",
 });
 
-const fonteMono = IBM_Plex_Mono({
+const fonteMono = JetBrains_Mono({
   subsets: ["latin"],
   weight: ["400", "500", "600"],
   variable: "--fonte-mono",
@@ -61,7 +66,7 @@ export default function RootLayout({
       <body className="flex min-h-screen flex-col">
         <a
           href="#conteudo"
-          className="apenas-leitor apenas-leitor-foco absolute left-2 top-2 z-[60] rounded-md bg-tinta-900 px-4 py-2 text-white"
+          className="apenas-leitor apenas-leitor-foco absolute left-2 top-2 z-[60] bg-tinta-900 px-4 py-2 text-papel-alta no-underline"
         >
           Pular para o conteúdo
         </a>

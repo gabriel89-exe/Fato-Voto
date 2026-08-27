@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
-import { IconeMarca } from "@/components/icones";
+import { ESTADO } from "@/lib/dados";
 
 const LINKS = [
   { href: "/", rotulo: "Início" },
@@ -27,36 +27,36 @@ export default function Cabecalho() {
 
   return (
     <header
-      className={`casca sticky top-[var(--altura-tarja)] z-40 border-b transition-colors duration-200 ${
-        rolado
-          ? "border-casca-borda bg-casca/95 shadow-casca backdrop-blur"
-          : "border-transparent"
+      className={`sticky top-[var(--altura-tarja)] z-40 border-b-2 border-tinta-900 bg-papel-alta transition-shadow duration-200 ${
+        rolado ? "shadow-[0_4px_0_0_#1b1a16]" : ""
       }`}
     >
-      <div className="envelope flex h-[var(--altura-cabecalho)] items-center justify-between gap-x-2 sm:gap-x-4">
-        <Link
-          href="/"
-          className="alvo-toque -ml-1 gap-2 px-1 font-bold tracking-tight text-casca-texto no-underline"
-        >
-          <IconeMarca className="h-5 w-5 text-casca-texto xs:h-6 xs:w-6" />
-          <span className="whitespace-nowrap font-display text-[15px] xs:text-lg">
-            Fato <span className="text-casca-suave">&amp;</span> Voto
+      <div className="envelope flex h-[var(--altura-cabecalho)] items-center justify-between gap-x-3">
+        <div className="flex min-w-0 items-baseline gap-3">
+          <Link
+            href="/"
+            className="alvo-toque -ml-1 px-1 font-display text-xl font-extrabold tracking-[-0.04em] text-tinta-900 no-underline xs:text-2xl"
+          >
+            Fato&nbsp;<span className="text-acento">&amp;</span>&nbsp;Voto
+          </Link>
+          <span className="hidden font-mono text-[0.6rem] uppercase tracking-[0.2em] text-tinta-400 lg:inline">
+            {ESTADO.nome} · Ed. {ESTADO.anoEleicao} · Registro público
           </span>
-        </Link>
+        </div>
 
-        <nav aria-label="Navegação principal">
-          <ul className="flex items-center gap-0.5">
-            {LINKS.map((link) => {
+        <nav aria-label="Navegação principal" className="shrink-0">
+          <ul className="flex items-stretch">
+            {LINKS.map((link, i) => {
               const estaAtivo = ativo(link.href);
               return (
-                <li key={link.href}>
+                <li key={link.href} className={i > 0 ? "border-l border-tinta-300" : ""}>
                   <Link
                     href={link.href}
                     aria-current={estaAtivo ? "page" : undefined}
-                    className={`alvo-toque rounded-md px-2 font-mono text-[0.7rem] uppercase tracking-[0.14em] no-underline transition-colors duration-200 xs:px-3 xs:text-xs ${
+                    className={`alvo-toque px-2.5 font-mono text-[0.68rem] uppercase tracking-[0.13em] no-underline transition-colors duration-150 xs:px-3.5 xs:text-xs ${
                       estaAtivo
-                        ? "bg-papel-alta font-semibold text-tinta-900"
-                        : "text-casca-suave hover:bg-casca-alta hover:text-casca-texto"
+                        ? "bg-tinta-900 font-semibold text-papel-alta"
+                        : "text-tinta-600 hover:bg-papel hover:text-tinta-900"
                     }`}
                   >
                     {link.rotulo}

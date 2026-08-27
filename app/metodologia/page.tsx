@@ -57,36 +57,36 @@ const SECOES = [
 
 export default function PaginaMetodologia() {
   return (
-    <>
-      <section className="casca casca-planta">
-        <div className="envelope entrada py-12 sm:py-16">
-          <span className="chip">Metodologia</span>
-          <h1 className="mt-5 max-w-3xl text-casca-texto">
-            Como tratamos os dados
-          </h1>
+    <div className="envelope py-8 sm:py-12">
+      <article className="entrada mx-auto max-w-leitura">
+        <p className="folio border-y-2 border-tinta-900 py-2">
+          <span>Expediente</span>
+        </p>
+
+        <h1 className="mt-6">Como tratamos os dados</h1>
+
+        <div className="aviso-callout mt-6 flex gap-3">
+          <IconeInfo className="mt-0.5 shrink-0 text-tinta-500" />
+          <span>
+            <strong className="font-bold text-tinta-900">Aviso:</strong> este
+            site é um protótipo. Os dados exibidos foram inventados para testar a
+            interface. O texto abaixo descreve como a plataforma funcionaria com
+            dados reais.
+          </span>
         </div>
-      </section>
 
-      <div className="envelope py-10 sm:py-14">
-        <article className="mx-auto max-w-leitura space-y-10">
-          <div className="aviso-callout flex gap-3">
-            <IconeInfo className="mt-0.5 shrink-0 text-tinta-500" />
-            <span>
-              <strong className="font-semibold text-tinta-900">Aviso:</strong>{" "}
-              este site é um protótipo. Os dados exibidos foram inventados para
-              testar a interface. O texto abaixo descreve como a plataforma
-              funcionaria com dados reais.
-            </span>
-          </div>
-
+        <div className="mt-10 space-y-10">
           {SECOES.map((secao, i) => (
             <section key={secao.titulo}>
-              <p className="rotulo-secao">
-                <span>{String(i + 1).padStart(2, "0")}</span> {secao.titulo}
-              </p>
+              <div className="secao-cabeca">
+                <span className="folio">
+                  <b>§ {String(i + 1).padStart(2, "0")}</b>
+                </span>
+                <h2 className="text-[1.5rem] sm:text-[1.8rem]">{secao.titulo}</h2>
+              </div>
               <div className="mt-4 space-y-3 text-tinta-700">
                 {secao.lista ? (
-                  <ul className="list-disc space-y-1 pl-5">
+                  <ul className="list-disc space-y-1 pl-5 marker:text-tinta-400">
                     {secao.lista.map((item) => (
                       <li key={item}>{item}</li>
                     ))}
@@ -98,8 +98,8 @@ export default function PaginaMetodologia() {
               </div>
             </section>
           ))}
-        </article>
-      </div>
-    </>
+        </div>
+      </article>
+    </div>
   );
 }
