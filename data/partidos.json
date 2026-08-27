@@ -1,0 +1,58 @@
+[
+  {
+    "id": "mrc",
+    "nome": "Movimento Renovação Cidadã",
+    "sigla": "MRC",
+    "numero": 24,
+    "cor": "#4b6b8a"
+  },
+  {
+    "id": "pup",
+    "nome": "Partido União Progressista",
+    "sigla": "PUP",
+    "numero": 32,
+    "cor": "#6b5b8a"
+  },
+  {
+    "id": "adp",
+    "nome": "Aliança Democrática Popular",
+    "sigla": "ADP",
+    "numero": 38,
+    "cor": "#3f7f80"
+  },
+  {
+    "id": "pgp",
+    "nome": "Partido da Gestão Pública",
+    "sigla": "PGP",
+    "numero": 46,
+    "cor": "#8a6b3f"
+  },
+  {
+    "id": "fci",
+    "nome": "Frente Cívica Independente",
+    "sigla": "FCI",
+    "numero": 52,
+    "cor": "#7a4f63"
+  },
+  {
+    "id": "mps",
+    "nome": "Movimento Popular Solidário",
+    "sigla": "MPS",
+    "numero": 61,
+    "cor": "#4f7a5c"
+  },
+  {
+    "id": "phc",
+    "nome": "Partido Horizonte Comum",
+    "sigla": "PHC",
+    "numero": 74,
+    "cor": "#5c6f8a"
+  },
+  {
+    "id": "urn",
+    "nome": "União Reformista Nacional",
+    "sigla": "URN",
+    "numero": 88,
+    "cor": "#8a5a4f"
+  }
+]

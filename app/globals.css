@@ -1,0 +1,144 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Altura da tarja de prototipo, usada para deslocar o conteudo. */
+    --altura-tarja: 2.25rem;
+  }
+
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    @apply bg-superficie text-tinta-900 antialiased;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  /* Foco sempre visivel, em qualquer elemento, com contraste alto. */
+  :focus-visible {
+    outline: 3px solid theme("colors.tinta.900");
+    outline-offset: 2px;
+    border-radius: 2px;
+  }
+
+  /* Rolagem suave so para quem nao pediu menos movimento. */
+  @media (prefers-reduced-motion: no-preference) {
+    html {
+      scroll-behavior: smooth;
+    }
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-semibold text-tinta-900;
+    text-wrap: balance;
+  }
+
+  h1 {
+    @apply text-2xl sm:text-3xl;
+    line-height: 1.25;
+  }
+
+  h2 {
+    @apply text-xl sm:text-2xl;
+    line-height: 1.3;
+  }
+
+  h3 {
+    @apply text-base sm:text-lg;
+  }
+
+  a {
+    @apply underline underline-offset-2 decoration-tinta-300 hover:decoration-tinta-700;
+  }
+
+  table {
+    @apply w-full text-left;
+  }
+
+  caption {
+    @apply text-left text-sm text-tinta-600 pb-2;
+  }
+}
+
+@layer components {
+  /* Bloco de conteudo padrao do site. */
+  .envelope {
+    @apply mx-auto w-full max-w-conteudo px-4 sm:px-6;
+  }
+
+  /* Alvos de toque nunca menores que 44x44. */
+  .alvo-toque {
+    @apply inline-flex items-center justify-center min-h-toque min-w-toque;
+  }
+
+  .botao-primario {
+    @apply alvo-toque gap-2 rounded-md bg-tinta-800 px-5 py-3 text-base font-semibold
+           text-white no-underline hover:bg-tinta-900;
+  }
+
+  .botao-secundario {
+    @apply alvo-toque gap-2 rounded-md border-2 border-tinta-300 bg-superficie-alta px-4 py-2
+           text-base font-medium text-tinta-800 no-underline hover:border-tinta-500;
+  }
+
+  .campo {
+    @apply w-full rounded-md border-2 border-tinta-300 bg-superficie-alta px-3 py-3
+           text-base text-tinta-900 placeholder:text-tinta-500 focus:border-tinta-700;
+    min-height: 44px;
+  }
+
+  .cartao {
+    @apply rounded-lg border border-tinta-200 bg-superficie-alta;
+  }
+
+  /* Rotulo pequeno de metadado (fonte, data de coleta, autodeclaracao). */
+  .rotulo-meta {
+    @apply text-xs leading-snug text-tinta-600;
+  }
+
+  .chip {
+    @apply inline-flex items-center gap-1.5 rounded-full border border-tinta-300
+           bg-superficie-alta px-3 py-1 text-sm text-tinta-800;
+  }
+}
+
+@layer utilities {
+  /* Visivel apenas para leitores de tela, ate receber foco. */
+  .apenas-leitor {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+  }
+
+  .apenas-leitor-foco:focus {
+    position: static;
+    width: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    clip: auto;
+    white-space: normal;
+  }
+
+  /* Hachura usada na tarja de prototipo: reforca o aviso sem depender de cor. */
+  .hachura-aviso {
+    background-image: repeating-linear-gradient(
+      -45deg,
+      rgba(26, 18, 6, 0.18) 0 6px,
+      transparent 6px 12px
+    );
+  }
+}
