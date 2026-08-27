@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { Fraunces, Libre_Franklin } from "next/font/google";
+import { Fraunces, IBM_Plex_Mono, Libre_Franklin } from "next/font/google";
 import Cabecalho from "@/components/Cabecalho";
 import Rodape from "@/components/Rodape";
 import TarjaPrototipo from "@/components/TarjaPrototipo";
@@ -8,10 +8,10 @@ import "./globals.css";
 /**
  * Tipografia.
  *
- * Fraunces (serif com carater editorial) so nos titulos: da voz de
- * "registro publico" sem puxar para nenhum lado. Libre Franklin no corpo
- * e na interface: origem civica, leitura confortavel em telas pequenas.
- * As duas sao variaveis; a familia entra por CSS custom property.
+ * Fraunces (serif editorial) nos titulos: voz de "registro publico".
+ * Libre Franklin no corpo: origem civica, leitura confortavel no celular.
+ * IBM Plex Mono nos dados, rotulos e numeros: reforca a ideia de ficha
+ * e de documento. As familias entram por CSS custom property.
  */
 const fonteDisplay = Fraunces({
   subsets: ["latin"],
@@ -23,6 +23,13 @@ const fonteDisplay = Fraunces({
 const fonteTexto = Libre_Franklin({
   subsets: ["latin"],
   variable: "--fonte-sans",
+  display: "swap",
+});
+
+const fonteMono = IBM_Plex_Mono({
+  subsets: ["latin"],
+  weight: ["400", "500", "600"],
+  variable: "--fonte-mono",
   display: "swap",
 });
 
@@ -49,7 +56,7 @@ export default function RootLayout({
   return (
     <html
       lang="pt-BR"
-      className={`${fonteDisplay.variable} ${fonteTexto.variable}`}
+      className={`${fonteDisplay.variable} ${fonteTexto.variable} ${fonteMono.variable}`}
     >
       <body className="flex min-h-screen flex-col">
         <a

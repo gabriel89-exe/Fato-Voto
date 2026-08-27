@@ -9,9 +9,8 @@ export const metadata = { title: "Candidatos" };
  * Lista de candidatos — VERSAO PROVISORIA.
  *
  * Busca instantanea, filtros facetados e ordenacao sorteada entram nos
- * passos 3 e 4. Por enquanto esta pagina existe para validar o cartao e
- * a navegacao. A ordem exibida ainda NAO e sorteada, e isso esta avisado
- * na tela para nao passar a impressao errada.
+ * passos 3 e 4. A ordem exibida ainda NAO e sorteada, e isso esta
+ * avisado na tela para nao passar a impressao errada.
  */
 export default async function PaginaCandidatos({
   searchParams,
@@ -24,13 +23,21 @@ export default async function PaginaCandidatos({
   const lista = cargo ? candidatos.filter((c) => c.cargo === cargo) : candidatos;
 
   return (
-    <div className="envelope py-8 sm:py-10">
-      <div className="entrada">
-        <span className="chip">Lista de candidaturas</span>
+    <>
+      <section className="casca casca-planta">
+        <div className="envelope entrada py-12 sm:py-16">
+          <span className="chip">Lista de candidaturas</span>
+          <h1 className="mt-5 text-casca-texto">
+            Candidatos{cargo ? ` a ${cargo}` : ""}
+          </h1>
+          <p className="mt-4 font-mono text-sm uppercase tracking-[0.14em] text-casca-suave">
+            {String(lista.length).padStart(2, "0")} fichas
+          </p>
+        </div>
+      </section>
 
-        <h1 className="mt-3">Candidatos{cargo ? ` a ${cargo}` : ""}</h1>
-
-        <div role="status" className="aviso-callout mt-4 flex gap-3">
+      <div className="envelope py-10 sm:py-14">
+        <div role="status" className="aviso-callout flex gap-3">
           <IconeInfo className="mt-0.5 shrink-0 text-tinta-500" />
           <span>
             <strong className="font-semibold text-tinta-900">
@@ -42,17 +49,12 @@ export default async function PaginaCandidatos({
           </span>
         </div>
 
-        <p className="mt-4 flex items-center gap-2 text-tinta-700">
-          <span className="chip tabular-nums font-semibold">{lista.length}</span>
-          candidaturas encontradas
-        </p>
+        <ul className="entrada-lista mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          {lista.map((candidato) => (
+            <CartaoCandidato key={candidato.id} candidato={candidato} />
+          ))}
+        </ul>
       </div>
-
-      <ul className="entrada-lista mt-5 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-        {lista.map((candidato) => (
-          <CartaoCandidato key={candidato.id} candidato={candidato} />
-        ))}
-      </ul>
-    </div>
+    </>
   );
 }

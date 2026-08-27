@@ -3,11 +3,11 @@ import type { Config } from "tailwindcss";
 /**
  * Paleta deliberadamente fria e neutra.
  * Regra do produto: nenhuma cor pode sugerir aprovacao ou reprovacao.
- * Por isso nao existe verde de "certo" nem vermelho de "errado" no tema.
+ * Nao existe verde de "certo" nem vermelho de "errado" no tema.
  *
- * A modernizacao visual (gradientes, sombras, movimento) fica restrita ao
- * "chrome" do site — cabecalho, rodape, heros, fundos, botoes. Nada disso
- * entra nos blocos que identificam uma candidatura.
+ * Identidade visual: "registro publico". Casca escura (cabecalho, hero,
+ * rodape) que emoldura folhas de papel claro onde vivem os dados. O
+ * contraste casca/papel e a unica dramaticidade — nunca a candidatura.
  */
 const config: Config = {
   content: [
@@ -18,12 +18,28 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        superficie: {
-          DEFAULT: "#f6f7f8",
+        // Folha de papel: fundo quente, levemente fora do branco.
+        papel: {
+          DEFAULT: "#f7f5f0",
           alta: "#ffffff",
-          baixa: "#eceef1",
+          baixa: "#efece4",
+        },
+        // Casca institucional: a moldura escura do site.
+        casca: {
+          DEFAULT: "#111820",
+          alta: "#1a232d",
+          baixa: "#0b1015",
+          borda: "#2b3843",
+          texto: "#eef2f6",
+          suave: "#93a6b3",
+        },
+        superficie: {
+          DEFAULT: "#f7f5f0",
+          alta: "#ffffff",
+          baixa: "#efece4",
         },
         tinta: {
+          950: "#0a0e12",
           900: "#12171c",
           800: "#1e262e",
           700: "#33404d",
@@ -56,7 +72,6 @@ const config: Config = {
           texto: "#1a1206",
         },
         // Escala fria usada em graficos de votacao e presenca.
-        // Diferenciada tambem por rotulo e por textura, nunca so por cor.
         grafico: {
           1: "#1d3f5c",
           2: "#3f6b8f",
@@ -84,10 +99,17 @@ const config: Config = {
           "Cambria",
           "serif",
         ],
-        mono: ["ui-monospace", "SFMono-Regular", "Consolas", "monospace"],
+        mono: [
+          "var(--fonte-mono)",
+          "ui-monospace",
+          "SFMono-Regular",
+          "Consolas",
+          "monospace",
+        ],
       },
       maxWidth: {
         conteudo: "72rem",
+        leitura: "42rem",
       },
       minHeight: {
         toque: "44px",
@@ -103,41 +125,45 @@ const config: Config = {
         media:
           "0 6px 16px -6px rgba(18,23,28,0.14), 0 2px 6px -3px rgba(18,23,28,0.08)",
         alta: "0 22px 48px -18px rgba(18,23,28,0.24), 0 8px 18px -10px rgba(18,23,28,0.14)",
-        vidro:
-          "0 1px 2px rgba(18,23,28,0.04), 0 14px 34px -20px rgba(18,23,28,0.22)",
+        papel:
+          "0 1px 2px rgba(18,23,28,0.05), 0 12px 28px -18px rgba(18,23,28,0.22)",
+        casca: "0 18px 40px -22px rgba(0,0,0,0.7)",
       },
       backgroundImage: {
-        "malha-fria":
-          "radial-gradient(58rem 42rem at 8% -12%, rgba(29,65,96,0.10), transparent 60%), radial-gradient(46rem 40rem at 104% 4%, rgba(63,107,143,0.09), transparent 58%), radial-gradient(40rem 44rem at 50% 128%, rgba(120,153,179,0.10), transparent 62%)",
+        "planta-casca":
+          "linear-gradient(rgba(255,255,255,0.045) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.045) 1px, transparent 1px)",
+      },
+      backgroundSize: {
+        planta: "48px 48px",
       },
       keyframes: {
         surgir: {
-          "0%": { opacity: "0", transform: "translateY(14px)" },
+          "0%": { opacity: "0", transform: "translateY(16px)" },
           "100%": { opacity: "1", transform: "translateY(0)" },
         },
         "surgir-suave": {
-          "0%": { opacity: "0", transform: "translateY(7px)" },
+          "0%": { opacity: "0", transform: "translateY(8px)" },
           "100%": { opacity: "1", transform: "translateY(0)" },
         },
         aparecer: {
           "0%": { opacity: "0" },
           "100%": { opacity: "1" },
         },
-        flutuar: {
-          "0%, 100%": { transform: "translateY(0)" },
-          "50%": { transform: "translateY(-14px)" },
-        },
         "arrastar-hachura": {
           "0%": { backgroundPosition: "0 0" },
           "100%": { backgroundPosition: "48px 0" },
+        },
+        "risca-entrar": {
+          "0%": { transform: "scaleX(0)" },
+          "100%": { transform: "scaleX(1)" },
         },
       },
       animation: {
         surgir: "surgir 0.6s cubic-bezier(0.22,1,0.36,1) both",
         "surgir-suave": "surgir-suave 0.5s cubic-bezier(0.22,1,0.36,1) both",
         aparecer: "aparecer 0.6s ease both",
-        flutuar: "flutuar 11s ease-in-out infinite",
         "arrastar-hachura": "arrastar-hachura 14s linear infinite",
+        "risca-entrar": "risca-entrar 0.7s cubic-bezier(0.22,1,0.36,1) both",
       },
       transitionTimingFunction: {
         suave: "cubic-bezier(0.22,1,0.36,1)",

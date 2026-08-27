@@ -27,20 +27,20 @@ export default function Cabecalho() {
 
   return (
     <header
-      className={`sticky top-[var(--altura-tarja)] z-40 border-b bg-superficie-alta/80 backdrop-blur-md transition-[box-shadow,border-color,background-color] duration-200 ${
+      className={`casca sticky top-[var(--altura-tarja)] z-40 border-b transition-colors duration-200 ${
         rolado
-          ? "border-tinta-200 shadow-media"
-          : "border-transparent shadow-none"
+          ? "border-casca-borda bg-casca/95 shadow-casca backdrop-blur"
+          : "border-transparent"
       }`}
     >
       <div className="envelope flex h-[var(--altura-cabecalho)] items-center justify-between gap-x-2 sm:gap-x-4">
         <Link
           href="/"
-          className="alvo-toque -ml-1 gap-1.5 px-1 font-bold tracking-tight text-tinta-900 no-underline"
+          className="alvo-toque -ml-1 gap-2 px-1 font-bold tracking-tight text-casca-texto no-underline"
         >
-          <IconeMarca className="h-5 w-5 text-oficial-borda xs:h-6 xs:w-6" />
+          <IconeMarca className="h-5 w-5 text-casca-texto xs:h-6 xs:w-6" />
           <span className="whitespace-nowrap font-display text-[15px] xs:text-lg">
-            Fato <span className="text-tinta-400">&amp;</span> Voto
+            Fato <span className="text-casca-suave">&amp;</span> Voto
           </span>
         </Link>
 
@@ -53,10 +53,10 @@ export default function Cabecalho() {
                   <Link
                     href={link.href}
                     aria-current={estaAtivo ? "page" : undefined}
-                    className={`alvo-toque rounded-lg px-2 text-xs no-underline transition-colors duration-200 xs:px-3 xs:text-sm sm:text-base ${
+                    className={`alvo-toque rounded-md px-2 font-mono text-[0.7rem] uppercase tracking-[0.14em] no-underline transition-colors duration-200 xs:px-3 xs:text-xs ${
                       estaAtivo
-                        ? "bg-tinta-900 font-semibold text-white shadow-sutil"
-                        : "font-medium text-tinta-700 hover:bg-tinta-100"
+                        ? "bg-papel-alta font-semibold text-tinta-900"
+                        : "text-casca-suave hover:bg-casca-alta hover:text-casca-texto"
                     }`}
                   >
                     {link.rotulo}
