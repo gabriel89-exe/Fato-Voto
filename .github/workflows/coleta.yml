@@ -41,7 +41,12 @@ jobs:
           node-version: 24
           cache: npm
 
-      - run: npm ci
+      # --ignore-scripts: este job tem `contents: write` e commita
+      # sozinho. Sem a trava, um postinstall de qualquer dependência
+      # (ou de dependência de dependência) roda com esse direito. A
+      # coleta só executa scripts do próprio repositório, então não há
+      # o que perder ao bloquear.
+      - run: npm ci --ignore-scripts
 
       # As três coletas são independentes. `if: always()` faz o Senado
       # rodar mesmo se o TSE cair — meia atualização é melhor que
