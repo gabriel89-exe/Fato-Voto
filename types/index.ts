@@ -194,3 +194,53 @@ export interface EstadoFiltros {
   partidos: string[];
   situacoes: string[];
 }
+
+/* ------------------------------------------------------------------ */
+/*  Mandato em exercicio — Senado Federal                              */
+/* ------------------------------------------------------------------ */
+
+export interface MandatoSenado {
+  uf: string;
+  participacao: string | null;
+  inicio: string | null;
+  fim: string | null;
+}
+
+export interface MateriaAutoria {
+  id: string;
+  identificacao: string | null;
+  sigla: string | null;
+  numero: string | null;
+  ano: number;
+  ementa: string | null;
+  data: string | null;
+  /** Autor principal, distinto de coautor. A fonte separa os dois. */
+  autorPrincipal: boolean;
+}
+
+export interface Senador {
+  id: string;
+  idExterno: number;
+  cargo: "Senador";
+  uf: string;
+  nomeUrna: string;
+  nomeCivil: string;
+  partido: string | null;
+  mandato: MandatoSenado | null;
+  materias: MateriaAutoria[];
+  /**
+   * Agrupamento por tipo, nunca um total unico: um requerimento de
+   * sessao solene e um projeto de lei pesam muito diferente, e somar os
+   * dois num numero so descreveria mal.
+   */
+  materiasPorTipo: { sigla: string; total: number }[];
+  paginaOficial: string;
+}
+
+export interface ArquivoSenadores {
+  fonte: Fonte;
+  uf: string;
+  anos: number[];
+  coletadoEm: string;
+  senadores: Senador[];
+}

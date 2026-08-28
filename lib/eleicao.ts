@@ -1,11 +1,15 @@
 import candidaturasJson from "@/data/es/candidaturas-2026.json";
 import parlamentaresJson from "@/data/es/deputados-federais.json";
+import senadoresJson from "@/data/es/senadores.json";
+import { CARGOS } from "@/types";
 import type {
   ArquivoCandidaturas,
   ArquivoParlamentares,
+  ArquivoSenadores,
   Candidatura,
   Cargo,
   Parlamentar,
+  Senador,
 } from "@/types";
 
 /**
@@ -20,16 +24,20 @@ import type {
 const arquivoCandidaturas = candidaturasJson as unknown as ArquivoCandidaturas;
 const arquivoParlamentares =
   parlamentaresJson as unknown as ArquivoParlamentares;
+const arquivoSenadores = senadoresJson as unknown as ArquivoSenadores;
 
 export const candidaturas = arquivoCandidaturas.candidaturas;
 export const parlamentares = arquivoParlamentares.parlamentares;
 export const referenciaBancada = arquivoParlamentares.referencia;
+export const senadores = arquivoSenadores.senadores;
 
 export const ELEICAO = arquivoCandidaturas.eleicao;
 export const FONTE_TSE = arquivoCandidaturas.fonte;
 export const FONTE_CAMARA = arquivoParlamentares.fonte;
+export const FONTE_SENADO = arquivoSenadores.fonte;
 export const COLETADO_EM = arquivoCandidaturas.coletadoEm;
 export const COLETADO_EM_CAMARA = arquivoParlamentares.coletadoEm;
+export const COLETADO_EM_SENADO = arquivoSenadores.coletadoEm;
 export const LEGISLATURA = arquivoParlamentares.legislatura;
 
 export const ESTADO = { nome: "Espírito Santo", sigla: "ES" };
@@ -75,6 +83,29 @@ export function obterMandato(candidatura: Candidatura): Parlamentar | null {
   const achados = parlamentares.filter(
     (p) => normalizar(p.nomeCivil) === civil,
   );
+  return achados.length === 1 ? achados[0] : null;
+}
+
+/**
+ * Liga a candidatura ao mandato de senador em exercicio.
+ *
+ * Mesma regra do mandato de deputado (`obterMandato`): casa pelo nome
+ * civil e desiste na menor ambiguidade, dos dois lados.
+ *
+ * Na coleta de 28/08/2026, dois dos tres senadores do ES sao
+ * candidatos e ganham a aba; Magno Malta esta em exercicio com mandato
+ * ate 2031 e nao disputa, entao nao aparece no site — o que esta
+ * certo, porque o site lista quem esta na disputa.
+ */
+export function obterMandatoSenado(candidatura: Candidatura): Senador | null {
+  const civil = normalizar(candidatura.nomeCompleto);
+
+  const homonimas = candidaturas.filter(
+    (c) => normalizar(c.nomeCompleto) === civil,
+  );
+  if (homonimas.length !== 1) return null;
+
+  const achados = senadores.filter((s) => normalizar(s.nomeCivil) === civil);
   return achados.length === 1 ? achados[0] : null;
 }
 
@@ -186,4 +217,136 @@ export function sortear<T>(lista: T[], dia = diaDeHoje()): T[] {
     [copia[i], copia[j]] = [copia[j], copia[i]];
   }
   return copia;
+}
+
+/* ------------------------------------------------------------------ */
+/*  Filtros facetados                                                  */
+/* ------------------------------------------------------------------ */
+
+export interface Filtros {
+  busca: string;
+  cargo: Cargo | null;
+  partidos: string[];
+  situacoes: string[];
+  generos: string[];
+  coresRaca: string[];
+  escolaridades: string[];
+}
+
+export const FILTROS_VAZIOS: Filtros = {
+  busca: "",
+  cargo: null,
+  partidos: [],
+  situacoes: [],
+  generos: [],
+  coresRaca: [],
+  escolaridades: [],
+};
+
+/** As dimensões facetadas, na ordem em que aparecem na tela. */
+export const DIMENSOES = [
+  { chave: "partidos", rotulo: "Partido", campo: (c: Candidatura) => c.partido?.sigla ?? null },
+  { chave: "situacoes", rotulo: "Situação do registro", campo: (c: Candidatura) => c.situacaoRegistro },
+  { chave: "escolaridades", rotulo: "Escolaridade", campo: (c: Candidatura) => c.escolaridade },
+  { chave: "generos", rotulo: "Gênero (autodeclarado)", campo: (c: Candidatura) => c.genero },
+  { chave: "coresRaca", rotulo: "Cor ou raça (autodeclarada)", campo: (c: Candidatura) => c.corRaca },
+] as const;
+
+export type ChaveDimensao = (typeof DIMENSOES)[number]["chave"];
+
+/** Lê o estado de filtro da query string. Um só valor ou vários. */
+export function filtrosDaQuery(
+  params: Record<string, string | string[] | undefined>,
+): Filtros {
+  const varios = (v: string | string[] | undefined): string[] =>
+    v === undefined ? [] : Array.isArray(v) ? v : [v];
+
+  const cargo = typeof params.cargo === "string" ? params.cargo : null;
+
+  return {
+    busca: typeof params.busca === "string" ? params.busca.trim() : "",
+    cargo: CARGOS.includes(cargo as Cargo) ? (cargo as Cargo) : null,
+    partidos: varios(params.partidos),
+    situacoes: varios(params.situacoes),
+    generos: varios(params.generos),
+    coresRaca: varios(params.coresRaca),
+    escolaridades: varios(params.escolaridades),
+  };
+}
+
+/**
+ * Aplica os recortes.
+ *
+ * `pular` deixa uma dimensão de fora — é o que permite contar as
+ * facetas corretamente: a contagem ao lado de "PL" tem de considerar
+ * todos os outros filtros ativos, mas NÃO o filtro de partido, senão
+ * toda opção não marcada apareceria com zero.
+ */
+export function aplicarFiltros(
+  lista: Candidatura[],
+  f: Filtros,
+  pular?: ChaveDimensao,
+): Candidatura[] {
+  let saida = lista;
+
+  if (f.cargo) saida = saida.filter((c) => c.cargo === f.cargo);
+
+  for (const d of DIMENSOES) {
+    if (d.chave === pular) continue;
+    const selecionados = f[d.chave];
+    if (selecionados.length === 0) continue;
+    saida = saida.filter((c) => {
+      const valor = d.campo(c);
+      return valor !== null && selecionados.includes(valor);
+    });
+  }
+
+  if (f.busca) saida = buscar(saida, f.busca);
+  return saida;
+}
+
+export interface Faceta {
+  chave: ChaveDimensao;
+  rotulo: string;
+  opcoes: { valor: string; total: number; marcada: boolean }[];
+}
+
+/**
+ * Monta as opções de cada dimensão, já com a contagem que o recorte
+ * atual produziria. Opção com zero resultado continua na lista, mas
+ * desabilitada: sumir com ela faria a interface parecer instável.
+ */
+export function montarFacetas(lista: Candidatura[], f: Filtros): Faceta[] {
+  return DIMENSOES.map((d) => {
+    const base = aplicarFiltros(lista, f, d.chave);
+    const contagem = new Map<string, number>();
+    for (const c of base) {
+      const valor = d.campo(c);
+      if (valor) contagem.set(valor, (contagem.get(valor) ?? 0) + 1);
+    }
+
+    /* Todos os valores possíveis, não só os do recorte atual: uma opção
+       marcada precisa continuar visível mesmo quando zera. */
+    const universo = new Set<string>();
+    for (const c of lista) {
+      const valor = d.campo(c);
+      if (valor) universo.add(valor);
+    }
+
+    const selecionados = f[d.chave];
+    const opcoes = [...universo]
+      .map((valor) => ({
+        valor,
+        total: contagem.get(valor) ?? 0,
+        marcada: selecionados.includes(valor),
+      }))
+      .sort((a, b) => b.total - a.total || a.valor.localeCompare(b.valor, "pt-BR"));
+
+    return { chave: d.chave, rotulo: d.rotulo, opcoes };
+  });
+}
+
+/** Quantos recortes estão ativos, para o rótulo do botão no celular. */
+export function contarRecortes(f: Filtros): number {
+  return DIMENSOES.reduce((s, d) => s + f[d.chave].length, 0);
 }

@@ -1,0 +1,79 @@
+name: Coleta diária
+
+# Por que diária: em período eleitoral a situação do registro muda de um
+# dia para o outro. Na coleta de 28/08/2026, 232 das 575 candidaturas
+# ainda estavam em julgamento — uma pode ser indeferida hoje e o site
+# mostraria "Deferido" até alguém lembrar de rodar o comando na mão.
+on:
+  schedule:
+    # 09:00 UTC = 06:00 em Brasília. O cron do GitHub é sempre em UTC e
+    # não conhece horário de verão; se o Brasil voltar a adotá-lo, este
+    # número precisa mudar.
+    - cron: "0 9 * * *"
+  # Permite disparar na mão pela aba Actions, sem esperar o horário.
+  workflow_dispatch:
+
+# O job comita de volta no repositório, então precisa de escrita.
+permissions:
+  contents: write
+
+concurrency:
+  # Duas coletas simultâneas brigariam pelo mesmo commit.
+  group: coleta
+  cancel-in-progress: false
+
+jobs:
+  coletar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      # As três coletas são independentes. `if: always()` faz o Senado
+      # rodar mesmo se o TSE cair — meia atualização é melhor que
+      # nenhuma, e o passo que falhou aparece vermelho no resumo.
+      - name: TSE — candidaturas
+        run: npm run coleta:tse
+
+      - name: Câmara — bancada federal
+        if: always()
+        run: npm run coleta:camara
+
+      - name: Senado — bancada
+        if: always()
+        run: npm run coleta:senado
+
+      # Verifica que o site ainda compila com o dado novo. Se uma fonte
+      # mudar de formato e quebrar a build, é melhor descobrir aqui do
+      # que em produção — o commit não acontece.
+      - name: Conferir que o site compila
+        if: always()
+        run: npm run build
+
+      - name: Commitar se algo mudou
+        if: always()
+        run: |
+          git config user.name "coleta automática"
+          git config user.email "actions@github.com"
+
+          # `dados-brutos/` está no .gitignore: só o normalizado entra.
+          git add data/es
+
+          # `--quiet --exit-code` sai 1 quando HÁ diferença. Sem esta
+          # checagem viria um commit vazio por dia, e o histórico
+          # deixaria de indicar quando algo de fato mudou.
+          if git diff --cached --quiet; then
+            echo "Nenhuma mudança nos dados. Nada a commitar."
+            exit 0
+          fi
+
+          git commit -m "dados: coleta de $(date -u +%Y-%m-%d)"
+          git push

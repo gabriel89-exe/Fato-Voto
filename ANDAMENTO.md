@@ -23,22 +23,35 @@ foram removidos e substituídos por dados públicos reais do **Espírito Santo**
       tabela acessível ao lado.
 - [x] **Inventário de fontes** — `/fontes` publica também as lacunas.
 - [x] **Responsividade em 360 px** — todas as rotas, sem rolagem horizontal.
+- [x] **Senadores do ES** — coleta feita. Contarato e Marcos do Val são
+      senadores em exercício E candidatos: as fichas deles ganharam aba de
+      mandato com as matérias de autoria.
+- [x] **Filtros facetados** — partido, situação, escolaridade, gênero e
+      cor/raça, com contagem por opção. Formulário GET nativo: funciona sem
+      JavaScript e o recorte é compartilhável por link.
+- [x] **Coleta agendada** — GitHub Actions diário às 6h de Brasília, com
+      build de verificação antes do commit e commit só quando o dado muda.
+
 
 ## Falta
 
 - [ ] **Emendas parlamentares** — depende do token do Portal da Transparência.
 - [ ] **Votações e projetos** — Câmara e Senado, fontes abertas já mapeadas.
-- [ ] **Senadores do ES** — a API do Senado funciona; falta a coleta.
 - [ ] **Atuação de deputado estadual** — a ALES não tem API. Maior incerteza.
 - [ ] **Comparador** — `/comparar` ainda é um aviso.
-- [ ] **Filtros facetados** — partido, situação, faixa etária, escolaridade.
-      Os controles já existem no kit.
-- [ ] **Coleta agendada** — hoje é manual. Em período eleitoral precisa ser
-      diária, porque a situação do registro muda todo dia.
 - [ ] **Página "Quem somos"** — com responsável identificado e canal de
       correção. Necessária antes de divulgar.
 
 ## Decisões registradas
+
+**A ficha de senador não mostra despesa.** O equivalente senatorial da cota
+parlamentar (CEAPS) não está nos dados abertos do Senado em formato coletável.
+A ficha diz isso com todas as letras, para a diferença em relação à ficha de
+deputado federal não ser lida como diferença entre as pessoas.
+
+**Matérias de autoria aparecem agrupadas por tipo, nunca somadas.** Um
+requerimento de sessão solene e um projeto de lei pesam muito diferente; um
+total único descreveria mal.
 
 **A tarja mudou de sentido.** Antes avisava que os dados eram fictícios. Agora
 informa a data da coleta e quantos registros ainda estão em julgamento — que é
@@ -70,6 +83,7 @@ gravação. Nem o snapshot bruto os conserva.
 ```bash
 npm run coleta:tse              # 575 candidaturas do ES (TSE)
 npm run coleta:camara           # bancada federal do ES (Câmara)
+npm run coleta:senado           # senadores do ES (Senado)
 npm run coleta:tse:normalizar   # reconstrói o normalizado sem tocar na rede
 ```
 

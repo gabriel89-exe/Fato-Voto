@@ -22,13 +22,16 @@ import {
   candidaturas,
   COLETADO_EM,
   COLETADO_EM_CAMARA,
+  COLETADO_EM_SENADO,
   ELEICAO,
   ESTADO,
   FONTE_CAMARA,
+  FONTE_SENADO,
   FONTE_TSE,
   LEGISLATURA,
   obterCandidatura,
   obterMandato,
+  obterMandatoSenado,
   referenciaBancada,
 } from "@/lib/eleicao";
 import { dataCurta, idadeEm, numero as fmtNumero, reais } from "@/lib/formato";
@@ -69,6 +72,7 @@ export default async function PaginaCandidato({
   if (!c) notFound();
 
   const mandato = obterMandato(c);
+  const mandatoSenado = obterMandatoSenado(c);
   const idade = c.dataNascimento ? idadeEm(c.dataNascimento) : null;
 
   return (
@@ -149,7 +153,7 @@ export default async function PaginaCandidato({
               <TabsTrigger value="proposta">Proposta</TabsTrigger>
               <TabsTrigger value="bens">Bens</TabsTrigger>
               <TabsTrigger value="historico">Histórico</TabsTrigger>
-              {mandato ? (
+              {mandato || mandatoSenado ? (
                 <TabsTrigger value="mandato">Mandato</TabsTrigger>
               ) : null}
             </TabsList>
@@ -361,8 +365,108 @@ export default async function PaginaCandidato({
               )}
             </TabsContent>
 
-            {/* ---------- Mandato (só quando há) ---------- */}
-            {mandato ? (
+            {/* ---------- Mandato no Senado (só quando há) ---------- */}
+            {mandatoSenado ? (
+              <TabsContent value="mandato">
+                <DadoOficial
+                  titulo="Mandato de senador em exercício"
+                  fonte={FONTE_SENADO.nome}
+                  coletadoEm={COLETADO_EM_SENADO}
+                  urlOriginal={mandatoSenado.paginaOficial}
+                >
+                  <p className="text-sm text-tinta-700">
+                    {c.nomeUrna} exerce mandato de <strong>senador</strong> pelo{" "}
+                    {mandatoSenado.uf}
+                    {mandatoSenado.mandato?.inicio && mandatoSenado.mandato?.fim
+                      ? `, de ${dataCurta(mandatoSenado.mandato.inicio)} a ${dataCurta(mandatoSenado.mandato.fim)}`
+                      : ""}
+                    {c.cargo !== "Senador"
+                      ? ` e disputa agora o cargo de ${c.cargo}`
+                      : ""}
+                    .
+                  </p>
+
+                  {/*
+                    Agrupamento por tipo, nunca um total único: somar um
+                    requerimento de sessão solene com um projeto de lei
+                    descreveria mal. E a lista abaixo é descritiva — não há
+                    contagem em destaque, porque contagem convida a comparar.
+                  */}
+                  <div className="mt-4 border-y border-tinta-300 py-4">
+                    <p className="rotulo-meta mb-3">
+                      Matérias de autoria, por tipo
+                    </p>
+                    <ul className="flex flex-wrap gap-2">
+                      {mandatoSenado.materiasPorTipo.map((t) => (
+                        <li key={t.sigla}>
+                          <Badge variant="discreto">
+                            {t.sigla} · {t.total}
+                          </Badge>
+                        </li>
+                      ))}
+                    </ul>
+                    <p className="mt-3 text-xs text-tinta-600">
+                      Tipos diferentes têm peso diferente: RQS e REQ são
+                      requerimentos de tramitação; PL, PLP e PEC são propostas
+                      de norma. Por isso não há um total único.
+                    </p>
+                  </div>
+
+                  <div className="mt-5">
+                    <p className="rotulo-meta mb-3">
+                      Propostas de norma mais recentes
+                    </p>
+                    <Table>
+                      <TableHeader>
+                        <TableRow>
+                          <TableHead>Matéria</TableHead>
+                          <TableHead>Ementa</TableHead>
+                          <TableHead>Autoria</TableHead>
+                        </TableRow>
+                      </TableHeader>
+                      <TableBody>
+                        {mandatoSenado.materias
+                          .filter((m) =>
+                            ["PL", "PLP", "PEC", "PDL"].includes(m.sigla ?? ""),
+                          )
+                          .slice(0, 12)
+                          .map((m) => (
+                            <TableRow key={m.id}>
+                              <TableCell className="whitespace-nowrap font-mono text-xs">
+                                {m.identificacao ?? "—"}
+                              </TableCell>
+                              <TableCell className="max-w-md">
+                                {m.ementa ?? "Sem ementa registrada"}
+                              </TableCell>
+                              <TableCell className="whitespace-nowrap">
+                                {m.autorPrincipal ? "Autor principal" : "Coautor"}
+                              </TableCell>
+                            </TableRow>
+                          ))}
+                      </TableBody>
+                    </Table>
+                    <p className="mt-3 text-xs text-tinta-600">
+                      As 12 mais recentes entre projetos e propostas de emenda.
+                      A lista completa está no portal do Senado.
+                    </p>
+                  </div>
+
+                  <Alert className="mt-5">
+                    <AlertTitle>Gasto de gabinete não disponível</AlertTitle>
+                    <AlertDescription>
+                      O equivalente senatorial da cota parlamentar (CEAPS) não
+                      está nos dados abertos do Senado em formato que possamos
+                      coletar. Por isso a ficha de senador não mostra despesas,
+                      enquanto a de deputado federal mostra — a diferença é da
+                      fonte, não da pessoa.
+                    </AlertDescription>
+                  </Alert>
+                </DadoOficial>
+              </TabsContent>
+            ) : null}
+
+            {/* ---------- Mandato na Câmara (só quando há) ---------- */}
+            {mandato && !mandatoSenado ? (
               <TabsContent value="mandato">
                 <DadoOficial
                   titulo={`Cota parlamentar — legislatura ${LEGISLATURA}`}

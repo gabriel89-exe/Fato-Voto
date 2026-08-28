@@ -17,7 +17,7 @@ lugar errado com confiança.
 | TSE — DivulgaCandContas | Candidaturas, bens, propostas, certidões | Sim, via `fetch` do Node |
 | TSE — Dados Abertos | Os mesmos dados, em lote (ZIP/CSV) | Não testado |
 | Câmara dos Deputados | Mandato federal: votações, despesas, proposições | Sim, livre |
-| Senado Federal | Mandato no Senado | Sim, livre |
+| Senado Federal | Mandato: autorias e mandatos | Sim, livre |
 | Portal da Transparência | Emendas parlamentares | Sim, **exige token** |
 | ALES (Assembleia do ES) | Mandato estadual | Não há API |
 
@@ -169,7 +169,30 @@ de siglas — troca de partido é fato público relevante, registrado sem adjeti
 ## Senado Federal
 
 `https://legis.senado.leg.br/dadosabertos` — aberta, funciona por script.
-Devolve JSON com estrutura herdada de XML (bastante aninhada).
+
+```
+/senador/lista/atual?uf={UF}
+/senador/{codigo}
+/senador/{codigo}/mandatos
+/senador/{codigo}/autorias?ano={ano}
+```
+
+### Duas armadilhas
+
+**1. Campo ora objeto, ora array.** Com um resultado a API devolve objeto; com
+vários, array — herança do XML de origem. Tratar caso a caso é receita para bug
+silencioso; normalize sempre (ver `lista()` em `scripts/coleta/senado.mjs`).
+
+**2. Mandatos vêm em ordem decrescente.** Pegar o último elemento do array traz
+o mandato mais **antigo**. Magno Malta apareceu com mandato 2003–2011 em vez do
+atual, que vai até 2031. Escolha pela data de fim, nunca pela posição.
+
+### Não há CEAPS aqui
+
+O equivalente senatorial da cota parlamentar não está nesta API e não foi
+localizado em formato aberto. Enquanto não estiver, a ficha de senador não
+mostra gasto — e **diz que não mostra**, para a diferença em relação à ficha de
+deputado federal não ser lida como diferença entre as pessoas.
 
 ---
 
