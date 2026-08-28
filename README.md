@@ -38,6 +38,11 @@ npm run coleta:camara
 > `npx next ...` não funcionam nesta pasta — renomear a pasta para algo sem `&`
 > resolveria de vez.
 
+> **Não rode `npm run build` com o `npm run dev` ligado.** Os dois escrevem em
+> `.next`, e o build sobrescreve os chunks que o dev server está servindo. O
+> sintoma é `Cannot find module ./vendor-chunks/next.js` e páginas em branco.
+> Se acontecer: pare o dev, `rm -rf .next`, suba de novo.
+
 ## Antes de mexer no projeto
 
 Dois documentos valem mais que este README, e devem ser lidos primeiro:

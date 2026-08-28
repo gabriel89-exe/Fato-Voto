@@ -45,22 +45,35 @@ export function obterCandidatura(id: string): Candidatura | undefined {
  *
  * As duas fontes nao compartilham identificador — o TSE usa o id da
  * candidatura, a Camara usa o id do parlamentar —, entao o casamento e
- * por nome. Exige que BATAM OS DOIS nomes, o de urna e o civil: entre
- * as 575 candidaturas do ES ha nome de urna repetido, e ligar a pessoa
- * errada a um gasto publico seria muito pior que deixar de ligar.
+ * por nome.
  *
- * Nao filtra por cargo de proposito. Deputado federal em exercicio que
- * disputa outro cargo continua tendo mandato, e esconde-lo seria
- * esconder justamente o que o eleitor tem mais motivo para consultar —
- * na coleta de 27/08/2026, dois dos dez deputados do ES estao nessa
- * situacao. A aba diz com todas as letras que o mandato e de deputado
- * federal, para ninguem confundir com o cargo em disputa.
+ * CASA PELO NOME CIVIL, nao pelo de urna. O nome de urna e escolhido a
+ * cada eleicao e muda: em 2026, tres dos dez deputados do ES trocaram
+ * ("Evair Vieira de Melo" virou "EVAIR DE MELO", que ainda por cima
+ * concorre ao Senado). Exigir o nome de urna escondia o mandato de
+ * justamente quem o eleitor tem mais motivo para consultar.
+ *
+ * Ambiguidade derruba o vinculo DOS DOIS LADOS: so liga se houver
+ * exatamente um parlamentar com aquele nome civil E se esta for a
+ * unica candidatura com o mesmo nome — entre as 575 do ES ha um nome
+ * civil repetido. Ligar a pessoa errada a um gasto publico seria muito
+ * pior que deixar de ligar.
+ *
+ * Nao filtra por cargo de proposito: deputado federal em exercicio que
+ * disputa outro cargo continua tendo mandato. A aba diz com todas as
+ * letras que o mandato e de deputado federal, para ninguem confundir
+ * com o cargo em disputa.
  */
 export function obterMandato(candidatura: Candidatura): Parlamentar | null {
-  const urna = normalizar(candidatura.nomeUrna);
   const civil = normalizar(candidatura.nomeCompleto);
+
+  const homonimas = candidaturas.filter(
+    (c) => normalizar(c.nomeCompleto) === civil,
+  );
+  if (homonimas.length !== 1) return null;
+
   const achados = parlamentares.filter(
-    (p) => normalizar(p.nomeUrna) === urna && normalizar(p.nomeCivil) === civil,
+    (p) => normalizar(p.nomeCivil) === civil,
   );
   return achados.length === 1 ? achados[0] : null;
 }
