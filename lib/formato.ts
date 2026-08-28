@@ -21,8 +21,14 @@ const MESES = [
   "dezembro",
 ];
 
+/**
+ * As fontes misturam dois formatos: data curta ("2026-08-14") vinda do
+ * TSE e carimbo completo ("2026-08-27T20:31:31.719Z") gravado pela
+ * coleta. Cortar no "T" resolve os dois sem `new Date`, que mudaria o
+ * dia conforme o fuso de quem abre a pagina.
+ */
 function partes(iso: string): [number, number, number] {
-  const [ano, mes, dia] = iso.split("-").map(Number);
+  const [ano, mes, dia] = iso.split("T")[0].split("-").map(Number);
   return [ano, mes, dia];
 }
 

@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
-import { ESTADO } from "@/lib/dados";
+import { ELEICAO, ESTADO } from "@/lib/eleicao";
 
 const LINKS = [
   { href: "/", rotulo: "Início" },
@@ -40,7 +40,7 @@ export default function Cabecalho() {
             Fato&nbsp;<span className="text-acento">&amp;</span>&nbsp;Voto
           </Link>
           <span className="hidden font-mono text-[0.6rem] uppercase tracking-[0.2em] text-tinta-400 lg:inline">
-            {ESTADO.nome} · Ed. {ESTADO.anoEleicao} · Registro público
+            {ESTADO.nome} · Eleição {ELEICAO.ano} · Registro público
           </span>
         </div>
 

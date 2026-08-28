@@ -1,13 +1,13 @@
 import Link from "next/link";
-import { ESTADO } from "@/lib/dados";
+import { ELEICAO, ESTADO } from "@/lib/eleicao";
 
 const LINKS = [
   { href: "/metodologia", rotulo: "Metodologia" },
   { href: "/fontes", rotulo: "Fontes dos dados" },
   { href: "/candidatos", rotulo: "Lista de candidatos" },
   { href: "/comparar", rotulo: "Comparar candidatos" },
-  // Pagina de trabalho, nao de produto. Fica so aqui, fora da navegacao
-  // principal, e sai do rodape quando o prototipo virar site.
+  // Pagina de trabalho, nao de produto: a vitrine dos componentes.
+  // Fica so aqui, fora da navegacao principal.
   { href: "/interface", rotulo: "Kit de interface" },
 ];
 
@@ -21,23 +21,28 @@ export default function Rodape() {
             Fato <span className="text-acento">&amp;</span> Voto
           </p>
           <p className="mt-1 font-mono text-[0.62rem] uppercase tracking-[0.2em] text-tinta-400">
-            {ESTADO.nome} ({ESTADO.sigla}) · Edição {ESTADO.anoEleicao} ·
-            Protótipo
+            {ESTADO.nome} ({ESTADO.sigla}) · Eleição {ELEICAO.ano} · Dados
+            públicos
           </p>
 
           <div className="mt-5 space-y-3 border-l-2 border-tinta-900 pl-4 text-sm text-tinta-700">
             <p>
               <strong className="font-bold text-tinta-900">
-                Este site é um protótipo.
+                Projeto autônomo.
               </strong>{" "}
-              Pessoas, partidos, siglas, números, propostas, votações e valores
-              são inventados para testar a interface. Nada aqui descreve pessoas
-              ou partidos reais.
+              Sem vínculo, financiamento ou preferência partidária. Não faz
+              campanha para ninguém e não aceita patrocínio de partido ou de
+              candidatura.
             </p>
             <p>
               Esta plataforma não recomenda, não classifica, não pontua e não
-              ordena candidatos por mérito. Ela mostra os dados e deixa a escolha
-              com você.
+              ordena candidaturas por mérito. A ordem das listas é sorteada.
+              Ela mostra os dados públicos e deixa a escolha com você.
+            </p>
+            <p>
+              Todo dado vem de fonte oficial, com a data da coleta indicada.
+              Encontrou divergência entre o que está aqui e o registro oficial?{" "}
+              <Link href="/fontes">Veja as fontes</Link> e nos avise.
             </p>
           </div>
         </div>
@@ -63,8 +68,8 @@ export default function Rodape() {
 
       <div className="border-t border-tinta-300">
         <p className="envelope py-4 font-mono text-[0.62rem] uppercase tracking-[0.16em] text-tinta-400">
-          Protótipo · dados fictícios · nenhuma pessoa, partido ou órgão real é
-          descrito
+          Dados do Tribunal Superior Eleitoral e da Câmara dos Deputados ·
+          Registro de candidaturas ainda em julgamento
         </p>
       </div>
     </footer>

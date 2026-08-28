@@ -14,8 +14,8 @@ lugar errado com confiança.
 
 | Fonte | Entrega | Acesso por script? |
 |---|---|---|
-| TSE — DivulgaCandContas | Candidaturas, bens, propostas, certidões | Só via navegador |
-| TSE — Dados Abertos | Os mesmos dados, em lote (ZIP/CSV) | Só via navegador |
+| TSE — DivulgaCandContas | Candidaturas, bens, propostas, certidões | Sim, via `fetch` do Node |
+| TSE — Dados Abertos | Os mesmos dados, em lote (ZIP/CSV) | Não testado |
 | Câmara dos Deputados | Mandato federal: votações, despesas, proposições | Sim, livre |
 | Senado Federal | Mandato no Senado | Sim, livre |
 | Portal da Transparência | Emendas parlamentares | Sim, **exige token** |
@@ -58,6 +58,25 @@ A ordem dos segmentos importa: `.../2026/ES/{idEleicao}/...` funciona,
 | 7 | Deputado Estadual |
 | 9 / 10 | 1º e 2º Suplente de senador |
 
+### Tipos de documento (codTipo)
+
+O TSE não publica esta tabela. Levantada cruzando o `codTipo` com nomes de
+arquivo auto-descritivos nas 4.026 peças coletadas no ES:
+
+| codTipo | Documento |
+|---|---|
+| 5 | Proposta de governo |
+| 11 | Certidão criminal — Justiça Federal, 1º grau |
+| 12 | Certidão criminal — Justiça Federal, 2º grau |
+| 13 | Certidão criminal — Justiça Estadual, 1º grau |
+| 14 | Certidão criminal — Justiça Estadual, 2º grau |
+| 15 | Certidão da Justiça Eleitoral |
+
+**Proposta de governo só existe para Presidente e Governador.** A lei só a
+exige de candidatura majoritária do Executivo. Na coleta do ES: 18 de 18
+obrigadas anexaram, e nenhuma das 557 não-obrigadas. Escrever "proposta não
+fornecida" na ficha de um deputado inventaria uma falta inexistente.
+
 ### O que o detalhe do candidato traz
 
 Numa única chamada: identificação e número de urna, partido e coligação, bens
@@ -85,10 +104,11 @@ espaço vazio sem explicação é lido como culpa do candidato.
 | Governador | 5 |
 | Senador | 11 |
 | Deputado Federal | 136 |
-| Deputado Estadual | 409 |
-| **Total** | **574** |
+| Deputado Estadual | 410 |
+| **Total** | **575** |
 
-574 chamadas de detalhe. Coleta de minutos, não de gigabytes.
+575 chamadas de detalhe (coleta de 27/08/2026 — o número muda a cada dia,
+conforme renúncias e substituições). Coleta de minutos, não de gigabytes.
 
 ---
 
@@ -104,14 +124,14 @@ DivulgaCandContas é melhor: mais fresco e sem ZIP de dezenas de MB.
 
 ## O bloqueio da Akamai (vale para todo `tse.jus.br`)
 
-Todo o domínio responde **403 Access Denied** para cliente programático —
-`curl`, `fetch` de servidor, biblioteca HTTP — **mesmo com User-Agent de
-navegador**. O bloqueio é de borda: acontece antes de a aplicação ver a
-requisição.
+Todo o domínio responde **403 Access Denied** ao `curl`, **mesmo com
+User-Agent de navegador**. O bloqueio é de borda: acontece antes de a
+aplicação ver a requisição.
 
-De dentro de um navegador real funciona normalmente. Consequência prática: **a
-coleta do TSE precisa de navegador headless (Playwright)**. Câmara, Senado e
-Portal da Transparência não têm essa restrição.
+**Mas o `fetch` do Node passa normalmente**, sem cabeçalho nenhum. O bloqueio
+é por impressão TLS do cliente, não por User-Agent — o `curl` é reconhecido, o
+Node não. Consequência prática: **a coleta roda em Node puro, sem navegador
+headless**. Verificado em 27/08/2026.
 
 Sintoma que engana: um caminho errado também volta 403 em vez de 404, porque a
 borda responde antes. Ao depurar endpoint do TSE, teste primeiro no navegador —

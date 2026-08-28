@@ -13,8 +13,8 @@ const SECOES = [
   {
     titulo: "Dado oficial e texto nosso",
     paras: [
-      "O site tem dois tipos de conteúdo e eles nunca se misturam. O dado oficial aparece em bloco com moldura azul e barra na lateral, sempre com a fonte e a data da coleta. O resumo escrito por nós aparece em bloco de moldura tracejada, com aviso de que foi produzido pela plataforma.",
-      "Nossos resumos só reorganizam o que está no documento, em frases mais curtas. Eles não avaliam, não comparam e não dizem se uma proposta é boa.",
+      "O dado oficial aparece em bloco com moldura azul e barra na lateral, sempre com a fonte e a data da coleta. Texto escrito pela plataforma, quando existir, aparecerá em moldura diferente e avisada — os dois nunca se misturam.",
+      "Nesta versão, todo o conteúdo das fichas vem direto da fonte oficial. Não há resumo nosso de proposta de governo: o documento é linkado como foi entregue.",
     ],
   },
   {
@@ -33,7 +33,8 @@ const SECOES = [
   {
     titulo: "Por que a ordem é sorteada",
     paras: [
-      "Qualquer ordem fixa favorece alguém. A ordem alfabética favorece nomes com A. A ordem por número favorece partidos antigos. Por isso a lista sai sorteada, e o sorteio vale para a sua sessão inteira, para a lista não mudar embaixo do seu dedo. Você pode trocar para ordem por nome ou por número quando quiser.",
+      "Qualquer ordem fixa favorece alguém. A ordem alfabética favorece nomes com A. A ordem por número favorece partidos antigos. Por isso a lista sai sorteada.",
+      "O sorteio usa uma semente fixa por dia: a ordem é a mesma para todas as pessoas que acessam no mesmo dia, não muda enquanto você navega, e muda no dia seguinte. Como a semente é a data, qualquer pessoa pode reproduzir a ordem de um dia e conferir que não houve favorecimento.",
     ],
   },
   {
@@ -68,10 +69,12 @@ export default function PaginaMetodologia() {
 
         <Alert className="mt-6">
           <IconeInfo />
-          <AlertTitle>Este site é um protótipo</AlertTitle>
+          <AlertTitle>O registro das candidaturas ainda está em julgamento</AlertTitle>
           <AlertDescription>
-            Os dados exibidos foram inventados para testar a interface. O texto
-            abaixo descreve como a plataforma funcionaria com dados reais.
+            Os dados vêm do Tribunal Superior Eleitoral e da Câmara dos
+            Deputados. Como a Justiça Eleitoral ainda julga os pedidos de
+            registro, parte das candidaturas listadas pode não chegar à urna.
+            A data da coleta aparece em cada bloco de dado.
           </AlertDescription>
         </Alert>
 

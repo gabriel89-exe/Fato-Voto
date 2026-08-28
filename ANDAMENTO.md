@@ -1,100 +1,77 @@
 # Andamento
 
-Ordem de execução do plano original.
+## Onde estamos
 
-- [x] **1. Tipos e dados fictícios** — `/types`, `/data`, `/scripts/gerar-dados.mjs`
-- [x] **2. Layout base, tarja, sistema visual, `DadoOficial`, `ResumoPlataforma`**
-- [ ] **3. Busca, filtros e ordenação sorteada em `/lib`**
-- [ ] **4. Página de lista com busca e filtros**
-- [ ] **5. Página de perfil com abas e gráficos**
-- [ ] **6. Comparador**
-- [x] **7. Metodologia e fontes** — feitas fora de ordem por serem curtas e por
-      estarem linkadas no rodapé de todas as páginas desde o passo 2
-- [ ] **8. Passada final de acessibilidade e responsividade em 360 px**
+O site saiu do protótipo. Em **27/08/2026** os dados fictícios de "Serra Verde"
+foram removidos e substituídos por dados públicos reais do **Espírito Santo**:
+575 candidaturas de 2026 (TSE) e o mandato dos 10 deputados federais do estado
+(Câmara dos Deputados).
 
-## Fora da numeração
+## Pronto
 
-- [x] **Kit de interface (shadcn/ui)** — `components/ui/*`, vitrine em
-      `/interface`. Feito fora da ordem porque os passos 3 a 6 dependem dos
-      mesmos controles (abas, sanfona, gaveta, diálogo, tabela); construí-los
-      uma vez evita três dialetos de botão no mesmo site.
+- [x] **Kit de interface** — 28 componentes shadcn/ui vestidos com a identidade
+      GAZETA, mais a vitrine em `/interface`.
+- [x] **Camada de coleta** — TSE e Câmara, com snapshot bruto, hash SHA-256,
+      manifesto e normalização separada da coleta.
+- [x] **Busca e sorteio** — busca por nome ou prefixo do número de urna;
+      ordem sorteada com semente fixa por dia.
+- [x] **Lista de candidaturas** — recorte por cargo, contagem em `aria-live`,
+      estado vazio com saída.
+- [x] **Ficha de candidatura** — abas Perfil, Proposta, Bens, Histórico e
+      Mandato (esta só quando existe), com procedência em cada bloco.
+- [x] **Gráficos** — composição (rosca) e evolução (linha), SVG à mão, com
+      tabela acessível ao lado.
+- [x] **Inventário de fontes** — `/fontes` publica também as lacunas.
+- [x] **Responsividade em 360 px** — todas as rotas, sem rolagem horizontal.
 
-## Provisório no momento
+## Falta
 
-- `/candidatos` lista todo mundo na ordem do arquivo, **sem sorteio**, com aviso
-  na tela. Vira a lista real no passo 4.
-- `/candidato/[id]` mostra cabeçalho, faixa de situação, proposta e dados
-  declarados, **sem abas e sem gráficos**. Vira o perfil completo no passo 5.
-- `/comparar` é só um aviso de "ainda não construído".
+- [ ] **Emendas parlamentares** — depende do token do Portal da Transparência.
+- [ ] **Votações e projetos** — Câmara e Senado, fontes abertas já mapeadas.
+- [ ] **Senadores do ES** — a API do Senado funciona; falta a coleta.
+- [ ] **Atuação de deputado estadual** — a ALES não tem API. Maior incerteza.
+- [ ] **Comparador** — `/comparar` ainda é um aviso.
+- [ ] **Filtros facetados** — partido, situação, faixa etária, escolaridade.
+      Os controles já existem no kit.
+- [ ] **Coleta agendada** — hoje é manual. Em período eleitoral precisa ser
+      diária, porque a situação do registro muda todo dia.
+- [ ] **Página "Quem somos"** — com responsável identificado e canal de
+      correção. Necessária antes de divulgar.
 
-## Próximos passos, em ordem
+## Decisões registradas
 
-### 3. `lib/busca.ts` — busca, filtros e sorteio
+**A tarja mudou de sentido.** Antes avisava que os dados eram fictícios. Agora
+informa a data da coleta e quantos registros ainda estão em julgamento — que é
+o alerta que importa nesta fase da eleição.
 
-O passo que destrava os outros. Nada de UI aqui: funções puras, testáveis, que
-recebem a lista e o `EstadoFiltros` (já tipado em `types/index.ts`) e devolvem a
-lista final.
+**Proposta de governo só existe para Presidente e Governador.** A lei só a exige
+de candidatura majoritária do Executivo. A ficha de um deputado diz que o cargo
+não entrega o documento, em vez de dizer que ele não foi fornecido — a segunda
+frase inventaria uma omissão inexistente.
 
-1. `normalizar(texto)` — minúsculas e sem acento, para "goncalves" achar
-   "Gonçalves".
-2. `buscar(candidatos, termo)` — casa por nome de urna, nome civil e **prefixo**
-   do número de urna. Devolve também as faixas casadas, para o realce que
-   `CartaoCandidato` já aceita em `realceNome` / `realceNumero`.
-3. `filtrar(candidatos, filtros)` — recortes facetados, todos combináveis.
-4. `ordenar(candidatos, ordem, semente)` — **sorteada é o padrão**. Use uma
-   semente derivada da sessão, não do relógio, para a ordem não trocar a cada
-   tecla digitada e a pessoa não perder o item que estava lendo.
-5. `filtrosDaUrl` / `urlDosFiltros` — o `EstadoFiltros` inteiro vive na query
-   string, para que a lista filtrada seja compartilhável e o botão Voltar
-   funcione.
+**Mandato aparece mesmo quando a pessoa disputa outro cargo.** Deputado federal
+em exercício que concorre a governador continua tendo mandato, e escondê-lo
+seria esconder o que o eleitor tem mais motivo para consultar. A aba diz com
+todas as letras que o mandato é de deputado federal.
 
-### 4. Lista com busca e filtros
+**Casamento entre TSE e Câmara exige nome de urna E nome civil.** As duas fontes
+não compartilham identificador. Entre as 575 candidaturas do ES há nome de urna
+repetido; exigir os dois nomes evita ligar a pessoa errada a um gasto público.
 
-Já é montável só com o que existe em `components/ui`:
+**Nenhum total de despesa vai à tela sozinho.** Sempre ao lado da mediana e da
+faixa da bancada. Sem denominador, número maior parece melhor ou pior — e isso
+seria um ranking involuntário.
 
-- régua de cargo → `ToggleGroup`
-- ordem → `Select` ou `RadioGroup`
-- grupos de filtro → `Accordion` + `Checkbox`
-- filtros no celular → `Sheet` (coluna fixa a partir de `lg`)
-- recortes ativos → `Badge` com botão de remover
-- carregando → `Skeleton` em `app/candidatos/loading.tsx`
+**CPF e título de eleitor são descartados na coleta**, antes de qualquer
+gravação. Nem o snapshot bruto os conserva.
 
-Cuidados: manter o `<form method="get">` funcionando sem JavaScript; anunciar a
-contagem de resultados em uma região `aria-live`; e deixar visível que a ordem
-é sorteada, com o link para a metodologia.
+## Como rodar a coleta
 
-### 5. Perfil com abas e gráficos
+```bash
+npm run coleta:tse              # 575 candidaturas do ES (TSE)
+npm run coleta:camara           # bancada federal do ES (Câmara)
+npm run coleta:tse:normalizar   # reconstrói o normalizado sem tocar na rede
+```
 
-- `Tabs` para Perfil / Proposta / Mandato / Bens.
-- `Table` (+ `TableCellNumero`) para votações e bens.
-- `Progress` para a composição da presença — dentro de uma ficha, nunca entre
-  fichas.
-- Gráficos ainda **não têm biblioteca escolhida**: `recharts` é o caminho do
-  shadcn (`npm run ui -- add chart`), mas a paleta `grafico.1…5` do
-  `tailwind.config.ts` é monocromática de propósito e precisa ser respeitada.
-  Decidir isso antes de escrever o primeiro gráfico.
-
-### 6. Comparador
-
-`Dialog` + `Command` para escolher de 2 a 3 candidaturas do mesmo cargo, e
-`Table` para colocá-las lado a lado com os mesmos campos na mesma ordem. A
-seleção também vai para a query string.
-
-### 8. Passada final
-
-- Percorrer o site em 360 px procurando rolagem horizontal. Item de grid tem
-  `min-width: auto` e não encolhe sozinho: onde houver conteúdo largo dentro de
-  grade, falta `min-w-0` (foi exatamente o defeito encontrado e corrigido no
-  kit).
-- Navegar tudo só pelo teclado, conferindo que o contorno de foco de 3px nunca
-  some.
-- Rodar um leitor de tela nas fichas, confirmando que `DadoOficial` e
-  `ResumoPlataforma` se anunciam como coisas diferentes.
-
-## Dívidas conhecidas
-
-- `npm audit` acusa `postcss` (via `next`), com correção só em `next@16`.
-  Anterior ao kit de interface; decidir junto com a atualização do Next.
-- `globals.css` ainda tem `.botao-primario`, `.botao-secundario` e `.campo`, que
-  hoje duplicam `Button` e `Input`. Deixe de usá-los em código novo; apague
-  quando não houver mais nenhuma ocorrência.
+O terceiro existe porque corrigir uma regra de normalização não deve custar 575
+requisições a um serviço público.

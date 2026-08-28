@@ -1,129 +1,190 @@
 /**
- * Tipos das entidades do prototipo.
- * Todos os dados sao ficticios; os tipos, porem, ja preveem o formato
- * que virá de uma coleta real (proveniencia, data de coleta, url de origem).
+ * Tipos das entidades reais.
+ *
+ * Espelham o que as fontes publicas devolvem depois da normalizacao em
+ * scripts/coleta. Nao invente campo que a fonte nao tem: se um dado
+ * nao existe, ele e `null` e a tela DIZ que nao existe.
+ *
+ * Ver docs/fontes-de-dados.md.
  */
 
-export type Cargo = "Governador" | "Senador";
+export type Cargo =
+  | "Presidente"
+  | "Governador"
+  | "Senador"
+  | "Deputado Federal"
+  | "Deputado Estadual";
 
-export type SituacaoRegistro =
-  | "Deferido"
-  | "Deferido com recurso"
-  | "Sub judice"
-  | "Indeferido";
-
-export type Genero = "Masculino" | "Feminino";
-
-export type CorRaca = "Branca" | "Preta" | "Parda" | "Amarela" | "Indígena";
-
-export type Escolaridade =
-  | "Ensino Fundamental Completo"
-  | "Ensino Médio Incompleto"
-  | "Ensino Médio Completo"
-  | "Superior Incompleto"
-  | "Superior Completo";
-
-/** Voto registrado em uma votacao nominal. */
-export type Voto = "Sim" | "Não" | "Abstenção" | "Obstrução" | "Ausente";
+/** Ordem em que os cargos aparecem em qualquer lista ou seletor. */
+export const CARGOS: Cargo[] = [
+  "Presidente",
+  "Governador",
+  "Senador",
+  "Deputado Federal",
+  "Deputado Estadual",
+];
 
 export interface Partido {
-  id: string;
-  nome: string;
   sigla: string;
-  numero: number;
-  /** Cor usada apenas na pastilha identificadora, nunca como fundo de cartao. */
-  cor: string;
+  nome: string;
 }
 
 export interface Bem {
   ordem: number;
   tipo: string;
   descricao: string;
-  /** Valor nominal declarado, em reais, sem correcao pela inflacao. */
-  valorNominal: number;
+  valor: number;
+  atualizadoEm: string | null;
 }
 
-export interface BemHistorico {
-  ano: number;
-  valorTotal: number;
-}
-
-export interface Mandato {
-  cargo: string;
-  inicio: string;
-  fim: string | null;
-  casa: string;
-}
-
-export interface Votacao {
-  id: string;
-  data: string;
-  /** Tipo da proposicao: PL, PEC, PDL, REQ... */
+/** Peca anexada ao registro: proposta de governo, certidoes. */
+export interface Documento {
+  id: number;
+  nomeArquivo: string;
   tipo: string;
-  numero: number;
+  codTipo: number;
+}
+
+export interface EleicaoAnterior {
   ano: number;
-  ementa: string;
-  voto: Voto;
-  urlOficial: string;
+  cargo: string;
+  partido: string;
+  uf: string;
+  resultado: string | null;
 }
 
-export interface Presenca {
-  presente: number;
-  ausenciaJustificada: number;
-  licenca: number;
-  missaoOficial: number;
-  ausenciaSemJustificativa: number;
+/**
+ * `exigida` separa "o cargo nao pede proposta" de "o cargo pede e a
+ * candidatura nao entregou". Sem essa distincao a ficha de um deputado
+ * acusaria uma omissao que nao existe — a lei so exige proposta de
+ * candidatura majoritaria do Executivo.
+ */
+export interface Proposta {
+  exigida: boolean;
+  documento: Documento | null;
 }
 
-export interface Atuacao {
-  legislatura: string;
-  proposicoesAutorPrincipal: number;
-  proposicoesCoautor: number;
-  votacoes: Votacao[];
-  presenca: Presenca;
+/**
+ * O que o TSE autoriza divulgar, caso a caso. Quando vier `false`, a
+ * tela precisa DIZER que o dado foi omitido por determinacao da fonte.
+ */
+export interface DivulgacaoAutorizada {
+  ficha: boolean;
+  bens: boolean;
+  documentos: boolean;
 }
 
-export interface PropostaDocumento {
-  paginas: number;
-  urlOriginal: string;
-  urlEspelho: string;
-  coletadoEm: string;
-  hash: string;
-}
-
-export interface Proveniencia {
-  fonte: string;
-  coletadoEm: string;
-  urlOriginal: string;
-}
-
-export interface Candidato {
+export interface Candidatura {
   id: string;
+  cargo: Cargo;
+  uf: string;
+  nomeUrna: string;
+  nomeCompleto: string;
+  numero: number;
+  partido: Partido | null;
+  coligacao: string | null;
+
+  situacaoRegistro: string | null;
+  situacaoCandidatura: string | null;
+  apto: boolean;
+  disputaReeleicao: boolean;
+
+  dataNascimento: string | null;
+  genero: string | null;
+  corRaca: string | null;
+  escolaridade: string | null;
+  ocupacao: string | null;
+  naturalidade: string | null;
+
+  bens: Bem[];
+  totalBens: number | null;
+
+  proposta: Proposta;
+  documentos: Documento[];
+
+  eleicoesAnteriores: EleicaoAnterior[];
+  primeiraCandidatura: boolean;
+
+  divulgacaoAutorizada: DivulgacaoAutorizada;
+  paginaOficial: string;
+}
+
+export interface Fonte {
+  nome: string;
+  url: string;
+  licenca: string;
+}
+
+export interface ArquivoCandidaturas {
+  fonte: Fonte;
+  eleicao: { ano: number; idEleicao: string; uf: string };
+  coletadoEm: string;
+  total: number;
+  candidaturas: Candidatura[];
+}
+
+/* ------------------------------------------------------------------ */
+/*  Mandato em exercicio — Camara dos Deputados                        */
+/* ------------------------------------------------------------------ */
+
+export interface DespesaPorTipo {
+  tipo: string;
+  valor: number;
+}
+
+export interface DespesaPorMes {
+  /** "2024-03" */
+  competencia: string;
+  valor: number;
+}
+
+export interface Despesas {
+  total: number;
+  documentos: number;
+  porTipo: DespesaPorTipo[];
+  porMes: DespesaPorMes[];
+}
+
+export interface Parlamentar {
+  id: string;
+  idExterno: number;
+  cargo: "Deputado Federal";
+  uf: string;
   nomeUrna: string;
   nomeCivil: string;
-  /** Numero de urna. Governador tem 2 digitos, Senador tem 3. */
-  numero: number;
-  cargo: Cargo;
-  partidoId: string;
-  coligacao: string;
+  partido: string | null;
+  /** Siglas pelas quais passou na legislatura, na ordem da fonte. */
+  siglasNaLegislatura: string[];
+  trocouDePartido: boolean;
+  situacao: string | null;
+  condicaoEleitoral: string | null;
+  dataNascimento: string | null;
+  ufNascimento: string | null;
+  escolaridade: string | null;
+  urlFotoOficial: string | null;
+  paginaOficial: string;
+  despesas: Despesas;
+}
+
+/**
+ * Denominador da bancada. Nenhum total de despesa vai para a tela sem
+ * estes numeros ao lado: valor absoluto sozinho vira ranking
+ * involuntario. Ver docs/principios.md, regra 4.
+ */
+export interface ReferenciaBancada {
+  bancada: number;
+  medianaDespesas: number;
+  menor: number;
+  maior: number;
+}
+
+export interface ArquivoParlamentares {
+  fonte: Fonte;
   uf: string;
-  dataNascimento: string;
-  genero: Genero;
-  corRaca: CorRaca;
-  escolaridade: Escolaridade;
-  ocupacaoDeclarada: string;
-  situacaoRegistro: SituacaoRegistro;
-  disputaReeleicao: boolean;
-  /** Placeholder gerado por codigo. Nenhuma foto real e usada no prototipo. */
-  fotoUrl: string | null;
-  propostaResumo: string;
-  propostaDocumento: PropostaDocumento;
-  bens: Bem[];
-  bensHistorico: BemHistorico[];
-  mandatos: Mandato[];
-  /** null quando a pessoa nunca exerceu mandato. */
-  atuacao: Atuacao | null;
-  proveniencia: Proveniencia;
+  legislatura: number;
+  coletadoEm: string;
+  referencia: ReferenciaBancada;
+  parlamentares: Parlamentar[];
 }
 
 /** Estado de busca e filtros, espelhado na query string da URL. */
@@ -131,11 +192,5 @@ export interface EstadoFiltros {
   busca: string;
   cargo: Cargo | null;
   partidos: string[];
-  situacoes: SituacaoRegistro[];
-  reeleicao: "sim" | "nao" | null;
-  generos: Genero[];
-  coresRaca: CorRaca[];
-  faixasEtarias: string[];
-  escolaridades: Escolaridade[];
-  ordem: "sorteada" | "nome" | "numero";
+  situacoes: string[];
 }

@@ -1,12 +1,18 @@
-# Fato & Voto — protótipo de transparência eleitoral
+# Fato & Voto
 
-> **PROTÓTIPO. TODOS OS DADOS SÃO FICTÍCIOS.**
-> Partidos, siglas, números, pessoas, municípios, propostas, votações e valores
-> foram inventados para testar interface e navegação. Nada aqui descreve pessoa,
-> partido ou órgão real.
+> Dados públicos das candidaturas do **Espírito Santo** na eleição de 2026.
+> Sem ranking, sem nota, sem recomendação.
 
-Protótipo navegável de uma plataforma que mostra dados públicos de candidaturas
-em linguagem simples. O estado de referência é o fictício **Serra Verde (SV)**.
+Plataforma autônoma de transparência eleitoral. Mostra o que as fontes oficiais
+publicam sobre cada candidatura, em linguagem simples, com a procedência de
+cada dado à vista. Não recebe dinheiro de partido ou de candidatura.
+
+O piloto cobre o Espírito Santo e cinco cargos: Presidente, Governador,
+Senador, Deputado Federal e Deputado Estadual. Os demais estados entram depois
+de o piloto validar o pipeline.
+
+**Fontes:** Tribunal Superior Eleitoral (DivulgaCandContas) e Câmara dos
+Deputados (Dados Abertos).
 
 ## Como rodar
 
@@ -17,17 +23,18 @@ npm run dev
 
 Depois abra <http://localhost:3000>.
 
-Para regerar os dados fictícios (a semente é fixa, o resultado é sempre igual):
+Para atualizar os dados:
 
 ```bash
-npm run dados
+npm run coleta:tse
+npm run coleta:camara
 ```
 
 > **Atenção ao nome da pasta.** O `&` em `fato&voto` quebra o `npx` no Windows,
 > porque o `cmd.exe` corta a linha de comando no `&`. Por isso os scripts do
 > `package.json` chamam o Next direto pelo `node`
 > (`node ./node_modules/next/dist/bin/next dev`) em vez de `next dev`.
-> `npm run dev`, `npm run build` e `npm run dados` funcionam. Comandos com
+> `npm run dev`, `npm run build` e as coletas funcionam. Comandos com
 > `npx next ...` não funcionam nesta pasta — renomear a pasta para algo sem `&`
 > resolveria de vez.
 
@@ -49,12 +56,12 @@ Dois documentos valem mais que este README, e devem ser lidos primeiro:
 /app             rotas (App Router)
 /docs            princípios do projeto e mapa das fontes de dados
 /scripts/coleta  coleta de dados públicos reais (piloto: ES)
-/components      UI do domínio (DadoOficial, ResumoPlataforma, cartões, ícones)
+/components      UI do domínio (DadoOficial, gráficos, cartões, ícones)
 /components/ui   kit shadcn/ui vestido com a identidade do site
-/lib             dados, formatação, cn (busca e sorteio entram no passo 3)
-/data            JSON fictício gerado por /scripts/gerar-dados.mjs
+/lib             acesso aos dados, busca, sorteio, formatação, cn
+/data/es         JSON normalizado que o site lê (versionado)
 /types           tipos TypeScript de todas as entidades
-/scripts         gerador dos dados fictícios
+/dados-brutos    snapshots crus com hash, para auditoria (fora do git)
 ```
 
 ## Interface
@@ -102,22 +109,29 @@ O site não recomenda ninguém, e isso restringe a interface:
 - `Progress` descreve a composição dentro de uma ficha; nunca compara fichas.
 - Informação essencial nunca vive só num `Tooltip`: ele não aparece no toque.
 
-## Estado atual
+## Como os dados chegam aqui
 
-Este README acompanha o andamento e será completado ao final. Veja
-`ANDAMENTO.md` para o que já existe e o que falta.
+A coleta grava em duas camadas, e a separação é o que sustenta a auditoria:
+
+- **`dados-brutos/`** — a resposta original das fontes, intacta, com hash
+  SHA-256 e data, mais um manifesto. Fora do git: é grande e reproduzível
+  rodando a coleta de novo. É o que permite responder *"este é o arquivo, desta
+  hora, com esta impressão digital"* se um dado for contestado.
+- **`data/es/`** — o normalizado que o site lê. Poucas centenas de kB,
+  versionado, servido de CDN. Sem banco em produção.
+
+`npm run coleta:tse:normalizar` reconstrói a segunda camada a partir da
+primeira, sem tocar na rede — corrigir uma regra de normalização não deve
+custar 575 requisições a um serviço público.
 
 ## Decisões que valem registro
 
-- **Números de partido fora da faixa real.** Quase todo número de dois dígitos
-  pertence a alguma legenda real, então os partidos fictícios usam 24, 32, 38,
-  46, 52, 61, 74 e 88. Efeito colateral: nenhum candidato tem número começando
-  em 1, e o exemplo do enunciado ("digitar 1 traz 10, 13, 15") vira "digitar 2
-  traz 24, 241, 243".
-- **Órgão de origem fictício.** Em vez de citar o TSE, os dados apontam para o
-  "Tribunal Eleitoral Fictício de Serra Verde (TEF-SV)". A regra de não
-  confundir o protótipo com um site real vale mais que a nomenclatura. Os
-  rótulos de autodeclaração continuam explícitos em todos os campos.
-- **Sem foto.** `fotoUrl` é `null` em todo mundo e o avatar é gerado por código,
-  com as **mesmas cores para todas as candidaturas** — variar cor por pessoa ou
-  por partido criaria destaque visual onde não pode haver.
+- **Sem foto.** O avatar é gerado por código, com as **mesmas cores para todas
+  as candidaturas**. O TSE publica foto oficial, mas exibi-la criaria destaque
+  visual desigual — quem fotografa melhor apareceria melhor.
+- **CPF e título de eleitor são descartados na coleta**, antes de qualquer
+  gravação. Nem o snapshot bruto os conserva.
+- **As flags `st_DIVULGA` do TSE são respeitadas.** Quando o tribunal não
+  autoriza divulgar um dado, a tela diz que a omissão é da fonte.
+- **Nenhum total de despesa aparece sozinho** — sempre ao lado da mediana e da
+  faixa da bancada. Ver `docs/principios.md`, regra 4.

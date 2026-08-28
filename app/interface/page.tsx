@@ -1,12 +1,12 @@
 import Link from "next/link";
 import KitInterface from "@/components/KitInterface";
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
-import { ESTADO } from "@/lib/dados";
+import { candidaturas, ELEICAO, ESTADO, partidosDistintos } from "@/lib/eleicao";
 
 export const metadata = {
   title: "Kit de interface",
   description:
-    "Componentes de interface do protótipo: shadcn/ui vestido com a identidade GAZETA.",
+    "Componentes de interface do site: shadcn/ui vestido com a identidade GAZETA.",
 };
 
 /**
@@ -23,7 +23,7 @@ export default function PaginaInterface() {
       <header className="entrada">
         <p className="folio flex-wrap justify-between gap-y-1 border-y-2 border-tinta-900 py-2">
           <span>
-            {ESTADO.nome} ({ESTADO.sigla}) — Edição {ESTADO.anoEleicao}
+            {ESTADO.nome} ({ESTADO.sigla}) — Eleição {ELEICAO.ano}
           </span>
           <span className="text-tinta-400">Documento de trabalho</span>
         </p>
@@ -53,17 +53,20 @@ export default function PaginaInterface() {
         </div>
 
         <Alert variant="neutro" className="mt-7">
-          <AlertTitle>Página interna do protótipo</AlertTitle>
+          <AlertTitle>Página interna de trabalho</AlertTitle>
           <AlertDescription>
             Não é conteúdo eleitoral. Os nomes, partidos e valores que aparecem
-            nos exemplos vêm dos dados fictícios de{" "}
-            <Link href="/fontes">Serra Verde</Link> e servem só para mostrar os
-            componentes com conteúdo real de tamanho realista.
+            nos exemplos são dados reais do{" "}
+            <Link href="/fontes">TSE</Link>, para mostrar os componentes com
+            conteúdo de tamanho realista.
           </AlertDescription>
         </Alert>
       </header>
 
-      <KitInterface />
+      <KitInterface
+        amostra={candidaturas.slice(0, 4)}
+        partidos={partidosDistintos().slice(0, 3)}
+      />
 
       <div className="filete-dupla mt-16" />
     </div>

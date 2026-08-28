@@ -86,8 +86,8 @@ import {
   TooltipTrigger,
 } from "@/components/ui/tooltip";
 import { IconeBusca, IconeFiltro, IconeSeta } from "@/components/icones";
-import { candidatos, partidos } from "@/lib/dados";
 import { reais } from "@/lib/formato";
+import type { Candidatura } from "@/types";
 
 /**
  * Kit de interface — a vitrine viva dos componentes de components/ui.
@@ -147,10 +147,26 @@ function Amostra({
   );
 }
 
-export default function KitInterface() {
+/**
+ * As amostras chegam por prop, do servidor.
+ *
+ * Importar `lib/eleicao` aqui empacotaria o JSON das 575 candidaturas
+ * no bundle do cliente — media 150 kB para uma pagina de vitrine. O
+ * servidor recorta o punhado de exemplos e manda so isso.
+ */
+export default function KitInterface({
+  amostra,
+  partidos,
+}: {
+  amostra: Candidatura[];
+  partidos: string[];
+}) {
+  const TRES_PARTIDOS = partidos;
+  const AMOSTRA = amostra;
+
   const [ordem, setOrdem] = useState("sorteada");
   const [cargo, setCargo] = useState("todos");
-  const [marcados, setMarcados] = useState<string[]>([partidos[0].id]);
+  const [marcados, setMarcados] = useState<string[]>([TRES_PARTIDOS[0]]);
   const [corrigido, setCorrigido] = useState(false);
 
   const alternar = (id: string) =>
@@ -160,9 +176,6 @@ export default function KitInterface() {
         : [...atual, id],
     );
 
-  // Amostra pequena e estavel dos dados ficticios, so para os exemplos.
-  const amostra = candidatos.slice(0, 4);
-  const tresPartidos = partidos.slice(0, 3);
 
   return (
     <>
@@ -242,23 +255,22 @@ export default function KitInterface() {
           </Amostra>
 
           <Amostra nome="Checkbox — recorte por partido" className="space-y-1">
-            {tresPartidos.map((partido) => (
+            {TRES_PARTIDOS.map((partido) => (
               <label
-                key={partido.id}
+                key={partido}
                 className="flex min-h-toque cursor-pointer items-center gap-3 px-1 text-sm text-tinta-800"
               >
                 <Checkbox
-                  checked={marcados.includes(partido.id)}
-                  onCheckedChange={() => alternar(partido.id)}
+                  checked={marcados.includes(partido)}
+                  onCheckedChange={() => alternar(partido)}
                 />
                 <span>
-                  <span className="font-semibold">{partido.sigla}</span>{" "}
-                  <span className="text-tinta-500">— {partido.nome}</span>
+                  <span className="font-semibold">{partido}</span>
                 </span>
               </label>
             ))}
             <p className="pt-2 font-mono text-[0.68rem] uppercase tracking-[0.13em] text-tinta-500">
-              {marcados.length} de {tresPartidos.length} marcados
+              {marcados.length} de {TRES_PARTIDOS.length} marcados
             </p>
           </Amostra>
 
@@ -332,7 +344,7 @@ export default function KitInterface() {
       <Secao
         folio="04"
         titulo="Avisos"
-        nota="As três variantes existem para separar quem está falando — a interface, o órgão de origem, ou esta plataforma. É a mesma lógica do par DadoOficial / ResumoPlataforma, em escala menor."
+        nota="As três variantes existem para separar quem está falando — a interface, o órgão de origem, ou esta plataforma. É a mesma lógica do par dado oficial e texto da plataforma, em escala menor."
       >
         <div className="space-y-4">
           <Alert variant="neutro">
@@ -489,13 +501,13 @@ export default function KitInterface() {
                     <AccordionItem value="partido">
                       <AccordionTrigger>Partido</AccordionTrigger>
                       <AccordionContent className="space-y-1">
-                        {tresPartidos.map((partido) => (
+                        {TRES_PARTIDOS.map((partido) => (
                           <label
-                            key={partido.id}
+                            key={partido}
                             className="flex min-h-toque cursor-pointer items-center gap-3 text-sm"
                           >
                             <Checkbox />
-                            {partido.sigla}
+                            {partido}
                           </label>
                         ))}
                       </AccordionContent>
@@ -533,7 +545,7 @@ export default function KitInterface() {
                   </DialogDescription>
                 </DialogHeader>
                 <div className="space-y-1 px-5 py-4">
-                  {amostra.map((c) => (
+                  {AMOSTRA.map((c) => (
                     <label
                       key={c.id}
                       className="flex min-h-toque cursor-pointer items-center gap-3 text-sm text-tinta-800"
@@ -614,7 +626,7 @@ export default function KitInterface() {
               <CommandList>
                 <CommandEmpty>Nada encontrado.</CommandEmpty>
                 <CommandGroup heading="Ordem sorteada">
-                  {amostra.map((c) => (
+                  {AMOSTRA.map((c) => (
                     <CommandItem key={c.id} value={c.id}>
                       <span className="font-mono tabular-nums text-tinta-400">
                         {c.numero}
@@ -687,7 +699,7 @@ export default function KitInterface() {
       >
         <Table>
           <TableCaption>
-            Bens declarados no registro — amostra fictícia.
+            Bens declarados no registro — dados reais do TSE.
           </TableCaption>
           <TableHeader>
             <TableRow>
@@ -698,14 +710,14 @@ export default function KitInterface() {
             </TableRow>
           </TableHeader>
           <TableBody>
-            {amostra[0]?.bens.slice(0, 4).map((bem) => (
+            {AMOSTRA[0]?.bens.slice(0, 4).map((bem) => (
               <TableRow key={bem.ordem}>
                 <TableCellNumero className="text-left">
                   {String(bem.ordem).padStart(2, "0")}
                 </TableCellNumero>
                 <TableCell>{bem.tipo}</TableCell>
                 <TableCell>{bem.descricao}</TableCell>
-                <TableCellNumero>{reais(bem.valorNominal)}</TableCellNumero>
+                <TableCellNumero>{reais(bem.valor)}</TableCellNumero>
               </TableRow>
             ))}
           </TableBody>

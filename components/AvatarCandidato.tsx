@@ -3,7 +3,7 @@ import { iniciais } from "@/lib/formato";
 /**
  * Placeholder de foto, desenhado por codigo.
  *
- * O prototipo nao usa foto de ninguem. E de proposito que o avatar e
+ * O site nao exibe foto de ninguem. E de proposito que o avatar e
  * IGUAL para todo mundo (mesmas cores, mesmo desenho): trocar a cor por
  * pessoa ou por partido criaria destaque visual onde nao pode haver.
  */
@@ -24,7 +24,7 @@ export default function AvatarCandidato({
     <div
       aria-hidden="true"
       className={`${classes} flex shrink-0 items-center justify-center rounded-md border border-tinta-200 bg-tinta-100 font-semibold text-tinta-600`}
-      title="Foto não disponível no protótipo"
+      title="Este site não exibe fotos de candidaturas"
     >
       {iniciais(nome)}
     </div>

@@ -40,11 +40,11 @@ const fonteMono = JetBrains_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "Fato & Voto — protótipo com dados fictícios",
-    template: "%s — Fato & Voto (protótipo)",
+    default: "Fato & Voto — candidaturas do Espírito Santo",
+    template: "%s — Fato & Voto",
   },
   description:
-    "Protótipo de plataforma de transparência eleitoral. Todos os dados são fictícios.",
+    "Dados públicos das candidaturas do Espírito Santo, sem ranking e sem recomendação.",
   robots: { index: false, follow: false },
 };
 
