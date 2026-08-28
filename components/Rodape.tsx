@@ -2,6 +2,7 @@ import Link from "next/link";
 import { ELEICAO, ESTADO } from "@/lib/eleicao";
 
 const LINKS = [
+  { href: "/quem-somos", rotulo: "Quem somos" },
   { href: "/metodologia", rotulo: "Metodologia" },
   { href: "/fontes", rotulo: "Fontes dos dados" },
   { href: "/candidatos", rotulo: "Lista de candidatos" },
@@ -17,7 +18,7 @@ export default function Rodape() {
     <footer className="mt-20 border-t border-tinta-200 bg-papel-alta">
       <div className="envelope grid gap-8 py-12 sm:grid-cols-[minmax(0,1fr)_auto] sm:gap-16">
         <div className="max-w-leitura">
-          <p className="text-2xl font-bold text-tinta-900">
+          <p className="font-display text-2xl font-bold text-tinta-950">
             Fato <span className="text-acento">&amp;</span> Voto
           </p>
           <p className="mt-1 text-sm text-tinta-400">
@@ -25,7 +26,7 @@ export default function Rodape() {
             públicos
           </p>
 
-          <div className="mt-5 space-y-3 border-l-4 border-acento pl-4 text-sm text-tinta-700">
+          <div className="mt-5 space-y-3 rounded-lg border-l-4 border-acento bg-papel-baixa/60 px-4 py-4 text-sm text-tinta-700">
             <p>
               <strong className="font-bold text-tinta-900">
                 Projeto autônomo.
@@ -42,7 +43,8 @@ export default function Rodape() {
             <p>
               Todo dado vem de fonte oficial, com a data da coleta indicada.
               Encontrou divergência entre o que está aqui e o registro oficial?{" "}
-              <Link href="/fontes">Veja as fontes</Link> e nos avise.
+              <Link href="/fontes">Confira na fonte</Link> e{" "}
+              <Link href="/quem-somos">fale com a gente</Link>.
             </p>
           </div>
         </div>

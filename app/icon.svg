@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!--
+    Favicon. Versão simplificada do IconeMarca de components/icones.tsx:
+    o quadrado dividido entre o dado oficial (traço cheio) e o texto da
+    plataforma (traço tracejado).
+
+    Simplificada de propósito. A marca original tem três barras de cada
+    lado com traço de 1,5 — a 16px isso vira borrão. Aqui são duas
+    barras por lado, com traço mais grosso.
+  -->
+  <rect width="32" height="32" rx="8" fill="#3f37a8" />
+  <path d="M16 6.5v19" stroke="#ffffff" stroke-width="1.6" opacity="0.55" />
+  <path
+    d="M8.5 13h5M8.5 19h5"
+    stroke="#ffffff"
+    stroke-width="2.4"
+    stroke-linecap="round"
+  />
+  <path
+    d="M18.5 13h5M18.5 19h5"
+    stroke="#ffffff"
+    stroke-width="2.4"
+    stroke-linecap="round"
+    stroke-dasharray="0.1 3.4"
+  />
+</svg>

@@ -67,7 +67,10 @@ function SheetContent({
         {...props}
       >
         {children}
-        <SheetPrimitive.Close className="absolute right-2 top-2 inline-flex size-9 items-center justify-center rounded border border-transparent text-tinta-600 transition-colors hover:bg-papel-baixa hover:text-acento-forte">
+        {/* Era size-9: 36px, abaixo do alvo mínimo do projeto, e este é o
+            botão que devolve a pessoa à lista. Cresce a área de toque, não
+            o ícone. */}
+        <SheetPrimitive.Close className="absolute right-1 top-1 inline-flex size-12 items-center justify-center rounded border border-transparent text-tinta-600 transition-colors hover:bg-papel-baixa hover:text-acento-forte">
           <X className="size-4" />
           <span className="apenas-leitor">Fechar</span>
         </SheetPrimitive.Close>

@@ -27,7 +27,20 @@ export const metadata = { title: "Candidatos" };
  * O sorteio acontece ANTES do recorte, nao depois: assim a posicao
  * relativa de duas candidaturas nao muda quando alguem filtra ou
  * digita uma busca.
+ *
+ * A lista vem paginada. Sem isso a pagina sem recorte montava as 575
+ * fichas de uma vez: 158 mil pixels de altura, 213 telas de rolagem e
+ * perto de 20 mil nos no DOM — medido a 360px. Num celular mediano
+ * isso trava antes de terminar de desenhar, e mesmo desenhado nao ha
+ * como chegar ao fim.
+ *
+ * Paginar uma lista sorteada nao cria ranking: a ordem ja e aleatoria
+ * e declarada como tal logo acima. A pagina 1 nao e melhor que a 12.
+ *
+ * O controle e feito de <a>, nao de botao com script: a pagina inteira
+ * ja funciona sem JavaScript e a paginacao acompanha.
  */
+const POR_PAGINA = 24;
 export default async function PaginaCandidatos({
   searchParams,
 }: {
@@ -42,6 +55,27 @@ export default async function PaginaCandidatos({
   const facetas = montarFacetas(sorteadas, filtros);
   const recortes = contarRecortes(filtros);
   const temRecorte = recortes > 0 || Boolean(filtros.cargo || filtros.busca);
+
+  const totalPaginas = Math.max(1, Math.ceil(lista.length / POR_PAGINA));
+  const pedida = Number(params.pagina);
+  const pagina = Number.isInteger(pedida)
+    ? Math.min(Math.max(pedida, 1), totalPaginas)
+    : 1;
+  const inicio = (pagina - 1) * POR_PAGINA;
+  const visiveis = lista.slice(inicio, inicio + POR_PAGINA);
+
+  /* O endereco de outra pagina carrega os recortes atuais. Sem isto,
+     avancar limparia o filtro que a pessoa acabou de marcar. */
+  const enderecoDaPagina = (n: number) => {
+    const q = new URLSearchParams();
+    for (const [chave, valor] of Object.entries(params)) {
+      if (chave === "pagina" || valor === undefined) continue;
+      for (const v of Array.isArray(valor) ? valor : [valor]) q.append(chave, v);
+    }
+    if (n > 1) q.set("pagina", String(n));
+    const s = q.toString();
+    return s ? `/candidatos?${s}` : "/candidatos";
+  };
 
   return (
     <div className="envelope py-8 sm:py-12">
@@ -90,6 +124,9 @@ export default async function PaginaCandidatos({
               ? "candidatura encontrada"
               : "candidaturas encontradas"}
             {temRecorte ? " com este recorte" : ""}
+            {totalPaginas > 1
+              ? ` · mostrando ${inicio + 1} a ${inicio + visiveis.length}`
+              : ""}
           </p>
 
           {lista.length === 0 ? (
@@ -103,14 +140,51 @@ export default async function PaginaCandidatos({
               </AlertDescription>
             </Alert>
           ) : (
-            <ul className="entrada-lista mt-5 grid gap-5 sm:grid-cols-2 xl:grid-cols-3">
-              {lista.map((candidatura) => (
-                <CartaoCandidato
-                  key={candidatura.id}
-                  candidatura={candidatura}
-                />
-              ))}
-            </ul>
+            <>
+              <ul className="entrada-lista mt-5 grid gap-5 sm:grid-cols-2 xl:grid-cols-3">
+                {visiveis.map((candidatura) => (
+                  <CartaoCandidato
+                    key={candidatura.id}
+                    candidatura={candidatura}
+                  />
+                ))}
+              </ul>
+
+              {totalPaginas > 1 ? (
+                <nav
+                  aria-label="Paginação da lista"
+                  className="mt-8 flex flex-wrap items-center justify-between gap-3 border-t border-tinta-200 pt-5"
+                >
+                  {pagina > 1 ? (
+                    <Link
+                      href={enderecoDaPagina(pagina - 1)}
+                      rel="prev"
+                      className="alvo-toque rounded-lg border border-tinta-300 px-4 text-base no-underline text-tinta-800 hover:border-acento hover:text-acento"
+                    >
+                      Anterior
+                    </Link>
+                  ) : (
+                    <span aria-hidden="true" />
+                  )}
+
+                  <span className="text-sm text-tinta-600">
+                    Página {pagina} de {totalPaginas}
+                  </span>
+
+                  {pagina < totalPaginas ? (
+                    <Link
+                      href={enderecoDaPagina(pagina + 1)}
+                      rel="next"
+                      className="alvo-toque rounded-lg border border-tinta-300 px-4 text-base no-underline text-tinta-800 hover:border-acento hover:text-acento"
+                    >
+                      Próxima
+                    </Link>
+                  ) : (
+                    <span aria-hidden="true" />
+                  )}
+                </nav>
+              ) : null}
+            </>
           )}
         </div>
       </div>

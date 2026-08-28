@@ -37,7 +37,12 @@ function TabsList({
     <TabsPrimitive.List
       data-slot="tabs-list"
       className={cn(
-        "flex w-full items-stretch overflow-x-auto border-b border-tinta-200",
+        /* Quebra de linha em vez de rolagem lateral. Com `overflow-x-auto`
+           a 360px a quarta aba ficava cortada na borda e a quinta
+           (Mandato, que só existe para quem tem mandato) sumia inteira:
+           rolagem horizontal dentro de página que já rola na vertical não
+           se anuncia sozinha. Em duas linhas todas as abas ficam visíveis. */
+        "flex w-full flex-wrap items-stretch border-b border-tinta-200",
         className,
       )}
       {...props}
@@ -53,7 +58,7 @@ function TabsTrigger({
     <TabsPrimitive.Trigger
       data-slot="tabs-trigger"
       className={cn(
-        "relative inline-flex min-h-toque shrink-0 items-center justify-center gap-2 border-b-[3px] border-transparent px-4 py-2.5",
+        "relative inline-flex min-h-toque shrink-0 items-center justify-center gap-2 border-b-[3px] border-transparent px-3 py-2.5 sm:px-4",
         "text-base font-medium text-tinta-600 transition-colors",
         "hover:bg-acento-leve hover:text-acento-forte",
         "data-[state=active]:border-acento data-[state=active]:font-bold data-[state=active]:text-acento-forte",

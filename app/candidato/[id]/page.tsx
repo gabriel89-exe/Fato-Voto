@@ -79,7 +79,7 @@ export default async function PaginaCandidato({
     <div className="envelope py-8 sm:py-10">
       <Link
         href="/candidatos"
-        className="inline-flex items-center gap-2 text-sm font-medium no-underline"
+        className="inline-flex min-h-toque items-center gap-2 text-sm font-medium no-underline"
       >
         <IconeSeta className="h-3.5 w-3.5 rotate-180" />
         Voltar para a lista
@@ -125,7 +125,7 @@ export default async function PaginaCandidato({
         </dl>
 
         {/* ---------- Situação do registro ---------- */}
-        <div className="mt-6 rounded border border-tinta-300 bg-superficie-baixa px-4 py-3">
+        <div className="mt-6 rounded-md border border-tinta-200 bg-papel-baixa px-4 py-3">
           <p className="text-sm">
             <span className="font-semibold text-tinta-900">
               Situação do registro: {c.situacaoRegistro ?? "Não informada"}.

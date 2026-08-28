@@ -6,10 +6,15 @@ name: Coleta diária
 # mostraria "Deferido" até alguém lembrar de rodar o comando na mão.
 on:
   schedule:
-    # 09:00 UTC = 06:00 em Brasília. O cron do GitHub é sempre em UTC e
+    # 09:17 UTC = 06:17 em Brasília. O cron do GitHub é sempre em UTC e
     # não conhece horário de verão; se o Brasil voltar a adotá-lo, este
     # número precisa mudar.
-    - cron: "0 9 * * *"
+    #
+    # O minuto quebrado é de propósito. O agendamento do GitHub não é
+    # garantido: sob carga ele atrasa e chega a pular execuções, e a
+    # fila é pior na hora cheia, onde quase todo mundo agenda. Às :17 a
+    # coleta compete com muito menos gente.
+    - cron: "17 9 * * *"
   # Permite disparar na mão pela aba Actions, sem esperar o horário.
   workflow_dispatch:
 
@@ -56,11 +61,18 @@ jobs:
       # mudar de formato e quebrar a build, é melhor descobrir aqui do
       # que em produção — o commit não acontece.
       - name: Conferir que o site compila
+        id: build
         if: always()
         run: npm run build
 
+      # `always()` sozinho aqui anulava a trava do build: o passo rodava
+      # mesmo com a compilação quebrada, que é exatamente o caso que ele
+      # deveria barrar. Precisa dos dois: `always()` para sobreviver a
+      # uma coleta que falhou (meia atualização ainda vale), e o teste
+      # explícito de `steps.build` para desistir quando o site não
+      # compila com o dado novo.
       - name: Commitar a coleta
-        if: always()
+        if: always() && steps.build.outcome == 'success'
         run: |
           git config user.name "coleta automática"
           git config user.email "actions@github.com"

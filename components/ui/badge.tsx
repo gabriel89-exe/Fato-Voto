@@ -12,7 +12,7 @@ import { cn } from "@/lib/utils";
  * em outra e exatamente o destaque que este site nao pode dar.
  */
 const variantesBadge = cva(
-  "inline-flex w-fit shrink-0 items-center gap-1.5 whitespace-nowrap border px-2.5 py-1 text-sm font-medium no-underline [&_svg]:size-3 [&_svg]:pointer-events-none",
+  "inline-flex w-fit shrink-0 items-center gap-1.5 whitespace-nowrap rounded-full border px-3 py-1 text-sm font-medium no-underline [&_svg]:size-3 [&_svg]:pointer-events-none",
   {
     variants: {
       variant: {

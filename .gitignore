@@ -10,3 +10,6 @@ next-env.d.ts
 
 # Snapshots crus da coleta: grandes e reproduziveis pelos scripts.
 dados-brutos
+
+# Permissoes de ferramenta por maquina, nao do projeto.
+.claude/settings.local.json

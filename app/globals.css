@@ -3,12 +3,12 @@
 @tailwind utilities;
 
 /* ==================================================================
-   Sistema visual: serviço público.
+   Sistema visual: editorial cívico.
 
-   Convenções de acessibilidade do Padrão Digital de Governo (gov.br):
-   texto grande, contraste alto, azul de link forte, foco sempre
-   visível, alvo de toque generoso. NÃO é a marca do gov.br — o
-   projeto é autônomo e a interface diz isso.
+   Mantém as convenções de leitura do Padrão Digital de Governo —
+   corpo grande, contraste AA em todo par, foco sempre visível, alvo
+   de toque generoso — e abandona a paleta e a tipografia dele.
+   O motivo está no cabeçalho de tailwind.config.ts.
 
    O que saiu de propósito, e por quê:
      - grão de papel e hachura: ruído visual puro
@@ -31,9 +31,9 @@
 @layer base {
   :root {
     --altura-tarja: 2.75rem;
-    --altura-cabecalho: 4rem;
-    --acento: #1351b4;
-    --acento-forte: #0c326f;
+    --altura-cabecalho: 4.25rem;
+    --acento: #3f37a8;
+    --acento-forte: #2c2578;
 
     /* ================================================================
        Ponte shadcn/ui.
@@ -48,32 +48,34 @@
        injetar opacidade.
        ================================================================ */
 
-    --background: 210 13% 97%;
-    --foreground: 206 15% 13%;
+    --background: 40 27% 96%; /* papel #f7f5f1 */
+    --foreground: 40 14% 9%; /* tinta-950 #191713 */
     --card: 0 0% 100%;
-    --card-foreground: 206 15% 13%;
+    --card-foreground: 40 14% 9%;
     --popover: 0 0% 100%;
-    --popover-foreground: 206 15% 13%;
+    --popover-foreground: 40 14% 9%;
 
-    --primary: 215 80% 39%; /* azul gov.br #1351b4 */
+    --primary: 244 51% 44%; /* acento #3f37a8 */
     --primary-foreground: 0 0% 100%;
     --secondary: 0 0% 100%;
-    --secondary-foreground: 215 80% 25%;
+    --secondary-foreground: 245 53% 31%; /* acento-forte #2c2578 */
 
-    --muted: 206 12% 94%;
-    --muted-foreground: 205 10% 41%;
-    --accent: 206 12% 94%;
-    --accent-foreground: 206 15% 13%;
+    --muted: 40 22% 92%; /* papel-baixa #efece6 */
+    --muted-foreground: 34 8% 35%; /* tinta-600 #5f5951 */
+    --accent: 40 22% 92%;
+    --accent-foreground: 40 14% 9%;
 
     /* Sem vermelho: nenhuma cor pode ser lida como juízo de valor. */
-    --destructive: 206 20% 8%;
+    --destructive: 38 12% 13%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 205 11% 82%;
-    --input: 205 11% 70%;
-    --ring: 215 80% 39%;
+    /* border é filete decorativo (tinta-200); input é contorno de
+       controle e por isso é mais escuro (tinta-300, 3,4:1). */
+    --border: 40 16% 78%;
+    --input: 42 8% 53%;
+    --ring: 244 51% 44%;
 
-    --radius: 4px;
+    --radius: 10px;
   }
 
   html {
@@ -120,44 +122,72 @@
     }
   }
 
-  /* --- Títulos: mesma família do texto, distinção por peso e tamanho.
-         Escala contida: manchete gigante empurra o conteúdo para baixo
-         da dobra e não ajuda ninguém a encontrar nada. --- */
+  /* --- Títulos.
+
+         h1 e h2 são serifados (Fraunces) — é onde a personalidade do
+         site cabe, porque são linhas curtas e lidas de relance.
+
+         h3 e h4 voltam para a fonte de texto: eles abrem blocos de
+         leitura corrida e, em serifado, competiriam com o parágrafo
+         logo abaixo em vez de organizá-lo.
+
+         Escala contida nos dois casos: manchete gigante empurra o
+         conteúdo para baixo da dobra e não ajuda ninguém a encontrar
+         nada. --- */
   h1,
   h2,
   h3,
   h4 {
-    @apply font-display font-bold text-tinta-950;
+    @apply font-bold text-tinta-950;
     text-wrap: balance;
-    letter-spacing: -0.01em;
     line-height: 1.2;
   }
 
+  h1,
+  h2 {
+    @apply font-display;
+    letter-spacing: -0.015em;
+  }
+
+  h3,
+  h4 {
+    @apply font-texto;
+    letter-spacing: -0.005em;
+  }
+
   h1 {
-    font-size: clamp(1.9rem, 1.4rem + 2vw, 2.6rem);
-    line-height: 1.15;
+    font-size: clamp(2rem, 1.45rem + 2.2vw, 2.9rem);
+    line-height: 1.1;
   }
 
   h2 {
-    font-size: clamp(1.35rem, 1.15rem + 0.9vw, 1.75rem);
+    font-size: clamp(1.45rem, 1.2rem + 1vw, 1.95rem);
   }
 
   h3 {
     font-size: clamp(1.1rem, 1rem + 0.4vw, 1.25rem);
   }
 
-  /* --- Links: azul forte e sublinhado. O sublinhado fica porque cor
-         sozinha não é sinal acessível. --- */
+  /* --- Links: acento forte e sublinhado. O sublinhado fica porque cor
+         sozinha não é sinal acessível.
+
+         `text-decoration-color` mais claro que o texto deixa o
+         sublinhado presente sem virar tarja. No hover ele fecha para a
+         cor cheia — o sinal é o mesmo, só mais firme. --- */
   a {
     color: var(--acento);
     text-decoration-line: underline;
+    text-decoration-color: color-mix(in srgb, var(--acento) 40%, transparent);
     text-underline-offset: 3px;
     text-decoration-thickness: 1.5px;
-    transition: color 0.15s ease;
+    transition:
+      color 0.15s ease,
+      text-decoration-color 0.15s ease;
   }
 
   a:hover {
     color: var(--acento-forte);
+    text-decoration-color: currentColor;
     text-decoration-thickness: 2px;
   }
 
@@ -203,24 +233,41 @@
 
   /* --- Superfícies --- */
   .cartao {
-    @apply rounded border border-tinta-200 bg-papel-alta;
+    @apply rounded-lg border border-tinta-200 bg-papel-alta;
   }
 
   .painel {
-    @apply rounded border border-tinta-200 bg-papel-alta shadow-cartao;
+    @apply rounded-lg border border-tinta-200 bg-papel-alta shadow-painel;
   }
 
   /* Ficha de candidatura na lista. IDÊNTICA para todas — mesma borda,
-     mesma sombra, mesmo peso. A única mudança no hover é a borda
-     ganhar o azul de interface, igual para todo mundo. */
+     mesma sombra, mesmo peso, mesma reação ao ponteiro. Nenhuma
+     candidatura ganha selo, moldura especial ou cor própria.
+     Ver docs/principios.md, regra 3.
+
+     O deslocamento de 2px no hover é retorno de toque, não destaque:
+     acontece com quem o ponteiro estiver por cima, e some quando sai.
+     Fica desligado sob `prefers-reduced-motion`. */
   .cartao-verbete {
-    @apply relative rounded border border-tinta-200 bg-papel-alta shadow-cartao;
+    @apply relative rounded-lg border border-tinta-200 bg-papel-alta shadow-cartao;
     transition:
-      border-color 0.15s ease,
-      box-shadow 0.15s ease;
+      border-color 0.18s var(--suave, cubic-bezier(0.22, 1, 0.36, 1)),
+      box-shadow 0.18s ease,
+      transform 0.18s ease;
   }
   .cartao-verbete:hover {
-    @apply border-acento shadow-elevado;
+    @apply border-acento-borda shadow-elevado;
+    transform: translateY(-2px);
+  }
+  /* O foco de teclado precisa dar o MESMO sinal do ponteiro: quem
+     navega por Tab vê a ficha ativa mudar junto com o anel de foco. */
+  .cartao-verbete:focus-within {
+    @apply border-acento-borda shadow-elevado;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .cartao-verbete:hover {
+      transform: none;
+    }
   }
 
   /* --- Etiqueta --- */
@@ -231,8 +278,27 @@
 
   /* --- Aviso neutro --- */
   .aviso-callout {
-    @apply relative rounded border border-tinta-200 border-l-4 border-l-acento
+    @apply relative rounded-lg border border-tinta-200 border-l-4 border-l-acento
            bg-papel-alta px-4 py-3 text-tinta-700;
+  }
+
+  /* --- Rótulo de dado dentro de ficha.
+
+         Versalete curto e espaçado. A regra antiga proibia versal de
+         10px, e continua valendo: aqui o tamanho é 12px com peso 600 e
+         só marca rótulo de UMA palavra ("Partido", "Registro"), nunca
+         frase. Abaixo disso volta a ser ilegível. --- */
+  .rotulo-ficha {
+    @apply text-[0.72rem] font-semibold uppercase tracking-[0.07em] text-tinta-500;
+  }
+
+  /* --- Grade de dados da ficha.
+
+         Duas colunas em vez de três linhas empilhadas: cabe um campo a
+         mais na mesma altura, e o olho varre de cima para baixo em
+         coluna em vez de saltar linha a linha. --- */
+  .grade-ficha {
+    @apply grid grid-cols-2 gap-x-4 gap-y-2.5;
   }
 
   /* --- Filetes --- */

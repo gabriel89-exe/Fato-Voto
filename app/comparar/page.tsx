@@ -5,7 +5,34 @@ import { Button } from "@/components/ui/button";
 
 export const metadata = { title: "Comparar candidatos" };
 
-/** Comparador — entra no passo 6. */
+/**
+ * Comparador — ainda não construído.
+ *
+ * As regras abaixo não são detalhe de implementação: são o que impede a
+ * comparação de virar o ranking que o resto do site recusa. Quem for
+ * construir precisa delas antes de escolher a estrutura de dados.
+ *
+ *  1. SÓ ENTRE O MESMO CARGO. Comparar um deputado estadual com um
+ *     governador não é comparação, é confusão de atribuição — o mesmo
+ *     motivo pelo qual as fichas de cargos diferentes já divergem hoje.
+ *     Ver docs/principios.md, regra 6.
+ *
+ *  2. MESMOS CAMPOS, MESMA ORDEM, PARA TODAS AS COLUNAS. Se uma coluna
+ *     tem um dado que a outra não tem, a célula vazia diz por que está
+ *     vazia (regra 7). Omitir a linha inteira esconderia a lacuna.
+ *
+ *  3. NENHUMA ORDENAÇÃO POR VALOR, e nenhuma célula destacada por ser
+ *     maior ou menor. Ordenar por bens declarados produz um ranking
+ *     mesmo sem nunca escrever a palavra "melhor" (regra 4).
+ *
+ *  4. A SELEÇÃO VIVE NA URL, como já acontece com os filtros de
+ *     /candidatos. Um recorte compartilhável por link é o que permite
+ *     alguém conferir a comparação em vez de confiar nela.
+ *
+ * Os controles necessários — diálogo de seleção, caixas de marcação e
+ * tabela — já existem em components/ui e estão vestidos na identidade.
+ * O trabalho que falta é de dados e de regra, não de interface.
+ */
 export default function PaginaComparar() {
   return (
     <div className="envelope py-8 sm:py-12">
@@ -25,10 +52,11 @@ export default function PaginaComparar() {
           <IconeInfo />
           <AlertTitle>Ainda não construído</AlertTitle>
           <AlertDescription>
-            O comparador é o passo 6 do plano de execução. Os controles que ele
-            vai usar — diálogo de seleção, caixas de marcação e tabela
-            comparativa — já existem no{" "}
-            <Link href="/interface">kit de interface</Link>.
+            Esta parte do site ainda está sendo feita. Quando existir, a
+            comparação vai mostrar as mesmas informações, na mesma ordem, para
+            todas as candidaturas escolhidas — e não vai ordenar ninguém por
+            valor, nem apontar uma coluna como a melhor. Enquanto isso, a ficha
+            de cada candidatura já traz tudo que entraria na comparação.
           </AlertDescription>
         </Alert>
 
