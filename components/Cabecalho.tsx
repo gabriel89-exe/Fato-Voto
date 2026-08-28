@@ -2,8 +2,17 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useEffect, useState } from "react";
 import { ELEICAO, ESTADO } from "@/lib/eleicao";
+
+/**
+ * Cabeçalho.
+ *
+ * Três destinos, nada mais. A navegação anterior tinha rótulos em
+ * versal apertado de 10px encaixados numa régua sem respiro; agora são
+ * links de tamanho normal, com alvo de toque de 48px e o item atual
+ * marcado por peso, sublinhado e `aria-current` — três sinais, não só
+ * a cor.
+ */
 
 const LINKS = [
   { href: "/", rotulo: "Início" },
@@ -13,50 +22,39 @@ const LINKS = [
 
 export default function Cabecalho() {
   const caminho = usePathname();
-  const [rolado, setRolado] = useState(false);
-
-  useEffect(() => {
-    const aoRolar = () => setRolado(window.scrollY > 4);
-    aoRolar();
-    window.addEventListener("scroll", aoRolar, { passive: true });
-    return () => window.removeEventListener("scroll", aoRolar);
-  }, []);
 
   const ativo = (href: string) =>
     href === "/" ? caminho === "/" : caminho.startsWith(href);
 
   return (
-    <header
-      className={`sticky top-[var(--altura-tarja)] z-40 border-b-2 border-tinta-900 bg-papel-alta transition-shadow duration-200 ${
-        rolado ? "shadow-[0_4px_0_0_#1b1a16]" : ""
-      }`}
-    >
-      <div className="envelope flex h-[var(--altura-cabecalho)] items-center justify-between gap-x-3">
-        <div className="flex min-w-0 items-baseline gap-3">
-          <Link
-            href="/"
-            className="alvo-toque -ml-1 px-1 font-display text-xl font-extrabold tracking-[-0.04em] text-tinta-900 no-underline xs:text-2xl"
-          >
-            Fato&nbsp;<span className="text-acento">&amp;</span>&nbsp;Voto
-          </Link>
-          <span className="hidden font-mono text-[0.6rem] uppercase tracking-[0.2em] text-tinta-400 lg:inline">
-            {ESTADO.nome} · Eleição {ELEICAO.ano} · Registro público
+    <header className="sticky top-[var(--altura-tarja)] z-40 border-b border-tinta-200 bg-papel-alta">
+      <div className="envelope flex min-h-[var(--altura-cabecalho)] flex-wrap items-center justify-between gap-x-4 gap-y-1 py-2">
+        <Link
+          href="/"
+          className="flex flex-col no-underline"
+          aria-label="Fato e Voto, página inicial"
+        >
+          <span className="text-xl font-bold tracking-tight text-tinta-950">
+            Fato <span className="text-acento">&amp;</span> Voto
           </span>
-        </div>
+          <span className="text-xs text-tinta-600">
+            {ESTADO.nome} · Eleição {ELEICAO.ano}
+          </span>
+        </Link>
 
-        <nav aria-label="Navegação principal" className="shrink-0">
-          <ul className="flex items-stretch">
-            {LINKS.map((link, i) => {
+        <nav aria-label="Navegação principal">
+          <ul className="flex items-center gap-1">
+            {LINKS.map((link) => {
               const estaAtivo = ativo(link.href);
               return (
-                <li key={link.href} className={i > 0 ? "border-l border-tinta-300" : ""}>
+                <li key={link.href}>
                   <Link
                     href={link.href}
                     aria-current={estaAtivo ? "page" : undefined}
-                    className={`alvo-toque px-2.5 font-mono text-[0.68rem] uppercase tracking-[0.13em] no-underline transition-colors duration-150 xs:px-3.5 xs:text-xs ${
+                    className={`alvo-toque rounded px-3 text-base no-underline transition-colors ${
                       estaAtivo
-                        ? "bg-tinta-900 font-semibold text-papel-alta"
-                        : "text-tinta-600 hover:bg-papel hover:text-tinta-900"
+                        ? "font-bold text-acento-forte underline decoration-2 underline-offset-8"
+                        : "font-medium text-tinta-700 hover:bg-papel-baixa hover:text-acento"
                     }`}
                   >
                     {link.rotulo}

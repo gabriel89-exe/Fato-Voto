@@ -10,13 +10,13 @@ export default function PaginaComparar() {
   return (
     <div className="envelope py-8 sm:py-12">
       <article className="entrada mx-auto max-w-leitura">
-        <p className="folio border-y-2 border-tinta-900 py-2">
+        <p className="border-b border-tinta-200 pb-3 text-sm text-tinta-600">
           <span>Caderno em preparação</span>
         </p>
 
         <h1 className="mt-6">Comparar candidatos</h1>
 
-        <p className="mt-5 font-display text-xl font-medium leading-[1.2] tracking-[-0.02em] text-tinta-800">
+        <p className="mt-5 text-lg text-tinta-800">
           Aqui será possível colocar de 2 a 3 candidaturas do mesmo cargo lado a
           lado, com as mesmas informações na mesma ordem.
         </p>

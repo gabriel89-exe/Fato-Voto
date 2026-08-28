@@ -34,7 +34,7 @@ function RadioGroupItem({
     <RadioGroupPrimitive.Item
       data-slot="radio-group-item"
       className={cn(
-        "peer size-5 shrink-0 border-2 border-tinta-900 bg-papel-alta transition-colors",
+        "peer size-5 shrink-0 border border-tinta-200 bg-papel-alta transition-colors",
         "disabled:cursor-not-allowed disabled:opacity-50",
         className,
       )}
@@ -44,7 +44,7 @@ function RadioGroupItem({
         data-slot="radio-group-indicator"
         className="flex h-full w-full items-center justify-center"
       >
-        <span aria-hidden="true" className="block size-2.5 bg-tinta-900" />
+        <span aria-hidden="true" className="block size-2.5 rounded-full bg-white" />
       </RadioGroupPrimitive.Indicator>
     </RadioGroupPrimitive.Item>
   );

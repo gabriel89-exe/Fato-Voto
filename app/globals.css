@@ -2,108 +2,78 @@
 @tailwind components;
 @tailwind utilities;
 
-/* ================================================================== */
-/*  GAZETA — sistema visual de diario oficial de eleicao.             */
-/* ================================================================== */
+/* ==================================================================
+   Sistema visual: serviço público.
 
-/* Keyframes declarados aqui (e nao so no tailwind.config) porque o JIT
-   do Tailwind descarta @keyframes cuja classe animate-* nunca aparece
-   no markup — e o sistema referencia as animacoes por nome cru no CSS. */
+   Convenções de acessibilidade do Padrão Digital de Governo (gov.br):
+   texto grande, contraste alto, azul de link forte, foco sempre
+   visível, alvo de toque generoso. NÃO é a marca do gov.br — o
+   projeto é autônomo e a interface diz isso.
+
+   O que saiu de propósito, e por quê:
+     - grão de papel e hachura: ruído visual puro
+     - rótulos versais de 10px com espacejamento largo: ilegíveis
+     - sombras duras deslocadas: peso visual em tudo, cansativo
+     - fólios "§ 01" e capitular: ornamento de revista, não de serviço
+   ================================================================== */
+
 @keyframes surgir {
   0% {
     opacity: 0;
-    transform: translateY(18px);
+    transform: translateY(10px);
   }
   100% {
     opacity: 1;
     transform: translateY(0);
-  }
-}
-@keyframes surgir-suave {
-  0% {
-    opacity: 0;
-    transform: translateY(9px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-@keyframes risca-h {
-  0% {
-    transform: scaleX(0);
-  }
-  100% {
-    transform: scaleX(1);
-  }
-}
-@keyframes desliza-bandeira {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-50%);
   }
 }
 
 @layer base {
   :root {
-    --altura-tarja: 2.5rem;
+    --altura-tarja: 2.75rem;
     --altura-cabecalho: 4rem;
-    --acento: #1f3a5f;
-    --regua: #1b1a16;
+    --acento: #1351b4;
+    --acento-forte: #0c326f;
 
     /* ================================================================
        Ponte shadcn/ui.
 
        Todo componente em components/ui usa os nomes do shadcn
        (bg-background, text-muted-foreground, border-border...). Estas
-       variaveis sao o unico lugar onde esses nomes viram a paleta da
-       GAZETA. Trocar a identidade do site = trocar este bloco.
+       variáveis são o único lugar onde esses nomes viram a paleta do
+       site. Trocar a identidade = trocar este bloco.
 
-       Formato obrigatorio: triplete HSL sem a funcao hsl(), porque o
+       Formato obrigatório: triplete HSL sem a função hsl(), porque o
        tailwind.config as consome como hsl(var(--x)) e precisa poder
-       injetar opacidade (hsl(var(--x) / 0.5)).
-
-       CUIDADO COM O NOME: --accent aqui e o cinza-papel de realce de
-       menu do shadcn. O azul de carimbo da GAZETA e --acento (com O),
-       exposto no Tailwind como `text-acento`. Sao coisas diferentes.
+       injetar opacidade.
        ================================================================ */
 
-    /* Superficies */
-    --background: 45 38.1% 91.8%; /* papel */
-    --foreground: 48 10.2% 9.6%; /* tinta-900 */
-    --card: 45 54.5% 95.7%; /* papel-alta */
-    --card-foreground: 48 10.2% 9.6%;
-    --popover: 45 54.5% 95.7%;
-    --popover-foreground: 48 10.2% 9.6%;
+    --background: 210 13% 97%;
+    --foreground: 206 15% 13%;
+    --card: 0 0% 100%;
+    --card-foreground: 206 15% 13%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 206 15% 13%;
 
-    /* Acoes */
-    --primary: 48 10.2% 9.6%; /* tinta-900 — o botao primario e tinta */
-    --primary-foreground: 45 54.5% 95.7%;
-    --secondary: 45 54.5% 95.7%;
-    --secondary-foreground: 48 10.2% 9.6%;
+    --primary: 215 80% 39%; /* azul gov.br #1351b4 */
+    --primary-foreground: 0 0% 100%;
+    --secondary: 0 0% 100%;
+    --secondary-foreground: 215 80% 25%;
 
-    /* Apoio */
-    --muted: 44.3 32.4% 86.1%; /* papel-baixa */
-    --muted-foreground: 43.3 9.2% 38.4%; /* tinta-500 */
-    --accent: 44.3 32.4% 86.1%; /* realce de item de menu */
-    --accent-foreground: 48 10.2% 9.6%;
+    --muted: 206 12% 94%;
+    --muted-foreground: 205 10% 41%;
+    --accent: 206 12% 94%;
+    --accent-foreground: 206 15% 13%;
 
-    /* Acao destrutiva. Deliberadamente SEM vermelho: neste site nenhuma
-       cor pode ser lida como juizo de valor, entao o que distingue a
-       acao destrutiva e a forma (moldura dupla) e o texto, nunca o
-       matiz. Ver a regra de produto no topo do tailwind.config.ts. */
-    --destructive: 45 11.1% 7.1%; /* tinta-950 */
-    --destructive-foreground: 45 54.5% 95.7%;
+    /* Sem vermelho: nenhuma cor pode ser lida como juízo de valor. */
+    --destructive: 206 20% 8%;
+    --destructive-foreground: 0 0% 100%;
 
-    /* Molduras e foco */
-    --border: 48 10.2% 9.6%; /* filete grosso de tinta */
-    --input: 48 10.2% 9.6%;
-    --ring: 214.7 50.8% 24.7%; /* azul de carimbo */
+    --border: 205 11% 82%;
+    --input: 205 11% 70%;
+    --ring: 215 80% 39%;
 
-    /* Cantos vivos. A GAZETA nao arredonda nada. */
-    --radius: 0px;
+    --radius: 4px;
   }
 
   html {
@@ -115,22 +85,14 @@
 
   body {
     @apply bg-papel text-tinta-900 antialiased font-texto;
-    font-size: 1.02rem;
-    line-height: 1.62;
+    /* 17px. O padrão de 16px é o mínimo, não o alvo. */
+    font-size: 1.0625rem;
+    line-height: 1.7;
     min-height: 100vh;
   }
 
-  /* Grao de papel de jornal + linha de base tenue. */
-  body::before {
-    content: "";
-    position: fixed;
-    inset: 0;
-    z-index: -1;
-    pointer-events: none;
-    opacity: 0.05;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.82' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
-  }
-
+  /* Foco sempre visível, em qualquer elemento. Nenhum componente pode
+     desligar isto — ver o comentário em components/ui/button.tsx. */
   :focus-visible {
     outline: 3px solid var(--acento);
     outline-offset: 2px;
@@ -138,7 +100,7 @@
 
   ::selection {
     background: var(--acento);
-    color: #faf7ee;
+    color: #ffffff;
   }
 
   @media (prefers-reduced-motion: no-preference) {
@@ -158,52 +120,49 @@
     }
   }
 
-  /* --- Titulos: Bricolage Grotesque, apertados, grandes. --- */
+  /* --- Títulos: mesma família do texto, distinção por peso e tamanho.
+         Escala contida: manchete gigante empurra o conteúdo para baixo
+         da dobra e não ajuda ninguém a encontrar nada. --- */
   h1,
   h2,
   h3,
   h4 {
-    @apply font-display font-semibold text-tinta-900;
+    @apply font-display font-bold text-tinta-950;
     text-wrap: balance;
-    letter-spacing: -0.03em;
-    line-height: 0.98;
+    letter-spacing: -0.01em;
+    line-height: 1.2;
   }
 
   h1 {
-    font-size: clamp(2.6rem, 1.3rem + 6vw, 5.25rem);
-    font-weight: 700;
-    letter-spacing: -0.04em;
+    font-size: clamp(1.9rem, 1.4rem + 2vw, 2.6rem);
+    line-height: 1.15;
   }
 
   h2 {
-    font-size: clamp(1.7rem, 1.15rem + 2.4vw, 2.6rem);
-    letter-spacing: -0.032em;
-    line-height: 1.02;
+    font-size: clamp(1.35rem, 1.15rem + 0.9vw, 1.75rem);
   }
 
   h3 {
-    font-size: clamp(1.15rem, 1rem + 0.6vw, 1.4rem);
-    line-height: 1.08;
+    font-size: clamp(1.1rem, 1rem + 0.4vw, 1.25rem);
   }
 
+  /* --- Links: azul forte e sublinhado. O sublinhado fica porque cor
+         sozinha não é sinal acessível. --- */
   a {
     color: var(--acento);
     text-decoration-line: underline;
     text-underline-offset: 3px;
     text-decoration-thickness: 1.5px;
-    text-decoration-color: rgba(31, 58, 95, 0.4);
-    transition: text-decoration-color 0.15s ease, background-color 0.15s ease;
+    transition: color 0.15s ease;
   }
 
   a:hover {
-    text-decoration-color: var(--acento);
+    color: var(--acento-forte);
+    text-decoration-thickness: 2px;
   }
 
   table {
     @apply w-full text-left;
-  }
-  caption {
-    @apply text-left text-sm text-tinta-600 pb-2;
   }
 
   strong,
@@ -221,144 +180,70 @@
     @apply inline-flex items-center justify-center min-h-toque min-w-toque;
   }
 
-  /* --- Filetes --- */
-  .filete {
-    border-bottom: 2px solid var(--regua);
-  }
-  .filete-fina {
-    border-bottom: 1px solid theme("colors.tinta.300");
-  }
-  .filete-dupla {
-    border-top: 3px double var(--regua);
+  /* --- Cabeçalho de seção: título e regra fina. Sem fólio, sem § --- */
+  .secao-cabeca {
+    @apply flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1
+           border-b border-tinta-200 pb-3;
   }
 
-  /* --- Folio: o marcador "№ 01" no estilo de sumario impresso. --- */
+  /* --- Rótulo de campo: caixa normal, tamanho legível.
+         Era versal de 10,9px com 0.13em de espacejamento. --- */
+  .rotulo-meta {
+    @apply text-sm font-semibold leading-snug text-tinta-600;
+  }
+
+  /* Metadado discreto de topo de bloco. Sem versal apertado. */
   .folio {
-    @apply inline-flex items-center gap-2 font-mono text-[0.7rem] font-medium uppercase text-tinta-500;
-    letter-spacing: theme("letterSpacing.folio");
+    @apply flex items-center gap-2 text-sm text-tinta-600;
   }
 
   .folio > b {
-    @apply font-semibold text-acento;
-    letter-spacing: 0.08em;
+    @apply font-semibold text-tinta-800;
   }
 
-  /* Cabecalho de secao: folio + regua que "risca" na entrada. */
-  .secao-cabeca {
-    @apply flex items-baseline gap-4 pb-3 filete;
-  }
-
-  /* --- Controles: cantos vivos, sombra dura deslocada. ---
-
-     SUPERADAS. `.botao-primario`, `.botao-secundario`, `.campo` e
-     `.aviso-callout` nasceram antes do kit e hoje sao o gemeo em CSS
-     puro de <Button>, <Input> e <Alert> (components/ui). Nenhum arquivo
-     .tsx as usa mais. Ficam so como rede de seguranca para markup fora
-     do React; em codigo novo, use os componentes. Podem ser apagadas
-     quando ninguem sentir falta. */
-  .botao-primario {
-    @apply alvo-toque gap-2 border-2 border-tinta-900 bg-tinta-900 px-5 py-3
-           font-mono text-sm font-semibold uppercase tracking-[0.1em] text-papel-alta no-underline;
-    box-shadow: theme("boxShadow.bloco-sm");
-    transition: transform 0.14s theme("transitionTimingFunction.suave"),
-      box-shadow 0.14s ease, background-color 0.14s ease;
-  }
-  .botao-primario:hover {
-    @apply bg-acento-forte;
-    transform: translate(-2px, -2px);
-    box-shadow: 5px 5px 0 0 var(--acento);
-  }
-  .botao-primario:active {
-    transform: translate(0, 0);
-    box-shadow: 1px 1px 0 0 var(--regua);
-  }
-
-  .botao-secundario {
-    @apply alvo-toque gap-2 border-2 border-tinta-900 bg-papel-alta px-4 py-2.5
-           font-mono text-sm font-medium uppercase tracking-[0.08em] text-tinta-900 no-underline;
-    box-shadow: theme("boxShadow.bloco-sm");
-    transition: transform 0.14s theme("transitionTimingFunction.suave"),
-      box-shadow 0.14s ease, background-color 0.14s ease;
-  }
-  .botao-secundario:hover {
-    @apply bg-papel;
-    transform: translate(-2px, -2px);
-    box-shadow: theme("boxShadow.bloco");
-  }
-  .botao-secundario:active {
-    transform: translate(0, 0);
-    box-shadow: 1px 1px 0 0 var(--regua);
-  }
-
-  .campo {
-    @apply w-full border-2 border-tinta-900 bg-papel-alta px-3.5 py-3
-           font-mono text-base text-tinta-900 placeholder:text-tinta-400;
-    box-shadow: inset 2px 2px 0 0 rgba(27, 26, 22, 0.08);
-    transition: box-shadow 0.14s ease;
-    min-height: 46px;
-  }
-  .campo:focus {
-    outline: none;
-    box-shadow: inset 2px 2px 0 0 rgba(27, 26, 22, 0.08),
-      0 0 0 3px var(--acento);
-  }
-
-  /* --- Superficies de papel --- */
+  /* --- Superfícies --- */
   .cartao {
-    @apply border-2 border-tinta-900 bg-papel-alta;
+    @apply rounded border border-tinta-200 bg-papel-alta;
   }
 
   .painel {
-    @apply border-2 border-tinta-900 bg-papel-alta;
-    box-shadow: theme("boxShadow.bloco");
+    @apply rounded border border-tinta-200 bg-papel-alta shadow-cartao;
   }
 
-  /* Verbete: a ficha de candidatura. IDENTICA para todos — mesma borda,
-     mesma sombra, mesmo peso. Aba de folio no topo, sem cor. */
+  /* Ficha de candidatura na lista. IDÊNTICA para todas — mesma borda,
+     mesma sombra, mesmo peso. A única mudança no hover é a borda
+     ganhar o azul de interface, igual para todo mundo. */
   .cartao-verbete {
-    @apply relative border-2 border-tinta-900 bg-papel-alta;
-    box-shadow: theme("boxShadow.bloco-sm");
-    transition: transform 0.16s theme("transitionTimingFunction.suave"),
-      box-shadow 0.16s ease;
+    @apply relative rounded border border-tinta-200 bg-papel-alta shadow-cartao;
+    transition:
+      border-color 0.15s ease,
+      box-shadow 0.15s ease;
   }
   .cartao-verbete:hover {
-    transform: translate(-3px, -3px);
-    box-shadow: theme("boxShadow.bloco");
+    @apply border-acento shadow-elevado;
   }
 
-  /* --- Rotulo de metadado: mono, versal, tracado. --- */
-  .rotulo-meta {
-    @apply font-mono text-[0.68rem] font-medium uppercase leading-snug tracking-[0.13em] text-tinta-500;
-  }
-
-  /* --- Chip / etiqueta de recorte --- */
+  /* --- Etiqueta --- */
   .chip {
-    @apply inline-flex items-center gap-1.5 border border-tinta-900 bg-papel-alta
-           px-2.5 py-1 font-mono text-[0.68rem] font-medium uppercase tracking-[0.13em] text-tinta-800;
+    @apply inline-flex items-center gap-1.5 rounded-full border border-tinta-200
+           bg-papel-baixa px-3 py-1 text-sm text-tinta-700;
   }
 
-  /* --- Aviso neutro: caixa com filete grosso a esquerda. --- */
+  /* --- Aviso neutro --- */
   .aviso-callout {
-    @apply relative border-2 border-tinta-900 bg-papel-alta px-4 py-3 text-sm text-tinta-700;
-  }
-  .aviso-callout::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    width: 6px;
-    background: var(--regua);
+    @apply relative rounded border border-tinta-200 border-l-4 border-l-acento
+           bg-papel-alta px-4 py-3 text-tinta-700;
   }
 
-  /* --- Sumario: lista com pontilhado guia (leaders). --- */
-  .sumario-item {
-    @apply flex items-baseline gap-2;
+  /* --- Filetes --- */
+  .filete {
+    @apply border-b border-tinta-200;
   }
-  .sumario-item > .leader {
-    flex: 1;
-    border-bottom: 1px dotted theme("colors.tinta.300");
-    transform: translateY(-0.25em);
+  .filete-fina {
+    @apply border-b border-tinta-100;
+  }
+  .filete-dupla {
+    @apply border-t border-tinta-200;
   }
 }
 
@@ -384,111 +269,23 @@
     white-space: normal;
   }
 
-  .hachura-aviso {
-    background-image: repeating-linear-gradient(
-      -45deg,
-      rgba(26, 18, 6, 0.16) 0 6px,
-      transparent 6px 12px
-    );
-  }
-
-  /* Tarja de prototipo: gradiente com as cores da bandeira do Brasil,
-     rolando devagar. A faixa colorida vive num ::before de largura dupla
-     que desliza por transform (roda no compositor, nao "congela"). O tile
-     tem 50% da largura e comeca/termina no verde, entao o loop nao emenda.
-     Para sozinho em prefers-reduced-motion (regra global). */
-  .tarja-bandeira {
-    background-color: #00923f;
-  }
-
-  .tarja-bandeira::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    width: 200%;
-    background-image: linear-gradient(
-      90deg,
-      #00923f 0%,
-      #1a9e52 12%,
-      #ffd400 30%,
-      #ffd400 40%,
-      #002776 50%,
-      #ffd400 60%,
-      #ffd400 70%,
-      #1a9e52 88%,
-      #00923f 100%
-    );
-    background-size: 50% 100%;
-    background-repeat: repeat;
-    animation: desliza-bandeira 13s linear infinite;
-    will-change: transform;
-  }
-
-  /* Hachura por cima do gradiente, sem ser arrastada pela animacao. */
-  .tarja-hachura {
-    background-image: repeating-linear-gradient(
-      -45deg,
-      rgba(20, 19, 16, 0.22) 0 6px,
-      transparent 6px 13px
-    );
-  }
-
-  /* Grelha de colunas tenue — textura de diagramacao. */
-  .grelha-colunas {
-    background-image: repeating-linear-gradient(
-      to right,
-      transparent 0,
-      transparent calc(25% - 1px),
-      theme("colors.tinta.200") calc(25% - 1px),
-      theme("colors.tinta.200") 25%
-    );
-  }
-
-  /* Capitular na abertura de um texto longo. */
-  .capitular::first-letter {
-    float: left;
-    font-family: var(--fonte-display), sans-serif;
-    font-weight: 700;
-    font-size: 3.4em;
-    line-height: 0.82;
-    padding-right: 0.08em;
-    margin-top: 0.04em;
-    color: theme("colors.tinta.900");
-  }
-
-  /* Entrada em cascata para grupos pequenos. */
+  /* Entrada discreta. Só no cabeçalho de página, não em lista longa. */
   .entrada > * {
-    animation: surgir 0.62s theme("transitionTimingFunction.suave") both;
-  }
-  .entrada > *:nth-child(1) {
-    animation-delay: 0.04s;
+    animation: surgir 0.4s theme("transitionTimingFunction.suave") both;
   }
   .entrada > *:nth-child(2) {
-    animation-delay: 0.12s;
+    animation-delay: 0.05s;
   }
   .entrada > *:nth-child(3) {
-    animation-delay: 0.2s;
+    animation-delay: 0.1s;
   }
-  .entrada > *:nth-child(4) {
-    animation-delay: 0.28s;
-  }
-  .entrada > *:nth-child(5) {
-    animation-delay: 0.36s;
-  }
-  .entrada > *:nth-child(6) {
-    animation-delay: 0.44s;
-  }
-  .entrada > *:nth-child(n + 7) {
-    animation-delay: 0.5s;
+  .entrada > *:nth-child(n + 4) {
+    animation-delay: 0.15s;
   }
 
+  /* Mantida vazia: a lista não anima mais. Com 575 fichas, cascata de
+     entrada vira tremulação na tela e atrapalha quem lê devagar. */
   .entrada-lista > * {
-    animation: surgir-suave 0.5s theme("transitionTimingFunction.suave") both;
-  }
-
-  /* Filete que se desenha da esquerda para a direita. */
-  .risca {
-    transform-origin: left;
-    animation: risca-h 0.7s theme("transitionTimingFunction.suave") both;
+    animation: none;
   }
 }

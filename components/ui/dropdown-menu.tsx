@@ -37,15 +37,15 @@ function DropdownMenuGroup({
 }
 
 const classesPainel = cn(
-  "z-50 min-w-[10rem] overflow-hidden border-2 border-tinta-900 bg-papel-alta p-1 text-tinta-900 shadow-bloco",
+  "z-50 min-w-[10rem] overflow-hidden border border-tinta-200 bg-papel-alta p-1 text-tinta-900 shadow-cartao",
   "data-[state=open]:animate-in data-[state=open]:fade-in-0 data-[state=open]:zoom-in-95",
   "data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=closed]:zoom-out-95",
 );
 
 const classesItem = cn(
   "relative flex min-h-[38px] cursor-default select-none items-center gap-2 px-2.5 py-2",
-  "font-mono text-sm text-tinta-800 outline-none transition-colors",
-  "focus:bg-tinta-900 focus:text-papel-alta",
+  "text-base text-tinta-800 outline-none transition-colors",
+  "focus:bg-acento-leve focus:text-acento-forte",
   "data-[disabled]:pointer-events-none data-[disabled]:opacity-50",
   "[&_svg]:size-4 [&_svg]:shrink-0",
 );
@@ -143,7 +143,7 @@ function DropdownMenuLabel({
     <DropdownMenuPrimitive.Label
       data-slot="dropdown-menu-label"
       className={cn(
-        "px-2.5 py-1.5 font-mono text-[0.62rem] uppercase tracking-[0.16em] text-tinta-400",
+        "px-2.5 py-1.5 text-sm font-semibold text-tinta-400",
         className,
       )}
       {...props}
@@ -172,7 +172,7 @@ function DropdownMenuShortcut({
     <span
       data-slot="dropdown-menu-shortcut"
       className={cn(
-        "ml-auto font-mono text-[0.62rem] uppercase tracking-[0.16em] text-tinta-400",
+        "ml-auto text-sm font-semibold text-tinta-400",
         className,
       )}
       {...props}

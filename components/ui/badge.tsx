@@ -12,13 +12,13 @@ import { cn } from "@/lib/utils";
  * em outra e exatamente o destaque que este site nao pode dar.
  */
 const variantesBadge = cva(
-  "inline-flex w-fit shrink-0 items-center gap-1.5 whitespace-nowrap border px-2.5 py-1 font-mono text-[0.68rem] font-medium uppercase tracking-[0.13em] no-underline [&_svg]:size-3 [&_svg]:pointer-events-none",
+  "inline-flex w-fit shrink-0 items-center gap-1.5 whitespace-nowrap border px-2.5 py-1 text-sm font-medium no-underline [&_svg]:size-3 [&_svg]:pointer-events-none",
   {
     variants: {
       variant: {
         contorno: "border-tinta-900 bg-papel-alta text-tinta-800",
         solido: "border-tinta-900 bg-tinta-900 text-papel-alta",
-        discreto: "border-tinta-300 bg-transparent text-tinta-600",
+        discreto: "border-tinta-200 bg-papel-baixa text-tinta-700",
         /** Marca de bloco oficial. Usar so junto de <DadoOficial>. */
         oficial: "border-oficial-borda bg-oficial-fundo text-oficial-texto",
         /** Marca de texto escrito pela plataforma. */

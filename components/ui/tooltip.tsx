@@ -55,8 +55,8 @@ function TooltipContent({
         data-slot="tooltip-content"
         sideOffset={sideOffset}
         className={cn(
-          "z-50 max-w-64 border-2 border-tinta-900 bg-tinta-900 px-3 py-2",
-          "font-mono text-[0.7rem] uppercase leading-relaxed tracking-[0.08em] text-papel-alta",
+          "z-50 max-w-64 border border-tinta-200 bg-tinta-900 px-3 py-2",
+          "text-sm leading-relaxed text-papel-alta",
           "data-[state=delayed-open]:animate-in data-[state=delayed-open]:fade-in-0",
           "data-[state=closed]:animate-out data-[state=closed]:fade-out-0",
           className,

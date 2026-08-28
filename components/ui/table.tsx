@@ -16,7 +16,7 @@ function Table({ className, ...props }: React.ComponentProps<"table">) {
   return (
     <div
       data-slot="table-container"
-      className="w-full overflow-x-auto border-2 border-tinta-900"
+      className="w-full overflow-x-auto border border-tinta-200"
     >
       <table
         data-slot="table"
@@ -31,7 +31,7 @@ function TableHeader({ className, ...props }: React.ComponentProps<"thead">) {
   return (
     <thead
       data-slot="table-header"
-      className={cn("border-b-2 border-tinta-900 bg-papel-baixa", className)}
+      className={cn("border-b border-tinta-200 bg-papel-baixa", className)}
       {...props}
     />
   );
@@ -52,7 +52,7 @@ function TableFooter({ className, ...props }: React.ComponentProps<"tfoot">) {
     <tfoot
       data-slot="table-footer"
       className={cn(
-        "border-t-2 border-tinta-900 bg-papel-baixa font-medium",
+        "border-t border-tinta-200 bg-papel-baixa font-medium",
         className,
       )}
       {...props}

@@ -22,13 +22,13 @@ function Toaster({ ...props }: ToasterProps) {
       toastOptions={{
         classNames: {
           toast:
-            "!rounded-none !border-2 !border-tinta-900 !bg-papel-alta !text-tinta-900 !shadow-bloco !font-texto",
+            "!rounded !border-2 !border-tinta-900 !bg-papel-alta !text-tinta-900 !shadow-cartao !font-texto",
           title: "!font-display !font-semibold !tracking-[-0.02em]",
           description: "!text-tinta-600",
           actionButton:
-            "!rounded-none !bg-tinta-900 !text-papel-alta !font-mono !text-xs !uppercase !tracking-[0.08em]",
+            "!rounded !bg-tinta-900 !text-papel-alta !font-mono !text-xs !uppercase !tracking-[0.08em]",
           cancelButton:
-            "!rounded-none !bg-papel !text-tinta-900 !font-mono !text-xs !uppercase !tracking-[0.08em]",
+            "!rounded !bg-papel !text-tinta-900 !font-mono !text-xs !uppercase !tracking-[0.08em]",
         },
       }}
       style={

@@ -52,22 +52,22 @@ function SheetContent({
       <SheetPrimitive.Content
         data-slot="sheet-content"
         className={cn(
-          "fixed z-50 flex flex-col gap-0 bg-papel-alta shadow-bloco transition ease-suave",
+          "fixed z-50 flex flex-col gap-0 bg-papel-alta shadow-cartao transition ease-suave",
           "data-[state=open]:animate-in data-[state=closed]:animate-out",
           side === "right" &&
-            "inset-y-0 right-0 h-full w-[min(22rem,90vw)] border-l-2 border-tinta-900 data-[state=open]:slide-in-from-right data-[state=closed]:slide-out-to-right",
+            "inset-y-0 right-0 h-full w-[min(22rem,90vw)] border-l border-tinta-200 data-[state=open]:slide-in-from-right data-[state=closed]:slide-out-to-right",
           side === "left" &&
-            "inset-y-0 left-0 h-full w-[min(22rem,90vw)] border-r-2 border-tinta-900 data-[state=open]:slide-in-from-left data-[state=closed]:slide-out-to-left",
+            "inset-y-0 left-0 h-full w-[min(22rem,90vw)] border-r border-tinta-200 data-[state=open]:slide-in-from-left data-[state=closed]:slide-out-to-left",
           side === "top" &&
-            "inset-x-0 top-0 h-auto border-b-2 border-tinta-900 data-[state=open]:slide-in-from-top data-[state=closed]:slide-out-to-top",
+            "inset-x-0 top-0 h-auto border-b border-tinta-200 data-[state=open]:slide-in-from-top data-[state=closed]:slide-out-to-top",
           side === "bottom" &&
-            "inset-x-0 bottom-0 h-auto border-t-2 border-tinta-900 data-[state=open]:slide-in-from-bottom data-[state=closed]:slide-out-to-bottom",
+            "inset-x-0 bottom-0 h-auto border-t border-tinta-200 data-[state=open]:slide-in-from-bottom data-[state=closed]:slide-out-to-bottom",
           className,
         )}
         {...props}
       >
         {children}
-        <SheetPrimitive.Close className="absolute right-2 top-2 inline-flex size-9 items-center justify-center border-2 border-transparent text-tinta-600 transition-colors hover:border-tinta-900 hover:bg-papel hover:text-tinta-900">
+        <SheetPrimitive.Close className="absolute right-2 top-2 inline-flex size-9 items-center justify-center rounded border border-transparent text-tinta-600 transition-colors hover:bg-papel-baixa hover:text-acento-forte">
           <X className="size-4" />
           <span className="apenas-leitor">Fechar</span>
         </SheetPrimitive.Close>
@@ -81,7 +81,7 @@ function SheetHeader({ className, ...props }: React.ComponentProps<"div">) {
     <div
       data-slot="sheet-header"
       className={cn(
-        "flex flex-col gap-1 border-b-2 border-tinta-900 px-5 py-4 pr-14",
+        "flex flex-col gap-1 border-b border-tinta-200 px-5 py-4 pr-14",
         className,
       )}
       {...props}
@@ -104,7 +104,7 @@ function SheetFooter({ className, ...props }: React.ComponentProps<"div">) {
     <div
       data-slot="sheet-footer"
       className={cn(
-        "mt-auto flex flex-col gap-2 border-t-2 border-tinta-900 px-5 py-4",
+        "mt-auto flex flex-col gap-2 border-t border-tinta-200 px-5 py-4",
         className,
       )}
       {...props}
@@ -120,7 +120,7 @@ function SheetTitle({
     <SheetPrimitive.Title
       data-slot="sheet-title"
       className={cn(
-        "font-display text-xl font-bold leading-tight tracking-[-0.03em] text-tinta-900",
+        "text-xl font-bold leading-snug text-tinta-950",
         className,
       )}
       {...props}
@@ -135,7 +135,7 @@ function SheetDescription({
   return (
     <SheetPrimitive.Description
       data-slot="sheet-description"
-      className={cn("text-sm text-tinta-600", className)}
+      className={cn("text-tinta-600", className)}
       {...props}
     />
   );

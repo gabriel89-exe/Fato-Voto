@@ -18,16 +18,16 @@ import { cn } from "@/lib/utils";
  * precisar de um estado de falha, use `neutro` e diga no texto.
  */
 const variantesAviso = cva(
-  "relative grid w-full grid-cols-[auto_1fr] items-start gap-x-3 gap-y-1 border-2 px-4 py-3 text-sm [&>svg]:mt-0.5 [&>svg]:size-5 [&>svg]:shrink-0",
+  "relative grid w-full grid-cols-[auto_1fr] items-start gap-x-3 gap-y-1 rounded border px-4 py-3.5 [&>svg]:mt-0.5 [&>svg]:size-5 [&>svg]:shrink-0",
   {
     variants: {
       variant: {
         neutro:
-          "border-tinta-900 bg-papel-alta text-tinta-700 before:absolute before:inset-y-0 before:left-0 before:w-1.5 before:bg-tinta-900 [&>svg]:text-tinta-500",
+          "border-tinta-200 border-l-4 border-l-acento bg-papel-alta text-tinta-700 [&>svg]:text-acento",
         oficial:
-          "border-l-[6px] border-oficial-borda bg-oficial-fundo text-tinta-900 [&>svg]:text-oficial-texto",
+          "rounded border border-oficial-leve border-l-4 border-l-oficial-borda bg-oficial-fundo text-tinta-900 [&>svg]:text-oficial-texto",
         plataforma:
-          "border-dashed border-resumo-borda bg-resumo-fundo text-tinta-900 [&>svg]:text-resumo-texto",
+          "rounded border border-dashed border-resumo-borda bg-resumo-fundo text-tinta-900 [&>svg]:text-resumo-texto",
       },
     },
     defaultVariants: { variant: "neutro" },

@@ -16,10 +16,10 @@ import { cn } from "@/lib/utils";
 const variantesItem = cva(
   cn(
     "inline-flex min-h-toque flex-1 items-center justify-center gap-2 whitespace-nowrap px-3.5 py-2.5",
-    "font-mono text-[0.7rem] font-medium uppercase tracking-[0.13em] text-tinta-700 transition-colors",
-    "border-l-2 border-tinta-900 first:border-l-0",
+    "text-base font-medium text-tinta-700 transition-colors",
+    "border-l border-tinta-200 first:border-l-0",
     "hover:bg-papel",
-    "data-[state=on]:bg-tinta-900 data-[state=on]:font-semibold data-[state=on]:text-papel-alta",
+    "data-[state=on]:border-acento data-[state=on]:bg-acento data-[state=on]:font-semibold data-[state=on]:text-white",
     "disabled:pointer-events-none disabled:opacity-50",
     "[&_svg]:size-4 [&_svg]:shrink-0",
   ),
@@ -35,7 +35,7 @@ function ToggleGroup({
     <ToggleGroupPrimitive.Root
       data-slot="toggle-group"
       className={cn(
-        "inline-flex w-fit items-stretch border-2 border-tinta-900 bg-papel-alta shadow-bloco-sm",
+        "inline-flex w-fit items-stretch border border-tinta-200 bg-papel-alta shadow-cartao",
         className,
       )}
       {...props}

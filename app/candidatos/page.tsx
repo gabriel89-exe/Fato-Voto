@@ -46,7 +46,7 @@ export default async function PaginaCandidatos({
   return (
     <div className="envelope py-8 sm:py-12">
       <header className="entrada">
-        <p className="folio flex-wrap justify-between gap-y-1 border-y-2 border-tinta-900 py-2">
+        <p className="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1 border-b border-tinta-200 pb-3 text-sm text-tinta-600">
           <span>
             {ESTADO.nome} ({ESTADO.sigla}) — Eleição {ELEICAO.ano}
           </span>
@@ -83,7 +83,7 @@ export default async function PaginaCandidatos({
           <p
             role="status"
             aria-live="polite"
-            className="font-mono text-[0.68rem] uppercase tracking-[0.13em] text-tinta-500"
+            className="text-sm text-tinta-500"
           >
             {lista.length}{" "}
             {lista.length === 1

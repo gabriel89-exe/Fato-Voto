@@ -112,10 +112,8 @@ function Secao({
   return (
     <section className="mt-14 scroll-mt-32" id={`s-${folio}`}>
       <div className="secao-cabeca">
-        <span className="folio">
-          <b>§ {folio}</b>
-        </span>
         <h2>{titulo}</h2>
+        <span className="text-sm text-tinta-500">{folio}</span>
       </div>
       {nota ? <p className="mt-3 max-w-leitura text-sm text-tinta-600">{nota}</p> : null}
       <div className="mt-6">{children}</div>
@@ -138,8 +136,8 @@ function Amostra({
     // recusa a encolher abaixo do proprio conteudo. Sem isto, a regua de
     // abas (que rola sozinha) empurra a moldura para fora da tela e a
     // PAGINA passa a rolar de lado em 360px.
-    <div className="min-w-0 border-2 border-tinta-900 bg-papel">
-      <p className="border-b border-tinta-300 bg-papel-alta px-3 py-1.5 font-mono text-[0.62rem] uppercase tracking-[0.16em] text-tinta-500">
+    <div className="min-w-0 rounded border border-tinta-200 bg-papel">
+      <p className="rounded-t border-b border-tinta-200 bg-papel-baixa px-3 py-2 text-sm font-semibold text-tinta-600">
         {nome}
       </p>
       <div className={`min-w-0 p-5 ${className}`}>{children}</div>
@@ -269,7 +267,7 @@ export default function KitInterface({
                 </span>
               </label>
             ))}
-            <p className="pt-2 font-mono text-[0.68rem] uppercase tracking-[0.13em] text-tinta-500">
+            <p className="pt-2 text-sm text-tinta-600">
               {marcados.length} de {TRES_PARTIDOS.length} marcados
             </p>
           </Amostra>
@@ -659,7 +657,7 @@ export default function KitInterface({
               <ToggleGroupItem value="governador">Governador</ToggleGroupItem>
               <ToggleGroupItem value="senador">Senador</ToggleGroupItem>
             </ToggleGroup>
-            <p className="mt-3 font-mono text-[0.68rem] uppercase tracking-[0.13em] text-tinta-500">
+            <p className="mt-3 text-sm text-tinta-600">
               Recorte atual: {cargo}
             </p>
           </Amostra>

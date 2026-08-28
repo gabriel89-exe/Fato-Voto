@@ -71,21 +71,26 @@ Dois documentos valem mais que este README, e devem ser lidos primeiro:
 
 ## Interface
 
-Os controles do site vêm do **shadcn/ui**: código copiado para dentro do
-repositório e reescrito para falar a língua da GAZETA — cantos vivos, filete de
-tinta de 2px, sombra dura deslocada, rótulo em fonte monoespaçada. Por baixo
-ficam os primitivos do Radix, que resolvem teclado, foco e leitor de tela.
+Os controles vêm do **shadcn/ui**: código copiado para dentro do repositório e
+reescrito seguindo as convenções de acessibilidade do **Padrão Digital de
+Governo (gov.br)** — corpo de 17px, contraste alto, azul de link forte e
+sublinhado, foco sempre visível, alvo de toque de 48px. Por baixo ficam os
+primitivos do Radix, que resolvem teclado, foco e leitor de tela.
+
+> **Adotamos as convenções do gov.br, não a marca dele.** O projeto é autônomo
+> e não é um site do governo. Como a interface agora se parece com um, a barra
+> do topo diz isso em toda página — não remova.
 
 Veja tudo funcionando em **`/interface`** (link no rodapé). É lá que se confere,
 num relance, se um controle novo destoa do resto.
 
 A ponte entre os dois mundos é um bloco de variáveis CSS em `app/globals.css`
-(`--background`, `--primary`, `--radius: 0px`…) amarrado aos nomes do shadcn em
-`tailwind.config.ts`. Consequência prática: um componente novo baixado do
-registro já nasce com a identidade certa.
+(`--background`, `--primary`, `--radius`…) amarrado aos nomes do shadcn em
+`tailwind.config.ts`. Um componente novo baixado do registro já nasce com a
+identidade certa.
 
 Cuidado com o nome parecido: `--accent` é o cinza de realce de menu do shadcn;
-o azul de carimbo do site é `--acento` (com O), exposto como `text-acento`.
+o azul do site é `--acento` (com O), exposto como `text-acento`.
 
 ### Adicionar um componente novo
 
@@ -99,7 +104,7 @@ direto em `components/ui`.
 
 Depois de baixar, **passe o olho no arquivo**: o padrão do shadcn traz
 `rounded-md`, `shadow-sm` e `focus-visible:outline-none`. Os dois primeiros são
-inofensivos (o raio é 0 no tema), mas o terceiro apaga o contorno de foco de 3px
+inofensivos, mas o terceiro apaga o contorno de foco de 3px
 que vale para o site inteiro — remova.
 
 ### Regras de interface que não se negociam
@@ -107,7 +112,10 @@ que vale para o site inteiro — remova.
 O site não recomenda ninguém, e isso restringe a interface:
 
 - Nenhuma cor pode ser lida como juízo de valor. Não há vermelho no sistema:
-  até a ação destrutiva se distingue por moldura e texto.
+  até a ação destrutiva se distingue por moldura e texto. O azul aparece só em
+  elemento de interface — link, foco, ação primária —, nunca em ficha.
+- Texto no mínimo 17px, contraste mínimo AA, link sempre sublinhado. Cor
+  sozinha não é sinal acessível.
 - Toda ficha de candidatura tem a mesma moldura, a mesma sombra e o mesmo peso.
   `Card` não tem variante de destaque, e não deve passar a ter.
 - `Badge` nunca ganha cor por candidatura, partido ou situação de registro.

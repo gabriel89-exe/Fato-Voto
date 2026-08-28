@@ -41,8 +41,8 @@ function SelectTrigger({
     <SelectPrimitive.Trigger
       data-slot="select-trigger"
       className={cn(
-        "flex min-h-toque w-fit items-center justify-between gap-3 border-2 border-tinta-900 bg-papel-alta px-3.5 py-2.5",
-        "font-mono text-sm uppercase tracking-[0.08em] text-tinta-900 shadow-bloco-sm transition-colors",
+        "flex min-h-toque w-fit items-center justify-between gap-3 border border-tinta-200 bg-papel-alta px-3.5 py-2.5",
+        "text-base text-tinta-900 shadow-cartao transition-colors",
         "hover:bg-papel data-[placeholder]:text-tinta-400",
         "disabled:cursor-not-allowed disabled:opacity-60",
         "[&_svg]:size-4 [&_svg]:shrink-0",
@@ -71,7 +71,7 @@ function SelectContent({
         position={position}
         className={cn(
           "relative z-50 max-h-[--radix-select-content-available-height] min-w-[8rem] overflow-y-auto overflow-x-hidden",
-          "border-2 border-tinta-900 bg-papel-alta text-tinta-900 shadow-bloco",
+          "border border-tinta-200 bg-papel-alta text-tinta-900 shadow-cartao",
           "data-[state=open]:animate-in data-[state=open]:fade-in-0 data-[state=closed]:animate-out data-[state=closed]:fade-out-0",
           position === "popper" &&
             "data-[side=bottom]:translate-y-1 data-[side=top]:-translate-y-1",
@@ -103,7 +103,7 @@ function SelectLabel({
     <SelectPrimitive.Label
       data-slot="select-label"
       className={cn(
-        "px-2 py-1.5 font-mono text-[0.62rem] uppercase tracking-[0.16em] text-tinta-400",
+        "px-2 py-1.5 text-sm font-semibold text-tinta-400",
         className,
       )}
       {...props}
@@ -121,8 +121,8 @@ function SelectItem({
       data-slot="select-item"
       className={cn(
         "relative flex min-h-[38px] w-full cursor-default select-none items-center gap-2 py-2 pl-3 pr-8",
-        "font-mono text-sm text-tinta-800 outline-none",
-        "focus:bg-tinta-900 focus:text-papel-alta",
+        "text-base text-tinta-800 outline-none",
+        "focus:bg-acento-leve focus:text-acento-forte",
         "data-[disabled]:pointer-events-none data-[disabled]:opacity-50",
         className,
       )}

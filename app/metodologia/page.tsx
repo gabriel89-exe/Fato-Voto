@@ -61,7 +61,7 @@ export default function PaginaMetodologia() {
   return (
     <div className="envelope py-8 sm:py-12">
       <article className="entrada mx-auto max-w-leitura">
-        <p className="folio border-y-2 border-tinta-900 py-2">
+        <p className="border-b border-tinta-200 pb-3 text-sm text-tinta-600">
           <span>Expediente</span>
         </p>
 
@@ -82,9 +82,6 @@ export default function PaginaMetodologia() {
           {SECOES.map((secao, i) => (
             <section key={secao.titulo}>
               <div className="secao-cabeca">
-                <span className="folio">
-                  <b>§ {String(i + 1).padStart(2, "0")}</b>
-                </span>
                 <h2 className="text-[1.5rem] sm:text-[1.8rem]">{secao.titulo}</h2>
               </div>
               <div className="mt-4 space-y-3 text-tinta-700">

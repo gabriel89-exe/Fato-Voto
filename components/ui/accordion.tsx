@@ -44,7 +44,7 @@ function AccordionTrigger({
         data-slot="accordion-trigger"
         className={cn(
           "group flex min-h-toque flex-1 items-center justify-between gap-4 py-3 text-left",
-          "font-mono text-[0.7rem] font-medium uppercase tracking-[0.13em] text-tinta-700 transition-colors hover:text-tinta-900",
+          "text-base font-medium text-tinta-700 transition-colors hover:text-tinta-900",
           className,
         )}
         {...props}

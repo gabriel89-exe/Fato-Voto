@@ -79,7 +79,7 @@ export default async function PaginaCandidato({
     <div className="envelope py-8 sm:py-10">
       <Link
         href="/candidatos"
-        className="inline-flex items-center gap-2 font-mono text-xs uppercase tracking-[0.14em] no-underline"
+        className="inline-flex items-center gap-2 text-sm font-medium no-underline"
       >
         <IconeSeta className="h-3.5 w-3.5 rotate-180" />
         Voltar para a lista
@@ -87,8 +87,8 @@ export default async function PaginaCandidato({
 
       <article className="mt-5">
         {/* ---------- Cabeçote da ficha ---------- */}
-        <header className="entrada border-y-2 border-tinta-900 py-6">
-          <p className="folio flex-wrap justify-between gap-y-1">
+        <header className="entrada border-y border-tinta-200 py-6">
+          <p className="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1 text-sm text-tinta-600">
             <span>Ficha de candidatura</span>
             <span className="text-tinta-400">
               {ESTADO.nome} ({ESTADO.sigla}) · Eleição {ELEICAO.ano}
@@ -111,7 +111,7 @@ export default async function PaginaCandidato({
           </div>
         </header>
 
-        <dl className="mt-6 grid gap-x-8 gap-y-4 border-l-2 border-tinta-900 pl-5 text-sm sm:grid-cols-2">
+        <dl className="mt-6 grid gap-x-8 gap-y-4 border-l-4 border-acento pl-5 text-sm sm:grid-cols-2">
           <Campo rotulo="Cargo em disputa" valor={`${c.cargo} — ${c.uf}`} />
           <Campo
             rotulo="Partido"
@@ -125,7 +125,7 @@ export default async function PaginaCandidato({
         </dl>
 
         {/* ---------- Situação do registro ---------- */}
-        <div className="mt-6 rounded-none border border-tinta-300 bg-superficie-baixa px-4 py-3">
+        <div className="mt-6 rounded border border-tinta-300 bg-superficie-baixa px-4 py-3">
           <p className="text-sm">
             <span className="font-semibold text-tinta-900">
               Situação do registro: {c.situacaoRegistro ?? "Não informada"}.

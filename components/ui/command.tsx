@@ -37,7 +37,7 @@ function Command({
     <CommandPrimitive
       data-slot="command"
       className={cn(
-        "flex h-full w-full flex-col overflow-hidden border-2 border-tinta-900 bg-papel-alta text-tinta-900",
+        "flex h-full w-full flex-col overflow-hidden border border-tinta-200 bg-papel-alta text-tinta-900",
         className,
       )}
       {...props}
@@ -72,7 +72,7 @@ function CommandInput({
   ...props
 }: React.ComponentProps<typeof CommandPrimitive.Input>) {
   return (
-    <div className="flex items-center gap-2.5 border-b-2 border-tinta-900 px-3.5">
+    <div className="flex items-center gap-2.5 border-b border-tinta-200 px-3.5">
       <Search className="size-4 shrink-0 text-tinta-400" />
       <CommandPrimitive.Input
         data-slot="command-input"
@@ -152,7 +152,7 @@ function CommandItem({
       data-slot="command-item"
       className={cn(
         "relative flex min-h-[42px] cursor-default select-none items-center gap-2.5 px-2.5 py-2 text-sm outline-none",
-        "data-[selected=true]:bg-tinta-900 data-[selected=true]:text-papel-alta",
+        "data-[selected=true]:bg-acento-leve data-[selected=true]:text-acento-forte",
         "data-[disabled=true]:pointer-events-none data-[disabled=true]:opacity-50",
         "[&_svg]:size-4 [&_svg]:shrink-0",
         className,
@@ -167,7 +167,7 @@ function CommandShortcut({ className, ...props }: React.ComponentProps<"span">) 
     <span
       data-slot="command-shortcut"
       className={cn(
-        "ml-auto font-mono text-[0.62rem] uppercase tracking-[0.16em] text-tinta-400",
+        "ml-auto text-sm font-semibold text-tinta-400",
         className,
       )}
       {...props}

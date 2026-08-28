@@ -1,32 +1,22 @@
 import type { Metadata, Viewport } from "next";
-import {
-  Bricolage_Grotesque,
-  JetBrains_Mono,
-  Newsreader,
-} from "next/font/google";
+import { JetBrains_Mono, Raleway } from "next/font/google";
 import Cabecalho from "@/components/Cabecalho";
 import Rodape from "@/components/Rodape";
 import TarjaPrototipo from "@/components/TarjaPrototipo";
 import "./globals.css";
 
 /**
- * Tipografia da GAZETA.
+ * Tipografia.
  *
- * Bricolage Grotesque: manchetes. Grotesca contemporanea, apertada,
- * com carater — a "voz" impressa do site.
- * Newsreader: corpo de texto. Serifa de jornal feita para tela.
- * JetBrains Mono: dados, rotulos, folios, datalinha. Reforca a ideia
- * de registro tabelado.
+ * Raleway é a fonte de corpo do Padrão Digital de Governo (gov.br) e
+ * está no Google Fonts. Uma família só para título e texto: reduz o
+ * ruído visual e o peso de carregamento.
+ *
+ * JetBrains Mono fica SÓ onde número precisa alinhar em coluna —
+ * valor em tabela e dígito de urna. Nunca em rótulo corrido.
  */
-const fonteDisplay = Bricolage_Grotesque({
+const fonteTexto = Raleway({
   subsets: ["latin"],
-  variable: "--fonte-display",
-  display: "swap",
-});
-
-const fonteTexto = Newsreader({
-  subsets: ["latin"],
-  style: ["normal", "italic"],
   variable: "--fonte-texto",
   display: "swap",
 });
@@ -61,7 +51,7 @@ export default function RootLayout({
   return (
     <html
       lang="pt-BR"
-      className={`${fonteDisplay.variable} ${fonteTexto.variable} ${fonteMono.variable}`}
+      className={`${fonteTexto.variable} ${fonteMono.variable}`}
     >
       <body className="flex min-h-screen flex-col">
         <a

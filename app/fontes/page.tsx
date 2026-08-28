@@ -57,7 +57,7 @@ export default function PaginaFontes() {
   return (
     <div className="envelope py-8 sm:py-12">
       <article className="entrada">
-        <p className="folio flex-wrap justify-between gap-y-1 border-y-2 border-tinta-900 py-2">
+        <p className="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1 border-b border-tinta-200 pb-3 text-sm text-tinta-600">
           <span>
             {ESTADO.nome} ({ESTADO.sigla}) — Eleição {ELEICAO.ano}
           </span>
@@ -68,7 +68,7 @@ export default function PaginaFontes() {
 
         <h1 className="mt-6">De onde vêm os dados</h1>
 
-        <p className="mt-5 max-w-leitura font-display text-xl font-medium leading-[1.2] tracking-[-0.02em] text-tinta-800">
+        <p className="mt-5 max-w-leitura text-lg text-tinta-800">
           Tudo aqui vem de fonte pública oficial. Nada é estimado, calculado
           por nós ou preenchido quando falta.
         </p>
@@ -83,12 +83,9 @@ export default function PaginaFontes() {
           </AlertDescription>
         </Alert>
 
-        {/* ---------- § 01 — O que temos ---------- */}
+        {/* --- O que temos--- */}
         <section className="mt-14">
           <div className="secao-cabeca">
-            <span className="folio">
-              <b>§ 01</b>
-            </span>
             <h2>O que temos hoje</h2>
           </div>
 
@@ -154,7 +151,7 @@ export default function PaginaFontes() {
             ].map((item) => (
               <div
                 key={item.rotulo}
-                className="border-2 border-tinta-900 bg-papel-alta px-4 py-4"
+                className="border border-tinta-200 bg-papel-alta px-4 py-4"
               >
                 <dd className="font-display text-2xl font-bold tabular-nums text-tinta-900">
                   {item.valor}
@@ -165,12 +162,9 @@ export default function PaginaFontes() {
           </dl>
         </section>
 
-        {/* ---------- § 02 — As fontes ---------- */}
+        {/* --- As fontes--- */}
         <section className="mt-14">
           <div className="secao-cabeca">
-            <span className="folio">
-              <b>§ 02</b>
-            </span>
             <h2>As fontes</h2>
           </div>
 
@@ -178,7 +172,7 @@ export default function PaginaFontes() {
             <div className="painel p-5">
               <div className="flex flex-wrap items-center gap-3">
                 <Badge variant="oficial">Dado oficial</Badge>
-                <h3 className="font-display text-lg font-bold tracking-[-0.02em]">
+                <h3 className="text-lg font-bold">
                   {FONTE_TSE.nome}
                 </h3>
               </div>
@@ -207,7 +201,7 @@ export default function PaginaFontes() {
             <div className="painel p-5">
               <div className="flex flex-wrap items-center gap-3">
                 <Badge variant="oficial">Dado oficial</Badge>
-                <h3 className="font-display text-lg font-bold tracking-[-0.02em]">
+                <h3 className="text-lg font-bold">
                   {FONTE_CAMARA.nome}
                 </h3>
               </div>
@@ -237,16 +231,13 @@ export default function PaginaFontes() {
           </div>
         </section>
 
-        {/* ---------- § 03 — O que falta ---------- */}
+        {/* --- O que falta--- */}
         <section className="mt-14">
           <div className="secao-cabeca">
-            <span className="folio">
-              <b>§ 03</b>
-            </span>
             <h2>O que ainda falta</h2>
           </div>
 
-          <ul className="mt-6 border-2 border-tinta-900 bg-papel-alta">
+          <ul className="mt-6 border border-tinta-200 bg-papel-alta">
             {[
               {
                 titulo: "Emendas parlamentares",
@@ -273,7 +264,7 @@ export default function PaginaFontes() {
                 key={item.titulo}
                 className={`p-5 ${i > 0 ? "border-t border-tinta-300" : ""}`}
               >
-                <p className="font-display text-base font-bold tracking-[-0.02em] text-tinta-900">
+                <p className="text-base font-bold text-tinta-900">
                   {item.titulo}
                 </p>
                 <p className="mt-1 text-sm text-tinta-700">{item.texto}</p>

@@ -92,7 +92,7 @@ function GrupoFacetas({
                           value={opcao.valor}
                           defaultChecked={opcao.marcada}
                           disabled={inerte}
-                          className="size-5 shrink-0 accent-tinta-900"
+                          className="size-5 shrink-0 accent-acento"
                         />
                         <span className="min-w-0 flex-1 truncate">
                           {opcao.valor}
@@ -165,7 +165,7 @@ function Formulario({
                     name="cargo"
                     value={cargo ?? ""}
                     defaultChecked={filtros.cargo === cargo}
-                    className="size-5 shrink-0 accent-tinta-900"
+                    className="size-5 shrink-0 accent-acento"
                   />
                   {cargo ?? "Todos os cargos"}
                 </label>
@@ -176,7 +176,7 @@ function Formulario({
 
         <GrupoFacetas facetas={facetas} prefixo={prefixo} />
 
-        <div className="flex flex-col gap-2 border-t-2 border-tinta-900 pt-4">
+        <div className="flex flex-col gap-2 border-t border-tinta-200 pt-4">
           <Button type="submit">Aplicar recortes</Button>
           <Button asChild variant="fantasma">
             <Link href="/candidatos">Limpar tudo</Link>
@@ -234,7 +234,7 @@ export default function FiltrosCandidatos({
       {/* ---------- Desktop: coluna fixa ---------- */}
       <aside className="hidden lg:block">
         <div className="painel sticky top-32 max-h-[calc(100vh-10rem)] overflow-y-auto p-4">
-          <p className="rotulo-meta mb-3 border-b-2 border-tinta-900 pb-2">
+          <p className="rotulo-meta mb-3 border-b border-tinta-200 pb-2">
             Recortes
           </p>
           <Formulario filtros={filtros} facetas={facetas} prefixo="coluna" />

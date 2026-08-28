@@ -71,7 +71,7 @@ function DialogContent({
         className={cn(
           "fixed left-1/2 top-1/2 z-50 grid w-[calc(100%-2rem)] max-w-lg -translate-x-1/2 -translate-y-1/2",
           "max-h-[calc(100dvh-4rem)] grid-rows-[auto_1fr_auto] overflow-hidden",
-          "border-2 border-tinta-900 bg-papel-alta shadow-bloco",
+          "border border-tinta-200 bg-papel-alta shadow-cartao",
           "data-[state=open]:animate-in data-[state=open]:fade-in-0 data-[state=open]:zoom-in-95",
           "data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=closed]:zoom-out-95",
           className,
@@ -82,7 +82,7 @@ function DialogContent({
         {mostrarFechar ? (
           <DialogPrimitive.Close
             data-slot="dialog-close"
-            className="absolute right-2 top-2 inline-flex size-9 items-center justify-center border-2 border-transparent text-tinta-600 transition-colors hover:border-tinta-900 hover:bg-papel hover:text-tinta-900"
+            className="absolute right-2 top-2 inline-flex size-9 items-center justify-center rounded border border-transparent text-tinta-600 transition-colors hover:bg-papel-baixa hover:text-acento-forte"
           >
             <X className="size-4" />
             <span className="apenas-leitor">Fechar</span>
@@ -98,7 +98,7 @@ function DialogHeader({ className, ...props }: React.ComponentProps<"div">) {
     <div
       data-slot="dialog-header"
       className={cn(
-        "flex flex-col gap-1.5 border-b-2 border-tinta-900 px-5 py-4 pr-14",
+        "flex flex-col gap-1.5 border-b border-tinta-200 px-5 py-4 pr-14",
         className,
       )}
       {...props}
@@ -111,7 +111,7 @@ function DialogFooter({ className, ...props }: React.ComponentProps<"div">) {
     <div
       data-slot="dialog-footer"
       className={cn(
-        "flex flex-col-reverse gap-2 border-t-2 border-tinta-900 px-5 py-4 sm:flex-row sm:justify-end",
+        "flex flex-col-reverse gap-2 border-t border-tinta-200 px-5 py-4 sm:flex-row sm:justify-end",
         className,
       )}
       {...props}
@@ -127,7 +127,7 @@ function DialogTitle({
     <DialogPrimitive.Title
       data-slot="dialog-title"
       className={cn(
-        "font-display text-xl font-bold leading-tight tracking-[-0.03em] text-tinta-900",
+        "text-xl font-bold leading-snug text-tinta-950",
         className,
       )}
       {...props}
@@ -142,7 +142,7 @@ function DialogDescription({
   return (
     <DialogPrimitive.Description
       data-slot="dialog-description"
-      className={cn("text-sm text-tinta-600", className)}
+      className={cn("text-tinta-600", className)}
       {...props}
     />
   );
