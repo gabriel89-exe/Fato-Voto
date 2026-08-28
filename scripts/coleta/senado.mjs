@@ -121,7 +121,12 @@ async function coletarAutorias(codigo, proveniencias) {
       });
     }
   }
-  return materias.sort((a, b) => (b.data ?? "").localeCompare(a.data ?? ""));
+  /* Desempate pelo id: sem ele, materias da mesma data trocam de lugar
+     entre coletas e poluem o diff diario com ruido. */
+  return materias.sort(
+    (a, b) =>
+      (b.data ?? "").localeCompare(a.data ?? "") || a.id.localeCompare(b.id),
+  );
 }
 
 /**

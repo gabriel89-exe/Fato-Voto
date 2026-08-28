@@ -70,23 +70,40 @@ export function normalizar(ficha, cargo) {
   const podeBens = ficha.st_DIVULGA_BENS === true;
   const podeArquivos = ficha.st_DIVULGA_ARQUIVOS === true;
 
+  /*
+   * ORDENACAO EXPLICITA, e nao por capricho.
+   *
+   * O TSE devolve `bens` e `arquivos` em ordem nao deterministica: duas
+   * coletas seguidas do MESMO dado saem em ordens diferentes. Sem
+   * ordenar, a coleta diaria produzia um diff de 3.043 linhas sem uma
+   * unica mudanca real (medido em 28/08/2026: 173 das 575 fichas
+   * diferiam so pela ordem dos arrays).
+   *
+   * Isso arruinava o proposito do historico versionado: se todo dia o
+   * diff e enorme, ninguem consegue ver o dia em que uma candidatura
+   * foi de fato indeferida.
+   */
   const bens = podeBens
-    ? (ficha.bens ?? []).map((b) => ({
-        ordem: b.ordem,
-        tipo: b.descricaoDeTipoDeBem,
-        descricao: b.descricao,
-        valor: b.valor,
-        atualizadoEm: b.dataUltimaAtualizacao ?? null,
-      }))
+    ? (ficha.bens ?? [])
+        .map((b) => ({
+          ordem: b.ordem,
+          tipo: b.descricaoDeTipoDeBem,
+          descricao: b.descricao,
+          valor: b.valor,
+          atualizadoEm: b.dataUltimaAtualizacao ?? null,
+        }))
+        .sort((a, b) => a.ordem - b.ordem)
     : [];
 
   const documentos = podeArquivos
-    ? (ficha.arquivos ?? []).map((a) => ({
-        id: a.idArquivo,
-        nomeArquivo: a.nome,
-        tipo: classificar(a.codTipo),
-        codTipo: Number(a.codTipo),
-      }))
+    ? (ficha.arquivos ?? [])
+        .map((a) => ({
+          id: a.idArquivo,
+          nomeArquivo: a.nome,
+          tipo: classificar(a.codTipo),
+          codTipo: Number(a.codTipo),
+        }))
+        .sort((a, b) => a.id - b.id)
     : [];
 
   const proposta = documentos.find((d) => d.tipo === "Proposta de governo");

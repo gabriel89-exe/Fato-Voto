@@ -58,7 +58,7 @@ jobs:
         if: always()
         run: npm run build
 
-      - name: Commitar se algo mudou
+      - name: Commitar a coleta
         if: always()
         run: |
           git config user.name "coleta automática"
@@ -67,13 +67,37 @@ jobs:
           # `dados-brutos/` está no .gitignore: só o normalizado entra.
           git add data/es
 
-          # `--quiet --exit-code` sai 1 quando HÁ diferença. Sem esta
-          # checagem viria um commit vazio por dia, e o histórico
-          # deixaria de indicar quando algo de fato mudou.
+          # Rede de segurança: se as três coletas falharem e nada for
+          # escrito, não há o que commitar.
           if git diff --cached --quiet; then
-            echo "Nenhuma mudança nos dados. Nada a commitar."
+            echo "Nada foi escrito. Provavelmente todas as coletas falharam."
             exit 0
           fi
 
-          git commit -m "dados: coleta de $(date -u +%Y-%m-%d)"
+          # O commit acontece TODO DIA, e isso é proposital: cada coleta
+          # grava `coletadoEm`, e a tarja do site mostra essa data. Se não
+          # commitássemos, a data envelheceria e o site mentiria sobre o
+          # próprio frescor.
+          #
+          # Mas o histórico precisa distinguir "só o carimbo mudou" de
+          # "candidatura foi indeferida". Daí o diff abaixo, que ignora a
+          # linha de `coletadoEm` e olha se sobrou alguma outra mudança.
+          CONTEUDO=$(git diff --cached -U0 -- data/es \
+            | grep -E '^[+-]' \
+            | grep -vE '^(\+\+\+|---)' \
+            | grep -v '"coletadoEm"' \
+            | head -1)
+
+          DATA=$(date -u +%Y-%m-%d)
+          if [ -z "$CONTEUDO" ]; then
+            git commit -m "dados: coleta de $DATA (sem mudança de conteúdo)"
+          else
+            git commit -m "dados: coleta de $DATA"
+          fi
+
+          # Alguém pode ter empurrado no `main` durante os minutos que a
+          # coleta levou. Sem o rebase, o push é recusado por
+          # não-fast-forward e a coleta do dia se perde por um motivo que
+          # nada tem a ver com os dados.
+          git pull --rebase origin main
           git push
