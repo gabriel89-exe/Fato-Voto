@@ -198,14 +198,44 @@ deputado federal não ser lida como diferença entre as pessoas.
 
 ## Portal da Transparência — emendas parlamentares
 
-Única fonte de emendas. **Exige token gratuito**, e obtê-lo é passo manual:
+Única fonte de emendas. Tem os dois endpoints de que precisamos: a consulta de
+emendas parlamentares e a de documentos por código de emenda.
 
-1. Cadastrar e-mail em
-   `https://portaldatransparencia.gov.br/api-de-dados/cadastrar-email`
-2. O token chega por e-mail
-3. Enviar em cada requisição no header `chave-api-dados`
+### O token NÃO é um cadastro de e-mail
 
-O token vai para `.env.local`, **nunca** para um arquivo versionado.
+A página principal da API ainda diz "cadastre um e-mail", e isso está
+desatualizado. A página de cadastro, que é a que vale, exige:
+
+**Autenticação pelo Gov.br com conta Nível Verificado (Prata) ou Comprovado
+(Ouro)** — obtida por banco credenciado, certificado digital ou certificado
+digital em nuvem. Sem esse selo, dá para usar CPF e senha, mas **só com
+verificação em duas etapas habilitada** na conta.
+
+O token chega no e-mail cadastrado na conta Gov.br. Verificado em 29/08/2026.
+
+Consequência prática: **não é um passo de cinco minutos** se ninguém da equipe
+tiver conta Prata ou Ouro. Subir de nível pelo aplicativo do banco credenciado
+costuma ser o caminho mais rápido; certificado digital é o mais demorado.
+
+Isto é passo de pessoa, não de código. É autenticação com CPF e senha em conta
+de governo, e ninguém deve delegá-la — nem a um assistente.
+
+### Depois de ter o token
+
+1. Enviar em cada requisição no header `chave-api-dados`
+2. Guardar em `.env.local` para rodar na máquina — **nunca** em arquivo
+   versionado
+3. Guardar como *secret* do repositório para a coleta agendada usar
+
+### Limite de requisições
+
+| Faixa | Limite |
+|---|---|
+| 06:00 – 23:59 | 400 por minuto |
+| 00:00 – 05:59 | 700 por minuto |
+
+Folgado para o volume do piloto: são 10 deputados e 3 senadores, e a coleta
+roda uma vez por dia.
 
 ---
 

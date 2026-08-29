@@ -63,8 +63,9 @@ decisões de fora do código, listadas logo abaixo.
 
 ### Dados
 
-- [ ] **Emendas parlamentares** — depende do token do Portal da Transparência.
-      É pedir cadastro e guardar como secret do repositório.
+- [ ] **Emendas parlamentares** — depende do token do Portal da Transparência,
+      que NÃO é cadastro de e-mail: exige conta Gov.br Prata ou Ouro (ou CPF
+      com dois fatores). Ver . É passo de pessoa.
 - [x] **Votações e projetos** — feito em `7ba46d4`. Proposições agrupadas por
       tipo e votações nominais de plenário nas duas casas. O recorte das
       votações é declarado na tela: as mais recentes com participação
