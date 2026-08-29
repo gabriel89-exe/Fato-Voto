@@ -65,8 +65,10 @@ decisões de fora do código, listadas logo abaixo.
 
 - [ ] **Emendas parlamentares** — depende do token do Portal da Transparência.
       É pedir cadastro e guardar como secret do repositório.
-- [ ] **Votações e projetos** — Câmara e Senado, fontes abertas já mapeadas em
-      `docs/fontes-de-dados.md`. Trabalho de coleta, sem bloqueio externo.
+- [x] **Votações e projetos** — feito em `7ba46d4`. Proposições agrupadas por
+      tipo e votações nominais de plenário nas duas casas. O recorte das
+      votações é declarado na tela: as mais recentes com participação
+      registrada, e não uma seleção do que consideramos importante.
 - [ ] **Atuação de deputado estadual** — a ALES não tem API. Maior incerteza,
       e a que mais pesa: deixa o cargo com mais candidaturas sem aba de
       mandato.
