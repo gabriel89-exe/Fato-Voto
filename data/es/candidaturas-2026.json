@@ -9,7 +9,7 @@
     "idEleicao": "20322002026",
     "uf": "ES"
   },
-  "coletadoEm": "2026-08-28T03:50:46.297Z",
+  "coletadoEm": "2026-08-29T14:29:37.480Z",
   "total": 575,
   "candidaturas": [
     {
@@ -2136,6 +2136,13 @@
           "atualizadoEm": "2026-08-22"
         },
         {
+          "ordem": 32,
+          "tipo": "Outras participações societárias",
+          "descricao": "PARTICIPAÇÃO SOCIETÁRIA - FLAT PARTICIPAÇÕES LTDA (50%)",
+          "valor": 500000,
+          "atualizadoEm": "2026-08-22"
+        },
+        {
           "ordem": 33,
           "tipo": "Outras participações societárias",
           "descricao": "PARTICIPAÇÃO SOCIETÁRIA - MCAR PATRIMONIAL LTDA (80%)",
@@ -2213,7 +2220,7 @@
           "atualizadoEm": "2026-08-22"
         }
       ],
-      "totalBens": 149486151.74,
+      "totalBens": 149986151.74,
       "proposta": {
         "exigida": true,
         "documento": {
@@ -9637,8 +9644,16 @@
       "escolaridade": "Superior completo",
       "ocupacao": "Médico",
       "naturalidade": "BA-ITABUNA",
-      "bens": [],
-      "totalBens": 0,
+      "bens": [
+        {
+          "ordem": 1,
+          "tipo": "Outras participações societárias",
+          "descricao": "Participação Societária na empresa  DK MEDICINA OCUPACIONAL LTDA - CNPJ: 68.285.660/0001-08",
+          "valor": 50000,
+          "atualizadoEm": "2026-08-28"
+        }
+      ],
+      "totalBens": 50000,
       "proposta": {
         "exigida": false,
         "documento": null
@@ -21673,7 +21688,7 @@
         "nome": "PARTIDO SOCIALISTA BRASILEIRO"
       },
       "coligacao": "PSB",
-      "situacaoRegistro": "Deferido",
+      "situacaoRegistro": "Deferido com recurso",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
       "disputaReeleicao": false,
@@ -22126,9 +22141,9 @@
         "nome": "DEMOCRACIA CRISTÃ"
       },
       "coligacao": "DC",
-      "situacaoRegistro": "Aguardando julgamento",
-      "situacaoCandidatura": "Cadastrado",
-      "apto": false,
+      "situacaoRegistro": "Deferido",
+      "situacaoCandidatura": "Consta da urna",
+      "apto": true,
       "disputaReeleicao": false,
       "dataNascimento": "1975-10-03",
       "genero": "MASC.",
@@ -23549,9 +23564,9 @@
         "nome": "MOVIMENTO DEMOCRÁTICO BRASILEIRO"
       },
       "coligacao": "MDB",
-      "situacaoRegistro": "Aguardando julgamento",
-      "situacaoCandidatura": "Cadastrado",
-      "apto": false,
+      "situacaoRegistro": "Deferido",
+      "situacaoCandidatura": "Consta da urna",
+      "apto": true,
       "disputaReeleicao": false,
       "dataNascimento": "1971-04-27",
       "genero": "MASC.",
@@ -24100,17 +24115,17 @@
       "eleicoesAnteriores": [
         {
           "ano": 2008,
-          "cargo": "Vereador",
-          "partido": "PRTB",
-          "uf": "57037",
-          "resultado": "Não eleito"
-        },
-        {
-          "ano": 2008,
           "cargo": "Vice-Prefeito",
           "partido": "PRTB",
           "uf": "57037",
           "resultado": "Concorrendo"
+        },
+        {
+          "ano": 2008,
+          "cargo": "Vereador",
+          "partido": "PRTB",
+          "uf": "57037",
+          "resultado": "Não eleito"
         }
       ],
       "primeiraCandidatura": false,
@@ -27391,9 +27406,9 @@
         "nome": "DEMOCRACIA CRISTÃ"
       },
       "coligacao": "DC",
-      "situacaoRegistro": "Aguardando julgamento",
-      "situacaoCandidatura": "Cadastrado",
-      "apto": false,
+      "situacaoRegistro": "Deferido",
+      "situacaoCandidatura": "Consta da urna",
+      "apto": true,
       "disputaReeleicao": false,
       "dataNascimento": "1959-07-19",
       "genero": "MASC.",
@@ -29518,9 +29533,9 @@
         "nome": "DEMOCRACIA CRISTÃ"
       },
       "coligacao": "DC",
-      "situacaoRegistro": "Aguardando julgamento",
-      "situacaoCandidatura": "Cadastrado",
-      "apto": false,
+      "situacaoRegistro": "Deferido",
+      "situacaoCandidatura": "Consta da urna",
+      "apto": true,
       "disputaReeleicao": false,
       "dataNascimento": "1977-05-25",
       "genero": "FEM.",
@@ -33493,9 +33508,9 @@
         "nome": "DEMOCRACIA CRISTÃ"
       },
       "coligacao": "DC",
-      "situacaoRegistro": "Aguardando julgamento",
-      "situacaoCandidatura": "Cadastrado",
-      "apto": false,
+      "situacaoRegistro": "Deferido",
+      "situacaoCandidatura": "Consta da urna",
+      "apto": true,
       "disputaReeleicao": false,
       "dataNascimento": "1978-01-30",
       "genero": "MASC.",
@@ -33582,9 +33597,9 @@
         "nome": "DEMOCRACIA CRISTÃ"
       },
       "coligacao": "DC",
-      "situacaoRegistro": "Aguardando julgamento",
-      "situacaoCandidatura": "Cadastrado",
-      "apto": false,
+      "situacaoRegistro": "Deferido",
+      "situacaoCandidatura": "Consta da urna",
+      "apto": true,
       "disputaReeleicao": false,
       "dataNascimento": "1982-07-19",
       "genero": "FEM.",
@@ -34440,9 +34455,9 @@
         "nome": "DEMOCRACIA CRISTÃ"
       },
       "coligacao": "DC",
-      "situacaoRegistro": "Aguardando julgamento",
-      "situacaoCandidatura": "Cadastrado",
-      "apto": false,
+      "situacaoRegistro": "Deferido",
+      "situacaoCandidatura": "Consta da urna",
+      "apto": true,
       "disputaReeleicao": false,
       "dataNascimento": "1981-04-05",
       "genero": "MASC.",
@@ -34695,9 +34710,9 @@
         "nome": "DEMOCRACIA CRISTÃ"
       },
       "coligacao": "DC",
-      "situacaoRegistro": "Aguardando julgamento",
-      "situacaoCandidatura": "Cadastrado",
-      "apto": false,
+      "situacaoRegistro": "Deferido",
+      "situacaoCandidatura": "Consta da urna",
+      "apto": true,
       "disputaReeleicao": false,
       "dataNascimento": "1957-07-28",
       "genero": "MASC.",
@@ -35825,9 +35840,23 @@
           "descricao": "COOPERATIVA UNIMED NOROESTE",
           "valor": 83000,
           "atualizadoEm": "2026-08-12"
+        },
+        {
+          "ordem": 14,
+          "tipo": "Dinheiro em espécie - moeda estrangeira",
+          "descricao": "dinheiro em espécie",
+          "valor": 400000,
+          "atualizadoEm": "2026-08-29"
+        },
+        {
+          "ordem": 15,
+          "tipo": "Veículo automotor terrestre: caminhão, automóvel, moto, etc.",
+          "descricao": "GWM Haval H6",
+          "valor": 159000,
+          "atualizadoEm": "2026-08-29"
         }
       ],
-      "totalBens": 9696000,
+      "totalBens": 10255000,
       "proposta": {
         "exigida": false,
         "documento": null
@@ -45038,9 +45067,9 @@
         "nome": "DEMOCRACIA CRISTÃ"
       },
       "coligacao": "DC",
-      "situacaoRegistro": "Aguardando julgamento",
-      "situacaoCandidatura": "Cadastrado",
-      "apto": false,
+      "situacaoRegistro": "Deferido",
+      "situacaoCandidatura": "Consta da urna",
+      "apto": true,
       "disputaReeleicao": false,
       "dataNascimento": "1964-09-19",
       "genero": "MASC.",
@@ -46137,8 +46166,8 @@
       "disputaReeleicao": false,
       "dataNascimento": "1976-05-15",
       "genero": "MASC.",
-      "corRaca": "BRANCA",
-      "escolaridade": "Superior incompleto",
+      "corRaca": "PARDA",
+      "escolaridade": "Superior completo",
       "ocupacao": "Vereador",
       "naturalidade": "ES-VITÓRIA",
       "bens": [
@@ -46458,8 +46487,8 @@
           "ordem": 10,
           "tipo": "Veículo automotor terrestre: caminhão, automóvel, moto, etc.",
           "descricao": "VEÍCULO TOYOTA COROLLA XEI A/T",
-          "valor": 60000,
-          "atualizadoEm": "2026-08-12"
+          "valor": 62000,
+          "atualizadoEm": "2026-08-28"
         },
         {
           "ordem": 11,
@@ -46490,7 +46519,7 @@
           "atualizadoEm": "2026-08-12"
         }
       ],
-      "totalBens": 1748322.3900000001,
+      "totalBens": 1750322.3900000001,
       "proposta": {
         "exigida": false,
         "documento": null
@@ -50622,9 +50651,9 @@
         "nome": "DEMOCRACIA CRISTÃ"
       },
       "coligacao": "DC",
-      "situacaoRegistro": "Aguardando julgamento",
-      "situacaoCandidatura": "Cadastrado",
-      "apto": false,
+      "situacaoRegistro": "Deferido",
+      "situacaoCandidatura": "Consta da urna",
+      "apto": true,
       "disputaReeleicao": false,
       "dataNascimento": "1975-04-29",
       "genero": "MASC.",
@@ -50639,9 +50668,16 @@
           "descricao": "GOL10-ANO/MODELO 2011/2012",
           "valor": 19000,
           "atualizadoEm": "2026-08-14"
+        },
+        {
+          "ordem": 2,
+          "tipo": "Dinheiro em espécie - moeda nacional",
+          "descricao": "VALOR DE OITO MIL REAIS EM ESPÉCIE COMO SEU PATRIMONIO",
+          "valor": 8000,
+          "atualizadoEm": "2026-08-28"
         }
       ],
-      "totalBens": 19000,
+      "totalBens": 27000,
       "proposta": {
         "exigida": false,
         "documento": null
@@ -53831,9 +53867,9 @@
         "nome": "DEMOCRACIA CRISTÃ"
       },
       "coligacao": "DC",
-      "situacaoRegistro": "Aguardando julgamento",
-      "situacaoCandidatura": "Cadastrado",
-      "apto": false,
+      "situacaoRegistro": "Deferido",
+      "situacaoCandidatura": "Consta da urna",
+      "apto": true,
       "disputaReeleicao": false,
       "dataNascimento": "1982-04-04",
       "genero": "FEM.",
@@ -55632,14 +55668,14 @@
           "cargo": "Deputado Estadual",
           "partido": "PRB",
           "uf": "ES",
-          "resultado": "Suplente"
+          "resultado": "Concorrendo"
         },
         {
           "ano": 2014,
           "cargo": "Deputado Estadual",
           "partido": "PRB",
           "uf": "ES",
-          "resultado": "Concorrendo"
+          "resultado": "Suplente"
         }
       ],
       "primeiraCandidatura": false,
@@ -55739,9 +55775,9 @@
         "nome": "DEMOCRACIA CRISTÃ"
       },
       "coligacao": "DC",
-      "situacaoRegistro": "Aguardando julgamento",
-      "situacaoCandidatura": "Cadastrado",
-      "apto": false,
+      "situacaoRegistro": "Deferido",
+      "situacaoCandidatura": "Consta da urna",
+      "apto": true,
       "disputaReeleicao": false,
       "dataNascimento": "1961-05-23",
       "genero": "FEM.",
@@ -61806,9 +61842,9 @@
         "nome": "DEMOCRATA"
       },
       "coligacao": "DEMOCRATA",
-      "situacaoRegistro": "Aguardando julgamento",
-      "situacaoCandidatura": "Cadastrado",
-      "apto": false,
+      "situacaoRegistro": "Deferido",
+      "situacaoCandidatura": "Consta da urna",
+      "apto": true,
       "disputaReeleicao": false,
       "dataNascimento": "1957-09-17",
       "genero": "FEM.",
@@ -64487,7 +64523,7 @@
       "disputaReeleicao": false,
       "dataNascimento": "1966-03-26",
       "genero": "FEM.",
-      "corRaca": "PARDA",
+      "corRaca": "BRANCA",
       "escolaridade": "Superior incompleto",
       "ocupacao": "Comerciante",
       "naturalidade": "ES-SÃO MATEUS",
@@ -64776,9 +64812,9 @@
         "nome": "DEMOCRACIA CRISTÃ"
       },
       "coligacao": "DC",
-      "situacaoRegistro": "Aguardando julgamento",
-      "situacaoCandidatura": "Cadastrado",
-      "apto": false,
+      "situacaoRegistro": "Deferido",
+      "situacaoCandidatura": "Consta da urna",
+      "apto": true,
       "disputaReeleicao": false,
       "dataNascimento": "1967-02-06",
       "genero": "FEM.",

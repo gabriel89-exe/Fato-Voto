@@ -11,7 +11,7 @@
     2025,
     2026
   ],
-  "coletadoEm": "2026-08-28T03:46:36.623Z",
+  "coletadoEm": "2026-08-29T14:30:33.507Z",
   "senadores": [
     {
       "id": "senado-5953",
@@ -149,22 +149,22 @@
           "autorPrincipal": false
         },
         {
-          "id": "173461",
-          "identificacao": "REQ 92/2026 - CDIR",
-          "sigla": "REQ",
-          "numero": "92",
-          "ano": 2026,
-          "ementa": "Requer licença para desempenhar missão oficial, a fim de participar do 15th LIDE Brazil Investiment Forum 2026, em Nova York, Estados Unidos.",
-          "data": "2026-04-01",
-          "autorPrincipal": true
-        },
-        {
           "id": "173458",
           "identificacao": "REQ 91/2026 - CDIR",
           "sigla": "REQ",
           "numero": "91",
           "ano": 2026,
           "ementa": "Requer licença para desempenhar missão oficial, a fim de participar da feira WindEurope, em Lisboa, Viana do Castelo e Porto, em Portugal; e Madri, na Espanha.",
+          "data": "2026-04-01",
+          "autorPrincipal": true
+        },
+        {
+          "id": "173461",
+          "identificacao": "REQ 92/2026 - CDIR",
+          "sigla": "REQ",
+          "numero": "92",
+          "ano": 2026,
+          "ementa": "Requer licença para desempenhar missão oficial, a fim de participar do 15th LIDE Brazil Investiment Forum 2026, em Nova York, Estados Unidos.",
           "data": "2026-04-01",
           "autorPrincipal": true
         },
@@ -299,6 +299,16 @@
           "autorPrincipal": true
         },
         {
+          "id": "172536",
+          "identificacao": "RQS 49/2026",
+          "sigla": "RQS",
+          "numero": "49",
+          "ano": 2026,
+          "ementa": "Requer a realização de Sessão Especial destinada a comemorar o Dia do Trabalhador e das Trabalhadoras.",
+          "data": "2026-02-04",
+          "autorPrincipal": false
+        },
+        {
           "id": "172553",
           "identificacao": "RQS 52/2026",
           "sigla": "RQS",
@@ -315,16 +325,6 @@
           "numero": "53",
           "ano": 2026,
           "ementa": "Requer a realização de Sessão Especial destinada a celebrar o Dia Nacional de Luta da Pessoa com Deficiência.",
-          "data": "2026-02-04",
-          "autorPrincipal": false
-        },
-        {
-          "id": "172536",
-          "identificacao": "RQS 49/2026",
-          "sigla": "RQS",
-          "numero": "49",
-          "ano": 2026,
-          "ementa": "Requer a realização de Sessão Especial destinada a comemorar o Dia do Trabalhador e das Trabalhadoras.",
           "data": "2026-02-04",
           "autorPrincipal": false
         },
@@ -789,6 +789,16 @@
           "autorPrincipal": false
         },
         {
+          "id": "168440",
+          "identificacao": "RQS 350/2025",
+          "sigla": "RQS",
+          "numero": "350",
+          "ano": 2025,
+          "ementa": "Requer a realização de Sessão Especial destinada a celebrar o Dia Mundial do Meio Ambiente.",
+          "data": "2025-05-07",
+          "autorPrincipal": false
+        },
+        {
           "id": "168441",
           "identificacao": "RQS 351/2025",
           "sigla": "RQS",
@@ -805,16 +815,6 @@
           "numero": "352",
           "ano": 2025,
           "ementa": "Requer a realização de Sessão Especial destinada a celebrar o Dia do Policial Civil.",
-          "data": "2025-05-07",
-          "autorPrincipal": false
-        },
-        {
-          "id": "168440",
-          "identificacao": "RQS 350/2025",
-          "sigla": "RQS",
-          "numero": "350",
-          "ano": 2025,
-          "ementa": "Requer a realização de Sessão Especial destinada a celebrar o Dia Mundial do Meio Ambiente.",
           "data": "2025-05-07",
           "autorPrincipal": false
         },
@@ -969,22 +969,22 @@
           "autorPrincipal": true
         },
         {
-          "id": "167884",
-          "identificacao": "PL 1421/2025",
-          "sigla": "PL",
-          "numero": "1421",
-          "ano": 2025,
-          "ementa": "Altera o Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), para aumentar a pena para delitos contra a administração pública; a Lei nº 8.137, de 27 de dezembro de 1990, para aumentar a pena do crime previsto em seu art. 3º, II; o Decreto-Lei nº 201, de 27 de fevereiro de 1967, para agravar penas das condutas previstas em seu art. 1º; e a Lei nº 8.072, de 25 de julho de 1990 (Lei dos Crimes Hediondos), para nela incluir crimes contra a administração pública e contra o sistema financeiro nacional.",
-          "data": "2025-04-02",
-          "autorPrincipal": true
-        },
-        {
           "id": "167883",
           "identificacao": "PL 1420/2025",
           "sigla": "PL",
           "numero": "1420",
           "ano": 2025,
           "ementa": "Altera o Decreto-Lei nº 3.689, de 3 de outubro de 1941 - Código de Processo Penal, para autorizar os guardas municipais a realizarem busca pessoal e veicular, quando houver fundada suspeita de infração penal.",
+          "data": "2025-04-02",
+          "autorPrincipal": true
+        },
+        {
+          "id": "167884",
+          "identificacao": "PL 1421/2025",
+          "sigla": "PL",
+          "numero": "1421",
+          "ano": 2025,
+          "ementa": "Altera o Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), para aumentar a pena para delitos contra a administração pública; a Lei nº 8.137, de 27 de dezembro de 1990, para aumentar a pena do crime previsto em seu art. 3º, II; o Decreto-Lei nº 201, de 27 de fevereiro de 1967, para agravar penas das condutas previstas em seu art. 1º; e a Lei nº 8.072, de 25 de julho de 1990 (Lei dos Crimes Hediondos), para nela incluir crimes contra a administração pública e contra o sistema financeiro nacional.",
           "data": "2025-04-02",
           "autorPrincipal": true
         },
@@ -999,22 +999,22 @@
           "autorPrincipal": true
         },
         {
-          "id": "167887",
-          "identificacao": "PL 1424/2025",
-          "sigla": "PL",
-          "numero": "1424",
-          "ano": 2025,
-          "ementa": "Concede compensação financeira aos dependentes do policial morto ou ao policial incapacitado em virtude do exercício de suas funções.",
-          "data": "2025-04-02",
-          "autorPrincipal": true
-        },
-        {
           "id": "167886",
           "identificacao": "PL 1423/2025",
           "sigla": "PL",
           "numero": "1423",
           "ano": 2025,
           "ementa": "Altera o Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), e a Lei nº 8.069, de 13 de julho de 1990 (Estatuto da Criança e do Adolescente), para agravar penas de crimes cometidos contra a dignidade sexual de crianças e adolescentes.",
+          "data": "2025-04-02",
+          "autorPrincipal": true
+        },
+        {
+          "id": "167887",
+          "identificacao": "PL 1424/2025",
+          "sigla": "PL",
+          "numero": "1424",
+          "ano": 2025,
+          "ementa": "Concede compensação financeira aos dependentes do policial morto ou ao policial incapacitado em virtude do exercício de suas funções.",
           "data": "2025-04-02",
           "autorPrincipal": true
         },
@@ -1259,6 +1259,16 @@
           "autorPrincipal": true
         },
         {
+          "id": "166600",
+          "identificacao": "REQ 34/2024 - CCJ",
+          "sigla": "REQ",
+          "numero": "34",
+          "ano": 2024,
+          "ementa": "Requer votação em seprado da Emenda nº 1722",
+          "data": "2024-12-11",
+          "autorPrincipal": true
+        },
+        {
           "id": "166601",
           "identificacao": "REQ 35/2024 - CCJ",
           "sigla": "REQ",
@@ -1275,16 +1285,6 @@
           "numero": "36",
           "ano": 2024,
           "ementa": "Requer destaque, para votação em separado, da Emenda nº 1472 ao PLP 68/2024",
-          "data": "2024-12-11",
-          "autorPrincipal": true
-        },
-        {
-          "id": "166600",
-          "identificacao": "REQ 34/2024 - CCJ",
-          "sigla": "REQ",
-          "numero": "34",
-          "ano": 2024,
-          "ementa": "Requer votação em seprado da Emenda nº 1722",
           "data": "2024-12-11",
           "autorPrincipal": true
         },
@@ -1439,22 +1439,22 @@
           "autorPrincipal": true
         },
         {
-          "id": "164254",
-          "identificacao": "R.S 10/2024",
-          "sigla": "R.S",
-          "numero": "10",
-          "ano": 2024,
-          "ementa": "Recorre da decisão terminativa da Comissão Temporária para exame de projetos de reforma dos Processos Administrativo e Tributário Nacional sobre o Projeto de Lei nº 2.483/2022.",
-          "data": "2024-06-19",
-          "autorPrincipal": false
-        },
-        {
           "id": "164253",
           "identificacao": "R.S 9/2024",
           "sigla": "R.S",
           "numero": "9",
           "ano": 2024,
           "ementa": "Recorre da decisão terminativa da Comissão Temporária para exame de projetos de reforma dos Processos Administrativo e Tributário Nacional sobre o Projeto de Lei nº 2.488/2022.",
+          "data": "2024-06-19",
+          "autorPrincipal": false
+        },
+        {
+          "id": "164254",
+          "identificacao": "R.S 10/2024",
+          "sigla": "R.S",
+          "numero": "10",
+          "ano": 2024,
+          "ementa": "Recorre da decisão terminativa da Comissão Temporária para exame de projetos de reforma dos Processos Administrativo e Tributário Nacional sobre o Projeto de Lei nº 2.483/2022.",
           "data": "2024-06-19",
           "autorPrincipal": false
         },
@@ -2129,6 +2129,16 @@
           "autorPrincipal": false
         },
         {
+          "id": "159981",
+          "identificacao": "R.S 9/2023",
+          "sigla": "R.S",
+          "numero": "9",
+          "ano": 2023,
+          "ementa": "Requer que o PL 2966/2019 deliberado terminativamente pela CAE, seja apreciado pelo Plenário do Senado Federal.",
+          "data": "2023-09-14",
+          "autorPrincipal": true
+        },
+        {
           "id": "160373",
           "identificacao": "REQ 34/2023 - CCJ",
           "sigla": "REQ",
@@ -2139,13 +2149,13 @@
           "autorPrincipal": true
         },
         {
-          "id": "159981",
-          "identificacao": "R.S 9/2023",
-          "sigla": "R.S",
-          "numero": "9",
+          "id": "159951",
+          "identificacao": "REQ 497/2023 - CDIR",
+          "sigla": "REQ",
+          "numero": "497",
           "ano": 2023,
-          "ementa": "Requer que o PL 2966/2019 deliberado terminativamente pela CAE, seja apreciado pelo Plenário do Senado Federal.",
-          "data": "2023-09-14",
+          "ementa": "Requer licença para desempenhar missão oficial, em Nova York, Estados Unidos, com ônus para o Senado Federal.",
+          "data": "2023-09-13",
           "autorPrincipal": true
         },
         {
@@ -2157,16 +2167,6 @@
           "ementa": "Altera as condições de elegibilidade por militares da ativa das Forças Armadas.",
           "data": "2023-09-13",
           "autorPrincipal": false
-        },
-        {
-          "id": "159951",
-          "identificacao": "REQ 497/2023 - CDIR",
-          "sigla": "REQ",
-          "numero": "497",
-          "ano": 2023,
-          "ementa": "Requer licença para desempenhar missão oficial, em Nova York, Estados Unidos, com ônus para o Senado Federal.",
-          "data": "2023-09-13",
-          "autorPrincipal": true
         },
         {
           "id": "159877",
@@ -2319,22 +2319,22 @@
           "autorPrincipal": false
         },
         {
-          "id": "158743",
-          "identificacao": "REQ 372/2023 - CDIR",
-          "sigla": "REQ",
-          "numero": "372",
-          "ano": 2023,
-          "ementa": "Requer licença para desempenhar, externamente, atividade política de interesse parlamentar.",
-          "data": "2023-07-12",
-          "autorPrincipal": true
-        },
-        {
           "id": "158742",
           "identificacao": "REQ 371/2023 - CDIR",
           "sigla": "REQ",
           "numero": "371",
           "ano": 2023,
           "ementa": "Requer licença para desempenho de atividade política parlamentar externa.",
+          "data": "2023-07-12",
+          "autorPrincipal": true
+        },
+        {
+          "id": "158743",
+          "identificacao": "REQ 372/2023 - CDIR",
+          "sigla": "REQ",
+          "numero": "372",
+          "ano": 2023,
+          "ementa": "Requer licença para desempenhar, externamente, atividade política de interesse parlamentar.",
           "data": "2023-07-12",
           "autorPrincipal": true
         },
@@ -2359,22 +2359,22 @@
           "autorPrincipal": true
         },
         {
-          "id": "158727",
-          "identificacao": "RQS 663/2023",
-          "sigla": "RQS",
-          "numero": "663",
-          "ano": 2023,
-          "ementa": "Requer a realização de Sessão Especial, a fim de celebrar o Dia Nacionalda Pessoa com Atrofia Muscular Espinhal (AME).",
-          "data": "2023-07-11",
-          "autorPrincipal": false
-        },
-        {
           "id": "158719",
           "identificacao": "RQS 662/2023",
           "sigla": "RQS",
           "numero": "662",
           "ano": 2023,
           "ementa": "Requer Sessão Especial para comemoração do 201º ano da Independência e lançamento do livro \"100 vozes pela democracia\".",
+          "data": "2023-07-11",
+          "autorPrincipal": false
+        },
+        {
+          "id": "158727",
+          "identificacao": "RQS 663/2023",
+          "sigla": "RQS",
+          "numero": "663",
+          "ano": 2023,
+          "ementa": "Requer a realização de Sessão Especial, a fim de celebrar o Dia Nacionalda Pessoa com Atrofia Muscular Espinhal (AME).",
           "data": "2023-07-11",
           "autorPrincipal": false
         },
@@ -2399,14 +2399,14 @@
           "autorPrincipal": true
         },
         {
-          "id": "158584",
-          "identificacao": "PEC 33/2023",
-          "sigla": "PEC",
-          "numero": "33",
+          "id": "158575",
+          "identificacao": "RQS 644/2023",
+          "sigla": "RQS",
+          "numero": "644",
           "ano": 2023,
-          "ementa": "Dá nova redação ao § 4º do art. 225 da Constituição Federal para incluir a Caatinga, o Cerrado e o Pampa entre os biomas considerados patrimônio nacional.",
+          "ementa": "Requer destaque, para votação em separado, da Emenda nº 2 do Senador Rogério Carvalho ao PLP 178/2021.",
           "data": "2023-07-04",
-          "autorPrincipal": false
+          "autorPrincipal": true
         },
         {
           "id": "158578",
@@ -2419,16 +2419,6 @@
           "autorPrincipal": false
         },
         {
-          "id": "158575",
-          "identificacao": "RQS 644/2023",
-          "sigla": "RQS",
-          "numero": "644",
-          "ano": 2023,
-          "ementa": "Requer destaque, para votação em separado, da Emenda nº 2 do Senador Rogério Carvalho ao PLP 178/2021.",
-          "data": "2023-07-04",
-          "autorPrincipal": true
-        },
-        {
           "id": "158580",
           "identificacao": "RQS 646/2023",
           "sigla": "RQS",
@@ -2437,6 +2427,16 @@
           "ementa": "Requer a retirada de tramitação do RQS 644/2023.",
           "data": "2023-07-04",
           "autorPrincipal": true
+        },
+        {
+          "id": "158584",
+          "identificacao": "PEC 33/2023",
+          "sigla": "PEC",
+          "numero": "33",
+          "ano": 2023,
+          "ementa": "Dá nova redação ao § 4º do art. 225 da Constituição Federal para incluir a Caatinga, o Cerrado e o Pampa entre os biomas considerados patrimônio nacional.",
+          "data": "2023-07-04",
+          "autorPrincipal": false
         },
         {
           "id": "158546",
@@ -2579,16 +2579,6 @@
           "autorPrincipal": false
         },
         {
-          "id": "157266",
-          "identificacao": "RQS 409/2023",
-          "sigla": "RQS",
-          "numero": "409",
-          "ano": 2023,
-          "ementa": "Requer, nos termos dos arts. 336, II, e 338, II, do Regimento Interno do Senado Federal, urgência para o PRS 18/2022.",
-          "data": "2023-05-04",
-          "autorPrincipal": true
-        },
-        {
           "id": "157250",
           "identificacao": "RQS 407/2023",
           "sigla": "RQS",
@@ -2605,6 +2595,16 @@
           "numero": "5",
           "ano": 2023,
           "ementa": "Realização de Sessão Solene do Congresso Nacional Destinada a comemorar o Dia da Defensora  e do Defensor Público.",
+          "data": "2023-05-04",
+          "autorPrincipal": true
+        },
+        {
+          "id": "157266",
+          "identificacao": "RQS 409/2023",
+          "sigla": "RQS",
+          "numero": "409",
+          "ano": 2023,
+          "ementa": "Requer, nos termos dos arts. 336, II, e 338, II, do Regimento Interno do Senado Federal, urgência para o PRS 18/2022.",
           "data": "2023-05-04",
           "autorPrincipal": true
         },
@@ -2739,26 +2739,6 @@
           "autorPrincipal": true
         },
         {
-          "id": "156834",
-          "identificacao": "REQ 2/2023 - CCJ",
-          "sigla": "REQ",
-          "numero": "2",
-          "ano": 2023,
-          "ementa": "Requeiro, nos termos do art. 93, I, do Regimento Interno do Senado Federal, a realização de audiência pública, com o objetivo de instruir o PL 3713/2019, que “altera a Lei nº 10.826 de 22 de dezembro de 2003, que dispõe sobre registro, posse e comercialização de armas de fogo e munição, sobre o Sistema Nacional de Armas – Sinarm, define crimes e dá outras providências”.",
-          "data": "2023-04-12",
-          "autorPrincipal": false
-        },
-        {
-          "id": "156839",
-          "identificacao": "REQ 4/2023 - CCJ",
-          "sigla": "REQ",
-          "numero": "4",
-          "ano": 2023,
-          "ementa": "Requeiro, nos termos do art. 58, § 2º, II, da Constituição Federal e do art. 93, II, do Regimento Interno do Senado Federal, a realização de ciclo de audiências\npúblicas, em conjunto com a Comissão de Educação, Cultura e Esporte (CE), Comissão de Segurança Pública (CSP) e Comissão de Direitos Humanos e Legislação Participativa (CDH), com o objetivo de debater as políticas necessárias à prevenção e à repressão da\nviolência em estabelecimentos de ensino.",
-          "data": "2023-04-12",
-          "autorPrincipal": true
-        },
-        {
           "id": "156819",
           "identificacao": "REQ 12/2023 - CSP",
           "sigla": "REQ",
@@ -2779,13 +2759,23 @@
           "autorPrincipal": true
         },
         {
-          "id": "156739",
-          "identificacao": "REQ 22/2023 - CDH",
+          "id": "156834",
+          "identificacao": "REQ 2/2023 - CCJ",
           "sigla": "REQ",
-          "numero": "22",
+          "numero": "2",
           "ano": 2023,
-          "ementa": "Requer, nos termos regimentais, a realização de ciclo de audiências públicas, em conjunto com a CCJ, CSP, CE, com o objetivo de debater as políticas necessárias à prevenção e à repressão da violência em estabelecimentos de ensino.",
-          "data": "2023-04-10",
+          "ementa": "Requeiro, nos termos do art. 93, I, do Regimento Interno do Senado Federal, a realização de audiência pública, com o objetivo de instruir o PL 3713/2019, que “altera a Lei nº 10.826 de 22 de dezembro de 2003, que dispõe sobre registro, posse e comercialização de armas de fogo e munição, sobre o Sistema Nacional de Armas – Sinarm, define crimes e dá outras providências”.",
+          "data": "2023-04-12",
+          "autorPrincipal": false
+        },
+        {
+          "id": "156839",
+          "identificacao": "REQ 4/2023 - CCJ",
+          "sigla": "REQ",
+          "numero": "4",
+          "ano": 2023,
+          "ementa": "Requeiro, nos termos do art. 58, § 2º, II, da Constituição Federal e do art. 93, II, do Regimento Interno do Senado Federal, a realização de ciclo de audiências\npúblicas, em conjunto com a Comissão de Educação, Cultura e Esporte (CE), Comissão de Segurança Pública (CSP) e Comissão de Direitos Humanos e Legislação Participativa (CDH), com o objetivo de debater as políticas necessárias à prevenção e à repressão da\nviolência em estabelecimentos de ensino.",
+          "data": "2023-04-12",
           "autorPrincipal": true
         },
         {
@@ -2795,6 +2785,16 @@
           "numero": "11",
           "ano": 2023,
           "ementa": "Requer, nos termos regimentais, a realização de ciclo de audiências públicas, em conjunto com a CCJ, CE, CDH, com o objetivo de debater as políticas necessárias à prevenção e à repressão da violência em estabelecimentos de ensino.",
+          "data": "2023-04-10",
+          "autorPrincipal": true
+        },
+        {
+          "id": "156739",
+          "identificacao": "REQ 22/2023 - CDH",
+          "sigla": "REQ",
+          "numero": "22",
+          "ano": 2023,
+          "ementa": "Requer, nos termos regimentais, a realização de ciclo de audiências públicas, em conjunto com a CCJ, CSP, CE, com o objetivo de debater as políticas necessárias à prevenção e à repressão da violência em estabelecimentos de ensino.",
           "data": "2023-04-10",
           "autorPrincipal": true
         },
@@ -2849,16 +2849,6 @@
           "autorPrincipal": true
         },
         {
-          "id": "156641",
-          "identificacao": "RQS 274/2023",
-          "sigla": "RQS",
-          "numero": "274",
-          "ano": 2023,
-          "ementa": "Desarquivamento do PLS nº 49/2015.",
-          "data": "2023-03-22",
-          "autorPrincipal": false
-        },
-        {
           "id": "156414",
           "identificacao": "PL 1328/2023",
           "sigla": "PL",
@@ -2867,6 +2857,16 @@
           "ementa": "Altera a Lei nº 7.716, de 5 de janeiro de 1989, que define os crimes resultantes de preconceito de raça ou de cor, para incluir abrangência à discriminação por origem, gênero, contra pessoas com deficiência ou de qualquer natureza.",
           "data": "2023-03-22",
           "autorPrincipal": true
+        },
+        {
+          "id": "156641",
+          "identificacao": "RQS 274/2023",
+          "sigla": "RQS",
+          "numero": "274",
+          "ano": 2023,
+          "ementa": "Desarquivamento do PLS nº 49/2015.",
+          "data": "2023-03-22",
+          "autorPrincipal": false
         },
         {
           "id": "156557",
@@ -2919,16 +2919,6 @@
           "autorPrincipal": true
         },
         {
-          "id": "156651",
-          "identificacao": "PEC 15/2023",
-          "sigla": "PEC",
-          "numero": "15",
-          "ano": 2023,
-          "ementa": "Altera o art. 5º da Constituição para garantir a proteção dos profissionais de segurança pública e saúde.",
-          "data": "2023-03-14",
-          "autorPrincipal": false
-        },
-        {
           "id": "156199",
           "identificacao": "REQ 10/2023 - CMA",
           "sigla": "REQ",
@@ -2949,16 +2939,6 @@
           "autorPrincipal": true
         },
         {
-          "id": "156391",
-          "identificacao": "PEC 8/2023",
-          "sigla": "PEC",
-          "numero": "8",
-          "ano": 2023,
-          "ementa": "Modifica os arts. 60, 61, 62 e 64 da Constituição Federal, para dispor sobre a iniciativa de proposições pelo Presidente da República.",
-          "data": "2023-03-14",
-          "autorPrincipal": false
-        },
-        {
           "id": "156224",
           "identificacao": "RQS 167/2023",
           "sigla": "RQS",
@@ -2977,6 +2957,36 @@
           "ementa": "Urgência para o PRS nº 24/2023.",
           "data": "2023-03-14",
           "autorPrincipal": true
+        },
+        {
+          "id": "156391",
+          "identificacao": "PEC 8/2023",
+          "sigla": "PEC",
+          "numero": "8",
+          "ano": 2023,
+          "ementa": "Modifica os arts. 60, 61, 62 e 64 da Constituição Federal, para dispor sobre a iniciativa de proposições pelo Presidente da República.",
+          "data": "2023-03-14",
+          "autorPrincipal": false
+        },
+        {
+          "id": "156651",
+          "identificacao": "PEC 15/2023",
+          "sigla": "PEC",
+          "numero": "15",
+          "ano": 2023,
+          "ementa": "Altera o art. 5º da Constituição para garantir a proteção dos profissionais de segurança pública e saúde.",
+          "data": "2023-03-14",
+          "autorPrincipal": false
+        },
+        {
+          "id": "156229",
+          "identificacao": "RQS 171/2023",
+          "sigla": "RQS",
+          "numero": "171",
+          "ano": 2023,
+          "ementa": "Realização de sessão especial, no dia 13/09/2023, a fim de comemorar o aniversário de oitenta anos da criação do Território Federal do Amapá.",
+          "data": "2023-03-13",
+          "autorPrincipal": false
         },
         {
           "id": "156562",
@@ -2999,13 +3009,13 @@
           "autorPrincipal": false
         },
         {
-          "id": "156229",
-          "identificacao": "RQS 171/2023",
+          "id": "156170",
+          "identificacao": "RQS 155/2023",
           "sigla": "RQS",
-          "numero": "171",
+          "numero": "155",
           "ano": 2023,
-          "ementa": "Realização de sessão especial, no dia 13/09/2023, a fim de comemorar o aniversário de oitenta anos da criação do Território Federal do Amapá.",
-          "data": "2023-03-13",
+          "ementa": "Realização de Sessão Especial, no dia 03/05/2023, a fim de comemorar o Dia do Parlamento, os 200 anos da Primeira Assembleia Constituinte e a criação do Poder Legislativo no Brasil.",
+          "data": "2023-03-10",
           "autorPrincipal": false
         },
         {
@@ -3015,16 +3025,6 @@
           "numero": "254",
           "ano": 2023,
           "ementa": "Desarquivamento de proposições de oriundas do Programa Jovem Senador: PLS nº 280/2015, PLS nº 352/2015, PLS nº 646/2015, PLS nº 747/2015, PLS nº 756/2015, PLS nº 76/2016, PLS nº 234/2016, PLS nº 215/2017, PLS nº 238/2017, PLS nº 307/2017, PLS nº 170/2018, PLS nº 180/2018, SUG 39/2018 e PLS nº 246/2018.",
-          "data": "2023-03-10",
-          "autorPrincipal": false
-        },
-        {
-          "id": "156170",
-          "identificacao": "RQS 155/2023",
-          "sigla": "RQS",
-          "numero": "155",
-          "ano": 2023,
-          "ementa": "Realização de Sessão Especial, no dia 03/05/2023, a fim de comemorar o Dia do Parlamento, os 200 anos da Primeira Assembleia Constituinte e a criação do Poder Legislativo no Brasil.",
           "data": "2023-03-10",
           "autorPrincipal": false
         },
@@ -3049,22 +3049,22 @@
           "autorPrincipal": false
         },
         {
-          "id": "156197",
-          "identificacao": "RQS 163/2023",
-          "sigla": "RQS",
-          "numero": "163",
-          "ano": 2023,
-          "ementa": "Realização de Sessão Especial, no dia 26/04/2023, para comemorar o aniversário de 58 anos da TV GLOBO.",
-          "data": "2023-03-07",
-          "autorPrincipal": false
-        },
-        {
           "id": "156048",
           "identificacao": "RQS 125/2023",
           "sigla": "RQS",
           "numero": "125",
           "ano": 2023,
           "ementa": "Urgência, nos termos dos arts. 336, II, e 338, II, do Regimento Interno do Senado Federal, para o PRS nº 23/2022.",
+          "data": "2023-03-07",
+          "autorPrincipal": false
+        },
+        {
+          "id": "156197",
+          "identificacao": "RQS 163/2023",
+          "sigla": "RQS",
+          "numero": "163",
+          "ano": 2023,
+          "ementa": "Realização de Sessão Especial, no dia 26/04/2023, para comemorar o aniversário de 58 anos da TV GLOBO.",
           "data": "2023-03-07",
           "autorPrincipal": false
         },
@@ -3089,26 +3089,6 @@
           "autorPrincipal": false
         },
         {
-          "id": "156644",
-          "identificacao": "RQS 276/2023",
-          "sigla": "RQS",
-          "numero": "276",
-          "ano": 2023,
-          "ementa": "Desarquivamento das seguintes proposições: PEC 2/2016; SCD 7/2017; SUG 39/2018; PLS 2/2018; PLS 8/2018; PLS 68/2018; PLS 180/2018; PLS 192/2018; PLS 385/2018; PL 2903/2019; PL 1991/2020; PL 4482/2021; PL 4603/2021; PLP 196/2021.",
-          "data": "2023-03-01",
-          "autorPrincipal": false
-        },
-        {
-          "id": "156070",
-          "identificacao": "RQS 130/2023",
-          "sigla": "RQS",
-          "numero": "130",
-          "ano": 2023,
-          "ementa": "Desarquivamento do PLC 106/2017, que veda o apelo ao consumo nos estabelecimentos públicos e privados da educação básica.",
-          "data": "2023-03-01",
-          "autorPrincipal": false
-        },
-        {
           "id": "156050",
           "identificacao": "RQS 127/2023",
           "sigla": "RQS",
@@ -3129,13 +3109,23 @@
           "autorPrincipal": false
         },
         {
-          "id": "156502",
-          "identificacao": "RQS 230/2023",
+          "id": "156070",
+          "identificacao": "RQS 130/2023",
           "sigla": "RQS",
-          "numero": "230",
+          "numero": "130",
           "ano": 2023,
-          "ementa": "Desarquivamento do PLS nº 98/2015.",
-          "data": "2023-02-28",
+          "ementa": "Desarquivamento do PLC 106/2017, que veda o apelo ao consumo nos estabelecimentos públicos e privados da educação básica.",
+          "data": "2023-03-01",
+          "autorPrincipal": false
+        },
+        {
+          "id": "156644",
+          "identificacao": "RQS 276/2023",
+          "sigla": "RQS",
+          "numero": "276",
+          "ano": 2023,
+          "ementa": "Desarquivamento das seguintes proposições: PEC 2/2016; SCD 7/2017; SUG 39/2018; PLS 2/2018; PLS 8/2018; PLS 68/2018; PLS 180/2018; PLS 192/2018; PLS 385/2018; PL 2903/2019; PL 1991/2020; PL 4482/2021; PL 4603/2021; PLP 196/2021.",
+          "data": "2023-03-01",
           "autorPrincipal": false
         },
         {
@@ -3145,6 +3135,16 @@
           "numero": "148",
           "ano": 2023,
           "ementa": "Realização de Sessão Especial, a fim de celebrar os 50 anos da Embrapa.",
+          "data": "2023-02-28",
+          "autorPrincipal": false
+        },
+        {
+          "id": "156502",
+          "identificacao": "RQS 230/2023",
+          "sigla": "RQS",
+          "numero": "230",
+          "ano": 2023,
+          "ementa": "Desarquivamento do PLS nº 98/2015.",
           "data": "2023-02-28",
           "autorPrincipal": false
         },
@@ -3179,22 +3179,32 @@
           "autorPrincipal": false
         },
         {
-          "id": "155894",
-          "identificacao": "PLP 28/2023",
-          "sigla": "PLP",
-          "numero": "28",
-          "ano": 2023,
-          "ementa": "Acrescenta item 11 à alínea e do inciso I do art. 1º da Lei Complementar nº 64, de 18 de maio de 1990, para incluir a condenação pelos crimes contra o Estado Democrático de Direito, previstos no Título XII do Decreto-Lei nº 2.848, de 7 de dezembro de 1940, no rol daqueles que dão ensejo à inelegibilidade para qualquer cargo.",
-          "data": "2023-02-14",
-          "autorPrincipal": true
-        },
-        {
           "id": "155870",
           "identificacao": "PL 496/2023",
           "sigla": "PL",
           "numero": "496",
           "ano": 2023,
           "ementa": "Altera o art. 20 da Lei nº 9.605, de 12 de fevereiro de 1998 (Lei de Crimes Ambientais), para dispor na sentença penal condenatória à reparação integral, material e moral nos casos de crimes ambientais.",
+          "data": "2023-02-14",
+          "autorPrincipal": true
+        },
+        {
+          "id": "155871",
+          "identificacao": "PL 497/2023",
+          "sigla": "PL",
+          "numero": "497",
+          "ano": 2023,
+          "ementa": "Acrescenta o § 2º ao art. 299 do Dec. Lei 2.848, de 07 de dezembro de 1940 (Código Penal), para incluir no crime de falsidade ideológica a conduta de inserir dados falsos, ou excluir indevidamente dados corretos nos sistemas informatizados ou bancos de dados da Administração Pública, com o fim de obter vantagem indevida para si ou para outrem ou para causar dano.",
+          "data": "2023-02-14",
+          "autorPrincipal": true
+        },
+        {
+          "id": "155894",
+          "identificacao": "PLP 28/2023",
+          "sigla": "PLP",
+          "numero": "28",
+          "ano": 2023,
+          "ementa": "Acrescenta item 11 à alínea e do inciso I do art. 1º da Lei Complementar nº 64, de 18 de maio de 1990, para incluir a condenação pelos crimes contra o Estado Democrático de Direito, previstos no Título XII do Decreto-Lei nº 2.848, de 7 de dezembro de 1940, no rol daqueles que dão ensejo à inelegibilidade para qualquer cargo.",
           "data": "2023-02-14",
           "autorPrincipal": true
         },
@@ -3207,16 +3217,6 @@
           "ementa": "Desarquivamento das seguintes proposições: PLC 121/2015, PLC 62/2018, PLS 430/2018 e PLC 82/2018.",
           "data": "2023-02-14",
           "autorPrincipal": false
-        },
-        {
-          "id": "155871",
-          "identificacao": "PL 497/2023",
-          "sigla": "PL",
-          "numero": "497",
-          "ano": 2023,
-          "ementa": "Acrescenta o § 2º ao art. 299 do Dec. Lei 2.848, de 07 de dezembro de 1940 (Código Penal), para incluir no crime de falsidade ideológica a conduta de inserir dados falsos, ou excluir indevidamente dados corretos nos sistemas informatizados ou bancos de dados da Administração Pública, com o fim de obter vantagem indevida para si ou para outrem ou para causar dano.",
-          "data": "2023-02-14",
-          "autorPrincipal": true
         },
         {
           "id": "156079",
@@ -3269,16 +3269,6 @@
           "autorPrincipal": false
         },
         {
-          "id": "155995",
-          "identificacao": "RQS 106/2023",
-          "sigla": "RQS",
-          "numero": "106",
-          "ano": 2023,
-          "ementa": "Desarquivamento das seguintes proposições, na forma do art. 332, § 1º, do Regimento Interno: SUG 12/2018, SUG 13/2018.",
-          "data": "2023-02-06",
-          "autorPrincipal": false
-        },
-        {
           "id": "155970",
           "identificacao": "RQS 98/2023",
           "sigla": "RQS",
@@ -3289,12 +3279,32 @@
           "autorPrincipal": false
         },
         {
+          "id": "155995",
+          "identificacao": "RQS 106/2023",
+          "sigla": "RQS",
+          "numero": "106",
+          "ano": 2023,
+          "ementa": "Desarquivamento das seguintes proposições, na forma do art. 332, § 1º, do Regimento Interno: SUG 12/2018, SUG 13/2018.",
+          "data": "2023-02-06",
+          "autorPrincipal": false
+        },
+        {
           "id": "155830",
           "identificacao": "RQS 42/2023",
           "sigla": "RQS",
           "numero": "42",
           "ano": 2023,
           "ementa": "Sessão Especial a fim de celebrar os 20 anos do Estatuto da Pessoa Idosa.",
+          "data": "2023-02-03",
+          "autorPrincipal": false
+        },
+        {
+          "id": "155833",
+          "identificacao": "RQS 43/2023",
+          "sigla": "RQS",
+          "numero": "43",
+          "ano": 2023,
+          "ementa": "Realização de Sessão Especial, no mês de novembro, a fim de celebrar o Dia 20 de Novembro - Dia da Consciência Negra.",
           "data": "2023-02-03",
           "autorPrincipal": false
         },
@@ -3315,16 +3325,6 @@
           "numero": "45",
           "ano": 2023,
           "ementa": "Sessão Especial a fim de celebrar o primeiro centenário da Lei Eloy Chaves, considerada a origem da previdência social no Brasil.",
-          "data": "2023-02-03",
-          "autorPrincipal": false
-        },
-        {
-          "id": "155833",
-          "identificacao": "RQS 43/2023",
-          "sigla": "RQS",
-          "numero": "43",
-          "ano": 2023,
-          "ementa": "Realização de Sessão Especial, no mês de novembro, a fim de celebrar o Dia 20 de Novembro - Dia da Consciência Negra.",
           "data": "2023-02-03",
           "autorPrincipal": false
         },
@@ -4311,6 +4311,16 @@
           "autorPrincipal": false
         },
         {
+          "id": "171377",
+          "identificacao": "RQS 806/2025",
+          "sigla": "RQS",
+          "numero": "806",
+          "ano": 2025,
+          "ementa": "Requer voto de pesar pelo falecimento do Comissário de Polícia Civil, o Sr. Marcus Vinícius Cardoso de Carvalho, da 53ª Delegacia de Polícia (DP) de Mesquita, Rio de Janeiro/RJ.",
+          "data": "2025-10-30",
+          "autorPrincipal": false
+        },
+        {
           "id": "171378",
           "identificacao": "RQS 807/2025",
           "sigla": "RQS",
@@ -4329,16 +4339,6 @@
           "ementa": "Requer voto de aplauso aos órgãos de segurança pública do Estado do Rio de Janeiro, em especial ao Governador Cláudio Bomfim de Castro e Silva, ao Secretário de Segurança Pública Victor Santos, ao Secretário de Polícia Civil, Delegado Felipe Lobato Curi e ao Comandante da Polícia Militar, Cel. PM Marcelo de Menezes Nogueira, pela condução da megaoperação realizada nos complexos da Penha e do Alemão, nos dias 28 e 29 de outubro de 2025, numa ação integrada batizada de “Operação Contenção”.",
           "data": "2025-10-30",
           "autorPrincipal": true
-        },
-        {
-          "id": "171377",
-          "identificacao": "RQS 806/2025",
-          "sigla": "RQS",
-          "numero": "806",
-          "ano": 2025,
-          "ementa": "Requer voto de pesar pelo falecimento do Comissário de Polícia Civil, o Sr. Marcus Vinícius Cardoso de Carvalho, da 53ª Delegacia de Polícia (DP) de Mesquita, Rio de Janeiro/RJ.",
-          "data": "2025-10-30",
-          "autorPrincipal": false
         },
         {
           "id": "171288",
@@ -4701,6 +4701,16 @@
           "autorPrincipal": true
         },
         {
+          "id": "169045",
+          "identificacao": "RQS 445/2025",
+          "sigla": "RQS",
+          "numero": "445",
+          "ano": 2025,
+          "ementa": "Requer voto de aplauso à instituição Casa Verde, sediada em Cachoeiro de Itapemirim/ES, pelos relevantes serviços prestados à população capixaba, com destaque para a promoção da assistência social e da cidadania por meio da música, da distribuição de cestas básicas durante a pandemia, suporte técnico e artístico à Orquestra Sinfônica Sul Espírito Santo (OSSES), a primeira do gênero no interior do estado, todas essas ações em alinhamento com os Objetivos de Desenvolvimento Sustentável (ODS) da ONU, especialmente o ODS 1 (erradicação da pobreza) e ODS 4 (educação de qualidade).",
+          "data": "2025-06-11",
+          "autorPrincipal": true
+        },
+        {
           "id": "169046",
           "identificacao": "REQ 374/2025 - CDIR",
           "sigla": "REQ",
@@ -4717,16 +4727,6 @@
           "numero": "375",
           "ano": 2025,
           "ementa": "Requer nos termos dos arts. 13 e 215, I, “b”, do Regimento Interno do Senado Federal, em face do que dispõe o art. 55, III, da Constituição Federal, licença para desempenhar missão política ou cultural de interesse parlamentar, sem ônus para o Senado Federal,",
-          "data": "2025-06-11",
-          "autorPrincipal": true
-        },
-        {
-          "id": "169045",
-          "identificacao": "RQS 445/2025",
-          "sigla": "RQS",
-          "numero": "445",
-          "ano": 2025,
-          "ementa": "Requer voto de aplauso à instituição Casa Verde, sediada em Cachoeiro de Itapemirim/ES, pelos relevantes serviços prestados à população capixaba, com destaque para a promoção da assistência social e da cidadania por meio da música, da distribuição de cestas básicas durante a pandemia, suporte técnico e artístico à Orquestra Sinfônica Sul Espírito Santo (OSSES), a primeira do gênero no interior do estado, todas essas ações em alinhamento com os Objetivos de Desenvolvimento Sustentável (ODS) da ONU, especialmente o ODS 1 (erradicação da pobreza) e ODS 4 (educação de qualidade).",
           "data": "2025-06-11",
           "autorPrincipal": true
         },
@@ -4751,22 +4751,22 @@
           "autorPrincipal": true
         },
         {
-          "id": "168891",
-          "identificacao": "RQS 423/2025",
-          "sigla": "RQS",
-          "numero": "423",
-          "ano": 2025,
-          "ementa": "Requer a retirada definitiva do Requerimento nº 420/2025.",
-          "data": "2025-05-30",
-          "autorPrincipal": true
-        },
-        {
           "id": "168888",
           "identificacao": "RQS 422/2025",
           "sigla": "RQS",
           "numero": "422",
           "ano": 2025,
           "ementa": "Requer voto de solidariedade ao Sr. Deputado Federal Daniel Silveira, pela sua luta em defesa da Constituição Federal, da liberdade, da justiça e da ordem pública.",
+          "data": "2025-05-30",
+          "autorPrincipal": true
+        },
+        {
+          "id": "168891",
+          "identificacao": "RQS 423/2025",
+          "sigla": "RQS",
+          "numero": "423",
+          "ano": 2025,
+          "ementa": "Requer a retirada definitiva do Requerimento nº 420/2025.",
           "data": "2025-05-30",
           "autorPrincipal": true
         },
@@ -5051,6 +5051,26 @@
           "autorPrincipal": true
         },
         {
+          "id": "167314",
+          "identificacao": "PL 616/2025",
+          "sigla": "PL",
+          "numero": "616",
+          "ano": 2025,
+          "ementa": "Proíbe a destinação de recursos públicos para projeto cultural, festa popular, show, música, artes plásticas, dança, literatura, teatro, circo, artes visuais e patrimônio cultural que inclua discriminação de qualquer natureza, altera a Lei nº 8.313, de 23 de dezembro de 1991, e dá outras providências.",
+          "data": "2025-02-21",
+          "autorPrincipal": true
+        },
+        {
+          "id": "167315",
+          "identificacao": "PL 617/2025",
+          "sigla": "PL",
+          "numero": "617",
+          "ano": 2025,
+          "ementa": "Dispõe sobre a criação de linha de crédito especial no âmbito do Banco Nacional de Desenvolvimento Econômico e Social (BNDES) para modernização tecnológica das empresas do setor de mármores e granitos e dá outras providências.",
+          "data": "2025-02-21",
+          "autorPrincipal": true
+        },
+        {
           "id": "167316",
           "identificacao": "PL 618/2025",
           "sigla": "PL",
@@ -5069,26 +5089,6 @@
           "ementa": "Requer, nos termos do art. 58, § 2º, II, da Constituição Federal e do art. 93, II, do Regimento Interno do Senado Federal, que na Audiência Pública objeto do REQ 35/2024 - CDH sejam incluídos os convidados que especifica.",
           "data": "2025-02-21",
           "autorPrincipal": false
-        },
-        {
-          "id": "167315",
-          "identificacao": "PL 617/2025",
-          "sigla": "PL",
-          "numero": "617",
-          "ano": 2025,
-          "ementa": "Dispõe sobre a criação de linha de crédito especial no âmbito do Banco Nacional de Desenvolvimento Econômico e Social (BNDES) para modernização tecnológica das empresas do setor de mármores e granitos e dá outras providências.",
-          "data": "2025-02-21",
-          "autorPrincipal": true
-        },
-        {
-          "id": "167314",
-          "identificacao": "PL 616/2025",
-          "sigla": "PL",
-          "numero": "616",
-          "ano": 2025,
-          "ementa": "Proíbe a destinação de recursos públicos para projeto cultural, festa popular, show, música, artes plásticas, dança, literatura, teatro, circo, artes visuais e patrimônio cultural que inclua discriminação de qualquer natureza, altera a Lei nº 8.313, de 23 de dezembro de 1991, e dá outras providências.",
-          "data": "2025-02-21",
-          "autorPrincipal": true
         },
         {
           "id": "167293",
@@ -5231,6 +5231,16 @@
           "autorPrincipal": true
         },
         {
+          "id": "166999",
+          "identificacao": "PEC 1/2025",
+          "sigla": "PEC",
+          "numero": "1",
+          "ano": 2025,
+          "ementa": "Altera a Constituição Federal para garantir que os recursos transferidos pela União ao Fundo Constitucional do Distrito Federal (FCDF) sejam corrigidos anualmente pela variação da receita corrente líquida (RCL) da União.",
+          "data": "2025-01-10",
+          "autorPrincipal": false
+        },
+        {
           "id": "167053",
           "identificacao": "PDL 35/2025",
           "sigla": "PDL",
@@ -5251,14 +5261,14 @@
           "autorPrincipal": false
         },
         {
-          "id": "166999",
-          "identificacao": "PEC 1/2025",
-          "sigla": "PEC",
+          "id": "166969",
+          "identificacao": "REQ 1/2025 - CRE",
+          "sigla": "REQ",
           "numero": "1",
           "ano": 2025,
-          "ementa": "Altera a Constituição Federal para garantir que os recursos transferidos pela União ao Fundo Constitucional do Distrito Federal (FCDF) sejam corrigidos anualmente pela variação da receita corrente líquida (RCL) da União.",
-          "data": "2025-01-10",
-          "autorPrincipal": false
+          "ementa": "Requer, nos termos dos arts. 50, caput, e 58, § 2º, III, da Constituição Federal e dos arts. 90, III, 397, § 1º e 400-A do Regimento Interno do Senado Federal, a convocação do Exmo. Sr. Embaixador Mauro Vieira, Ministro das Relações Exteriores.",
+          "data": "2025-01-08",
+          "autorPrincipal": true
         },
         {
           "id": "167049",
@@ -5271,13 +5281,13 @@
           "autorPrincipal": true
         },
         {
-          "id": "166969",
-          "identificacao": "REQ 1/2025 - CRE",
-          "sigla": "REQ",
-          "numero": "1",
+          "id": "167033",
+          "identificacao": "PL 49/2025",
+          "sigla": "PL",
+          "numero": "49",
           "ano": 2025,
-          "ementa": "Requer, nos termos dos arts. 50, caput, e 58, § 2º, III, da Constituição Federal e dos arts. 90, III, 397, § 1º e 400-A do Regimento Interno do Senado Federal, a convocação do Exmo. Sr. Embaixador Mauro Vieira, Ministro das Relações Exteriores.",
-          "data": "2025-01-08",
+          "ementa": "Altera o art. 40 da Lei nº 11.343, de 23 de agosto de 2006, para possibilitar a incidência da causa de aumento de pena disposta no inciso IV do referido dispositivo quando houver a utilização de qualquer tipo de arma, bem como para estabelecer que ela será aplicável sem prejuízo das penas correspondentes à violência, à ameaça, à posse ou ao porte ilegal de arma de fogo ou ao emprego de qualquer outro meio, decorrentes da prática, no mesmo contexto, de infração penal diversa.",
+          "data": "2024-12-30",
           "autorPrincipal": true
         },
         {
@@ -5287,16 +5297,6 @@
           "numero": "51",
           "ano": 2025,
           "ementa": "Institui o Programa Nacional de Apoio para a Promoção, Proteção e Recuperação da Saúde e Bem-Estar Animal (PNASAN).",
-          "data": "2024-12-30",
-          "autorPrincipal": true
-        },
-        {
-          "id": "167033",
-          "identificacao": "PL 49/2025",
-          "sigla": "PL",
-          "numero": "49",
-          "ano": 2025,
-          "ementa": "Altera o art. 40 da Lei nº 11.343, de 23 de agosto de 2006, para possibilitar a incidência da causa de aumento de pena disposta no inciso IV do referido dispositivo quando houver a utilização de qualquer tipo de arma, bem como para estabelecer que ela será aplicável sem prejuízo das penas correspondentes à violência, à ameaça, à posse ou ao porte ilegal de arma de fogo ou ao emprego de qualquer outro meio, decorrentes da prática, no mesmo contexto, de infração penal diversa.",
           "data": "2024-12-30",
           "autorPrincipal": true
         },
@@ -5311,12 +5311,12 @@
           "autorPrincipal": true
         },
         {
-          "id": "167038",
-          "identificacao": "PL 59/2025",
+          "id": "167036",
+          "identificacao": "PL 57/2025",
           "sigla": "PL",
-          "numero": "59",
+          "numero": "57",
           "ano": 2025,
-          "ementa": "Altera dispositivos da Lei nº 8.245, de 18 de outubro de 1991, para redefinir os critérios da locação para temporada, distinguindo-a da prestação de serviços de hospedagem e estabelecendo regras específicas para a tributação e regulação da atividade.",
+          "ementa": "Altera dispositivos da Lei nº 14.601, de 18 de julho de 2023, para revisar os critérios de elegibilidade do Programa Bolsa Família, restringindo sua concessão para pessoas solteiras, sem filhos, na faixa etária de 18 a 50 anos.",
           "data": "2024-12-30",
           "autorPrincipal": true
         },
@@ -5331,12 +5331,12 @@
           "autorPrincipal": true
         },
         {
-          "id": "167036",
-          "identificacao": "PL 57/2025",
+          "id": "167038",
+          "identificacao": "PL 59/2025",
           "sigla": "PL",
-          "numero": "57",
+          "numero": "59",
           "ano": 2025,
-          "ementa": "Altera dispositivos da Lei nº 14.601, de 18 de julho de 2023, para revisar os critérios de elegibilidade do Programa Bolsa Família, restringindo sua concessão para pessoas solteiras, sem filhos, na faixa etária de 18 a 50 anos.",
+          "ementa": "Altera dispositivos da Lei nº 8.245, de 18 de outubro de 1991, para redefinir os critérios da locação para temporada, distinguindo-a da prestação de serviços de hospedagem e estabelecendo regras específicas para a tributação e regulação da atividade.",
           "data": "2024-12-30",
           "autorPrincipal": true
         },
@@ -5351,32 +5351,12 @@
           "autorPrincipal": true
         },
         {
-          "id": "166877",
-          "identificacao": "PL 5003/2024",
+          "id": "166873",
+          "identificacao": "PL 4999/2024",
           "sigla": "PL",
-          "numero": "5003",
+          "numero": "4999",
           "ano": 2024,
-          "ementa": "Institui o escrutínio público de votos, veda o exercício do voto na modalidade exclusivamente eletrônica, e dá outras providências.",
-          "data": "2024-12-19",
-          "autorPrincipal": true
-        },
-        {
-          "id": "166876",
-          "identificacao": "PL 5002/2024",
-          "sigla": "PL",
-          "numero": "5002",
-          "ano": 2024,
-          "ementa": "Altera o art. 115 da Lei nº 7.210, de 11 de julho de 1984 (Lei de Execução Penal), para impor a prestação de serviços à comunidade ou a prestação pecuniária quando o regime aberto for imposto em decorrência de conversão por descumprimento de pena restritiva de direito.",
-          "data": "2024-12-19",
-          "autorPrincipal": true
-        },
-        {
-          "id": "166875",
-          "identificacao": "PL 5001/2024",
-          "sigla": "PL",
-          "numero": "5001",
-          "ano": 2024,
-          "ementa": "Altera o Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), com a finalidade de estabelecer nova hipótese de aplicação extraterritorial incondicionada da lei brasileira.",
+          "ementa": "Altera a Lei nº 11.343, de 23 de agosto de 2006, para reduzir a fração máxima da causa de diminuição de pena prevista no § 4º do art. 33 e tornar mais rigorosos os requisitos para o reconhecimento do tráfico privilegiado.",
           "data": "2024-12-19",
           "autorPrincipal": true
         },
@@ -5391,12 +5371,32 @@
           "autorPrincipal": true
         },
         {
-          "id": "166873",
-          "identificacao": "PL 4999/2024",
+          "id": "166875",
+          "identificacao": "PL 5001/2024",
           "sigla": "PL",
-          "numero": "4999",
+          "numero": "5001",
           "ano": 2024,
-          "ementa": "Altera a Lei nº 11.343, de 23 de agosto de 2006, para reduzir a fração máxima da causa de diminuição de pena prevista no § 4º do art. 33 e tornar mais rigorosos os requisitos para o reconhecimento do tráfico privilegiado.",
+          "ementa": "Altera o Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), com a finalidade de estabelecer nova hipótese de aplicação extraterritorial incondicionada da lei brasileira.",
+          "data": "2024-12-19",
+          "autorPrincipal": true
+        },
+        {
+          "id": "166876",
+          "identificacao": "PL 5002/2024",
+          "sigla": "PL",
+          "numero": "5002",
+          "ano": 2024,
+          "ementa": "Altera o art. 115 da Lei nº 7.210, de 11 de julho de 1984 (Lei de Execução Penal), para impor a prestação de serviços à comunidade ou a prestação pecuniária quando o regime aberto for imposto em decorrência de conversão por descumprimento de pena restritiva de direito.",
+          "data": "2024-12-19",
+          "autorPrincipal": true
+        },
+        {
+          "id": "166877",
+          "identificacao": "PL 5003/2024",
+          "sigla": "PL",
+          "numero": "5003",
+          "ano": 2024,
+          "ementa": "Institui o escrutínio público de votos, veda o exercício do voto na modalidade exclusivamente eletrônica, e dá outras providências.",
           "data": "2024-12-19",
           "autorPrincipal": true
         },
@@ -6361,36 +6361,6 @@
           "autorPrincipal": true
         },
         {
-          "id": "161318",
-          "identificacao": "RQS 1061/2023",
-          "sigla": "RQS",
-          "numero": "1061",
-          "ano": 2023,
-          "ementa": "Requer oitiva da Comissão de Segurança Pública sobre o PL 2234/2022.",
-          "data": "2023-11-28",
-          "autorPrincipal": false
-        },
-        {
-          "id": "161321",
-          "identificacao": "REQ 131/2023 - CAS",
-          "sigla": "REQ",
-          "numero": "131",
-          "ano": 2023,
-          "ementa": "Requer, nos termos do art. 58, § 2º, II, da Constituição Federal e do art.93, incisos I e II, do Regimento Interno do Senado Federal, a realização de audiência pública com o objetivo de instruir o PL 826/2019, que “institui o Programa Nacional de Vacinação em Escolas Públicas” e debater a obrigatoriedade de vacinação contra Covid-19 em crianças, em virtude eventual inclusão da vacina no Programa Nacional de Imunização (PNI)",
-          "data": "2023-11-28",
-          "autorPrincipal": true
-        },
-        {
-          "id": "161320",
-          "identificacao": "REQ 130/2023 - CAS",
-          "sigla": "REQ",
-          "numero": "130",
-          "ano": 2023,
-          "ementa": "Requer, nos termos dos arts. 279, III, do Regimento Interno do Senado Federal, adiamento da discussão do PL 826/2019, que “institui o Programa Nacional de Vacinação em Escolas Públicas”, por 30 (trinta) dias úteis",
-          "data": "2023-11-28",
-          "autorPrincipal": true
-        },
-        {
           "id": "161316",
           "identificacao": "RQS 1059/2023",
           "sigla": "RQS",
@@ -6411,13 +6381,33 @@
           "autorPrincipal": false
         },
         {
-          "id": "161092",
-          "identificacao": "PL 5512/2023",
-          "sigla": "PL",
-          "numero": "5512",
+          "id": "161318",
+          "identificacao": "RQS 1061/2023",
+          "sigla": "RQS",
+          "numero": "1061",
           "ano": 2023,
-          "ementa": "Altera a Lei nº 11.340, de 7 de agosto de 2006 (Lei Maria da Penha), para estabelecer novas medidas protetivas de urgência e para possibilitar a fiscalização do agressor por meio da utilização de equipamento de monitoração eletrônica.",
-          "data": "2023-11-14",
+          "ementa": "Requer oitiva da Comissão de Segurança Pública sobre o PL 2234/2022.",
+          "data": "2023-11-28",
+          "autorPrincipal": false
+        },
+        {
+          "id": "161320",
+          "identificacao": "REQ 130/2023 - CAS",
+          "sigla": "REQ",
+          "numero": "130",
+          "ano": 2023,
+          "ementa": "Requer, nos termos dos arts. 279, III, do Regimento Interno do Senado Federal, adiamento da discussão do PL 826/2019, que “institui o Programa Nacional de Vacinação em Escolas Públicas”, por 30 (trinta) dias úteis",
+          "data": "2023-11-28",
+          "autorPrincipal": true
+        },
+        {
+          "id": "161321",
+          "identificacao": "REQ 131/2023 - CAS",
+          "sigla": "REQ",
+          "numero": "131",
+          "ano": 2023,
+          "ementa": "Requer, nos termos do art. 58, § 2º, II, da Constituição Federal e do art.93, incisos I e II, do Regimento Interno do Senado Federal, a realização de audiência pública com o objetivo de instruir o PL 826/2019, que “institui o Programa Nacional de Vacinação em Escolas Públicas” e debater a obrigatoriedade de vacinação contra Covid-19 em crianças, em virtude eventual inclusão da vacina no Programa Nacional de Imunização (PNI)",
+          "data": "2023-11-28",
           "autorPrincipal": true
         },
         {
@@ -6429,6 +6419,16 @@
           "ementa": "Requer a convocação do Senhor Flávio Dino de Castro e Costa, Ministro de Estado da Justiça e Segurança Pública, para que compareça a esta Comissão, a fim de prestar informações sobre a recepção, dentro das dependências do Palácio do Ministério da Justiça, da Senhora Luciane Barbosa Farias, integrante do Comando vermelho, por duas vezes durante este ano.",
           "data": "2023-11-14",
           "autorPrincipal": false
+        },
+        {
+          "id": "161092",
+          "identificacao": "PL 5512/2023",
+          "sigla": "PL",
+          "numero": "5512",
+          "ano": 2023,
+          "ementa": "Altera a Lei nº 11.340, de 7 de agosto de 2006 (Lei Maria da Penha), para estabelecer novas medidas protetivas de urgência e para possibilitar a fiscalização do agressor por meio da utilização de equipamento de monitoração eletrônica.",
+          "data": "2023-11-14",
+          "autorPrincipal": true
         },
         {
           "id": "160976",
@@ -6461,12 +6461,12 @@
           "autorPrincipal": true
         },
         {
-          "id": "160965",
-          "identificacao": "RQS 1005/2023",
-          "sigla": "RQS",
-          "numero": "1005",
+          "id": "160933",
+          "identificacao": "PEC 56/2023",
+          "sigla": "PEC",
+          "numero": "56",
           "ano": 2023,
-          "ementa": "Requer a realização de Sessão de Debate Temático destinado a discutir a real situação enfrentada pelo Estado de Israel no momento atual da guerra contra o Hamas.",
+          "ementa": "Altera as regras e o rito das súmulas vinculantes.",
           "data": "2023-11-08",
           "autorPrincipal": false
         },
@@ -6481,12 +6481,12 @@
           "autorPrincipal": false
         },
         {
-          "id": "160933",
-          "identificacao": "PEC 56/2023",
-          "sigla": "PEC",
-          "numero": "56",
+          "id": "160965",
+          "identificacao": "RQS 1005/2023",
+          "sigla": "RQS",
+          "numero": "1005",
           "ano": 2023,
-          "ementa": "Altera as regras e o rito das súmulas vinculantes.",
+          "ementa": "Requer a realização de Sessão de Debate Temático destinado a discutir a real situação enfrentada pelo Estado de Israel no momento atual da guerra contra o Hamas.",
           "data": "2023-11-08",
           "autorPrincipal": false
         },
@@ -6591,6 +6591,16 @@
           "autorPrincipal": true
         },
         {
+          "id": "160191",
+          "identificacao": "PDL 342/2023",
+          "sigla": "PDL",
+          "numero": "342",
+          "ano": 2023,
+          "ementa": "Susta disposições da Resolução nº 2, de 19 de setembro de 2023, do Conselho Nacional dos Direitos das Pessoas Lésbicas, Gays, Bissexuais, Travestis, Transexuais, Queers, Intersexos, Assexuais e Outras – CNLGBTQIA+, que estabelece parâmetros para a garantia das condições de acesso e permanência de pessoas travestis, mulheres e homens transexuais, e pessoas transmasculinas e não binárias - e todas aquelas que tenham sua identidade de gênero não reconhecida em diferentes espaços sociais - nos sistemas e instituições de ensino, formulando orientações quanto ao reconhecimento institucional da identidade de gênero e sua operacionalização.",
+          "data": "2023-09-26",
+          "autorPrincipal": true
+        },
+        {
           "id": "160194",
           "identificacao": "PDL 343/2023",
           "sigla": "PDL",
@@ -6609,16 +6619,6 @@
           "ementa": "Requer, nos termos do art. 58, § 3º, da Constituição Federal e do §1° do art. 76, combinado com o art. 152, do Regimento Interno do Senado Federal, a prorrogação por mais 57 (cinquenta e sete) dias da duração da Comissão Parlamentar de Inquérito criada a partir do Requerimento nº 292/2023 destinada a investigar a liberação, pelo Governo Federal, de recursos públicos para ONGs, e OSCIPs, bem como a utilização, por essas entidades, desses recursos e de outros por elas recebidos do exterior, a partir do ano de 2002 até a data de 1º de janeiro de 2023, a concentração desses recursos em atividades-meio, de forma a descumprir os objetivos para os quais esses recursos foram destinados originalmente, o desvirtuamento dos objetivos da ação dessas entidades, operando inclusive contra interesses nacionais, casos de abuso de poder, com intromissão dessas entidades em funções institucionais do poder público e a aquisição, a qualquer título, de terras por essas entidades.",
           "data": "2023-09-26",
           "autorPrincipal": false
-        },
-        {
-          "id": "160191",
-          "identificacao": "PDL 342/2023",
-          "sigla": "PDL",
-          "numero": "342",
-          "ano": 2023,
-          "ementa": "Susta disposições da Resolução nº 2, de 19 de setembro de 2023, do Conselho Nacional dos Direitos das Pessoas Lésbicas, Gays, Bissexuais, Travestis, Transexuais, Queers, Intersexos, Assexuais e Outras – CNLGBTQIA+, que estabelece parâmetros para a garantia das condições de acesso e permanência de pessoas travestis, mulheres e homens transexuais, e pessoas transmasculinas e não binárias - e todas aquelas que tenham sua identidade de gênero não reconhecida em diferentes espaços sociais - nos sistemas e instituições de ensino, formulando orientações quanto ao reconhecimento institucional da identidade de gênero e sua operacionalização.",
-          "data": "2023-09-26",
-          "autorPrincipal": true
         },
         {
           "id": "160148",
@@ -6711,22 +6711,22 @@
           "autorPrincipal": false
         },
         {
-          "id": "159327",
-          "identificacao": "RQS 738/2023",
-          "sigla": "RQS",
-          "numero": "738",
-          "ano": 2023,
-          "ementa": "Requer, nos termos dos arts. 336, II, e 338, II, do Regimento Interno do Senado Federal, urgência para o PL 2801/2022.",
-          "data": "2023-08-22",
-          "autorPrincipal": false
-        },
-        {
           "id": "159325",
           "identificacao": "PEC 39/2023",
           "sigla": "PEC",
           "numero": "39",
           "ano": 2023,
           "ementa": "Altera a Constituição Federal, para disciplinar a tramitação de projetos de resolução referentes ao regimento interno das Casas Legislativas.",
+          "data": "2023-08-22",
+          "autorPrincipal": false
+        },
+        {
+          "id": "159327",
+          "identificacao": "RQS 738/2023",
+          "sigla": "RQS",
+          "numero": "738",
+          "ano": 2023,
+          "ementa": "Requer, nos termos dos arts. 336, II, e 338, II, do Regimento Interno do Senado Federal, urgência para o PL 2801/2022.",
           "data": "2023-08-22",
           "autorPrincipal": false
         },
@@ -6739,16 +6739,6 @@
           "ementa": "Requer os termos dos arts. 13 e 215, I, “b”, do Regimento Interno do Senado Federal, em face do que dispõe o art. 55, III, da Constituição Federal, licença para desempenhar missão política ou cultural de interesse parlamentar, sem ônus para o Senado Federal, em Brasília, em 15/08/2023.",
           "data": "2023-08-17",
           "autorPrincipal": true
-        },
-        {
-          "id": "159095",
-          "identificacao": "PEC 37/2023",
-          "sigla": "PEC",
-          "numero": "37",
-          "ano": 2023,
-          "ementa": "Acrescenta o § 12 ao art. 14, da Constituição Federal, dispondo que, na votação e apuração de eleições seja obrigatória a expedição de cédulas físicas, conferíveis pelo eleitor, a serem depositadas em urnas, para fins de auditoria.",
-          "data": "2023-08-10",
-          "autorPrincipal": false
         },
         {
           "id": "159093",
@@ -6767,6 +6757,16 @@
           "numero": "36",
           "ano": 2023,
           "ementa": "Altera o art. 244 da Constituição Federal para assegurar gratuidade nos transportes coletivos urbanos às pessoas com deficiência de baixa renda.",
+          "data": "2023-08-10",
+          "autorPrincipal": false
+        },
+        {
+          "id": "159095",
+          "identificacao": "PEC 37/2023",
+          "sigla": "PEC",
+          "numero": "37",
+          "ano": 2023,
+          "ementa": "Acrescenta o § 12 ao art. 14, da Constituição Federal, dispondo que, na votação e apuração de eleições seja obrigatória a expedição de cédulas físicas, conferíveis pelo eleitor, a serem depositadas em urnas, para fins de auditoria.",
           "data": "2023-08-10",
           "autorPrincipal": false
         },
@@ -6871,22 +6871,22 @@
           "autorPrincipal": false
         },
         {
-          "id": "158584",
-          "identificacao": "PEC 33/2023",
-          "sigla": "PEC",
-          "numero": "33",
-          "ano": 2023,
-          "ementa": "Dá nova redação ao § 4º do art. 225 da Constituição Federal para incluir a Caatinga, o Cerrado e o Pampa entre os biomas considerados patrimônio nacional.",
-          "data": "2023-07-04",
-          "autorPrincipal": false
-        },
-        {
           "id": "158574",
           "identificacao": "PEC 32/2023",
           "sigla": "PEC",
           "numero": "32",
           "ano": 2023,
           "ementa": "Altera o art. 62 da Constituição Federal, para dispor sobre o procedimento de apreciação de medidas provisórias pelo Congresso Nacional.",
+          "data": "2023-07-04",
+          "autorPrincipal": false
+        },
+        {
+          "id": "158584",
+          "identificacao": "PEC 33/2023",
+          "sigla": "PEC",
+          "numero": "33",
+          "ano": 2023,
+          "ementa": "Dá nova redação ao § 4º do art. 225 da Constituição Federal para incluir a Caatinga, o Cerrado e o Pampa entre os biomas considerados patrimônio nacional.",
           "data": "2023-07-04",
           "autorPrincipal": false
         },
@@ -6911,16 +6911,6 @@
           "autorPrincipal": true
         },
         {
-          "id": "158196",
-          "identificacao": "RQS 591/2023",
-          "sigla": "RQS",
-          "numero": "591",
-          "ano": 2023,
-          "ementa": "Requer realização de Sessão Especial, em 15 de setembro de 2023, em alusão ao Setembro Amarelo e a fim de rememorar a passagem do Dia Mundial de Prevenção ao Suicídio.",
-          "data": "2023-06-15",
-          "autorPrincipal": false
-        },
-        {
           "id": "158133",
           "identificacao": "REQ 48/2023 - CDH",
           "sigla": "REQ",
@@ -6929,6 +6919,16 @@
           "ementa": "Requer a realização de diligência externa da CDH no Complexo Penitenciário da Papuda e na Penitenciária Feminina do Distrito Federal (PCDF) - Colmeia.",
           "data": "2023-06-15",
           "autorPrincipal": true
+        },
+        {
+          "id": "158196",
+          "identificacao": "RQS 591/2023",
+          "sigla": "RQS",
+          "numero": "591",
+          "ano": 2023,
+          "ementa": "Requer realização de Sessão Especial, em 15 de setembro de 2023, em alusão ao Setembro Amarelo e a fim de rememorar a passagem do Dia Mundial de Prevenção ao Suicídio.",
+          "data": "2023-06-15",
+          "autorPrincipal": false
         },
         {
           "id": "158004",
@@ -6971,16 +6971,6 @@
           "autorPrincipal": false
         },
         {
-          "id": "157789",
-          "identificacao": "RQS 523/2023",
-          "sigla": "RQS",
-          "numero": "523",
-          "ano": 2023,
-          "ementa": "Requer a realização de Sessão Especial, no dia 08/12/2023, a fim de comemorar a passagem do Dia Internacional da Pessoa com Deficiência e o Dia Nacional da Família.",
-          "data": "2023-05-30",
-          "autorPrincipal": false
-        },
-        {
           "id": "157777",
           "identificacao": "RQS 521/2023",
           "sigla": "RQS",
@@ -6991,14 +6981,14 @@
           "autorPrincipal": false
         },
         {
-          "id": "157773",
-          "identificacao": "PRS 64/2023",
-          "sigla": "PRS",
-          "numero": "64",
+          "id": "157789",
+          "identificacao": "RQS 523/2023",
+          "sigla": "RQS",
+          "numero": "523",
           "ano": 2023,
-          "ementa": "Institui no Senado Federal a Comenda Ceci Cunha e dá outras providências.",
-          "data": "2023-05-29",
-          "autorPrincipal": true
+          "ementa": "Requer a realização de Sessão Especial, no dia 08/12/2023, a fim de comemorar a passagem do Dia Internacional da Pessoa com Deficiência e o Dia Nacional da Família.",
+          "data": "2023-05-30",
+          "autorPrincipal": false
         },
         {
           "id": "157771",
@@ -7017,6 +7007,16 @@
           "numero": "2835",
           "ano": 2023,
           "ementa": "Altera a Lei nº 9.250, de 26 de dezembro de 1995, para vedar a dedução de contribuições a projetos culturais que contenham conotação sexual, erótica ou discriminatória envolvendo ou direcionados a crianças e adolescentes do imposto de renda das pessoas físicas.",
+          "data": "2023-05-29",
+          "autorPrincipal": true
+        },
+        {
+          "id": "157773",
+          "identificacao": "PRS 64/2023",
+          "sigla": "PRS",
+          "numero": "64",
+          "ano": 2023,
+          "ementa": "Institui no Senado Federal a Comenda Ceci Cunha e dá outras providências.",
           "data": "2023-05-29",
           "autorPrincipal": true
         },
@@ -7041,16 +7041,6 @@
           "autorPrincipal": true
         },
         {
-          "id": "157473",
-          "identificacao": "RQS 486/2023",
-          "sigla": "RQS",
-          "numero": "486",
-          "ano": 2023,
-          "ementa": "Requer, nos termos regimentais e de acordo com as tradições da Casa, inserção em ata de voto de pesar pelo falecimento da Juíza Gladys Henriques Pinheiro, titular da 1ª Vara da Infância e Juventude do município da Serra/ES, ocorrido no último dia 13, bem como a apresentação de condolências a sua família, seu filho Eduardo Dalla Bernardina, Procurador no município de Cariacica/ES, sua nora Rubia Dalla Bernardina e sua neta Maria Eduarda dos Anjos Dalla Bernardina, de 4 anos.",
-          "data": "2023-05-17",
-          "autorPrincipal": true
-        },
-        {
           "id": "157462",
           "identificacao": "RQS 481/2023",
           "sigla": "RQS",
@@ -7059,6 +7049,16 @@
           "ementa": "Requer, nos termos dos arts. 336, III, e 338, III, do Regimento Interno do Senado Federal, urgência para o PDL 98/2023.",
           "data": "2023-05-17",
           "autorPrincipal": false
+        },
+        {
+          "id": "157473",
+          "identificacao": "RQS 486/2023",
+          "sigla": "RQS",
+          "numero": "486",
+          "ano": 2023,
+          "ementa": "Requer, nos termos regimentais e de acordo com as tradições da Casa, inserção em ata de voto de pesar pelo falecimento da Juíza Gladys Henriques Pinheiro, titular da 1ª Vara da Infância e Juventude do município da Serra/ES, ocorrido no último dia 13, bem como a apresentação de condolências a sua família, seu filho Eduardo Dalla Bernardina, Procurador no município de Cariacica/ES, sua nora Rubia Dalla Bernardina e sua neta Maria Eduarda dos Anjos Dalla Bernardina, de 4 anos.",
+          "data": "2023-05-17",
+          "autorPrincipal": true
         },
         {
           "id": "157838",
@@ -7081,22 +7081,22 @@
           "autorPrincipal": false
         },
         {
-          "id": "157270",
-          "identificacao": "REQ 219/2023 - CDIR",
-          "sigla": "REQ",
-          "numero": "219",
-          "ano": 2023,
-          "ementa": "Requer, nos termos do art. 43, I, do Regimento Interno do Senado Federal, em face do que dispõem os arts. 55, III, e 56, II, da Constituição Federal, licença dos trabalhos da casa por motivos de saúde.",
-          "data": "2023-05-04",
-          "autorPrincipal": true
-        },
-        {
           "id": "157246",
           "identificacao": "RQS 405/2023",
           "sigla": "RQS",
           "numero": "405",
           "ano": 2023,
           "ementa": "Requer, nos termos do art. 48, XI do Regimento Interno do Senado Federal, do inciso II, do art. 7º, da Lei Complementar 95, de 1998,e baseado no entendimento do Supremo Tribunal Federal na Ação Direta de Inconstitucionalidade 5127, que Vossa Excelência declare como não escrito os artigos 11 e 12 do PLV nº 9, de 2023, por tratar de matéria estranha à Medida Provisória nº 1147, de 2022.",
+          "data": "2023-05-04",
+          "autorPrincipal": true
+        },
+        {
+          "id": "157270",
+          "identificacao": "REQ 219/2023 - CDIR",
+          "sigla": "REQ",
+          "numero": "219",
+          "ano": 2023,
+          "ementa": "Requer, nos termos do art. 43, I, do Regimento Interno do Senado Federal, em face do que dispõem os arts. 55, III, e 56, II, da Constituição Federal, licença dos trabalhos da casa por motivos de saúde.",
           "data": "2023-05-04",
           "autorPrincipal": true
         },
@@ -7201,6 +7201,16 @@
           "autorPrincipal": true
         },
         {
+          "id": "156723",
+          "identificacao": "PL 1667/2023",
+          "sigla": "PL",
+          "numero": "1667",
+          "ano": 2023,
+          "ementa": "Altera a Lei nº 7.210, de 11 de julho de 1984 – Lei de Execução Penal, para proibir a visita em que possa haver intimidades corporais acompanhada de criança ou de adolescente.",
+          "data": "2023-04-05",
+          "autorPrincipal": true
+        },
+        {
           "id": "156724",
           "identificacao": "PL 1668/2023",
           "sigla": "PL",
@@ -7231,16 +7241,6 @@
           "autorPrincipal": true
         },
         {
-          "id": "156723",
-          "identificacao": "PL 1667/2023",
-          "sigla": "PL",
-          "numero": "1667",
-          "ano": 2023,
-          "ementa": "Altera a Lei nº 7.210, de 11 de julho de 1984 – Lei de Execução Penal, para proibir a visita em que possa haver intimidades corporais acompanhada de criança ou de adolescente.",
-          "data": "2023-04-05",
-          "autorPrincipal": true
-        },
-        {
           "id": "156655",
           "identificacao": "RQS 279/2023",
           "sigla": "RQS",
@@ -7249,26 +7249,6 @@
           "ementa": "Realização de Sessão de Debates Temáticos, no dia 28/04/2023, a fim de debater a estrutura do sistema e do processo de adoção no país e possíveis melhorias.",
           "data": "2023-03-31",
           "autorPrincipal": false
-        },
-        {
-          "id": "157416",
-          "identificacao": "RQS 463/2023",
-          "sigla": "RQS",
-          "numero": "463",
-          "ano": 2023,
-          "ementa": "Requer calendário especial para a PEC 7/2018, para que a matéria conste da Ordem do Dia de sessões deliberativas, na forma que especifica.",
-          "data": "2023-03-30",
-          "autorPrincipal": false
-        },
-        {
-          "id": "156633",
-          "identificacao": "RQS 270/2023",
-          "sigla": "RQS",
-          "numero": "270",
-          "ano": 2023,
-          "ementa": "Desarquivamento do PLC 60/2018, que “altera o art. 25 da Lei nº 10.438, de26 de abril de 2002, para ampliar o horário em que pode ser estabelecido o período de concessão de desconto nas tarifas de energia elétrica ao irrigante e ao aquicultor, e para vedar a aplicação de diferentes percentuais de descontos na Classe Rural”.",
-          "data": "2023-03-30",
-          "autorPrincipal": true
         },
         {
           "id": "156623",
@@ -7281,6 +7261,26 @@
           "autorPrincipal": true
         },
         {
+          "id": "156633",
+          "identificacao": "RQS 270/2023",
+          "sigla": "RQS",
+          "numero": "270",
+          "ano": 2023,
+          "ementa": "Desarquivamento do PLC 60/2018, que “altera o art. 25 da Lei nº 10.438, de26 de abril de 2002, para ampliar o horário em que pode ser estabelecido o período de concessão de desconto nas tarifas de energia elétrica ao irrigante e ao aquicultor, e para vedar a aplicação de diferentes percentuais de descontos na Classe Rural”.",
+          "data": "2023-03-30",
+          "autorPrincipal": true
+        },
+        {
+          "id": "157416",
+          "identificacao": "RQS 463/2023",
+          "sigla": "RQS",
+          "numero": "463",
+          "ano": 2023,
+          "ementa": "Requer calendário especial para a PEC 7/2018, para que a matéria conste da Ordem do Dia de sessões deliberativas, na forma que especifica.",
+          "data": "2023-03-30",
+          "autorPrincipal": false
+        },
+        {
           "id": "156581",
           "identificacao": "PEC 14/2023",
           "sigla": "PEC",
@@ -7288,16 +7288,6 @@
           "ano": 2023,
           "ementa": "Dispõe sobre a atualização monetária dos repasses de recursos federais aos Municípios.",
           "data": "2023-03-29",
-          "autorPrincipal": false
-        },
-        {
-          "id": "156523",
-          "identificacao": "RQS 240/2023",
-          "sigla": "RQS",
-          "numero": "240",
-          "ano": 2023,
-          "ementa": "Realização de Sessão Especial, no dia 08/05/2023, a fim de debater a Escola do Estoicismo.",
-          "data": "2023-03-28",
           "autorPrincipal": false
         },
         {
@@ -7309,6 +7299,16 @@
           "ementa": "Requer que seja convidado o Exmo. Sr. Flávio Dino de Castro e Costa, Ministro da Justiça e Segurança Pública, a comparecer a esta Comissão, a fim de prestar informações sobre os planos e a agenda estratégica da Pasta para os próximos anos.",
           "data": "2023-03-28",
           "autorPrincipal": true
+        },
+        {
+          "id": "156523",
+          "identificacao": "RQS 240/2023",
+          "sigla": "RQS",
+          "numero": "240",
+          "ano": 2023,
+          "ementa": "Realização de Sessão Especial, no dia 08/05/2023, a fim de debater a Escola do Estoicismo.",
+          "data": "2023-03-28",
+          "autorPrincipal": false
         },
         {
           "id": "156533",
@@ -7331,16 +7331,6 @@
           "autorPrincipal": true
         },
         {
-          "id": "156511",
-          "identificacao": "RQS 236/2023",
-          "sigla": "RQS",
-          "numero": "236",
-          "ano": 2023,
-          "ementa": "Realização de sessão especial a fim de comemorar o Dia Mundial de Luta Contra o Câncer.",
-          "data": "2023-03-27",
-          "autorPrincipal": false
-        },
-        {
           "id": "156501",
           "identificacao": "PL 1433/2023",
           "sigla": "PL",
@@ -7351,13 +7341,13 @@
           "autorPrincipal": true
         },
         {
-          "id": "156507",
-          "identificacao": "RQS 235/2023",
+          "id": "156511",
+          "identificacao": "RQS 236/2023",
           "sigla": "RQS",
-          "numero": "235",
+          "numero": "236",
           "ano": 2023,
-          "ementa": "Realização de sessão especial, no dia 06/10/2023, às 14h, a fim de comemorar o Dia do Nascituro, celebrado anualmente no Brasil em 08 de outubro.",
-          "data": "2023-03-24",
+          "ementa": "Realização de sessão especial a fim de comemorar o Dia Mundial de Luta Contra o Câncer.",
+          "data": "2023-03-27",
           "autorPrincipal": false
         },
         {
@@ -7381,12 +7371,12 @@
           "autorPrincipal": true
         },
         {
-          "id": "156506",
-          "identificacao": "RQS 234/2023",
-          "sigla": "RQS",
-          "numero": "234",
+          "id": "156479",
+          "identificacao": "REQ 4/2023 - CSP",
+          "sigla": "REQ",
+          "numero": "4",
           "ano": 2023,
-          "ementa": "Realização de sessão especial, no dia 19/06/2023, às 16h, a fim de homenagear instituições de apoio à gestante.",
+          "ementa": "Requer a realização de Audiência Pública para analisar a situação do Sistema Integrado de Monitoramento de Fronteiras – SISFRON e do Centro Gestor e Operacional do Sistema de Proteção da Amazônia - Censipam, entender as necessidades orçamentárias para o fortalecimento dos dois programas em conjunto com o Ministério da Defesa no sentido de garantir eficiência e maior capacidade de atuação, bem como ouvir os planos para o melhoramento na vigilância das fronteiras brasileiras no sentido de coibir, sobretudo, o tráfico de armas e drogas.",
           "data": "2023-03-24",
           "autorPrincipal": false
         },
@@ -7401,23 +7391,23 @@
           "autorPrincipal": false
         },
         {
-          "id": "156479",
-          "identificacao": "REQ 4/2023 - CSP",
-          "sigla": "REQ",
-          "numero": "4",
+          "id": "156506",
+          "identificacao": "RQS 234/2023",
+          "sigla": "RQS",
+          "numero": "234",
           "ano": 2023,
-          "ementa": "Requer a realização de Audiência Pública para analisar a situação do Sistema Integrado de Monitoramento de Fronteiras – SISFRON e do Centro Gestor e Operacional do Sistema de Proteção da Amazônia - Censipam, entender as necessidades orçamentárias para o fortalecimento dos dois programas em conjunto com o Ministério da Defesa no sentido de garantir eficiência e maior capacidade de atuação, bem como ouvir os planos para o melhoramento na vigilância das fronteiras brasileiras no sentido de coibir, sobretudo, o tráfico de armas e drogas.",
+          "ementa": "Realização de sessão especial, no dia 19/06/2023, às 16h, a fim de homenagear instituições de apoio à gestante.",
           "data": "2023-03-24",
           "autorPrincipal": false
         },
         {
-          "id": "156456",
-          "identificacao": "RQS 220/2023",
+          "id": "156507",
+          "identificacao": "RQS 235/2023",
           "sigla": "RQS",
-          "numero": "220",
+          "numero": "235",
           "ano": 2023,
-          "ementa": "Realização de Sessão Especial destinada a comemorar o aniversário do estado do Acre.",
-          "data": "2023-03-23",
+          "ementa": "Realização de sessão especial, no dia 06/10/2023, às 14h, a fim de comemorar o Dia do Nascituro, celebrado anualmente no Brasil em 08 de outubro.",
+          "data": "2023-03-24",
           "autorPrincipal": false
         },
         {
@@ -7427,26 +7417,6 @@
           "numero": "36",
           "ano": 2023,
           "ementa": "Dá nova redação ao § 1º do art. 108 do Regimento Interno do Senado Federal para ampliar de dois para cinco dias úteis o prazo mínimo para a divulgação da pauta da reunião de Comissão.",
-          "data": "2023-03-23",
-          "autorPrincipal": true
-        },
-        {
-          "id": "156452",
-          "identificacao": "PRS 37/2023",
-          "sigla": "PRS",
-          "numero": "37",
-          "ano": 2023,
-          "ementa": "Dá nova redação ao § 2º do art. 145 do Regimento Interno do Senado Federal para estabelecer prazo para numeração e publicação de requerimento de criação de comissão parlamentar de inquérito.",
-          "data": "2023-03-23",
-          "autorPrincipal": true
-        },
-        {
-          "id": "156451",
-          "identificacao": "PL 1372/2023",
-          "sigla": "PL",
-          "numero": "1372",
-          "ano": 2023,
-          "ementa": "Revoga a Lei nº 12.318, de 26 de agosto de 2010, que dispõe sobre a alienação parental.",
           "data": "2023-03-23",
           "autorPrincipal": true
         },
@@ -7461,13 +7431,33 @@
           "autorPrincipal": true
         },
         {
-          "id": "156670",
-          "identificacao": "RQS 281/2023",
-          "sigla": "RQS",
-          "numero": "281",
+          "id": "156451",
+          "identificacao": "PL 1372/2023",
+          "sigla": "PL",
+          "numero": "1372",
           "ano": 2023,
-          "ementa": "Desarquivamento das seguintes proposições: PLS 326/2016, PLC 75/2018 e PLS 168/2018.",
-          "data": "2023-03-22",
+          "ementa": "Revoga a Lei nº 12.318, de 26 de agosto de 2010, que dispõe sobre a alienação parental.",
+          "data": "2023-03-23",
+          "autorPrincipal": true
+        },
+        {
+          "id": "156452",
+          "identificacao": "PRS 37/2023",
+          "sigla": "PRS",
+          "numero": "37",
+          "ano": 2023,
+          "ementa": "Dá nova redação ao § 2º do art. 145 do Regimento Interno do Senado Federal para estabelecer prazo para numeração e publicação de requerimento de criação de comissão parlamentar de inquérito.",
+          "data": "2023-03-23",
+          "autorPrincipal": true
+        },
+        {
+          "id": "156456",
+          "identificacao": "RQS 220/2023",
+          "sigla": "RQS",
+          "numero": "220",
+          "ano": 2023,
+          "ementa": "Realização de Sessão Especial destinada a comemorar o aniversário do estado do Acre.",
+          "data": "2023-03-23",
           "autorPrincipal": false
         },
         {
@@ -7477,6 +7467,16 @@
           "numero": "280",
           "ano": 2023,
           "ementa": "Desarquivamento do PLS 376/2017 e do PLS 359/2017",
+          "data": "2023-03-22",
+          "autorPrincipal": false
+        },
+        {
+          "id": "156670",
+          "identificacao": "RQS 281/2023",
+          "sigla": "RQS",
+          "numero": "281",
+          "ano": 2023,
+          "ementa": "Desarquivamento das seguintes proposições: PLS 326/2016, PLC 75/2018 e PLS 168/2018.",
           "data": "2023-03-22",
           "autorPrincipal": false
         },
@@ -7491,16 +7491,6 @@
           "autorPrincipal": false
         },
         {
-          "id": "156437",
-          "identificacao": "PEC 11/2023",
-          "sigla": "PEC",
-          "numero": "11",
-          "ano": 2023,
-          "ementa": "Altera o art. 62 da Constituição Federal, para estabelecer que as medidas provisórias terão a sua tramitação iniciada, alternadamente, na Câmara dos Deputados e no Senado Federal e para extinguir as comissões mistas encarregadas de seu exame.",
-          "data": "2023-03-17",
-          "autorPrincipal": false
-        },
-        {
           "id": "156337",
           "identificacao": "REQ 2/2023 - CSP",
           "sigla": "REQ",
@@ -7511,14 +7501,24 @@
           "autorPrincipal": false
         },
         {
-          "id": "156643",
-          "identificacao": "RQS 275/2023",
-          "sigla": "RQS",
-          "numero": "275",
+          "id": "156437",
+          "identificacao": "PEC 11/2023",
+          "sigla": "PEC",
+          "numero": "11",
           "ano": 2023,
-          "ementa": "Urgência para o PRS nº 14/2023.",
+          "ementa": "Altera o art. 62 da Constituição Federal, para estabelecer que as medidas provisórias terão a sua tramitação iniciada, alternadamente, na Câmara dos Deputados e no Senado Federal e para extinguir as comissões mistas encarregadas de seu exame.",
+          "data": "2023-03-17",
+          "autorPrincipal": false
+        },
+        {
+          "id": "156320",
+          "identificacao": "RQS 201/2023",
+          "sigla": "RQS",
+          "numero": "201",
+          "ano": 2023,
+          "ementa": "Inserção em ata de voto de pesar pelo falecimento de José Maria Barbosa, Ex-líder de Jovens Adventistas.",
           "data": "2023-03-16",
-          "autorPrincipal": true
+          "autorPrincipal": false
         },
         {
           "id": "156325",
@@ -7531,14 +7531,14 @@
           "autorPrincipal": false
         },
         {
-          "id": "156320",
-          "identificacao": "RQS 201/2023",
+          "id": "156643",
+          "identificacao": "RQS 275/2023",
           "sigla": "RQS",
-          "numero": "201",
+          "numero": "275",
           "ano": 2023,
-          "ementa": "Inserção em ata de voto de pesar pelo falecimento de José Maria Barbosa, Ex-líder de Jovens Adventistas.",
+          "ementa": "Urgência para o PRS nº 14/2023.",
           "data": "2023-03-16",
-          "autorPrincipal": false
+          "autorPrincipal": true
         },
         {
           "id": "156571",
@@ -7591,14 +7591,14 @@
           "autorPrincipal": true
         },
         {
-          "id": "161570",
-          "identificacao": "PRN 2/2023",
-          "sigla": "PRN",
-          "numero": "2",
+          "id": "156041",
+          "identificacao": "RQS 123/2023",
+          "sigla": "RQS",
+          "numero": "123",
           "ano": 2023,
-          "ementa": "Altera o Regimento Comum do Congresso Nacional para instituir a Liderança da Oposição no Congresso Nacional.",
+          "ementa": "Inserção em ata de voto de aplauso aos bombeiros capixabas que participaram da Missão Humanitária Brasileira na Turquia: Major Fábio Silva Bezerra, Major Siwamy Reis dos Anjos, Capitão André Marinho de Godoy, 3º Sargento Vinícius Sperancini Eller, 3º Sargento Breno Ressari Nicolini, Cabo Heitor Pimentel Vicentini, pela ajuda na busca e resgate de vítimas dos terremotos ocorridos no país.",
           "data": "2023-03-07",
-          "autorPrincipal": false
+          "autorPrincipal": true
         },
         {
           "id": "156419",
@@ -7611,14 +7611,14 @@
           "autorPrincipal": false
         },
         {
-          "id": "156041",
-          "identificacao": "RQS 123/2023",
-          "sigla": "RQS",
-          "numero": "123",
+          "id": "161570",
+          "identificacao": "PRN 2/2023",
+          "sigla": "PRN",
+          "numero": "2",
           "ano": 2023,
-          "ementa": "Inserção em ata de voto de aplauso aos bombeiros capixabas que participaram da Missão Humanitária Brasileira na Turquia: Major Fábio Silva Bezerra, Major Siwamy Reis dos Anjos, Capitão André Marinho de Godoy, 3º Sargento Vinícius Sperancini Eller, 3º Sargento Breno Ressari Nicolini, Cabo Heitor Pimentel Vicentini, pela ajuda na busca e resgate de vítimas dos terremotos ocorridos no país.",
+          "ementa": "Altera o Regimento Comum do Congresso Nacional para instituir a Liderança da Oposição no Congresso Nacional.",
           "data": "2023-03-07",
-          "autorPrincipal": true
+          "autorPrincipal": false
         },
         {
           "id": "156572",
@@ -7691,22 +7691,22 @@
           "autorPrincipal": true
         },
         {
-          "id": "160163",
-          "identificacao": "PEC 49/2023",
-          "sigla": "PEC",
-          "numero": "49",
-          "ano": 2023,
-          "ementa": "Altera o caput do art. 5º da Constituição Federal para ampliar o alcance do direito à vida ao nascituro.",
-          "data": "2023-02-23",
-          "autorPrincipal": true
-        },
-        {
           "id": "155917",
           "identificacao": "PL 621/2023",
           "sigla": "PL",
           "numero": "621",
           "ano": 2023,
           "ementa": "Revoga o art. 27 do Decreto-Lei nº 2.848, de 7 de dezembro de 1940 – Código Penal, com o objetivo de excluir a idade como fator de inimputabilidade penal.",
+          "data": "2023-02-23",
+          "autorPrincipal": true
+        },
+        {
+          "id": "155918",
+          "identificacao": "PL 622/2023",
+          "sigla": "PL",
+          "numero": "622",
+          "ano": 2023,
+          "ementa": "Acrescenta os §§ 4º e 5º ao art. 146 do Decreto-Lei nº 2.848, de 7 de dezembro de 1940 - Código Penal, para tipificar o crime de trote estudantil e incluí-lo no rol dos crimes hediondos se resultar em morte.",
           "data": "2023-02-23",
           "autorPrincipal": true
         },
@@ -7731,12 +7731,12 @@
           "autorPrincipal": true
         },
         {
-          "id": "155918",
-          "identificacao": "PL 622/2023",
-          "sigla": "PL",
-          "numero": "622",
+          "id": "160163",
+          "identificacao": "PEC 49/2023",
+          "sigla": "PEC",
+          "numero": "49",
           "ano": 2023,
-          "ementa": "Acrescenta os §§ 4º e 5º ao art. 146 do Decreto-Lei nº 2.848, de 7 de dezembro de 1940 - Código Penal, para tipificar o crime de trote estudantil e incluí-lo no rol dos crimes hediondos se resultar em morte.",
+          "ementa": "Altera o caput do art. 5º da Constituição Federal para ampliar o alcance do direito à vida ao nascituro.",
           "data": "2023-02-23",
           "autorPrincipal": true
         },
@@ -7811,16 +7811,6 @@
           "autorPrincipal": true
         },
         {
-          "id": "156685",
-          "identificacao": "RQS 287/2023",
-          "sigla": "RQS",
-          "numero": "287",
-          "ano": 2023,
-          "ementa": "Desarquivamento da PEC nº 9/2017 e do PLC nº 25/2018.",
-          "data": "2023-02-09",
-          "autorPrincipal": false
-        },
-        {
           "id": "155845",
           "identificacao": "PRS 8/2023",
           "sigla": "PRS",
@@ -7841,6 +7831,16 @@
           "autorPrincipal": true
         },
         {
+          "id": "156685",
+          "identificacao": "RQS 287/2023",
+          "sigla": "RQS",
+          "numero": "287",
+          "ano": 2023,
+          "ementa": "Desarquivamento da PEC nº 9/2017 e do PLC nº 25/2018.",
+          "data": "2023-02-09",
+          "autorPrincipal": false
+        },
+        {
           "id": "155883",
           "identificacao": "RQS 65/2023",
           "sigla": "RQS",
@@ -7848,16 +7848,6 @@
           "ano": 2023,
           "ementa": "Requer o desarquivamento do PLS nº 166/2018.",
           "data": "2023-02-08",
-          "autorPrincipal": false
-        },
-        {
-          "id": "156697",
-          "identificacao": "RQS 292/2023",
-          "sigla": "RQS",
-          "numero": "292",
-          "ano": 2023,
-          "ementa": "Criação de Comissão Parlamentar de Inquérito, para apurar fatos relacionados às organizações não-governamentais (ONGs) e às organizações da sociedade civil de interesse público (OSCIPs).",
-          "data": "2023-02-06",
           "autorPrincipal": false
         },
         {
@@ -7877,6 +7867,16 @@
           "numero": "68",
           "ano": 2023,
           "ementa": "Desarquivamento do Substitutivo da Câmara dos Deputados (SCD) nº 6/2016.",
+          "data": "2023-02-06",
+          "autorPrincipal": false
+        },
+        {
+          "id": "156697",
+          "identificacao": "RQS 292/2023",
+          "sigla": "RQS",
+          "numero": "292",
+          "ano": 2023,
+          "ementa": "Criação de Comissão Parlamentar de Inquérito, para apurar fatos relacionados às organizações não-governamentais (ONGs) e às organizações da sociedade civil de interesse público (OSCIPs).",
           "data": "2023-02-06",
           "autorPrincipal": false
         },
@@ -8653,22 +8653,22 @@
           "autorPrincipal": true
         },
         {
-          "id": "168371",
-          "identificacao": "PL 2052/2025",
-          "sigla": "PL",
-          "numero": "2052",
-          "ano": 2025,
-          "ementa": "Altera a Lei nº 9.394, de 20 de dezembro de 1996, que estabelece as diretrizes e bases da educação nacional, para incluir a prevenção ao crime como tema transversal dos currículos do ensino fundamental e do ensino médio.",
-          "data": "2025-05-05",
-          "autorPrincipal": true
-        },
-        {
           "id": "168370",
           "identificacao": "PL 2051/2025",
           "sigla": "PL",
           "numero": "2051",
           "ano": 2025,
           "ementa": "Altera a Lei nº 9.394, de 20 de dezembro de 1996, que estabelece as diretrizes e bases da educação nacional, para incluir disciplinas específicas de inteligência artificial, programação e cibersegurança no currículo do ensino médio.",
+          "data": "2025-05-05",
+          "autorPrincipal": true
+        },
+        {
+          "id": "168371",
+          "identificacao": "PL 2052/2025",
+          "sigla": "PL",
+          "numero": "2052",
+          "ano": 2025,
+          "ementa": "Altera a Lei nº 9.394, de 20 de dezembro de 1996, que estabelece as diretrizes e bases da educação nacional, para incluir a prevenção ao crime como tema transversal dos currículos do ensino fundamental e do ensino médio.",
           "data": "2025-05-05",
           "autorPrincipal": true
         },
@@ -9703,16 +9703,6 @@
           "autorPrincipal": false
         },
         {
-          "id": "161171",
-          "identificacao": "PL 5597/2023",
-          "sigla": "PL",
-          "numero": "5597",
-          "ano": 2023,
-          "ementa": "Altera a Lei n° 13.675, de 11 de junho de 2018, para prever que o Ministério Público e os órgãos de polícia judiciária assegurarão a seus integrantes proteção contra retaliações e a isenção de qualquer responsabilidade administrativa e disciplinar durante a condução de procedimentos de persecução penal, até o respectivo trânsito em julgado na justiça, de crimes de corrupção, contra a Administração Pública, contra a ordem econômica, financeira e tributária, e de lavagem de dinheiro.",
-          "data": "2023-11-21",
-          "autorPrincipal": true
-        },
-        {
           "id": "161154",
           "identificacao": "REQ 59/2023 - CSP",
           "sigla": "REQ",
@@ -9723,14 +9713,14 @@
           "autorPrincipal": false
         },
         {
-          "id": "161175",
-          "identificacao": "RQS 1040/2023",
-          "sigla": "RQS",
-          "numero": "1040",
+          "id": "161171",
+          "identificacao": "PL 5597/2023",
+          "sigla": "PL",
+          "numero": "5597",
           "ano": 2023,
-          "ementa": "Requer a realização de Sessão Especial destinada a celebrar o Dia do Perito Criminal.",
+          "ementa": "Altera a Lei n° 13.675, de 11 de junho de 2018, para prever que o Ministério Público e os órgãos de polícia judiciária assegurarão a seus integrantes proteção contra retaliações e a isenção de qualquer responsabilidade administrativa e disciplinar durante a condução de procedimentos de persecução penal, até o respectivo trânsito em julgado na justiça, de crimes de corrupção, contra a Administração Pública, contra a ordem econômica, financeira e tributária, e de lavagem de dinheiro.",
           "data": "2023-11-21",
-          "autorPrincipal": false
+          "autorPrincipal": true
         },
         {
           "id": "161172",
@@ -9741,6 +9731,16 @@
           "ementa": "Altera a Lei nº 13.608, de 10 de janeiro de 2018, para dar maior praticidade operacional e resguardo ao instituto do informante do bem.",
           "data": "2023-11-21",
           "autorPrincipal": true
+        },
+        {
+          "id": "161175",
+          "identificacao": "RQS 1040/2023",
+          "sigla": "RQS",
+          "numero": "1040",
+          "ano": 2023,
+          "ementa": "Requer a realização de Sessão Especial destinada a celebrar o Dia do Perito Criminal.",
+          "data": "2023-11-21",
+          "autorPrincipal": false
         },
         {
           "id": "161069",
@@ -9783,22 +9783,22 @@
           "autorPrincipal": false
         },
         {
-          "id": "160960",
-          "identificacao": "PEC 59/2023",
-          "sigla": "PEC",
-          "numero": "59",
-          "ano": 2023,
-          "ementa": "Acrescenta o inciso XIX ao art. 49; modifica o §4º e acrescenta o §8º, ambos no Art. 231, da Constituição Federal.",
-          "data": "2023-11-08",
-          "autorPrincipal": false
-        },
-        {
           "id": "160956",
           "identificacao": "PEC 58/2023",
           "sigla": "PEC",
           "numero": "58",
           "ano": 2023,
           "ementa": "Altera os incisos XVIII e XIX do art. 7° da Constituição Federal, para ampliar a duração da licença-maternidade, licença paternidade e adotante.",
+          "data": "2023-11-08",
+          "autorPrincipal": false
+        },
+        {
+          "id": "160960",
+          "identificacao": "PEC 59/2023",
+          "sigla": "PEC",
+          "numero": "59",
+          "ano": 2023,
+          "ementa": "Acrescenta o inciso XIX ao art. 49; modifica o §4º e acrescenta o §8º, ambos no Art. 231, da Constituição Federal.",
           "data": "2023-11-08",
           "autorPrincipal": false
         },
@@ -9913,6 +9913,26 @@
           "autorPrincipal": true
         },
         {
+          "id": "160346",
+          "identificacao": "PRS 96/2023",
+          "sigla": "PRS",
+          "numero": "96",
+          "ano": 2023,
+          "ementa": "Institui o Prêmio de Excelência em Gestão Pública, a ser conferido anualmente pelo Senado Federal a órgãos públicos federais que se destaquem na adoção de práticas de uso eficiente de recursos públicos, transparência nos gastos e inovação pública.",
+          "data": "2023-10-04",
+          "autorPrincipal": true
+        },
+        {
+          "id": "160347",
+          "identificacao": "RQS 880/2023",
+          "sigla": "RQS",
+          "numero": "880",
+          "ano": 2023,
+          "ementa": "Requer, nos termos do art. 222 do Regimento Interno do Senado Federal, inserção em ata de voto de louvor ao município de Vitória, no Espírito Santo, pelo transcurso de seu aniversário de 472 anos.",
+          "data": "2023-10-04",
+          "autorPrincipal": true
+        },
+        {
           "id": "160353",
           "identificacao": "REQ 32/2023 - CCJ",
           "sigla": "REQ",
@@ -9943,26 +9963,6 @@
           "autorPrincipal": false
         },
         {
-          "id": "160346",
-          "identificacao": "PRS 96/2023",
-          "sigla": "PRS",
-          "numero": "96",
-          "ano": 2023,
-          "ementa": "Institui o Prêmio de Excelência em Gestão Pública, a ser conferido anualmente pelo Senado Federal a órgãos públicos federais que se destaquem na adoção de práticas de uso eficiente de recursos públicos, transparência nos gastos e inovação pública.",
-          "data": "2023-10-04",
-          "autorPrincipal": true
-        },
-        {
-          "id": "160347",
-          "identificacao": "RQS 880/2023",
-          "sigla": "RQS",
-          "numero": "880",
-          "ano": 2023,
-          "ementa": "Requer, nos termos do art. 222 do Regimento Interno do Senado Federal, inserção em ata de voto de louvor ao município de Vitória, no Espírito Santo, pelo transcurso de seu aniversário de 472 anos.",
-          "data": "2023-10-04",
-          "autorPrincipal": true
-        },
-        {
           "id": "160275",
           "identificacao": "PRS 93/2023",
           "sigla": "PRS",
@@ -9980,6 +9980,16 @@
           "ano": 2023,
           "ementa": "Requeiro, nos termos do art. 243 do Regimento Interno do Senado Federal, a inclusão do meu apoio à PEC 45/2023, de autoria do Senador Rodrigo Pacheco",
           "data": "2023-09-28",
+          "autorPrincipal": true
+        },
+        {
+          "id": "160193",
+          "identificacao": "REQ 543/2023 - CDIR",
+          "sigla": "REQ",
+          "numero": "543",
+          "ano": 2023,
+          "ementa": "Requer licença missão politica em Brasilia",
+          "data": "2023-09-26",
           "autorPrincipal": true
         },
         {
@@ -10001,16 +10011,6 @@
           "ementa": "Requer, nos termos do art. 58, § 3º, da Constituição Federal e do §1° do art. 76, combinado com o art. 152, do Regimento Interno do Senado Federal, a prorrogação por mais 57 (cinquenta e sete) dias da duração da Comissão Parlamentar de Inquérito criada a partir do Requerimento nº 292/2023 destinada a investigar a liberação, pelo Governo Federal, de recursos públicos para ONGs, e OSCIPs, bem como a utilização, por essas entidades, desses recursos e de outros por elas recebidos do exterior, a partir do ano de 2002 até a data de 1º de janeiro de 2023, a concentração desses recursos em atividades-meio, de forma a descumprir os objetivos para os quais esses recursos foram destinados originalmente, o desvirtuamento dos objetivos da ação dessas entidades, operando inclusive contra interesses nacionais, casos de abuso de poder, com intromissão dessas entidades em funções institucionais do poder público e a aquisição, a qualquer título, de terras por essas entidades.",
           "data": "2023-09-26",
           "autorPrincipal": false
-        },
-        {
-          "id": "160193",
-          "identificacao": "REQ 543/2023 - CDIR",
-          "sigla": "REQ",
-          "numero": "543",
-          "ano": 2023,
-          "ementa": "Requer licença missão politica em Brasilia",
-          "data": "2023-09-26",
-          "autorPrincipal": true
         },
         {
           "id": "160170",
@@ -10113,12 +10113,12 @@
           "autorPrincipal": false
         },
         {
-          "id": "159019",
-          "identificacao": "PRS 80/2023",
+          "id": "159017",
+          "identificacao": "PRS 79/2023",
           "sigla": "PRS",
-          "numero": "80",
+          "numero": "79",
           "ano": 2023,
-          "ementa": "Cria o Grupo Parlamentar em Defesa da Segurança Pública e Políticas Públicas de Segurança.",
+          "ementa": "Institui o Grupo Parlamentar de Prevenção e Combate à Fraude e à Corrupção.",
           "data": "2023-08-08",
           "autorPrincipal": true
         },
@@ -10133,12 +10133,12 @@
           "autorPrincipal": true
         },
         {
-          "id": "159017",
-          "identificacao": "PRS 79/2023",
+          "id": "159019",
+          "identificacao": "PRS 80/2023",
           "sigla": "PRS",
-          "numero": "79",
+          "numero": "80",
           "ano": 2023,
-          "ementa": "Institui o Grupo Parlamentar de Prevenção e Combate à Fraude e à Corrupção.",
+          "ementa": "Cria o Grupo Parlamentar em Defesa da Segurança Pública e Políticas Públicas de Segurança.",
           "data": "2023-08-08",
           "autorPrincipal": true
         },
@@ -10243,16 +10243,6 @@
           "autorPrincipal": false
         },
         {
-          "id": "157153",
-          "identificacao": "PEC 20/2023",
-          "sigla": "PEC",
-          "numero": "20",
-          "ano": 2023,
-          "ementa": "Altera o art. 103-B da Constituição Federal para incluir um desembargador do Tribunal de Justiça do Distrito Federal e dos Territórios na composição do Conselho Nacional de Justiça.",
-          "data": "2023-04-27",
-          "autorPrincipal": false
-        },
-        {
           "id": "157133",
           "identificacao": "PL 2203/2023",
           "sigla": "PL",
@@ -10269,6 +10259,16 @@
           "numero": "18",
           "ano": 2023,
           "ementa": "Altera o art. 98 e o art. 107 do Ato das Disposições Constitucionais Transitórias, para assegurar à Defensoria Pública da União, pelo prazo de 10 anos, incremento orçamentário anual do limite individualizado, com vistas a efetivar o disposto no caput do próprio art. 98.",
+          "data": "2023-04-27",
+          "autorPrincipal": false
+        },
+        {
+          "id": "157153",
+          "identificacao": "PEC 20/2023",
+          "sigla": "PEC",
+          "numero": "20",
+          "ano": 2023,
+          "ementa": "Altera o art. 103-B da Constituição Federal para incluir um desembargador do Tribunal de Justiça do Distrito Federal e dos Territórios na composição do Conselho Nacional de Justiça.",
           "data": "2023-04-27",
           "autorPrincipal": false
         },
@@ -10353,26 +10353,6 @@
           "autorPrincipal": false
         },
         {
-          "id": "157416",
-          "identificacao": "RQS 463/2023",
-          "sigla": "RQS",
-          "numero": "463",
-          "ano": 2023,
-          "ementa": "Requer calendário especial para a PEC 7/2018, para que a matéria conste da Ordem do Dia de sessões deliberativas, na forma que especifica.",
-          "data": "2023-03-30",
-          "autorPrincipal": false
-        },
-        {
-          "id": "156633",
-          "identificacao": "RQS 270/2023",
-          "sigla": "RQS",
-          "numero": "270",
-          "ano": 2023,
-          "ementa": "Desarquivamento do PLC 60/2018, que “altera o art. 25 da Lei nº 10.438, de26 de abril de 2002, para ampliar o horário em que pode ser estabelecido o período de concessão de desconto nas tarifas de energia elétrica ao irrigante e ao aquicultor, e para vedar a aplicação de diferentes percentuais de descontos na Classe Rural”.",
-          "data": "2023-03-30",
-          "autorPrincipal": false
-        },
-        {
           "id": "156588",
           "identificacao": "RQS 259/2023",
           "sigla": "RQS",
@@ -10393,13 +10373,23 @@
           "autorPrincipal": true
         },
         {
-          "id": "156581",
-          "identificacao": "PEC 14/2023",
-          "sigla": "PEC",
-          "numero": "14",
+          "id": "156633",
+          "identificacao": "RQS 270/2023",
+          "sigla": "RQS",
+          "numero": "270",
           "ano": 2023,
-          "ementa": "Dispõe sobre a atualização monetária dos repasses de recursos federais aos Municípios.",
-          "data": "2023-03-29",
+          "ementa": "Desarquivamento do PLC 60/2018, que “altera o art. 25 da Lei nº 10.438, de26 de abril de 2002, para ampliar o horário em que pode ser estabelecido o período de concessão de desconto nas tarifas de energia elétrica ao irrigante e ao aquicultor, e para vedar a aplicação de diferentes percentuais de descontos na Classe Rural”.",
+          "data": "2023-03-30",
+          "autorPrincipal": false
+        },
+        {
+          "id": "157416",
+          "identificacao": "RQS 463/2023",
+          "sigla": "RQS",
+          "numero": "463",
+          "ano": 2023,
+          "ementa": "Requer calendário especial para a PEC 7/2018, para que a matéria conste da Ordem do Dia de sessões deliberativas, na forma que especifica.",
+          "data": "2023-03-30",
           "autorPrincipal": false
         },
         {
@@ -10409,6 +10399,16 @@
           "numero": "13",
           "ano": 2023,
           "ementa": "Altera a Constituição Federal e o Ato das Disposições Constitucionais Transitórias para prever imunidade tributária às operações com medicamentos de uso humano destinados especificamente ao tratamento de doenças raras.",
+          "data": "2023-03-29",
+          "autorPrincipal": false
+        },
+        {
+          "id": "156581",
+          "identificacao": "PEC 14/2023",
+          "sigla": "PEC",
+          "numero": "14",
+          "ano": 2023,
+          "ementa": "Dispõe sobre a atualização monetária dos repasses de recursos federais aos Municípios.",
           "data": "2023-03-29",
           "autorPrincipal": false
         },
@@ -10433,22 +10433,22 @@
           "autorPrincipal": true
         },
         {
-          "id": "156646",
-          "identificacao": "RQS 277/2023",
-          "sigla": "RQS",
-          "numero": "277",
-          "ano": 2023,
-          "ementa": "Desarquivamento do PLS nº 284/2017.",
-          "data": "2023-03-27",
-          "autorPrincipal": false
-        },
-        {
           "id": "156499",
           "identificacao": "REQ 5/2023 - CSP",
           "sigla": "REQ",
           "numero": "5",
           "ano": 2023,
           "ementa": "Requer, nos termos do art. 58, § 2º, II, da Constituição Federal e do art. 93, II, do Regimento Interno do Senado Federal, a realização de audiência pública, no âmbito desta Comissão de Segurança Pública, com o objetivo de debater as alterações no comércio legal de armas promovidas pelo Decreto nº 11.366/2023, que “Suspende os registros para a aquisição e transferência de armas e de munições de uso restrito por caçadores, colecionadores, atiradores e particulares, restringe os quantitativos de aquisição de armas e de munições de uso permitido, suspende a concessão de novos registros de clubes e de escolas de tiro, suspende a concessão de novos registros de colecionadores, de atiradores e de caçadores, e institui grupo de trabalho para apresentar nova regulamentação à Lei nº 10.826, de 22 de dezembro de 2003”.",
+          "data": "2023-03-27",
+          "autorPrincipal": false
+        },
+        {
+          "id": "156646",
+          "identificacao": "RQS 277/2023",
+          "sigla": "RQS",
+          "numero": "277",
+          "ano": 2023,
+          "ementa": "Desarquivamento do PLS nº 284/2017.",
           "data": "2023-03-27",
           "autorPrincipal": false
         },
@@ -10463,14 +10463,14 @@
           "autorPrincipal": false
         },
         {
-          "id": "156670",
-          "identificacao": "RQS 281/2023",
-          "sigla": "RQS",
-          "numero": "281",
+          "id": "156405",
+          "identificacao": "PL 1313/2023",
+          "sigla": "PL",
+          "numero": "1313",
           "ano": 2023,
-          "ementa": "Desarquivamento das seguintes proposições: PLS 326/2016, PLC 75/2018 e PLS 168/2018.",
+          "ementa": "Institui a Política Nacional de Proteção e Assistência dos Profissionais de Segurança Pública e seus Familiares.",
           "data": "2023-03-22",
-          "autorPrincipal": false
+          "autorPrincipal": true
         },
         {
           "id": "156657",
@@ -10483,14 +10483,14 @@
           "autorPrincipal": false
         },
         {
-          "id": "156405",
-          "identificacao": "PL 1313/2023",
-          "sigla": "PL",
-          "numero": "1313",
+          "id": "156670",
+          "identificacao": "RQS 281/2023",
+          "sigla": "RQS",
+          "numero": "281",
           "ano": 2023,
-          "ementa": "Institui a Política Nacional de Proteção e Assistência dos Profissionais de Segurança Pública e seus Familiares.",
+          "ementa": "Desarquivamento das seguintes proposições: PLS 326/2016, PLC 75/2018 e PLS 168/2018.",
           "data": "2023-03-22",
-          "autorPrincipal": true
+          "autorPrincipal": false
         },
         {
           "id": "156360",
@@ -10513,22 +10513,22 @@
           "autorPrincipal": false
         },
         {
-          "id": "156437",
-          "identificacao": "PEC 11/2023",
-          "sigla": "PEC",
-          "numero": "11",
-          "ano": 2023,
-          "ementa": "Altera o art. 62 da Constituição Federal, para estabelecer que as medidas provisórias terão a sua tramitação iniciada, alternadamente, na Câmara dos Deputados e no Senado Federal e para extinguir as comissões mistas encarregadas de seu exame.",
-          "data": "2023-03-17",
-          "autorPrincipal": false
-        },
-        {
           "id": "156337",
           "identificacao": "REQ 2/2023 - CSP",
           "sigla": "REQ",
           "numero": "2",
           "ano": 2023,
           "ementa": "Requer que sejam prestadas, pelo Senhor Ministro do Estado de Justiça e Segurança, Flávio Dino, informações sobre quais pareceres jurídicos e técnicos, estudos e dados estatísticos fundamentaram a mudança normativa que orientou a edição do Decreto 11.366 de janeiro de 2023.",
+          "data": "2023-03-17",
+          "autorPrincipal": false
+        },
+        {
+          "id": "156437",
+          "identificacao": "PEC 11/2023",
+          "sigla": "PEC",
+          "numero": "11",
+          "ano": 2023,
+          "ementa": "Altera o art. 62 da Constituição Federal, para estabelecer que as medidas provisórias terão a sua tramitação iniciada, alternadamente, na Câmara dos Deputados e no Senado Federal e para extinguir as comissões mistas encarregadas de seu exame.",
           "data": "2023-03-17",
           "autorPrincipal": false
         },
@@ -10553,16 +10553,6 @@
           "autorPrincipal": false
         },
         {
-          "id": "156571",
-          "identificacao": "PEC 12/2023",
-          "sigla": "PEC",
-          "numero": "12",
-          "ano": 2023,
-          "ementa": "Altera o art. 144 da Constituição Federal para identificar a Polícia Hidroviária Federal como órgão do sistema de segurança pública.",
-          "data": "2023-03-15",
-          "autorPrincipal": false
-        },
-        {
           "id": "156518",
           "identificacao": "RQS 238/2023",
           "sigla": "RQS",
@@ -10573,14 +10563,14 @@
           "autorPrincipal": false
         },
         {
-          "id": "156651",
-          "identificacao": "PEC 15/2023",
+          "id": "156571",
+          "identificacao": "PEC 12/2023",
           "sigla": "PEC",
-          "numero": "15",
+          "numero": "12",
           "ano": 2023,
-          "ementa": "Altera o art. 5º da Constituição para garantir a proteção dos profissionais de segurança pública e saúde.",
-          "data": "2023-03-14",
-          "autorPrincipal": true
+          "ementa": "Altera o art. 144 da Constituição Federal para identificar a Polícia Hidroviária Federal como órgão do sistema de segurança pública.",
+          "data": "2023-03-15",
+          "autorPrincipal": false
         },
         {
           "id": "156206",
@@ -10601,6 +10591,16 @@
           "ementa": "Modifica os arts. 60, 61, 62 e 64 da Constituição Federal, para dispor sobre a iniciativa de proposições pelo Presidente da República.",
           "data": "2023-03-14",
           "autorPrincipal": false
+        },
+        {
+          "id": "156651",
+          "identificacao": "PEC 15/2023",
+          "sigla": "PEC",
+          "numero": "15",
+          "ano": 2023,
+          "ementa": "Altera o art. 5º da Constituição para garantir a proteção dos profissionais de segurança pública e saúde.",
+          "data": "2023-03-14",
+          "autorPrincipal": true
         },
         {
           "id": "156562",
@@ -10673,16 +10673,6 @@
           "autorPrincipal": false
         },
         {
-          "id": "156644",
-          "identificacao": "RQS 276/2023",
-          "sigla": "RQS",
-          "numero": "276",
-          "ano": 2023,
-          "ementa": "Desarquivamento das seguintes proposições: PEC 2/2016; SCD 7/2017; SUG 39/2018; PLS 2/2018; PLS 8/2018; PLS 68/2018; PLS 180/2018; PLS 192/2018; PLS 385/2018; PL 2903/2019; PL 1991/2020; PL 4482/2021; PL 4603/2021; PLP 196/2021.",
-          "data": "2023-03-01",
-          "autorPrincipal": false
-        },
-        {
           "id": "156050",
           "identificacao": "RQS 127/2023",
           "sigla": "RQS",
@@ -10703,13 +10693,13 @@
           "autorPrincipal": false
         },
         {
-          "id": "156559",
-          "identificacao": "RQS 250/2023",
+          "id": "156644",
+          "identificacao": "RQS 276/2023",
           "sigla": "RQS",
-          "numero": "250",
+          "numero": "276",
           "ano": 2023,
-          "ementa": "Desarquivamento dos PLSs nº 225/2015, nº 227/2015 e nº 411/2017.",
-          "data": "2023-02-28",
+          "ementa": "Desarquivamento das seguintes proposições: PEC 2/2016; SCD 7/2017; SUG 39/2018; PLS 2/2018; PLS 8/2018; PLS 68/2018; PLS 180/2018; PLS 192/2018; PLS 385/2018; PL 2903/2019; PL 1991/2020; PL 4482/2021; PL 4603/2021; PLP 196/2021.",
+          "data": "2023-03-01",
           "autorPrincipal": false
         },
         {
@@ -10719,6 +10709,16 @@
           "numero": "230",
           "ano": 2023,
           "ementa": "Desarquivamento do PLS nº 98/2015.",
+          "data": "2023-02-28",
+          "autorPrincipal": false
+        },
+        {
+          "id": "156559",
+          "identificacao": "RQS 250/2023",
+          "sigla": "RQS",
+          "numero": "250",
+          "ano": 2023,
+          "ementa": "Desarquivamento dos PLSs nº 225/2015, nº 227/2015 e nº 411/2017.",
           "data": "2023-02-28",
           "autorPrincipal": false
         },
@@ -10753,22 +10753,22 @@
           "autorPrincipal": false
         },
         {
-          "id": "156534",
-          "identificacao": "RQS 242/2023",
-          "sigla": "RQS",
-          "numero": "242",
-          "ano": 2023,
-          "ementa": "Desarquivamento do PLS nº 226/2016 e PLS nº 168/2018.",
-          "data": "2023-02-17",
-          "autorPrincipal": false
-        },
-        {
           "id": "156418",
           "identificacao": "RQS 213/2023",
           "sigla": "RQS",
           "numero": "213",
           "ano": 2023,
           "ementa": "Desarquivamento da PEC nº 8/2018.",
+          "data": "2023-02-17",
+          "autorPrincipal": false
+        },
+        {
+          "id": "156534",
+          "identificacao": "RQS 242/2023",
+          "sigla": "RQS",
+          "numero": "242",
+          "ano": 2023,
+          "ementa": "Desarquivamento do PLS nº 226/2016 e PLS nº 168/2018.",
           "data": "2023-02-17",
           "autorPrincipal": false
         },
@@ -10803,26 +10803,6 @@
           "autorPrincipal": false
         },
         {
-          "id": "156607",
-          "identificacao": "RQS 264/2023",
-          "sigla": "RQS",
-          "numero": "264",
-          "ano": 2023,
-          "ementa": "Desarquivamento do PLC 34/2015, Altera a Lei nº 11.105, de 24 de março de 2005 - altera a Lei de Biossegurança para liberar os produtores de alimentos de informar ao consumidor sobre a presença de componentes transgênicos quando esta se der em porcentagem inferior a 1% da composição total do produto alimentício.",
-          "data": "2023-02-13",
-          "autorPrincipal": false
-        },
-        {
-          "id": "156568",
-          "identificacao": "RQS 255/2023",
-          "sigla": "RQS",
-          "numero": "255",
-          "ano": 2023,
-          "ementa": "Desarquivamento do PLS nº 404/2018.",
-          "data": "2023-02-13",
-          "autorPrincipal": false
-        },
-        {
           "id": "156119",
           "identificacao": "RQS 144/2023",
           "sigla": "RQS",
@@ -10843,13 +10823,23 @@
           "autorPrincipal": false
         },
         {
-          "id": "156685",
-          "identificacao": "RQS 287/2023",
+          "id": "156568",
+          "identificacao": "RQS 255/2023",
           "sigla": "RQS",
-          "numero": "287",
+          "numero": "255",
           "ano": 2023,
-          "ementa": "Desarquivamento da PEC nº 9/2017 e do PLC nº 25/2018.",
-          "data": "2023-02-09",
+          "ementa": "Desarquivamento do PLS nº 404/2018.",
+          "data": "2023-02-13",
+          "autorPrincipal": false
+        },
+        {
+          "id": "156607",
+          "identificacao": "RQS 264/2023",
+          "sigla": "RQS",
+          "numero": "264",
+          "ano": 2023,
+          "ementa": "Desarquivamento do PLC 34/2015, Altera a Lei nº 11.105, de 24 de março de 2005 - altera a Lei de Biossegurança para liberar os produtores de alimentos de informar ao consumidor sobre a presença de componentes transgênicos quando esta se der em porcentagem inferior a 1% da composição total do produto alimentício.",
+          "data": "2023-02-13",
           "autorPrincipal": false
         },
         {
@@ -10859,6 +10849,16 @@
           "numero": "116",
           "ano": 2023,
           "ementa": "Desarquivamento dos seguintes projetos de lei:  Projetos de Lei do Senado nºs 1, 135, 157, 270, 371, 671 e 743 de 2015; Projetos de Lei do Senado nºs 50 e 52 de 2016; Projetos de Lei do Senado nºs 126, 190, 213, 278 e 304 de 2017;  Projetos de Lei do Senado nºs 31, 79, 80, 234, 306, 436, 459 e 473 de 2018.",
+          "data": "2023-02-09",
+          "autorPrincipal": false
+        },
+        {
+          "id": "156685",
+          "identificacao": "RQS 287/2023",
+          "sigla": "RQS",
+          "numero": "287",
+          "ano": 2023,
+          "ementa": "Desarquivamento da PEC nº 9/2017 e do PLC nº 25/2018.",
           "data": "2023-02-09",
           "autorPrincipal": false
         },
@@ -10913,22 +10913,22 @@
           "autorPrincipal": true
         },
         {
-          "id": "155700",
-          "identificacao": "RQS 6/2023",
-          "sigla": "RQS",
-          "numero": "6",
-          "ano": 2023,
-          "ementa": "Requer que sejam prestadas, pelo Senhor Ministro de Estado Chefe do Gabinete de Segurança Institucional, Marco Edson Gonçalves Dias, informações e documentos a respeito do envio de alertas sobre os atos de 8/1/2023 pela Agência Brasileira de Inteligência (ABIN), via Sistema Brasileiro de Inteligência (SISBIN), ao Gabinete de Segurança Institucional (GSI).",
-          "data": "2023-01-20",
-          "autorPrincipal": true
-        },
-        {
           "id": "155699",
           "identificacao": "RQS 5/2023",
           "sigla": "RQS",
           "numero": "5",
           "ano": 2023,
           "ementa": "Requer que sejam prestadas, pelo Senhor Ministro de Estado da Justiça e Segurança Pública, Flávio Dino de Castro e Costa, informações sobre as ações do Ministério da Justiça e Segurança Pública (MJSP) diante dos alertas da Agência Brasileira de Inteligência (ABIN) quanto à possibilidade de ocupação e depredação de prédios públicos nos atos de 8/1/2023.",
+          "data": "2023-01-20",
+          "autorPrincipal": true
+        },
+        {
+          "id": "155700",
+          "identificacao": "RQS 6/2023",
+          "sigla": "RQS",
+          "numero": "6",
+          "ano": 2023,
+          "ementa": "Requer que sejam prestadas, pelo Senhor Ministro de Estado Chefe do Gabinete de Segurança Institucional, Marco Edson Gonçalves Dias, informações e documentos a respeito do envio de alertas sobre os atos de 8/1/2023 pela Agência Brasileira de Inteligência (ABIN), via Sistema Brasileiro de Inteligência (SISBIN), ao Gabinete de Segurança Institucional (GSI).",
           "data": "2023-01-20",
           "autorPrincipal": true
         },

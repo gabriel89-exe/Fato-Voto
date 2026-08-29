@@ -6,11 +6,11 @@
   },
   "uf": "ES",
   "legislatura": 57,
-  "coletadoEm": "2026-08-28T03:46:32.266Z",
+  "coletadoEm": "2026-08-29T14:30:27.807Z",
   "referencia": {
     "bancada": 10,
     "medianaDespesas": 1783876.5800000024,
-    "menor": 1342372.0999999933,
+    "menor": 1342384.4999999932,
     "maior": 1866667.8599999982
   },
   "parlamentares": [
@@ -35,8 +35,8 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/204356.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/204356",
       "despesas": {
-        "total": 1737917.820000002,
-        "documentos": 875,
+        "total": 1740738.360000002,
+        "documentos": 876,
         "porTipo": [
           {
             "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
@@ -52,7 +52,7 @@
           },
           {
             "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
-            "valor": 136499.33999999997
+            "valor": 139319.87999999998
           },
           {
             "tipo": "COMBUSTÍVEIS E LUBRIFICANTES.",
@@ -234,7 +234,7 @@
           },
           {
             "competencia": "2026-08",
-            "valor": 1904.24
+            "valor": 4724.780000000001
           }
         ]
       }
@@ -1213,8 +1213,8 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/220526.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/220526",
       "despesas": {
-        "total": 1455471.770000001,
-        "documentos": 1662,
+        "total": 1455528.770000001,
+        "documentos": 1663,
         "porTipo": [
           {
             "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
@@ -1242,7 +1242,7 @@
           },
           {
             "tipo": "SERVIÇO DE TÁXI, PEDÁGIO E ESTACIONAMENTO",
-            "valor": 7161.429999999999
+            "valor": 7218.429999999999
           },
           {
             "tipo": "TELEFONIA",
@@ -1424,7 +1424,7 @@
           },
           {
             "competencia": "2026-08",
-            "valor": 1662.54
+            "valor": 1719.54
           }
         ]
       }
@@ -1449,8 +1449,8 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/178873.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/178873",
       "despesas": {
-        "total": 1342372.0999999933,
-        "documentos": 2309,
+        "total": 1342384.4999999932,
+        "documentos": 2311,
         "porTipo": [
           {
             "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
@@ -1486,7 +1486,7 @@
           },
           {
             "tipo": "SERVIÇO DE TÁXI, PEDÁGIO E ESTACIONAMENTO",
-            "valor": 12532.049999999977
+            "valor": 12544.449999999977
           },
           {
             "tipo": "ASSINATURA DE PUBLICAÇÕES",
@@ -1664,11 +1664,11 @@
           },
           {
             "competencia": "2026-07",
-            "valor": 14930.07
+            "valor": 14936.17
           },
           {
             "competencia": "2026-08",
-            "valor": 36.8
+            "valor": 43.099999999999994
           }
         ]
       }
@@ -2158,8 +2158,8 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/160517.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/160517",
       "despesas": {
-        "total": 1789806.1800000032,
-        "documentos": 910,
+        "total": 1798539.9400000037,
+        "documentos": 914,
         "porTipo": [
           {
             "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
@@ -2167,11 +2167,11 @@
           },
           {
             "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
-            "valor": 394000.7599999997
+            "valor": 398734.5199999997
           },
           {
             "tipo": "LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES",
-            "valor": 336965.7999999999
+            "valor": 340965.7999999999
           },
           {
             "tipo": "PASSAGEM AÉREA - SIGEPA",
@@ -2369,11 +2369,11 @@
           },
           {
             "competencia": "2026-07",
-            "valor": 10268.869999999999
+            "valor": 14268.869999999999
           },
           {
             "competencia": "2026-08",
-            "valor": 840.0799999999999
+            "valor": 5573.839999999999
           }
         ]
       }
