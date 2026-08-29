@@ -130,6 +130,115 @@ async function coletarAutorias(codigo, proveniencias) {
 }
 
 /**
+ * Votacoes de plenario em que o senador registrou voto.
+ *
+ * Esta e a diferenca boa em relacao a Camara: aqui existe endpoint de
+ * votacao POR PARLAMENTAR, entao sao 4 requisicoes por senador. Na
+ * Camara nao existe (`/deputados/{id}/votos` devolve 405) e a coleta
+ * precisa varrer votacao por votacao — ver scripts/coleta/votacoes.mjs.
+ *
+ * Voto secreto: a fonte marca `IndicadorVotacaoSecreta` e, nesses
+ * casos, nao ha voto individual a publicar. A tela DIZ que o voto foi
+ * secreto, em vez de deixar a celula muda — vazio sem explicacao e
+ * lido como falta do parlamentar (regra 7).
+ */
+async function coletarVotacoes(codigo, proveniencias) {
+  const votacoes = [];
+
+  for (const ano of ANOS) {
+    const url = `${API}/senador/${codigo}/votacoes?ano=${ano}`;
+    const { texto, dados } = await buscarJson(url);
+    proveniencias.push(
+      await guardarBruto(`senado/votacoes-${codigo}-${ano}.json`, texto, url),
+    );
+
+    for (const v of lista(
+      dados.VotacaoParlamentar?.Parlamentar?.Votacoes?.Votacao,
+    )) {
+      const m = v.Materia ?? {};
+      const secreta = v.IndicadorVotacaoSecreta === "Sim";
+      const registro = v.SiglaDescricaoVoto?.trim() || null;
+
+      votacoes.push({
+        id: `${v.CodigoSessaoVotacao}-${v.Sequencial ?? "0"}`,
+        data: v.SessaoPlenaria?.DataSessao ?? null,
+        materia: m.DescricaoIdentificacao ?? null,
+        ementa: m.Ementa ?? null,
+        descricao: v.DescricaoVotacao ?? null,
+        resultado: v.DescricaoResultado ?? null,
+        secreta,
+        /*
+         * `registro` e o que a fonte escreveu, sempre. Em votacao
+         * secreta ela devolve "Votou": informa QUE o senador votou,
+         * nao COMO. Descartar isso e tratar como campo vazio apagaria
+         * a diferenca entre votar em segredo e faltar — e vazio sem
+         * explicacao e lido como falta (regra 7).
+         *
+         * `voto` e so a direcao, e por isso fica nulo no segredo: a
+         * direcao realmente nao existe no dado publico.
+         */
+        registro,
+        voto: secreta ? null : registro,
+      });
+    }
+  }
+
+  return votacoes.sort(
+    (a, b) =>
+      (b.data ?? "").localeCompare(a.data ?? "") || a.id.localeCompare(b.id),
+  );
+}
+
+/**
+ * Junta as votacoes dos tres senadores numa lista so.
+ *
+ * Os tres votam nas MESMAS sessoes de plenario, entao guardar a
+ * votacao dentro de cada senador gravaria a mesma ementa tres vezes —
+ * o arquivo passou de 499 kB para 1,2 MB quando a coleta de votacao
+ * entrou desse jeito, e ele e commitado todo dia.
+ *
+ * Icada para o nivel do arquivo, a votacao aparece uma vez e carrega
+ * os votos de quem participou. De quebra, fica com a mesma forma do
+ * votacoes-camara.json, e a ficha desenha as duas casas com o mesmo
+ * codigo.
+ */
+function fundirVotacoes(porSenador) {
+  const porId = new Map();
+
+  for (const { senador, votacoes } of porSenador) {
+    for (const v of votacoes) {
+      const atual = porId.get(v.id) ?? {
+        id: v.id,
+        data: v.data,
+        materia: v.materia,
+        ementa: v.ementa,
+        descricao: v.descricao,
+        resultado: v.resultado,
+        secreta: v.secreta,
+        votosDoEstado: [],
+      };
+      atual.votosDoEstado.push({
+        idExterno: senador.idExterno,
+        nome: senador.nomeUrna,
+        partido: senador.partido,
+        registro: v.registro,
+        voto: v.voto,
+      });
+      porId.set(v.id, atual);
+    }
+  }
+
+  for (const v of porId.values()) {
+    v.votosDoEstado.sort((a, b) => a.nome.localeCompare(b.nome, "pt-BR"));
+  }
+
+  return [...porId.values()].sort(
+    (a, b) =>
+      (b.data ?? "").localeCompare(a.data ?? "") || a.id.localeCompare(b.id),
+  );
+}
+
+/**
  * Agrupa por tipo de materia.
  *
  * A ficha mostra o AGRUPAMENTO, nao um total unico. "Apresentou 214
@@ -157,19 +266,22 @@ async function principal() {
   console.log(`  ${bancada.length} senadores.`);
 
   const senadores = [];
+  const votacoesPorSenador = [];
+
   for (const p of bancada) {
     const i = p.IdentificacaoParlamentar;
     const codigo = i.CodigoParlamentar;
 
     const mandato = await coletarMandato(codigo, proveniencias);
     const materias = await coletarAutorias(codigo, proveniencias);
+    const votacoes = await coletarVotacoes(codigo, proveniencias);
 
     console.log(
       `  ${i.NomeParlamentar.padEnd(22)} ${String(i.SiglaPartidoParlamentar ?? "").padEnd(10)} ` +
-        `${materias.length} matérias de autoria`,
+        `${materias.length} matérias de autoria, ${votacoes.length} votações`,
     );
 
-    senadores.push({
+    const senador = {
       id: `senado-${codigo}`,
       idExterno: Number(codigo),
       cargo: "Senador",
@@ -181,8 +293,13 @@ async function principal() {
       materias,
       materiasPorTipo: agruparPorTipo(materias),
       paginaOficial: `https://www25.senado.leg.br/web/senadores/senador/-/perfil/${codigo}`,
-    });
+    };
+
+    senadores.push(senador);
+    votacoesPorSenador.push({ senador, votacoes });
   }
+
+  const votacoes = fundirVotacoes(votacoesPorSenador);
 
   await atualizarManifesto("senado", proveniencias);
   await gravarNormalizado("senadores.json", {
@@ -191,11 +308,15 @@ async function principal() {
     anos: ANOS,
     coletadoEm: new Date().toISOString(),
     senadores,
+    /* Fora dos senadores de proposito: os tres votam nas mesmas
+       sessoes, e repetir a ementa em cada um triplicava o arquivo. */
+    votacoes,
   });
 
   console.log(
     `\n${proveniencias.length} arquivos brutos guardados. ` +
-      `${senadores.length} senadores em data/es/senadores.json.`,
+      `${senadores.length} senadores e ${votacoes.length} votações ` +
+      "em data/es/senadores.json.",
   );
 }
 

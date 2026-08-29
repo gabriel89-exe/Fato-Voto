@@ -32,21 +32,41 @@ const espera = (ms) => new Promise((r) => setTimeout(r, ms));
  * GET com repeticao. Os portais publicos oscilam: 502 e 504 em horario
  * de pico sao normais e passam sozinhos. Falhar na primeira tentativa
  * abortaria uma coleta de meia hora por causa de um soluco de rede.
+ *
+ * Repetir so vale para falha passageira. Resposta 4xx e deterministica
+ * — o servidor entendeu o pedido e recusou —, entao insistir quatro
+ * vezes num 400 so multiplica por quatro a carga sobre um servico
+ * publico para receber quatro vezes a mesma recusa.
+ *
+ * `aceitar404` devolve `null` em vez de lancar, para o caso em que a
+ * ausencia do recurso e informacao e nao falha: na Camara ha votacao
+ * cujo `/votos` responde 404, e abortar a coleta inteira por causa
+ * dela seria perder todas as outras por causa de uma.
  */
-export async function buscarJson(url, { tentativas = 4, pausaMs = 800 } = {}) {
+export async function buscarJson(
+  url,
+  { tentativas = 4, pausaMs = 800, aceitar404 = false } = {},
+) {
   let ultimoErro;
   for (let i = 1; i <= tentativas; i++) {
     try {
       const resposta = await fetch(url, {
         headers: { Accept: "application/json", "User-Agent": AGENTE },
       });
+
+      if (aceitar404 && resposta.status === 404) return null;
+
       if (!resposta.ok) {
-        throw new Error(`HTTP ${resposta.status} em ${url}`);
+        const erro = new Error(`HTTP ${resposta.status} em ${url}`);
+        erro.status = resposta.status;
+        throw erro;
       }
+
       const texto = await resposta.text();
       return { texto, dados: JSON.parse(texto) };
     } catch (erro) {
       ultimoErro = erro;
+      if (erro.status >= 400 && erro.status < 500) throw erro;
       if (i < tentativas) await espera(pausaMs * i);
     }
   }

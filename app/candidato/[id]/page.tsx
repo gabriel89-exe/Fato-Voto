@@ -18,11 +18,14 @@ import {
   TableRow,
 } from "@/components/ui/table";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import Votacoes from "@/components/Votacoes";
 import {
   candidaturas,
   COLETADO_EM,
   COLETADO_EM_CAMARA,
   COLETADO_EM_SENADO,
+  COLETADO_EM_VOTACOES,
+  CRITERIO_VOTACOES,
   ELEICAO,
   ESTADO,
   FONTE_CAMARA,
@@ -32,7 +35,11 @@ import {
   obterCandidatura,
   obterMandato,
   obterMandatoSenado,
+  QUANTAS_VOTACOES,
   referenciaBancada,
+  traduzirVotoSenado,
+  votacoesDoDeputado,
+  votacoesDoSenador,
 } from "@/lib/eleicao";
 import { dataCurta, idadeEm, numero as fmtNumero, reais } from "@/lib/formato";
 
@@ -451,6 +458,33 @@ export default async function PaginaCandidato({
                     </p>
                   </div>
 
+                  <div className="mt-8 border-t border-tinta-300 pt-5">
+                    <p className="rotulo-meta mb-3">Como votou no plenário</p>
+                    <Votacoes
+                      linhas={votacoesDoSenador(mandatoSenado).map(
+                        ({ votacao, registro }) => {
+                          const { rotulo, conhecido } =
+                            traduzirVotoSenado(registro);
+                          return {
+                            id: votacao.id,
+                            data: votacao.data,
+                            materia: votacao.materia,
+                            objeto: votacao.descricao,
+                            ementa: votacao.ementa,
+                            resultado: votacao.resultado,
+                            voto: rotulo,
+                            /* Sigla crua ao lado quando o rótulo é nosso:
+                               regra 5, o que é da fonte fica conferível. */
+                            siglaOriginal: conhecido ? registro : null,
+                            secreta: votacao.secreta,
+                          };
+                        },
+                      )}
+                      criterio={`Recorte: as ${QUANTAS_VOTACOES} votações nominais mais recentes do plenário do Senado em que a fonte registrou a participação — não uma seleção do que consideramos importante. O mandato tem muitas outras, e a lista completa está no portal do Senado.`}
+                      aviso="Dois terços dessas votações são secretas — quase todas de indicação de autoridade, em que o regimento manda votar em segredo. Nelas o Senado publica que a pessoa votou, nunca como. “Presente, não registrou voto” e as licenças são a palavra da fonte traduzida por nós; a sigla original aparece abaixo do rótulo."
+                    />
+                  </div>
+
                   <Alert className="mt-5">
                     <AlertTitle>Gasto de gabinete não disponível</AlertTitle>
                     <AlertDescription>
@@ -469,7 +503,7 @@ export default async function PaginaCandidato({
             {mandato && !mandatoSenado ? (
               <TabsContent value="mandato">
                 <DadoOficial
-                  titulo={`Cota parlamentar — legislatura ${LEGISLATURA}`}
+                  titulo={`Mandato de deputado federal — legislatura ${LEGISLATURA}`}
                   fonte={FONTE_CAMARA.nome}
                   coletadoEm={COLETADO_EM_CAMARA}
                   urlOriginal={mandato.paginaOficial}
@@ -547,8 +581,101 @@ export default async function PaginaCandidato({
                     Câmara.
                   </p>
 
+                  {/*
+                    Proposições por tipo, nunca somadas — mesma regra já
+                    aplicada às matérias de senador. Aqui ela pesa ainda
+                    mais: entre os dez deputados do ES, um apresentou 284
+                    proposições e outro 2.843, e quase toda a diferença é
+                    de requerimento. Um total único leria como produtivo
+                    contra improdutivo, que é o ranking involuntário da
+                    regra 4.
+                  */}
+                  <div className="mt-6 border-t border-tinta-300 pt-5">
+                    <p className="rotulo-meta mb-3">
+                      Proposições apresentadas, por tipo
+                    </p>
+                    <ul className="flex flex-wrap gap-2">
+                      {mandato.proposicoes.porTipo.slice(0, 12).map((t) => (
+                        <li key={t.tipo}>
+                          <Badge variant="discreto">
+                            {t.tipo} · {t.total}
+                          </Badge>
+                        </li>
+                      ))}
+                    </ul>
+                    <p className="mt-3 text-xs text-tinta-600">
+                      Os tipos aparecem separados porque pesam diferente: um
+                      requerimento de audiência pública e um projeto de lei
+                      contariam igual num total, e não são a mesma coisa. Por
+                      isso não há um número único.
+                    </p>
+                  </div>
+
+                  <div className="mt-6">
+                    <p className="rotulo-meta mb-3">
+                      Proposições mais recentes
+                    </p>
+                    <Table>
+                      <TableHeader>
+                        <TableRow>
+                          <TableHead>Proposição</TableHead>
+                          <TableHead>Tipo</TableHead>
+                          <TableHead>Do que trata</TableHead>
+                        </TableRow>
+                      </TableHeader>
+                      <TableBody>
+                        {mandato.proposicoes.recentes.map((p) => (
+                          <TableRow key={p.id}>
+                            <TableCell className="whitespace-nowrap font-mono text-xs">
+                              <a href={p.paginaOficial} rel="nofollow noopener">
+                                {p.sigla} {p.numero}/{p.ano}
+                              </a>
+                            </TableCell>
+                            <TableCell className="whitespace-nowrap text-tinta-700">
+                              {p.tipo}
+                            </TableCell>
+                            <TableCell className="max-w-md">
+                              {p.ementa ??
+                                "A fonte não publicou ementa para esta proposição."}
+                            </TableCell>
+                          </TableRow>
+                        ))}
+                      </TableBody>
+                    </Table>
+                    <p className="mt-3 text-xs text-tinta-600">
+                      As {mandato.proposicoes.recentes.length} mais recentes por
+                      data de apresentação. A lista completa está no portal da
+                      Câmara.
+                    </p>
+                  </div>
+
+                  <div className="mt-8 border-t border-tinta-300 pt-5">
+                    <p className="rotulo-meta mb-3">
+                      Como votou no plenário
+                    </p>
+                    <Votacoes
+                      linhas={votacoesDoDeputado(mandato).map(
+                        ({ votacao, voto }) => ({
+                          id: votacao.id,
+                          data: votacao.data,
+                          materia: votacao.proposicao
+                            ? `${votacao.proposicao.sigla} ${votacao.proposicao.numero}/${votacao.proposicao.ano}`
+                            : null,
+                          objeto: votacao.descricao,
+                          ementa: votacao.proposicao?.ementa ?? null,
+                          resultado: votacao.aprovada ? "Aprovada" : "Rejeitada",
+                          voto,
+                          paginaOficial:
+                            votacao.proposicao?.paginaOficial ?? null,
+                        }),
+                      )}
+                      criterio={`Recorte: as ${CRITERIO_VOTACOES.quantidade} votações nominais mais recentes do plenário da Câmara — não uma seleção do que consideramos importante. A maioria das votações é simbólica e não registra voto individual, então não entra aqui.`}
+                      aviso="Votação em que o deputado não aparece não vira linha vazia: ele pode não estar em exercício na data, e escrever “faltou” sem saber disso seria acusar sem fonte."
+                    />
+                  </div>
+
                   {mandato.trocouDePartido ? (
-                    <p className="mt-4 border-t border-tinta-300 pt-4 text-sm text-tinta-700">
+                    <p className="mt-6 border-t border-tinta-300 pt-4 text-sm text-tinta-700">
                       <span className="rotulo-meta block">
                         Partidos nesta legislatura
                       </span>

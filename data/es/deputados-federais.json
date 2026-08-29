@@ -6,7 +6,7 @@
   },
   "uf": "ES",
   "legislatura": 57,
-  "coletadoEm": "2026-08-29T14:30:27.807Z",
+  "coletadoEm": "2026-08-29T16:03:38.094Z",
   "referencia": {
     "bancada": 10,
     "medianaDespesas": 1783876.5800000024,
@@ -235,6 +235,272 @@
           {
             "competencia": "2026-08",
             "valor": 4724.780000000001
+          }
+        ]
+      },
+      "proposicoes": {
+        "porTipo": [
+          {
+            "tipo": "Requerimento de Registro de Frente Parlamentar na Câmara dos Deputados",
+            "sigla": "REQ",
+            "total": 134
+          },
+          {
+            "tipo": "Proposta de Emenda à Constituição",
+            "sigla": "PEC",
+            "total": 24
+          },
+          {
+            "tipo": "Requerimento de Sessão Solene",
+            "sigla": "REQ",
+            "total": 21
+          },
+          {
+            "tipo": "Projeto de Lei",
+            "sigla": "PL",
+            "total": 19
+          },
+          {
+            "tipo": "Requerimento de Instituição de CPI",
+            "sigla": "RCP",
+            "total": 15
+          },
+          {
+            "tipo": "Requerimento de Urgência (Art. 155 do RICD)",
+            "sigla": "REQ",
+            "total": 15
+          },
+          {
+            "tipo": "Sugestão de Emenda à LDO - Comissões",
+            "sigla": "SLD",
+            "total": 7
+          },
+          {
+            "tipo": "Requerimento de Audiência Pública",
+            "sigla": "REQ",
+            "total": 6
+          },
+          {
+            "tipo": "Requerimento de Quebra de Interstício para Inclusão de Matéria na Ordem do Dia",
+            "sigla": "REQ",
+            "total": 5
+          },
+          {
+            "tipo": "Sugestão de Emenda ao Orçamento - Comissões",
+            "sigla": "SOR",
+            "total": 4
+          },
+          {
+            "tipo": "Processo Interno",
+            "sigla": "PROC",
+            "total": 4
+          },
+          {
+            "tipo": "Alteração em Frente Parlamentar Registrada na Câmara dos Deputados",
+            "sigla": "DOC",
+            "total": 3
+          },
+          {
+            "tipo": "Requerimento (Outros)",
+            "sigla": "REQ",
+            "total": 2
+          },
+          {
+            "tipo": "Requerimento de Redistribuição",
+            "sigla": "REQ",
+            "total": 2
+          },
+          {
+            "tipo": "Requerimento para realização ou participação em Seminário, Visita Técnica ou outro Evento",
+            "sigla": "REQ",
+            "total": 2
+          },
+          {
+            "tipo": "Requerimento de Moção",
+            "sigla": "REQ",
+            "total": 2
+          },
+          {
+            "tipo": "Indicação",
+            "sigla": "INC",
+            "total": 2
+          },
+          {
+            "tipo": "Recurso contra apreciação conclusiva de comissão (Art. 58, § 1º c/c art. 132, § 2º, RICD)",
+            "sigla": "REC",
+            "total": 2
+          },
+          {
+            "tipo": "Requerimento de Inclusão ou Retirada de Assinatura em Proposição de Iniciativa Coletiva Obrigatória",
+            "sigla": "REQ",
+            "total": 2
+          },
+          {
+            "tipo": "Requerimento de Inclusão de Matéria na Ordem do Dia",
+            "sigla": "REQ",
+            "total": 1
+          },
+          {
+            "tipo": "Requerimento de Retirada de Proposição de Iniciativa Individual",
+            "sigla": "REQ",
+            "total": 1
+          },
+          {
+            "tipo": "Requerimento de Constituição de Comissão Externa",
+            "sigla": "REQ",
+            "total": 1
+          },
+          {
+            "tipo": "Requerimento de Apensação",
+            "sigla": "REQ",
+            "total": 1
+          },
+          {
+            "tipo": "Requerimento",
+            "sigla": "REQ",
+            "total": 1
+          },
+          {
+            "tipo": "Instalação de Grupo Parlamentar na Câmara dos Deputados",
+            "sigla": "DOC",
+            "total": 1
+          },
+          {
+            "tipo": "Alteração em Grupo Parlamentar Instalado na Câmara dos Deputados",
+            "sigla": "DOC",
+            "total": 1
+          },
+          {
+            "tipo": "Emenda na Comissão",
+            "sigla": "EMC",
+            "total": 1
+          },
+          {
+            "tipo": "Requerimento de Convocação de Ministro de Estado no Plenário (art. 50, CF)",
+            "sigla": "REQ",
+            "total": 1
+          },
+          {
+            "tipo": "Requerimento de Inclusão ou Retirada de Assinatura em Proposição de Iniciativa Individual",
+            "sigla": "REQ",
+            "total": 1
+          },
+          {
+            "tipo": "Projeto de Decreto Legislativo de Sustação de Atos Normativos do Poder Executivo",
+            "sigla": "PDL",
+            "total": 1
+          },
+          {
+            "tipo": "Requerimento de Transformação de Sessão Plenária em Comissão Geral",
+            "sigla": "REQ",
+            "total": 1
+          },
+          {
+            "tipo": "Requerimento de Retirada de Proposição de Iniciativa Coletiva",
+            "sigla": "REQ",
+            "total": 1
+          }
+        ],
+        "recentes": [
+          {
+            "id": 2644734,
+            "sigla": "REQ",
+            "tipo": "Requerimento de Registro de Frente Parlamentar na Câmara dos Deputados",
+            "numero": 4125,
+            "ano": 2026,
+            "ementa": "Requer a criação da Frente Parlamentar Mista pela Integração Continental e Desenvolvimento Sul-Americano",
+            "apresentadaEm": "2026-08-27T15:19",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2644734"
+          },
+          {
+            "id": 2640403,
+            "sigla": "REQ",
+            "tipo": "Requerimento de Registro de Frente Parlamentar na Câmara dos Deputados",
+            "numero": 3956,
+            "ano": 2026,
+            "ementa": "Requer a criação da Frente Parlamentar Mista em Defesa do Programa Espacial Brasileiro.",
+            "apresentadaEm": "2026-07-17T14:58",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2640403"
+          },
+          {
+            "id": 2633488,
+            "sigla": "PEC",
+            "tipo": "Proposta de Emenda à Constituição",
+            "numero": 15,
+            "ano": 2026,
+            "ementa": "Altera os art. 150 Constituição Federal para incluir as entidades esportivas sem fins lucrativos.",
+            "apresentadaEm": "2026-06-17T17:58",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2633488"
+          },
+          {
+            "id": 2631190,
+            "sigla": "PEC",
+            "tipo": "Proposta de Emenda à Constituição",
+            "numero": 13,
+            "ano": 2026,
+            "ementa": "Altera o art. 9º da Emenda Constitucional nº 132, de 20 de dezembro de 2023, para permitir a concessão de créditos do Imposto sobre Bens e Serviços através de fomento indireto a doadores e patrocinadores de projetos culturais e esportivos.",
+            "apresentadaEm": "2026-06-10T12:08",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2631190"
+          },
+          {
+            "id": 2627583,
+            "sigla": "REQ",
+            "tipo": "Requerimento de Retirada de Proposição de Iniciativa Coletiva",
+            "numero": 3131,
+            "ano": 2026,
+            "ementa": "Requer, nos termos do art. 104 do Regimento Interno da Câmara dos Deputados, a retirada de tramitação da Emenda nº 1 apresentada à PEC nº 221/2019",
+            "apresentadaEm": "2026-05-25T21:56",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2627583"
+          },
+          {
+            "id": 2626615,
+            "sigla": "REQ",
+            "tipo": "Requerimento de Inclusão ou Retirada de Assinatura em Proposição de Iniciativa Coletiva Obrigatória",
+            "numero": 3045,
+            "ano": 2026,
+            "ementa": "Requerimento de retirada de assinatura em apoio à EMENDA nº 02 à PEC nº 221 de 2019.",
+            "apresentadaEm": "2026-05-20T19:54",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2626615"
+          },
+          {
+            "id": 2626611,
+            "sigla": "REQ",
+            "tipo": "Requerimento de Inclusão ou Retirada de Assinatura em Proposição de Iniciativa Coletiva Obrigatória",
+            "numero": 3044,
+            "ano": 2026,
+            "ementa": "Requerimento de retirada de assinatura em apoio à EMENDA nº 01 à PEC nº 221 de 2019.",
+            "apresentadaEm": "2026-05-20T19:39",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2626611"
+          },
+          {
+            "id": 2623604,
+            "sigla": "PEC",
+            "tipo": "Proposta de Emenda à Constituição",
+            "numero": 9,
+            "ano": 2026,
+            "ementa": "Altera o art. 228 da Constituição Federal, para reduzir a idade mínima de imputabilidade penal, nas condições que estabelece.",
+            "apresentadaEm": "2026-05-12T11:28",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2623604"
+          },
+          {
+            "id": 2617166,
+            "sigla": "RCP",
+            "tipo": "Requerimento de Instituição de CPI",
+            "numero": 2,
+            "ano": 2026,
+            "ementa": "Requer, nos termos do § 3º do art. 58 da Constituição Federal e dos arts. 35, 36 e 37, do Regimento Interno da Câmara dos Deputados, a criação de Comissão Parlamentar de Inquérito, com a finalidade de investigar a prática de atos de crueldade contra animais e as circunstâncias que envolveram a morte do Cão Orelha, ocorrida em Florianópolis/SC, em 2026.",
+            "apresentadaEm": "2026-04-16T14:52",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2617166"
+          },
+          {
+            "id": 2610439,
+            "sigla": "PL",
+            "tipo": "Projeto de Lei",
+            "numero": 1266,
+            "ano": 2026,
+            "ementa": "Altera a Lei nº 8.313 de 1991 para instituir o Programa Nacional de Incentivo à Leitura, voltado ao financiamento de bibliotecas públicas, aquisição de livros, formação de leitores e projetos culturais de estímulo à leitura.",
+            "apresentadaEm": "2026-03-18T17:37",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2610439"
           }
         ]
       }
@@ -473,6 +739,232 @@
             "valor": 6135.39
           }
         ]
+      },
+      "proposicoes": {
+        "porTipo": [
+          {
+            "tipo": "Requerimento de Registro de Frente Parlamentar na Câmara dos Deputados",
+            "sigla": "REQ",
+            "total": 167
+          },
+          {
+            "tipo": "Projeto de Lei",
+            "sigla": "PL",
+            "total": 36
+          },
+          {
+            "tipo": "Proposta de Emenda à Constituição",
+            "sigla": "PEC",
+            "total": 27
+          },
+          {
+            "tipo": "Requerimento de Sessão Solene",
+            "sigla": "REQ",
+            "total": 22
+          },
+          {
+            "tipo": "Requerimento de Instituição de CPI",
+            "sigla": "RCP",
+            "total": 13
+          },
+          {
+            "tipo": "Requerimento de Urgência (Art. 155 do RICD)",
+            "sigla": "REQ",
+            "total": 11
+          },
+          {
+            "tipo": "Emenda na Comissão",
+            "sigla": "EMC",
+            "total": 7
+          },
+          {
+            "tipo": "Requerimento de Inclusão ou Retirada de Assinatura em Proposição de Iniciativa Individual",
+            "sigla": "REQ",
+            "total": 7
+          },
+          {
+            "tipo": "Requerimento de Quebra de Interstício para Inclusão de Matéria na Ordem do Dia",
+            "sigla": "REQ",
+            "total": 7
+          },
+          {
+            "tipo": "Indicação",
+            "sigla": "INC",
+            "total": 4
+          },
+          {
+            "tipo": "Requerimento de Informação",
+            "sigla": "RIC",
+            "total": 4
+          },
+          {
+            "tipo": "Projeto de Decreto Legislativo de Sustação de Atos Normativos do Poder Executivo",
+            "sigla": "PDL",
+            "total": 2
+          },
+          {
+            "tipo": "Processo Interno",
+            "sigla": "PROC",
+            "total": 2
+          },
+          {
+            "tipo": "Requerimento de Apensação",
+            "sigla": "REQ",
+            "total": 2
+          },
+          {
+            "tipo": "Recurso contra apreciação conclusiva de comissão (Art. 58, § 1º c/c art. 132, § 2º, RICD)",
+            "sigla": "REC",
+            "total": 2
+          },
+          {
+            "tipo": "Alteração em Frente Parlamentar Registrada na Câmara dos Deputados",
+            "sigla": "DOC",
+            "total": 2
+          },
+          {
+            "tipo": "Requerimento de Retirada de Proposição de Iniciativa Coletiva",
+            "sigla": "REQ",
+            "total": 2
+          },
+          {
+            "tipo": "Requerimento de Inclusão ou Retirada de Assinatura em Proposição de Iniciativa Coletiva Obrigatória",
+            "sigla": "REQ",
+            "total": 2
+          },
+          {
+            "tipo": "Requerimento de Constituição de Comissão Externa",
+            "sigla": "REQ",
+            "total": 1
+          },
+          {
+            "tipo": "Requerimento de Desapensação",
+            "sigla": "REQ",
+            "total": 1
+          },
+          {
+            "tipo": "Projeto de Lei de Conversão",
+            "sigla": "PLV",
+            "total": 1
+          },
+          {
+            "tipo": "Requerimento",
+            "sigla": "REQ",
+            "total": 1
+          },
+          {
+            "tipo": "Requerimento de Transformação de Sessão Plenária em Comissão Geral",
+            "sigla": "REQ",
+            "total": 1
+          },
+          {
+            "tipo": "Projeto de Lei Complementar",
+            "sigla": "PLP",
+            "total": 1
+          }
+        ],
+        "recentes": [
+          {
+            "id": 2644734,
+            "sigla": "REQ",
+            "tipo": "Requerimento de Registro de Frente Parlamentar na Câmara dos Deputados",
+            "numero": 4125,
+            "ano": 2026,
+            "ementa": "Requer a criação da Frente Parlamentar Mista pela Integração Continental e Desenvolvimento Sul-Americano",
+            "apresentadaEm": "2026-08-27T15:19",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2644734"
+          },
+          {
+            "id": 2640403,
+            "sigla": "REQ",
+            "tipo": "Requerimento de Registro de Frente Parlamentar na Câmara dos Deputados",
+            "numero": 3956,
+            "ano": 2026,
+            "ementa": "Requer a criação da Frente Parlamentar Mista em Defesa do Programa Espacial Brasileiro.",
+            "apresentadaEm": "2026-07-17T14:58",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2640403"
+          },
+          {
+            "id": 2631190,
+            "sigla": "PEC",
+            "tipo": "Proposta de Emenda à Constituição",
+            "numero": 13,
+            "ano": 2026,
+            "ementa": "Altera o art. 9º da Emenda Constitucional nº 132, de 20 de dezembro de 2023, para permitir a concessão de créditos do Imposto sobre Bens e Serviços através de fomento indireto a doadores e patrocinadores de projetos culturais e esportivos.",
+            "apresentadaEm": "2026-06-10T12:08",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2631190"
+          },
+          {
+            "id": 2627583,
+            "sigla": "REQ",
+            "tipo": "Requerimento de Retirada de Proposição de Iniciativa Coletiva",
+            "numero": 3131,
+            "ano": 2026,
+            "ementa": "Requer, nos termos do art. 104 do Regimento Interno da Câmara dos Deputados, a retirada de tramitação da Emenda nº 1 apresentada à PEC nº 221/2019",
+            "apresentadaEm": "2026-05-25T21:56",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2627583"
+          },
+          {
+            "id": 2626585,
+            "sigla": "REQ",
+            "tipo": "Requerimento de Inclusão ou Retirada de Assinatura em Proposição de Iniciativa Coletiva Obrigatória",
+            "numero": 3041,
+            "ano": 2026,
+            "ementa": "Requerimento de retirada de assinatura em apoio à EMENDA nº 01 à PEC nº 221 de 2019.",
+            "apresentadaEm": "2026-05-20T19:15",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2626585"
+          },
+          {
+            "id": 2623604,
+            "sigla": "PEC",
+            "tipo": "Proposta de Emenda à Constituição",
+            "numero": 9,
+            "ano": 2026,
+            "ementa": "Altera o art. 228 da Constituição Federal, para reduzir a idade mínima de imputabilidade penal, nas condições que estabelece.",
+            "apresentadaEm": "2026-05-12T11:28",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2623604"
+          },
+          {
+            "id": 2620895,
+            "sigla": "REC",
+            "tipo": "Recurso contra apreciação conclusiva de comissão (Art. 58, § 1º c/c art. 132, § 2º, RICD)",
+            "numero": 10,
+            "ano": 2026,
+            "ementa": "Recurso contra a tramitação conclusiva do Projeto de Lei nº 6018/2025, que “altera a Lei nº 10.406, de 10 de janeiro de 2002 (Código Civil), para dispor sobre o dever do condômino de contribuir para as despesas do condomínio edilício e as consequências em caso de atraso no pagamento de cota de rateio das referidas despesas”.",
+            "apresentadaEm": "2026-05-04T17:27",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2620895"
+          },
+          {
+            "id": 2617166,
+            "sigla": "RCP",
+            "tipo": "Requerimento de Instituição de CPI",
+            "numero": 2,
+            "ano": 2026,
+            "ementa": "Requer, nos termos do § 3º do art. 58 da Constituição Federal e dos arts. 35, 36 e 37, do Regimento Interno da Câmara dos Deputados, a criação de Comissão Parlamentar de Inquérito, com a finalidade de investigar a prática de atos de crueldade contra animais e as circunstâncias que envolveram a morte do Cão Orelha, ocorrida em Florianópolis/SC, em 2026.",
+            "apresentadaEm": "2026-04-16T14:52",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2617166"
+          },
+          {
+            "id": 2610434,
+            "sigla": "RIC",
+            "tipo": "Requerimento de Informação",
+            "numero": 591,
+            "ano": 2026,
+            "ementa": "Requer informações ao Ministro de Estado da Fazenda sobre a aplicação do Imposto sobre Bens e Serviços (IBS) e da Contribuição sobre Bens e Serviços (CBS) ao regime de tributação simplificada (RTS) aplicável ao setor de remessas expressas.",
+            "apresentadaEm": "2026-03-18T17:32",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2610434"
+          },
+          {
+            "id": 2607035,
+            "sigla": "REQ",
+            "tipo": "Requerimento de Quebra de Interstício para Inclusão de Matéria na Ordem do Dia",
+            "numero": 1288,
+            "ano": 2026,
+            "ementa": "Requer a dispensa do interstício regimental entre o primeiro e o segundo turno de deliberação da Proposta de Emenda à Constituição nº 18, de 2025.",
+            "apresentadaEm": "2026-03-04T17:26",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2607035"
+          }
+        ]
       }
     },
     {
@@ -700,6 +1192,242 @@
           {
             "competencia": "2026-07",
             "valor": 9819.32
+          }
+        ]
+      },
+      "proposicoes": {
+        "porTipo": [
+          {
+            "tipo": "Requerimento de Registro de Frente Parlamentar na Câmara dos Deputados",
+            "sigla": "REQ",
+            "total": 159
+          },
+          {
+            "tipo": "Requerimento de Sessão Solene",
+            "sigla": "REQ",
+            "total": 38
+          },
+          {
+            "tipo": "Projeto de Lei",
+            "sigla": "PL",
+            "total": 36
+          },
+          {
+            "tipo": "Sugestão de Emenda à LDO - Comissões",
+            "sigla": "SLD",
+            "total": 33
+          },
+          {
+            "tipo": "Proposta de Emenda à Constituição",
+            "sigla": "PEC",
+            "total": 26
+          },
+          {
+            "tipo": "Requerimento de Urgência (Art. 155 do RICD)",
+            "sigla": "REQ",
+            "total": 14
+          },
+          {
+            "tipo": "Requerimento de Inclusão ou Retirada de Assinatura em Proposição de Iniciativa Individual",
+            "sigla": "REQ",
+            "total": 7
+          },
+          {
+            "tipo": "Requerimento de Audiência Pública",
+            "sigla": "REQ",
+            "total": 6
+          },
+          {
+            "tipo": "Requerimento de Instituição de CPI",
+            "sigla": "RCP",
+            "total": 5
+          },
+          {
+            "tipo": "Sugestão de Emenda ao Orçamento - Comissões",
+            "sigla": "SOR",
+            "total": 5
+          },
+          {
+            "tipo": "Indicação",
+            "sigla": "INC",
+            "total": 3
+          },
+          {
+            "tipo": "Requerimento de Desapensação",
+            "sigla": "REQ",
+            "total": 3
+          },
+          {
+            "tipo": "Requerimento de Informação",
+            "sigla": "RIC",
+            "total": 3
+          },
+          {
+            "tipo": "Requerimento de Moção",
+            "sigla": "REQ",
+            "total": 3
+          },
+          {
+            "tipo": "Requerimento de Constituição de Comissão Externa",
+            "sigla": "REQ",
+            "total": 2
+          },
+          {
+            "tipo": "Requerimento de Apensação",
+            "sigla": "REQ",
+            "total": 2
+          },
+          {
+            "tipo": "Requerimento de Quebra de Interstício para Inclusão de Matéria na Ordem do Dia",
+            "sigla": "REQ",
+            "total": 2
+          },
+          {
+            "tipo": "Recurso contra apreciação conclusiva de comissão (Art. 58, § 1º c/c art. 132, § 2º, RICD)",
+            "sigla": "REC",
+            "total": 1
+          },
+          {
+            "tipo": "Projeto de Resolução",
+            "sigla": "PRC",
+            "total": 1
+          },
+          {
+            "tipo": "Requerimento de Retirada de Proposição de Iniciativa Individual",
+            "sigla": "REQ",
+            "total": 1
+          },
+          {
+            "tipo": "Requerimento de Urgência (Art. 154, II, do RICD)",
+            "sigla": "REQ",
+            "total": 1
+          },
+          {
+            "tipo": "Projeto de Lei Complementar",
+            "sigla": "PLP",
+            "total": 1
+          },
+          {
+            "tipo": "Indicação de Líder de Partido ou Bloco Parlamentar",
+            "sigla": "DOC",
+            "total": 1
+          },
+          {
+            "tipo": "Projeto de Decreto Legislativo de Sustação de Atos Normativos do Poder Executivo",
+            "sigla": "PDL",
+            "total": 1
+          },
+          {
+            "tipo": "Requerimento de Inclusão ou Retirada de Assinatura em Proposição de Iniciativa Coletiva Obrigatória",
+            "sigla": "REQ",
+            "total": 1
+          },
+          {
+            "tipo": "Requerimento de Transformação de Sessão Plenária em Comissão Geral",
+            "sigla": "REQ",
+            "total": 1
+          }
+        ],
+        "recentes": [
+          {
+            "id": 2643199,
+            "sigla": "PL",
+            "tipo": "Projeto de Lei",
+            "numero": 5036,
+            "ano": 2026,
+            "ementa": "Institui a Política Nacional de Desenvolvimento Infantil, Intervenção Precoce e Inclusão Integrada - PNDII.",
+            "apresentadaEm": "2026-08-12T16:47",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2643199"
+          },
+          {
+            "id": 2626454,
+            "sigla": "PL",
+            "tipo": "Projeto de Lei",
+            "numero": 2522,
+            "ano": 2026,
+            "ementa": "Altera a Lei nº 7.210, de 11 de julho de 1984 (Lei de Execução Penal), para incluir a doação voluntária de sangue como modalidade de remição de pena.",
+            "apresentadaEm": "2026-05-20T17:10",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2626454"
+          },
+          {
+            "id": 2623604,
+            "sigla": "PEC",
+            "tipo": "Proposta de Emenda à Constituição",
+            "numero": 9,
+            "ano": 2026,
+            "ementa": "Altera o art. 228 da Constituição Federal, para reduzir a idade mínima de imputabilidade penal, nas condições que estabelece.",
+            "apresentadaEm": "2026-05-12T11:28",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2623604"
+          },
+          {
+            "id": 2617166,
+            "sigla": "RCP",
+            "tipo": "Requerimento de Instituição de CPI",
+            "numero": 2,
+            "ano": 2026,
+            "ementa": "Requer, nos termos do § 3º do art. 58 da Constituição Federal e dos arts. 35, 36 e 37, do Regimento Interno da Câmara dos Deputados, a criação de Comissão Parlamentar de Inquérito, com a finalidade de investigar a prática de atos de crueldade contra animais e as circunstâncias que envolveram a morte do Cão Orelha, ocorrida em Florianópolis/SC, em 2026.",
+            "apresentadaEm": "2026-04-16T14:52",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2617166"
+          },
+          {
+            "id": 2607733,
+            "sigla": "REQ",
+            "tipo": "Requerimento de Registro de Frente Parlamentar na Câmara dos Deputados",
+            "numero": 1355,
+            "ano": 2026,
+            "ementa": "Requer o registro da Frente Parlamentar em Defesa da Política Nacional de Plantas Medicinais e Fitoterápicos",
+            "apresentadaEm": "2026-03-10T15:18",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2607733"
+          },
+          {
+            "id": 2604857,
+            "sigla": "REQ",
+            "tipo": "Requerimento de Registro de Frente Parlamentar na Câmara dos Deputados",
+            "numero": 1132,
+            "ano": 2026,
+            "ementa": "Requer a instalação da Frente Parlamentar Mista em apoio à Integração União Europeia – Mercosul.",
+            "apresentadaEm": "2026-02-25T18:05",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2604857"
+          },
+          {
+            "id": 2596161,
+            "sigla": "REQ",
+            "tipo": "Requerimento de Urgência (Art. 155 do RICD)",
+            "numero": 5744,
+            "ano": 2025,
+            "ementa": "Solicita urgência urgentíssima (art. 155 do Regimento Interno da Câmara dos Deputados) para apreciação do Projeto de Decreto Legislativo Nº 1.031 de 2025.",
+            "apresentadaEm": "2025-12-11T16:22",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2596161"
+          },
+          {
+            "id": 2591196,
+            "sigla": "PEC",
+            "tipo": "Proposta de Emenda à Constituição",
+            "numero": 46,
+            "ano": 2025,
+            "ementa": "Altera a redação do § 4º do art. 212 da Constituição Federal para considerar o programa de alimentação escolar como despesa de manutenção e desenvolvimento de ensino.",
+            "apresentadaEm": "2025-12-02T21:05",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2591196"
+          },
+          {
+            "id": 2582496,
+            "sigla": "REQ",
+            "tipo": "Requerimento de Registro de Frente Parlamentar na Câmara dos Deputados",
+            "numero": 4711,
+            "ano": 2025,
+            "ementa": "Requer o registro, no âmbito da Câmara dos Deputados, da Frente Parlamentar “Frente Parlamentar em Defesa da Ética na Saúde Suplementar”.",
+            "apresentadaEm": "2025-11-06T17:23",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2582496"
+          },
+          {
+            "id": 2582199,
+            "sigla": "REQ",
+            "tipo": "Requerimento de Registro de Frente Parlamentar na Câmara dos Deputados",
+            "numero": 4700,
+            "ano": 2025,
+            "ementa": "Requer o registro da Frente Parlamentar Mista de Telecomunicações e Soluções Digitais.",
+            "apresentadaEm": "2025-11-05T18:25",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2582199"
           }
         ]
       }
@@ -947,6 +1675,392 @@
             "valor": 4907.77
           }
         ]
+      },
+      "proposicoes": {
+        "porTipo": [
+          {
+            "tipo": "Requerimento de Informação",
+            "sigla": "RIC",
+            "total": 333
+          },
+          {
+            "tipo": "Requerimento de Registro de Frente Parlamentar na Câmara dos Deputados",
+            "sigla": "REQ",
+            "total": 240
+          },
+          {
+            "tipo": "Requerimento de Convocação de Ministro de Estado na Comissão (art. 50, CF)",
+            "sigla": "REQ",
+            "total": 211
+          },
+          {
+            "tipo": "Requerimento de Audiência Pública",
+            "sigla": "REQ",
+            "total": 208
+          },
+          {
+            "tipo": "Projeto de Lei",
+            "sigla": "PL",
+            "total": 201
+          },
+          {
+            "tipo": "Requerimento para envio de Requerimento de Informação pela Comissão",
+            "sigla": "REQ",
+            "total": 192
+          },
+          {
+            "tipo": "Indicação",
+            "sigla": "INC",
+            "total": 181
+          },
+          {
+            "tipo": "Requerimento de Convocação de Ministro de Estado no Plenário (art. 50, CF)",
+            "sigla": "REQ",
+            "total": 160
+          },
+          {
+            "tipo": "Solicitação de Informação ao TCU",
+            "sigla": "SIT",
+            "total": 128
+          },
+          {
+            "tipo": "Requerimento para envio de Indicação pela Comissão",
+            "sigla": "REQ",
+            "total": 123
+          },
+          {
+            "tipo": "Requerimento de Sessão Solene",
+            "sigla": "REQ",
+            "total": 119
+          },
+          {
+            "tipo": "Requerimento para envio de Solicitação de Informação ao TCU pela Comissão",
+            "sigla": "REQ",
+            "total": 103
+          },
+          {
+            "tipo": "Requerimento de Moção",
+            "sigla": "REQ",
+            "total": 73
+          },
+          {
+            "tipo": "Emenda na Comissão",
+            "sigla": "EMC",
+            "total": 70
+          },
+          {
+            "tipo": "Projeto de Decreto Legislativo de Sustação de Atos Normativos do Poder Executivo",
+            "sigla": "PDL",
+            "total": 64
+          },
+          {
+            "tipo": "Requerimento de Inclusão ou Retirada de Assinatura em Proposição de Iniciativa Individual",
+            "sigla": "REQ",
+            "total": 58
+          },
+          {
+            "tipo": "Requerimento de Urgência (Art. 155 do RICD)",
+            "sigla": "REQ",
+            "total": 54
+          },
+          {
+            "tipo": "Requerimento (Outros)",
+            "sigla": "REQ",
+            "total": 49
+          },
+          {
+            "tipo": "Proposta de Emenda à Constituição",
+            "sigla": "PEC",
+            "total": 32
+          },
+          {
+            "tipo": "Sugestão de Emenda à LDO - Comissões",
+            "sigla": "SLD",
+            "total": 26
+          },
+          {
+            "tipo": "Processo Interno",
+            "sigla": "PROC",
+            "total": 18
+          },
+          {
+            "tipo": "Requerimento de Instituição de CPI",
+            "sigla": "RCP",
+            "total": 16
+          },
+          {
+            "tipo": "Sugestão de Emenda ao Orçamento - Comissões",
+            "sigla": "SOR",
+            "total": 15
+          },
+          {
+            "tipo": "Projeto de Lei Complementar",
+            "sigla": "PLP",
+            "total": 14
+          },
+          {
+            "tipo": "Requerimento para realização ou participação em Seminário, Visita Técnica ou outro Evento",
+            "sigla": "REQ",
+            "total": 14
+          },
+          {
+            "tipo": "Recurso contra apreciação conclusiva de comissão (Art. 58, § 1º c/c art. 132, § 2º, RICD)",
+            "sigla": "REC",
+            "total": 13
+          },
+          {
+            "tipo": "Requerimento de Retirada de Proposição de Iniciativa Individual",
+            "sigla": "REQ",
+            "total": 13
+          },
+          {
+            "tipo": "Requerimento de Convocação em CPI (art. 58, §3º, CF)",
+            "sigla": "REQ",
+            "total": 12
+          },
+          {
+            "tipo": "Requerimento de Apensação",
+            "sigla": "REQ",
+            "total": 11
+          },
+          {
+            "tipo": "Alteração em Frente Parlamentar Registrada na Câmara dos Deputados",
+            "sigla": "DOC",
+            "total": 10
+          },
+          {
+            "tipo": "Requerimento de Constituição de Comissão Externa",
+            "sigla": "REQ",
+            "total": 9
+          },
+          {
+            "tipo": "Requerimento de Voto de pesar",
+            "sigla": "REQ",
+            "total": 8
+          },
+          {
+            "tipo": "Projeto de Resolução de Alteração do Regimento e outros",
+            "sigla": "PRC",
+            "total": 6
+          },
+          {
+            "tipo": "Requerimento para envio de ofício solicitando informações",
+            "sigla": "REQ",
+            "total": 6
+          },
+          {
+            "tipo": "Recurso contra parecer terminativo de comissão (Art. 132, § 2º c/c art. 144, caput, RICD)",
+            "sigla": "REC",
+            "total": 6
+          },
+          {
+            "tipo": "Requerimento de Voto de regozijo ou louvor",
+            "sigla": "REQ",
+            "total": 6
+          },
+          {
+            "tipo": "Requerimento de Redistribuição",
+            "sigla": "REQ",
+            "total": 5
+          },
+          {
+            "tipo": "Requerimento de Desapensação",
+            "sigla": "REQ",
+            "total": 4
+          },
+          {
+            "tipo": "Projeto de Decreto Legislativo",
+            "sigla": "PDL",
+            "total": 4
+          },
+          {
+            "tipo": "Emenda ao Substitutivo",
+            "sigla": "ESB",
+            "total": 3
+          },
+          {
+            "tipo": "Instalação de Grupo Parlamentar na Câmara dos Deputados",
+            "sigla": "DOC",
+            "total": 3
+          },
+          {
+            "tipo": "Requerimento de Retirada de Proposição de Iniciativa Coletiva",
+            "sigla": "REQ",
+            "total": 3
+          },
+          {
+            "tipo": "Recurso contra devolução de proposição (Art. 137, § 2º, RICD)",
+            "sigla": "REC",
+            "total": 2
+          },
+          {
+            "tipo": "Requerimento de Quebra de Interstício para Inclusão de Matéria na Ordem do Dia",
+            "sigla": "REQ",
+            "total": 2
+          },
+          {
+            "tipo": "Recurso do Conselho de Ética que contraria norma constitucional ou regimental (Art. 13 ou 14, CEDP)",
+            "sigla": "REC",
+            "total": 2
+          },
+          {
+            "tipo": "Requerimento de Transformação de Sessão Plenária em Comissão Geral",
+            "sigla": "REQ",
+            "total": 2
+          },
+          {
+            "tipo": "Requerimento de Audiência solicitada por Comissão ou Deputado",
+            "sigla": "REQ",
+            "total": 2
+          },
+          {
+            "tipo": "Requerimento de Constituição de Comissão Especial de Projeto",
+            "sigla": "REQ",
+            "total": 1
+          },
+          {
+            "tipo": "Requerimento",
+            "sigla": "REQ",
+            "total": 1
+          },
+          {
+            "tipo": "Indicação de Coordenador de Frente Parlamentar Registrada",
+            "sigla": "DOC",
+            "total": 1
+          },
+          {
+            "tipo": "Recurso",
+            "sigla": "REC",
+            "total": 1
+          },
+          {
+            "tipo": "Proposta de Fiscalização e Controle",
+            "sigla": "PFC",
+            "total": 1
+          },
+          {
+            "tipo": "Requerimento de Constituição de Comissão Especial de PEC",
+            "sigla": "REQ",
+            "total": 1
+          },
+          {
+            "tipo": "Requerimento de Convocação de Autoridade",
+            "sigla": "REQ",
+            "total": 1
+          },
+          {
+            "tipo": "Requerimento de Inclusão de Matéria na Ordem do Dia para Apreciação Imediata",
+            "sigla": "RPD",
+            "total": 1
+          },
+          {
+            "tipo": "Alteração em Grupo Parlamentar Instalado na Câmara dos Deputados",
+            "sigla": "DOC",
+            "total": 1
+          }
+        ],
+        "recentes": [
+          {
+            "id": 2644800,
+            "sigla": "PEC",
+            "tipo": "Proposta de Emenda à Constituição",
+            "numero": 16,
+            "ano": 2026,
+            "ementa": "Acrescenta os art. 68-A no Ato das Disposições Constitucionais Transitórias para ratificar os registros de imóveis rurais em faixa de fronteira concedidos pelos estados antes da promulgação desta Constituição Federal e dá outras providências.",
+            "apresentadaEm": "2026-08-28T15:16",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2644800"
+          },
+          {
+            "id": 2644331,
+            "sigla": "RIC",
+            "tipo": "Requerimento de Informação",
+            "numero": 2481,
+            "ano": 2026,
+            "ementa": "Requer informações ao Ministro de Estado dos Transportes acerca dos impactos da atual sistemática de emissão do Código Identificador da Operação de Transporte – CIOT – sobre Transportadores Autônomos de Cargas – TAC – e Empresas de Transporte Rodoviário de Cargas – ETC – de pequeno porte, bem como sobre eventual desestímulo à sua contratação.",
+            "apresentadaEm": "2026-08-21T16:22",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2644331"
+          },
+          {
+            "id": 2644300,
+            "sigla": "PL",
+            "tipo": "Projeto de Lei",
+            "numero": 5137,
+            "ano": 2026,
+            "ementa": "Institui mecanismos e estabelece condições para a renegociação de operações de crédito rural de mutuários cuja capacidade de pagamento seja prejudicada por efeitos adversos do fenômeno climático El Niño.",
+            "apresentadaEm": "2026-08-20T17:13",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2644300"
+          },
+          {
+            "id": 2643825,
+            "sigla": "REQ",
+            "tipo": "Requerimento de Convocação de Ministro de Estado no Plenário (art. 50, CF)",
+            "numero": 4055,
+            "ano": 2026,
+            "ementa": "Requer a convocação do Ministro de Estado da Saúde para prestar esclarecimentos sobre denúncias de possível conflito de interesses envolvendo a gestão de projetos estratégicos do Complexo Econômico-Industrial da Saúde (CEIS), os critérios de destinação de recursos públicos bilionários e as medidas adotadas para assegurar a legalidade, a impessoalidade e a transparência na aplicação desses recursos.",
+            "apresentadaEm": "2026-08-14T13:23",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2643825"
+          },
+          {
+            "id": 2643824,
+            "sigla": "PL",
+            "tipo": "Projeto de Lei",
+            "numero": 5085,
+            "ano": 2026,
+            "ementa": "Concede isenção do Imposto de Importação (II) sobre medicamentos destinados ao tratamento de enfermidades graves ou doenças raras, quando importados por pessoa física para uso próprio ou individual, inclusive por meio de bagagem acompanhada.",
+            "apresentadaEm": "2026-08-14T13:23",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2643824"
+          },
+          {
+            "id": 2643820,
+            "sigla": "SIT",
+            "tipo": "Solicitação de Informação ao TCU",
+            "numero": 51,
+            "ano": 2026,
+            "ementa": "Requer informações ao Tribunal de Contas da União acerca dos procedimentos administrativos adotados pelo Tribunal Superior Eleitoral para o credenciamento de missões nacionais e internacionais de observação eleitoral nas Eleições Gerais de 2026.",
+            "apresentadaEm": "2026-08-14T13:16",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2643820"
+          },
+          {
+            "id": 2643745,
+            "sigla": "INC",
+            "tipo": "Indicação",
+            "numero": 1528,
+            "ano": 2026,
+            "ementa": "Sugere ao Ministério do Turismo a realização de análise técnica com vistas à estruturação da Rota Turística Imperial São Pedro de Alcântara, nos Estados do Espírito Santo e de Minas Gerais.",
+            "apresentadaEm": "2026-08-13T17:10",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2643745"
+          },
+          {
+            "id": 2643662,
+            "sigla": "REC",
+            "tipo": "Recurso contra apreciação conclusiva de comissão (Art. 58, § 1º c/c art. 132, § 2º, RICD)",
+            "numero": 18,
+            "ano": 2026,
+            "ementa": "Recurso contra a apreciação conclusiva do Projeto de Lei nº 5.094, de 2019",
+            "apresentadaEm": "2026-08-13T12:43",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2643662"
+          },
+          {
+            "id": 2642788,
+            "sigla": "RIC",
+            "tipo": "Requerimento de Informação",
+            "numero": 2364,
+            "ano": 2026,
+            "ementa": "Requer informações ao Excelentíssimo Senhor Ministro de Estado do Desenvolvimento, Indústria, Comércio e Serviços  sobre os critérios de elegibilidade e o alcance efetivo, para veículos seminovos, do Programa Move Brasil Táxi e Aplicativos, no âmbito da Medida Provisória nº 1.376, de 15 de julho de 2026.",
+            "apresentadaEm": "2026-08-11T19:47",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2642788"
+          },
+          {
+            "id": 2641959,
+            "sigla": "REQ",
+            "tipo": "Requerimento para envio de Requerimento de Informação pela Comissão",
+            "numero": 110,
+            "ano": 2026,
+            "ementa": "Requer informações ao Senhor Ministro de Estado das Relações Exteriores acerca da negativa de concessão de vistos a funcionários do Governo dos Estados Unidos da América que pretendiam ingressar no Brasil para missão oficial.",
+            "apresentadaEm": "2026-08-04T11:03",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641959"
+          }
+        ]
       }
     },
     {
@@ -1191,6 +2305,287 @@
             "valor": 1125.98
           }
         ]
+      },
+      "proposicoes": {
+        "porTipo": [
+          {
+            "tipo": "Requerimento de Voto de regozijo ou louvor",
+            "sigla": "REQ",
+            "total": 1554
+          },
+          {
+            "tipo": "Requerimento de Registro de Frente Parlamentar na Câmara dos Deputados",
+            "sigla": "REQ",
+            "total": 262
+          },
+          {
+            "tipo": "Requerimento de Sessão Solene",
+            "sigla": "REQ",
+            "total": 123
+          },
+          {
+            "tipo": "Requerimento de Audiência Pública",
+            "sigla": "REQ",
+            "total": 62
+          },
+          {
+            "tipo": "Projeto de Lei",
+            "sigla": "PL",
+            "total": 55
+          },
+          {
+            "tipo": "Proposta de Emenda à Constituição",
+            "sigla": "PEC",
+            "total": 31
+          },
+          {
+            "tipo": "Requerimento de Urgência (Art. 155 do RICD)",
+            "sigla": "REQ",
+            "total": 26
+          },
+          {
+            "tipo": "Emenda na Comissão",
+            "sigla": "EMC",
+            "total": 24
+          },
+          {
+            "tipo": "Indicação",
+            "sigla": "INC",
+            "total": 17
+          },
+          {
+            "tipo": "Requerimento para realização ou participação em Seminário, Visita Técnica ou outro Evento",
+            "sigla": "REQ",
+            "total": 16
+          },
+          {
+            "tipo": "Requerimento de Informação",
+            "sigla": "RIC",
+            "total": 10
+          },
+          {
+            "tipo": "Requerimento de Instituição de CPI",
+            "sigla": "RCP",
+            "total": 9
+          },
+          {
+            "tipo": "Requerimento de Transformação de Sessão Plenária em Comissão Geral",
+            "sigla": "REQ",
+            "total": 9
+          },
+          {
+            "tipo": "Alteração em Frente Parlamentar Registrada na Câmara dos Deputados",
+            "sigla": "DOC",
+            "total": 8
+          },
+          {
+            "tipo": "Requerimento de Inclusão de Matéria na Ordem do Dia",
+            "sigla": "REQ",
+            "total": 7
+          },
+          {
+            "tipo": "Requerimento (Outros)",
+            "sigla": "REQ",
+            "total": 5
+          },
+          {
+            "tipo": "Requerimento de Retirada de Proposição de Iniciativa Coletiva",
+            "sigla": "REQ",
+            "total": 5
+          },
+          {
+            "tipo": "Requerimento de Quebra de Interstício para Inclusão de Matéria na Ordem do Dia",
+            "sigla": "REQ",
+            "total": 5
+          },
+          {
+            "tipo": "Requerimento de Convocação de Ministro de Estado na Comissão (art. 50, CF)",
+            "sigla": "REQ",
+            "total": 5
+          },
+          {
+            "tipo": "Projeto de Lei Complementar",
+            "sigla": "PLP",
+            "total": 4
+          },
+          {
+            "tipo": "Requerimento de Inclusão ou Retirada de Assinatura em Proposição de Iniciativa Individual",
+            "sigla": "REQ",
+            "total": 4
+          },
+          {
+            "tipo": "Requerimento para envio de Requerimento de Informação pela Comissão",
+            "sigla": "REQ",
+            "total": 4
+          },
+          {
+            "tipo": "Requerimento de Constituição de Comissão Externa",
+            "sigla": "REQ",
+            "total": 3
+          },
+          {
+            "tipo": "Requerimento de Apensação",
+            "sigla": "REQ",
+            "total": 3
+          },
+          {
+            "tipo": "Projeto de Resolução",
+            "sigla": "PRC",
+            "total": 3
+          },
+          {
+            "tipo": "Requerimento de Moção",
+            "sigla": "REQ",
+            "total": 2
+          },
+          {
+            "tipo": "Sugestão de Emenda à LDO - Comissões",
+            "sigla": "SLD",
+            "total": 2
+          },
+          {
+            "tipo": "Requerimento de Retirada de Proposição de Iniciativa Individual",
+            "sigla": "REQ",
+            "total": 2
+          },
+          {
+            "tipo": "Requerimento de Inclusão ou Retirada de Assinatura em Proposição de Iniciativa Coletiva Obrigatória",
+            "sigla": "REQ",
+            "total": 2
+          },
+          {
+            "tipo": "Projeto de Decreto Legislativo de Sustação de Atos Normativos do Poder Executivo",
+            "sigla": "PDL",
+            "total": 2
+          },
+          {
+            "tipo": "Requerimento de Redistribuição",
+            "sigla": "REQ",
+            "total": 1
+          },
+          {
+            "tipo": "Emenda ao Substitutivo",
+            "sigla": "ESB",
+            "total": 1
+          },
+          {
+            "tipo": "Recurso contra apreciação conclusiva de comissão (Art. 58, § 1º c/c art. 132, § 2º, RICD)",
+            "sigla": "REC",
+            "total": 1
+          },
+          {
+            "tipo": "Indicação de Líder de Partido ou Bloco Parlamentar",
+            "sigla": "DOC",
+            "total": 1
+          },
+          {
+            "tipo": "Projeto de Resolução de Alteração do Regimento e outros",
+            "sigla": "PRC",
+            "total": 1
+          }
+        ],
+        "recentes": [
+          {
+            "id": 2644734,
+            "sigla": "REQ",
+            "tipo": "Requerimento de Registro de Frente Parlamentar na Câmara dos Deputados",
+            "numero": 4125,
+            "ano": 2026,
+            "ementa": "Requer a criação da Frente Parlamentar Mista pela Integração Continental e Desenvolvimento Sul-Americano",
+            "apresentadaEm": "2026-08-27T15:19",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2644734"
+          },
+          {
+            "id": 2640403,
+            "sigla": "REQ",
+            "tipo": "Requerimento de Registro de Frente Parlamentar na Câmara dos Deputados",
+            "numero": 3956,
+            "ano": 2026,
+            "ementa": "Requer a criação da Frente Parlamentar Mista em Defesa do Programa Espacial Brasileiro.",
+            "apresentadaEm": "2026-07-17T14:58",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2640403"
+          },
+          {
+            "id": 2639251,
+            "sigla": "REQ",
+            "tipo": "Requerimento de Audiência Pública",
+            "numero": 8,
+            "ano": 2026,
+            "ementa": "Requer a realização de Audiência Pública para debater os possíveis impactos do fenômeno El Niño 2026/2027 e as estratégias necessárias para o fortalecimento da capacidade de prevenção, preparação e resposta do Poder Público diante dos riscos de eventos climáticos extremos.",
+            "apresentadaEm": "2026-07-13T15:08",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2639251"
+          },
+          {
+            "id": 2636462,
+            "sigla": "PL",
+            "tipo": "Projeto de Lei",
+            "numero": 3416,
+            "ano": 2026,
+            "ementa": "Dispõe sobre a prescrição, a dispensação, a comercialização, a administração, a publicidade e o controle de medicamentos anticoncepcionais hormonais de uso veterinário destinados a cadelas e gatas, e dá outras providências.",
+            "apresentadaEm": "2026-07-01T17:14",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2636462"
+          },
+          {
+            "id": 2636461,
+            "sigla": "PL",
+            "tipo": "Projeto de Lei",
+            "numero": 3415,
+            "ano": 2026,
+            "ementa": "Altera a Lei nº 9.503, de 23 de setembro de 1997, que institui o Código de Trânsito Brasileiro, para instituir o Registro Nacional de Bicicletas Elétricas – RENABE e estabelecer a obrigatoriedade de identificação das bicicletas elétricas.",
+            "apresentadaEm": "2026-07-01T17:13",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2636461"
+          },
+          {
+            "id": 2631662,
+            "sigla": "RIC",
+            "tipo": "Requerimento de Informação",
+            "numero": 1779,
+            "ano": 2026,
+            "ementa": "Solicita informações ao Sr. Ministro de Estado dos Transportes, com a interveniência da Agência Nacional de Transportes Terrestres – ANTT, acerca dos recursos do Programa de Recursos para Preservação da Memória Ferroviária – RPMF, bem como dos projetos em análise e em execução no âmbito do programa.",
+            "apresentadaEm": "2026-06-10T18:53",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2631662"
+          },
+          {
+            "id": 2631190,
+            "sigla": "PEC",
+            "tipo": "Proposta de Emenda à Constituição",
+            "numero": 13,
+            "ano": 2026,
+            "ementa": "Altera o art. 9º da Emenda Constitucional nº 132, de 20 de dezembro de 2023, para permitir a concessão de créditos do Imposto sobre Bens e Serviços através de fomento indireto a doadores e patrocinadores de projetos culturais e esportivos.",
+            "apresentadaEm": "2026-06-10T12:08",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2631190"
+          },
+          {
+            "id": 2628114,
+            "sigla": "REQ",
+            "tipo": "Requerimento de Inclusão de Matéria na Ordem do Dia",
+            "numero": 3210,
+            "ano": 2026,
+            "ementa": "Solicita a realização de esforço concentrado com a inclusão na pauta do Plenário da Câmara dos Deputados das proposições que tratam da Gestão do Risco e Desastres e Cooperação Humanitária, Proteção e Defesa Civil, diante dos riscos associados ao fenômeno climático El Niño 2026/2027.",
+            "apresentadaEm": "2026-05-27T10:00",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2628114"
+          },
+          {
+            "id": 2627420,
+            "sigla": "PL",
+            "tipo": "Projeto de Lei",
+            "numero": 2575,
+            "ano": 2026,
+            "ementa": "Institui o Sistema Nacional de Proteção Animal e Rede de Apoio (SINAPRA), e dá outras providências.",
+            "apresentadaEm": "2026-05-25T13:01",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2627420"
+          },
+          {
+            "id": 2627061,
+            "sigla": "REQ",
+            "tipo": "Requerimento para realização ou participação em Seminário, Visita Técnica ou outro Evento",
+            "numero": 31,
+            "ano": 2026,
+            "ementa": "Requer a realização de Mesa - Redonda, no âmbito desta Comissão de Integração Nacional e Desenvolvimento Regional, para discutir a atual situação da Ferrovia Leopoldina, especialmente no que se refere às tratativas necessárias para a entrega desta ferrovia ao Estado do Espírito Santo, bem como às possibilidades de reutilização da infraestrutura ferroviária para promoção do desenvolvimento regional sustentável, do turismo, da cultura e da valorização do patrimônio histórico ferroviário.",
+            "apresentadaEm": "2026-05-21T16:56",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2627061"
+          }
+        ]
       }
     },
     {
@@ -1425,6 +2820,282 @@
           {
             "competencia": "2026-08",
             "valor": 1719.54
+          }
+        ]
+      },
+      "proposicoes": {
+        "porTipo": [
+          {
+            "tipo": "Requerimento de Registro de Frente Parlamentar na Câmara dos Deputados",
+            "sigla": "REQ",
+            "total": 58
+          },
+          {
+            "tipo": "Requerimento de Moção",
+            "sigla": "REQ",
+            "total": 56
+          },
+          {
+            "tipo": "Proposta de Emenda à Constituição",
+            "sigla": "PEC",
+            "total": 28
+          },
+          {
+            "tipo": "Projeto de Lei",
+            "sigla": "PL",
+            "total": 26
+          },
+          {
+            "tipo": "Requerimento de Convocação de Ministro de Estado na Comissão (art. 50, CF)",
+            "sigla": "REQ",
+            "total": 21
+          },
+          {
+            "tipo": "Requerimento para realização ou participação em Seminário, Visita Técnica ou outro Evento",
+            "sigla": "REQ",
+            "total": 15
+          },
+          {
+            "tipo": "Requerimento de Inclusão ou Retirada de Assinatura em Proposição de Iniciativa Individual",
+            "sigla": "REQ",
+            "total": 15
+          },
+          {
+            "tipo": "Projeto de Decreto Legislativo de Sustação de Atos Normativos do Poder Executivo",
+            "sigla": "PDL",
+            "total": 13
+          },
+          {
+            "tipo": "Requerimento de Urgência (Art. 155 do RICD)",
+            "sigla": "REQ",
+            "total": 11
+          },
+          {
+            "tipo": "Requerimento de Informação",
+            "sigla": "RIC",
+            "total": 11
+          },
+          {
+            "tipo": "Requerimento de Instituição de CPI",
+            "sigla": "RCP",
+            "total": 10
+          },
+          {
+            "tipo": "Requerimento de Sessão Solene",
+            "sigla": "REQ",
+            "total": 7
+          },
+          {
+            "tipo": "Requerimento de Audiência Pública",
+            "sigla": "REQ",
+            "total": 7
+          },
+          {
+            "tipo": "Recurso contra apreciação conclusiva de comissão (Art. 58, § 1º c/c art. 132, § 2º, RICD)",
+            "sigla": "REC",
+            "total": 6
+          },
+          {
+            "tipo": "Processo Interno",
+            "sigla": "PROC",
+            "total": 6
+          },
+          {
+            "tipo": "Requerimento (Outros)",
+            "sigla": "REQ",
+            "total": 5
+          },
+          {
+            "tipo": "Recurso contra parecer terminativo de comissão (Art. 132, § 2º c/c art. 144, caput, RICD)",
+            "sigla": "REC",
+            "total": 5
+          },
+          {
+            "tipo": "Requerimento para envio de Requerimento de Informação pela Comissão",
+            "sigla": "REQ",
+            "total": 3
+          },
+          {
+            "tipo": "Projeto de Resolução de Alteração do Regimento e outros",
+            "sigla": "PRC",
+            "total": 2
+          },
+          {
+            "tipo": "Indicação",
+            "sigla": "INC",
+            "total": 2
+          },
+          {
+            "tipo": "Requerimento",
+            "sigla": "REQ",
+            "total": 2
+          },
+          {
+            "tipo": "Alteração em Frente Parlamentar Registrada na Câmara dos Deputados",
+            "sigla": "DOC",
+            "total": 2
+          },
+          {
+            "tipo": "Requerimento de Audiência solicitada por Comissão ou Deputado",
+            "sigla": "REQ",
+            "total": 2
+          },
+          {
+            "tipo": "Recurso do Conselho de Ética que contraria norma constitucional ou regimental (Art. 13 ou 14, CEDP)",
+            "sigla": "REC",
+            "total": 2
+          },
+          {
+            "tipo": "Requerimento de Convocação de Ministro de Estado no Plenário (art. 50, CF)",
+            "sigla": "REQ",
+            "total": 2
+          },
+          {
+            "tipo": "Requerimento de Voto de pesar",
+            "sigla": "REQ",
+            "total": 2
+          },
+          {
+            "tipo": "Requerimento de Retirada de Proposição de Iniciativa Individual",
+            "sigla": "REQ",
+            "total": 1
+          },
+          {
+            "tipo": "Requerimento para envio de Indicação pela Comissão",
+            "sigla": "REQ",
+            "total": 1
+          },
+          {
+            "tipo": "Sugestão de Emenda à LDO - Comissões",
+            "sigla": "SLD",
+            "total": 1
+          },
+          {
+            "tipo": "Projeto de Lei Complementar",
+            "sigla": "PLP",
+            "total": 1
+          },
+          {
+            "tipo": "Requerimento de Constituição de Comissão Especial de Projeto",
+            "sigla": "REQ",
+            "total": 1
+          },
+          {
+            "tipo": "Recurso",
+            "sigla": "REC",
+            "total": 1
+          },
+          {
+            "tipo": "Requerimento de Transformação de Sessão Plenária em Comissão Geral",
+            "sigla": "REQ",
+            "total": 1
+          },
+          {
+            "tipo": "Requerimento de Constituição de Comissão Especial de PEC",
+            "sigla": "REQ",
+            "total": 1
+          }
+        ],
+        "recentes": [
+          {
+            "id": 2644800,
+            "sigla": "PEC",
+            "tipo": "Proposta de Emenda à Constituição",
+            "numero": 16,
+            "ano": 2026,
+            "ementa": "Acrescenta os art. 68-A no Ato das Disposições Constitucionais Transitórias para ratificar os registros de imóveis rurais em faixa de fronteira concedidos pelos estados antes da promulgação desta Constituição Federal e dá outras providências.",
+            "apresentadaEm": "2026-08-28T15:16",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2644800"
+          },
+          {
+            "id": 2643662,
+            "sigla": "REC",
+            "tipo": "Recurso contra apreciação conclusiva de comissão (Art. 58, § 1º c/c art. 132, § 2º, RICD)",
+            "numero": 18,
+            "ano": 2026,
+            "ementa": "Recurso contra a apreciação conclusiva do Projeto de Lei nº 5.094, de 2019",
+            "apresentadaEm": "2026-08-13T12:43",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2643662"
+          },
+          {
+            "id": 2633488,
+            "sigla": "PEC",
+            "tipo": "Proposta de Emenda à Constituição",
+            "numero": 15,
+            "ano": 2026,
+            "ementa": "Altera os art. 150 Constituição Federal para incluir as entidades esportivas sem fins lucrativos.",
+            "apresentadaEm": "2026-06-17T17:58",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2633488"
+          },
+          {
+            "id": 2633410,
+            "sigla": "REQ",
+            "tipo": "Requerimento de Urgência (Art. 155 do RICD)",
+            "numero": 3557,
+            "ano": 2026,
+            "ementa": "Requer urgência (art. 155 do Regimento Interno da Câmara dos Deputados) para apreciação do Projeto de Decreto Legislativo nº 717, de 2024.",
+            "apresentadaEm": "2026-06-17T16:36",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2633410"
+          },
+          {
+            "id": 2627415,
+            "sigla": "REQ",
+            "tipo": "Requerimento de Moção",
+            "numero": 263,
+            "ano": 2026,
+            "ementa": "Requer aprovação de MOÇÃO DE REPÚDIO contra as políticas e ações de segurança pública adotadas pelo Governo Federal, as quais, sob a justificativa de modernização e enfrentamento ao crime, têm se mostrado ineficazes, centralizadoras e divorciadas da realidade vivenciada pela população brasileira, em flagrante desrespeito ao pacto federativo e ao princípio constitucional da autonomia dos entes federados na gestão de suas polícias.",
+            "apresentadaEm": "2026-05-25T12:00",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2627415"
+          },
+          {
+            "id": 2625319,
+            "sigla": "REQ",
+            "tipo": "Requerimento de Moção",
+            "numero": 245,
+            "ano": 2026,
+            "ementa": "Requer a concessão de Moção de Pesar pelo falecimento do policial civil Felipe Marques Monteiro, de 45 anos, copiloto de helicóptero do Serviço Aeropolicial da Coordenadoria de Recursos Especiais (CORE) da Polícia Civil do Estado do Rio de Janeiro.",
+            "apresentadaEm": "2026-05-18T11:21",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2625319"
+          },
+          {
+            "id": 2623604,
+            "sigla": "PEC",
+            "tipo": "Proposta de Emenda à Constituição",
+            "numero": 9,
+            "ano": 2026,
+            "ementa": "Altera o art. 228 da Constituição Federal, para reduzir a idade mínima de imputabilidade penal, nas condições que estabelece.",
+            "apresentadaEm": "2026-05-12T11:28",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2623604"
+          },
+          {
+            "id": 2623400,
+            "sigla": "PEC",
+            "tipo": "Proposta de Emenda à Constituição",
+            "numero": 8,
+            "ano": 2026,
+            "ementa": "Altera o art. 228 da Constituição Federal para admitir, em caráter excepcional, a redução da maioridade penal em casos de crimes hediondos e de crueldade extrema contra pessoas e animais.",
+            "apresentadaEm": "2026-05-11T14:49",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2623400"
+          },
+          {
+            "id": 2620866,
+            "sigla": "REQ",
+            "tipo": "Requerimento de Sessão Solene",
+            "numero": 2587,
+            "ano": 2026,
+            "ementa": "Requer uma convocação de Sessão Solene da Câmara dos Deputados em alusão ao  Dia Livre de Imposto (DLI).",
+            "apresentadaEm": "2026-05-04T16:07",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2620866"
+          },
+          {
+            "id": 2620852,
+            "sigla": "REQ",
+            "tipo": "Requerimento de Moção",
+            "numero": 58,
+            "ano": 2026,
+            "ementa": "Manifesta REPÚDIO à vergonhosa conduta do General Emílio Vanderlei Ribeiro, chefe da assessoria parlamentar do Exército brasileiro, por intimidação ao Deputado Marcel van Hattem, dentro da Câmara dos Deputados, nas proximidades da Comissão de Relações Exteriores e de Defesa Nacional.",
+            "apresentadaEm": "2026-05-04T15:30",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2620852"
           }
         ]
       }
@@ -1671,6 +3342,307 @@
             "valor": 43.099999999999994
           }
         ]
+      },
+      "proposicoes": {
+        "porTipo": [
+          {
+            "tipo": "Requerimento de Registro de Frente Parlamentar na Câmara dos Deputados",
+            "sigla": "REQ",
+            "total": 257
+          },
+          {
+            "tipo": "Emenda na Comissão",
+            "sigla": "EMC",
+            "total": 166
+          },
+          {
+            "tipo": "Requerimento de Sessão Solene",
+            "sigla": "REQ",
+            "total": 154
+          },
+          {
+            "tipo": "Projeto de Lei",
+            "sigla": "PL",
+            "total": 62
+          },
+          {
+            "tipo": "Requerimento de Redistribuição",
+            "sigla": "REQ",
+            "total": 21
+          },
+          {
+            "tipo": "Requerimento de Audiência Pública",
+            "sigla": "REQ",
+            "total": 18
+          },
+          {
+            "tipo": "Recurso contra apreciação conclusiva de comissão (Art. 58, § 1º c/c art. 132, § 2º, RICD)",
+            "sigla": "REC",
+            "total": 16
+          },
+          {
+            "tipo": "Proposta de Emenda à Constituição",
+            "sigla": "PEC",
+            "total": 14
+          },
+          {
+            "tipo": "Instalação de Grupo Parlamentar na Câmara dos Deputados",
+            "sigla": "DOC",
+            "total": 9
+          },
+          {
+            "tipo": "Requerimento de Inclusão ou Retirada de Assinatura em Proposição de Iniciativa Individual",
+            "sigla": "REQ",
+            "total": 7
+          },
+          {
+            "tipo": "Processo Interno",
+            "sigla": "PROC",
+            "total": 7
+          },
+          {
+            "tipo": "Sugestão de Emenda ao Orçamento - Comissões",
+            "sigla": "SOR",
+            "total": 6
+          },
+          {
+            "tipo": "Requerimento para realização ou participação em Seminário, Visita Técnica ou outro Evento",
+            "sigla": "REQ",
+            "total": 6
+          },
+          {
+            "tipo": "Projeto de Lei Complementar",
+            "sigla": "PLP",
+            "total": 5
+          },
+          {
+            "tipo": "Requerimento de Quebra de Interstício para Inclusão de Matéria na Ordem do Dia",
+            "sigla": "REQ",
+            "total": 4
+          },
+          {
+            "tipo": "Requerimento de Urgência (Art. 155 do RICD)",
+            "sigla": "REQ",
+            "total": 4
+          },
+          {
+            "tipo": "Requerimento de Instituição de CPI",
+            "sigla": "RCP",
+            "total": 4
+          },
+          {
+            "tipo": "Relatório",
+            "sigla": "REL",
+            "total": 3
+          },
+          {
+            "tipo": "Requerimento de Moção",
+            "sigla": "REQ",
+            "total": 3
+          },
+          {
+            "tipo": "Requerimento de Transformação de Sessão Plenária em Comissão Geral",
+            "sigla": "REQ",
+            "total": 3
+          },
+          {
+            "tipo": "Requerimento de Constituição de Comissão Externa",
+            "sigla": "REQ",
+            "total": 2
+          },
+          {
+            "tipo": "Requerimento (Outros)",
+            "sigla": "REQ",
+            "total": 2
+          },
+          {
+            "tipo": "Requerimento de Prejudicialidade",
+            "sigla": "REQ",
+            "total": 2
+          },
+          {
+            "tipo": "Recurso",
+            "sigla": "REC",
+            "total": 2
+          },
+          {
+            "tipo": "Indicação",
+            "sigla": "INC",
+            "total": 1
+          },
+          {
+            "tipo": "Requerimento de Informação",
+            "sigla": "RIC",
+            "total": 1
+          },
+          {
+            "tipo": "Projeto de Decreto Legislativo de Sustação de Atos Normativos do Poder Executivo",
+            "sigla": "PDL",
+            "total": 1
+          },
+          {
+            "tipo": "Adesão a Bloco Parlamentar",
+            "sigla": "DOC",
+            "total": 1
+          },
+          {
+            "tipo": "Requerimento de Retirada de Proposição de Iniciativa Individual",
+            "sigla": "REQ",
+            "total": 1
+          },
+          {
+            "tipo": "Requerimento de Apensação",
+            "sigla": "REQ",
+            "total": 1
+          },
+          {
+            "tipo": "Requerimento para envio de ofício solicitando informações",
+            "sigla": "REQ",
+            "total": 1
+          },
+          {
+            "tipo": "Requerimento de Inclusão de Matéria na Ordem do Dia para Apreciação Imediata",
+            "sigla": "RPD",
+            "total": 1
+          },
+          {
+            "tipo": "Recurso do Conselho de Ética que contraria norma constitucional ou regimental (Art. 13 ou 14, CEDP)",
+            "sigla": "REC",
+            "total": 1
+          },
+          {
+            "tipo": "Recurso contra parecer terminativo de comissão (Art. 132, § 2º c/c art. 144, caput, RICD)",
+            "sigla": "REC",
+            "total": 1
+          },
+          {
+            "tipo": "Requerimento de Retirada de Proposição de Iniciativa Coletiva",
+            "sigla": "REQ",
+            "total": 1
+          },
+          {
+            "tipo": "Votação Nominal do Requerimento Procedimental Genérico",
+            "sigla": "RPDR",
+            "total": 1
+          },
+          {
+            "tipo": "Requerimento Procedimental Genérico de Sessão/Reunião",
+            "sigla": "RPDR",
+            "total": 1
+          },
+          {
+            "tipo": "Votação Nominal do Requerimento de Alteração da Ordem dos Trabalhos",
+            "sigla": "RPDR",
+            "total": 1
+          },
+          {
+            "tipo": "Requerimento de Alteração da Ordem dos Trabalhos",
+            "sigla": "RPDR",
+            "total": 1
+          }
+        ],
+        "recentes": [
+          {
+            "id": 2644734,
+            "sigla": "REQ",
+            "tipo": "Requerimento de Registro de Frente Parlamentar na Câmara dos Deputados",
+            "numero": 4125,
+            "ano": 2026,
+            "ementa": "Requer a criação da Frente Parlamentar Mista pela Integração Continental e Desenvolvimento Sul-Americano",
+            "apresentadaEm": "2026-08-27T15:19",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2644734"
+          },
+          {
+            "id": 2643776,
+            "sigla": "PL",
+            "tipo": "Projeto de Lei",
+            "numero": 5076,
+            "ano": 2026,
+            "ementa": "Institui a Lei de Proteção da Soberania Econômica Nacional contra a Aplicação Extraterritorial de Medidas Estrangeiras, dispõe sobre a proteção das pessoas submetidas à jurisdição brasileira contra medidas coercitivas unilaterais incompatíveis com o ordenamento jurídico nacional, e dá outras providências.",
+            "apresentadaEm": "2026-08-14T10:28",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2643776"
+          },
+          {
+            "id": 2643283,
+            "sigla": "PL",
+            "tipo": "Projeto de Lei",
+            "numero": 5042,
+            "ano": 2026,
+            "ementa": "Determina que as despesas de capital e parcela das despesas custeadas com receitas próprias de autarquias federais não sejam alcançadas pelo mecanismo de limitação de empenho e movimentação financeira previsto na LRF, e não sejam incluídas na base de cálculo e nos limites estabelecidos no Novo Arcabouço Fiscal para as despesas primárias do Governo Federal.",
+            "apresentadaEm": "2026-08-12T17:56",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2643283"
+          },
+          {
+            "id": 2641582,
+            "sigla": "PL",
+            "tipo": "Projeto de Lei",
+            "numero": 4784,
+            "ano": 2026,
+            "ementa": "Dispõe sobre a criação e o funcionamento de Cooperativas Solidárias, visando a promoção social da cidadania, da organização coletiva mutualista e dos direitos fundamentais de vida digna, conforme especifica.",
+            "apresentadaEm": "2026-07-24T09:47",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641582"
+          },
+          {
+            "id": 2637237,
+            "sigla": "PL",
+            "tipo": "Projeto de Lei",
+            "numero": 3479,
+            "ano": 2026,
+            "ementa": "Estabelece o marco legal do Registro Nacional de Beneficiários Finais, dispõe sobre a integração, atualização, verificação, interoperabilidade e acesso às informações relativas aos beneficiários finais de pessoas jurídicas e estruturas legais, e fortalece os mecanismos de prevenção à lavagem de dinheiro, corrupção, evasão fiscal, ocultação patrimonial e infiltração da criminaliza organizada na economia formal.",
+            "apresentadaEm": "2026-07-06T13:23",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2637237"
+          },
+          {
+            "id": 2633955,
+            "sigla": "PL",
+            "tipo": "Projeto de Lei",
+            "numero": 3197,
+            "ano": 2026,
+            "ementa": "Acrescenta o art. 81-A à Lei n° 13.146, de 6 de julho de 2015 (Estatuto da Pessoa com Deficiência), para determinar o registro, em boletim de ocorrência, da motivação do fato pela condição de pessoa com deficiência da vítima.",
+            "apresentadaEm": "2026-06-17T19:02",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2633955"
+          },
+          {
+            "id": 2633954,
+            "sigla": "PL",
+            "tipo": "Projeto de Lei",
+            "numero": 3196,
+            "ano": 2026,
+            "ementa": "Altera a Medida Provisória nº 2.228-1, de 6 de setembro de 2001, para dispor sobre exigências adicionais no cumprimento da obrigatoriedade de exibição comercial de obras cinematográficas brasileiras.",
+            "apresentadaEm": "2026-06-17T19:01",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2633954"
+          },
+          {
+            "id": 2632868,
+            "sigla": "REQ",
+            "tipo": "Requerimento de Redistribuição",
+            "numero": 3545,
+            "ano": 2026,
+            "ementa": "Requer a remessa do PL 572/22 à comissão subsequente pelo esgotamento do prazo para apreciação pela Comissão de Desenvolvimento Econômico.",
+            "apresentadaEm": "2026-06-16T19:31",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2632868"
+          },
+          {
+            "id": 2631190,
+            "sigla": "PEC",
+            "tipo": "Proposta de Emenda à Constituição",
+            "numero": 13,
+            "ano": 2026,
+            "ementa": "Altera o art. 9º da Emenda Constitucional nº 132, de 20 de dezembro de 2023, para permitir a concessão de créditos do Imposto sobre Bens e Serviços através de fomento indireto a doadores e patrocinadores de projetos culturais e esportivos.",
+            "apresentadaEm": "2026-06-10T12:08",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2631190"
+          },
+          {
+            "id": 2623492,
+            "sigla": "REQ",
+            "tipo": "Requerimento de Sessão Solene",
+            "numero": 2756,
+            "ano": 2026,
+            "ementa": "Requer a realização de Sessão Solene, no Plenário da Câmara dos Deputados, em homenagem ao Novembro Azul, mês dedicado à conscientização sobre a saúde do homem, com especial atenção à prevenção e ao diagnóstico precoce do câncer de próstata.",
+            "apresentadaEm": "2026-05-11T18:14",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2623492"
+          }
+        ]
       }
     },
     {
@@ -1911,6 +3883,277 @@
             "valor": 1894.53
           }
         ]
+      },
+      "proposicoes": {
+        "porTipo": [
+          {
+            "tipo": "Requerimento de Registro de Frente Parlamentar na Câmara dos Deputados",
+            "sigla": "REQ",
+            "total": 82
+          },
+          {
+            "tipo": "Requerimento de Sessão Solene",
+            "sigla": "REQ",
+            "total": 64
+          },
+          {
+            "tipo": "Emenda na Comissão",
+            "sigla": "EMC",
+            "total": 50
+          },
+          {
+            "tipo": "Projeto de Lei",
+            "sigla": "PL",
+            "total": 34
+          },
+          {
+            "tipo": "Requerimento de Urgência (Art. 155 do RICD)",
+            "sigla": "REQ",
+            "total": 19
+          },
+          {
+            "tipo": "Requerimento de Moção",
+            "sigla": "REQ",
+            "total": 17
+          },
+          {
+            "tipo": "Requerimento de Audiência Pública",
+            "sigla": "REQ",
+            "total": 16
+          },
+          {
+            "tipo": "Recurso contra apreciação conclusiva de comissão (Art. 58, § 1º c/c art. 132, § 2º, RICD)",
+            "sigla": "REC",
+            "total": 12
+          },
+          {
+            "tipo": "Proposta de Emenda à Constituição",
+            "sigla": "PEC",
+            "total": 12
+          },
+          {
+            "tipo": "Sugestão de Emenda à LDO - Comissões",
+            "sigla": "SLD",
+            "total": 9
+          },
+          {
+            "tipo": "Requerimento de Inclusão ou Retirada de Assinatura em Proposição de Iniciativa Individual",
+            "sigla": "REQ",
+            "total": 7
+          },
+          {
+            "tipo": "Sugestão de Emenda ao Orçamento - Comissões",
+            "sigla": "SOR",
+            "total": 7
+          },
+          {
+            "tipo": "Requerimento de Instituição de CPI",
+            "sigla": "RCP",
+            "total": 7
+          },
+          {
+            "tipo": "Requerimento de Quebra de Interstício para Inclusão de Matéria na Ordem do Dia",
+            "sigla": "REQ",
+            "total": 5
+          },
+          {
+            "tipo": "Requerimento para realização ou participação em Seminário, Visita Técnica ou outro Evento",
+            "sigla": "REQ",
+            "total": 4
+          },
+          {
+            "tipo": "Projeto de Lei Complementar",
+            "sigla": "PLP",
+            "total": 4
+          },
+          {
+            "tipo": "Indicação",
+            "sigla": "INC",
+            "total": 4
+          },
+          {
+            "tipo": "Requerimento (Outros)",
+            "sigla": "REQ",
+            "total": 4
+          },
+          {
+            "tipo": "Requerimento de Transformação de Sessão Plenária em Comissão Geral",
+            "sigla": "REQ",
+            "total": 4
+          },
+          {
+            "tipo": "Requerimento de Retirada de Pauta",
+            "sigla": "RPD",
+            "total": 3
+          },
+          {
+            "tipo": "Requerimento de Voto de regozijo ou louvor",
+            "sigla": "REQ",
+            "total": 3
+          },
+          {
+            "tipo": "Recurso contra parecer terminativo de comissão (Art. 132, § 2º c/c art. 144, caput, RICD)",
+            "sigla": "REC",
+            "total": 2
+          },
+          {
+            "tipo": "Processo Interno",
+            "sigla": "PROC",
+            "total": 2
+          },
+          {
+            "tipo": "Adesão a Bloco Parlamentar",
+            "sigla": "DOC",
+            "total": 1
+          },
+          {
+            "tipo": "Requerimento de Prejudicialidade",
+            "sigla": "REQ",
+            "total": 1
+          },
+          {
+            "tipo": "Requerimento de Constituição de Comissão Externa",
+            "sigla": "REQ",
+            "total": 1
+          },
+          {
+            "tipo": "Recurso",
+            "sigla": "REC",
+            "total": 1
+          },
+          {
+            "tipo": "Requerimento",
+            "sigla": "REQ",
+            "total": 1
+          },
+          {
+            "tipo": "Requerimento de Inclusão de Matéria na Ordem do Dia para Apreciação Imediata",
+            "sigla": "RPD",
+            "total": 1
+          },
+          {
+            "tipo": "Requerimento de Constituição de Comissão Especial de PEC",
+            "sigla": "REQ",
+            "total": 1
+          },
+          {
+            "tipo": "Recurso do Conselho de Ética que contraria norma constitucional ou regimental (Art. 13 ou 14, CEDP)",
+            "sigla": "REC",
+            "total": 1
+          },
+          {
+            "tipo": "Requerimento de Apensação",
+            "sigla": "REQ",
+            "total": 1
+          },
+          {
+            "tipo": "Requerimento de Inclusão de Matéria na Ordem do Dia",
+            "sigla": "REQ",
+            "total": 1
+          }
+        ],
+        "recentes": [
+          {
+            "id": 2643776,
+            "sigla": "PL",
+            "tipo": "Projeto de Lei",
+            "numero": 5076,
+            "ano": 2026,
+            "ementa": "Institui a Lei de Proteção da Soberania Econômica Nacional contra a Aplicação Extraterritorial de Medidas Estrangeiras, dispõe sobre a proteção das pessoas submetidas à jurisdição brasileira contra medidas coercitivas unilaterais incompatíveis com o ordenamento jurídico nacional, e dá outras providências.",
+            "apresentadaEm": "2026-08-14T10:28",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2643776"
+          },
+          {
+            "id": 2643283,
+            "sigla": "PL",
+            "tipo": "Projeto de Lei",
+            "numero": 5042,
+            "ano": 2026,
+            "ementa": "Determina que as despesas de capital e parcela das despesas custeadas com receitas próprias de autarquias federais não sejam alcançadas pelo mecanismo de limitação de empenho e movimentação financeira previsto na LRF, e não sejam incluídas na base de cálculo e nos limites estabelecidos no Novo Arcabouço Fiscal para as despesas primárias do Governo Federal.",
+            "apresentadaEm": "2026-08-12T17:56",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2643283"
+          },
+          {
+            "id": 2642712,
+            "sigla": "REQ",
+            "tipo": "Requerimento de Apensação",
+            "numero": 4015,
+            "ano": 2026,
+            "ementa": "Requer o apensamento da Proposta de Emenda à Constituição nº 6, de 2024, à Proposta de Emenda à Constituição nº 555, de 2006.",
+            "apresentadaEm": "2026-08-11T16:21",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2642712"
+          },
+          {
+            "id": 2642711,
+            "sigla": "REQ",
+            "tipo": "Requerimento de Inclusão de Matéria na Ordem do Dia",
+            "numero": 4014,
+            "ano": 2026,
+            "ementa": "Requer a inclusão na ordem do dia do Recurso contra apreciação conclusiva de comissão nº 1/2026 ao Projeto de Lei nº 2.812, de 2022, que revoga a Lei nº 12.318, de 26 de agosto de 2010 - Lei de Alienação Parental.",
+            "apresentadaEm": "2026-08-11T16:17",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2642711"
+          },
+          {
+            "id": 2639472,
+            "sigla": "REQ",
+            "tipo": "Requerimento (Outros)",
+            "numero": 57,
+            "ano": 2026,
+            "ementa": "Requer a apresentação de Emenda de Plenário ao Projeto de Lei nº 896, de 2023.",
+            "apresentadaEm": "2026-07-14T14:48",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2639472"
+          },
+          {
+            "id": 2637801,
+            "sigla": "REQ",
+            "tipo": "Requerimento de Moção",
+            "numero": 3802,
+            "ano": 2026,
+            "ementa": "Requer a aprovação de Moção de Censura e Repúdio às manifestações públicas que atacam o voto feminino, relativizam o sufrágio universal e desqualificam a participação política das mulheres.",
+            "apresentadaEm": "2026-07-07T18:19",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2637801"
+          },
+          {
+            "id": 2637237,
+            "sigla": "PL",
+            "tipo": "Projeto de Lei",
+            "numero": 3479,
+            "ano": 2026,
+            "ementa": "Estabelece o marco legal do Registro Nacional de Beneficiários Finais, dispõe sobre a integração, atualização, verificação, interoperabilidade e acesso às informações relativas aos beneficiários finais de pessoas jurídicas e estruturas legais, e fortalece os mecanismos de prevenção à lavagem de dinheiro, corrupção, evasão fiscal, ocultação patrimonial e infiltração da criminaliza organizada na economia formal.",
+            "apresentadaEm": "2026-07-06T13:23",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2637237"
+          },
+          {
+            "id": 2631190,
+            "sigla": "PEC",
+            "tipo": "Proposta de Emenda à Constituição",
+            "numero": 13,
+            "ano": 2026,
+            "ementa": "Altera o art. 9º da Emenda Constitucional nº 132, de 20 de dezembro de 2023, para permitir a concessão de créditos do Imposto sobre Bens e Serviços através de fomento indireto a doadores e patrocinadores de projetos culturais e esportivos.",
+            "apresentadaEm": "2026-06-10T12:08",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2631190"
+          },
+          {
+            "id": 2629602,
+            "sigla": "REQ",
+            "tipo": "Requerimento de Quebra de Interstício para Inclusão de Matéria na Ordem do Dia",
+            "numero": 3266,
+            "ano": 2026,
+            "ementa": "Requer dispensa de interstício para a inclusão da Redação Final ao Projeto de Lei nº 3.801, de 2004, na Ordem do Dia de sessão plenária.",
+            "apresentadaEm": "2026-06-02T09:44",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2629602"
+          },
+          {
+            "id": 2626432,
+            "sigla": "REQ",
+            "tipo": "Requerimento de Urgência (Art. 155 do RICD)",
+            "numero": 3028,
+            "ano": 2026,
+            "ementa": "Com base no art. 155 do Regimento Interno, requeremos regime de urgência para a apreciação do PL 68/2025.",
+            "apresentadaEm": "2026-05-20T16:40",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2626432"
+          }
+        ]
       }
     },
     {
@@ -2134,6 +4377,362 @@
           {
             "competencia": "2026-07",
             "valor": 11044.169999999998
+          }
+        ]
+      },
+      "proposicoes": {
+        "porTipo": [
+          {
+            "tipo": "Requerimento de Informação",
+            "sigla": "RIC",
+            "total": 268
+          },
+          {
+            "tipo": "Requerimento de Registro de Frente Parlamentar na Câmara dos Deputados",
+            "sigla": "REQ",
+            "total": 196
+          },
+          {
+            "tipo": "Requerimento de Sessão Solene",
+            "sigla": "REQ",
+            "total": 181
+          },
+          {
+            "tipo": "Projeto de Lei",
+            "sigla": "PL",
+            "total": 102
+          },
+          {
+            "tipo": "Requerimento de Moção",
+            "sigla": "REQ",
+            "total": 97
+          },
+          {
+            "tipo": "Indicação",
+            "sigla": "INC",
+            "total": 59
+          },
+          {
+            "tipo": "Projeto de Decreto Legislativo de Sustação de Atos Normativos do Poder Executivo",
+            "sigla": "PDL",
+            "total": 55
+          },
+          {
+            "tipo": "Solicitação de Informação ao TCU",
+            "sigla": "SIT",
+            "total": 33
+          },
+          {
+            "tipo": "Requerimento de Urgência (Art. 155 do RICD)",
+            "sigla": "REQ",
+            "total": 28
+          },
+          {
+            "tipo": "Proposta de Emenda à Constituição",
+            "sigla": "PEC",
+            "total": 28
+          },
+          {
+            "tipo": "Requerimento de Inclusão ou Retirada de Assinatura em Proposição de Iniciativa Individual",
+            "sigla": "REQ",
+            "total": 27
+          },
+          {
+            "tipo": "Emenda na Comissão",
+            "sigla": "EMC",
+            "total": 26
+          },
+          {
+            "tipo": "Requerimento de Instituição de CPI",
+            "sigla": "RCP",
+            "total": 18
+          },
+          {
+            "tipo": "Processo Interno",
+            "sigla": "PROC",
+            "total": 13
+          },
+          {
+            "tipo": "Requerimento (Outros)",
+            "sigla": "REQ",
+            "total": 12
+          },
+          {
+            "tipo": "Requerimento de Voto de regozijo ou louvor",
+            "sigla": "REQ",
+            "total": 10
+          },
+          {
+            "tipo": "Requerimento de Audiência Pública",
+            "sigla": "REQ",
+            "total": 10
+          },
+          {
+            "tipo": "Recurso contra apreciação conclusiva de comissão (Art. 58, § 1º c/c art. 132, § 2º, RICD)",
+            "sigla": "REC",
+            "total": 8
+          },
+          {
+            "tipo": "Requerimento de Convocação de Ministro de Estado no Plenário (art. 50, CF)",
+            "sigla": "REQ",
+            "total": 8
+          },
+          {
+            "tipo": "Requerimento para envio de Requerimento de Informação pela Comissão",
+            "sigla": "REQ",
+            "total": 8
+          },
+          {
+            "tipo": "Requerimento de Inclusão de Matéria na Ordem do Dia",
+            "sigla": "REQ",
+            "total": 8
+          },
+          {
+            "tipo": "Requerimento de Voto de pesar",
+            "sigla": "REQ",
+            "total": 6
+          },
+          {
+            "tipo": "Requerimento de Convocação em CPI (art. 58, §3º, CF)",
+            "sigla": "REQ",
+            "total": 6
+          },
+          {
+            "tipo": "Recurso contra parecer terminativo de comissão (Art. 132, § 2º c/c art. 144, caput, RICD)",
+            "sigla": "REC",
+            "total": 6
+          },
+          {
+            "tipo": "Requerimento para realização ou participação em Seminário, Visita Técnica ou outro Evento",
+            "sigla": "REQ",
+            "total": 5
+          },
+          {
+            "tipo": "Requerimento de Requisição de Informação e Documentação em CPI (art. 58, §3º, CF)",
+            "sigla": "REQ",
+            "total": 5
+          },
+          {
+            "tipo": "Projeto de Lei Complementar",
+            "sigla": "PLP",
+            "total": 5
+          },
+          {
+            "tipo": "Requerimento de Retirada de Proposição de Iniciativa Individual",
+            "sigla": "REQ",
+            "total": 4
+          },
+          {
+            "tipo": "Projeto de Resolução de Alteração do Regimento e outros",
+            "sigla": "PRC",
+            "total": 3
+          },
+          {
+            "tipo": "Requerimento de Transformação de Sessão Plenária em Comissão Geral",
+            "sigla": "REQ",
+            "total": 3
+          },
+          {
+            "tipo": "Projeto de Decreto Legislativo",
+            "sigla": "PDL",
+            "total": 3
+          },
+          {
+            "tipo": "Requerimento de Constituição de Comissão Externa",
+            "sigla": "REQ",
+            "total": 2
+          },
+          {
+            "tipo": "Requerimento de Convocação de Ministro de Estado na Comissão (art. 50, CF)",
+            "sigla": "REQ",
+            "total": 2
+          },
+          {
+            "tipo": "Projeto de Resolução",
+            "sigla": "PRC",
+            "total": 2
+          },
+          {
+            "tipo": "Instalação de Grupo Parlamentar na Câmara dos Deputados",
+            "sigla": "DOC",
+            "total": 2
+          },
+          {
+            "tipo": "Requerimento de Quebra de Interstício para Inclusão de Matéria na Ordem do Dia",
+            "sigla": "REQ",
+            "total": 2
+          },
+          {
+            "tipo": "Emenda ao Substitutivo",
+            "sigla": "ESB",
+            "total": 2
+          },
+          {
+            "tipo": "Alteração em Grupo Parlamentar Instalado na Câmara dos Deputados",
+            "sigla": "DOC",
+            "total": 2
+          },
+          {
+            "tipo": "Requerimento de Apensação",
+            "sigla": "REQ",
+            "total": 2
+          },
+          {
+            "tipo": "Requerimento de Retirada de Proposição de Iniciativa Coletiva",
+            "sigla": "REQ",
+            "total": 1
+          },
+          {
+            "tipo": "Recurso contra decisão de Presidente de Comissão em Questão de Ordem (Art. 57, XXI c/c art. 17, III, f, RICD)",
+            "sigla": "REC",
+            "total": 1
+          },
+          {
+            "tipo": "Recurso",
+            "sigla": "REC",
+            "total": 1
+          },
+          {
+            "tipo": "Requerimento de Redistribuição",
+            "sigla": "REQ",
+            "total": 1
+          },
+          {
+            "tipo": "Requerimento para envio de ofício solicitando informações",
+            "sigla": "REQ",
+            "total": 1
+          },
+          {
+            "tipo": "Alteração em Frente Parlamentar Registrada na Câmara dos Deputados",
+            "sigla": "DOC",
+            "total": 1
+          },
+          {
+            "tipo": "Requerimento",
+            "sigla": "REQ",
+            "total": 1
+          },
+          {
+            "tipo": "Requerimento de Retirada de Proposição",
+            "sigla": "REQ",
+            "total": 1
+          },
+          {
+            "tipo": "Requerimento de Desapensação",
+            "sigla": "REQ",
+            "total": 1
+          },
+          {
+            "tipo": "Requerimento de Urgência (Art. 154, II, do RICD)",
+            "sigla": "REQ",
+            "total": 1
+          },
+          {
+            "tipo": "Requerimento para envio de Indicação pela Comissão",
+            "sigla": "REQ",
+            "total": 1
+          }
+        ],
+        "recentes": [
+          {
+            "id": 2644800,
+            "sigla": "PEC",
+            "tipo": "Proposta de Emenda à Constituição",
+            "numero": 16,
+            "ano": 2026,
+            "ementa": "Acrescenta os art. 68-A no Ato das Disposições Constitucionais Transitórias para ratificar os registros de imóveis rurais em faixa de fronteira concedidos pelos estados antes da promulgação desta Constituição Federal e dá outras providências.",
+            "apresentadaEm": "2026-08-28T15:16",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2644800"
+          },
+          {
+            "id": 2644031,
+            "sigla": "RIC",
+            "tipo": "Requerimento de Informação",
+            "numero": 2457,
+            "ano": 2026,
+            "ementa": "Requer informações ao Senhor Ministro de Estado da Fazenda acerca dos recordes de inadimplência de empresas brasileiras - com ênfase nas micro e pequenas empresas -, da eficácia das medidas governamentais adotadas e do impacto do ambiente macroeconômico sobre o setor produtivo nacional.",
+            "apresentadaEm": "2026-08-18T18:32",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2644031"
+          },
+          {
+            "id": 2643965,
+            "sigla": "RIC",
+            "tipo": "Requerimento de Informação",
+            "numero": 2452,
+            "ano": 2026,
+            "ementa": "Solicita informações complementares ao Senhor Ministro de Estado da Agricultura e Pecuária, em aditamento ao Requerimento de Informação nº 1.298/2026, acerca da exclusão do Brasil da lista de países autorizados a exportar produtos de origem animal para a União Europeia, em razão das novas exigências relativas ao uso de antimicrobianos na produção animal.",
+            "apresentadaEm": "2026-08-18T13:30",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2643965"
+          },
+          {
+            "id": 2643934,
+            "sigla": "PL",
+            "tipo": "Projeto de Lei",
+            "numero": 5097,
+            "ano": 2026,
+            "ementa": "Institui o Programa Nacional Antes do Sim, destinado à preparação para relações conjugais saudáveis e à prevenção da violência doméstica e familiar no âmbito de ações públicas de casamento coletivo ou comunitário e de iniciativas executadas em cooperação com a Justiça Itinerante; altera a Lei nº 11.340, de 7 de agosto de 2006; e dá outras providências.",
+            "apresentadaEm": "2026-08-17T18:42",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2643934"
+          },
+          {
+            "id": 2643925,
+            "sigla": "PL",
+            "tipo": "Projeto de Lei",
+            "numero": 5095,
+            "ano": 2026,
+            "ementa": "Altera a Lei nº 13.146, de 6 de julho de 2015 - Estatuto da Pessoa com Deficiência, para vedar a exigência de comprovação de renda, patrimônio ou inscrição em benefícios e programas assistenciais para a expedição e renovação de credencial de estacionamento reservado à pessoa com deficiência.",
+            "apresentadaEm": "2026-08-17T17:49",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2643925"
+          },
+          {
+            "id": 2643726,
+            "sigla": "INC",
+            "tipo": "Indicação",
+            "numero": 1527,
+            "ano": 2026,
+            "ementa": "Sugere ao Ministério da Saúde a adoção das providências necessárias para dar celeridade à incorporação da Profilaxia Pré-Exposição (PrEP) injetável de longa duração (cabotegravir)  ao Sistema Único de Saúde (SUS) para prevenção ao HIV.",
+            "apresentadaEm": "2026-08-13T15:08",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2643726"
+          },
+          {
+            "id": 2643681,
+            "sigla": "REQ",
+            "tipo": "Requerimento de Inclusão de Matéria na Ordem do Dia",
+            "numero": 4051,
+            "ano": 2026,
+            "ementa": "Requer a inclusão na Ordem do Dia do Plenário para votação imediata do PLP 42/2023, que regulamenta o art. 201, § 1º, inciso II, da Constituição Federal, para dispor sobre os requisitos e critérios diferenciados para a concessão de aposentadoria aos beneficiários do regime geral de previdência social, nos casos de atividades exercidas sob condições especiais que prejudiquem a saúde, e dá outras providências.",
+            "apresentadaEm": "2026-08-13T13:20",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2643681"
+          },
+          {
+            "id": 2643662,
+            "sigla": "REC",
+            "tipo": "Recurso contra apreciação conclusiva de comissão (Art. 58, § 1º c/c art. 132, § 2º, RICD)",
+            "numero": 18,
+            "ano": 2026,
+            "ementa": "Recurso contra a apreciação conclusiva do Projeto de Lei nº 5.094, de 2019",
+            "apresentadaEm": "2026-08-13T12:43",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2643662"
+          },
+          {
+            "id": 2643409,
+            "sigla": "RIC",
+            "tipo": "Requerimento de Informação",
+            "numero": 2405,
+            "ano": 2026,
+            "ementa": "Requer informações à Advocacia-Geral da União acerca da efetividade e da transparência na recuperação de recursos públicos adiantados para o ressarcimento de segurados do INSS vítimas de fraudes em descontos associativos.",
+            "apresentadaEm": "2026-08-12T20:21",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2643409"
+          },
+          {
+            "id": 2643401,
+            "sigla": "RIC",
+            "tipo": "Requerimento de Informação",
+            "numero": 2404,
+            "ano": 2026,
+            "ementa": "Requer informações ao Ministro de Estado da Previdência Social acerca da efetividade e da transparência na recuperação de recursos públicos adiantados para o ressarcimento de segurados do INSS vítimas de fraudes em descontos associativos.",
+            "apresentadaEm": "2026-08-12T20:03",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2643401"
           }
         ]
       }
@@ -2374,6 +4973,252 @@
           {
             "competencia": "2026-08",
             "valor": 5573.839999999999
+          }
+        ]
+      },
+      "proposicoes": {
+        "porTipo": [
+          {
+            "tipo": "Requerimento de Registro de Frente Parlamentar na Câmara dos Deputados",
+            "sigla": "REQ",
+            "total": 300
+          },
+          {
+            "tipo": "Requerimento de Sessão Solene",
+            "sigla": "REQ",
+            "total": 171
+          },
+          {
+            "tipo": "Requerimento de Inclusão ou Retirada de Assinatura em Proposição de Iniciativa Individual",
+            "sigla": "REQ",
+            "total": 28
+          },
+          {
+            "tipo": "Projeto de Lei",
+            "sigla": "PL",
+            "total": 20
+          },
+          {
+            "tipo": "Proposta de Emenda à Constituição",
+            "sigla": "PEC",
+            "total": 19
+          },
+          {
+            "tipo": "Requerimento de Audiência Pública",
+            "sigla": "REQ",
+            "total": 12
+          },
+          {
+            "tipo": "Requerimento de Urgência (Art. 155 do RICD)",
+            "sigla": "REQ",
+            "total": 8
+          },
+          {
+            "tipo": "Processo Interno",
+            "sigla": "PROC",
+            "total": 5
+          },
+          {
+            "tipo": "Indicação",
+            "sigla": "INC",
+            "total": 3
+          },
+          {
+            "tipo": "Requerimento de Transformação de Sessão Plenária em Comissão Geral",
+            "sigla": "REQ",
+            "total": 3
+          },
+          {
+            "tipo": "Requerimento de Instituição de CPI",
+            "sigla": "RCP",
+            "total": 3
+          },
+          {
+            "tipo": "Projeto de Resolução",
+            "sigla": "PRC",
+            "total": 3
+          },
+          {
+            "tipo": "Requerimento de Moção",
+            "sigla": "REQ",
+            "total": 2
+          },
+          {
+            "tipo": "Requerimento de Inclusão de Matéria na Ordem do Dia",
+            "sigla": "REQ",
+            "total": 2
+          },
+          {
+            "tipo": "Instalação de Grupo Parlamentar na Câmara dos Deputados",
+            "sigla": "DOC",
+            "total": 2
+          },
+          {
+            "tipo": "Requerimento de Informação",
+            "sigla": "RIC",
+            "total": 2
+          },
+          {
+            "tipo": "Requerimento de Inclusão ou Retirada de Assinatura em Proposição de Iniciativa Coletiva Obrigatória",
+            "sigla": "REQ",
+            "total": 2
+          },
+          {
+            "tipo": "Indicação de Líder de Partido ou Bloco Parlamentar",
+            "sigla": "DOC",
+            "total": 1
+          },
+          {
+            "tipo": "Requerimento de Constituição de Comissão Externa",
+            "sigla": "REQ",
+            "total": 1
+          },
+          {
+            "tipo": "Projeto de Lei Complementar",
+            "sigla": "PLP",
+            "total": 1
+          },
+          {
+            "tipo": "Requerimento (Outros)",
+            "sigla": "REQ",
+            "total": 1
+          },
+          {
+            "tipo": "Requerimento de Retirada de Proposição de Iniciativa Coletiva",
+            "sigla": "REQ",
+            "total": 1
+          },
+          {
+            "tipo": "Recurso contra parecer terminativo de comissão (Art. 132, § 2º c/c art. 144, caput, RICD)",
+            "sigla": "REC",
+            "total": 1
+          },
+          {
+            "tipo": "Requerimento de Apensação",
+            "sigla": "REQ",
+            "total": 1
+          },
+          {
+            "tipo": "Desligamento de Bloco Parlamentar",
+            "sigla": "DOC",
+            "total": 1
+          },
+          {
+            "tipo": "Projeto de Decreto Legislativo de Sustação de Atos Normativos do Poder Executivo",
+            "sigla": "PDL",
+            "total": 1
+          },
+          {
+            "tipo": "Requerimento de Voto de regozijo ou louvor",
+            "sigla": "REQ",
+            "total": 1
+          },
+          {
+            "tipo": "Requerimento de Redistribuição",
+            "sigla": "REQ",
+            "total": 1
+          }
+        ],
+        "recentes": [
+          {
+            "id": 2644734,
+            "sigla": "REQ",
+            "tipo": "Requerimento de Registro de Frente Parlamentar na Câmara dos Deputados",
+            "numero": 4125,
+            "ano": 2026,
+            "ementa": "Requer a criação da Frente Parlamentar Mista pela Integração Continental e Desenvolvimento Sul-Americano",
+            "apresentadaEm": "2026-08-27T15:19",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2644734"
+          },
+          {
+            "id": 2643745,
+            "sigla": "INC",
+            "tipo": "Indicação",
+            "numero": 1528,
+            "ano": 2026,
+            "ementa": "Sugere ao Ministério do Turismo a realização de análise técnica com vistas à estruturação da Rota Turística Imperial São Pedro de Alcântara, nos Estados do Espírito Santo e de Minas Gerais.",
+            "apresentadaEm": "2026-08-13T17:10",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2643745"
+          },
+          {
+            "id": 2641582,
+            "sigla": "PL",
+            "tipo": "Projeto de Lei",
+            "numero": 4784,
+            "ano": 2026,
+            "ementa": "Dispõe sobre a criação e o funcionamento de Cooperativas Solidárias, visando a promoção social da cidadania, da organização coletiva mutualista e dos direitos fundamentais de vida digna, conforme especifica.",
+            "apresentadaEm": "2026-07-24T09:47",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641582"
+          },
+          {
+            "id": 2631510,
+            "sigla": "REQ",
+            "tipo": "Requerimento de Sessão Solene",
+            "numero": 3475,
+            "ano": 2026,
+            "ementa": "Requer a realização de sessão solene em homenagem aos 30 anos do Programa de Avaliação Seriada da Universidade de Brasília - PAS/UnB.",
+            "apresentadaEm": "2026-06-10T17:48",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2631510"
+          },
+          {
+            "id": 2631190,
+            "sigla": "PEC",
+            "tipo": "Proposta de Emenda à Constituição",
+            "numero": 13,
+            "ano": 2026,
+            "ementa": "Altera o art. 9º da Emenda Constitucional nº 132, de 20 de dezembro de 2023, para permitir a concessão de créditos do Imposto sobre Bens e Serviços através de fomento indireto a doadores e patrocinadores de projetos culturais e esportivos.",
+            "apresentadaEm": "2026-06-10T12:08",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2631190"
+          },
+          {
+            "id": 2630553,
+            "sigla": "REQ",
+            "tipo": "Requerimento de Redistribuição",
+            "numero": 3386,
+            "ano": 2026,
+            "ementa": "Requer ao Presidente da Câmara dos Deputados a distribuição do Projeto de Lei nº 2.472, de 2022, oriundo do Senado Federal, visando sua remessa às comissões permanentes dotadas de competência regimental para análise da matéria.",
+            "apresentadaEm": "2026-06-09T14:08",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2630553"
+          },
+          {
+            "id": 2613880,
+            "sigla": "REQ",
+            "tipo": "Requerimento de Moção",
+            "numero": 1927,
+            "ano": 2026,
+            "ementa": "Requer Moção de Louvor pela destacada trajetória profissional, acadêmica e humanitária do Sr. André Canali Pereira, em reconhecimento à sua relevante contribuição à fisioterapia, à promoção da saúde e à dignidade da pessoa idosa no Estado do Espírito Santo.",
+            "apresentadaEm": "2026-04-07T16:20",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2613880"
+          },
+          {
+            "id": 2604857,
+            "sigla": "REQ",
+            "tipo": "Requerimento de Registro de Frente Parlamentar na Câmara dos Deputados",
+            "numero": 1132,
+            "ano": 2026,
+            "ementa": "Requer a instalação da Frente Parlamentar Mista em apoio à Integração União Europeia – Mercosul.",
+            "apresentadaEm": "2026-02-25T18:05",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2604857"
+          },
+          {
+            "id": 2600034,
+            "sigla": "RCP",
+            "tipo": "Requerimento de Instituição de CPI",
+            "numero": 1,
+            "ano": 2026,
+            "ementa": "Requer a criação de Comissão Parlamentar de Inquérito para investigar as fraudes financeiras ocorridas na relação entre o Banco Master e o Banco Regional de Brasília – BRB.",
+            "apresentadaEm": "2026-02-02T09:54",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2600034"
+          },
+          {
+            "id": 2598197,
+            "sigla": "REQ",
+            "tipo": "Requerimento de Registro de Frente Parlamentar na Câmara dos Deputados",
+            "numero": 6008,
+            "ano": 2025,
+            "ementa": "Requer a criação e registro da Frente Parlamentar Mista do Ambiente de Negócios (FPN).",
+            "apresentadaEm": "2025-12-17T12:38",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2598197"
           }
         ]
       }

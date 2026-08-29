@@ -145,6 +145,40 @@ export interface Despesas {
   porMes: DespesaPorMes[];
 }
 
+export interface ProposicaoPorTipo {
+  /** Nome por extenso: "Requerimento de Audiência Pública". */
+  tipo: string;
+  /** Sigla da fonte. Varias siglas iguais tem tipos diferentes. */
+  sigla: string;
+  total: number;
+}
+
+export interface ProposicaoRecente {
+  id: number;
+  sigla: string;
+  tipo: string;
+  numero: number;
+  ano: number;
+  ementa: string | null;
+  apresentadaEm: string | null;
+  paginaOficial: string;
+}
+
+/**
+ * Autoria na Camara.
+ *
+ * `porTipo` e a visao principal, e NAO existe um total. Entre os dez
+ * deputados do ES um apresentou 284 proposicoes e outro 2.843, com a
+ * diferenca quase toda em requerimento. Um numero unico leria como
+ * "produtivo" contra "improdutivo" — o ranking involuntario que a
+ * regra 4 proibe. `recentes` existe para a ficha poder dizer DO QUE se
+ * trata, nao so quantas foram.
+ */
+export interface Proposicoes {
+  porTipo: ProposicaoPorTipo[];
+  recentes: ProposicaoRecente[];
+}
+
 export interface Parlamentar {
   id: string;
   idExterno: number;
@@ -164,6 +198,7 @@ export interface Parlamentar {
   urlFotoOficial: string | null;
   paginaOficial: string;
   despesas: Despesas;
+  proposicoes: Proposicoes;
 }
 
 /**
@@ -185,6 +220,70 @@ export interface ArquivoParlamentares {
   coletadoEm: string;
   referencia: ReferenciaBancada;
   parlamentares: Parlamentar[];
+}
+
+/* ------------------------------------------------------------------ */
+/*  Votacoes nominais do plenario — Camara                             */
+/* ------------------------------------------------------------------ */
+
+/**
+ * Como um parlamentar do estado votou numa votacao.
+ *
+ * `voto` e a direcao ("Sim", "Não", "Abstenção") e pode ser nula.
+ * `registro` e a palavra crua da fonte, que no Senado distingue
+ * ausencia justificada, licenca e voto secreto. A Camara so devolve
+ * direcao, entao la os dois campos coincidem.
+ */
+export interface VotoDoEstado {
+  idExterno: number;
+  nome: string;
+  partido: string | null;
+  voto: string | null;
+  registro?: string | null;
+}
+
+export interface ProposicaoVotada {
+  id: number;
+  sigla: string | null;
+  numero: number | null;
+  ano: number | null;
+  ementa: string | null;
+  paginaOficial: string;
+}
+
+export interface VotacaoCamara {
+  id: string;
+  data: string | null;
+  registradaEm: string | null;
+  descricao: string | null;
+  aprovada: boolean;
+  proposicao: ProposicaoVotada | null;
+  /** Contado dos votos individuais, nunca lido do texto da fonte. */
+  placar: { voto: string; total: number }[];
+  votantes: number;
+  votosDoEstado: VotoDoEstado[];
+}
+
+/**
+ * O criterio vai junto com a lista, e nao no codigo da pagina: sem ele
+ * "20 votações" parece selecao editorial em vez de recorte mecanico
+ * pelas mais recentes.
+ */
+export interface CriterioVotacoes {
+  orgao: string;
+  tipo: string;
+  quantidade: number;
+  ordem: string;
+  sondagens: number;
+}
+
+export interface ArquivoVotacoes {
+  fonte: Fonte;
+  uf: string;
+  legislatura: number;
+  coletadoEm: string;
+  criterio: CriterioVotacoes;
+  votacoes: VotacaoCamara[];
 }
 
 /** Estado de busca e filtros, espelhado na query string da URL. */
@@ -237,10 +336,37 @@ export interface Senador {
   paginaOficial: string;
 }
 
+/**
+ * Votacao de plenario no Senado.
+ *
+ * `secreta` nao e detalhe burocratico: dois tercos das votacoes
+ * nominais do periodo sao secretas, quase todas de indicacao de
+ * autoridade. Nelas a fonte publica "Votou" — que a pessoa votou, nao
+ * como —, e a tela precisa dizer isso, sob pena de o campo mudo ser
+ * lido como ausencia.
+ */
+export interface VotacaoSenado {
+  id: string;
+  data: string | null;
+  /** "PLP 55/2026" */
+  materia: string | null;
+  ementa: string | null;
+  descricao: string | null;
+  resultado: string | null;
+  secreta: boolean;
+  votosDoEstado: VotoDoEstado[];
+}
+
 export interface ArquivoSenadores {
   fonte: Fonte;
   uf: string;
   anos: number[];
   coletadoEm: string;
   senadores: Senador[];
+  /**
+   * Fora dos senadores de proposito: os tres votam nas mesmas sessoes,
+   * e repetir a ementa dentro de cada um triplicava o arquivo, que e
+   * commitado todo dia.
+   */
+  votacoes: VotacaoSenado[];
 }

@@ -1,15 +1,19 @@
 import candidaturasJson from "@/data/es/candidaturas-2026.json";
 import parlamentaresJson from "@/data/es/deputados-federais.json";
 import senadoresJson from "@/data/es/senadores.json";
+import votacoesJson from "@/data/es/votacoes-camara.json";
 import { CARGOS } from "@/types";
 import type {
   ArquivoCandidaturas,
   ArquivoParlamentares,
   ArquivoSenadores,
+  ArquivoVotacoes,
   Candidatura,
   Cargo,
   Parlamentar,
   Senador,
+  VotacaoCamara,
+  VotacaoSenado,
 } from "@/types";
 
 /**
@@ -25,11 +29,16 @@ const arquivoCandidaturas = candidaturasJson as unknown as ArquivoCandidaturas;
 const arquivoParlamentares =
   parlamentaresJson as unknown as ArquivoParlamentares;
 const arquivoSenadores = senadoresJson as unknown as ArquivoSenadores;
+const arquivoVotacoes = votacoesJson as unknown as ArquivoVotacoes;
 
 export const candidaturas = arquivoCandidaturas.candidaturas;
 export const parlamentares = arquivoParlamentares.parlamentares;
 export const referenciaBancada = arquivoParlamentares.referencia;
 export const senadores = arquivoSenadores.senadores;
+export const votacoesCamara = arquivoVotacoes.votacoes;
+export const votacoesSenado = arquivoSenadores.votacoes;
+export const CRITERIO_VOTACOES = arquivoVotacoes.criterio;
+export const COLETADO_EM_VOTACOES = arquivoVotacoes.coletadoEm;
 
 export const ELEICAO = arquivoCandidaturas.eleicao;
 export const FONTE_TSE = arquivoCandidaturas.fonte;
@@ -107,6 +116,99 @@ export function obterMandatoSenado(candidatura: Candidatura): Senador | null {
 
   const achados = senadores.filter((s) => normalizar(s.nomeCivil) === civil);
   return achados.length === 1 ? achados[0] : null;
+}
+
+/**
+ * As votacoes nominais em que este deputado registrou voto.
+ *
+ * Filtra em vez de contar: a ficha mostra COMO a pessoa votou em cada
+ * uma, com a ementa ao lado. Nao existe funcao que devolva "votou com
+ * o partido em X%" nem placar de presenca — indice desse tipo e
+ * avaliacao disfarcada de estatistica, e a regra 4 nao a permite nem
+ * com denominador, porque nao ha denominador honesto para "acerto".
+ *
+ * Uma votacao em que o deputado nao aparece nao vira linha vazia: ele
+ * pode nao estar em exercicio na data. Dizer "faltou" sem saber disso
+ * seria acusar sem fonte.
+ */
+export function votacoesDoDeputado(
+  parlamentar: Parlamentar,
+): { votacao: VotacaoCamara; voto: string }[] {
+  const saida = [];
+  for (const votacao of votacoesCamara) {
+    const registro = votacao.votosDoEstado.find(
+      (v) => v.idExterno === parlamentar.idExterno,
+    );
+    if (registro?.voto) saida.push({ votacao, voto: registro.voto });
+  }
+  return saida;
+}
+
+/**
+ * Mesma regra da Camara, aplicada as votacoes do Senado.
+ *
+ * O corte em `QUANTAS_VOTACOES` nao e economia de bytes: a coleta traz
+ * 355 votacoes por senador, e uma tabela de 355 linhas com ementa nao
+ * se le — vira parede. A ficha mostra as mais recentes e diz que sao
+ * as mais recentes, do mesmo jeito que a lista de candidaturas pagina
+ * e a de materias corta em 12.
+ */
+export function votacoesDoSenador(
+  senador: Senador,
+): { votacao: VotacaoSenado; registro: string }[] {
+  const saida = [];
+  for (const votacao of votacoesSenado) {
+    const voto = votacao.votosDoEstado.find(
+      (v) => v.idExterno === senador.idExterno,
+    );
+    const registro = voto?.registro ?? voto?.voto;
+    if (registro) saida.push({ votacao, registro });
+  }
+  return saida.slice(0, QUANTAS_VOTACOES);
+}
+
+/**
+ * Quantas votacoes a ficha mostra. Igual nas duas casas de proposito:
+ * a diferenca entre as fichas deve vir do que a fonte entrega, nunca
+ * de escolha nossa de tamanho.
+ */
+export const QUANTAS_VOTACOES = CRITERIO_VOTACOES.quantidade;
+
+/**
+ * Traducao dos codigos de voto do Senado.
+ *
+ * ESTE TEXTO E DA PLATAFORMA, NAO DA FONTE. O Senado devolve so a
+ * sigla ("P-NRV", "AP", "LS") e nao publica a legenda em nenhum
+ * endpoint de dados abertos — foi procurada em 28/08/2026 e nao
+ * existe. Como a regra 5 manda separar o que e nosso do que e da
+ * fonte, a tela mostra a sigla original ao lado da traducao, e o
+ * codigo desconhecido aparece cru em vez de virar chute.
+ *
+ * Nenhum destes rotulos carrega juizo: "não registrou voto" descreve o
+ * que consta, e nao acusa ausencia — o senador pode estar em sessao e
+ * nao votar por muitos motivos legitimos.
+ */
+const LEGENDA_SENADO: Record<string, string> = {
+  Sim: "Sim",
+  Não: "Não",
+  Abstenção: "Abstenção",
+  Votou: "Votou (votação secreta)",
+  "P-NRV": "Presente, não registrou voto",
+  AP: "Ausente em atividade parlamentar",
+  LS: "Ausente em licença de saúde",
+  LP: "Ausente em licença particular",
+  MIS: "Ausente em missão oficial",
+  NCom: "Não compareceu",
+};
+
+export function traduzirVotoSenado(sigla: string): {
+  rotulo: string;
+  conhecido: boolean;
+} {
+  const rotulo = LEGENDA_SENADO[sigla];
+  return rotulo
+    ? { rotulo, conhecido: true }
+    : { rotulo: sigla, conhecido: false };
 }
 
 export function contarPorCargo(): { cargo: Cargo; total: number }[] {

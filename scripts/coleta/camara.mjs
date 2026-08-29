@@ -30,6 +30,26 @@ const API = "https://dadosabertos.camara.leg.br/api/v2";
 const LEGISLATURA = 57;
 const UF = "ES";
 
+/**
+ * Anos da legislatura, usados para varrer proposicoes.
+ *
+ * ARMADILHA: /proposicoes NAO aceita `idLegislatura` — devolve 400 com
+ * `"instance":"idLegislatura"`. E o filtro por intervalo de datas
+ * recusa qualquer janela maior que 3 meses. O que resta e `ano=`, um
+ * ano por requisicao. Verificado em 28/08/2026.
+ */
+const ANOS = [2023, 2024, 2025, 2026];
+
+/**
+ * Quantas proposicoes recentes guardar por parlamentar, com ementa.
+ *
+ * A contagem por tipo cobre todas; esta lista existe so para a ficha
+ * poder mostrar DO QUE se trata, e nao apenas quantas foram. Guardar
+ * todas seria caro sem servir a ninguem: um deputado do ES tem 2.843
+ * nesta legislatura, e o arquivo e commitado todo dia.
+ */
+const RECENTES = 10;
+
 const FONTE = {
   nome: "Câmara dos Deputados — Dados Abertos",
   url: "https://dadosabertos.camara.leg.br/",
@@ -108,6 +128,104 @@ async function coletarDespesas(id, proveniencias) {
 }
 
 /**
+ * Tabela de tipos de proposicao (codTipo -> nome por extenso).
+ *
+ * Existe porque a sigla mente por omissao: `REQ` cobre desde
+ * requerimento de audiencia publica ate requerimento de sessao solene,
+ * com codTipo diferente para cada um. Agrupar pela sigla juntaria
+ * coisas de peso muito diferente — que e exatamente o erro que a ficha
+ * de senador ja evita ao nao somar materias.
+ *
+ * Uma requisicao, no comeco da coleta, para as 544 linhas.
+ */
+async function coletarTiposProposicao(proveniencias) {
+  const url = `${API}/referencias/tiposProposicao`;
+  const { texto, dados } = await buscarJson(url);
+  proveniencias.push(
+    await guardarBruto("camara/tipos-proposicao.json", texto, url),
+  );
+
+  const porCodigo = new Map();
+  for (const t of dados.dados ?? []) {
+    // A fonte devolve nome com espaco sobrando ("Indicação ").
+    porCodigo.set(Number(t.cod), String(t.nome ?? "").trim() || t.sigla);
+  }
+  return porCodigo;
+}
+
+/**
+ * Proposicoes de autoria do parlamentar na legislatura.
+ *
+ * Um ano por requisicao, pelo motivo explicado em ANOS. A juncao por
+ * `id` protege contra a mesma proposicao vir em dois anos — o filtro e
+ * pelo ano da proposicao, nao pelo da apresentacao, e os dois divergem
+ * em proposicao reapresentada.
+ */
+async function coletarProposicoes(id, proveniencias) {
+  const porId = new Map();
+  for (const ano of ANOS) {
+    const url = `${API}/proposicoes?idDeputadoAutor=${id}&ano=${ano}&ordem=DESC&ordenarPor=id`;
+    const lote = await paginar(url);
+    for (const p of lote) porId.set(p.id, p);
+  }
+
+  const lista = [...porId.values()];
+  proveniencias.push(
+    await guardarBruto(
+      `camara/proposicoes-${id}.json`,
+      JSON.stringify(lista),
+      `${API}/proposicoes?idDeputadoAutor=${id}&ano={${ANOS.join(",")}}`,
+    ),
+  );
+  return lista;
+}
+
+/**
+ * Agrupa proposicoes por tipo e separa as mais recentes.
+ *
+ * NAO devolve um total unico, pela mesma razao que a ficha de senador
+ * nao soma materias: entre os deputados do ES um tem 284 proposicoes e
+ * outro tem 2.843, e a diferenca e quase toda de requerimento. Um
+ * numero so leria como "produtivo" contra "improdutivo" e produziria o
+ * ranking que o site inteiro recusa (docs/principios.md, regra 4).
+ */
+function agruparProposicoes(lista, tipos) {
+  const porTipo = new Map();
+  for (const p of lista) {
+    const nome = tipos.get(Number(p.codTipo)) ?? p.siglaTipo ?? "Não informado";
+    const atual = porTipo.get(nome) ?? { tipo: nome, sigla: p.siglaTipo, total: 0 };
+    atual.total++;
+    porTipo.set(nome, atual);
+  }
+
+  /* Desempate pelo id: sem ele, proposicoes da mesma data trocam de
+     lugar entre coletas e poluem o diff diario com ruido. */
+  const recentes = [...lista]
+    .sort(
+      (a, b) =>
+        String(b.dataApresentacao ?? "").localeCompare(
+          String(a.dataApresentacao ?? ""),
+        ) || b.id - a.id,
+    )
+    .slice(0, RECENTES)
+    .map((p) => ({
+      id: p.id,
+      sigla: p.siglaTipo,
+      tipo: tipos.get(Number(p.codTipo)) ?? p.siglaTipo,
+      numero: p.numero,
+      ano: p.ano,
+      ementa: p.ementa || null,
+      apresentadaEm: p.dataApresentacao ?? null,
+      paginaOficial: `https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=${p.id}`,
+    }));
+
+  return {
+    porTipo: [...porTipo.values()].sort((a, b) => b.total - a.total),
+    recentes,
+  };
+}
+
+/**
  * Agrega as despesas em duas visoes, que sao exatamente os dois
  * graficos pedidos: composicao (pizza) e evolucao (linha).
  *
@@ -158,16 +276,22 @@ async function principal() {
   console.log(`Coletando bancada federal do ${UF}, legislatura ${LEGISLATURA}.`);
 
   const bancada = await coletarBancada(proveniencias);
+  const tipos = await coletarTiposProposicao(proveniencias);
 
   const parlamentares = [];
   for (const [i, resumo] of bancada.entries()) {
     const perfil = await coletarPerfil(resumo.id, proveniencias);
     const linhas = await coletarDespesas(resumo.id, proveniencias);
     const despesas = agregarDespesas(linhas);
+    const proposicoes = agruparProposicoes(
+      await coletarProposicoes(resumo.id, proveniencias),
+      tipos,
+    );
 
     console.log(
       `  [${i + 1}/${bancada.length}] ${resumo.nome} — ` +
-        `${despesas.documentos} documentos, ${reais(despesas.total)}`,
+        `${despesas.documentos} documentos, ${reais(despesas.total)}, ` +
+        `${proposicoes.porTipo.length} tipos de proposição`,
     );
 
     parlamentares.push({
@@ -193,6 +317,7 @@ async function principal() {
       urlFotoOficial: perfil.ultimoStatus?.urlFoto ?? null,
       paginaOficial: `https://www.camara.leg.br/deputados/${perfil.id}`,
       despesas,
+      proposicoes,
     });
   }
 
