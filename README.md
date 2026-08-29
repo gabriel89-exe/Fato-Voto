@@ -54,6 +54,9 @@ Dois documentos valem mais que este README, e devem ser lidos primeiro:
 - **[`docs/fontes-de-dados.md`](docs/fontes-de-dados.md)** — o que cada fonte
   pública entrega e onde cada uma trava, incluindo armadilhas que falham em
   silêncio. Leitura obrigatória antes de escrever coleta.
+- **[`docs/segredos-e-credenciais.md`](docs/segredos-e-credenciais.md)** — por
+  onde uma credencial circula e o que nunca pode acontecer com ela. O
+  repositório é público; leia antes de mexer em variável de ambiente.
 
 ## Estrutura
 

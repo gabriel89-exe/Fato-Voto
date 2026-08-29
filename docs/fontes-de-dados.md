@@ -227,6 +227,11 @@ de governo, e ninguém deve delegá-la — nem a um assistente.
    versionado
 3. Guardar como *secret* do repositório para a coleta agendada usar
 
+**Nunca chamar a variável de `NEXT_PUBLIC_*`.** Esse prefixo embute o valor no
+pacote que vai para o navegador, e o token fica legível por qualquer visitante
+sem nada quebrar. Ver [`segredos-e-credenciais.md`](segredos-e-credenciais.md),
+que descreve o caminho inteiro da credencial e por que o site nunca a enxerga.
+
 ### Limite de requisições
 
 | Faixa | Limite |
