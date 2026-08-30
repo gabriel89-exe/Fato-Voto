@@ -9,7 +9,7 @@
     "idEleicao": "20322002026",
     "uf": "ES"
   },
-  "coletadoEm": "2026-08-29T14:29:37.480Z",
+  "coletadoEm": "2026-08-30T14:26:41.643Z",
   "total": 575,
   "candidaturas": [
     {
@@ -297,7 +297,7 @@
         "sigla": "AVANTE",
         "nome": "AVANTE"
       },
-      "coligacao": "AVANTE",
+      "coligacao": "BRASIL DOS NOSSOS SONHOS",
       "situacaoRegistro": "Aguardando julgamento",
       "situacaoCandidatura": "Cadastrado",
       "apto": false,
@@ -26045,7 +26045,7 @@
       "cargo": "Deputado Estadual",
       "uf": "ES",
       "nomeUrna": "ARILDO ELIZIARIO",
-      "nomeCompleto": "ARILDO ELIZIARIO",
+      "nomeCompleto": "ARILDO ELEZIARIO",
       "numero": 30456,
       "partido": {
         "sigla": "NOVO",
@@ -37249,7 +37249,7 @@
       "disputaReeleicao": false,
       "dataNascimento": "1978-04-07",
       "genero": "FEM.",
-      "corRaca": "PARDA",
+      "corRaca": "BRANCA",
       "escolaridade": "Superior completo",
       "ocupacao": "Advogado",
       "naturalidade": "ES-VITÓRIA",
@@ -48049,6 +48049,12 @@
           "nomeArquivo": "apicand_certidao_criminal_justica_estadual_segundo_grau_1786108330428.pdf",
           "tipo": "Certidão criminal — Justiça Estadual, 2º grau",
           "codTipo": 14
+        },
+        {
+          "id": 80017137682,
+          "nomeArquivo": "pje-Certidão Negativa Criminal de Primeiro Grau - LEANDRO RANGEL SOARES.pdf",
+          "tipo": "Certidão criminal — Justiça Estadual, 1º grau",
+          "codTipo": 13
         }
       ],
       "eleicoesAnteriores": [],
