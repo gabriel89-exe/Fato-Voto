@@ -259,7 +259,128 @@ function agregarDespesas(linhas) {
     porMes: [...porMes.entries()]
       .map(([competencia, valor]) => ({ competencia, valor }))
       .sort((a, b) => a.competencia.localeCompare(b.competencia)),
+    fornecedores: agruparFornecedores(linhas),
+    glosas: agruparGlosas(linhas),
+    maiores: maioresNotas(linhas),
+    comprovantes: contarComprovantes(linhas),
   };
+}
+
+/**
+ * Uma nota, no formato que a ficha exibe.
+ *
+ * `documento` é a URL do PDF no portal da Câmara. Vem `null` em parte
+ * das despesas — passagem aérea SIGEPA nunca tem —, e a tela precisa
+ * dizer isso em vez de mostrar um botão que não leva a lugar nenhum.
+ */
+function nota(linha) {
+  return {
+    id: linha.codDocumento ?? null,
+    data: (linha.dataDocumento ?? "").slice(0, 10) || null,
+    tipo: linha.tipoDespesa ?? "Não informado",
+    valor: Number(linha.valorLiquido ?? linha.valorDocumento ?? 0),
+    fornecedor: (linha.nomeFornecedor ?? "").trim() || null,
+    cnpjCpf: (linha.cnpjCpfFornecedor ?? "").trim() || null,
+    documento: linha.urlDocumento ?? null,
+  };
+}
+
+/**
+ * Quem recebeu o dinheiro, por valor.
+ *
+ * Descreve para onde a cota foi, sem adjetivo. Concentração alta em um
+ * fornecedor é fato observável — e é o leitor quem decide se aquilo
+ * merece pergunta. Guardamos 12: o bastante para o padrão aparecer,
+ * pouco o bastante para o arquivo não inchar num commit diário.
+ */
+function agruparFornecedores(linhas) {
+  const m = new Map();
+  for (const l of linhas) {
+    const nome = (l.nomeFornecedor ?? "").trim();
+    if (!nome) continue;
+    const valor = Number(l.valorLiquido ?? l.valorDocumento ?? 0);
+    if (!Number.isFinite(valor) || valor <= 0) continue;
+
+    /*
+     * AGRUPA POR CNPJ, não por nome.
+     *
+     * A mesma empresa aparece com nomes de fantasia diferentes: na
+     * coleta de 31/08/2026, "TERCEIRA PONTE MIDIA" e "T3 CONTEUDO
+     * DESIGN" dividiam o CNPJ 49164631000135 e somavam R$ 495 mil.
+     * Agrupar pelo nome partiria uma entidade em duas e mostraria
+     * concentração menor do que a real — erraria justamente para o
+     * lado que interessa a quem está sendo fiscalizado.
+     *
+     * Sem CNPJ (acontece em passagem aérea), o nome é a única chave
+     * possível e vira o fallback.
+     */
+    const cnpj = (l.cnpjCpfFornecedor ?? "").trim();
+    const chave = cnpj || `nome:${nome}`;
+
+    const e = m.get(chave) ?? {
+      nome,
+      cnpjCpf: cnpj || null,
+      total: 0,
+      notas: 0,
+      /* Nomes de fantasia vistos sob o mesmo CNPJ. A tela mostra os
+         demais quando há mais de um, para o leitor saber que a linha
+         soma razões sociais diferentes. */
+      outrosNomes: [],
+    };
+    if (e.nome !== nome && !e.outrosNomes.includes(nome)) {
+      e.outrosNomes.push(nome);
+    }
+    e.total += valor;
+    e.notas++;
+    m.set(chave, e);
+  }
+  return [...m.values()].sort((a, b) => b.total - a.total).slice(0, 12);
+}
+
+/**
+ * Glosa: a parte da despesa que a própria Câmara recusou reembolsar.
+ *
+ * É o sinal mais forte que esta fonte oferece, e o mais defensável:
+ * não é juízo nosso, é a Casa registrando que aquilo não podia ser
+ * pago. Vai para a tela como fato, com a data e o documento ao lado.
+ */
+function agruparGlosas(linhas) {
+  const comGlosa = linhas
+    .filter((l) => Number(l.valorGlosa) > 0)
+    .sort((a, b) => Number(b.valorGlosa) - Number(a.valorGlosa));
+
+  return {
+    quantidade: comGlosa.length,
+    valor: comGlosa.reduce((s, l) => s + Number(l.valorGlosa), 0),
+    exemplos: comGlosa.slice(0, 8).map((l) => ({
+      ...nota(l),
+      valorGlosa: Number(l.valorGlosa),
+    })),
+  };
+}
+
+/** As maiores notas individuais, com link para o comprovante. */
+function maioresNotas(linhas) {
+  return [...linhas]
+    .sort(
+      (a, b) =>
+        Number(b.valorLiquido ?? b.valorDocumento ?? 0) -
+        Number(a.valorLiquido ?? a.valorDocumento ?? 0),
+    )
+    .slice(0, 10)
+    .map(nota);
+}
+
+/**
+ * Quantas notas têm comprovante em PDF.
+ *
+ * A tela mostra a proporção porque a ausência também informa: quem
+ * quiser conferir precisa saber de antemão que uma parte das despesas
+ * não tem documento publicado, e que isso é característica da fonte.
+ */
+function contarComprovantes(linhas) {
+  const com = linhas.filter((l) => l.urlDocumento).length;
+  return { com, total: linhas.length };
 }
 
 function mediana(numeros) {

@@ -138,11 +138,54 @@ export interface DespesaPorMes {
   valor: number;
 }
 
+/** Uma nota da cota parlamentar, como a ficha a exibe. */
+export interface NotaDespesa {
+  id: string | null;
+  /** "2025-07-09" */
+  data: string | null;
+  tipo: string;
+  valor: number;
+  fornecedor: string | null;
+  cnpjCpf: string | null;
+  /** PDF no portal da Câmara. `null` em parte das despesas. */
+  documento: string | null;
+}
+
+/**
+ * Quem recebeu. Agrupado por CNPJ, não por nome: a mesma empresa
+ * aparece com nomes de fantasia diferentes, e agrupar pelo nome
+ * mostraria concentração menor que a real.
+ */
+export interface Fornecedor {
+  nome: string;
+  cnpjCpf: string | null;
+  total: number;
+  notas: number;
+  /** Outros nomes de fantasia vistos sob o mesmo CNPJ. */
+  outrosNomes: string[];
+}
+
+/**
+ * Glosa: a parte da despesa que a própria Câmara recusou reembolsar.
+ * Não é juízo desta plataforma — é registro da Casa.
+ */
+export interface Glosas {
+  quantidade: number;
+  valor: number;
+  exemplos: (NotaDespesa & { valorGlosa: number })[];
+}
+
 export interface Despesas {
   total: number;
   documentos: number;
   porTipo: DespesaPorTipo[];
   porMes: DespesaPorMes[];
+  fornecedores: Fornecedor[];
+  glosas: Glosas;
+  /** As maiores notas individuais, com link para o comprovante. */
+  maiores: NotaDespesa[];
+  /** Quantas notas têm PDF publicado. A ausência também informa. */
+  comprovantes: { com: number; total: number };
 }
 
 export interface ProposicaoPorTipo {

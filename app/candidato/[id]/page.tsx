@@ -2,6 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import AvatarCandidato from "@/components/AvatarCandidato";
 import DadoOficial from "@/components/DadoOficial";
+import DetalheDespesas from "@/components/DetalheDespesas";
 import { GraficoComposicao, GraficoEvolucao } from "@/components/graficos";
 import { IconeLinkExterno, IconeSeta } from "@/components/icones";
 import NumeroUrna from "@/components/NumeroUrna";
@@ -577,9 +578,21 @@ export default async function PaginaCandidato({
 
                   <p className="mt-6 text-xs text-tinta-600">
                     Baseado em {fmtNumero(mandato.despesas.documentos)}{" "}
-                    documentos fiscais. Cada nota tem PDF público no portal da
-                    Câmara.
+                    documentos fiscais.
                   </p>
+
+                  {/*
+                    Detalhe da cota: quem recebeu, o que a Câmara recusou
+                    reembolsar e as maiores notas com link para o PDF.
+                    Nada adjetivado — o componente mostra o fato e o
+                    documento, e a conclusão fica com quem lê.
+                  */}
+                  <div className="mt-8 border-t border-tinta-200 pt-8">
+                    <DetalheDespesas
+                      despesas={mandato.despesas}
+                      nome={mandato.nomeUrna}
+                    />
+                  </div>
 
                   {/*
                     Proposições por tipo, nunca somadas — mesma regra já
