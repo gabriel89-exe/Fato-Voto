@@ -21,10 +21,18 @@ import { ELEICAO, ESTADO } from "@/lib/eleicao";
  * `aria-current`. Cor sozinha não serve para quem não a distingue.
  */
 
+/**
+ * "Comparar" saiu daqui por decisão de produto, não por descuido.
+ *
+ * A página continua existindo — link antigo não quebra —, mas anunciar
+ * no menu principal um destino que só mostra "ainda não construído" é
+ * mandar a pessoa a um beco sem saída. Enquanto a comparação não for
+ * feita, ela não se anuncia.
+ */
 const LINKS = [
   { href: "/", rotulo: "Início" },
   { href: "/candidatos", rotulo: "Candidatos" },
-  { href: "/comparar", rotulo: "Comparar" },
+  { href: "/quem-somos", rotulo: "Quem somos" },
 ];
 
 export default function Cabecalho() {

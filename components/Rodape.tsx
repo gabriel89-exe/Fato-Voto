@@ -6,7 +6,10 @@ const LINKS = [
   { href: "/metodologia", rotulo: "Metodologia" },
   { href: "/fontes", rotulo: "Fontes dos dados" },
   { href: "/candidatos", rotulo: "Lista de candidatos" },
-  { href: "/comparar", rotulo: "Comparar candidatos" },
+  // "Comparar candidatos" saiu daqui junto com o menu do cabeçalho: a
+  // página existe para não quebrar link antigo, mas não se anuncia
+  // enquanto for só um aviso de "ainda não construído".
+  //
   // Pagina de trabalho, nao de produto: a vitrine dos componentes.
   // Fica so aqui, fora da navegacao principal.
   { href: "/interface", rotulo: "Kit de interface" },
