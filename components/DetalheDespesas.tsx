@@ -1,3 +1,4 @@
+import { GraficoBarras } from "@/components/graficos";
 import { IconeLinkExterno } from "@/components/icones";
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 import {
@@ -82,7 +83,27 @@ export default function DetalheDespesas({
           agrupar pelo nome mostraria concentração menor que a real.
         </p>
 
-        <div className="mt-4">
+        {/* Barra antes da tabela: o olho pega a ordem de grandeza num
+            relance, e quem quiser o número exato desce dois centímetros.
+            Todas da mesma cor — variar cor sugeriria categoria onde só
+            existe ordem de grandeza. */}
+        <div className="mt-5">
+          <GraficoBarras
+            legenda={`Maiores destinatários da cota parlamentar de ${nome}`}
+            formatar={reais}
+            itens={fornecedores.map((f) => ({
+              rotulo: f.nome,
+              valor: f.total,
+              detalhe: `${fmtNumero(f.notas)} ${f.notas === 1 ? "nota" : "notas"}`,
+            }))}
+          />
+        </div>
+
+        <details className="mt-5">
+          <summary className="cursor-pointer text-sm font-semibold text-acento">
+            Ver como tabela, com CNPJ
+          </summary>
+          <div className="mt-3">
           <Table>
             <TableHeader>
               <TableRow>
@@ -115,7 +136,8 @@ export default function DetalheDespesas({
               ))}
             </TableBody>
           </Table>
-        </div>
+          </div>
+        </details>
       </section>
 
       {/* ---------- O que a Câmara recusou ---------- */}

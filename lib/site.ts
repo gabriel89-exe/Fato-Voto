@@ -33,4 +33,4 @@ export const SITE_URL =
  * publicar um endereço que ninguém lê. Prometer um canal que não
  * responde é pior que admitir que ele ainda não existe.
  */
-export const EMAIL_CONTATO = "";
+export const EMAIL_CONTATO = "fatoevoto@gmail.com";

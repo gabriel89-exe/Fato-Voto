@@ -17,8 +17,17 @@ import { mesAno, percentual, reais } from "@/lib/formato";
  * nao um "elemento gráfico".
  */
 
-/** Escala monocromática de tinta clara para escura. */
-const CORES = ["#1d3f5c", "#3f6b8f", "#7899b3", "#a9bccc", "#d3dde5"];
+/**
+ * Escala monocromática, do escuro ao claro.
+ *
+ * Espelha `grafico.1..5` do tailwind.config. É monocromática de
+ * propósito: matizes diferentes viram categorias com peso diferente na
+ * leitura, e nenhuma fatia deste site pode parecer melhor que outra.
+ *
+ * Ficou defasada uma vez — seguia azul do gov.br depois de a identidade
+ * virar roxa. Se a paleta do tema mudar, mude aqui junto.
+ */
+const CORES = ["#1a1550", "#2c2578", "#3f37a8", "#8a84d0", "#cfcbf0"];
 
 /* ------------------------------------------------------------------ */
 /*  Composição — rosca                                                 */
@@ -98,7 +107,7 @@ export function GraficoComposicao({
             cy="60"
             r="35"
             fill="none"
-            stroke="#1b1a16"
+            stroke="#d8d3cb"
             strokeWidth="1.5"
           />
         </svg>
@@ -164,11 +173,11 @@ export function GraficoEvolucao({
           aria-hidden="true"
           className="h-44 w-full min-w-[320px]"
         >
-          <polygon points={area} fill="#1d3f5c" opacity="0.12" />
+          <polygon points={area} fill="#3f37a8" opacity="0.12" />
           <polyline
             points={linha}
             fill="none"
-            stroke="#1d3f5c"
+            stroke="#3f37a8"
             strokeWidth="2"
             strokeLinejoin="round"
           />
@@ -177,16 +186,82 @@ export function GraficoEvolucao({
             y1={altura - margem.base}
             x2={largura - margem.dir}
             y2={altura - margem.base}
-            stroke="#1b1a16"
+            stroke="#d8d3cb"
             strokeWidth="1.5"
           />
         </svg>
       </div>
-      <p className="mt-1 flex justify-between font-mono text-[0.62rem] uppercase tracking-[0.13em] text-tinta-500">
+      <p className="mt-2 flex justify-between text-sm text-tinta-600">
         <span>{mesAno(`${primeiro.competencia}-01`)}</span>
         <span>pico: {reais(maior)}/mês</span>
         <span>{mesAno(`${ultimo.competencia}-01`)}</span>
       </p>
+      <figcaption className="apenas-leitor">{legenda}</figcaption>
+    </figure>
+  );
+}
+
+/* ------------------------------------------------------------------ */
+/*  Barras horizontais                                                 */
+/* ------------------------------------------------------------------ */
+
+/**
+ * Ranking visual de valores — usado em "quem recebeu".
+ *
+ * Barra horizontal e não pizza porque aqui há doze itens: rosca com
+ * doze fatias é ilegível, e o olho compara comprimento muito melhor que
+ * ângulo. As barras são todas da MESMA cor, de propósito: variar cor
+ * por item sugeriria categoria onde só existe ordem de grandeza.
+ *
+ * A barra é largura relativa ao maior valor, não ao total. Isso mostra
+ * proporção entre os itens sem afirmar que eles somam o todo — e eles
+ * não somam: são os maiores de uma lista mais longa.
+ *
+ * ACESSIBILIDADE: o desenho é decorativo (`aria-hidden`) e o número
+ * está escrito ao lado, em texto. Quem usa leitor de tela recebe o
+ * dado, não "elemento gráfico".
+ */
+export function GraficoBarras({
+  itens,
+  legenda,
+  formatar = (v: number) => String(v),
+}: {
+  itens: { rotulo: string; valor: number; detalhe?: string }[];
+  legenda: string;
+  formatar?: (valor: number) => string;
+}) {
+  if (itens.length === 0) return null;
+  const maior = Math.max(...itens.map((i) => i.valor));
+  if (maior <= 0) return null;
+
+  return (
+    <figure className="m-0">
+      <ul className="space-y-3">
+        {itens.map((item) => (
+          <li key={item.rotulo}>
+            <div className="flex items-baseline justify-between gap-4">
+              <span className="min-w-0 truncate text-sm text-tinta-800">
+                {item.rotulo}
+              </span>
+              <span className="shrink-0 font-mono text-sm tabular-nums text-tinta-900">
+                {formatar(item.valor)}
+              </span>
+            </div>
+            <div
+              aria-hidden="true"
+              className="mt-1 h-2 w-full overflow-hidden rounded-full bg-papel-baixa"
+            >
+              <div
+                className="h-full rounded-full bg-grafico-3"
+                style={{ width: `${Math.max(2, (item.valor / maior) * 100)}%` }}
+              />
+            </div>
+            {item.detalhe ? (
+              <p className="mt-1 text-xs text-tinta-600">{item.detalhe}</p>
+            ) : null}
+          </li>
+        ))}
+      </ul>
       <figcaption className="apenas-leitor">{legenda}</figcaption>
     </figure>
   );

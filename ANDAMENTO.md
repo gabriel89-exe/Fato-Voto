@@ -44,6 +44,13 @@ decisões de fora do código, listadas logo abaixo.
 - [x] **Lista paginada** — 24 fichas por página. Sem isso a lista sem recorte
       montava as 575 de uma vez: 158 mil pixels de altura e perto de 20 mil nós
       no DOM a 360 px. A navegação é feita de `<a>`, não de botão com script.
+- [x] **E-mail do projeto** — fatoevoto@gmail.com, endereço do próprio
+      projeto e não pessoal, como a regra exigia.
+- [x] **Privacidade e LGPD** — página /privacidade com base legal, o que é
+      tratado, o que é descartado na coleta e como pedir correção. Falta
+      revisão de advogado antes de divulgar.
+- [x] **Cabeçalhos de segurança** — CSP restritiva, HSTS, nosniff,
+      Referrer-Policy e Permissions-Policy, conferidos na resposta real.
 - [x] **Auditoria de toque em 360 px** — gaveta de filtros, abas da ficha e
       botão de fechar acertados para 48 px.
 
@@ -54,12 +61,13 @@ decisões de fora do código, listadas logo abaixo.
 
 - [ ] **Domínio de produção** (`NEXT_PUBLIC_SITE_URL`). Enquanto vazio, o
       sitemap, o `robots.txt` e as tags de compartilhamento geram URL errada.
-- [ ] **E-mail do projeto.** `EMAIL_CONTATO` em `lib/site.ts` fica `""` de
-      propósito até existir um endereço do próprio projeto — nunca preencher
-      com endereço pessoal nem com placeholder. Sem ele, a promessa de canal
-      de correção em "Quem somos" não se cumpre.
 - [ ] **Licença.** Não há arquivo `LICENSE`, e o projeto se declara open
       source. Sem licença, ninguém tem direito legal de reusar o código.
+- [ ] **Revisão jurídica da página de privacidade.** O enquadramento em
+      `/privacidade` é o raciocínio do projeto, não parecer. Uma leitura de
+      advogado antes de divulgar é barata perto do risco: o site publica dado
+      pessoal — e sensível, no caso de cor ou raça — de 575 pessoas
+      identificadas.
 
 ### Dados
 

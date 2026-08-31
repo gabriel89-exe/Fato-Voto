@@ -5,6 +5,7 @@ const LINKS = [
   { href: "/quem-somos", rotulo: "Quem somos" },
   { href: "/metodologia", rotulo: "Metodologia" },
   { href: "/fontes", rotulo: "Fontes dos dados" },
+  { href: "/privacidade", rotulo: "Privacidade e dados" },
   { href: "/candidatos", rotulo: "Lista de candidatos" },
   // "Comparar candidatos" saiu daqui junto com o menu do cabeçalho: a
   // página existe para não quebrar link antigo, mas não se anuncia
