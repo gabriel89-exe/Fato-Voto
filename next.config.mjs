@@ -2,21 +2,41 @@
  * Cabeçalhos de segurança.
  *
  * O site é estático, público e não tem login, formulário de envio nem
- * cookie — a superfície de ataque é pequena. Mesmo assim os cabeçalhos
- * abaixo fecham o que sobra, e o custo é zero.
+ * cookie — a superfície de ataque é pequena. Os cabeçalhos abaixo
+ * fecham o que sobra.
  *
- * A CSP é restritiva porque o projeto pode se dar a esse luxo: não há
- * script de terceiro, as fontes são baixadas no build (next/font) e as
- * imagens são SVG do próprio código. Se um dia entrar analytics ou
- * incorporação externa, a CSP vai reclamar antes de o recurso carregar
- * — e é para isso que ela serve.
+ * ================================================================
+ * POR QUE script-src ACEITA 'unsafe-inline'
  *
- * `'unsafe-inline'` em style-src é exigência do Next: ele injeta estilo
- * inline no HTML servido. Em script-src ele NÃO aparece.
+ * A primeira versão deste arquivo usava `script-src 'self'` e DERRUBOU
+ * O SITE em produção (31/08/2026): o Next injeta o payload de
+ * renderização como script inline em toda página, a CSP bloqueou, e
+ * nada hidratou. O comentário anterior afirmava que o Next não usa
+ * inline em script — estava errado.
+ *
+ * As duas saídas corretas seriam nonce ou hash. Nenhuma serve aqui:
+ *
+ *   - Nonce precisa ser gerado por requisição, o que obriga o Next a
+ *     renderizar sob demanda. Este site tem 590 páginas estáticas
+ *     servidas de CDN, e trocar isso por renderização dinâmica seria
+ *     pagar com a arquitetura inteira por uma diretiva.
+ *   - Hash não funciona: o script inline muda a cada página, porque
+ *     carrega o conteúdo daquela página.
+ *
+ * O que se perde é a proteção contra XSS refletido. O que resta de
+ * risco real, neste projeto, é baixo: não há conteúdo de usuário, não
+ * há formulário que grave nada, nenhum parâmetro de URL é injetado no
+ * HTML sem escape (o React escapa por padrão) e não há script de
+ * terceiro. As demais diretivas continuam valendo e barram bastante
+ * coisa — object-src, base-uri, form-action e frame-ancestors.
+ *
+ * Se um dia o site passar a aceitar entrada de usuário, esta decisão
+ * precisa ser revista junto.
+ * ================================================================
  */
 const csp = [
   "default-src 'self'",
-  "script-src 'self'",
+  "script-src 'self' 'unsafe-inline'",
   "style-src 'self' 'unsafe-inline'",
   "img-src 'self' data:",
   "font-src 'self'",
