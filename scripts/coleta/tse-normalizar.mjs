@@ -167,7 +167,29 @@ export function normalizar(ficha, cargo) {
       documentos: podeArquivos,
     },
 
-    paginaOficial: `https://divulgacandcontas.tse.jus.br/divulga/#/candidato/${ANO}/${ID_ELEICAO}/${cargo.ue}/${ficha.id}`,
+    /*
+     * NÃO É LINK DIRETO PARA A FICHA, e não por escolha nossa.
+     *
+     * O TSE publica o formato
+     *   /divulga/#/candidato/{ano}/{idEleicao}/{UF}/{idCandidato}
+     * — inclusive dentro do próprio dado, no campo `txLink` de
+     * `eleicoesAnteriores`. Só que ele NÃO FUNCIONA em link direto.
+     *
+     * Verificado em 31/08/2026: a rota `candidato` tem um resolver que
+     * lê `ata` do estado da aplicação para chamar `getEleicaoAtual`.
+     * Em carga fria esse estado vem vazio, o resolver falha e a página
+     * responde "ERRO AO CARREGAR A PÁGINA". Acontece igual com a URL
+     * que o próprio TSE gera, então não é erro de montagem nossa e não
+     * há formato alternativo que contorne.
+     *
+     * Apontar para uma página que dá erro seria pior que não apontar:
+     * quebra a promessa de "confira você mesmo", que é o que sustenta
+     * este site. Então o link vai para a home da eleição, que abre, e
+     * a tela diz o nome e o número para a pessoa buscar lá dentro.
+     *
+     * Se o TSE consertar a rota, é só voltar ao formato acima.
+     */
+    paginaOficial: `https://divulgacandcontas.tse.jus.br/divulga/#/home/${ANO}`,
   };
 }
 

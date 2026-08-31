@@ -147,7 +147,7 @@ export default async function PaginaCandidato({
           <p className="rotulo-meta mt-1">
             Coletado em {dataCurta(COLETADO_EM)}. Fonte: {FONTE_TSE.nome}.{" "}
             <a href={c.paginaOficial} rel="nofollow noopener" className="text-tinta-800">
-              Ver registro de origem
+              Abrir a divulgação de candidaturas do TSE
             </a>
             .
           </p>
@@ -705,16 +705,35 @@ export default async function PaginaCandidato({
           </Tabs>
         </div>
 
-        <div className="mt-10 flex flex-wrap gap-3">
-          <Button asChild variant="secundario">
-            <a href={c.paginaOficial} rel="nofollow noopener">
-              Ver no site do TSE
-              <IconeLinkExterno />
-            </a>
-          </Button>
-          <Button asChild variant="fantasma">
-            <Link href="/candidatos">Voltar para a lista</Link>
-          </Button>
+        {/*
+          O TSE não abre a ficha por link direto — a rota dele falha em
+          carga fria, inclusive com a URL que ele próprio publica (ver o
+          comentário em scripts/coleta/tse-normalizar.mjs). Em vez de
+          oferecer um botão que leva a uma tela de erro, o site manda
+          para a página que abre e diz o que digitar lá dentro.
+        */}
+        <div className="mt-10 rounded-lg border border-tinta-200 bg-papel-alta p-5">
+          <h2 className="text-lg font-bold text-tinta-950">
+            Conferir na fonte oficial
+          </h2>
+          <p className="mt-2 text-tinta-700">
+            O sistema do TSE não permite link direto para uma ficha. Abra a
+            divulgação de candidaturas e busque por{" "}
+            <strong>{c.nomeUrna}</strong> ou pelo número{" "}
+            <strong className="font-mono">{c.numero}</strong>, em{" "}
+            {ESTADO.nome}, no cargo de {c.cargo}.
+          </p>
+          <div className="mt-4 flex flex-wrap gap-3">
+            <Button asChild variant="secundario">
+              <a href={c.paginaOficial} rel="nofollow noopener">
+                Abrir a divulgação do TSE
+                <IconeLinkExterno />
+              </a>
+            </Button>
+            <Button asChild variant="fantasma">
+              <Link href="/candidatos">Voltar para a lista</Link>
+            </Button>
+          </div>
         </div>
       </article>
     </div>
