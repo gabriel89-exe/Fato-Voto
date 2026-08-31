@@ -6,13 +6,13 @@
   },
   "uf": "ES",
   "legislatura": 57,
-  "coletadoEm": "2026-08-28T21:27:52.918Z",
+  "coletadoEm": "2026-08-31T02:28:55.519Z",
   "criterio": {
     "orgao": "Plenário",
     "tipo": "Votações nominais",
     "quantidade": 20,
     "ordem": "As mais recentes primeiro",
-    "sondagens": 310
+    "sondagens": 309
   },
   "votacoes": [
     {
@@ -1566,30 +1566,38 @@
       ]
     },
     {
-      "id": "2233802-438",
-      "data": "2026-05-27",
-      "registradaEm": "2026-05-27T23:34:05",
-      "descricao": "Aprovada, em segundo turno, a Proposta de Emenda à Constituição n° 221, de 2019. . Sim: 461; Não: 19; Total: 480.",
+      "id": "2351506-122",
+      "data": "2026-05-28",
+      "registradaEm": "2026-05-28T17:21:17",
+      "descricao": "Aprovada, em segundo turno, a Proposta de Emenda à Constituição n° 5, de 2023. Sim: 368; Não: 96; Abstenção: 7; Total: 471.",
       "aprovada": true,
       "proposicao": {
-        "id": 2233802,
+        "id": 2351506,
         "sigla": "PEC",
-        "numero": 221,
-        "ano": 2019,
-        "ementa": "Altera o Art. 7º inciso XII da constituição Federal, reduzindo a jornada de trabalho a 36 horas semanais em 10 anos.",
-        "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2233802"
+        "numero": 5,
+        "ano": 2023,
+        "ementa": "Acrescenta § 4º-A ao art. 150 da Constituição Federal, para dispor sobre a imunidade tributária de que tratam as suas alíneas “b” e “c” do inciso VI.",
+        "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2351506"
       },
       "placar": [
         {
           "voto": "Sim",
-          "total": 461
+          "total": 368
         },
         {
           "voto": "Não",
-          "total": 19
+          "total": 96
+        },
+        {
+          "voto": "Abstenção",
+          "total": 7
+        },
+        {
+          "voto": "Artigo 17",
+          "total": 1
         }
       ],
-      "votantes": 480,
+      "votantes": 472,
       "votosDoEstado": [
         {
           "idExterno": 204356,
@@ -1631,13 +1639,13 @@
           "idExterno": 178873,
           "nome": "Helder Salomão",
           "partido": "PT",
-          "voto": "Sim"
+          "voto": "Não"
         },
         {
           "idExterno": 220527,
           "nome": "Jack Rocha",
           "partido": "PT",
-          "voto": "Sim"
+          "voto": "Não"
         },
         {
           "idExterno": 220530,
@@ -1649,39 +1657,43 @@
           "idExterno": 160517,
           "nome": "Paulo Folletto",
           "partido": "PSB",
-          "voto": "Sim"
+          "voto": "Abstenção"
         }
       ]
     },
     {
-      "id": "2233802-424",
-      "data": "2026-05-27",
-      "registradaEm": "2026-05-27T23:07:40",
-      "descricao": "Aprovada, em primeiro turno, a Proposta de Emenda à Constituição nº 221, de 2019. Sim: 472; Não: 22; Total: 494.",
-      "aprovada": true,
+      "id": "2351506-115",
+      "data": "2026-05-28",
+      "registradaEm": "2026-05-28T16:46:13",
+      "descricao": "Mantido o texto. Sim: 335; Não: 117; Abstenção: 5; Total: 457.",
+      "aprovada": false,
       "proposicao": {
-        "id": 2233802,
+        "id": 2351506,
         "sigla": "PEC",
-        "numero": 221,
-        "ano": 2019,
-        "ementa": "Altera o Art. 7º inciso XII da constituição Federal, reduzindo a jornada de trabalho a 36 horas semanais em 10 anos.",
-        "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2233802"
+        "numero": 5,
+        "ano": 2023,
+        "ementa": "Acrescenta § 4º-A ao art. 150 da Constituição Federal, para dispor sobre a imunidade tributária de que tratam as suas alíneas “b” e “c” do inciso VI.",
+        "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2351506"
       },
       "placar": [
         {
           "voto": "Sim",
-          "total": 472
+          "total": 335
         },
         {
           "voto": "Não",
-          "total": 22
+          "total": 117
         },
         {
-          "voto": "Obstrução",
+          "voto": "Abstenção",
+          "total": 5
+        },
+        {
+          "voto": "Artigo 17",
           "total": 1
         }
       ],
-      "votantes": 495,
+      "votantes": 458,
       "votosDoEstado": [
         {
           "idExterno": 204356,
@@ -1723,13 +1735,13 @@
           "idExterno": 178873,
           "nome": "Helder Salomão",
           "partido": "PT",
-          "voto": "Sim"
+          "voto": "Não"
         },
         {
           "idExterno": 220527,
           "nome": "Jack Rocha",
           "partido": "PT",
-          "voto": "Sim"
+          "voto": "Não"
         },
         {
           "idExterno": 220530,
@@ -1741,7 +1753,7 @@
           "idExterno": 160517,
           "nome": "Paulo Folletto",
           "partido": "PSB",
-          "voto": "Sim"
+          "voto": "Abstenção"
         }
       ]
     }

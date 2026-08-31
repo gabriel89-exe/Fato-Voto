@@ -48,7 +48,7 @@ jobs:
       # o que perder ao bloquear.
       - run: npm ci --ignore-scripts
 
-      # As três coletas são independentes. `if: always()` faz o Senado
+      # As quatro coletas são independentes. `if: always()` faz o Senado
       # rodar mesmo se o TSE cair — meia atualização é melhor que
       # nenhuma, e o passo que falhou aparece vermelho no resumo.
       - name: TSE — candidaturas
@@ -61,6 +61,14 @@ jobs:
       - name: Senado — bancada
         if: always()
         run: npm run coleta:senado
+
+      # Entrou depois das outras três e ficou de fora do agendamento por
+      # um dia: em 30/08/2026 as votações eram de 28/08 enquanto o resto
+      # era do dia. A ficha diz "as votações mais recentes", então dado
+      # parado aqui não fica desatualizado em silêncio — fica mentindo.
+      - name: Câmara e Senado — votações nominais
+        if: always()
+        run: npm run coleta:votacoes
 
       # Verifica que o site ainda compila com o dado novo. Se uma fonte
       # mudar de formato e quebrar a build, é melhor descobrir aqui do
