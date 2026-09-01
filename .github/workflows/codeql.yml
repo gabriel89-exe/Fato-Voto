@@ -1,0 +1,35 @@
+name: CodeQL
+
+# Varredura estática de código da GitHub. Procura padrões inseguros em
+# app/, components/, lib/ e scripts/ — injeção, caminho não sanitizado,
+# uso perigoso de API. Grátis para repositório público.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  schedule:
+    # Segunda, 05:23 UTC. Pega CVE de padrão que só virou conhecida depois
+    # do último push.
+    - cron: "23 5 * * 1"
+
+permissions: {}
+
+jobs:
+  analisar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      security-events: write
+      contents: read
+      actions: read
+
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: github/codeql-action/init@v3
+        with:
+          languages: javascript-typescript
+
+      - uses: github/codeql-action/analyze@v3

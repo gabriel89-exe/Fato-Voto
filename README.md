@@ -43,6 +43,17 @@ npm run coleta:camara
 > sintoma é `Cannot find module ./vendor-chunks/next.js` e páginas em branco.
 > Se acontecer: pare o dev, `rm -rf .next`, suba de novo.
 
+Antes de abrir um PR:
+
+```bash
+npm run build
+npm run verificar   # cabeçalhos de segurança, segredo no bundle, nome NEXT_PUBLIC_
+npm run contraste   # todo par de cor passa AA
+```
+
+Os três também rodam sozinhos no CI (workflow **Verificação**) em todo Pull
+Request.
+
 ## Antes de mexer no projeto
 
 Dois documentos valem mais que este README, e devem ser lidos primeiro:
@@ -151,3 +162,18 @@ custar 575 requisições a um serviço público.
   autoriza divulgar um dado, a tela diz que a omissão é da fonte.
 - **Nenhum total de despesa aparece sozinho** — sempre ao lado da mediana e da
   faixa da bancada. Ver `docs/principios.md`, regra 4.
+
+## Licença
+
+**AGPL-3.0-only.** É copyleft de rede: quem hospedar uma versão modificada é
+obrigado a publicar o código modificado. Um *fork* adulterado não pode ficar
+fechado — o que é coerente com um projeto cuja proposta é ser auditável. O
+texto fica em [`LICENSE`](LICENSE).
+
+## Segurança
+
+- Como relatar uma falha: [`SECURITY.md`](SECURITY.md).
+- Como se garante que o site mostra o dado da fonte, e a configuração de
+  proteção do repositório: [`docs/integridade-e-acesso.md`](docs/integridade-e-acesso.md).
+- Caminho de uma credencial e a armadilha do `NEXT_PUBLIC_`:
+  [`docs/segredos-e-credenciais.md`](docs/segredos-e-credenciais.md).

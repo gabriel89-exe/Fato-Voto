@@ -1,0 +1,52 @@
+name: Verificação
+
+# Roda em todo Pull Request e em todo push no main. É o portão que um PR
+# precisa passar antes de poder ser mesclado (quando a proteção de branch
+# estiver ligada — ver docs/integridade-e-acesso.md).
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+# Nada por padrão. Este workflow só lê o repositório.
+permissions: {}
+
+concurrency:
+  group: verificacao-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  verificar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: read
+
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+          cache: npm
+
+      # --ignore-scripts: nada de postinstall de dependência rodando aqui.
+      - run: npm ci --ignore-scripts
+
+      - name: Compilar o site
+        run: npm run build
+
+      - name: Verificações de segurança
+        # Cabeçalhos na resposta real, segredo dentro de .next/, e nome
+        # NEXT_PUBLIC_ com cara de token. Ver scripts/verificar-seguranca.mjs.
+        run: npm run verificar
+
+      - name: Contraste de cores (AA)
+        run: npm run contraste
+
+      - name: Auditoria de dependências
+        # Não bloqueia o PR: serve para a CVE nova aparecer no resumo. O
+        # bloqueio de verdade vem do Dependabot, que abre PR para corrigir.
+        run: npm audit --omit=dev --audit-level=high
+        continue-on-error: true

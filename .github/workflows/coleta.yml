@@ -18,9 +18,8 @@ on:
   # Permite disparar na mão pela aba Actions, sem esperar o horário.
   workflow_dispatch:
 
-# O job comita de volta no repositório, então precisa de escrita.
-permissions:
-  contents: write
+# Nada por padrão. Só o job que precisa declara o que precisa.
+permissions: {}
 
 concurrency:
   # Duas coletas simultâneas brigariam pelo mesmo commit.
@@ -31,6 +30,10 @@ jobs:
   coletar:
     runs-on: ubuntu-latest
     timeout-minutes: 30
+
+    # Escrita só aqui: é este job que comita a coleta de volta no repo.
+    permissions:
+      contents: write
 
     steps:
       # v5: as v4 rodam em Node 20, descontinuado nos runners.

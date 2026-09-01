@@ -74,10 +74,24 @@ export default function Rodape() {
       </div>
 
       <div className="border-t border-tinta-300">
-        <p className="envelope py-4 text-sm text-tinta-400">
-          Dados do Tribunal Superior Eleitoral e da Câmara dos Deputados ·
-          Registro de candidaturas ainda em julgamento
-        </p>
+        <div className="envelope space-y-1 py-4 text-sm text-tinta-400">
+          <p>
+            Dados do Tribunal Superior Eleitoral e da Câmara dos Deputados ·
+            Registro de candidaturas ainda em julgamento
+          </p>
+          {/* Aviso legal exigido pela AGPL-3.0 para serviço em rede: o
+              código que serve esta página está disponível e sob a mesma
+              licença. */}
+          <p>
+            Código aberto sob licença AGPL-3.0 ·{" "}
+            <a
+              href="https://github.com/gabriel89-exe/Fato-Voto"
+              rel="noopener"
+            >
+              github.com/gabriel89-exe/Fato-Voto
+            </a>
+          </p>
+        </div>
       </div>
     </footer>
   );

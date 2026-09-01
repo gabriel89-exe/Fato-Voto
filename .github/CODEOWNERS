@@ -1,0 +1,31 @@
+# Donos de código — revisão obrigatória por caminho.
+#
+# Só passa a VALER quando a proteção do branch `main` tiver marcada a
+# opção "Require review from Code Owners". Ver docs/integridade-e-acesso.md.
+#
+# A ideia: um Pull Request malicioso faz estrago em poucos lugares —
+# arquivo de dado, código de coleta, configuração de esteira, cabeçalho
+# de segurança e dependência. Esses caminhos exigem revisão nomeada,
+# mesmo que o resto do repositório afrouxe um dia.
+
+# Padrão: tudo precisa de revisão.
+*                        @gabriel89-exe
+
+# Dados normalizados que o site lê. SÓ o coletor deveria escrever aqui —
+# um PR que mexe nestes arquivos sem mexer no script correspondente é
+# bandeira vermelha.
+/data/                   @gabriel89-exe
+
+# Coleta: é o único código com acesso ao token e o único que grava em
+# data/. Adulteração aqui não se cura sozinha na coleta do dia seguinte.
+/scripts/                @gabriel89-exe
+
+# Esteira: workflows, permissões, secrets referenciados.
+/.github/                @gabriel89-exe
+
+# Cabeçalhos de segurança e CSP.
+/next.config.mjs         @gabriel89-exe
+
+# Dependências: um pacote novo pode trazer postinstall e código de terceiro.
+/package.json            @gabriel89-exe
+/package-lock.json       @gabriel89-exe

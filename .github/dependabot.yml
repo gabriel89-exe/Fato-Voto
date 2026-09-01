@@ -1,0 +1,37 @@
+# Atualização automática de dependências.
+#
+# Abre Pull Request quando um pacote (ou uma action) tem versão nova ou
+# CVE. O PR passa pela mesma revisão de qualquer outro — ver
+# .github/CODEOWNERS e docs/integridade-e-acesso.md.
+
+version: 2
+updates:
+  - package-ecosystem: npm
+    directory: "/"
+    schedule:
+      interval: weekly
+      day: monday
+      time: "06:00"
+      timezone: America/Sao_Paulo
+    open-pull-requests-limit: 5
+    labels:
+      - dependências
+    groups:
+      # Um PR por semana com os patches juntos, em vez de um por pacote.
+      patches:
+        update-types:
+          - patch
+
+  # As actions do workflow rodam com contents:write na coleta. Manter as
+  # versões em dia (e, no futuro, migrar para SHA fixo) reduz o risco de
+  # uma tag comprometida rodar código arbitrário na esteira.
+  - package-ecosystem: github-actions
+    directory: "/"
+    schedule:
+      interval: weekly
+      day: monday
+      time: "06:00"
+      timezone: America/Sao_Paulo
+    labels:
+      - dependências
+      - ci

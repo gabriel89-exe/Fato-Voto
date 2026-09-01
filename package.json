@@ -2,12 +2,14 @@
   "name": "fato-e-voto",
   "version": "0.1.0",
   "private": true,
+  "license": "AGPL-3.0-only",
   "scripts": {
     "dev": "node ./node_modules/next/dist/bin/next dev",
     "build": "node ./node_modules/next/dist/bin/next build",
     "start": "node ./node_modules/next/dist/bin/next start",
     "ui": "node ./node_modules/shadcn/dist/index.js",
     "contraste": "node scripts/contraste.mjs",
+    "verificar": "node scripts/verificar-seguranca.mjs",
     "coleta:camara": "node scripts/coleta/camara.mjs",
     "coleta:tse": "node scripts/coleta/tse.mjs",
     "coleta:tse:normalizar": "node scripts/coleta/tse-normalizar.mjs",
@@ -49,10 +51,13 @@
     "@types/react": "^19.0.7",
     "@types/react-dom": "^19.0.3",
     "autoprefixer": "^10.4.20",
-    "postcss": "^8.5.1",
+    "postcss": "^8.5.26",
     "shadcn": "^4.19.0",
     "tailwindcss": "^3.4.17",
     "tailwindcss-animate": "^1.0.7",
     "typescript": "^5.7.3"
+  },
+  "overrides": {
+    "postcss": "^8.5.26"
   }
 }

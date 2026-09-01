@@ -65,6 +65,19 @@ decisões de fora do código, listadas logo abaixo.
       dez maiores notas media 581 px em 287 px de largura útil. Junto foi a
       etiqueta que de fato arrastava a página inteira — ver a decisão
       registrada mais abaixo.
+- [x] **Governança do repositório** — `CODEOWNERS` nos caminhos onde um PR
+      faz estrago (dado, coleta, workflow, `next.config.mjs`, `package*.json`),
+      `SECURITY.md` com canal privado, `dependabot.yml` (npm + actions),
+      template de PR com checklist de revisão, e
+      `docs/integridade-e-acesso.md` com o modelo de ameaça e o checklist das
+      proteções que só se ligam pela interface do GitHub.
+- [x] **Verificações automáticas** — workflow `Verificação` roda em todo PR:
+      `npm run build`, `npm run verificar` (cabeçalhos de segurança na
+      resposta real, segredo dentro de `.next/`, nome `NEXT_PUBLIC_*` com cara
+      de token), `npm run contraste` e `npm audit`. Mais CodeQL. O
+      `permissions` do `coleta.yml` foi escopado para o job. `overrides` no
+      `package.json` força `postcss` corrigido também na cópia aninhada do
+      `next` — `npm audit` passou a zero.
 
 
 ## Falta
@@ -73,8 +86,11 @@ decisões de fora do código, listadas logo abaixo.
 
 - [ ] **Domínio de produção** (`NEXT_PUBLIC_SITE_URL`). Enquanto vazio, o
       sitemap, o `robots.txt` e as tags de compartilhamento geram URL errada.
-- [ ] **Licença.** Não há arquivo `LICENSE`, e o projeto se declara open
-      source. Sem licença, ninguém tem direito legal de reusar o código.
+- [ ] **Arquivo `LICENSE`.** A licença já foi escolhida — **AGPL-3.0-only**,
+      registrada no `package.json`, no `README.md` e no rodapé do site. Falta
+      só o arquivo `LICENSE` com o texto: adicionar pelo GitHub
+      (*Add file → Create new file → `LICENSE` → Choose a license template →
+      GNU AGPLv3*), que insere o texto canônico. É passo de pessoa.
 - [ ] **Revisão jurídica da página de privacidade.** O enquadramento em
       `/privacidade` é o raciocínio do projeto, não parecer. Uma leitura de
       advogado antes de divulgar é barata perto do risco: o site publica dado
@@ -104,6 +120,27 @@ decisões de fora do código, listadas logo abaixo.
       quatro regras que a comparação precisa respeitar já estão escritas no
       topo do arquivo, e os controles necessários já existem vestidos. Não
       construir sem pedido explícito.
+
+### Segurança — depende de configuração no GitHub, não de código
+
+O checklist completo, com o porquê de cada item, está em
+`docs/integridade-e-acesso.md`. Em resumo:
+
+- [ ] **Proteções em *Settings → Code security*:** secret scanning + push
+      protection, Dependabot alerts + security updates, private vulnerability
+      reporting.
+- [ ] **Proteção do branch `main`:** exigir PR com 1 aprovação, exigir review
+      de Code Owners, exigir o check `Verificação`, proibir *force push*, não
+      permitir bypass nem para admin.
+- [ ] **Bypass da coleta.** Com a proteção acima, o `git push` diário do
+      `coleta.yml` é recusado. Adicionar bypass para `github-actions[bot]` em
+      *Rulesets*, ou dar a escrita a um App/PAT dedicado. **Sem isto a coleta
+      diária para em silêncio.**
+- [ ] **2FA obrigatório** para todo colaborador com escrita.
+- [ ] **Emendas — antes do token:** montar o coletor já com o passo de CI que
+      falha se o valor do token aparecer em `.next/` ou se um nome
+      `NEXT_PUBLIC_*` casar com token/chave (`npm run verificar` já faz as
+      duas checagens; falta o coletor).
 
 ### Documentação desatualizada
 
@@ -212,6 +249,21 @@ alvo de toque de 48 px, link sublinhado e foco visível vieram do padrão. A
 aparência não: em 28/08/2026 a identidade foi refeita justamente para o site
 não ser confundido com um portal oficial. A tarja do topo diz isso em toda
 página e não deve ser removida.
+
+**A licença é AGPL-3.0.** O projeto se declara auditável e open source; a
+licença permissiva (MIT, Apache) deixaria um fork adulterado ficar fechado, o
+que contradiz a proposta. A AGPL é copyleft de rede: quem hospeda versão
+modificada tem de publicar o código modificado. O rodapé do site linka o
+repositório e cita a licença — é o aviso legal que a AGPL exige de serviço em
+rede, não enfeite.
+
+**A cópia aninhada de `postcss` no `next` é forçada por `overrides`.** O
+`npm audit` acusava o `postcss <= 8.4.31` que o `next 15` embute, com CVE de
+leitura de arquivo via `sourceMappingURL`. É dependência de build e o CSS é
+todo do repositório, mas o `overrides` no `package.json` alinha a versão em
+toda a árvore sem custo — `npm audit` foi a zero. A trava de verdade contra
+CSS envenenado é a revisão de PR sobre `.css` (`CODEOWNERS`). Reavaliar ao
+subir para `next 16`, que corrige na raiz.
 
 ## Como rodar a coleta
 
