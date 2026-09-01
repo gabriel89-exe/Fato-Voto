@@ -112,9 +112,11 @@ export default function PaginaFontes() {
                     <TableCell className="font-medium text-tinta-900">
                       {linha.cargo}
                     </TableCell>
-                    <TableCellNumero>{linha.candidaturas}</TableCellNumero>
-                    <TableCell>Sim — TSE</TableCell>
-                    <TableCell>
+                    <TableCellNumero rotulo="Candidaturas">
+                      {linha.candidaturas}
+                    </TableCellNumero>
+                    <TableCell rotulo="Bens e documentos">Sim — TSE</TableCell>
+                    <TableCell rotulo="Proposta de governo">
                       {linha.proposta ? (
                         "Sim — TSE"
                       ) : (
@@ -123,7 +125,7 @@ export default function PaginaFontes() {
                         </span>
                       )}
                     </TableCell>
-                    <TableCell>
+                    <TableCell rotulo="Histórico de mandato">
                       {linha.mandato ? (
                         "Sim — Câmara"
                       ) : (

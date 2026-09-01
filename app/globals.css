@@ -301,6 +301,152 @@
     @apply grid grid-cols-2 gap-x-4 gap-y-2.5;
   }
 
+  /* ==================================================================
+     TABELA LARGA NO CELULAR
+
+     Duas coisas moram aqui:
+
+     1. `.tabela-rolagem` — o que ainda rolar de lado rola com barra
+        visível e estilizada, sem sequestrar o gesto de voltar do
+        navegador (`overscroll-behavior-x`). A barra fina padrão do
+        sistema some sozinha no celular: rolagem que não se anuncia é
+        conteúdo que ninguém encontra.
+
+     2. `.tabela-empilhada` — abaixo de 640px a tabela vira lista de
+        fichas. O rótulo da coluna vem do `data-rotulo` da célula,
+        porque o cabeçalho sai da tela. Motivo em components/ui/table.tsx.
+
+     O `<thead>` fica escondido, não removido: é dele que o leitor de
+     tela tira a relação entre célula e coluna, e os papéis ARIA
+     declarados no componente sobrevivem ao `display: block`.
+     ================================================================== */
+  .tabela-rolagem {
+    overflow-x: auto;
+    /* Arrastar a tabela até o fim não pode virar "voltar uma página". */
+    overscroll-behavior-x: contain;
+    scrollbar-width: thin;
+    scrollbar-color: theme("colors.tinta.300") theme("colors.papel.baixa");
+  }
+  .tabela-rolagem::-webkit-scrollbar {
+    height: 0.5rem;
+  }
+  .tabela-rolagem::-webkit-scrollbar-track {
+    background-color: theme("colors.papel.baixa");
+  }
+  .tabela-rolagem::-webkit-scrollbar-thumb {
+    border-radius: 9999px;
+    background-color: theme("colors.tinta.300");
+  }
+  .tabela-rolagem::-webkit-scrollbar-thumb:hover {
+    background-color: theme("colors.tinta.500");
+  }
+
+  @media (max-width: 639.98px) {
+    .tabela-empilhada,
+    .tabela-empilhada tbody,
+    .tabela-empilhada tfoot {
+      display: block;
+      width: 100%;
+    }
+
+    /* Escondido, não removido: a associação célula/coluna vive aqui. */
+    .tabela-empilhada thead {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border-width: 0;
+    }
+
+    /* Flex em coluna, e não `block`, só por causa do `order` abaixo:
+       é o que deixa a célula-título abrir a ficha sem trocar a ordem
+       das colunas no desktop. */
+    .tabela-empilhada tr {
+      display: flex;
+      flex-direction: column;
+      padding: 0.6rem 0;
+      border: 1px solid theme("colors.tinta.200");
+      border-radius: theme("borderRadius.lg");
+      background-color: theme("colors.papel.alta");
+    }
+    .tabela-empilhada tr + tr {
+      margin-top: 0.6rem;
+    }
+    /* O hover de linha é gesto de mouse; na ficha ele só piscava. */
+    .tabela-empilhada tr:hover {
+      background-color: theme("colors.papel.alta");
+    }
+
+    .tabela-empilhada td {
+      display: block;
+      padding: 0.3rem 0.85rem;
+      text-align: left;
+      /* Palavra longa quebra em vez de esticar a ficha. */
+      overflow-wrap: break-word;
+      /* `whitespace-nowrap` existe para a coluna não quebrar feio na
+         tabela. Na ficha ele é o que empurra a linha para fora da tela:
+         "Requerimento de Registro de Frente Parlamentar" sozinho pede
+         649px. Aqui o texto quebra. */
+      white-space: normal;
+    }
+
+    /* Célula com rótulo: nome da coluna à esquerda, dado à direita.
+       A coluna do rótulo tem largura fixa para os dados alinharem
+       entre si — desalinhados, viram sopa de linha. */
+    .tabela-empilhada td[data-rotulo] {
+      display: grid;
+      /* A coluna do rótulo encolhe junto com a tela: fixa em 7,5rem
+         ela sobrava 6px para fora a 320px, que é onde ainda vive um
+         punhado de telefones. */
+      grid-template-columns: minmax(0, clamp(4.5rem, 32%, 7.5rem)) minmax(0, 1fr);
+      gap: 0.25rem 0.9rem;
+      align-items: baseline;
+    }
+    .tabela-empilhada td[data-rotulo]::before {
+      content: attr(data-rotulo);
+      font-family: theme("fontFamily.mono");
+      font-size: 0.62rem;
+      font-weight: 600;
+      letter-spacing: 0.16em;
+      line-height: 1.4;
+      text-transform: uppercase;
+      color: theme("colors.tinta.600");
+    }
+
+    /* Texto corrido: o rótulo vai por cima e a linha usa a largura
+       toda. Em meia coluna, uma ementa vira coluna de duas palavras. */
+    .tabela-empilhada td[data-rotulo].celula-larga {
+      display: block;
+      max-width: none;
+    }
+    .tabela-empilhada td[data-rotulo].celula-larga::before {
+      display: block;
+      margin-bottom: 0.15rem;
+    }
+
+    /* Célula sem rótulo abre a ficha: é a que dá nome à linha. Sobe
+       para o topo mesmo quando é a terceira coluna da tabela — o que
+       ordena a leitura no celular não é o que ordena no desktop. */
+    .tabela-empilhada td:not([data-rotulo]) {
+      order: -1;
+      padding-bottom: 0.5rem;
+      font-size: 0.9375rem;
+      font-weight: 600;
+      line-height: 1.35;
+      color: theme("colors.tinta.900");
+    }
+
+    /* Número continua mono e tabular, mas não à direita: na ficha,
+       valor encostado na borda perde o par com o próprio rótulo. */
+    .tabela-empilhada td.text-right {
+      text-align: left;
+    }
+  }
+
   /* --- Filetes --- */
   .filete {
     @apply border-b border-tinta-200;

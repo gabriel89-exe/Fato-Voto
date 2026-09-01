@@ -131,8 +131,10 @@ export default function DetalheDespesas({
                       </span>
                     ) : null}
                   </TableCell>
-                  <TableCellNumero>{f.notas}</TableCellNumero>
-                  <TableCellNumero>{reais(f.total)}</TableCellNumero>
+                  <TableCellNumero rotulo="Notas">{f.notas}</TableCellNumero>
+                  <TableCellNumero rotulo="Total">
+                    {reais(f.total)}
+                  </TableCellNumero>
                 </TableRow>
               ))}
             </TableBody>
@@ -174,12 +176,18 @@ export default function DetalheDespesas({
                 <TableBody>
                   {glosas.exemplos.map((g) => (
                     <TableRow key={`${g.id}-${g.valorGlosa}`}>
-                      <TableCell className="whitespace-nowrap">
+                      <TableCell
+                        rotulo="Data"
+                        className="whitespace-nowrap"
+                      >
                         {g.data ? dataCurta(g.data) : "—"}
                       </TableCell>
+                      {/* Sem rótulo: no celular o tipo abre a ficha. */}
                       <TableCell>{g.tipo}</TableCell>
-                      <TableCellNumero>{reais(g.valorGlosa)}</TableCellNumero>
-                      <TableCell>
+                      <TableCellNumero rotulo="Recusado">
+                        {reais(g.valorGlosa)}
+                      </TableCellNumero>
+                      <TableCell rotulo="Comprovante">
                         <LinkDocumento url={g.documento} />
                       </TableCell>
                     </TableRow>
@@ -221,13 +229,16 @@ export default function DetalheDespesas({
             <TableBody>
               {maiores.map((n) => (
                 <TableRow key={n.id ?? `${n.data}-${n.valor}`}>
-                  <TableCell className="whitespace-nowrap">
+                  <TableCell rotulo="Data" className="whitespace-nowrap">
                     {n.data ? dataCurta(n.data) : "—"}
                   </TableCell>
-                  <TableCell>{n.tipo}</TableCell>
+                  <TableCell rotulo="Tipo">{n.tipo}</TableCell>
+                  {/* Sem rótulo: no celular o fornecedor abre a ficha. */}
                   <TableCell>{n.fornecedor ?? "Não informado"}</TableCell>
-                  <TableCellNumero>{reais(n.valor)}</TableCellNumero>
-                  <TableCell>
+                  <TableCellNumero rotulo="Valor">
+                    {reais(n.valor)}
+                  </TableCellNumero>
+                  <TableCell rotulo="Comprovante">
                     <LinkDocumento url={n.documento} />
                   </TableCell>
                 </TableRow>

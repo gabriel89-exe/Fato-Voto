@@ -107,8 +107,11 @@ export default function PaginaPrivacidade() {
                   ["Mandato, matérias e votações no Senado", "Senado Federal"],
                 ].map(([dado, origem]) => (
                   <TableRow key={dado}>
+                    {/* Sem rótulo: no celular o dado abre a ficha. */}
                     <TableCell>{dado}</TableCell>
-                    <TableCell className="whitespace-nowrap">{origem}</TableCell>
+                    <TableCell rotulo="Origem" className="whitespace-nowrap">
+                      {origem}
+                    </TableCell>
                   </TableRow>
                 ))}
               </TableBody>

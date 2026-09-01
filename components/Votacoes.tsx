@@ -100,10 +100,14 @@ export default function Votacoes({
         <TableBody>
           {linhas.map((l) => (
             <TableRow key={l.id}>
-              <TableCell className="whitespace-nowrap tabular-nums">
+              <TableCell
+                rotulo="Data"
+                className="whitespace-nowrap tabular-nums"
+              >
                 {l.data ? dataCurta(l.data) : "—"}
               </TableCell>
 
+              {/* Sem rótulo: no celular a matéria abre a ficha. */}
               <TableCell className="whitespace-nowrap font-mono text-xs">
                 {l.paginaOficial && l.materia ? (
                   <a href={l.paginaOficial} rel="nofollow noopener">
@@ -117,7 +121,7 @@ export default function Votacoes({
               {/* O objeto em cima, a ementa embaixo: a mesma proposição
                   volta ao plenário várias vezes, e é o objeto que
                   distingue uma sessão da outra. */}
-              <TableCell className="max-w-md">
+              <TableCell rotulo="O que foi votado" larga className="max-w-md">
                 {l.objeto ? (
                   <span className="block font-medium text-tinta-900">
                     {l.objeto}
@@ -133,7 +137,7 @@ export default function Votacoes({
               </TableCell>
 
               {/* Mesma marca para todo voto: a posição não recebe cor.  */}
-              <TableCell className="whitespace-nowrap">
+              <TableCell rotulo="Como votou" className="whitespace-nowrap">
                 <Badge variant="discreto">{l.voto}</Badge>
                 {/* Só quando a sigla acrescenta algo. "Votou" traduzido
                     para "Votou (votação secreta)" já contém a palavra
@@ -145,7 +149,10 @@ export default function Votacoes({
                 ) : null}
               </TableCell>
 
-              <TableCell className="whitespace-nowrap text-tinta-700">
+              <TableCell
+                rotulo="Resultado"
+                className="whitespace-nowrap text-tinta-700"
+              >
                 {l.resultado ?? "—"}
               </TableCell>
             </TableRow>

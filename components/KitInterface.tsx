@@ -693,7 +693,7 @@ export default function KitInterface({
       <Secao
         folio="09"
         titulo="Tabelas e carregamento"
-        nota="Número sempre em fonte tabular e alinhado à direita. A tabela rola dentro do próprio bloco: em 360px a página nunca rola de lado."
+        nota="Número sempre em fonte tabular e alinhado à direita. Abaixo de 640px cada linha vira ficha, com o nome da coluna ao lado do dado: tabela larga em tela estreita não se lê arrastando para o lado."
       >
         <Table>
           <TableCaption>
@@ -710,12 +710,17 @@ export default function KitInterface({
           <TableBody>
             {AMOSTRA[0]?.bens.slice(0, 4).map((bem) => (
               <TableRow key={bem.ordem}>
-                <TableCellNumero className="text-left">
+                <TableCellNumero rotulo="Ordem" className="text-left">
                   {String(bem.ordem).padStart(2, "0")}
                 </TableCellNumero>
+                {/* Sem rótulo: no celular o tipo abre a ficha. */}
                 <TableCell>{bem.tipo}</TableCell>
-                <TableCell>{bem.descricao}</TableCell>
-                <TableCellNumero>{reais(bem.valor)}</TableCellNumero>
+                <TableCell rotulo="Descrição" larga>
+                  {bem.descricao}
+                </TableCell>
+                <TableCellNumero rotulo="Valor declarado">
+                  {reais(bem.valor)}
+                </TableCellNumero>
               </TableRow>
             ))}
           </TableBody>

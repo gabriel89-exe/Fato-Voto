@@ -316,9 +316,14 @@ export default async function PaginaCandidato({
                           .sort((a, b) => b.valor - a.valor)
                           .map((b) => (
                             <TableRow key={b.ordem}>
+                              {/* Sem rótulo: no celular o tipo abre a ficha. */}
                               <TableCell>{b.tipo}</TableCell>
-                              <TableCell>{b.descricao}</TableCell>
-                              <TableCellNumero>{reais(b.valor)}</TableCellNumero>
+                              <TableCell rotulo="Descrição" larga>
+                                {b.descricao}
+                              </TableCell>
+                              <TableCellNumero rotulo="Valor">
+                                {reais(b.valor)}
+                              </TableCellNumero>
                             </TableRow>
                           ))}
                       </TableBody>
@@ -359,13 +364,16 @@ export default async function PaginaCandidato({
                     <TableBody>
                       {c.eleicoesAnteriores.map((e, i) => (
                         <TableRow key={`${e.ano}-${e.cargo}-${i}`}>
-                          <TableCellNumero className="text-left">
+                          <TableCellNumero rotulo="Ano" className="text-left">
                             {e.ano}
                           </TableCellNumero>
+                          {/* Sem rótulo: no celular o cargo abre a ficha. */}
                           <TableCell>{e.cargo}</TableCell>
-                          <TableCell>{e.partido}</TableCell>
-                          <TableCell>{e.uf}</TableCell>
-                          <TableCell>{e.resultado ?? "Não informado"}</TableCell>
+                          <TableCell rotulo="Partido">{e.partido}</TableCell>
+                          <TableCell rotulo="UF">{e.uf}</TableCell>
+                          <TableCell rotulo="Resultado">
+                            {e.resultado ?? "Não informado"}
+                          </TableCell>
                         </TableRow>
                       ))}
                     </TableBody>
@@ -441,13 +449,21 @@ export default async function PaginaCandidato({
                           .slice(0, 12)
                           .map((m) => (
                             <TableRow key={m.id}>
+                              {/* Sem rótulo: a matéria abre a ficha. */}
                               <TableCell className="whitespace-nowrap font-mono text-xs">
                                 {m.identificacao ?? "—"}
                               </TableCell>
-                              <TableCell className="max-w-md">
+                              <TableCell
+                                rotulo="Ementa"
+                                larga
+                                className="max-w-md"
+                              >
                                 {m.ementa ?? "Sem ementa registrada"}
                               </TableCell>
-                              <TableCell className="whitespace-nowrap">
+                              <TableCell
+                                rotulo="Autoria"
+                                className="whitespace-nowrap"
+                              >
                                 {m.autorPrincipal ? "Autor principal" : "Coautor"}
                               </TableCell>
                             </TableRow>
@@ -642,15 +658,23 @@ export default async function PaginaCandidato({
                       <TableBody>
                         {mandato.proposicoes.recentes.map((p) => (
                           <TableRow key={p.id}>
+                            {/* Sem rótulo: a proposição abre a ficha. */}
                             <TableCell className="whitespace-nowrap font-mono text-xs">
                               <a href={p.paginaOficial} rel="nofollow noopener">
                                 {p.sigla} {p.numero}/{p.ano}
                               </a>
                             </TableCell>
-                            <TableCell className="whitespace-nowrap text-tinta-700">
+                            <TableCell
+                              rotulo="Tipo"
+                              className="whitespace-nowrap text-tinta-700"
+                            >
                               {p.tipo}
                             </TableCell>
-                            <TableCell className="max-w-md">
+                            <TableCell
+                              rotulo="Do que trata"
+                              larga
+                              className="max-w-md"
+                            >
                               {p.ementa ??
                                 "A fonte não publicou ementa para esta proposição."}
                             </TableCell>
