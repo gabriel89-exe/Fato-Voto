@@ -6,6 +6,13 @@
       "runtimeExecutable": "node",
       "runtimeArgs": ["./node_modules/next/dist/bin/next", "dev", "--port", "3000"],
       "port": 3000
+    },
+    {
+      "//": "A produção é a que precisa de conferência: a CSP só vale de verdade aqui, e foi ela que derrubou o site em 31/08/2026 com todas as rotas respondendo 200. Rodar `npm run build` antes — e nunca com o servidor de desenvolvimento ligado.",
+      "name": "fato-e-voto-producao",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["./node_modules/next/dist/bin/next", "start", "--port", "3100"],
+      "port": 3100
     }
   ]
 }

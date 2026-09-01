@@ -34,9 +34,22 @@
  * precisa ser revista junto.
  * ================================================================
  */
+/**
+ * O SERVIDOR DE DESENVOLVIMENTO PRECISA DE 'unsafe-eval'.
+ *
+ * O `next dev` monta a atualização a quente avaliando string como
+ * JavaScript. Sem esta exceção, a CSP bloqueia, nada hidrata, e o dev
+ * vê a mesma tela que a produção mostra — só que morta: clique em aba
+ * não responde, e o erro só aparece no console. Já custou uma sessão
+ * inteira de investigação.
+ *
+ * Vale SÓ em desenvolvimento. A produção continua sem 'unsafe-eval'.
+ */
+const emDesenvolvimento = process.env.NODE_ENV !== "production";
+
 const csp = [
   "default-src 'self'",
-  "script-src 'self' 'unsafe-inline'",
+  `script-src 'self' 'unsafe-inline'${emDesenvolvimento ? " 'unsafe-eval'" : ""}`,
   "style-src 'self' 'unsafe-inline'",
   "img-src 'self' data:",
   "font-src 'self'",
