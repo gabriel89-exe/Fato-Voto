@@ -28,6 +28,8 @@ decisões de fora do código, listadas logo abaixo.
       tabela acessível ao lado.
 - [x] **Inventário de fontes** — `/fontes` publica também as lacunas.
 - [x] **Responsividade em 360 px** — todas as rotas, sem rolagem horizontal.
+      Conferido de novo em 01/09/2026, agora também a 320 px, no build de
+      produção e não no de desenvolvimento.
 - [x] **Senadores do ES** — coleta feita. Contarato e Marcos do Val são
       senadores em exercício E candidatos: as fichas deles ganharam aba de
       mandato com as matérias de autoria.
@@ -57,6 +59,12 @@ decisões de fora do código, listadas logo abaixo.
       Referrer-Policy e Permissions-Policy, conferidos na resposta real.
 - [x] **Auditoria de toque em 360 px** — gaveta de filtros, abas da ficha e
       botão de fechar acertados para 48 px.
+- [x] **Tabela larga no celular** — abaixo de 640 px cada linha das tabelas
+      vira ficha, com o nome da coluna ao lado do dado. Antes a página não
+      rolava de lado, mas cada tabela rolava dentro do próprio bloco: a das
+      dez maiores notas media 581 px em 287 px de largura útil. Junto foi a
+      etiqueta que de fato arrastava a página inteira — ver a decisão
+      registrada mais abaixo.
 
 
 ## Falta
@@ -116,6 +124,31 @@ Nada disto muda comportamento, mas confunde quem chegar ao projeto:
       número fixo; ele muda a cada coleta.
 
 ## Decisões registradas
+
+**No celular a tabela vira lista de fichas, e não tabela que se arrasta.**
+Rolagem lateral dentro de página que já rola na vertical não se anuncia
+sozinha: quem abria os gastos de um deputado no telefone via três colunas de
+cinco e não tinha como saber que faltavam duas. Abaixo de 640 px cada linha
+passa a ser uma ficha, e o rótulo da coluna acompanha o dado. Os papéis ARIA
+estão escritos à mão em `components/ui/table.tsx` porque `display: block`
+apaga a semântica de tabela que o navegador deriva do elemento — sem eles o
+leitor de tela perderia a relação entre célula e cabeçalho, que é justamente
+o que a ficha precisa preservar. O que ainda rolar de lado em tela larga rola
+com barra visível e sem sequestrar o gesto de voltar do navegador.
+
+**Etiqueta longa quebra linha.** `Badge` tinha `whitespace-nowrap`, e
+"Requerimento de Registro de Frente Parlamentar — 284" pede 588 px: em 375 px
+empurrava a ficha inteira para a rolagem lateral. Era o sintoma mais visível
+do problema, porque arrastava a PÁGINA e não um bloco. Etiqueta curta não
+quebra de qualquer jeito.
+
+**A CSP de desenvolvimento aceita `unsafe-eval`; a de produção, não.** O
+`next dev` monta a atualização a quente avaliando string como JavaScript, e
+sem a exceção nada hidratava no servidor local: a tela aparecia igual e morta,
+com o erro só no console. Custou uma sessão de investigação. A produção segue
+sem `unsafe-eval`, e a conferência de interface passa a ser feita no build de
+produção — que é onde a CSP vale de verdade. Há uma configuração
+`fato-e-voto-producao` em `.claude/launch.json` para isso.
 
 **Link de fonte tem que levar ao fato, não à página onde o fato mora.**
 Citar "art. 45" e apontar para os 1,8 MB da Constituição inteira é quase não
