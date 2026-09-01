@@ -106,8 +106,10 @@ Nada disto muda comportamento, mas confunde quem chegar ao projeto:
       seletor de estado com URL `/es/...` que não existe — as rotas são planas
       e o ES está fixo.
 - [ ] `README.md` lista só TSE e Câmara como fontes; o Senado já é fonte e já
-      tem `npm run coleta:senado`. E o aviso sobre o `&` no nome da pasta não
-      vale mais.
+      tem `npm run coleta:senado`. Já o aviso sobre o `&` no nome da pasta
+      continua valendo: em 01/09/2026 um `npx tsc --noEmit` quebrou aqui
+      exatamente por isso. Este arquivo dizia que não valia mais, e estava
+      errado.
 - [ ] `TarjaPrototipo` já não é tarja de protótipo — o nome mente sobre o que
       o componente faz.
 - [ ] `.github/workflows/coleta.yml` cita "232 registros em julgamento" como
