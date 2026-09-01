@@ -44,6 +44,10 @@ decisões de fora do código, listadas logo abaixo.
 - [x] **Lista paginada** — 24 fichas por página. Sem isso a lista sem recorte
       montava as 575 de uma vez: 158 mil pixels de altura e perto de 20 mil nós
       no DOM a 360 px. A navegação é feita de `<a>`, não de botão com script.
+- [x] **Como funciona a política** — página /como-funciona com 19 verbetes
+      em linguagem simples, cada um com a base legal e o link para a fonte.
+      Convite na home e explicação inline ao lado do jargão nas fichas.
+      Não é portão na entrada: ver a decisão registrada mais abaixo.
 - [x] **E-mail do projeto** — fatoevoto@gmail.com, endereço do próprio
       projeto e não pessoal, como a regra exigia.
 - [x] **Privacidade e LGPD** — página /privacidade com base legal, o que é
@@ -110,6 +114,17 @@ Nada disto muda comportamento, mas confunde quem chegar ao projeto:
       número fixo; ele muda a cada coleta.
 
 ## Decisões registradas
+
+**O tour não é um portão na entrada.** Um tutorial obrigatório atrapalharia
+quem chegou para procurar um nome, precisaria de `localStorage` para não se
+repetir — desmentindo a página de privacidade — e seria esquecido antes de a
+pessoa chegar na tabela de votações. O conteúdo vive em três camadas: a página,
+um convite na home e a explicação ao lado do termo, que é a que resolve a
+dúvida no segundo em que ela aparece.
+
+**O cabeçalho comporta três itens, não quatro.** No celular eles dividem a
+largura em partes iguais; o quarto estoura a tela em 360px. Ficam os três da
+jornada principal — chegar, procurar, entender.
 
 **A ficha de senador não mostra despesa.** O equivalente senatorial da cota
 parlamentar (CEAPS) não está nos dados abertos do Senado em formato coletável.

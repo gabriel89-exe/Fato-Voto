@@ -1,4 +1,5 @@
 import { GraficoBarras } from "@/components/graficos";
+import Termo from "@/components/Termo";
 import { IconeLinkExterno } from "@/components/icones";
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 import {
@@ -148,15 +149,14 @@ export default function DetalheDespesas({
 
         {glosas.quantidade === 0 ? (
           <p className="mt-1 text-sm text-tinta-600">
-            Nenhuma glosa registrada no período. Glosa é a parte de uma despesa
-            que a Câmara não aceitou reembolsar.
+            Nenhuma <Termo id="glosa">glosa</Termo> registrada no período.
           </p>
         ) : (
           <>
             <p className="mt-1 text-sm text-tinta-600">
-              Glosa é a parte de uma despesa que a própria Câmara não aceitou
-              reembolsar — registro da Casa, não avaliação desta plataforma.
-              Foram <strong>{fmtNumero(glosas.quantidade)}</strong> ocorrências,
+              <Termo id="glosa">Glosa</Termo> é a parte de uma despesa que a
+              própria Câmara não aceitou reembolsar — registro da Casa, não
+              avaliação desta plataforma. Foram <strong>{fmtNumero(glosas.quantidade)}</strong> ocorrências,
               somando <strong>{reais(glosas.valor)}</strong> de{" "}
               {reais(despesas.total)} apresentados.
             </p>

@@ -163,6 +163,30 @@ export default function PaginaInicial() {
         </ul>
       </section>
 
+      {/* ================= Convite ao tour =================
+          Convite, não portão. Quem chegou para procurar um nome passa
+          reto; quem não sabe o que um deputado faz encontra a porta
+          antes de topar com PEC numa tabela. */}
+      <section className="envelope mt-12 sm:mt-16">
+        <div className="rounded-lg border border-acento-borda bg-acento-leve p-6 sm:p-8">
+          <h2>Você conhece a política do Brasil?</h2>
+          <p className="mt-2 max-w-leitura text-tinta-800">
+            Este site mostra em que cada candidatura votou, quanto gastou e o
+            que propôs. Se os termos não forem familiares, comece por aqui: o
+            que faz um deputado, o que é uma PEC e de onde vem o dinheiro do
+            mandato — em linguagem simples, com as fontes ao lado.
+          </p>
+          <div className="mt-5">
+            <Button asChild>
+              <Link href="/como-funciona">
+                Entender como funciona
+                <IconeSeta />
+              </Link>
+            </Button>
+          </div>
+        </div>
+      </section>
+
       {/* ================= Cargos ================= */}
       <section className="envelope mt-12 sm:mt-16">
         <h2>Ver por cargo</h2>

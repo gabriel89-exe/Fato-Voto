@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import AvatarCandidato from "@/components/AvatarCandidato";
 import DadoOficial from "@/components/DadoOficial";
 import DetalheDespesas from "@/components/DetalheDespesas";
+import Termo from "@/components/Termo";
 import { GraficoComposicao, GraficoEvolucao } from "@/components/graficos";
 import { IconeLinkExterno, IconeSeta } from "@/components/icones";
 import NumeroUrna from "@/components/NumeroUrna";
@@ -460,7 +461,9 @@ export default async function PaginaCandidato({
                   </div>
 
                   <div className="mt-8 border-t border-tinta-300 pt-5">
-                    <p className="rotulo-meta mb-3">Como votou no plenário</p>
+                    <p className="rotulo-meta mb-3">
+                      Como votou no <Termo id="plenario">plenário</Termo>
+                    </p>
                     <Votacoes
                       linhas={votacoesDoSenador(mandatoSenado).map(
                         ({ votacao, registro }) => {
@@ -520,7 +523,7 @@ export default async function PaginaCandidato({
                         são do mandato atual, não da candidatura
                       </>
                     ) : null}
-                    . Os valores são da cota para o exercício da atividade
+                    . Os valores são da <Termo id="cota-parlamentar">cota parlamentar</Termo>
                     parlamentar, prestada com nota fiscal pública.
                   </p>
 
@@ -664,7 +667,7 @@ export default async function PaginaCandidato({
 
                   <div className="mt-8 border-t border-tinta-300 pt-5">
                     <p className="rotulo-meta mb-3">
-                      Como votou no plenário
+                      Como votou no <Termo id="plenario">plenário</Termo>
                     </p>
                     <Votacoes
                       linhas={votacoesDoDeputado(mandato).map(

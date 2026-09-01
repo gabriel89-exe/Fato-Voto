@@ -29,10 +29,25 @@ import { ELEICAO, ESTADO } from "@/lib/eleicao";
  * mandar a pessoa a um beco sem saída. Enquanto a comparação não for
  * feita, ela não se anuncia.
  */
+/**
+ * TRÊS itens, e o número é restrição de layout, não preferência.
+ *
+ * No celular a navegação ocupa a largura toda com os itens dividindo o
+ * espaço em partes iguais. Com quatro, "Quem somos" passava 12px da
+ * tela em 360px e a página rolava de lado.
+ *
+ * Ficam os três destinos da jornada principal: chegar, procurar,
+ * entender. "Quem somos" e "Comparar" seguem no rodapé — a primeira
+ * porque é página de confiança, procurada de propósito e não de
+ * passagem; a segunda porque ainda não existe.
+ *
+ * Se um quarto item for mesmo necessário um dia, o `flex-wrap` abaixo
+ * faz a régua quebrar em duas linhas em vez de estourar em silêncio.
+ */
 const LINKS = [
   { href: "/", rotulo: "Início" },
   { href: "/candidatos", rotulo: "Candidatos" },
-  { href: "/quem-somos", rotulo: "Quem somos" },
+  { href: "/como-funciona", rotulo: "Como funciona" },
 ];
 
 export default function Cabecalho() {
@@ -62,7 +77,7 @@ export default function Cabecalho() {
         </Link>
 
         <nav aria-label="Navegação principal">
-          <ul className="flex items-center gap-1">
+          <ul className="flex flex-wrap items-center gap-1">
             {LINKS.map((link) => {
               const estaAtivo = ativo(link.href);
               return (

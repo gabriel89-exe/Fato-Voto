@@ -2,6 +2,7 @@ import Link from "next/link";
 import { ELEICAO, ESTADO } from "@/lib/eleicao";
 
 const LINKS = [
+  { href: "/como-funciona", rotulo: "Como funciona a política" },
   { href: "/quem-somos", rotulo: "Quem somos" },
   { href: "/metodologia", rotulo: "Metodologia" },
   { href: "/fontes", rotulo: "Fontes dos dados" },
