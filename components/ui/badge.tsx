@@ -10,9 +10,16 @@ import { cn } from "@/lib/utils";
  * Aviso de produto: `Badge` NUNCA deve ganhar cor por candidatura,
  * partido ou situacao de registro. Um selo colorido em uma ficha e nao
  * em outra e exatamente o destaque que este site nao pode dar.
+ *
+ * A etiqueta QUEBRA LINHA e nunca passa da largura do pai. Etiqueta
+ * curta como "PT" nao quebra de qualquer jeito; a longa quebrava a
+ * pagina: "Requerimento de Registro de Frente Parlamentar — 284" pede
+ * 588px, e a 375px empurrava a ficha inteira para a rolagem lateral.
+ * Era o efeito mais visivel do problema, porque arrastava a PAGINA,
+ * nao um bloco.
  */
 const variantesBadge = cva(
-  "inline-flex w-fit shrink-0 items-center gap-1.5 whitespace-nowrap rounded-full border px-3 py-1 text-sm font-medium no-underline [&_svg]:size-3 [&_svg]:pointer-events-none",
+  "inline-flex w-fit max-w-full shrink-0 items-center gap-1.5 rounded-full border px-3 py-1 text-sm font-medium no-underline [&_svg]:size-3 [&_svg]:pointer-events-none",
   {
     variants: {
       variant: {
