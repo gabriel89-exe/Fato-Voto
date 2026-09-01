@@ -115,6 +115,13 @@ Nada disto muda comportamento, mas confunde quem chegar ao projeto:
 
 ## Decisões registradas
 
+**Link de fonte tem que levar ao fato, não à página onde o fato mora.**
+Citar "art. 45" e apontar para os 1,8 MB da Constituição inteira é quase não
+citar: a pessoa desiste antes de achar. Vale para tudo — se a fonte publica
+âncora, parágrafo ou identificador, o link usa. E a âncora se confere no HTML
+servido antes de ir para o repositório, como toda URL de fonte desde o
+episódio do link do TSE que abria numa tela de erro.
+
 **O tour não é um portão na entrada.** Um tutorial obrigatório atrapalharia
 quem chegou para procurar um nome, precisaria de `localStorage` para não se
 repetir — desmentindo a página de privacidade — e seria esquecido antes de a
