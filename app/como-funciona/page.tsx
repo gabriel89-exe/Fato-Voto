@@ -55,11 +55,11 @@ function Verbete({ verbete }: { verbete: Verbete }) {
       {/* A procedência fica junto do verbete, não numa lista solta no
           fim da página: quem lê precisa poder conferir aquilo ali. */}
       <div className="mt-4 flex flex-wrap items-baseline gap-x-4 gap-y-1 text-sm">
-        {verbete.baseLegal ? (
-          <span className="font-semibold text-tinta-700">
-            {verbete.baseLegal}
-          </span>
-        ) : null}
+        {/* `baseLegal` não é impresso aqui de propósito: o rótulo do link
+            da Constituição já nomeia o artigo e ainda leva até ele. Impresso
+            ao lado, sairia a mesma frase duas vezes seguidas, e a versão
+            morta viria primeiro. O popover do <Termo> continua mostrando o
+            texto, porque lá não há link de fonte. */}
         {verbete.fontes.map((fonte) => (
           <a
             key={fonte.url}

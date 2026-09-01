@@ -16,7 +16,9 @@
  * num texto escrito por quem tem opinião — e cruzá-la aqui contamina o
  * resto do site, que se sustenta em não opinar.
  *
- * Todas as URLs foram testadas em 01/09/2026 e respondiam 200.
+ * Todas as URLs foram testadas em 01/09/2026 e respondiam 200, e as
+ * âncoras de artigo foram conferidas no HTML da fonte — link que abre
+ * não é o mesmo que link que leva ao fato.
  */
 
 export interface FonteGlossario {
@@ -40,10 +42,32 @@ export interface Verbete {
   fontes: FonteGlossario[];
 }
 
+const CF_TEXTO =
+  "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm";
+
+/** A Constituição inteira. Só para verbete sem artigo único que o sustente. */
 const CF: FonteGlossario = {
   rotulo: "Constituição Federal",
-  url: "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+  url: CF_TEXTO,
 };
+
+/**
+ * A Constituição no artigo citado.
+ *
+ * O texto integral tem 1,8 MB e mais de 250 artigos: mandar quem clicou
+ * em "art. 45" para o começo dele é o mesmo que não citar fonte —
+ * a pessoa desiste antes de achar. As âncoras `#artNN` são do próprio
+ * Planalto e foram conferidas uma a uma no HTML publicado.
+ *
+ * O rótulo já nomeia o artigo, então a página não repete a base legal
+ * como texto solto ao lado do link.
+ */
+function cf(ancora: string, artigo: string): FonteGlossario {
+  return {
+    rotulo: `Constituição Federal, ${artigo}`,
+    url: `${CF_TEXTO}#${ancora}`,
+  };
+}
 
 const PROCESSO: FonteGlossario = {
   rotulo: "Câmara dos Deputados — Entenda o processo legislativo",
@@ -71,7 +95,7 @@ export const CARGOS_EXPLICADOS: Verbete[] = [
       "O número de deputados por estado é proporcional à população, com um piso de 8 e um teto de 70. Por isso São Paulo elege 70 e Roraima elege 8.",
     ],
     baseLegal: "Constituição Federal, art. 45",
-    fontes: [CF],
+    fontes: [cf("art45", "art. 45")],
   },
   {
     id: "senador",
@@ -85,7 +109,7 @@ export const CARGOS_EXPLICADOS: Verbete[] = [
     ],
     baseLegal: "Constituição Federal, art. 46",
     fontes: [
-      CF,
+      cf("art46", "art. 46"),
       {
         rotulo: "Senado Federal — Institucional",
         url: "https://www12.senado.leg.br/institucional",
@@ -103,7 +127,7 @@ export const CARGOS_EXPLICADOS: Verbete[] = [
     ],
     baseLegal: "Constituição Federal, art. 27",
     fontes: [
-      CF,
+      cf("art27", "art. 27"),
       {
         rotulo: "Assembleia Legislativa do Espírito Santo",
         url: "https://www.al.es.gov.br/",
@@ -121,7 +145,7 @@ export const CARGOS_EXPLICADOS: Verbete[] = [
       "É por isso que a ficha de um governador mostra proposta de governo e a de um deputado não: quem vai executar precisa dizer antes o que pretende fazer.",
     ],
     baseLegal: "Constituição Federal, art. 28",
-    fontes: [CF],
+    fontes: [cf("art28", "art. 28")],
   },
   {
     id: "presidente",
@@ -133,7 +157,7 @@ export const CARGOS_EXPLICADOS: Verbete[] = [
       "O mandato é de quatro anos, com direito a uma reeleição seguida.",
     ],
     baseLegal: "Constituição Federal, arts. 76 a 84",
-    fontes: [CF],
+    fontes: [cf("art76", "arts. 76 a 84")],
   },
 ];
 
@@ -151,7 +175,7 @@ export const CASAS: Verbete[] = [
       "Quase todo projeto de lei começa por lá. E é a Câmara que autoriza a abertura de processo contra o presidente da República.",
     ],
     baseLegal: "Constituição Federal, art. 45",
-    fontes: [CF],
+    fontes: [cf("art45", "art. 45")],
   },
   {
     id: "senado",
@@ -162,7 +186,7 @@ export const CASAS: Verbete[] = [
       "Ele revisa o que a Câmara aprova, aprova indicações de autoridades e julga o presidente em caso de impeachment.",
     ],
     baseLegal: "Constituição Federal, art. 46",
-    fontes: [CF],
+    fontes: [cf("art46", "art. 46")],
   },
   {
     id: "congresso",
@@ -174,7 +198,7 @@ export const CASAS: Verbete[] = [
     ],
     baseLegal: "Constituição Federal, art. 44",
     fontes: [
-      CF,
+      cf("art44", "art. 44"),
       {
         rotulo: "Congresso Nacional",
         url: "https://www.congressonacional.leg.br/",
@@ -211,7 +235,7 @@ export const PROPOSICOES: Verbete[] = [
       "A diferença prática está no placar: enquanto uma lei comum passa com a maioria dos presentes, a complementar exige a maioria de todos os membros da casa, estejam presentes ou não.",
     ],
     baseLegal: "Constituição Federal, art. 69",
-    fontes: [CF],
+    fontes: [cf("art69", "art. 69")],
   },
   {
     id: "pec",
@@ -225,7 +249,7 @@ export const PROPOSICOES: Verbete[] = [
       "Alguns pontos não podem ser mudados nem por PEC — o voto direto, a separação dos Poderes e os direitos e garantias individuais, entre outros.",
     ],
     baseLegal: "Constituição Federal, art. 60",
-    fontes: [CF, PROCESSO],
+    fontes: [cf("art60", "art. 60"), PROCESSO],
   },
   {
     id: "pdl",
@@ -288,7 +312,7 @@ export const VOTACAO: Verbete[] = [
       "Recesso não significa que o parlamentar esteja proibido de trabalhar ou de ter despesa — mandato e gabinete continuam existindo. Significa apenas que não há sessão ordinária no período.",
     ],
     baseLegal: "Constituição Federal, art. 57",
-    fontes: [CF],
+    fontes: [cf("art57", "art. 57")],
   },
 ];
 
