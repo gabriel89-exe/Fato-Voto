@@ -6,7 +6,7 @@
   },
   "uf": "ES",
   "legislatura": 57,
-  "coletadoEm": "2026-08-31T17:06:34.692Z",
+  "coletadoEm": "2026-09-01T14:11:52.796Z",
   "referencia": {
     "bancada": 10,
     "medianaDespesas": 1783876.5800000024,
@@ -1333,13 +1333,13 @@
             "total": 11
           },
           {
-            "tipo": "Emenda na Comissão",
-            "sigla": "EMC",
-            "total": 7
-          },
-          {
             "tipo": "Requerimento de Inclusão ou Retirada de Assinatura em Proposição de Iniciativa Individual",
             "sigla": "REQ",
+            "total": 8
+          },
+          {
+            "tipo": "Emenda na Comissão",
+            "sigla": "EMC",
             "total": 7
           },
           {
@@ -1424,6 +1424,16 @@
           }
         ],
         "recentes": [
+          {
+            "id": 2644927,
+            "sigla": "REQ",
+            "tipo": "Requerimento de Inclusão ou Retirada de Assinatura em Proposição de Iniciativa Individual",
+            "numero": 4141,
+            "ano": 2026,
+            "ementa": "Requer, nos termos regimentais, com anuência do autor, a coautoria do Projeto de Lei nº 526/2026.",
+            "apresentadaEm": "2026-08-31T13:57",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2644927"
+          },
           {
             "id": 2644734,
             "sigla": "REQ",
@@ -1513,16 +1523,6 @@
             "ementa": "Requer informações ao Ministro de Estado da Fazenda sobre a aplicação do Imposto sobre Bens e Serviços (IBS) e da Contribuição sobre Bens e Serviços (CBS) ao regime de tributação simplificada (RTS) aplicável ao setor de remessas expressas.",
             "apresentadaEm": "2026-03-18T17:32",
             "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2610434"
-          },
-          {
-            "id": 2607035,
-            "sigla": "REQ",
-            "tipo": "Requerimento de Quebra de Interstício para Inclusão de Matéria na Ordem do Dia",
-            "numero": 1288,
-            "ano": 2026,
-            "ementa": "Requer a dispensa do interstício regimental entre o primeiro e o segundo turno de deliberação da Proposta de Emenda à Constituição nº 18, de 2025.",
-            "apresentadaEm": "2026-03-04T17:26",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2607035"
           }
         ]
       }
@@ -5370,7 +5370,7 @@
           {
             "tipo": "Requerimento de Inclusão ou Retirada de Assinatura em Proposição de Iniciativa Individual",
             "sigla": "REQ",
-            "total": 7
+            "total": 8
           },
           {
             "tipo": "Processo Interno",
@@ -5520,6 +5520,16 @@
         ],
         "recentes": [
           {
+            "id": 2645040,
+            "sigla": "REQ",
+            "tipo": "Requerimento de Inclusão ou Retirada de Assinatura em Proposição de Iniciativa Individual",
+            "numero": 4152,
+            "ano": 2026,
+            "ementa": "Requer a inclusão de coautoria ao Projeto de Lei nº 2.478, de 2026.",
+            "apresentadaEm": "2026-08-31T20:01",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2645040"
+          },
+          {
             "id": 2644734,
             "sigla": "REQ",
             "tipo": "Requerimento de Registro de Frente Parlamentar na Câmara dos Deputados",
@@ -5608,16 +5618,6 @@
             "ementa": "Altera o art. 9º da Emenda Constitucional nº 132, de 20 de dezembro de 2023, para permitir a concessão de créditos do Imposto sobre Bens e Serviços através de fomento indireto a doadores e patrocinadores de projetos culturais e esportivos.",
             "apresentadaEm": "2026-06-10T12:08",
             "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2631190"
-          },
-          {
-            "id": 2623492,
-            "sigla": "REQ",
-            "tipo": "Requerimento de Sessão Solene",
-            "numero": 2756,
-            "ano": 2026,
-            "ementa": "Requer a realização de Sessão Solene, no Plenário da Câmara dos Deputados, em homenagem ao Novembro Azul, mês dedicado à conscientização sobre a saúde do homem, com especial atenção à prevenção e ao diagnóstico precoce do câncer de próstata.",
-            "apresentadaEm": "2026-05-11T18:14",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2623492"
           }
         ]
       }
@@ -6192,7 +6192,7 @@
           {
             "tipo": "Requerimento de Inclusão ou Retirada de Assinatura em Proposição de Iniciativa Individual",
             "sigla": "REQ",
-            "total": 7
+            "total": 8
           },
           {
             "tipo": "Sugestão de Emenda ao Orçamento - Comissões",
@@ -6307,6 +6307,16 @@
         ],
         "recentes": [
           {
+            "id": 2645040,
+            "sigla": "REQ",
+            "tipo": "Requerimento de Inclusão ou Retirada de Assinatura em Proposição de Iniciativa Individual",
+            "numero": 4152,
+            "ano": 2026,
+            "ementa": "Requer a inclusão de coautoria ao Projeto de Lei nº 2.478, de 2026.",
+            "apresentadaEm": "2026-08-31T20:01",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2645040"
+          },
+          {
             "id": 2643776,
             "sigla": "PL",
             "tipo": "Projeto de Lei",
@@ -6395,16 +6405,6 @@
             "ementa": "Requer dispensa de interstício para a inclusão da Redação Final ao Projeto de Lei nº 3.801, de 2004, na Ordem do Dia de sessão plenária.",
             "apresentadaEm": "2026-06-02T09:44",
             "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2629602"
-          },
-          {
-            "id": 2626432,
-            "sigla": "REQ",
-            "tipo": "Requerimento de Urgência (Art. 155 do RICD)",
-            "numero": 3028,
-            "ano": 2026,
-            "ementa": "Com base no art. 155 do Regimento Interno, requeremos regime de urgência para a apreciação do PL 68/2025.",
-            "apresentadaEm": "2026-05-20T16:40",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2626432"
           }
         ]
       }
@@ -6917,7 +6917,7 @@
           {
             "tipo": "Requerimento de Informação",
             "sigla": "RIC",
-            "total": 268
+            "total": 269
           },
           {
             "tipo": "Requerimento de Registro de Frente Parlamentar na Câmara dos Deputados",
@@ -7167,6 +7167,16 @@
         ],
         "recentes": [
           {
+            "id": 2644968,
+            "sigla": "RIC",
+            "tipo": "Requerimento de Informação",
+            "numero": 2534,
+            "ano": 2026,
+            "ementa": "Requer Informações ao Ministro de Estado da Integração e do Desenvolvimento Regional acerca das providências administrativas, financeiras, correicionais e de controle adotadas pelo Ministério e pelo Departamento Nacional de Obras Contra as Secas — DNOCS após a deflagração da Operação Overclean, especialmente diante do indiciamento de pessoas ligadas à Autarquia e das deficiências apontadas em documentos de auditoria interna.",
+            "apresentadaEm": "2026-08-31T15:33",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2644968"
+          },
+          {
             "id": 2644800,
             "sigla": "PEC",
             "tipo": "Proposta de Emenda à Constituição",
@@ -7255,16 +7265,6 @@
             "ementa": "Requer informações à Advocacia-Geral da União acerca da efetividade e da transparência na recuperação de recursos públicos adiantados para o ressarcimento de segurados do INSS vítimas de fraudes em descontos associativos.",
             "apresentadaEm": "2026-08-12T20:21",
             "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2643409"
-          },
-          {
-            "id": 2643401,
-            "sigla": "RIC",
-            "tipo": "Requerimento de Informação",
-            "numero": 2404,
-            "ano": 2026,
-            "ementa": "Requer informações ao Ministro de Estado da Previdência Social acerca da efetividade e da transparência na recuperação de recursos públicos adiantados para o ressarcimento de segurados do INSS vítimas de fraudes em descontos associativos.",
-            "apresentadaEm": "2026-08-12T20:03",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2643401"
           }
         ]
       }
@@ -7807,7 +7807,7 @@
           {
             "tipo": "Requerimento de Inclusão ou Retirada de Assinatura em Proposição de Iniciativa Individual",
             "sigla": "REQ",
-            "total": 28
+            "total": 29
           },
           {
             "tipo": "Projeto de Lei",
@@ -7937,6 +7937,16 @@
         ],
         "recentes": [
           {
+            "id": 2645040,
+            "sigla": "REQ",
+            "tipo": "Requerimento de Inclusão ou Retirada de Assinatura em Proposição de Iniciativa Individual",
+            "numero": 4152,
+            "ano": 2026,
+            "ementa": "Requer a inclusão de coautoria ao Projeto de Lei nº 2.478, de 2026.",
+            "apresentadaEm": "2026-08-31T20:01",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2645040"
+          },
+          {
             "id": 2644734,
             "sigla": "REQ",
             "tipo": "Requerimento de Registro de Frente Parlamentar na Câmara dos Deputados",
@@ -8025,16 +8035,6 @@
             "ementa": "Requer a criação de Comissão Parlamentar de Inquérito para investigar as fraudes financeiras ocorridas na relação entre o Banco Master e o Banco Regional de Brasília – BRB.",
             "apresentadaEm": "2026-02-02T09:54",
             "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2600034"
-          },
-          {
-            "id": 2598197,
-            "sigla": "REQ",
-            "tipo": "Requerimento de Registro de Frente Parlamentar na Câmara dos Deputados",
-            "numero": 6008,
-            "ano": 2025,
-            "ementa": "Requer a criação e registro da Frente Parlamentar Mista do Ambiente de Negócios (FPN).",
-            "apresentadaEm": "2025-12-17T12:38",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2598197"
           }
         ]
       }

@@ -9,7 +9,7 @@
     "idEleicao": "20322002026",
     "uf": "ES"
   },
-  "coletadoEm": "2026-08-31T17:05:07.570Z",
+  "coletadoEm": "2026-09-01T14:10:26.762Z",
   "total": 575,
   "candidaturas": [
     {
@@ -17221,8 +17221,8 @@
         "nome": "PARTIDO RENOVACAO DEMOCRATICA"
       },
       "coligacao": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA(PRD/SOLIDARIEDADE)",
-      "situacaoRegistro": "Aguardando julgamento",
-      "situacaoCandidatura": "Cadastrado",
+      "situacaoRegistro": "Renúncia",
+      "situacaoCandidatura": "Não consta da urna",
       "apto": false,
       "disputaReeleicao": false,
       "dataNascimento": "1983-05-30",
@@ -19981,9 +19981,9 @@
         "nome": "DEMOCRACIA CRISTÃ"
       },
       "coligacao": "DC",
-      "situacaoRegistro": "Aguardando julgamento",
-      "situacaoCandidatura": "Cadastrado",
-      "apto": false,
+      "situacaoRegistro": "Deferido",
+      "situacaoCandidatura": "Consta da urna",
+      "apto": true,
       "disputaReeleicao": false,
       "dataNascimento": "1979-07-02",
       "genero": "FEM.",
@@ -39902,9 +39902,9 @@
         "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
       },
       "coligacao": "FEDERAÇÃO PSDB CIDADANIA(PSDB/CIDADANIA)",
-      "situacaoRegistro": "Aguardando julgamento",
-      "situacaoCandidatura": "Cadastrado",
-      "apto": false,
+      "situacaoRegistro": "Deferido",
+      "situacaoCandidatura": "Consta da urna",
+      "apto": true,
       "disputaReeleicao": false,
       "dataNascimento": "1976-08-21",
       "genero": "FEM.",
