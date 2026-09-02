@@ -146,6 +146,14 @@ O checklist completo, com o porquê de cada item, está em
 - [x] **Emendas — o coletor com as travas de segredo:** feito. O passo do
       build no workflow não declara o token no `env`, e `npm run verificar`
       procura o valor dele dentro de `.next/`.
+- [ ] **Emendas: a fonte precisa consertar a API.** A integração está pronta,
+      conferida e travada. O Portal da Transparência devolve valor dividido por
+      10.000 em cerca de 9 de cada 10 leituras dos registros afetados —
+      medido em 02/09/2026, com a página pública como referência. Não há
+      consulta confiável, e não há nada a fazer do lado do código: publicar
+      exigiria escolher entre duas respostas da fonte, que é inferência. O
+      caminho é relatar pelo Fala.BR — ver `docs/fontes-de-dados.md`. Enquanto
+      isso a ficha diz que a fonte está inconsistente, com um exemplo cru.
 - [ ] **Secret `TRANSPARENCIA_TOKEN` no repositório.** Passo de pessoa: sem
       ele a coleta diária de emendas falha todo dia e o `emendas.json` congela
       na data da última coleta feita à mão. Settings → Secrets and variables →
@@ -187,6 +195,15 @@ Junto veio `git add --ignore-removal`: a coleta só escreve arquivo, nunca
 apaga. Sem a trava, um arquivo acrescentado ao `main` durante o job entraria no
 commit como remoção — a coleta apagaria em silêncio um dado que ninguém pediu
 para apagar. Foi um teste do passo, num repositório de mentira, que achou isso.
+
+**Heurística de grandeza foi tentada como detector, e descartada.** O primeiro
+desenho da conferência reprovava emenda abaixo de R$ 1.000, porque dividir por
+10.000 joga qualquer emenda real para baixo desse valor. Parecia detector barato
+e quase completo. Mas a emenda `202643830011` é de **R$ 7,00 de verdade** — a
+página pública confirma —, e o piso reprovaria a coleta inteira por causa de um
+dado correto, para sempre. Falso positivo permanente é pior que o defeito que
+ele tenta pegar. A conferência passou a usar só provas sem número mágico: duas
+leituras da mesma emenda têm de concordar, e pago não pode passar de empenhado.
 
 **429 não é recusa, é "espere".** O `buscarJson` desistia na primeira em
 qualquer 4xx, com a justificativa de que 4xx é determinística. Vale para 400,

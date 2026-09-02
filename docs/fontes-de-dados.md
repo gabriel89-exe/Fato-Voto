@@ -264,9 +264,9 @@ zero; `HELDER SALOMAO` devolve 150. Normalizar antes de consultar.
 espaço depois do sinal:** `"- 26.002,00"` é empenho anulado. Descartar o sinal
 transforma anulação em gasto.
 
-**Armadilha 4, a pior — o valor às vezes vem dividido por 10.000.** Em
-01/09/2026, de forma intermitente e por campo. Na mesma resposta, para a emenda
-`202539120004`:
+**Armadilha 4, a pior — o valor às vezes vem dividido por 10.000.** Aberta em
+01/09/2026 e ainda aberta em 02/09/2026. Intermitente e por campo. Na mesma
+resposta, para a emenda `202539120004`:
 
 ```
 valorEmpenhado: "25,00"        a página pública diz R$ 250.000,00
@@ -285,6 +285,36 @@ grava o veredito em `conferencia` e a ficha diz o que aconteceu.
 
 Se um dia a fonte estabilizar e a conferência começar a aprovar, nada precisa
 mudar no código: o dado volta sozinho na coleta seguinte.
+
+#### O que foi medido em 02/09/2026
+
+A consulta **por código** (`?codigoEmenda=`) erra menos que a consulta por nome,
+e por isso a coleta passou a usá-la — mas não resolve. Dez consultas seguidas ao
+mesmo código:
+
+| Emenda | Página pública | O que a API devolveu |
+|---|---|---|
+| `202533120003` | R$ 200.000,00 | `"20,00"` 9× · `"200.000,00"` 1× |
+| `202543840005` | R$ 1.400.000,00 | `"140,00"` 9× · `"1.400.000,00"` 1× |
+| `202643830011` | R$ 7,00 | `"7,00"` 10× (correto) |
+
+Cerca de **1 leitura correta a cada 10** nos registros afetados. Não existe
+consulta confiável: o mesmo endpoint, para o mesmo código, alterna entre o valor
+certo e o valor encolhido.
+
+O parâmetro `ano` piora: com ele, o `valorEmpenhado` vinha encolhido em todas as
+tentativas. A coleta não usa `ano` — filtra por ano em memória.
+
+**Emenda de R$ 7,00 existe.** A `202643830011` é legítima, e a página pública
+confirma. Um piso de grandeza como detector do defeito foi tentado e descartado
+por isso: reprovaria a coleta para sempre por causa de um dado correto.
+
+#### Como relatar
+
+A correção depende do Portal. O canal é o Fala.BR
+(<https://falabr.cgu.gov.br>), como pedido de informação ou reclamação sobre a
+API de dados abertos. O relato precisa de: o endpoint, o `codigoEmenda`, o valor
+devolvido, o valor da página pública e a taxa observada — tudo está acima.
 
 ### O código da emenda carrega o código do autor
 

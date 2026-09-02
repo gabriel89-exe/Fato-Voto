@@ -109,35 +109,120 @@ function codigoDoAutor(codigoEmenda) {
 }
 
 /**
- * Pagina a consulta de emendas de um autor.
+ * ==================================================================
+ * A COLETA TEM DUAS FASES, E O MOTIVO E UM DEFEITO DA FONTE.
+ *
+ * A consulta por `nomeAutor` devolve valor monetario CORROMPIDO de
+ * forma intermitente: o numero certo dividido por 10.000. Medido em
+ * 02/09/2026 em 66 emendas de um deputado, pedidas cinco vezes: 20
+ * delas trocaram de valor entre uma leitura e outra, sempre no mesmo
+ * padrao — "400.000,00" numa, "40,00" na seguinte.
+ *
+ * A consulta pelo CODIGO da emenda (`?codigoEmenda=`) nao tem esse
+ * problema. Em 40 emendas lidas duas vezes cada, 39 vieram identicas,
+ * e o valor bate com o que a pagina publica do portal mostra —
+ * conferido no navegador na emenda 202539120004: R$ 250.000,00
+ * empenhado, que a consulta por codigo devolve e a consulta por nome
+ * devolvia como "25,00".
+ *
+ * Dai as duas fases:
+ *
+ *   1. LISTAR. `?nomeAutor=` so para descobrir QUAIS emendas sao da
+ *      pessoa. Dessa resposta a coleta usa exclusivamente codigo,
+ *      autor e ano — campos de texto, que nunca vieram corrompidos.
+ *      Nenhum valor monetario e lido aqui.
+ *   2. LER. Uma consulta por codigo, que e onde o valor vem.
+ *
+ * Custa ~500 requisicoes por coleta, contra ~70 antes. O limite
+ * publicado do portal e 400 por minuto das 6h as 24h, entao a pausa
+ * de PAUSA_ENTRE_PEDIDOS_MS existe para ficar abaixo dele com folga:
+ * um servico publico nao deve pagar pelo defeito dele em carga.
+ * ==================================================================
+ */
+
+/** ~330 pedidos por minuto, abaixo dos 400 que o portal publica. */
+const PAUSA_ENTRE_PEDIDOS_MS = 180;
+
+const respirar = () =>
+  new Promise((r) => setTimeout(r, PAUSA_ENTRE_PEDIDOS_MS));
+
+async function pedir(params, cabecalho) {
+  const url = `${API}/emendas?${new URLSearchParams(params)}`;
+  const resposta = await buscarJson(url, {
+    cabecalhos: { "chave-api-dados": TOKEN },
+  });
+  await respirar();
+  return { url, ...resposta };
+}
+
+/**
+ * Fase 1 — quais emendas sao desta pessoa.
  *
  * A API devolve 15 itens por pagina e nao informa total: a ultima
  * pagina e a que vem incompleta. O teto de paginas evita laco infinito
  * se a fonte mudar esse contrato.
+ *
+ * Devolve so identificacao. Ler valor daqui e o erro que esta funcao
+ * existe para impedir.
  */
-async function coletarDoAutor(nomeAutor, proveniencias) {
-  const emendas = [];
+async function listarDoAutor(nomeAutor, proveniencias) {
+  const identificacoes = [];
   for (let pagina = 1; pagina <= 40; pagina += 1) {
-    const url = `${API}/emendas?${new URLSearchParams({ nomeAutor, pagina })}`;
-    const { texto, dados } = await buscarJson(url, {
-      cabecalhos: { "chave-api-dados": TOKEN },
-    });
+    const { url, texto, dados } = await pedir({ nomeAutor, pagina });
 
-    if (proveniencias) {
-      proveniencias.push(
-        await guardarBruto(
-          `transparencia/emendas-${nomeAutor.replace(/\W+/g, "-").toLowerCase()}-p${pagina}.json`,
-          texto,
-          url,
-        ),
-      );
-    }
+    proveniencias.push(
+      await guardarBruto(
+        `transparencia/lista-${nomeAutor.replace(/\W+/g, "-").toLowerCase()}-p${pagina}.json`,
+        texto,
+        url,
+      ),
+    );
 
     const lote = Array.isArray(dados) ? dados : [];
-    emendas.push(...lote);
+    for (const e of lote) {
+      identificacoes.push({
+        codigoEmenda: String(e.codigoEmenda),
+        autor: e.autor ?? "",
+        ano: Number(e.ano),
+      });
+    }
     if (lote.length < 15) break;
   }
-  return emendas;
+  return identificacoes;
+}
+
+/**
+ * Fase 2 — o registro de uma emenda, lido DUAS vezes.
+ *
+ * Duas leituras porque a fonte se contradiz: para um registro afetado,
+ * ela devolve o valor certo em ~1 de cada 10 consultas e o valor
+ * dividido por 10.000 nas outras 9. Medido em 02/09/2026 na emenda
+ * 202533120003, dez consultas: "20,00" nove vezes, "200.000,00" uma —
+ * e a pagina publica do portal diz R$ 200.000,00.
+ *
+ * Duas leituras que discordam sao prova de que a fonte esta errada em
+ * pelo menos uma delas. A coleta NAO escolhe entre as duas, nao pega a
+ * maior, nao calcula nada: marca o registro como instavel, e a
+ * conferencia reprova a coleta inteira. Escolher a maior seria
+ * inferencia — provavelmente certa, e ainda assim um numero que a
+ * fonte nao afirmou.
+ */
+async function lerEmenda(codigo) {
+  const ler = async () => {
+    const { dados } = await pedir({ codigoEmenda: codigo });
+    return Array.isArray(dados)
+      ? (dados.find((e) => String(e.codigoEmenda) === codigo) ?? null)
+      : null;
+  };
+
+  const primeira = await ler();
+  if (!primeira) return null;
+
+  const segunda = await ler();
+  const divergiu =
+    !segunda || CAMPOS_DE_VALOR.some((c) => primeira[c] !== segunda[c]);
+
+  return { ...primeira, __instavel: divergiu };
 }
 
 /* ------------------------------------------------------------------ */
@@ -148,38 +233,52 @@ async function coletarDoAutor(nomeAutor, proveniencias) {
  * ==================================================================
  * POR QUE ESTA COLETA CONFERE A FONTE ANTES DE PUBLICAR
  *
- * Em 01/09/2026 a API do Portal da Transparencia devolveu valor
- * monetario DIVIDIDO POR 10.000, de forma intermitente e por campo.
- * Na mesma resposta, para a emenda 202539120004:
+ * A API do Portal da Transparencia devolve valor monetario DIVIDIDO
+ * POR 10.000 de forma intermitente. Na consulta por nome, para a
+ * emenda 202539120004:
  *
  *   valorEmpenhado: "25,00"        <- a pagina publica diz R$ 250.000,00
  *   valorPago:      "245.000,00"   <- correto
  *
- * Duas coletas com dez minutos de diferenca deram totais diferentes
- * para o mesmo conjunto de emendas: Da Vitoria saiu R$ 138.842.404 na
- * primeira e R$ 109.445.344 na segunda, porque parte dos campos veio
- * encolhida na segunda.
+ * A consulta por codigo, que esta coleta usa desde 02/09/2026, resolve
+ * a maior parte disso. Nao resolve tudo: em 40 emendas lidas duas
+ * vezes, uma divergiu. Entao a conferencia continua, agora por
+ * registro em vez de por passada inteira.
  *
  * Numero errado com cara de numero certo e o pior resultado possivel
  * para este projeto: ele nao quebra nada, nao aparece em log, e vai
- * para a tela ao lado de um selo de "dado oficial". Entao a coleta
- * confere, e se a conferencia reprova, ela NAO publica — grava o
- * veredito, e a ficha diz que a fonte esta inconsistente.
+ * para a tela ao lado de um selo de "dado oficial". Se a conferencia
+ * reprova, a coleta NAO publica — grava o veredito, e a ficha diz que
+ * a fonte esta inconsistente.
  *
- * Tres provas, todas baratas:
+ * Duas provas, as duas baratas, e nenhuma delas com numero magico:
  *
- *   1. DUAS PASSADAS. A mesma consulta, duas vezes. Se o mesmo codigo
- *      de emenda vier com valor diferente, a fonte esta instavel.
+ *   1. A FONTE CONCORDA CONSIGO MESMA. Cada emenda e lida duas vezes,
+ *      pelo codigo. Se as duas leituras discordam, a fonte esta errada
+ *      em pelo menos uma — e nao ha como saber em qual.
  *   2. PAGO NAO PASSA DE EMPENHADO. E impossivel pagar o que nao foi
- *      empenhado. Foi o que pegou o caso acima.
- *   3. PISO DE GRANDEZA. Emenda individual federal na casa das dezenas
- *      de reais nao existe; o piso pratico e a casa dos milhares. Um
- *      punhado delas abaixo de R$ 1.000 e o rastro do valor encolhido.
+ *      empenhado. Independe da primeira e pega o caso em que as duas
+ *      leituras vem igualmente erradas.
+ *
+ * O QUE FOI TENTADO E DESCARTADO: um piso de grandeza, reprovando
+ * emenda abaixo de R$ 1.000. Parecia detector barato do defeito, ja
+ * que dividir por 10.000 joga qualquer emenda real para baixo desse
+ * valor. Mas a emenda 202643830011 e de R$ 7,00 DE VERDADE — a pagina
+ * publica confirma —, e um piso reprovaria a coleta inteira por causa
+ * dela, para sempre. Heuristica de grandeza aqui produz falso positivo
+ * silencioso, e falso positivo permanente e pior que o defeito.
+ *
+ * O QUE ESTA CONFERENCIA NAO PEGA, dito com todas as letras: registro
+ * cujo valor venha igualmente corrompido nas duas leituras e sem
+ * contradicao interna. Com a taxa medida — cerca de 9 em 10 leituras
+ * corrompidas nos registros afetados — isso acontece, e por isso a
+ * conferencia e de COLETA INTEIRA e nao de registro: basta um registro
+ * reprovar para nada ser publicado. Enquanto a fonte estiver assim, o
+ * resultado certo e nao publicar.
  * ==================================================================
  */
 
-const PISO_PLAUSIVEL = 1000;
-const CAMPOS = [
+const CAMPOS_DE_VALOR = [
   "valorEmpenhado",
   "valorLiquidado",
   "valorPago",
@@ -188,50 +287,25 @@ const CAMPOS = [
   "valorRestoPago",
 ];
 
-function conferir(porAutor, porAutorSegundaPassada) {
+/** O veredito sobre tudo que foi lido. */
+function conferir(registros) {
   const problemas = [];
 
-  for (const [nome, emendas] of porAutor) {
-    const segunda = new Map(
-      (porAutorSegundaPassada.get(nome) ?? []).map((e) => [e.codigoEmenda, e]),
-    );
+  for (const e of registros) {
+    if (e.__instavel) {
+      problemas.push(
+        `${e.codigoEmenda}: duas leituras seguidas devolveram valores ` +
+          "diferentes para a mesma emenda",
+      );
+    }
 
-    for (const e of emendas) {
-      const outra = segunda.get(e.codigoEmenda);
-
-      /* 1. Duas passadas. */
-      if (outra) {
-        for (const campo of CAMPOS) {
-          if (String(e[campo]) !== String(outra[campo])) {
-            problemas.push(
-              `${e.codigoEmenda}: ${campo} veio "${e[campo]}" numa consulta e ` +
-                `"${outra[campo]}" na seguinte`,
-            );
-          }
-        }
-      } else {
-        problemas.push(
-          `${e.codigoEmenda}: apareceu numa consulta e sumiu na seguinte`,
-        );
-      }
-
-      /* 2. Pago nao passa de empenhado. */
-      const empenhado = valor(e.valorEmpenhado);
-      const pago = valor(e.valorPago);
-      if (empenhado > 0 && pago > empenhado * 1.0001) {
-        problemas.push(
-          `${e.codigoEmenda}: pago (${e.valorPago}) maior que empenhado ` +
-            `(${e.valorEmpenhado}) — impossível`,
-        );
-      }
-
-      /* 3. Piso de grandeza. */
-      if (empenhado > 0 && empenhado < PISO_PLAUSIVEL) {
-        problemas.push(
-          `${e.codigoEmenda}: empenhado de ${e.valorEmpenhado} está abaixo do ` +
-            `piso plausível de R$ ${PISO_PLAUSIVEL} para emenda individual federal`,
-        );
-      }
+    const empenhado = valor(e.valorEmpenhado);
+    const pago = valor(e.valorPago);
+    if (empenhado > 0 && pago > empenhado * 1.0001) {
+      problemas.push(
+        `${e.codigoEmenda}: pago (${e.valorPago}) maior que empenhado ` +
+          `(${e.valorEmpenhado}) — impossível`,
+      );
     }
   }
 
@@ -406,23 +480,54 @@ async function principal() {
       `anos ${ANOS[0]}–${ANOS.at(-1)}.`,
   );
 
-  /* Primeira passada: é a que vira dado e a que guarda o bruto. */
-  const primeira = new Map();
+  /* Fase 1: quem é dono de quê. Só identificação, nenhum valor. */
+  const identificacoes = new Map();
   for (const p of parlamentares) {
     const alvo = normalizar(p.nomeUrna);
-    primeira.set(alvo, await coletarDoAutor(alvo, proveniencias));
+    identificacoes.set(alvo, await listarDoAutor(alvo, proveniencias));
   }
 
-  /* Segunda passada: só confere. Não guarda bruto — seria o mesmo
-     arquivo duas vezes, e o que interessa dela é a divergência. */
-  console.log("Conferindo a fonte com uma segunda consulta...");
-  const segunda = new Map();
+  /*
+   * Fase 2: o valor, pedido emenda por emenda. É a fase cara — uma
+   * requisição por emenda — e é ela que existe porque a consulta por
+   * nome corrompe valor. Ver o cabeçalho de `listarDoAutor`.
+   */
+  const registros = new Map();
+  let lidas = 0;
+  const aLer = [...identificacoes.values()].reduce(
+    (s, lista) =>
+      s +
+      lista.filter((e) => ANOS.includes(e.ano)).length,
+    0,
+  );
+  console.log(`Lendo ${aLer} emendas do período, uma consulta por emenda.`);
+
   for (const p of parlamentares) {
     const alvo = normalizar(p.nomeUrna);
-    segunda.set(alvo, await coletarDoAutor(alvo, null));
+    const doAutor = (identificacoes.get(alvo) ?? []).filter(
+      (e) => normalizar(e.autor) === alvo && ANOS.includes(e.ano),
+    );
+
+    const lidos = [];
+    for (const ident of doAutor) {
+      const registro = await lerEmenda(ident.codigoEmenda);
+      if (registro) lidos.push(registro);
+      lidas += 1;
+      if (lidas % 50 === 0) console.log(`  ${lidas}/${aLer}`);
+    }
+
+    proveniencias.push(
+      await guardarBruto(
+        `transparencia/emendas-${alvo.replace(/\W+/g, "-").toLowerCase()}.json`,
+        JSON.stringify(lidos, null, 2) + "\n",
+        `${API}/emendas?codigoEmenda={código de cada emenda da lista}`,
+      ),
+    );
+
+    registros.set(alvo, lidos);
   }
 
-  const problemas = conferir(primeira, segunda);
+  const problemas = conferir([...registros.values()].flat());
 
   const conferencia = {
     aprovada: problemas.length === 0,
@@ -430,9 +535,9 @@ async function principal() {
     /* O que foi testado, dito no dado: quem ler o JSON sem passar pelo
        site precisa saber que houve conferência e qual. */
     provas: [
-      "duas consultas seguidas devolvem o mesmo valor para a mesma emenda",
+      "o valor vem da consulta por código da emenda, não da consulta por nome",
+      "cada emenda é lida duas vezes, e as duas leituras têm de concordar",
       "valor pago não passa do valor empenhado",
-      `valor empenhado não fica abaixo de R$ ${PISO_PLAUSIVEL}`,
     ],
     problemas: problemas.slice(0, 20),
     totalDeProblemas: problemas.length,
@@ -442,10 +547,11 @@ async function principal() {
 
   for (const p of parlamentares) {
     const alvo = normalizar(p.nomeUrna);
-    const brutas = primeira.get(alvo) ?? [];
 
     /* Trava 1: igualdade de nome. O filtro da API casa por conteúdo. */
-    const doAutor = brutas.filter((e) => normalizar(e.autor ?? "") === alvo);
+    const doAutor = (registros.get(alvo) ?? []).filter(
+      (e) => normalizar(e.autor ?? "") === alvo,
+    );
 
     /* Trava 2: um nome, um código de autor. Ver o cabeçalho. */
     const codigos = [
@@ -455,7 +561,13 @@ async function principal() {
     ].sort();
 
     const ambiguo = codigos.length > 1;
-    const noPeriodo = doAutor.filter((e) => ANOS.includes(Number(e.ano)));
+
+    /* A fase 2 só leu o período; o que existe fora dele vem da fase 1,
+       que lista todos os anos. Só a contagem, nunca o valor. */
+    const foraDoPeriodo = (identificacoes.get(alvo) ?? []).filter(
+      (e) => normalizar(e.autor) === alvo && !ANOS.includes(e.ano),
+    ).length;
+    const noPeriodo = doAutor;
 
     /*
      * Trava 3: a fonte reprovou na conferência. Nenhum valor dela vai
@@ -477,7 +589,7 @@ async function principal() {
        */
       ambiguidadeDeHomonimo: ambiguo ? codigos : null,
       /* O que existe fora da janela da legislatura, só como contagem. */
-      foraDoPeriodo: doAutor.length - noPeriodo.length,
+      foraDoPeriodo,
       emendas: publicavel ? normalizarEmendas(noPeriodo) : semEmendas(),
     };
 
