@@ -171,6 +171,23 @@ Nada disto muda comportamento, mas confunde quem chegar ao projeto:
 
 ## Decisões registradas
 
+**A coleta se alinha ao `main` antes de commitar, e não depois.** O passo
+commitava e só então dava `git pull --rebase`. Em 02/09/2026 isso perdeu uma
+coleta inteira: o `main` tinha andado dois commits durante os sete minutos do
+job, o rebase encontrou os mesmos JSONs mudados dos dois lados e parou em
+conflito nos três arquivos.
+
+Rebase é a ferramenta errada aqui. O conteúdo de `data/es` é **derivado** — a
+coleta o regenera inteiro —, e não há o que fundir entre a resposta de agora e
+a de meia hora atrás: a de agora é a resposta atual das fontes. Movendo o HEAD
+para o `main` mais novo ANTES do commit, o que a coleta escreveu vira a mudança
+sobre a base mais nova, e conflito deixa de ser possível.
+
+Junto veio `git add --ignore-removal`: a coleta só escreve arquivo, nunca
+apaga. Sem a trava, um arquivo acrescentado ao `main` durante o job entraria no
+commit como remoção — a coleta apagaria em silêncio um dado que ninguém pediu
+para apagar. Foi um teste do passo, num repositório de mentira, que achou isso.
+
 **Falha de rede ganha paciência; recusa do servidor, não.** Em 02/09/2026 a
 coleta agendada perdeu a Câmara inteira — bancada e votações — com
 `fetch failed`, que é erro de conexão: não houve resposta nenhuma. O passo

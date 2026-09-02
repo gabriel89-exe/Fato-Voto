@@ -111,11 +111,40 @@ jobs:
           git config user.name "coleta automática"
           git config user.email "actions@github.com"
 
-          # `dados-brutos/` está no .gitignore: só o normalizado entra.
-          git add data/es
+          # PRIMEIRO alinhar com o `main` mais novo, DEPOIS commitar.
+          #
+          # Era o contrário — commitava e depois `git pull --rebase` —, e
+          # em 02/09/2026 isso perdeu uma coleta inteira. O `main` tinha
+          # andado dois commits durante o job, o rebase encontrou os
+          # mesmos JSONs mudados dos dois lados e parou em CONFLICT nos
+          # três arquivos. A coleta foi feita e jogada fora.
+          #
+          # Rebase é a ferramenta errada aqui. O conteúdo de `data/es` é
+          # DERIVADO: ele é regenerado inteiro a cada coleta, e não há o
+          # que fundir entre a versão nova e a antiga — a nova é a
+          # resposta atual das fontes, ponto. Movendo o HEAD para o
+          # `main` mais novo ANTES de commitar, o que a coleta acabou de
+          # escrever vira a mudança em cima da base mais nova, e conflito
+          # deixa de ser possível.
+          #
+          # `--mixed` preserva a árvore de trabalho, que é justamente
+          # onde a coleta escreveu. Arquivo que mudou no `main` e não é
+          # de coleta fica sujo na árvore e não entra no commit, porque
+          # só `data/es` é adicionado abaixo.
+          git fetch origin main
+          git reset --mixed FETCH_HEAD
 
-          # Rede de segurança: se as três coletas falharem e nada for
-          # escrito, não há o que commitar.
+          # `dados-brutos/` está no .gitignore: só o normalizado entra.
+          #
+          # `--ignore-removal` porque a coleta só ESCREVE arquivo, nunca
+          # apaga. Sem a trava, um arquivo que exista no `main` novo e
+          # não na árvore deste job — porque alguém acabou de acrescentar
+          # um — entraria no commit como remoção, e a coleta apagaria em
+          # silêncio um dado que ninguém pediu para apagar.
+          git add --ignore-removal data/es
+
+          # Rede de segurança: se as coletas falharem e nada for escrito,
+          # não há o que commitar.
           if git diff --cached --quiet; then
             echo "Nada foi escrito. Provavelmente todas as coletas falharam."
             exit 0
@@ -127,24 +156,28 @@ jobs:
           # próprio frescor.
           #
           # Mas o histórico precisa distinguir "só o carimbo mudou" de
-          # "candidatura foi indeferida". Daí o diff abaixo, que ignora a
-          # linha de `coletadoEm` e olha se sobrou alguma outra mudança.
-          CONTEUDO=$(git diff --cached -U0 -- data/es \
+          # "candidatura foi indeferida". Daí a contagem abaixo, que
+          # ignora a linha de `coletadoEm` e vê se sobrou outra mudança.
+          #
+          # `grep -c` em vez de `head -1`: o `head` fechava o cano antes
+          # do `grep` terminar de escrever, e o log ganhava um
+          # "grep: write error: Broken pipe" que parecia defeito e não
+          # era. O `|| true` existe porque `grep` sai com 1 quando não
+          # acha nada, e "não achou nada" aqui é resposta válida.
+          MUDANCAS=$(git diff --cached -U0 -- data/es \
             | grep -E '^[+-]' \
             | grep -vE '^(\+\+\+|---)' \
-            | grep -v '"coletadoEm"' \
-            | head -1)
+            | grep -cv '"coletadoEm"' || true)
 
           DATA=$(date -u +%Y-%m-%d)
-          if [ -z "$CONTEUDO" ]; then
+          if [ "$MUDANCAS" -eq 0 ]; then
             git commit -m "dados: coleta de $DATA (sem mudança de conteúdo)"
           else
             git commit -m "dados: coleta de $DATA"
           fi
 
-          # Alguém pode ter empurrado no `main` durante os minutos que a
-          # coleta levou. Sem o rebase, o push é recusado por
-          # não-fast-forward e a coleta do dia se perde por um motivo que
-          # nada tem a ver com os dados.
-          git pull --rebase origin main
-          git push
+          # O push é fast-forward por construção: o commit foi feito em
+          # cima do `main` que acabamos de buscar. Se ainda assim for
+          # recusado, alguém empurrou nos segundos entre o fetch e o
+          # push — e aí falhar é o certo, não insistir por cima.
+          git push origin HEAD:main
