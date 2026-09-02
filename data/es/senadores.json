@@ -11,7 +11,7 @@
     2025,
     2026
   ],
-  "coletadoEm": "2026-09-01T14:12:03.119Z",
+  "coletadoEm": "2026-09-02T01:12:07.544Z",
   "senadores": [
     {
       "id": "senado-5953",
@@ -3410,6 +3410,16 @@
         "fim": "2031-01-31"
       },
       "materias": [
+        {
+          "id": "175675",
+          "identificacao": "RQS 648/2026",
+          "sigla": "RQS",
+          "numero": "648",
+          "ano": 2026,
+          "ementa": "Requer a realização de Sessão Especial destinada a celebrar os 80 anos de criação da Diretoria-Geral do Senado Federal.",
+          "data": "2026-09-01",
+          "autorPrincipal": false
+        },
         {
           "id": "175550",
           "identificacao": "RQS 618/2026",
@@ -7894,7 +7904,7 @@
       "materiasPorTipo": [
         {
           "sigla": "RQS",
-          "total": 210
+          "total": 211
         },
         {
           "sigla": "REQ",
@@ -11023,6 +11033,38 @@
     }
   ],
   "votacoes": [
+    {
+      "id": "7104-1",
+      "data": "2026-09-01",
+      "materia": "PDL 995/2026",
+      "ementa": "Escolhe o Senhor Rodrigo Otavio Soares Pacheco para o cargo de Ministro do Tribunal de Contas da União, nos termos do inciso II do § 2º do art. 73 da Constituição Federal, do inciso II do art. 105 da Lei nº 8.443, de 16 de julho de 1992, e do art. 2º do Decreto Legislativo nº 6, de 1993.",
+      "descricao": "Votação nominal do Projeto de Decreto Legislativo nº 995, de 2026.",
+      "resultado": "Aprovado",
+      "secreta": true,
+      "votosDoEstado": [
+        {
+          "idExterno": 5953,
+          "nome": "Fabiano Contarato",
+          "partido": "PT",
+          "registro": "Votou",
+          "voto": null
+        },
+        {
+          "idExterno": 631,
+          "nome": "Magno Malta",
+          "partido": "PL",
+          "registro": "Votou",
+          "voto": null
+        },
+        {
+          "idExterno": 5942,
+          "nome": "Marcos do Val",
+          "partido": "AVANTE",
+          "registro": "NCom",
+          "voto": null
+        }
+      ]
+    },
     {
       "id": "7102-2",
       "data": "2026-08-12",

@@ -9,7 +9,7 @@
     "idEleicao": "20322002026",
     "uf": "ES"
   },
-  "coletadoEm": "2026-09-01T14:10:26.762Z",
+  "coletadoEm": "2026-09-02T01:11:13.066Z",
   "total": 575,
   "candidaturas": [
     {
@@ -1087,8 +1087,16 @@
       "escolaridade": "Superior completo",
       "ocupacao": "Professor de Ensino Fundamental",
       "naturalidade": "MA-SÃO JOSÉ DE RIBAMAR",
-      "bens": [],
-      "totalBens": 0,
+      "bens": [
+        {
+          "ordem": 1,
+          "tipo": "Apartamento",
+          "descricao": "de 45 metros quadrados, 2 dormitórios, 1 Banheiro, 1 banheiro social, sala de estar/jantar conjugada, cozinha funcional e área de serviço integrada",
+          "valor": 170000,
+          "atualizadoEm": "2026-09-01"
+        }
+      ],
+      "totalBens": 170000,
       "proposta": {
         "exigida": true,
         "documento": {
@@ -6627,9 +6635,9 @@
         "nome": "PROGRESSISTAS"
       },
       "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(UNIÃO/PP)",
-      "situacaoRegistro": "Aguardando julgamento",
-      "situacaoCandidatura": "Cadastrado",
-      "apto": false,
+      "situacaoRegistro": "Deferido",
+      "situacaoCandidatura": "Consta da urna",
+      "apto": true,
       "disputaReeleicao": false,
       "dataNascimento": "1976-12-04",
       "genero": "MASC.",
@@ -12651,9 +12659,9 @@
         "nome": "PARTIDO SOCIALISMO E LIBERDADE"
       },
       "coligacao": "FEDERAÇÃO PSOL REDE(PSOL/REDE)",
-      "situacaoRegistro": "Aguardando julgamento",
-      "situacaoCandidatura": "Cadastrado",
-      "apto": false,
+      "situacaoRegistro": "Deferido",
+      "situacaoCandidatura": "Consta da urna",
+      "apto": true,
       "disputaReeleicao": false,
       "dataNascimento": "1957-07-13",
       "genero": "MASC.",
@@ -18611,9 +18619,9 @@
         "nome": "UNIÃO BRASIL"
       },
       "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(UNIÃO/PP)",
-      "situacaoRegistro": "Aguardando julgamento",
-      "situacaoCandidatura": "Cadastrado",
-      "apto": false,
+      "situacaoRegistro": "Deferido",
+      "situacaoCandidatura": "Consta da urna",
+      "apto": true,
       "disputaReeleicao": false,
       "dataNascimento": "1972-09-16",
       "genero": "FEM.",
@@ -19246,9 +19254,9 @@
         "nome": "PROGRESSISTAS"
       },
       "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(UNIÃO/PP)",
-      "situacaoRegistro": "Aguardando julgamento",
-      "situacaoCandidatura": "Cadastrado",
-      "apto": false,
+      "situacaoRegistro": "Deferido",
+      "situacaoCandidatura": "Consta da urna",
+      "apto": true,
       "disputaReeleicao": false,
       "dataNascimento": "1978-02-09",
       "genero": "FEM.",
@@ -21773,6 +21781,12 @@
           "nomeArquivo": "pje-Certidao Negativa Criminal 2 Instancia.pdf",
           "tipo": "Certidão criminal — Justiça Estadual, 2º grau",
           "codTipo": 14
+        },
+        {
+          "id": 80017138815,
+          "nomeArquivo": "pje-Certidao Negativa Criminal - TYAGO HOFFMANN.pdf",
+          "tipo": "Certidão criminal — Justiça Estadual, 1º grau",
+          "codTipo": 13
         }
       ],
       "eleicoesAnteriores": [
@@ -22673,9 +22687,9 @@
         "nome": "PROGRESSISTAS"
       },
       "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(UNIÃO/PP)",
-      "situacaoRegistro": "Aguardando julgamento",
-      "situacaoCandidatura": "Cadastrado",
-      "apto": false,
+      "situacaoRegistro": "Deferido",
+      "situacaoCandidatura": "Consta da urna",
+      "apto": true,
       "disputaReeleicao": false,
       "dataNascimento": "1969-10-16",
       "genero": "MASC.",
@@ -25344,9 +25358,9 @@
         "nome": "PROGRESSISTAS"
       },
       "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(UNIÃO/PP)",
-      "situacaoRegistro": "Aguardando julgamento",
-      "situacaoCandidatura": "Cadastrado",
-      "apto": false,
+      "situacaoRegistro": "Deferido",
+      "situacaoCandidatura": "Consta da urna",
+      "apto": true,
       "disputaReeleicao": false,
       "dataNascimento": "1986-10-01",
       "genero": "MASC.",
@@ -26757,9 +26771,9 @@
         "nome": "PROGRESSISTAS"
       },
       "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(UNIÃO/PP)",
-      "situacaoRegistro": "Aguardando julgamento",
-      "situacaoCandidatura": "Cadastrado",
-      "apto": false,
+      "situacaoRegistro": "Deferido",
+      "situacaoCandidatura": "Consta da urna",
+      "apto": true,
       "disputaReeleicao": false,
       "dataNascimento": "1964-05-09",
       "genero": "MASC.",
@@ -31812,9 +31826,9 @@
         "nome": "PROGRESSISTAS"
       },
       "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(UNIÃO/PP)",
-      "situacaoRegistro": "Aguardando julgamento",
-      "situacaoCandidatura": "Cadastrado",
-      "apto": false,
+      "situacaoRegistro": "Deferido",
+      "situacaoCandidatura": "Consta da urna",
+      "apto": true,
       "disputaReeleicao": false,
       "dataNascimento": "1990-06-23",
       "genero": "FEM.",
@@ -36990,6 +37004,18 @@
           "nomeArquivo": "pje-CERTIDÃO NEGATIVA.pdf",
           "tipo": "Certidão criminal — Justiça Estadual, 1º grau",
           "codTipo": 13
+        },
+        {
+          "id": 80017138845,
+          "nomeArquivo": "pje-CERTIDÃO NEGATIVA CRIMINAL DE PRIMEIRA INSTÂNCIA.pdf",
+          "tipo": "Certidão criminal — Justiça Estadual, 1º grau",
+          "codTipo": 13
+        },
+        {
+          "id": 80017138846,
+          "nomeArquivo": "pje-CERTIDÃO NEGATIVA CRIMINAL SEGUNDA INSTÂNCIA.pdf",
+          "tipo": "Certidão criminal — Justiça Estadual, 2º grau",
+          "codTipo": 14
         }
       ],
       "eleicoesAnteriores": [
@@ -47079,7 +47105,7 @@
       "id": "80002549074",
       "cargo": "Deputado Estadual",
       "uf": "ES",
-      "nomeUrna": "JÚLIO DA FETAES",
+      "nomeUrna": "JULIO DA FETAES",
       "nomeCompleto": "JULIO CEZAR MENDEL",
       "numero": 13123,
       "partido": {
@@ -57240,9 +57266,9 @@
         "nome": "PROGRESSISTAS"
       },
       "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(UNIÃO/PP)",
-      "situacaoRegistro": "Aguardando julgamento",
-      "situacaoCandidatura": "Cadastrado",
-      "apto": false,
+      "situacaoRegistro": "Deferido",
+      "situacaoCandidatura": "Consta da urna",
+      "apto": true,
       "disputaReeleicao": false,
       "dataNascimento": "1990-04-11",
       "genero": "MASC.",
@@ -65493,9 +65519,9 @@
         "nome": "PROGRESSISTAS"
       },
       "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(UNIÃO/PP)",
-      "situacaoRegistro": "Aguardando julgamento",
-      "situacaoCandidatura": "Cadastrado",
-      "apto": false,
+      "situacaoRegistro": "Deferido",
+      "situacaoCandidatura": "Consta da urna",
+      "apto": true,
       "disputaReeleicao": false,
       "dataNascimento": "1981-09-24",
       "genero": "MASC.",
