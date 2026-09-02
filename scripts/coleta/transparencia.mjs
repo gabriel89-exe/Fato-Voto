@@ -620,7 +620,7 @@ async function principal() {
       ...new Set(
         doAutor.map((e) => codigoDoAutor(e.codigoEmenda)).filter(Boolean),
       ),
-    ].sort();
+    ].sort((a, b) => a.localeCompare(b));
 
     const ambiguo = codigos.length > 1;
 
