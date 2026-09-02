@@ -105,6 +105,10 @@ export default function PaginaPrivacidade() {
                   ["Candidaturas anteriores", "TSE"],
                   ["Despesas da cota parlamentar e proposições", "Câmara dos Deputados"],
                   ["Mandato, matérias e votações no Senado", "Senado Federal"],
+                  [
+                    "Emendas parlamentares: valor, área e localidade do gasto",
+                    "Portal da Transparência",
+                  ],
                 ].map(([dado, origem]) => (
                   <TableRow key={dado}>
                     {/* Sem rótulo: no celular o dado abre a ficha. */}

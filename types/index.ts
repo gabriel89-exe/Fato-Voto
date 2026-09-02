@@ -413,3 +413,124 @@ export interface ArquivoSenadores {
    */
   votacoes: VotacaoSenado[];
 }
+
+/* ------------------------------------------------------------------ */
+/*  Emendas parlamentares — Portal da Transparencia                    */
+/* ------------------------------------------------------------------ */
+
+/**
+ * Recorte de emendas por uma dimensao: area, localidade ou tipo.
+ *
+ * Tem `empenhado` E `pago` porque os dois contam historias diferentes
+ * e so juntos descrevem o fato. Empenhar e reservar; pagar e o dinheiro
+ * sair. Mostrar so um dos dois enganaria em qualquer direcao.
+ */
+export interface EmendaAgrupada {
+  nome: string;
+  quantidade: number;
+  empenhado: number;
+  pago: number;
+}
+
+export interface EmendaPorAno {
+  ano: number;
+  quantidade: number;
+  empenhado: number;
+  pago: number;
+}
+
+/** Uma emenda, com o link para a pagina dela no portal. */
+export interface EmendaIndividual {
+  codigo: string;
+  ano: number;
+  numero: string | null;
+  tipo: string | null;
+  localidade: string | null;
+  funcao: string | null;
+  subfuncao: string | null;
+  empenhado: number;
+  liquidado: number;
+  pago: number;
+  paginaOficial: string;
+}
+
+export interface Emendas {
+  quantidade: number;
+  totais: {
+    empenhado: number;
+    liquidado: number;
+    pago: number;
+    restosInscritos: number;
+    restosCancelados: number;
+    restosPagos: number;
+  };
+  porAno: EmendaPorAno[];
+  porFuncao: EmendaAgrupada[];
+  porLocalidade: EmendaAgrupada[];
+  porTipo: EmendaAgrupada[];
+  maiores: EmendaIndividual[];
+}
+
+/**
+ * As emendas de um parlamentar, com o rastro de COMO foram atribuidas.
+ *
+ * `codigoAutor` e `ambiguidadeDeHomonimo` nao sao detalhe tecnico: a
+ * fonte identifica autor por nome, e o codigo do autor (extraido do
+ * codigo da emenda) e a unica trava contra atribuir gasto publico a
+ * quem nao o destinou. Quando ha homonimo, `emendas` vem VAZIO de
+ * proposito e a ficha diz por que. Ver scripts/coleta/transparencia.mjs.
+ */
+export interface EmendasDoParlamentar {
+  id: string;
+  cargo: string;
+  nomeUrna: string;
+  nomeAutorNaFonte: string;
+  codigoAutor: string | null;
+  ambiguidadeDeHomonimo: string[] | null;
+  /** Emendas do mesmo autor fora da legislatura. So a contagem. */
+  foraDoPeriodo: number;
+  emendas: Emendas;
+}
+
+/** Denominador por cargo. Regra 4: total nenhum vai sozinho a tela. */
+export interface ReferenciaEmendas {
+  bancada: number;
+  medianaEmpenhado: number;
+  menor: number;
+  maior: number;
+}
+
+/**
+ * O veredito da conferencia da fonte.
+ *
+ * Existe porque em 01/09/2026 a API do Portal da Transparencia passou a
+ * devolver valor monetario dividido por 10.000, de forma intermitente e
+ * por campo: na mesma emenda, `valorEmpenhado` vinha "25,00" onde a
+ * pagina publica diz R$ 250.000,00, e `valorPago` vinha certo. Numero
+ * errado com cara de numero certo nao quebra nada e vai para a tela ao
+ * lado de um selo de "dado oficial".
+ *
+ * Quando `aprovada` e falso, `parlamentares` vem sem valor nenhum e a
+ * ficha diz que a fonte esta inconsistente. Ver
+ * scripts/coleta/transparencia.mjs.
+ */
+export interface ConferenciaDaFonte {
+  aprovada: boolean;
+  conferidoEm: string;
+  /** O que foi testado, em uma frase cada. Vai para a tela. */
+  provas: string[];
+  /** Amostra dos problemas encontrados, para a tela poder citar um. */
+  problemas: string[];
+  totalDeProblemas: number;
+}
+
+export interface ArquivoEmendas {
+  fonte: Fonte;
+  uf: string;
+  anos: number[];
+  coletadoEm: string;
+  recorte: string;
+  conferencia: ConferenciaDaFonte;
+  referencias: Record<string, ReferenciaEmendas>;
+  parlamentares: EmendasDoParlamentar[];
+}

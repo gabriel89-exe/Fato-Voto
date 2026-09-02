@@ -11,13 +11,19 @@ import {
   TableRow,
 } from "@/components/ui/table";
 import {
+  ANOS_EMENDAS,
   candidaturas,
   COLETADO_EM,
   COLETADO_EM_CAMARA,
+  COLETADO_EM_EMENDAS,
+  CONFERENCIA_EMENDAS,
+  COLETADO_EM_SENADO,
   contarPorCargo,
   ELEICAO,
   ESTADO,
   FONTE_CAMARA,
+  FONTE_SENADO,
+  FONTE_TRANSPARENCIA,
   FONTE_TSE,
   LEGISLATURA,
   parlamentares,
@@ -230,6 +236,81 @@ export default function PaginaFontes() {
                 </a>
               </p>
             </div>
+
+            <div className="painel p-5">
+              <div className="flex flex-wrap items-center gap-3">
+                <Badge variant="oficial">Dado oficial</Badge>
+                <h3 className="text-lg font-bold">{FONTE_SENADO.nome}</h3>
+              </div>
+              <p className="mt-3 text-sm text-tinta-700">
+                Origem do mandato em exercício de senador: matérias de autoria e
+                votações nominais de plenário. Não traz despesa de gabinete — o
+                CEAPS não está nesta fonte, e a ficha de senador diz isso.
+              </p>
+              <dl className="mt-4 grid gap-2 text-sm sm:grid-cols-2">
+                <div>
+                  <dt className="rotulo-meta">Coletado em</dt>
+                  <dd className="mt-0.5">
+                    {dataPorExtenso(COLETADO_EM_SENADO)}
+                  </dd>
+                </div>
+                <div>
+                  <dt className="rotulo-meta">Licença</dt>
+                  <dd className="mt-0.5">{FONTE_SENADO.licenca}</dd>
+                </div>
+              </dl>
+              <p className="mt-3 text-sm">
+                <a href={FONTE_SENADO.url} rel="nofollow noopener">
+                  Ir à fonte
+                </a>
+              </p>
+            </div>
+
+            <div className="painel p-5">
+              <div className="flex flex-wrap items-center gap-3">
+                <Badge variant="oficial">Dado oficial</Badge>
+                <h3 className="text-lg font-bold">
+                  {FONTE_TRANSPARENCIA.nome}
+                </h3>
+              </div>
+              <p className="mt-3 text-sm text-tinta-700">
+                Emendas parlamentares de {ANOS_EMENDAS[0]} a{" "}
+                {ANOS_EMENDAS[ANOS_EMENDAS.length - 1]}: quanto cada deputado
+                federal e senador do {ESTADO.sigla} destinou, para onde e em que
+                fase da execução está. É a única fonte do projeto que exige
+                credencial — a chave fica fora do site e só o coletor a lê.
+              </p>
+              <dl className="mt-4 grid gap-2 text-sm sm:grid-cols-2">
+                <div>
+                  <dt className="rotulo-meta">Coletado em</dt>
+                  <dd className="mt-0.5">
+                    {dataPorExtenso(COLETADO_EM_EMENDAS)}
+                  </dd>
+                </div>
+                <div>
+                  <dt className="rotulo-meta">Licença</dt>
+                  <dd className="mt-0.5">{FONTE_TRANSPARENCIA.licenca}</dd>
+                </div>
+              </dl>
+              {/* A lacuna se declara — inclusive quando a lacuna é a
+                  própria fonte não estar confiável hoje. Regra 5. */}
+              {CONFERENCIA_EMENDAS.aprovada ? null : (
+                <p className="mt-3 border-l-4 border-tinta-300 pl-3 text-sm text-tinta-700">
+                  <strong>Publicação suspensa nesta coleta.</strong> A coleta
+                  pergunta duas vezes e compara: nesta, as respostas não bateram
+                  em {fmtNumero(CONFERENCIA_EMENDAS.totalDeProblemas)} pontos —
+                  a mesma emenda voltou com valores diferentes em consultas
+                  seguidas. Nenhum valor de emenda está no site enquanto isso.
+                  A coleta roda todo dia e volta a publicar quando as duas
+                  consultas concordarem.
+                </p>
+              )}
+              <p className="mt-3 text-sm">
+                <a href={FONTE_TRANSPARENCIA.url} rel="nofollow noopener">
+                  Ir à fonte
+                </a>
+              </p>
+            </div>
           </div>
         </section>
 
@@ -242,19 +323,14 @@ export default function PaginaFontes() {
           <ul className="mt-6 border border-tinta-200 bg-papel-alta">
             {[
               {
-                titulo: "Emendas parlamentares",
+                titulo: "Emendas de bancada e de comissão",
                 texto:
-                  "Quanto cada deputado federal e senador destinou, e para quê. A fonte é o Portal da Transparência, que exige credencial de acesso ainda em obtenção.",
+                  "Emenda coletiva move dinheiro e não tem autor individual na fonte: ela não entra na soma de pessoa nenhuma, nem aqui. Mostrar isso exige uma tela que descreva a bancada do estado, e não a pessoa candidata.",
               },
               {
                 titulo: "Atuação de deputado estadual",
                 texto:
                   "Votações, presença e projetos na Assembleia Legislativa do Espírito Santo. A Assembleia não publica esses dados em formato aberto, e a coleta ainda está sendo estudada.",
-              },
-              {
-                titulo: "Votações e projetos no Congresso",
-                texto:
-                  "Como cada deputado federal e senador votou em cada matéria. As fontes são abertas e já mapeadas; é trabalho de coleta ainda não feito.",
               },
               {
                 titulo: "Execução orçamentária estadual",

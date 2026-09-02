@@ -1,0 +1,376 @@
+{
+  "fonte": {
+    "nome": "Portal da Transparência — Emendas parlamentares",
+    "url": "https://portaldatransparencia.gov.br/emendas",
+    "licenca": "Dados abertos, uso livre com citação da fonte"
+  },
+  "uf": "ES",
+  "anos": [
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "coletadoEm": "2026-09-02T00:46:14.781Z",
+  "recorte": "Emendas cujo autor é o próprio parlamentar, nos anos da legislatura 57. Emendas de bancada estadual e de comissão não têm autor individual e não entram aqui.",
+  "conferencia": {
+    "aprovada": false,
+    "conferidoEm": "2026-09-02T00:46:14.764Z",
+    "provas": [
+      "duas consultas seguidas devolvem o mesmo valor para a mesma emenda",
+      "valor pago não passa do valor empenhado",
+      "valor empenhado não fica abaixo de R$ 1000"
+    ],
+    "problemas": [
+      "202239120005: valorEmpenhado veio \"700.000,00\" numa consulta e \"70,00\" na seguinte",
+      "202239120005: valorRestoInscrito veio \"700.000,00\" numa consulta e \"70,00\" na seguinte",
+      "202239120005: valorRestoCancelado veio \"700.000,00\" numa consulta e \"70,00\" na seguinte",
+      "202039120010: valorEmpenhado veio \"860.000,00\" numa consulta e \"86,00\" na seguinte",
+      "202039120010: valorLiquidado veio \"100.000,00\" numa consulta e \"10,00\" na seguinte",
+      "202039120010: valorPago veio \"100.000,00\" numa consulta e \"10,00\" na seguinte",
+      "202039120010: valorRestoInscrito veio \"760.000,00\" numa consulta e \"76,00\" na seguinte",
+      "202039120010: valorRestoPago veio \"760.000,00\" numa consulta e \"76,00\" na seguinte",
+      "202039120009: valorRestoInscrito veio \"200.000,00\" numa consulta e \"20,00\" na seguinte",
+      "202039120009: valorRestoPago veio \"200.000,00\" numa consulta e \"20,00\" na seguinte",
+      "202539120005: valorEmpenhado veio \"1.000.000,00\" numa consulta e \"100,00\" na seguinte",
+      "202539120005: valorLiquidado veio \"1.000.000,00\" numa consulta e \"100,00\" na seguinte",
+      "202539120005: valorPago veio \"1.000.000,00\" numa consulta e \"100,00\" na seguinte",
+      "202639120002: valorEmpenhado veio \"2.150.000,00\" numa consulta e \"215,00\" na seguinte",
+      "202139120004: valorEmpenhado veio \"2.890.000,00\" numa consulta e \"289,00\" na seguinte",
+      "202139120004: valorRestoInscrito veio \"5.780.000,00\" numa consulta e \"578,00\" na seguinte",
+      "202339120004: valorLiquidado veio \"200.000,00\" numa consulta e \"20,00\" na seguinte",
+      "202339120004: valorPago veio \"200.000,00\" numa consulta e \"20,00\" na seguinte",
+      "202339120004: valorRestoInscrito veio \"450.000,00\" numa consulta e \"45,00\" na seguinte",
+      "202239120003: valorLiquidado veio \"600.000,00\" numa consulta e \"60,00\" na seguinte"
+    ],
+    "totalDeProblemas": 869
+  },
+  "referencias": {},
+  "parlamentares": [
+    {
+      "id": "camara-204356",
+      "cargo": "Deputado Federal",
+      "nomeUrna": "Amaro Neto",
+      "nomeAutorNaFonte": "AMARO NETO",
+      "codigoAutor": "3912",
+      "ambiguidadeDeHomonimo": null,
+      "foraDoPeriodo": 23,
+      "emendas": {
+        "quantidade": 0,
+        "totais": {
+          "empenhado": 0,
+          "liquidado": 0,
+          "pago": 0,
+          "restosInscritos": 0,
+          "restosCancelados": 0,
+          "restosPagos": 0
+        },
+        "porAno": [],
+        "porFuncao": [],
+        "porLocalidade": [],
+        "porTipo": [],
+        "maiores": []
+      }
+    },
+    {
+      "id": "camara-204355",
+      "cargo": "Deputado Federal",
+      "nomeUrna": "Da Vitoria",
+      "nomeAutorNaFonte": "DA VITORIA",
+      "codigoAutor": "3948",
+      "ambiguidadeDeHomonimo": null,
+      "foraDoPeriodo": 37,
+      "emendas": {
+        "quantidade": 0,
+        "totais": {
+          "empenhado": 0,
+          "liquidado": 0,
+          "pago": 0,
+          "restosInscritos": 0,
+          "restosCancelados": 0,
+          "restosPagos": 0
+        },
+        "porAno": [],
+        "porFuncao": [],
+        "porLocalidade": [],
+        "porTipo": [],
+        "maiores": []
+      }
+    },
+    {
+      "id": "camara-220528",
+      "cargo": "Deputado Federal",
+      "nomeUrna": "Dr. Victor Linhalis",
+      "nomeAutorNaFonte": "DR. VICTOR LINHALIS",
+      "codigoAutor": "4362",
+      "ambiguidadeDeHomonimo": null,
+      "foraDoPeriodo": 0,
+      "emendas": {
+        "quantidade": 0,
+        "totais": {
+          "empenhado": 0,
+          "liquidado": 0,
+          "pago": 0,
+          "restosInscritos": 0,
+          "restosCancelados": 0,
+          "restosPagos": 0
+        },
+        "porAno": [],
+        "porFuncao": [],
+        "porLocalidade": [],
+        "porTipo": [],
+        "maiores": []
+      }
+    },
+    {
+      "id": "camara-178871",
+      "cargo": "Deputado Federal",
+      "nomeUrna": "Evair Vieira de Melo",
+      "nomeAutorNaFonte": "EVAIR VIEIRA DE MELO",
+      "codigoAutor": "3093",
+      "ambiguidadeDeHomonimo": null,
+      "foraDoPeriodo": 75,
+      "emendas": {
+        "quantidade": 0,
+        "totais": {
+          "empenhado": 0,
+          "liquidado": 0,
+          "pago": 0,
+          "restosInscritos": 0,
+          "restosCancelados": 0,
+          "restosPagos": 0
+        },
+        "porAno": [],
+        "porFuncao": [],
+        "porLocalidade": [],
+        "porTipo": [],
+        "maiores": []
+      }
+    },
+    {
+      "id": "camara-220529",
+      "cargo": "Deputado Federal",
+      "nomeUrna": "Gilson Daniel",
+      "nomeAutorNaFonte": "GILSON DANIEL",
+      "codigoAutor": "4383",
+      "ambiguidadeDeHomonimo": null,
+      "foraDoPeriodo": 0,
+      "emendas": {
+        "quantidade": 0,
+        "totais": {
+          "empenhado": 0,
+          "liquidado": 0,
+          "pago": 0,
+          "restosInscritos": 0,
+          "restosCancelados": 0,
+          "restosPagos": 0
+        },
+        "porAno": [],
+        "porFuncao": [],
+        "porLocalidade": [],
+        "porTipo": [],
+        "maiores": []
+      }
+    },
+    {
+      "id": "camara-220526",
+      "cargo": "Deputado Federal",
+      "nomeUrna": "Gilvan da Federal",
+      "nomeAutorNaFonte": "GILVAN DA FEDERAL",
+      "codigoAutor": "4384",
+      "ambiguidadeDeHomonimo": null,
+      "foraDoPeriodo": 0,
+      "emendas": {
+        "quantidade": 0,
+        "totais": {
+          "empenhado": 0,
+          "liquidado": 0,
+          "pago": 0,
+          "restosInscritos": 0,
+          "restosCancelados": 0,
+          "restosPagos": 0
+        },
+        "porAno": [],
+        "porFuncao": [],
+        "porLocalidade": [],
+        "porTipo": [],
+        "maiores": []
+      }
+    },
+    {
+      "id": "camara-178873",
+      "cargo": "Deputado Federal",
+      "nomeUrna": "Helder Salomão",
+      "nomeAutorNaFonte": "HELDER SALOMAO",
+      "codigoAutor": "3312",
+      "ambiguidadeDeHomonimo": null,
+      "foraDoPeriodo": 119,
+      "emendas": {
+        "quantidade": 0,
+        "totais": {
+          "empenhado": 0,
+          "liquidado": 0,
+          "pago": 0,
+          "restosInscritos": 0,
+          "restosCancelados": 0,
+          "restosPagos": 0
+        },
+        "porAno": [],
+        "porFuncao": [],
+        "porLocalidade": [],
+        "porTipo": [],
+        "maiores": []
+      }
+    },
+    {
+      "id": "camara-220527",
+      "cargo": "Deputado Federal",
+      "nomeUrna": "Jack Rocha",
+      "nomeAutorNaFonte": "JACK ROCHA",
+      "codigoAutor": "4397",
+      "ambiguidadeDeHomonimo": null,
+      "foraDoPeriodo": 0,
+      "emendas": {
+        "quantidade": 0,
+        "totais": {
+          "empenhado": 0,
+          "liquidado": 0,
+          "pago": 0,
+          "restosInscritos": 0,
+          "restosCancelados": 0,
+          "restosPagos": 0
+        },
+        "porAno": [],
+        "porFuncao": [],
+        "porLocalidade": [],
+        "porTipo": [],
+        "maiores": []
+      }
+    },
+    {
+      "id": "camara-220530",
+      "cargo": "Deputado Federal",
+      "nomeUrna": "Messias Donato",
+      "nomeAutorNaFonte": "MESSIAS DONATO",
+      "codigoAutor": "4433",
+      "ambiguidadeDeHomonimo": null,
+      "foraDoPeriodo": 0,
+      "emendas": {
+        "quantidade": 0,
+        "totais": {
+          "empenhado": 0,
+          "liquidado": 0,
+          "pago": 0,
+          "restosInscritos": 0,
+          "restosCancelados": 0,
+          "restosPagos": 0
+        },
+        "porAno": [],
+        "porFuncao": [],
+        "porLocalidade": [],
+        "porTipo": [],
+        "maiores": []
+      }
+    },
+    {
+      "id": "camara-160517",
+      "cargo": "Deputado Federal",
+      "nomeUrna": "Paulo Folletto",
+      "nomeAutorNaFonte": "PAULO FOLLETTO",
+      "codigoAutor": "2774",
+      "ambiguidadeDeHomonimo": null,
+      "foraDoPeriodo": 0,
+      "emendas": {
+        "quantidade": 0,
+        "totais": {
+          "empenhado": 0,
+          "liquidado": 0,
+          "pago": 0,
+          "restosInscritos": 0,
+          "restosCancelados": 0,
+          "restosPagos": 0
+        },
+        "porAno": [],
+        "porFuncao": [],
+        "porLocalidade": [],
+        "porTipo": [],
+        "maiores": []
+      }
+    },
+    {
+      "id": "senado-5953",
+      "cargo": "Senador",
+      "nomeUrna": "Fabiano Contarato",
+      "nomeAutorNaFonte": "FABIANO CONTARATO",
+      "codigoAutor": "4180",
+      "ambiguidadeDeHomonimo": null,
+      "foraDoPeriodo": 25,
+      "emendas": {
+        "quantidade": 0,
+        "totais": {
+          "empenhado": 0,
+          "liquidado": 0,
+          "pago": 0,
+          "restosInscritos": 0,
+          "restosCancelados": 0,
+          "restosPagos": 0
+        },
+        "porAno": [],
+        "porFuncao": [],
+        "porLocalidade": [],
+        "porTipo": [],
+        "maiores": []
+      }
+    },
+    {
+      "id": "senado-631",
+      "cargo": "Senador",
+      "nomeUrna": "Magno Malta",
+      "nomeAutorNaFonte": "MAGNO MALTA",
+      "codigoAutor": "2029",
+      "ambiguidadeDeHomonimo": null,
+      "foraDoPeriodo": 78,
+      "emendas": {
+        "quantidade": 0,
+        "totais": {
+          "empenhado": 0,
+          "liquidado": 0,
+          "pago": 0,
+          "restosInscritos": 0,
+          "restosCancelados": 0,
+          "restosPagos": 0
+        },
+        "porAno": [],
+        "porFuncao": [],
+        "porLocalidade": [],
+        "porTipo": [],
+        "maiores": []
+      }
+    },
+    {
+      "id": "senado-5942",
+      "cargo": "Senador",
+      "nomeUrna": "Marcos do Val",
+      "nomeAutorNaFonte": "MARCOS DO VAL",
+      "codigoAutor": "9204",
+      "ambiguidadeDeHomonimo": null,
+      "foraDoPeriodo": 39,
+      "emendas": {
+        "quantidade": 0,
+        "totais": {
+          "empenhado": 0,
+          "liquidado": 0,
+          "pago": 0,
+          "restosInscritos": 0,
+          "restosCancelados": 0,
+          "restosPagos": 0
+        },
+        "porAno": [],
+        "porFuncao": [],
+        "porLocalidade": [],
+        "porTipo": [],
+        "maiores": []
+      }
+    }
+  ]
+}

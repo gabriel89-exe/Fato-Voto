@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import AvatarCandidato from "@/components/AvatarCandidato";
 import DadoOficial from "@/components/DadoOficial";
 import DetalheDespesas from "@/components/DetalheDespesas";
+import DetalheEmendas from "@/components/DetalheEmendas";
 import Termo from "@/components/Termo";
 import { GraficoComposicao, GraficoEvolucao } from "@/components/graficos";
 import { IconeLinkExterno, IconeSeta } from "@/components/icones";
@@ -22,23 +23,30 @@ import {
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import Votacoes from "@/components/Votacoes";
 import {
+  ANOS_EMENDAS,
   candidaturas,
   COLETADO_EM,
   COLETADO_EM_CAMARA,
+  COLETADO_EM_EMENDAS,
+  CONFERENCIA_EMENDAS,
   COLETADO_EM_SENADO,
   COLETADO_EM_VOTACOES,
   CRITERIO_VOTACOES,
   ELEICAO,
+  emendasDoMandato,
   ESTADO,
   FONTE_CAMARA,
   FONTE_SENADO,
+  FONTE_TRANSPARENCIA,
   FONTE_TSE,
   LEGISLATURA,
   obterCandidatura,
   obterMandato,
   obterMandatoSenado,
   QUANTAS_VOTACOES,
+  RECORTE_EMENDAS,
   referenciaBancada,
+  referenciaEmendas,
   traduzirVotoSenado,
   votacoesDoDeputado,
   votacoesDoSenador,
@@ -82,6 +90,17 @@ export default async function PaginaCandidato({
 
   const mandato = obterMandato(c);
   const mandatoSenado = obterMandatoSenado(c);
+
+  /*
+   * Emendas vêm do Portal da Transparência e são buscadas pelo `id` do
+   * mandato, não pelo nome: a coleta já casou nome com código de autor,
+   * com trava contra homônimo. Refazer o casamento aqui só criaria uma
+   * segunda chance de errar. Ver scripts/coleta/transparencia.mjs.
+   */
+  const emendasDeCamara = mandato ? emendasDoMandato(mandato.id) : null;
+  const emendasDeSenado = mandatoSenado
+    ? emendasDoMandato(mandatoSenado.id)
+    : null;
   const idade = c.dataNascimento ? idadeEm(c.dataNascimento) : null;
 
   return (
@@ -516,6 +535,30 @@ export default async function PaginaCandidato({
                     </AlertDescription>
                   </Alert>
                 </DadoOficial>
+
+                {/*
+                  Emendas parlamentares — outra FONTE, e por isso outro
+                  bloco de dado oficial. Juntar com a cota parlamentar
+                  num bloco só faria a procedência do rodapé mentir
+                  sobre metade do conteúdo.
+                */}
+                {emendasDeSenado ? (
+                  <DadoOficial
+                    className="mt-6"
+                    titulo={`Emendas parlamentares — ${ANOS_EMENDAS[0]} a ${ANOS_EMENDAS[ANOS_EMENDAS.length - 1]}`}
+                    fonte={FONTE_TRANSPARENCIA.nome}
+                    coletadoEm={COLETADO_EM_EMENDAS}
+                    urlOriginal={FONTE_TRANSPARENCIA.url}
+                  >
+                    <DetalheEmendas
+                      registro={emendasDeSenado}
+                      referencia={referenciaEmendas(emendasDeSenado.cargo)}
+                      anos={ANOS_EMENDAS}
+                      recorte={RECORTE_EMENDAS}
+                      conferencia={CONFERENCIA_EMENDAS}
+                    />
+                  </DadoOficial>
+                ) : null}
               </TabsContent>
             ) : null}
 
@@ -727,6 +770,30 @@ export default async function PaginaCandidato({
                     </p>
                   ) : null}
                 </DadoOficial>
+
+                {/*
+                  Emendas parlamentares — outra FONTE, e por isso outro
+                  bloco de dado oficial. Juntar com a cota parlamentar
+                  num bloco só faria a procedência do rodapé mentir
+                  sobre metade do conteúdo.
+                */}
+                {emendasDeCamara ? (
+                  <DadoOficial
+                    className="mt-6"
+                    titulo={`Emendas parlamentares — ${ANOS_EMENDAS[0]} a ${ANOS_EMENDAS[ANOS_EMENDAS.length - 1]}`}
+                    fonte={FONTE_TRANSPARENCIA.nome}
+                    coletadoEm={COLETADO_EM_EMENDAS}
+                    urlOriginal={FONTE_TRANSPARENCIA.url}
+                  >
+                    <DetalheEmendas
+                      registro={emendasDeCamara}
+                      referencia={referenciaEmendas(emendasDeCamara.cargo)}
+                      anos={ANOS_EMENDAS}
+                      recorte={RECORTE_EMENDAS}
+                      conferencia={CONFERENCIA_EMENDAS}
+                    />
+                  </DadoOficial>
+                ) : null}
               </TabsContent>
             ) : null}
           </Tabs>

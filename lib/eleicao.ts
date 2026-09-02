@@ -1,16 +1,20 @@
 import candidaturasJson from "@/data/es/candidaturas-2026.json";
 import parlamentaresJson from "@/data/es/deputados-federais.json";
+import emendasJson from "@/data/es/emendas.json";
 import senadoresJson from "@/data/es/senadores.json";
 import votacoesJson from "@/data/es/votacoes-camara.json";
 import { CARGOS } from "@/types";
 import type {
   ArquivoCandidaturas,
+  ArquivoEmendas,
   ArquivoParlamentares,
   ArquivoSenadores,
   ArquivoVotacoes,
   Candidatura,
   Cargo,
+  EmendasDoParlamentar,
   Parlamentar,
+  ReferenciaEmendas,
   Senador,
   VotacaoCamara,
   VotacaoSenado,
@@ -30,6 +34,7 @@ const arquivoParlamentares =
   parlamentaresJson as unknown as ArquivoParlamentares;
 const arquivoSenadores = senadoresJson as unknown as ArquivoSenadores;
 const arquivoVotacoes = votacoesJson as unknown as ArquivoVotacoes;
+const arquivoEmendas = emendasJson as unknown as ArquivoEmendas;
 
 export const candidaturas = arquivoCandidaturas.candidaturas;
 export const parlamentares = arquivoParlamentares.parlamentares;
@@ -48,6 +53,17 @@ export const COLETADO_EM = arquivoCandidaturas.coletadoEm;
 export const COLETADO_EM_CAMARA = arquivoParlamentares.coletadoEm;
 export const COLETADO_EM_SENADO = arquivoSenadores.coletadoEm;
 export const LEGISLATURA = arquivoParlamentares.legislatura;
+
+export const FONTE_TRANSPARENCIA = arquivoEmendas.fonte;
+export const COLETADO_EM_EMENDAS = arquivoEmendas.coletadoEm;
+export const ANOS_EMENDAS = arquivoEmendas.anos;
+export const RECORTE_EMENDAS = arquivoEmendas.recorte;
+/**
+ * O veredito da conferencia da fonte de emendas. Quando reprovada,
+ * nenhum valor foi publicado e a ficha diz por que. Ver
+ * scripts/coleta/transparencia.mjs.
+ */
+export const CONFERENCIA_EMENDAS = arquivoEmendas.conferencia;
 
 export const ESTADO = { nome: "Espírito Santo", sigla: "ES" };
 
@@ -116,6 +132,32 @@ export function obterMandatoSenado(candidatura: Candidatura): Senador | null {
 
   const achados = senadores.filter((s) => normalizar(s.nomeCivil) === civil);
   return achados.length === 1 ? achados[0] : null;
+}
+
+/**
+ * As emendas parlamentares deste mandato, ou `null` quando a fonte nao
+ * tem nada dela.
+ *
+ * A chave e o mesmo `id` do parlamentar (`camara-204356`,
+ * `senado-5953`), montado na coleta — nao ha casamento por nome aqui,
+ * porque a coleta ja o fez com trava de codigo de autor. Repetir a
+ * heuristica na tela so criaria uma segunda chance de errar.
+ */
+export function emendasDoMandato(
+  idParlamentar: string,
+): EmendasDoParlamentar | null {
+  return (
+    arquivoEmendas.parlamentares.find((p) => p.id === idParlamentar) ?? null
+  );
+}
+
+/**
+ * Mediana e faixa da bancada, por cargo. Separado por cargo de
+ * proposito: a cota de emenda de senador e maior que a de deputado, e
+ * uma mediana unica das duas coisas descreveria mal as duas.
+ */
+export function referenciaEmendas(cargo: string): ReferenciaEmendas | null {
+  return arquivoEmendas.referencias[cargo] ?? null;
 }
 
 /**
