@@ -93,7 +93,7 @@ export default function Cabecalho() {
                   <Link
                     href={link.href}
                     aria-current={estaAtivo ? "page" : undefined}
-                    className={`alvo-toque w-full rounded-lg px-3 text-base no-underline transition-colors ${
+                    className={`alvo-toque w-full whitespace-nowrap rounded-lg px-3 text-base no-underline transition-colors ${
                       estaAtivo
                         ? "bg-acento-leve font-bold text-acento-forte"
                         : "font-medium text-tinta-700 hover:bg-papel-baixa hover:text-acento"

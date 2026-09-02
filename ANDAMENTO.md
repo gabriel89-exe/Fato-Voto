@@ -37,7 +37,14 @@ decisões de fora do código, listadas logo abaixo.
 - [x] **Inventário de fontes** — `/fontes` publica também as lacunas.
 - [x] **Responsividade em 360 px** — todas as rotas, sem rolagem horizontal.
       Conferido de novo em 01/09/2026, agora também a 320 px, no build de
-      produção e não no de desenvolvimento.
+      produção e não no de desenvolvimento. Reconferido em 02/09/2026 com
+      navegador de verdade (Edge headless via Puppeteer): 320/360/390 px nas
+      páginas-chave, medindo estouro elemento a elemento, com a aba Mandato
+      DE FATO ativada — clique sintético não ativa aba do Radix; é preciso
+      focus/mousedown, e uma auditoria que não sabe disso mede a aba errada
+      e passa em falso. Filtros do explorador exercitados, tabela aberta,
+      console limpo, alvos de toque conferidos (o sumário de /como-funciona
+      estava com links de 29 px e foi corrigido).
 - [x] **Senadores do ES** — coleta feita. Contarato e Marcos do Val são
       senadores em exercício E candidatos: as fichas deles ganharam aba de
       mandato com as matérias de autoria.

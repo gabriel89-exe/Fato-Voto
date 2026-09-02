@@ -108,16 +108,24 @@ export default function PaginaComoFunciona() {
         {/* ---------- Sumário ---------- */}
         <nav aria-label="Seções desta página" className="mt-10">
           <h2 className="text-lg">O que tem aqui</h2>
-          <ol className="mt-3 space-y-2">
+          {/* Cada link do sumário carrega o alvo de 48px — a auditoria
+              móvel de 02/09/2026 pegou estes com 29px de altura, abaixo
+              do padrão que o resto do site cumpre. */}
+          <ol className="mt-2">
             {SECOES.map((secao, i) => (
-              <li key={secao.id} className="flex gap-3">
+              <li key={secao.id} className="flex items-center gap-3">
                 <span
                   aria-hidden="true"
                   className="font-mono text-tinta-500 tabular-nums"
                 >
                   {i + 1}.
                 </span>
-                <Link href={`#${secao.id}`}>{secao.titulo}</Link>
+                <Link
+                  href={`#${secao.id}`}
+                  className="alvo-toque justify-start py-1 text-left"
+                >
+                  {secao.titulo}
+                </Link>
               </li>
             ))}
           </ol>
