@@ -32,8 +32,10 @@
   :root {
     --altura-tarja: 2.75rem;
     --altura-cabecalho: 4.25rem;
-    --acento: #3f37a8;
-    --acento-forte: #2c2578;
+    /* Tinta pura: a identidade neutra de 02/09/2026. Ver o cabeçalho
+       de tailwind.config.ts. */
+    --acento: #26231e;
+    --acento-forte: #191713;
 
     /* ================================================================
        Ponte shadcn/ui.
@@ -55,10 +57,10 @@
     --popover: 0 0% 100%;
     --popover-foreground: 40 14% 9%;
 
-    --primary: 244 51% 44%; /* acento #3f37a8 */
+    --primary: 37 12% 13%; /* acento #26231e — tinta pura */
     --primary-foreground: 0 0% 100%;
     --secondary: 0 0% 100%;
-    --secondary-foreground: 245 53% 31%; /* acento-forte #2c2578 */
+    --secondary-foreground: 40 14% 9%; /* acento-forte #191713 */
 
     --muted: 40 22% 92%; /* papel-baixa #efece6 */
     --muted-foreground: 34 8% 35%; /* tinta-600 #5f5951 */
@@ -73,7 +75,7 @@
        controle e por isso é mais escuro (tinta-300, 3,4:1). */
     --border: 40 16% 78%;
     --input: 42 8% 53%;
-    --ring: 244 51% 44%;
+    --ring: 37 12% 13%;
 
     --radius: 10px;
   }

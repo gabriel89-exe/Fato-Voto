@@ -50,15 +50,16 @@ const PARES = [
   /* tinta-200 é filete decorativo entre blocos, não delimita controle.
      Sem mínimo — o número está aqui só para não cair sem ninguém ver. */
   ["tinta-200 filete decorativo", "#cfc9bd", BRANCO, 1.0],
-  ["acento sobre branco", "#3f37a8", BRANCO, 4.5],
-  ["acento sobre papel", "#3f37a8", PAPEL, 4.5],
-  ["acento sobre acento-leve", "#3f37a8", "#efeefb", 4.5],
-  ["acento-forte sobre branco", "#2c2578", BRANCO, 4.5],
-  ["branco sobre acento", BRANCO, "#3f37a8", 4.5],
-  ["branco sobre acento-escuro (tarja)", BRANCO, "#1a1550", 4.5],
-  ["oficial-texto sobre oficial-fundo", "#2c2578", "#f2f1fc", 4.5],
+  /* Acento em tinta pura desde 02/09/2026 — ver tailwind.config.ts. */
+  ["acento sobre branco", "#26231e", BRANCO, 4.5],
+  ["acento sobre papel", "#26231e", PAPEL, 4.5],
+  ["acento sobre acento-leve", "#26231e", "#edeae3", 4.5],
+  ["acento-forte sobre branco", "#191713", BRANCO, 4.5],
+  ["branco sobre acento", BRANCO, "#26231e", 4.5],
+  ["branco sobre acento-escuro (tarja)", BRANCO, "#191713", 4.5],
+  ["oficial-texto sobre oficial-fundo", "#26231e", "#f1efeb", 4.5],
   ["resumo-texto sobre resumo-fundo", "#5e3c1a", "#faf3ea", 4.5],
-  ["grafico-4 sobre branco (só área)", "#8a84d0", BRANCO, 3.0],
+  ["grafico-4 sobre branco (só área)", "#898275", BRANCO, 3.0],
 ];
 
 let reprovou = false;

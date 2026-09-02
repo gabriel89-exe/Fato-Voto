@@ -113,24 +113,28 @@ const config: Config = {
           200: "#cfc9bd",
           100: "#e7e3da",
         },
-        /* Azul-violeta de tinta de caneta. Único acento, só em
-           interface. Sobre branco dá 9,0:1 — passa AAA com folga, e é
-           inconfundível com o azul institucional que estava aqui. */
+        /* Tinta pura como único acento, só em interface. Em 02/09/2026
+           a paleta abandonou o azul-violeta: a logomarca é preto e
+           cinza, e o pedido do produto é neutralidade máxima — nenhum
+           matiz que se pareça com cor de partido ou de instituição. O
+           que distingue link de texto é o sublinhado (que sempre foi o
+           sinal acessível); o que distingue ação é a forma. */
         acento: {
-          DEFAULT: "#3f37a8",
-          forte: "#2c2578",
-          escuro: "#1a1550",
-          leve: "#efeefb",
-          borda: "#cfcbf0",
+          DEFAULT: "#26231e",
+          forte: "#191713",
+          escuro: "#0f0d0b",
+          leve: "#edeae3",
+          borda: "#c7c1b4",
         },
         /* Bloco de dado oficial. Primeira metade do par de
            neutralidade: distingue o que veio da fonte do que foi
-           escrito aqui — por matiz, nunca por hierarquia. */
+           escrito aqui — por matiz, nunca por hierarquia. Grafite
+           frio-neutro contra o cobre quente do resumo. */
         oficial: {
-          borda: "#3f37a8",
-          fundo: "#f2f1fc",
-          texto: "#2c2578",
-          leve: "#cfcbf0",
+          borda: "#383430",
+          fundo: "#f1efeb",
+          texto: "#26231e",
+          leve: "#d6d1c8",
         },
         /* Bloco escrito pela plataforma. Segunda metade do par: cobre
            quente, sem parentesco com alerta nem com aprovação. */
@@ -142,18 +146,18 @@ const config: Config = {
         },
         /* Barra de contexto no topo. Informativa, não alarmante. */
         tarja: {
-          fundo: "#1a1550",
-          alta: "#2c2578",
-          baixa: "#120e38",
+          fundo: "#191713",
+          alta: "#26231e",
+          baixa: "#0c0b09",
           texto: "#ffffff",
         },
         /* Escala monocromática de gráfico. Nenhuma fatia é "boa". */
         grafico: {
-          1: "#1a1550",
-          2: "#2c2578",
-          3: "#3f37a8",
-          4: "#8a84d0",
-          5: "#cfcbf0",
+          1: "#191713",
+          2: "#383430",
+          3: "#5f5951",
+          4: "#898275",
+          5: "#d6d1c8",
         },
       },
       fontFamily: {

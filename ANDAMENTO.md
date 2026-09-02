@@ -194,6 +194,19 @@ Nada disto muda comportamento, mas confunde quem chegar ao projeto:
 
 ## Decisões registradas
 
+**A identidade é tinta sobre papel, e a logomarca é o círculo dividido.**
+Em 02/09/2026, a pedido do mantenedor, o azul-violeta saiu e o único acento
+passou a ser a própria tinta: neutralidade máxima, nenhum matiz que possa
+ser lido como cor de partido ou de instituição. O que distingue link de
+texto é o sublinhado — que sempre foi o sinal acessível —, e o que
+distingue ação é a forma. A logomarca (documento conferido + urna,
+separados pela fresta diagonal) foi recriada em SVG em
+`components/icones.tsx` e vive no cabeçalho, no rodapé, no favicon e como
+marca-d'água do hero. A abertura da página inicial passou a ser a pergunta
+"Você conhece a política do Brasil?", com a busca logo abaixo, na mesma
+dobra. Todo par de cor novo passa no `npm run contraste`, que foi
+atualizado junto — paleta e verificador mudam no mesmo commit, sempre.
+
 **Emenda estadual vem da SEFAZ, não da ALES.** A documentação dizia que
 deputado estadual não tinha fonte porque procurava o dado na casa
 legislativa. Emenda é executada pelo Executivo, e quem publica a execução é a

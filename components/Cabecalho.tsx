@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { IconeMarca } from "@/components/icones";
 import { ELEICAO, ESTADO } from "@/lib/eleicao";
 
 /**
@@ -59,20 +60,27 @@ export default function Cabecalho() {
   return (
     <header className="sticky top-[var(--altura-tarja)] z-40 border-b border-tinta-200 bg-papel-alta/90 backdrop-blur-md">
       <div className="envelope flex min-h-[var(--altura-cabecalho)] flex-col justify-center gap-2 py-2 sm:flex-row sm:items-center sm:justify-between sm:gap-6">
+        {/*
+          A logomarca: o círculo dividido + o nome em uma palavra só,
+          com o "&" em cinza — como na marca registrada do projeto. A
+          fresta diagonal do círculo usa a cor do fundo do cabeçalho.
+        */}
         <Link
           href="/"
-          className="group flex flex-col no-underline"
+          className="group flex items-center gap-3 no-underline"
           aria-label="Fato e Voto, página inicial"
         >
-          <span className="font-display text-2xl font-bold leading-none tracking-tight text-tinta-950">
-            Fato{" "}
-            <span className="text-acento transition-colors group-hover:text-acento-forte">
-              &amp;
-            </span>{" "}
-            Voto
-          </span>
-          <span className="mt-1 text-xs text-tinta-500">
-            {ESTADO.nome} · Eleição {ELEICAO.ano}
+          <IconeMarca
+            faixa="#ffffff"
+            className="h-10 w-10 transition-transform duration-300 ease-suave group-hover:rotate-[-6deg] motion-reduce:group-hover:rotate-0"
+          />
+          <span className="flex flex-col">
+            <span className="text-[1.45rem] font-extrabold leading-none tracking-tight text-tinta-950">
+              Fato<span className="text-tinta-500">&amp;</span>Voto
+            </span>
+            <span className="mt-1 text-xs text-tinta-500">
+              {ESTADO.nome} · Eleição {ELEICAO.ano}
+            </span>
           </span>
         </Link>
 

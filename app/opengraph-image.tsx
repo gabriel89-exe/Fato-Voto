@@ -35,7 +35,7 @@ export default function ImagemDeCompartilhamento() {
           backgroundColor: "#f7f5f1",
         }}
       >
-        <div style={{ display: "flex", height: 18, backgroundColor: "#3f37a8" }} />
+        <div style={{ display: "flex", height: 18, backgroundColor: "#191713" }} />
 
         <div
           style={{
@@ -46,7 +46,7 @@ export default function ImagemDeCompartilhamento() {
             padding: "0 80px",
           }}
         >
-          <div style={{ display: "flex", fontSize: 32, color: "#3f37a8" }}>
+          <div style={{ display: "flex", fontSize: 32, color: "#5f5951" }}>
             {chapeu}
           </div>
 
@@ -54,13 +54,13 @@ export default function ImagemDeCompartilhamento() {
             style={{
               display: "flex",
               fontSize: 104,
-              fontWeight: 700,
+              fontWeight: 800,
               color: "#191713",
               letterSpacing: "-0.03em",
               marginTop: 12,
             }}
           >
-            Fato &amp; Voto
+            Fato<span style={{ color: "#6d675e" }}>&amp;</span>Voto
           </div>
 
           <div
@@ -91,7 +91,7 @@ export default function ImagemDeCompartilhamento() {
           style={{
             display: "flex",
             alignItems: "center",
-            backgroundColor: "#1a1550",
+            backgroundColor: "#191713",
             color: "#ffffff",
             fontSize: 28,
             padding: "26px 80px",

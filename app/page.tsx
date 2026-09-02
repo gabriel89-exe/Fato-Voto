@@ -1,5 +1,13 @@
 import Link from "next/link";
-import { IconeBusca, IconeSeta } from "@/components/icones";
+import {
+  IconeBusca,
+  IconeDocumentoOficial,
+  IconeIgualdade,
+  IconeInfo,
+  IconeMarca,
+  IconeSeta,
+  IconeSorteio,
+} from "@/components/icones";
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 import { BlurFade } from "@/components/ui/blur-fade";
 import { Button } from "@/components/ui/button";
@@ -19,8 +27,12 @@ import { CARGOS } from "@/types";
 /**
  * Página inicial.
  *
- * A pergunta que a pessoa chega fazendo é "quem posso votar?", e a
- * resposta — a busca e a lista por cargo — está acima da dobra.
+ * A ABERTURA É A PERGUNTA, desde 02/09/2026: "Você conhece a política
+ * do Brasil?" subiu de convite no meio da página para primeiro item,
+ * por decisão de produto — quem chega sem saber o que faz um deputado
+ * encontra a porta antes de qualquer tabela. A busca vem logo abaixo,
+ * dentro da mesma dobra: quem chegou procurando um nome não rola nada
+ * para achá-la.
  *
  * A busca é um GET comum para /candidatos: funciona sem JavaScript.
  *
@@ -28,7 +40,7 @@ import { CARGOS } from "@/types";
  * A regra não é estética, é de produto: animação é destaque, e
  * destacar uma candidatura e não outra é exatamente o que este site
  * não faz. Então o movimento fica onde não há nome de ninguém — o
- * cabeçalho da página e os números agregados.
+ * cabeçalho da página, a marca e os números agregados.
  *
  * Toda animação daqui cai sozinha sob `prefers-reduced-motion`, e o
  * `<noscript>` do layout garante que sem JavaScript o conteúdo apareça
@@ -61,54 +73,110 @@ export default function PaginaInicial() {
     },
   ];
 
+  const comoFunciona = [
+    {
+      titulo: "A ordem é sorteada todo dia",
+      texto:
+        "Ninguém aparece primeiro por ser mais conhecido ou de um partido maior. A ordem é a mesma para todo mundo no mesmo dia.",
+      Icone: IconeSorteio,
+    },
+    {
+      titulo: "Não damos nota a ninguém",
+      texto:
+        "Sem ranking, sem pontuação, sem recomendação de voto. Mostramos os dados e a escolha é sua.",
+      Icone: IconeIgualdade,
+    },
+    {
+      titulo: "Tudo vem de fonte oficial",
+      texto:
+        "Cada informação traz de onde veio e quando foi coletada, com link para o documento de origem.",
+      Icone: IconeDocumentoOficial,
+    },
+    {
+      titulo: "Quando falta dado, dizemos",
+      texto:
+        "Espaço em branco sem explicação parece culpa de quem se candidatou. Quando a fonte não tem, a tela avisa.",
+      Icone: IconeInfo,
+    },
+  ];
+
   return (
     <div>
-      {/* ================= Abertura + busca ================= */}
+      {/* ================= Abertura: a pergunta ================= */}
       <section className="relative overflow-hidden border-b border-tinta-200 bg-papel-alta">
         <DotPattern
           width={26}
           height={26}
           cr={1.1}
-          className="text-acento/25 [mask-image:radial-gradient(520px_circle_at_75%_10%,white,transparent)]"
+          className="text-acento/20 [mask-image:radial-gradient(520px_circle_at_78%_8%,white,transparent)]"
         />
+
+        {/* A marca em escala de parede, quase invisível: é o único
+            ornamento do hero, e diz do que o site é feito — o fato
+            conferido e a urna. Some no celular para não disputar
+            espaço com o texto. */}
+        <BlurFade
+          delay={0.3}
+          className="pointer-events-none absolute -right-20 top-1/2 hidden -translate-y-1/2 lg:block"
+        >
+          <IconeMarca className="h-[26rem] w-[26rem] opacity-[0.06]" />
+        </BlurFade>
 
         <div className="envelope relative py-10 sm:py-16">
           <BlurFade delay={0}>
-            <p className="text-sm font-semibold uppercase tracking-[0.12em] text-acento">
+            <p className="text-sm font-semibold uppercase tracking-[0.12em] text-tinta-600">
               {ESTADO.nome} · Eleição {ELEICAO.ano}
             </p>
           </BlurFade>
 
           <BlurFade delay={0.08}>
-            <h1 className="mt-3 max-w-[18ch]">
-              Quem está na disputa no {ESTADO.nome}
+            <h1 className="mt-3 max-w-[20ch]">
+              Você conhece a política do Brasil?
             </h1>
           </BlurFade>
 
           <BlurFade delay={0.16}>
             <p className="mt-5 max-w-leitura text-lg text-tinta-700">
-              As {candidaturas.length} candidaturas de {ELEICAO.ano}, com dados
-              oficiais do Tribunal Superior Eleitoral. Sem ranking, sem nota e
-              sem recomendação — a ordem das listas é sorteada.
+              Este site mostra em que cada candidatura votou, quanto gastou e o
+              que propôs — com dados oficiais, sem ranking e sem recomendação.
+              Se os termos não forem familiares, comece pelo guia: o que faz um
+              deputado, o que é uma PEC e de onde vem o dinheiro do mandato, em
+              linguagem simples e com as fontes ao lado.
             </p>
           </BlurFade>
 
           <BlurFade delay={0.24}>
+            <div className="mt-6 flex flex-wrap items-center gap-4">
+              <Button asChild size="lg">
+                <Link href="/como-funciona">
+                  Entender como funciona
+                  <IconeSeta />
+                </Link>
+              </Button>
+              <Link href="/candidatos" className="alvo-toque font-medium">
+                Ir direto às candidaturas
+              </Link>
+            </div>
+          </BlurFade>
+
+          {/* A busca continua na primeira dobra: quem chegou com um
+              nome na cabeça não deve rolar para procurá-lo. */}
+          <BlurFade delay={0.32}>
             <form
               action="/candidatos"
               method="get"
               role="search"
-              className="painel mt-8 max-w-2xl p-5 sm:p-6"
+              className="painel mt-10 max-w-2xl p-5 sm:p-6"
             >
               <label
                 htmlFor="busca-inicial"
                 className="block text-lg font-bold text-tinta-950"
               >
-                Buscar por nome ou número de urna
+                Quem está na disputa no {ESTADO.nome}?
               </label>
               <p id="ajuda-busca-inicial" className="mt-1 text-tinta-600">
-                Pode escrever sem acento e sem maiúscula. Digitar só o começo
-                do número também funciona.
+                Busque pelo nome ou pelo número de urna, sem acento e sem
+                maiúscula. Digitar só o começo do número também funciona.
               </p>
 
               <div className="mt-4 flex flex-col gap-3 sm:flex-row">
@@ -149,42 +217,24 @@ export default function PaginaInicial() {
               como="li"
               inView
               delay={0.05 * i}
-              className="cartao h-full p-5"
+              className="cartao relative h-full overflow-hidden p-5 pt-6 shadow-cartao"
             >
-              <p className="font-display text-4xl font-bold tabular-nums text-acento">
+              {/* Filete de tinta no topo: o mesmo em todos os cartões —
+                  assinatura, não destaque. */}
+              <span
+                aria-hidden="true"
+                className="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-tinta-950 via-tinta-500 to-tinta-200"
+              />
+              <p className="font-display text-5xl font-bold tabular-nums text-tinta-950">
                 <NumberTicker value={numero.valor} delay={0.2 + 0.05 * i} />
               </p>
-              <p className="mt-1 font-semibold text-tinta-900">
+              <p className="mt-2 font-semibold text-tinta-900">
                 {numero.titulo}
               </p>
               <p className="mt-1 text-sm text-tinta-600">{numero.detalhe}</p>
             </BlurFade>
           ))}
         </ul>
-      </section>
-
-      {/* ================= Convite ao tour =================
-          Convite, não portão. Quem chegou para procurar um nome passa
-          reto; quem não sabe o que um deputado faz encontra a porta
-          antes de topar com PEC numa tabela. */}
-      <section className="envelope mt-12 sm:mt-16">
-        <div className="rounded-lg border border-acento-borda bg-acento-leve p-6 sm:p-8">
-          <h2>Você conhece a política do Brasil?</h2>
-          <p className="mt-2 max-w-leitura text-tinta-800">
-            Este site mostra em que cada candidatura votou, quanto gastou e o
-            que propôs. Se os termos não forem familiares, comece por aqui: o
-            que faz um deputado, o que é uma PEC e de onde vem o dinheiro do
-            mandato — em linguagem simples, com as fontes ao lado.
-          </p>
-          <div className="mt-5">
-            <Button asChild>
-              <Link href="/como-funciona">
-                Entender como funciona
-                <IconeSeta />
-              </Link>
-            </Button>
-          </div>
-        </div>
       </section>
 
       {/* ================= Cargos ================= */}
@@ -210,7 +260,9 @@ export default function PaginaInicial() {
                     {totalDe(cargo)} candidaturas
                   </span>
                 </span>
-                <IconeSeta className="h-5 w-5 shrink-0 text-acento transition-transform group-hover:translate-x-1 motion-reduce:group-hover:translate-x-0" />
+                <span className="grid h-10 w-10 shrink-0 place-items-center rounded-full border border-tinta-200 bg-papel transition-colors group-hover:border-tinta-950 group-hover:bg-tinta-950">
+                  <IconeSeta className="h-4 w-4 text-tinta-700 transition-all group-hover:translate-x-0.5 group-hover:text-white motion-reduce:group-hover:translate-x-0" />
+                </span>
               </Link>
             </BlurFade>
           ))}
@@ -235,36 +287,21 @@ export default function PaginaInicial() {
         <h2>Como este site funciona</h2>
 
         <ul className="mt-5 grid gap-4 sm:grid-cols-2">
-          {[
-            {
-              titulo: "A ordem é sorteada todo dia",
-              texto:
-                "Ninguém aparece primeiro por ser mais conhecido ou de um partido maior. A ordem é a mesma para todo mundo no mesmo dia.",
-            },
-            {
-              titulo: "Não damos nota a ninguém",
-              texto:
-                "Sem ranking, sem pontuação, sem recomendação de voto. Mostramos os dados e a escolha é sua.",
-            },
-            {
-              titulo: "Tudo vem de fonte oficial",
-              texto:
-                "Cada informação traz de onde veio e quando foi coletada, com link para o documento de origem.",
-            },
-            {
-              titulo: "Quando falta dado, dizemos",
-              texto:
-                "Espaço em branco sem explicação parece culpa de quem se candidatou. Quando a fonte não tem, a tela avisa.",
-            },
-          ].map((item, i) => (
+          {comoFunciona.map((item, i) => (
             <BlurFade
               key={item.titulo}
               como="li"
               inView
               delay={0.05 * i}
-              className="h-full rounded-lg border border-tinta-200 bg-papel-alta p-5"
+              className="h-full rounded-lg border border-tinta-200 bg-papel-alta p-5 shadow-cartao"
             >
-              <h3 className="text-tinta-950">{item.titulo}</h3>
+              <span
+                aria-hidden="true"
+                className="grid h-11 w-11 place-items-center rounded-lg bg-tinta-950 text-white"
+              >
+                <item.Icone className="h-5 w-5" />
+              </span>
+              <h3 className="mt-4 text-tinta-950">{item.titulo}</h3>
               <p className="mt-1.5 text-tinta-700">{item.texto}</p>
             </BlurFade>
           ))}

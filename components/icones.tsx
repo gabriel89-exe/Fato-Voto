@@ -9,50 +9,105 @@ type Props = { className?: string };
 const base = "h-5 w-5 shrink-0";
 
 /**
- * Marca do site. Um quadrado dividido: metade solida (o dado oficial),
- * metade tracejada (o resumo da plataforma). Ecoa o par que estrutura
- * todas as paginas, sem citar urna, cedula ou voto.
+ * Marca do site, desde 02/09/2026: o circulo dividido da logomarca.
+ *
+ * Uma faixa clara em diagonal separa duas metades — em cima, o
+ * DOCUMENTO conferido (o fato, com a marca de checagem); embaixo, a
+ * URNA (o voto). E o par que da nome ao site, em preto e cinza de
+ * proposito: nenhum matiz que possa ser lido como cor de partido.
+ *
+ * Cores fixas, nao currentColor: a marca e a unica coisa do site que
+ * nao muda de cor com o contexto. `faixa` e a cor da fresta diagonal —
+ * por padrao branca, e igual ao fundo quando a marca senta em papel.
  */
-export function IconeMarca({ className = "" }: Props) {
+export function IconeMarca({
+  className = "",
+  faixa = "#ffffff",
+}: Props & { faixa?: string }) {
+  return (
+    <svg
+      viewBox="0 0 96 96"
+      aria-hidden="true"
+      /* Sem tamanho padrão de propósito: cada uso declara o seu, e um
+         h-9 daqui brigaria com o h-10 de lá na ordem do CSS gerado. */
+      className={`shrink-0 ${className}`}
+    >
+      <defs>
+        <clipPath id="marca-circulo">
+          <circle cx="48" cy="48" r="44" />
+        </clipPath>
+      </defs>
+      <g clipPath="url(#marca-circulo)">
+        {/* Metade de cima: o fato, em tinta cheia. */}
+        <rect width="96" height="96" fill="#191713" />
+        {/* Metade de baixo: o voto, em cinza. */}
+        <path d="M16 100 L92 -4 L100 -4 L100 100 Z" fill="#6d675e" />
+        {/* A fresta diagonal que separa as duas coisas. */}
+        <path
+          d="M16 100 L92 -4"
+          stroke={faixa}
+          strokeWidth="7"
+          fill="none"
+        />
+
+        {/* O documento conferido. */}
+        <path
+          d="M27.5 16 h12.5 l8 8 v22.5 a3.5 3.5 0 0 1 -3.5 3.5 h-17 a3.5 3.5 0 0 1 -3.5 -3.5 v-27 a3.5 3.5 0 0 1 3.5 -3.5 Z"
+          fill="#ffffff"
+        />
+        <path d="M40 16 v8 h8 Z" fill="#d6d1c8" />
+        <path
+          d="M28.5 27 h13 M28.5 32 h13 M28.5 37 h9"
+          stroke="#191713"
+          strokeWidth="2.4"
+          strokeLinecap="round"
+        />
+        <circle cx="31.5" cy="44" r="5" fill="#6d675e" />
+        <path
+          d="M29 44 l1.9 1.9 l3.4 -3.7"
+          stroke="#ffffff"
+          strokeWidth="1.8"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          fill="none"
+        />
+
+        {/* A urna. */}
+        <rect x="48" y="54" width="32" height="22" rx="3.5" fill="#ffffff" />
+        <rect x="52.5" y="58.5" width="10" height="9" rx="1.5" fill="#191713" />
+        <rect x="66" y="60.5" width="2.6" height="5" rx="1" fill="#26231e" />
+        <rect x="70" y="60.5" width="2.6" height="5" rx="1" fill="#26231e" />
+        <rect x="74.5" y="58.5" width="8" height="9" rx="1.8" fill="#191713" />
+        <path
+          d="M76.4 63 l1.5 1.5 l2.8 -3"
+          stroke="#ffffff"
+          strokeWidth="1.6"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          fill="none"
+        />
+      </g>
+    </svg>
+  );
+}
+
+/**
+ * Sinal de igual dentro de um circulo: a promessa de que nenhuma
+ * candidatura pesa mais que outra. Usado no cartao "não damos nota".
+ */
+export function IconeIgualdade({ className = "" }: Props) {
   return (
     <svg
       viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
       aria-hidden="true"
-      className={`h-6 w-6 shrink-0 ${className}`}
+      className={`${base} ${className}`}
     >
-      <rect
-        x="2.5"
-        y="2.5"
-        width="19"
-        height="19"
-        rx="4.5"
-        fill="none"
-        stroke="currentColor"
-        strokeWidth="1.7"
-      />
-      <path d="M12 3.2v17.6" stroke="currentColor" strokeWidth="1.4" />
-      <rect
-        x="4.2"
-        y="4.2"
-        width="7.8"
-        height="15.6"
-        rx="2.6"
-        fill="currentColor"
-        opacity="0.14"
-      />
-      <path
-        d="M6.4 9h3.2M6.4 12h3.2M6.4 15h3.2"
-        stroke="currentColor"
-        strokeWidth="1.5"
-        strokeLinecap="round"
-      />
-      <path
-        d="M14.4 9h3.2M14.4 12h3.2M14.4 15h2.2"
-        stroke="currentColor"
-        strokeWidth="1.5"
-        strokeLinecap="round"
-        strokeDasharray="0.1 2.7"
-      />
+      <circle cx="12" cy="12" r="9" />
+      <path d="M8.5 10h7M8.5 14h7" />
     </svg>
   );
 }

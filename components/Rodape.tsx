@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { IconeMarca } from "@/components/icones";
 import { ELEICAO, ESTADO } from "@/lib/eleicao";
 
 const LINKS = [
@@ -23,13 +24,18 @@ export default function Rodape() {
     <footer className="mt-20 border-t border-tinta-200 bg-papel-alta">
       <div className="envelope grid gap-8 py-12 sm:grid-cols-[minmax(0,1fr)_auto] sm:gap-16">
         <div className="max-w-leitura">
-          <p className="font-display text-2xl font-bold text-tinta-950">
-            Fato <span className="text-acento">&amp;</span> Voto
-          </p>
-          <p className="mt-1 text-sm text-tinta-400">
-            {ESTADO.nome} ({ESTADO.sigla}) · Eleição {ELEICAO.ano} · Dados
-            públicos
-          </p>
+          <div className="flex items-center gap-3">
+            <IconeMarca faixa="#ffffff" className="h-9 w-9" />
+            <div>
+              <p className="text-2xl font-extrabold leading-none tracking-tight text-tinta-950">
+                Fato<span className="text-tinta-500">&amp;</span>Voto
+              </p>
+              <p className="mt-1 text-sm text-tinta-400">
+                {ESTADO.nome} ({ESTADO.sigla}) · Eleição {ELEICAO.ano} · Dados
+                públicos
+              </p>
+            </div>
+          </div>
 
           <div className="mt-5 space-y-3 rounded-lg border-l-4 border-acento bg-papel-baixa/60 px-4 py-4 text-sm text-tinta-700">
             <p>
