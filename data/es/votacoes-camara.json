@@ -6,15 +6,99 @@
   },
   "uf": "ES",
   "legislatura": 57,
-  "coletadoEm": "2026-09-01T14:15:59.194Z",
+  "coletadoEm": "2026-09-02T13:46:36.406Z",
   "criterio": {
     "orgao": "Plenário",
     "tipo": "Votações nominais",
     "quantidade": 20,
     "ordem": "As mais recentes primeiro",
-    "sondagens": 340
+    "sondagens": 358
   },
   "votacoes": [
+    {
+      "id": "2643915-8",
+      "data": "2026-09-01",
+      "registradaEm": "2026-09-01T17:57:04",
+      "descricao": "Aprovado o Requerimento de Urgência (Art. 155 do RICD). Sim: 320; Não: 67; Abstenção: 1; Total: 388.",
+      "aprovada": true,
+      "proposicao": {
+        "id": 2642167,
+        "sigla": "PL",
+        "numero": 4921,
+        "ano": 2026,
+        "ementa": "Dispõe sobre a transformação de cargos vagos no quadro permanente do Tribunal Regional do Trabalho da 18 Região, sem aumento de despesas.",
+        "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2642167"
+      },
+      "placar": [
+        {
+          "voto": "Sim",
+          "total": 320
+        },
+        {
+          "voto": "Não",
+          "total": 67
+        },
+        {
+          "voto": "Abstenção",
+          "total": 1
+        },
+        {
+          "voto": "Artigo 17",
+          "total": 1
+        }
+      ],
+      "votantes": 389,
+      "votosDoEstado": [
+        {
+          "idExterno": 204356,
+          "nome": "Amaro Neto",
+          "partido": "PP",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 220528,
+          "nome": "Dr. Victor Linhalis",
+          "partido": "PSB",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 220529,
+          "nome": "Gilson Daniel",
+          "partido": "PODE",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 220526,
+          "nome": "Gilvan da Federal",
+          "partido": "PL",
+          "voto": "Não"
+        },
+        {
+          "idExterno": 178873,
+          "nome": "Helder Salomão",
+          "partido": "PT",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 220527,
+          "nome": "Jack Rocha",
+          "partido": "PT",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 220530,
+          "nome": "Messias Donato",
+          "partido": "UNIÃO",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 160517,
+          "nome": "Paulo Folletto",
+          "partido": "PSB",
+          "voto": "Sim"
+        }
+      ]
+    },
     {
       "id": "2580259-24",
       "data": "2026-08-12",
@@ -1598,102 +1682,6 @@
         }
       ],
       "votantes": 472,
-      "votosDoEstado": [
-        {
-          "idExterno": 204356,
-          "nome": "Amaro Neto",
-          "partido": "PP",
-          "voto": "Sim"
-        },
-        {
-          "idExterno": 204355,
-          "nome": "Da Vitoria",
-          "partido": "PP",
-          "voto": "Sim"
-        },
-        {
-          "idExterno": 220528,
-          "nome": "Dr. Victor Linhalis",
-          "partido": "PSB",
-          "voto": "Sim"
-        },
-        {
-          "idExterno": 178871,
-          "nome": "Evair Vieira de Melo",
-          "partido": "REPUBLICANOS",
-          "voto": "Sim"
-        },
-        {
-          "idExterno": 220529,
-          "nome": "Gilson Daniel",
-          "partido": "PODE",
-          "voto": "Sim"
-        },
-        {
-          "idExterno": 220526,
-          "nome": "Gilvan da Federal",
-          "partido": "PL",
-          "voto": "Sim"
-        },
-        {
-          "idExterno": 178873,
-          "nome": "Helder Salomão",
-          "partido": "PT",
-          "voto": "Não"
-        },
-        {
-          "idExterno": 220527,
-          "nome": "Jack Rocha",
-          "partido": "PT",
-          "voto": "Não"
-        },
-        {
-          "idExterno": 220530,
-          "nome": "Messias Donato",
-          "partido": "UNIÃO",
-          "voto": "Sim"
-        },
-        {
-          "idExterno": 160517,
-          "nome": "Paulo Folletto",
-          "partido": "PSB",
-          "voto": "Abstenção"
-        }
-      ]
-    },
-    {
-      "id": "2351506-115",
-      "data": "2026-05-28",
-      "registradaEm": "2026-05-28T16:46:13",
-      "descricao": "Mantido o texto. Sim: 335; Não: 117; Abstenção: 5; Total: 457.",
-      "aprovada": false,
-      "proposicao": {
-        "id": 2351506,
-        "sigla": "PEC",
-        "numero": 5,
-        "ano": 2023,
-        "ementa": "Acrescenta § 4º-A ao art. 150 da Constituição Federal, para dispor sobre a imunidade tributária de que tratam as suas alíneas “b” e “c” do inciso VI.",
-        "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2351506"
-      },
-      "placar": [
-        {
-          "voto": "Sim",
-          "total": 335
-        },
-        {
-          "voto": "Não",
-          "total": 117
-        },
-        {
-          "voto": "Abstenção",
-          "total": 5
-        },
-        {
-          "voto": "Artigo 17",
-          "total": 1
-        }
-      ],
-      "votantes": 458,
       "votosDoEstado": [
         {
           "idExterno": 204356,

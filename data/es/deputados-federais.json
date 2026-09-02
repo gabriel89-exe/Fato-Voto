@@ -6,7 +6,7 @@
   },
   "uf": "ES",
   "legislatura": 57,
-  "coletadoEm": "2026-09-01T14:11:52.796Z",
+  "coletadoEm": "2026-09-02T13:42:55.785Z",
   "referencia": {
     "bancada": 10,
     "medianaDespesas": 1783876.5800000024,
@@ -2884,7 +2884,7 @@
           {
             "tipo": "Projeto de Decreto Legislativo de Sustação de Atos Normativos do Poder Executivo",
             "sigla": "PDL",
-            "total": 64
+            "total": 66
           },
           {
             "tipo": "Requerimento de Inclusão ou Retirada de Assinatura em Proposição de Iniciativa Individual",
@@ -3002,11 +3002,6 @@
             "total": 4
           },
           {
-            "tipo": "Projeto de Decreto Legislativo",
-            "sigla": "PDL",
-            "total": 4
-          },
-          {
             "tipo": "Emenda ao Substitutivo",
             "sigla": "ESB",
             "total": 3
@@ -3024,6 +3019,11 @@
           {
             "tipo": "Recurso contra devolução de proposição (Art. 137, § 2º, RICD)",
             "sigla": "REC",
+            "total": 2
+          },
+          {
+            "tipo": "Projeto de Decreto Legislativo",
+            "sigla": "PDL",
             "total": 2
           },
           {
@@ -6947,7 +6947,7 @@
           {
             "tipo": "Projeto de Decreto Legislativo de Sustação de Atos Normativos do Poder Executivo",
             "sigla": "PDL",
-            "total": 55
+            "total": 57
           },
           {
             "tipo": "Solicitação de Informação ao TCU",
@@ -7065,11 +7065,6 @@
             "total": 3
           },
           {
-            "tipo": "Projeto de Decreto Legislativo",
-            "sigla": "PDL",
-            "total": 3
-          },
-          {
             "tipo": "Requerimento de Constituição de Comissão Externa",
             "sigla": "REQ",
             "total": 2
@@ -7157,6 +7152,11 @@
           {
             "tipo": "Requerimento de Urgência (Art. 154, II, do RICD)",
             "sigla": "REQ",
+            "total": 1
+          },
+          {
+            "tipo": "Projeto de Decreto Legislativo",
+            "sigla": "PDL",
             "total": 1
           },
           {
