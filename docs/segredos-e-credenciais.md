@@ -1,7 +1,9 @@
 # Segredos e credenciais
 
 Como credencial entra neste projeto, por onde ela circula e o que nunca pode
-acontecer com ela. Verificado em **29/08/2026**.
+acontecer com ela. Verificado em **29/08/2026**; o token do Portal da
+Transparência entrou em **01/09/2026** e o caminho descrito aqui foi seguido
+à risca.
 
 O repositório é **público** (`github.com/gabriel89-exe/Fato-Voto`). Tudo aqui
 parte disso: qualquer arquivo versionado é legível por qualquer pessoa, para
@@ -20,7 +22,7 @@ queimado — o caminho passa a ser revogar e gerar outro.
 
 ## Por onde o token do Portal da Transparência circula
 
-É a única credencial que o projeto vai precisar (ver
+É a única credencial que o projeto precisa (ver
 [`fontes-de-dados.md`](fontes-de-dados.md)). O caminho completo:
 
 1. **CPF vai só para o gov.br.** É lá que a pessoa se autentica para obter o
@@ -43,7 +45,18 @@ diferentes, e o único ponto de contato entre eles é um arquivo JSON. Um segred
 que só existe no primeiro não tem por onde chegar ao segundo.
 
 Em 29/08/2026, a única variável de ambiente lida pelo site era
-`NEXT_PUBLIC_SITE_URL` — o domínio, que é público por natureza.
+`NEXT_PUBLIC_SITE_URL` — o domínio, que é público por natureza. Continua sendo
+em 01/09/2026, agora com o token em uso: `TRANSPARENCIA_TOKEN` é lido em
+`scripts/coleta/transparencia.mjs` e em lugar nenhum de `app/`, `components/`
+ou `lib/`.
+
+Três coisas sustentam isso, e nenhuma delas é lembrar de tomar cuidado:
+
+- O passo do build em `.github/workflows/coleta.yml` **não declara** o token no
+  `env`. Ele não existe no processo que constrói o site.
+- `npm run verificar` procura o VALOR do token dentro de `.next/` e falha se
+  achar (`scripts/verificar-seguranca.mjs`, checagem 2).
+- A mesma verificação barra qualquer nome `NEXT_PUBLIC_*` que pareça segredo.
 
 ---
 
@@ -95,7 +108,7 @@ pessoal deixa de existir.
 
 | Item | Lugar | Versionado? |
 |---|---|---|
-| Token do Portal da Transparência | `.env.local` e *secret* do repositório | Não |
+| Token do Portal da Transparência | `.env.local` e *secret* `TRANSPARENCIA_TOKEN` do repositório | Não |
 | `NEXT_PUBLIC_SITE_URL` | Variável na hospedagem | Não, mas é público por natureza |
 | Snapshots crus da coleta | `dados-brutos/` | Não — grandes e reproduzíveis |
 | Dado normalizado | `data/es/` | Sim |

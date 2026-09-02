@@ -99,9 +99,15 @@ decisões de fora do código, listadas logo abaixo.
 
 ### Dados
 
-- [ ] **Emendas parlamentares** — depende do token do Portal da Transparência,
-      que NÃO é cadastro de e-mail: exige conta Gov.br Prata ou Ouro (ou CPF
-      com dois fatores). Ver `docs/fontes-de-dados.md`. É passo de pessoa.
+- [x] **Emendas parlamentares — integração pronta, publicação suspensa pela
+      fonte.** Feita em 01/09/2026 com o token obtido: coletor, conferência,
+      tipos, tela na aba Mandato (empenhado e pago lado a lado, mediana e faixa
+      da bancada do mesmo cargo, link para a página de cada emenda) e passo no
+      CI. As 458 emendas individuais dos 13 parlamentares do ES na legislatura
+      57 foram coletadas e conferidas — e a conferência REPROVOU a fonte. Ver a
+      decisão registrada mais abaixo. Enquanto reprovar, a ficha diz que a
+      fonte está inconsistente em vez de mostrar número, e a coleta diária
+      tenta de novo. Nada além de destravar a fonte é necessário do nosso lado.
 - [x] **Votações e projetos** — feito em `7ba46d4`. Proposições agrupadas por
       tipo e votações nominais de plenário nas duas casas. O recorte das
       votações é declarado na tela: as mais recentes com participação
@@ -137,10 +143,13 @@ O checklist completo, com o porquê de cada item, está em
       *Rulesets*, ou dar a escrita a um App/PAT dedicado. **Sem isto a coleta
       diária para em silêncio.**
 - [ ] **2FA obrigatório** para todo colaborador com escrita.
-- [ ] **Emendas — antes do token:** montar o coletor já com o passo de CI que
-      falha se o valor do token aparecer em `.next/` ou se um nome
-      `NEXT_PUBLIC_*` casar com token/chave (`npm run verificar` já faz as
-      duas checagens; falta o coletor).
+- [x] **Emendas — o coletor com as travas de segredo:** feito. O passo do
+      build no workflow não declara o token no `env`, e `npm run verificar`
+      procura o valor dele dentro de `.next/`.
+- [ ] **Secret `TRANSPARENCIA_TOKEN` no repositório.** Passo de pessoa: sem
+      ele a coleta diária de emendas falha todo dia e o `emendas.json` congela
+      na data da última coleta feita à mão. Settings → Secrets and variables →
+      Actions → New repository secret.
 
 ### Documentação desatualizada
 
@@ -161,6 +170,51 @@ Nada disto muda comportamento, mas confunde quem chegar ao projeto:
       número fixo; ele muda a cada coleta.
 
 ## Decisões registradas
+
+**A coleta confere a fonte antes de publicar, e se recusa a publicar número
+que não confere.** Em 01/09/2026 a API do Portal da Transparência passou a
+devolver valor monetário **dividido por 10.000**, de forma intermitente e por
+campo. Na mesma resposta, para a emenda `202539120004`: `valorEmpenhado`
+veio `"25,00"` — a página pública do portal diz R$ 250.000,00 — enquanto
+`valorPago` veio certo, `"245.000,00"`. Duas coletas com dez minutos de
+diferença deram totais diferentes para o mesmo conjunto de emendas.
+
+Isso é o pior tipo de erro para este projeto: não quebra nada, não aparece em
+log, e vai para a tela ao lado de um selo de "dado oficial". Então a coleta
+passou a fazer três provas — duas consultas seguidas têm de concordar; pago
+não pode passar de empenhado; empenhado não fica abaixo de R$ 1.000 — e, se
+reprovar, **não publica nada**: grava o veredito, e a ficha explica o que
+aconteceu, com um exemplo cru da fonte e o link para o portal.
+
+Não é caso especial de emenda. É o que qualquer fonte deste site deveria ter:
+a promessa de que todo número é defensável só vale se alguém conferir.
+
+**Emenda não é atribuída por nome, é atribuída por nome E código de autor.**
+O Portal da Transparência identifica o autor da emenda por nome, sem
+identificador, e o filtro `nomeAutor` da API casa por CONTEÚDO: `nomeAutor=NETO`
+devolve emendas de oito pessoas, entre elas DOMINGOS NETO e AMARO NETO. Aceitar
+o retorno da API seria atribuir gasto público a quem não o destinou — o erro
+mais grave que este site pode cometer. A coleta exige igualdade de nome e,
+além disso, código de autor único: os dígitos 5 a 8 do código da emenda
+(`ano+autor+numero`) identificam o autor, e nome com dois códigos diferentes
+não recebe atribuição nenhuma. A ficha diz que a fonte não permite separar as
+pessoas, em vez de mostrar um número. Preferir o silêncio ao número errado.
+
+**Empenhado e pago aparecem sempre juntos.** Empenhar é reservar; pagar é o
+dinheiro sair. Só o empenhado sugeriria dinheiro entregue que talvez não tenha
+saído; só o pago esconderia o que foi destinado. A ficha mostra os dois, a
+diferença entre eles em reais, e explica os restos a pagar — é a leitura que
+mais muda de sentido quando falta.
+
+**A comparação de emenda é dentro do cargo.** Senador tem cota de emenda maior
+que deputado: a mediana do ES é de R$ 115 mi para os dez deputados e R$ 268 mi
+para os três senadores. Uma mediana única das duas coisas descreveria mal as
+duas, e a regra 4 pede denominador honesto, não denominador qualquer.
+
+**Deputado de primeiro mandato não tem emenda de 2023, e a ficha explica por
+quê.** O Orçamento de um ano é emendado no ano anterior: quem assumiu em 2023
+não participou da elaboração do Orçamento de 2023. Sem a frase, o vazio parece
+inércia da pessoa. Regra 5.
 
 **No celular a tabela vira lista de fichas, e não tabela que se arrasta.**
 Rolagem lateral dentro de página que já rola na vertical não se anuncia

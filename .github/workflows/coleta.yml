@@ -51,7 +51,7 @@ jobs:
       # o que perder ao bloquear.
       - run: npm ci --ignore-scripts
 
-      # As quatro coletas são independentes. `if: always()` faz o Senado
+      # As cinco coletas são independentes. `if: always()` faz o Senado
       # rodar mesmo se o TSE cair — meia atualização é melhor que
       # nenhuma, e o passo que falhou aparece vermelho no resumo.
       - name: TSE — candidaturas
@@ -73,9 +73,27 @@ jobs:
         if: always()
         run: npm run coleta:votacoes
 
+      # A ÚNICA coleta com credencial. O token sai do secret do
+      # repositório e entra só no ambiente deste passo — não no do
+      # build, que é onde um segredo vazaria para dentro de `.next/`.
+      #
+      # Sem o secret configurado, o passo falha com mensagem clara e as
+      # outras quatro coletas seguem: `data/es/emendas.json` fica com o
+      # conteúdo do dia anterior, e o site mostra a data antiga na
+      # procedência em vez de mostrar um vazio novo.
+      - name: Portal da Transparência — emendas parlamentares
+        if: always()
+        env:
+          TRANSPARENCIA_TOKEN: ${{ secrets.TRANSPARENCIA_TOKEN }}
+        run: npm run coleta:transparencia
+
       # Verifica que o site ainda compila com o dado novo. Se uma fonte
       # mudar de formato e quebrar a build, é melhor descobrir aqui do
       # que em produção — o commit não acontece.
+      # Sem `env` de propósito: o token NÃO entra no ambiente do build.
+      # É a separação que a arquitetura promete — o site nunca vê a
+      # credencial porque ela não existe no processo que o constrói.
+      # Ver docs/segredos-e-credenciais.md.
       - name: Conferir que o site compila
         id: build
         if: always()

@@ -11,8 +11,9 @@ O piloto cobre o Espírito Santo e cinco cargos: Presidente, Governador,
 Senador, Deputado Federal e Deputado Estadual. Os demais estados entram depois
 de o piloto validar o pipeline.
 
-**Fontes:** Tribunal Superior Eleitoral (DivulgaCandContas) e Câmara dos
-Deputados (Dados Abertos).
+**Fontes:** Tribunal Superior Eleitoral (DivulgaCandContas), Câmara dos
+Deputados (Dados Abertos), Senado Federal (Dados Abertos) e Portal da
+Transparência (emendas parlamentares — a única que exige credencial).
 
 ## Como rodar
 
@@ -28,7 +29,17 @@ Para atualizar os dados:
 ```bash
 npm run coleta:tse
 npm run coleta:camara
+npm run coleta:senado
+npm run coleta:votacoes
+npm run coleta:transparencia
 ```
+
+> **A coleta de emendas precisa de credencial.** `coleta:transparencia` lê
+> `TRANSPARENCIA_TOKEN`, que vive em `.env.local` na máquina (fora do git) e
+> como *secret* do repositório no CI. O token é pessoal, emitido pelo Gov.br
+> contra o CPF de alguém — trate como senha. As outras quatro coletas são
+> abertas e não pedem nada. Ver
+> [`docs/segredos-e-credenciais.md`](docs/segredos-e-credenciais.md).
 
 > **Atenção ao nome da pasta.** O `&` em `fato&voto` quebra o `npx` no Windows,
 > porque o `cmd.exe` corta a linha de comando no `&`. Por isso os scripts do
@@ -162,6 +173,11 @@ custar 575 requisições a um serviço público.
   autoriza divulgar um dado, a tela diz que a omissão é da fonte.
 - **Nenhum total de despesa aparece sozinho** — sempre ao lado da mediana e da
   faixa da bancada. Ver `docs/principios.md`, regra 4.
+- **Emenda não é atribuída por nome só.** O Portal da Transparência identifica
+  o autor por nome, e o filtro dele casa por conteúdo: `nomeAutor=NETO` devolve
+  oito pessoas. A coleta exige igualdade de nome E código de autor único (os
+  dígitos 5 a 8 do código da emenda). Nome com dois códigos não recebe
+  atribuição nenhuma — a ficha diz que a fonte não permite separar.
 
 ## Licença
 

@@ -18,7 +18,7 @@ lugar errado com confiança.
 | TSE — Dados Abertos | Os mesmos dados, em lote (ZIP/CSV) | Não testado |
 | Câmara dos Deputados | Mandato federal: votações, despesas, proposições | Sim, livre |
 | Senado Federal | Mandato: autorias e mandatos | Sim, livre |
-| Portal da Transparência | Emendas parlamentares | Sim, **exige token** |
+| Portal da Transparência | Emendas parlamentares | Sim, **exige token** — obtido em 01/09/2026 |
 | ALES (Assembleia do ES) | Mandato estadual | Não há API |
 
 ---
@@ -226,6 +226,78 @@ de governo, e ninguém deve delegá-la — nem a um assistente.
 2. Guardar em `.env.local` para rodar na máquina — **nunca** em arquivo
    versionado
 3. Guardar como *secret* do repositório para a coleta agendada usar
+
+Feito em **01/09/2026**. O coletor é `scripts/coleta/transparencia.mjs`, roda
+com `npm run coleta:transparencia` e escreve `data/es/emendas.json`.
+
+### O que a API devolve, e as três armadilhas dela
+
+Base: `https://api.portaldatransparencia.gov.br/api-de-dados`
+
+```
+/emendas?nomeAutor={NOME}&pagina={n}      lista de emendas
+/emendas/documentos/{codigoEmenda}         documentos de execução
+```
+
+**Armadilha 1 — `nomeAutor` casa por conteúdo, não por igualdade.**
+`nomeAutor=NETO` devolve emendas de oito pessoas diferentes, entre elas
+DOMINGOS NETO e AMARO NETO. Quem confiar no filtro da API atribui gasto
+público a quem não o destinou. O coletor refaz o casamento por igualdade,
+do lado dele.
+
+**Armadilha 2 — o nome do autor vem sem acento.** `HELDER SALOMÃO` devolve
+zero; `HELDER SALOMAO` devolve 150. Normalizar antes de consultar.
+
+**Armadilha 3 — valor é texto em formato brasileiro, e pode ser negativo com
+espaço depois do sinal:** `"- 26.002,00"` é empenho anulado. Descartar o sinal
+transforma anulação em gasto.
+
+**Armadilha 4, a pior — o valor às vezes vem dividido por 10.000.** Em
+01/09/2026, de forma intermitente e por campo. Na mesma resposta, para a emenda
+`202539120004`:
+
+```
+valorEmpenhado: "25,00"        a página pública diz R$ 250.000,00
+valorPago:      "245.000,00"   correto
+```
+
+Duas coletas com dez minutos de diferença deram totais diferentes para o mesmo
+conjunto de emendas. Não é erro nosso de parsing: as duas respostas cruas estão
+em `dados-brutos/transparencia/`, e a página pública do portal confirma qual
+das duas está certa.
+
+Por isso `scripts/coleta/transparencia.mjs` **confere antes de publicar**: duas
+consultas seguidas têm de devolver o mesmo valor, pago não pode passar de
+empenhado, e empenhado não fica abaixo de R$ 1.000. Reprovou, não publica —
+grava o veredito em `conferencia` e a ficha diz o que aconteceu.
+
+Se um dia a fonte estabilizar e a conferência começar a aprovar, nada precisa
+mudar no código: o dado volta sozinho na coleta seguinte.
+
+### O código da emenda carrega o código do autor
+
+Os 12 dígitos são `ano(4) + autor(4) + numero(4)`: `202539120004` é a emenda
+0004 de 2025 do autor 3912. A fonte não publica esse código em campo próprio,
+mas ele é a única trava disponível contra homônimo — dois autores com o mesmo
+nome têm códigos diferentes. O coletor usa isso: nome com mais de um código de
+autor não recebe atribuição nenhuma, e a ficha diz por quê.
+
+Em 01/09/2026 os treze nomes do ES eram únicos entre os deputados das
+legislaturas 55, 56 e 57 e entre os senadores em exercício.
+
+### O link que leva ao fato
+
+```
+https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda={codigo}
+```
+
+Abre a página daquela emenda, com autor, valores, função, programa e ação.
+Conferido no navegador em 01/09/2026 — a página responde e traz o código
+pedido. O `codigoTipoEmenda` que a consulta acrescenta ao link é dispensável.
+
+Duas coisas **não** funcionam e já foram tentadas: `/emendas/{codigo}` dá 404,
+e requisição de script ao site (não à API) recebe 405 com uma tela de
+verificação de robô. A conferência de âncora aqui é manual, no navegador.
 
 **Nunca chamar a variável de `NEXT_PUBLIC_*`.** Esse prefixo embute o valor no
 pacote que vai para o navegador, e o token fica legível por qualquer visitante
