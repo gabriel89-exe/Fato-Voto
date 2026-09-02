@@ -47,10 +47,43 @@ const espera = (ms) => new Promise((r) => setTimeout(r, ms));
  * credencial em `chave-api-dados` a cada requisicao. O VALOR nunca
  * aparece em log nem em mensagem de erro daqui — a mensagem carrega a
  * URL, e a URL nao carrega o token. Ver docs/segredos-e-credenciais.md.
+ *
+ * ==================================================================
+ * QUANTA PACIENCIA, E POR QUE ESTA.
+ *
+ * Em 02/09/2026 a coleta agendada perdeu a Camara inteira — bancada e
+ * votacoes — com `fetch failed`, que e erro de CONEXAO: nao houve
+ * resposta nenhuma, nem 4xx nem 5xx. O passo durou 47s, e a conta
+ * fechava: 4 tentativas penduradas ~10s cada mais 4,8s de pausa. O
+ * Senado e o TSE passaram no mesmo job, e a mesma coleta rodou aqui
+ * sem erro minutos depois. Foi blip de um ou dois minutos do lado da
+ * Camara, e custou os dados do dia.
+ *
+ * Cinco segundos de espera somada era pouco para uma fonte que este
+ * mesmo comentario ja descrevia como oscilante. Agora sao seis
+ * tentativas com espera dobrando — 0,8s, 1,6s, 3,2s, 6,4s, 12,8s, um
+ * total de ~25s de paciencia — o que atravessa um soluco curto sem
+ * transformar a coleta em martelo sobre servico publico.
+ *
+ * `tempoLimiteMs` existe pelo mesmo episodio: sem teto, cada tentativa
+ * ficava ~10s pendurada esperando um pacote que nunca vinha, e o custo
+ * de descobrir a falha era quase todo espera morta. Com teto, a
+ * tentativa desiste em tempo conhecido.
+ *
+ * O que NAO mudou: 4xx continua desistindo na primeira. O servidor
+ * entendeu o pedido e recusou, e insistir so multiplica a carga para
+ * receber a mesma recusa.
+ * ==================================================================
  */
 export async function buscarJson(
   url,
-  { tentativas = 4, pausaMs = 800, aceitar404 = false, cabecalhos = {} } = {},
+  {
+    tentativas = 6,
+    pausaMs = 800,
+    aceitar404 = false,
+    cabecalhos = {},
+    tempoLimiteMs = 15000,
+  } = {},
 ) {
   let ultimoErro;
   for (let i = 1; i <= tentativas; i++) {
@@ -61,6 +94,7 @@ export async function buscarJson(
           "User-Agent": AGENTE,
           ...cabecalhos,
         },
+        signal: AbortSignal.timeout(tempoLimiteMs),
       });
 
       if (aceitar404 && resposta.status === 404) return null;
@@ -76,10 +110,37 @@ export async function buscarJson(
     } catch (erro) {
       ultimoErro = erro;
       if (erro.status >= 400 && erro.status < 500) throw erro;
-      if (i < tentativas) await espera(pausaMs * i);
+      if (i < tentativas) {
+        /*
+         * O log de 02/09/2026 nao dizia que houve repeticao: mostrava
+         * "Coleta falhou: fetch failed" e mais nada, e quem lesse nao
+         * sabia se tinha sido uma tentativa ou dez. Uma linha por
+         * tentativa e barata e transforma "falhou" em diagnostico.
+         */
+        console.warn(
+          `  tentativa ${i} de ${tentativas} falhou (${erro.message}). ` +
+            `Repetindo em ${(pausaMs * 2 ** (i - 1)) / 1000}s.`,
+        );
+        await espera(pausaMs * 2 ** (i - 1));
+      }
     }
   }
-  throw ultimoErro;
+
+  /*
+   * Mensagem final que diz o que foi tentado, nao so o que deu errado.
+   *
+   * A URL entra so quando ainda nao esta na mensagem. Erro de HTTP ja
+   * a carrega; erro de rede, nao — e foi exatamente disso que o log de
+   * 02/09/2026 sofreu: "fetch failed", sem dizer nem contra quem.
+   */
+  const motivo = ultimoErro?.message ?? "falha desconhecida";
+  const erro = new Error(
+    `${motivo.includes(url) ? motivo : `${motivo} em ${url}`} — depois de ` +
+      `${tentativas} tentativas`,
+  );
+  erro.status = ultimoErro?.status;
+  erro.cause = ultimoErro;
+  throw erro;
 }
 
 /**

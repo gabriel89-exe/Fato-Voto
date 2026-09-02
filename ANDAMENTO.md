@@ -171,6 +171,24 @@ Nada disto muda comportamento, mas confunde quem chegar ao projeto:
 
 ## Decisões registradas
 
+**Falha de rede ganha paciência; recusa do servidor, não.** Em 02/09/2026 a
+coleta agendada perdeu a Câmara inteira — bancada e votações — com
+`fetch failed`, que é erro de conexão: não houve resposta nenhuma. O passo
+durou 47s, e a conta fechava com 4 tentativas penduradas ~10s cada mais 4,8s
+de pausa. O Senado e o TSE passaram no mesmo job, e a mesma coleta rodou na
+máquina sem erro minutos depois — foi soluço de um ou dois minutos do lado da
+Câmara, e custou os dados do dia.
+
+Agora são seis tentativas com espera dobrando (~25s somados) e teto de 15s por
+conexão, para a tentativa desistir em tempo conhecido em vez de ficar pendurada
+esperando pacote que não vem. Cada repetição escreve uma linha no log: o log do
+episódio dizia só "Coleta falhou: fetch failed", sem dizer contra quem nem
+quantas vezes tentou.
+
+O que **não** mudou: resposta 4xx continua desistindo na primeira. O servidor
+entendeu o pedido e recusou, e insistir só multiplica a carga sobre um serviço
+público para receber a mesma recusa.
+
 **A coleta confere a fonte antes de publicar, e se recusa a publicar número
 que não confere.** Em 01/09/2026 a API do Portal da Transparência passou a
 devolver valor monetário **dividido por 10.000**, de forma intermitente e por
