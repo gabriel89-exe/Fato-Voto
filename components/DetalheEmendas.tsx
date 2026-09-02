@@ -1,4 +1,5 @@
-import { GraficoBarras } from "@/components/graficos";
+import { GraficoFunil } from "@/components/graficos";
+import GraficoEmendasExplorador from "@/components/GraficoEmendasExplorador";
 import Termo from "@/components/Termo";
 import { IconeLinkExterno } from "@/components/icones";
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
@@ -192,18 +193,44 @@ export default function DetalheEmendas({
               </p>
             ) : null}
 
-            <p className="mt-4 text-sm text-tinta-700">
-              <strong>
-                Empenhar é reservar o dinheiro; pagar é o dinheiro sair.
-              </strong>{" "}
-              Dos {reais(totais.empenhado)} empenhados, {reais(totais.pago)}{" "}
-              foram pagos — uma diferença de{" "}
-              {reais(totais.empenhado - totais.pago)}. Parte dela pode ainda
-              virar pagamento nos próximos anos, como <em>restos a pagar</em>;
-              parte pode nunca sair. O portal registra{" "}
-              {reais(totais.restosInscritos)} inscritos em restos a pagar e{" "}
-              {reais(totais.restosPagos)} já pagos por essa via.
-            </p>
+            {/* O caminho do dinheiro, desenhado: é a leitura que mais
+                muda de sentido quando falta. */}
+            <div className="mt-5">
+              <p className="mb-3 text-sm text-tinta-700">
+                <strong>
+                  Empenhar é reservar o dinheiro; pagar é o dinheiro sair.
+                </strong>{" "}
+                O funil abaixo mostra cada etapa. A diferença entre elas pode
+                ainda virar pagamento nos próximos anos, como{" "}
+                <em>restos a pagar</em> — o portal registra{" "}
+                {reais(totais.restosInscritos)} inscritos e{" "}
+                {reais(totais.restosPagos)} já pagos por essa via — ou pode
+                nunca sair.
+              </p>
+              <GraficoFunil
+                legenda={`O caminho do dinheiro das emendas de ${registro.nomeUrna}: empenhado, liquidado e pago`}
+                nomeDoTeto="do empenhado"
+                etapas={[
+                  {
+                    rotulo: "Empenhado",
+                    valor: totais.empenhado,
+                    explicacao:
+                      "O que foi reservado no Orçamento para as emendas. Reservar ainda não é pagar.",
+                  },
+                  {
+                    rotulo: "Liquidado",
+                    valor: totais.liquidado,
+                    explicacao:
+                      "O que já teve a entrega ou o serviço reconhecidos pelo governo.",
+                  },
+                  {
+                    rotulo: "Efetivamente pago",
+                    valor: totais.pago,
+                    explicacao: "O que de fato saiu do caixa até a coleta.",
+                  },
+                ]}
+              />
+            </div>
           </>
         ) : (
           /*
@@ -249,94 +276,66 @@ export default function DetalheEmendas({
         )}
       </section>
 
-      {/* ---------- Para onde foi ---------- */}
+      {/* ---------- Explorar: um dado, quatro recortes ---------- */}
       <section>
-        <h4 className="text-base font-bold text-tinta-950">Para onde foi</h4>
+        <h4 className="text-base font-bold text-tinta-950">
+          Explorar as emendas
+        </h4>
         <p className="mt-1 text-sm text-tinta-600">
-          A localidade do gasto, como o portal a publica. &ldquo;Vários
-          municípios&rdquo; é o rótulo da própria fonte para emenda que a
-          execução distribuiu entre mais de um lugar — não é imprecisão nossa.
+          O mesmo conjunto de emendas, visto pelo recorte que você escolher —
+          por ano, localidade, área ou tipo
+          {comValores ? " — e pela medida que preferir" : ""}. O filtro muda o
+          ponto de vista, nunca o dado.
         </p>
-        <div className="mt-5">
-          <GraficoBarras
-            legenda={`Emendas de ${registro.nomeUrna} por localidade do gasto`}
-            formatar={comValores ? reais : contagem}
-            itens={emendas.porLocalidade.slice(0, 12).map((l) => ({
-              rotulo: localidadeLegivel(l.nome),
-              valor: comValores ? (l.empenhado ?? 0) : l.quantidade,
-              detalhe: comValores
-                ? `${contagem(l.quantidade)} · ${reais(l.pago ?? 0)} pagos`
-                : undefined,
-            }))}
-          />
-        </div>
-      </section>
 
-      {/* ---------- Em que área ---------- */}
-      <section>
-        <h4 className="text-base font-bold text-tinta-950">Em que área</h4>
-        <p className="mt-1 text-sm text-tinta-600">
-          A função orçamentária declarada em cada emenda.{" "}
-          <em>Encargos especiais</em> é a classificação usada nas transferências
-          especiais, em que o dinheiro vai para o município sem finalidade
-          detalhada no Orçamento federal — a fonte não diz em que foi aplicado.
-        </p>
         <div className="mt-5">
-          <GraficoBarras
-            legenda={`Emendas de ${registro.nomeUrna} por área`}
-            formatar={comValores ? reais : contagem}
-            itens={emendas.porFuncao.slice(0, 12).map((f) => ({
-              rotulo: f.nome,
-              valor: comValores ? (f.empenhado ?? 0) : f.quantidade,
-              detalhe: comValores
-                ? `${contagem(f.quantidade)} · ${reais(f.pago ?? 0)} pagos`
-                : undefined,
-            }))}
+          <GraficoEmendasExplorador
+            nome={registro.nomeUrna}
+            comValores={comValores}
+            dimensoes={[
+              {
+                id: "ano",
+                rotulo: "Ano",
+                ordemFixa: true,
+                itens: emendas.porAno.map((a) => ({
+                  rotulo: String(a.ano),
+                  quantidade: a.quantidade,
+                  empenhado: a.empenhado,
+                  pago: a.pago,
+                })),
+              },
+              {
+                id: "localidade",
+                rotulo: "Localidade",
+                nota:
+                  "A localidade do gasto, como o portal a publica. “Vários " +
+                  "municípios” é o rótulo da própria fonte para emenda que a " +
+                  "execução distribuiu entre mais de um lugar — não é " +
+                  "imprecisão nossa.",
+                itens: emendas.porLocalidade.map((l) => ({
+                  ...l,
+                  rotulo: localidadeLegivel(l.nome),
+                })),
+              },
+              {
+                id: "funcao",
+                rotulo: "Área",
+                nota:
+                  "A função orçamentária declarada em cada emenda. Encargos " +
+                  "especiais é a classificação das transferências especiais, " +
+                  "em que o dinheiro vai ao município sem finalidade " +
+                  "detalhada no Orçamento federal — a fonte não diz em que " +
+                  "foi aplicado.",
+                itens: emendas.porFuncao.map((f) => ({ ...f, rotulo: f.nome })),
+              },
+              {
+                id: "tipo",
+                rotulo: "Tipo",
+                nota: "O instrumento da emenda, como o portal o classifica.",
+                itens: emendas.porTipo.map((t) => ({ ...t, rotulo: t.nome })),
+              },
+            ]}
           />
-        </div>
-      </section>
-
-      {/* ---------- Ano a ano ---------- */}
-      <section>
-        <h4 className="text-base font-bold text-tinta-950">Ano a ano</h4>
-        <div className="mt-4">
-          <Table>
-            <TableHeader>
-              <TableRow>
-                <TableHead>Ano</TableHead>
-                <TableHead className="text-right">Emendas</TableHead>
-                {comValores ? (
-                  <>
-                    <TableHead className="text-right">Empenhado</TableHead>
-                    <TableHead className="text-right">Pago</TableHead>
-                  </>
-                ) : null}
-              </TableRow>
-            </TableHeader>
-            <TableBody>
-              {emendas.porAno.map((a) => (
-                <TableRow key={a.ano}>
-                  {/* Sem rótulo: no celular o ano abre a ficha. */}
-                  <TableCellNumero className="text-left">
-                    {a.ano}
-                  </TableCellNumero>
-                  <TableCellNumero rotulo="Emendas">
-                    {fmtNumero(a.quantidade)}
-                  </TableCellNumero>
-                  {comValores ? (
-                    <>
-                      <TableCellNumero rotulo="Empenhado">
-                        {reais(a.empenhado ?? 0)}
-                      </TableCellNumero>
-                      <TableCellNumero rotulo="Pago">
-                        {reais(a.pago ?? 0)}
-                      </TableCellNumero>
-                    </>
-                  ) : null}
-                </TableRow>
-              ))}
-            </TableBody>
-          </Table>
         </div>
 
         {/* Regra 5: a lacuna se declara, e com o motivo. Sem isto, o
@@ -347,10 +346,10 @@ export default function DetalheEmendas({
             {primeiroAno - 1 === anos[0]
               ? `de ${anos[0]}`
               : `de ${anos[0]} a ${primeiroAno - 1}`}{" "}
-            nesta lista. O Orçamento de um ano é emendado no ano anterior: quem
-            assumiu o mandato em {anos[0]} não participou da elaboração do
-            Orçamento de {anos[0]}. A ausência é do calendário orçamentário, não
-            da pessoa.
+            no recorte por ano. O Orçamento de um ano é emendado no ano
+            anterior: quem assumiu o mandato em {anos[0]} não participou da
+            elaboração do Orçamento de {anos[0]}. A ausência é do calendário
+            orçamentário, não da pessoa.
           </p>
         ) : null}
       </section>

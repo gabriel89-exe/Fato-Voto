@@ -27,7 +27,7 @@ import { mesAno, percentual, reais } from "@/lib/formato";
  * Ficou defasada uma vez — seguia azul do gov.br depois de a identidade
  * virar roxa. Se a paleta do tema mudar, mude aqui junto.
  */
-const CORES = ["#1a1550", "#2c2578", "#3f37a8", "#8a84d0", "#cfcbf0"];
+const CORES = ["#191713", "#383430", "#5f5951", "#898275", "#d6d1c8"];
 
 /* ------------------------------------------------------------------ */
 /*  Composição — rosca                                                 */
@@ -173,11 +173,11 @@ export function GraficoEvolucao({
           aria-hidden="true"
           className="h-44 w-full min-w-[320px]"
         >
-          <polygon points={area} fill="#3f37a8" opacity="0.12" />
+          <polygon points={area} fill="#26231e" opacity="0.10" />
           <polyline
             points={linha}
             fill="none"
-            stroke="#3f37a8"
+            stroke="#26231e"
             strokeWidth="2"
             strokeLinejoin="round"
           />
@@ -221,6 +221,72 @@ export function GraficoEvolucao({
  * está escrito ao lado, em texto. Quem usa leitor de tela recebe o
  * dado, não "elemento gráfico".
  */
+/* ------------------------------------------------------------------ */
+/*  Funil de execução                                                  */
+/* ------------------------------------------------------------------ */
+
+/**
+ * O caminho do dinheiro de uma emenda, etapa por etapa: destinado,
+ * empenhado, pago. É o gráfico mais didático da ficha — a diferença
+ * entre as barras É a informação ("reservar não é pagar").
+ *
+ * As larguras são relativas à PRIMEIRA etapa, que é o teto natural do
+ * funil. Nenhuma etapa é "boa" ou "ruim": sobra de uma para outra pode
+ * virar pagamento nos anos seguintes, e o texto ao lado diz isso.
+ */
+export function GraficoFunil({
+  etapas,
+  legenda,
+  nomeDoTeto = "da primeira etapa",
+}: {
+  etapas: { rotulo: string; valor: number; explicacao: string }[];
+  legenda: string;
+  /** Como chamar o teto na razão: "do destinado", "do empenhado"... */
+  nomeDoTeto?: string;
+}) {
+  if (etapas.length === 0) return null;
+  const teto = etapas[0].valor;
+  if (teto <= 0) return null;
+
+  return (
+    <figure className="m-0">
+      <ul className="space-y-4">
+        {etapas.map((etapa, i) => (
+          <li key={etapa.rotulo}>
+            <div className="flex flex-wrap items-baseline justify-between gap-x-4">
+              <span className="text-sm font-semibold text-tinta-900">
+                {etapa.rotulo}
+              </span>
+              <span className="font-mono text-sm tabular-nums text-tinta-900">
+                {reais(etapa.valor)}
+                {i > 0 ? (
+                  <span className="ml-2 text-xs text-tinta-600">
+                    {percentual(etapa.valor, teto)} {nomeDoTeto}
+                  </span>
+                ) : null}
+              </span>
+            </div>
+            <div
+              aria-hidden="true"
+              className="mt-1.5 h-3.5 w-full overflow-hidden rounded-full bg-papel-baixa"
+            >
+              <div
+                className="h-full rounded-full transition-[width] duration-500 ease-suave motion-reduce:transition-none"
+                style={{
+                  width: `${Math.max(1.5, (etapa.valor / teto) * 100)}%`,
+                  backgroundColor: CORES[Math.min(i, CORES.length - 1)],
+                }}
+              />
+            </div>
+            <p className="mt-1 text-xs text-tinta-600">{etapa.explicacao}</p>
+          </li>
+        ))}
+      </ul>
+      <figcaption className="apenas-leitor">{legenda}</figcaption>
+    </figure>
+  );
+}
+
 export function GraficoBarras({
   itens,
   legenda,

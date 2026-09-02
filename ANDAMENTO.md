@@ -28,7 +28,12 @@ decisões de fora do código, listadas logo abaixo.
 - [x] **Ficha de candidatura** — abas Perfil, Proposta, Bens, Histórico e
       Mandato (esta só quando existe), com procedência em cada bloco.
 - [x] **Gráficos** — composição (rosca) e evolução (linha), SVG à mão, com
-      tabela acessível ao lado.
+      tabela acessível ao lado. Em 02/09/2026 as emendas ganharam o
+      **explorador interativo** (recorte por ano/município/área/tipo e medida
+      por empenhado/pago/quantidade, estado só em memória — nada de
+      `localStorage`) e o **funil de execução** (destinado → empenhado →
+      pago), nas duas fontes. Barras da mesma cor por regra: o filtro muda o
+      ponto de vista, nunca o dado, e a nota de cada recorte viaja junto.
 - [x] **Inventário de fontes** — `/fontes` publica também as lacunas.
 - [x] **Responsividade em 360 px** — todas as rotas, sem rolagem horizontal.
       Conferido de novo em 01/09/2026, agora também a 320 px, no build de
