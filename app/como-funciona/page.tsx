@@ -64,7 +64,7 @@ function Verbete({ verbete }: { verbete: Verbete }) {
           <a
             key={fonte.url}
             href={fonte.url}
-            rel="nofollow noopener"
+            target="_blank" rel="nofollow noopener"
             className="inline-flex items-center gap-1"
           >
             {fonte.rotulo}

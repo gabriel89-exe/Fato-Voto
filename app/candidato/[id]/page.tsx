@@ -184,7 +184,7 @@ export default async function PaginaCandidato({
           </p>
           <p className="rotulo-meta mt-1">
             Coletado em {dataCurta(COLETADO_EM)}. Fonte: {FONTE_TSE.nome}.{" "}
-            <a href={c.paginaOficial} rel="nofollow noopener" className="text-tinta-800">
+            <a href={c.paginaOficial} target="_blank" rel="nofollow noopener" className="text-tinta-800">
               Abrir a divulgação de candidaturas do TSE
             </a>
             .
@@ -260,7 +260,7 @@ export default async function PaginaCandidato({
                     Arquivo: {c.proposta.documento.nomeArquivo}
                   </p>
                   <p className="mt-3 text-sm">
-                    <a href={c.paginaOficial} rel="nofollow noopener">
+                    <a href={c.paginaOficial} target="_blank" rel="nofollow noopener">
                       Abrir a proposta no site do TSE
                       <IconeLinkExterno className="ml-1 inline" />
                     </a>
@@ -721,7 +721,7 @@ export default async function PaginaCandidato({
                           <TableRow key={p.id}>
                             {/* Sem rótulo: a proposição abre a ficha. */}
                             <TableCell className="whitespace-nowrap font-mono text-xs">
-                              <a href={p.paginaOficial} rel="nofollow noopener">
+                              <a href={p.paginaOficial} target="_blank" rel="nofollow noopener">
                                 {p.sigla} {p.numero}/{p.ano}
                               </a>
                             </TableCell>
@@ -889,7 +889,7 @@ export default async function PaginaCandidato({
           </p>
           <div className="mt-4 flex flex-wrap gap-3">
             <Button asChild variant="secundario">
-              <a href={c.paginaOficial} rel="nofollow noopener">
+              <a href={c.paginaOficial} target="_blank" rel="nofollow noopener">
                 Abrir a divulgação do TSE
                 <IconeLinkExterno />
               </a>

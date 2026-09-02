@@ -110,7 +110,7 @@ export default function Votacoes({
               {/* Sem rótulo: no celular a matéria abre a ficha. */}
               <TableCell className="whitespace-nowrap font-mono text-xs">
                 {l.paginaOficial && l.materia ? (
-                  <a href={l.paginaOficial} rel="nofollow noopener">
+                  <a href={l.paginaOficial} target="_blank" rel="nofollow noopener">
                     {l.materia}
                   </a>
                 ) : (

@@ -208,7 +208,7 @@ export default function PaginaFontes() {
                 </div>
               </dl>
               <p className="mt-3 text-sm">
-                <a href={FONTE_TSE.url} rel="nofollow noopener">
+                <a href={FONTE_TSE.url} target="_blank" rel="nofollow noopener">
                   Ir à fonte
                 </a>
               </p>
@@ -239,7 +239,7 @@ export default function PaginaFontes() {
                 </div>
               </dl>
               <p className="mt-3 text-sm">
-                <a href={FONTE_CAMARA.url} rel="nofollow noopener">
+                <a href={FONTE_CAMARA.url} target="_blank" rel="nofollow noopener">
                   Ir à fonte
                 </a>
               </p>
@@ -268,7 +268,7 @@ export default function PaginaFontes() {
                 </div>
               </dl>
               <p className="mt-3 text-sm">
-                <a href={FONTE_SENADO.url} rel="nofollow noopener">
+                <a href={FONTE_SENADO.url} target="_blank" rel="nofollow noopener">
                   Ir à fonte
                 </a>
               </p>
@@ -317,7 +317,7 @@ export default function PaginaFontes() {
                 </p>
               )}
               <p className="mt-3 text-sm">
-                <a href={FONTE_TRANSPARENCIA.url} rel="nofollow noopener">
+                <a href={FONTE_TRANSPARENCIA.url} target="_blank" rel="nofollow noopener">
                   Ir à fonte
                 </a>
               </p>
@@ -367,7 +367,7 @@ export default function PaginaFontes() {
                 </p>
               )}
               <p className="mt-3 text-sm">
-                <a href={FONTE_EMENDAS_ESTADUAIS.url} rel="nofollow noopener">
+                <a href={FONTE_EMENDAS_ESTADUAIS.url} target="_blank" rel="nofollow noopener">
                   Ir à fonte
                 </a>
               </p>

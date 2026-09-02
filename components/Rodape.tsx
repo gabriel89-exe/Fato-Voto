@@ -92,6 +92,7 @@ export default function Rodape() {
             Código aberto sob licença AGPL-3.0 ·{" "}
             <a
               href="https://github.com/gabriel89-exe/Fato-Voto"
+              target="_blank"
               rel="noopener"
             >
               github.com/gabriel89-exe/Fato-Voto

@@ -339,7 +339,7 @@ export default function DetalheEmendasEstaduais({
         </div>
 
         <p className="mt-3 text-sm">
-          <a href={fonte.url} rel="nofollow noopener">
+          <a href={fonte.url} target="_blank" rel="nofollow noopener">
             Abrir os arquivos oficiais no catálogo de dados do estado
             <IconeLinkExterno className="ml-1 inline" />
           </a>

@@ -59,7 +59,7 @@ export default function DadoOficial({
               <a
                 href={urlOriginal}
                 className="inline-flex items-center gap-1 font-medium text-oficial-texto"
-                rel="nofollow noopener"
+                target="_blank" rel="nofollow noopener"
               >
                 Ver documento de origem
                 <IconeLinkExterno />

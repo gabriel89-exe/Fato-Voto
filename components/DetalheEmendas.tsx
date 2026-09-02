@@ -421,7 +421,7 @@ export default function DetalheEmendas({
                   <TableCell rotulo={comValores ? "No portal" : "Valor"}>
                     <a
                       href={e.paginaOficial}
-                      rel="nofollow noopener"
+                      target="_blank" rel="nofollow noopener"
                       className="inline-flex items-center gap-1 whitespace-nowrap text-sm"
                     >
                       {comValores ? `Emenda ${e.codigo}` : "Ver valor no portal"}

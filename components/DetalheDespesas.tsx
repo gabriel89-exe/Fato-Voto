@@ -54,7 +54,7 @@ function LinkDocumento({ url }: { url: string | null }) {
   return (
     <a
       href={url}
-      rel="nofollow noopener"
+      target="_blank" rel="nofollow noopener"
       className="inline-flex items-center gap-1 whitespace-nowrap text-sm"
     >
       Ver nota
