@@ -157,10 +157,13 @@ O checklist completo, com o porquê de cada item, está em
       exigiria escolher entre duas respostas da fonte, que é inferência. O
       caminho é relatar pelo Fala.BR — ver `docs/fontes-de-dados.md`. Enquanto
       isso a ficha diz que a fonte está inconsistente, com um exemplo cru.
-- [ ] **Secret `TRANSPARENCIA_TOKEN` no repositório.** Passo de pessoa: sem
-      ele a coleta diária de emendas falha todo dia e o `emendas.json` congela
-      na data da última coleta feita à mão. Settings → Secrets and variables →
-      Actions → New repository secret.
+- [x] **Secret `TRANSPARENCIA_TOKEN` no repositório** — cadastrado em
+      01/09/2026 pelo mantenedor. A prova de que o CI o enxerga vem da
+      primeira coleta agendada: o passo de emendas continua vermelho
+      enquanto a fonte reprovar, mas o log diz "CONFERÊNCIA REPROVADA" e o
+      `coletadoEm` de `emendas.json` avança no commit diário. Se o log
+      disser "TRANSPARENCIA_TOKEN não está no ambiente", o secret não
+      chegou ao passo.
 
 ### Documentação desatualizada
 
