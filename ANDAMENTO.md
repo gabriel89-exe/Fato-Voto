@@ -188,6 +188,15 @@ apaga. Sem a trava, um arquivo acrescentado ao `main` durante o job entraria no
 commit como remoção — a coleta apagaria em silêncio um dado que ninguém pediu
 para apagar. Foi um teste do passo, num repositório de mentira, que achou isso.
 
+**429 não é recusa, é "espere".** O `buscarJson` desistia na primeira em
+qualquer 4xx, com a justificativa de que 4xx é determinística. Vale para 400,
+403 e 404, e não vale para 429 — que é justamente o código que pede o
+contrário. Em 02/09/2026 o TSE devolveu 429 na candidatura 210 de 410, depois
+de rodarmos a coleta quatro vezes na mesma hora depurando outra coisa; o passo
+morreu em 4 segundos com metade do dado na mão. Agora 429 repete, respeitando o
+`Retry-After` quando o servidor manda um. Os outros 4xx continuam desistindo na
+primeira.
+
 **Falha de rede ganha paciência; recusa do servidor, não.** Em 02/09/2026 a
 coleta agendada perdeu a Câmara inteira — bancada e votações — com
 `fetch failed`, que é erro de conexão: não houve resposta nenhuma. O passo

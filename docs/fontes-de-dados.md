@@ -45,6 +45,18 @@ O `idEleicao` das eleições gerais de **2026 é `20322002026`**.
 A ordem dos segmentos importa: `.../2026/ES/{idEleicao}/...` funciona,
 `.../2026/{idEleicao}/ES/...` devolve 400.
 
+### O TSE limita requisição, e responde 429
+
+A coleta pede uma ficha por candidatura — 575 no ES — em sequência, sem pausa.
+No ritmo diário isso passa sem problema. Rodando várias vezes na mesma hora,
+não: em 02/09/2026 a coleta foi disparada quatro vezes enquanto depurávamos
+outra coisa, e a quarta levou `HTTP 429` na candidatura 210 de 410.
+
+Não há limite documentado. `buscarJson` trata 429 como espera, não como
+recusa — respeitando `Retry-After` quando o servidor manda um. Se voltar a
+acontecer no ritmo normal, o caminho é espaçar as requisições, e não insistir
+mais forte.
+
 ### Códigos de cargo
 
 | Código | Cargo |

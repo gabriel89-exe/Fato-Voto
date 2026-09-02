@@ -28,6 +28,29 @@ const AGENTE =
 
 const espera = (ms) => new Promise((r) => setTimeout(r, ms));
 
+/** Teto para o `Retry-After`: servidor pode pedir mais do que cabe aqui. */
+const ESPERA_MAXIMA_MS = 60_000;
+
+/**
+ * Le o `Retry-After` de uma resposta 429.
+ *
+ * O cabecalho vem em segundos ("30") ou como data HTTP. Devolve `null`
+ * quando nao existe ou nao da para ler — e ai quem chama usa a espera
+ * dobrando de sempre.
+ */
+function esperaPedidaPeloServidor(cabecalho) {
+  if (!cabecalho) return null;
+
+  const segundos = Number(cabecalho);
+  if (Number.isFinite(segundos) && segundos >= 0) {
+    return Math.min(segundos * 1000, ESPERA_MAXIMA_MS);
+  }
+
+  const quando = Date.parse(cabecalho);
+  if (Number.isNaN(quando)) return null;
+  return Math.min(Math.max(quando - Date.now(), 0), ESPERA_MAXIMA_MS);
+}
+
 /**
  * GET com repeticao. Os portais publicos oscilam: 502 e 504 em horario
  * de pico sao normais e passam sozinhos. Falhar na primeira tentativa
@@ -37,6 +60,17 @@ const espera = (ms) => new Promise((r) => setTimeout(r, ms));
  * — o servidor entendeu o pedido e recusou —, entao insistir quatro
  * vezes num 400 so multiplica por quatro a carga sobre um servico
  * publico para receber quatro vezes a mesma recusa.
+ *
+ * COM UMA EXCECAO: 429. Este comentario dizia "4xx e deterministica" e
+ * estava errado sobre esse caso — 429 nao e recusa, e "voce esta indo
+ * rapido demais, espere". Desistir na hora e a resposta errada para a
+ * unica que pede exatamente o contrario.
+ *
+ * Custou uma coleta em 02/09/2026: rodamos o TSE quatro vezes em uma
+ * hora, depurando outra coisa, e a quarta levou 429 na candidatura
+ * 210 de 410. O passo morreu em 4 segundos com metade do dado na mao.
+ * Se houver `Retry-After`, a espera e a que o servidor pediu; se nao,
+ * a mesma espera dobrando das outras falhas.
  *
  * `aceitar404` devolve `null` em vez de lancar, para o caso em que a
  * ausencia do recurso e informacao e nao falha: na Camara ha votacao
@@ -102,6 +136,11 @@ export async function buscarJson(
       if (!resposta.ok) {
         const erro = new Error(`HTTP ${resposta.status} em ${url}`);
         erro.status = resposta.status;
+        if (resposta.status === 429) {
+          erro.esperarMs = esperaPedidaPeloServidor(
+            resposta.headers.get("retry-after"),
+          );
+        }
         throw erro;
       }
 
@@ -109,7 +148,12 @@ export async function buscarJson(
       return { texto, dados: JSON.parse(texto) };
     } catch (erro) {
       ultimoErro = erro;
-      if (erro.status >= 400 && erro.status < 500) throw erro;
+
+      /* Recusa definitiva: 4xx, menos o 429, que pede espera. */
+      if (erro.status >= 400 && erro.status < 500 && erro.status !== 429) {
+        throw erro;
+      }
+
       if (i < tentativas) {
         /*
          * O log de 02/09/2026 nao dizia que houve repeticao: mostrava
@@ -117,11 +161,14 @@ export async function buscarJson(
          * sabia se tinha sido uma tentativa ou dez. Uma linha por
          * tentativa e barata e transforma "falhou" em diagnostico.
          */
+        /* A espera do servidor manda; na falta dela, a nossa, dobrando. */
+        const pausa = erro.esperarMs ?? pausaMs * 2 ** (i - 1);
         console.warn(
           `  tentativa ${i} de ${tentativas} falhou (${erro.message}). ` +
-            `Repetindo em ${(pausaMs * 2 ** (i - 1)) / 1000}s.`,
+            `Repetindo em ${(pausa / 1000).toFixed(1)}s` +
+            `${erro.esperarMs ? " (espera pedida pelo servidor)" : ""}.`,
         );
-        await espera(pausaMs * 2 ** (i - 1));
+        await espera(pausa);
       }
     }
   }
