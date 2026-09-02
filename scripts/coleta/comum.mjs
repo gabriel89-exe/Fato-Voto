@@ -42,16 +42,25 @@ const espera = (ms) => new Promise((r) => setTimeout(r, ms));
  * ausencia do recurso e informacao e nao falha: na Camara ha votacao
  * cujo `/votos` responde 404, e abortar a coleta inteira por causa
  * dela seria perder todas as outras por causa de uma.
+ *
+ * `cabecalhos` existe para o Portal da Transparencia, que exige a
+ * credencial em `chave-api-dados` a cada requisicao. O VALOR nunca
+ * aparece em log nem em mensagem de erro daqui — a mensagem carrega a
+ * URL, e a URL nao carrega o token. Ver docs/segredos-e-credenciais.md.
  */
 export async function buscarJson(
   url,
-  { tentativas = 4, pausaMs = 800, aceitar404 = false } = {},
+  { tentativas = 4, pausaMs = 800, aceitar404 = false, cabecalhos = {} } = {},
 ) {
   let ultimoErro;
   for (let i = 1; i <= tentativas; i++) {
     try {
       const resposta = await fetch(url, {
-        headers: { Accept: "application/json", "User-Agent": AGENTE },
+        headers: {
+          Accept: "application/json",
+          "User-Agent": AGENTE,
+          ...cabecalhos,
+        },
       });
 
       if (aceitar404 && resposta.status === 404) return null;

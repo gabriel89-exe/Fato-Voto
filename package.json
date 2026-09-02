@@ -9,11 +9,12 @@
     "start": "node ./node_modules/next/dist/bin/next start",
     "ui": "node ./node_modules/shadcn/dist/index.js",
     "contraste": "node scripts/contraste.mjs",
-    "verificar": "node scripts/verificar-seguranca.mjs",
+    "verificar": "node --env-file-if-exists=.env.local scripts/verificar-seguranca.mjs",
     "coleta:camara": "node scripts/coleta/camara.mjs",
     "coleta:tse": "node scripts/coleta/tse.mjs",
     "coleta:tse:normalizar": "node scripts/coleta/tse-normalizar.mjs",
     "coleta:senado": "node scripts/coleta/senado.mjs",
+    "coleta:transparencia": "node --env-file-if-exists=.env.local scripts/coleta/transparencia.mjs",
     "coleta:votacoes": "node scripts/coleta/votacoes.mjs"
   },
   "dependencies": {
