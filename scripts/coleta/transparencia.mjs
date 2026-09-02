@@ -72,6 +72,15 @@ const FONTE = {
 /** Quantas emendas individuais a ficha lista, das de maior valor. */
 const MAIORES = 10;
 
+/**
+ * Quantas a ficha lista quando nao ha valor para ordenar.
+ *
+ * Mais que as dez de maior valor porque, sem o dinheiro, a lista e o
+ * que mais informa: e nela que estao o municipio, a area e o link
+ * para o valor de cada uma no portal.
+ */
+const NA_LISTA_SEM_VALOR = 20;
+
 const TOKEN = process.env.TRANSPARENCIA_TOKEN;
 
 /* ------------------------------------------------------------------ */
@@ -321,14 +330,33 @@ function somar(emendas, campo) {
 }
 
 /**
- * Agrupa por um campo de texto e ordena por valor empenhado.
+ * ==================================================================
+ * QUANTAS E PARA ONDE SEMPRE; QUANTO, SO QUANDO A FONTE PERMITE.
  *
- * A ordem e decrescente porque a lista descreve para onde foi mais
- * dinheiro, dentro dos dados de UMA pessoa. Ordenar o que uma pessoa
- * fez nao e ranquear pessoas — a regra 1 fala de comparacao entre
- * candidaturas, e nada aqui compara.
+ * Os campos de TEXTO da fonte — codigo, ano, tipo, funcao, subfuncao,
+ * localidade — nunca vieram corrompidos: 30 emendas lidas tres vezes
+ * cada em 02/09/2026, zero divergencia. Sao os campos de VALOR que
+ * oscilam, e so eles.
+ *
+ * Entao a coleta separa as duas coisas. O agrupamento por area, por
+ * municipio e por ano existe sempre, porque se apoia so em texto e em
+ * contagem. O valor entra apenas quando a conferencia aprova.
+ *
+ * `valoresPublicados` diz qual dos dois casos e este, no dado e nao so
+ * na tela — quem ler o JSON sem passar pelo site precisa saber que os
+ * campos de dinheiro vieram nulos por decisao, e nao por falta.
+ * ==================================================================
  */
-function agrupar(emendas, chave) {
+
+/**
+ * Agrupa por um campo de texto.
+ *
+ * Com valor, ordena por valor empenhado: a lista descreve para onde foi
+ * mais dinheiro, dentro dos dados de UMA pessoa. Sem valor, ordena por
+ * quantidade. Ordenar o que uma pessoa fez nao e ranquear pessoas — a
+ * regra 1 fala de comparacao entre candidaturas, e nada aqui compara.
+ */
+function agrupar(emendas, chave, comValores) {
   const mapa = new Map();
   for (const e of emendas) {
     const nome = (e[chave] ?? "").trim() || "Não informado";
@@ -338,12 +366,22 @@ function agrupar(emendas, chave) {
     atual.pago += valor(e.valorPago);
     mapa.set(nome, atual);
   }
-  return [...mapa.entries()]
-    .map(([nome, v]) => ({ nome, ...v }))
-    .sort((a, b) => b.empenhado - a.empenhado || a.nome.localeCompare(b.nome, "pt-BR"));
+
+  const lista = [...mapa.entries()].map(([nome, v]) => ({
+    nome,
+    quantidade: v.quantidade,
+    empenhado: comValores ? v.empenhado : null,
+    pago: comValores ? v.pago : null,
+  }));
+
+  return lista.sort((a, b) =>
+    comValores
+      ? b.empenhado - a.empenhado || a.nome.localeCompare(b.nome, "pt-BR")
+      : b.quantidade - a.quantidade || a.nome.localeCompare(b.nome, "pt-BR"),
+  );
 }
 
-function porAno(emendas) {
+function porAno(emendas, comValores) {
   const mapa = new Map();
   for (const e of emendas) {
     const ano = Number(e.ano);
@@ -354,7 +392,12 @@ function porAno(emendas) {
     mapa.set(ano, atual);
   }
   return [...mapa.entries()]
-    .map(([ano, v]) => ({ ano, ...v }))
+    .map(([ano, v]) => ({
+      ano,
+      quantidade: v.quantidade,
+      empenhado: comValores ? v.empenhado : null,
+      pago: comValores ? v.pago : null,
+    }))
     .sort((a, b) => a.ano - b.ano);
 }
 
@@ -370,47 +413,66 @@ function paginaDaEmenda(codigoEmenda) {
   return `https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=${codigoEmenda}`;
 }
 
-function normalizarEmendas(emendas) {
-  return {
-    quantidade: emendas.length,
-    totais: {
-      empenhado: somar(emendas, "valorEmpenhado"),
-      liquidado: somar(emendas, "valorLiquidado"),
-      pago: somar(emendas, "valorPago"),
-      restosInscritos: somar(emendas, "valorRestoInscrito"),
-      restosCancelados: somar(emendas, "valorRestoCancelado"),
-      restosPagos: somar(emendas, "valorRestoPago"),
-    },
-    porAno: porAno(emendas),
-    porFuncao: agrupar(emendas, "funcao"),
-    porLocalidade: agrupar(emendas, "localidadeDoGasto"),
-    porTipo: agrupar(emendas, "tipoEmenda"),
-    maiores: [...emendas]
-      .sort(
+function normalizarEmendas(emendas, comValores) {
+  /*
+   * O recorte da lista muda com o que se pode mostrar, e a tela diz
+   * qual é. Ordenar por valor exige ter valor; sem ele, o recorte
+   * honesto é o tempo — e "as mais recentes" é um critério que não
+   * esconde escolha nossa, como já fazem votações e proposições.
+   */
+  const ordenadas = comValores
+    ? [...emendas].sort(
         (a, b) =>
           valor(b.valorEmpenhado) - valor(a.valorEmpenhado) ||
           String(a.codigoEmenda).localeCompare(String(b.codigoEmenda)),
       )
-      .slice(0, MAIORES)
-      .map((e) => ({
-        codigo: String(e.codigoEmenda),
-        ano: Number(e.ano),
-        numero: e.numeroEmenda ?? null,
-        tipo: e.tipoEmenda ?? null,
-        localidade: e.localidadeDoGasto ?? null,
-        funcao: e.funcao ?? null,
-        subfuncao: e.subfuncao ?? null,
-        empenhado: valor(e.valorEmpenhado),
-        liquidado: valor(e.valorLiquidado),
-        pago: valor(e.valorPago),
-        paginaOficial: paginaDaEmenda(e.codigoEmenda),
-      })),
+    : [...emendas].sort(
+        (a, b) =>
+          Number(b.ano) - Number(a.ano) ||
+          String(b.codigoEmenda).localeCompare(String(a.codigoEmenda)),
+      );
+
+  const quantasNaLista = comValores ? MAIORES : NA_LISTA_SEM_VALOR;
+
+  return {
+    quantidade: emendas.length,
+    valoresPublicados: Boolean(comValores),
+    totais: comValores
+      ? {
+          empenhado: somar(emendas, "valorEmpenhado"),
+          liquidado: somar(emendas, "valorLiquidado"),
+          pago: somar(emendas, "valorPago"),
+          restosInscritos: somar(emendas, "valorRestoInscrito"),
+          restosCancelados: somar(emendas, "valorRestoCancelado"),
+          restosPagos: somar(emendas, "valorRestoPago"),
+        }
+      : null,
+    porAno: porAno(emendas, comValores),
+    porFuncao: agrupar(emendas, "funcao", comValores),
+    porLocalidade: agrupar(emendas, "localidadeDoGasto", comValores),
+    porTipo: agrupar(emendas, "tipoEmenda", comValores),
+    criterioDaLista: comValores
+      ? `as ${MAIORES} de maior valor empenhado`
+      : `as ${NA_LISTA_SEM_VALOR} mais recentes`,
+    lista: ordenadas.slice(0, quantasNaLista).map((e) => ({
+      codigo: String(e.codigoEmenda),
+      ano: Number(e.ano),
+      numero: e.numeroEmenda ?? null,
+      tipo: e.tipoEmenda ?? null,
+      localidade: e.localidadeDoGasto ?? null,
+      funcao: e.funcao ?? null,
+      subfuncao: e.subfuncao ?? null,
+      empenhado: comValores ? valor(e.valorEmpenhado) : null,
+      liquidado: comValores ? valor(e.valorLiquidado) : null,
+      pago: comValores ? valor(e.valorPago) : null,
+      paginaOficial: paginaDaEmenda(e.codigoEmenda),
+    })),
   };
 }
 
 /** Vazio com a mesma forma do cheio: a tela nao precisa de dois casos. */
 function semEmendas() {
-  return normalizarEmendas([]);
+  return normalizarEmendas([], false);
 }
 
 function mediana(numeros) {
@@ -569,13 +631,6 @@ async function principal() {
     ).length;
     const noPeriodo = doAutor;
 
-    /*
-     * Trava 3: a fonte reprovou na conferência. Nenhum valor dela vai
-     * para a tela — nem os das emendas que passariam, porque não há
-     * como saber quais passariam. Ver o cabeçalho da conferência.
-     */
-    const publicavel = conferencia.aprovada && !ambiguo;
-
     const registro = {
       id: p.id,
       cargo: p.cargo,
@@ -590,7 +645,15 @@ async function principal() {
       ambiguidadeDeHomonimo: ambiguo ? codigos : null,
       /* O que existe fora da janela da legislatura, só como contagem. */
       foraDoPeriodo,
-      emendas: publicavel ? normalizarEmendas(noPeriodo) : semEmendas(),
+      /*
+       * Homônimo continua sem nada: ali a dúvida é de QUEM é a
+       * emenda, e sem isso nem a contagem se sustenta. Fonte
+       * reprovada é outro caso — a dúvida é só sobre o valor, e o
+       * resto do que ela diz continua de pé.
+       */
+      emendas: ambiguo
+        ? semEmendas()
+        : normalizarEmendas(noPeriodo, conferencia.aprovada),
     };
 
     saida.push(registro);
@@ -599,7 +662,7 @@ async function principal() {
       ? `AMBÍGUO — ${codigos.length} códigos de autor, nada atribuído`
       : conferencia.aprovada
         ? `${registro.emendas.quantidade} emendas, ${reais(registro.emendas.totais.empenhado)} empenhados`
-        : `${noPeriodo.length} emendas na fonte, nada publicado (fonte reprovada)`;
+        : `${registro.emendas.quantidade} emendas, sem valor (fonte reprovada)`;
     console.log(`  ${p.nomeUrna.padEnd(22)} ${nota}`);
   }
 
@@ -652,8 +715,9 @@ async function principal() {
       console.error(`  ... e mais ${problemas.length - 10}.`);
     }
     console.error(
-      "\nNenhum valor foi publicado. data/es/emendas.json guarda o veredito, " +
-        "e a ficha diz que a fonte está inconsistente em vez de mostrar número.",
+      "\nNenhum VALOR foi publicado — mas quantas, para onde e em que área, " +
+        "sim: esses campos vêm de texto, que a fonte não corrompe. A ficha " +
+        "mostra isso e diz por que o dinheiro não está lá.",
     );
     process.exitCode = 1;
     return;

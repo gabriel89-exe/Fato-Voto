@@ -11,6 +11,7 @@ Este arquivo é só o mapa. O que vale está versionado:
 | Arquivo | O que responde |
 | --- | --- |
 | `ANDAMENTO.md` | **Começar por aqui.** O que está pronto, o que falta, e as decisões já tomadas com o motivo de cada uma. |
+| `O-QUE-FALTA.md` | A lista curta e acionável do que resta, com o custo e o motivo de cada item. |
 | `docs/principios.md` | O que o projeto se recusa a fazer. |
 | `docs/fontes-de-dados.md` | Onde cada fonte pública trava e por quê. |
 | `docs/segredos-e-credenciais.md` | Fluxo de credencial e a armadilha do `NEXT_PUBLIC_`. |

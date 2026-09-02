@@ -296,13 +296,16 @@ export default function PaginaFontes() {
                   própria fonte não estar confiável hoje. Regra 5. */}
               {CONFERENCIA_EMENDAS.aprovada ? null : (
                 <p className="mt-3 border-l-4 border-tinta-300 pl-3 text-sm text-tinta-700">
-                  <strong>Publicação suspensa nesta coleta.</strong> A coleta
-                  pergunta duas vezes e compara: nesta, as respostas não bateram
-                  em {fmtNumero(CONFERENCIA_EMENDAS.totalDeProblemas)} pontos —
-                  a mesma emenda voltou com valores diferentes em consultas
-                  seguidas. Nenhum valor de emenda está no site enquanto isso.
-                  A coleta roda todo dia e volta a publicar quando as duas
-                  consultas concordarem.
+                  <strong>Os valores desta fonte estão suspensos.</strong> A
+                  coleta lê cada emenda duas vezes e compara: nesta, as leituras
+                  não bateram em{" "}
+                  {fmtNumero(CONFERENCIA_EMENDAS.totalDeProblemas)} pontos — a
+                  mesma emenda voltou com números diferentes em consultas
+                  seguidas. As fichas mostram quantas emendas, para onde foram e
+                  em que áreas, que são campos de texto e vêm estáveis; o valor
+                  em reais fica no link para a página de cada emenda no portal.
+                  Os valores voltam sozinhos quando as duas leituras
+                  concordarem.
                 </p>
               )}
               <p className="mt-3 text-sm">

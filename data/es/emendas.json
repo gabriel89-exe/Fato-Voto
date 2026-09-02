@@ -11,39 +11,39 @@
     2025,
     2026
   ],
-  "coletadoEm": "2026-09-02T03:23:51.429Z",
+  "coletadoEm": "2026-09-02T03:54:08.291Z",
   "recorte": "Emendas cujo autor é o próprio parlamentar, nos anos da legislatura 57. Emendas de bancada estadual e de comissão não têm autor individual e não entram aqui.",
   "conferencia": {
     "aprovada": false,
-    "conferidoEm": "2026-09-02T03:23:51.417Z",
+    "conferidoEm": "2026-09-02T03:54:08.248Z",
     "provas": [
       "o valor vem da consulta por código da emenda, não da consulta por nome",
       "cada emenda é lida duas vezes, e as duas leituras têm de concordar",
       "valor pago não passa do valor empenhado"
     ],
     "problemas": [
-      "202439120003: duas leituras seguidas devolveram valores diferentes para a mesma emenda",
+      "202639120005: duas leituras seguidas devolveram valores diferentes para a mesma emenda",
+      "202639120008: duas leituras seguidas devolveram valores diferentes para a mesma emenda",
       "202539120004: duas leituras seguidas devolveram valores diferentes para a mesma emenda",
-      "202539120004: pago (245.000,00) maior que empenhado (25,00) — impossível",
       "202539120005: duas leituras seguidas devolveram valores diferentes para a mesma emenda",
-      "202339120004: duas leituras seguidas devolveram valores diferentes para a mesma emenda",
-      "202339480007: duas leituras seguidas devolveram valores diferentes para a mesma emenda",
-      "202639480002: duas leituras seguidas devolveram valores diferentes para a mesma emenda",
-      "202539480008: duas leituras seguidas devolveram valores diferentes para a mesma emenda",
+      "202639120002: duas leituras seguidas devolveram valores diferentes para a mesma emenda",
+      "202539120001: duas leituras seguidas devolveram valores diferentes para a mesma emenda",
+      "202439480002: duas leituras seguidas devolveram valores diferentes para a mesma emenda",
+      "202539480010: duas leituras seguidas devolveram valores diferentes para a mesma emenda",
+      "202339480004: duas leituras seguidas devolveram valores diferentes para a mesma emenda",
       "202539480005: duas leituras seguidas devolveram valores diferentes para a mesma emenda",
-      "202339480005: duas leituras seguidas devolveram valores diferentes para a mesma emenda",
       "202539480009: duas leituras seguidas devolveram valores diferentes para a mesma emenda",
       "202539480002: duas leituras seguidas devolveram valores diferentes para a mesma emenda",
-      "202539480004: duas leituras seguidas devolveram valores diferentes para a mesma emenda",
       "202643620004: duas leituras seguidas devolveram valores diferentes para a mesma emenda",
-      "202443620003: duas leituras seguidas devolveram valores diferentes para a mesma emenda",
+      "202443620007: duas leituras seguidas devolveram valores diferentes para a mesma emenda",
+      "202443620005: duas leituras seguidas devolveram valores diferentes para a mesma emenda",
       "202443620005: pago (199.998,24) maior que empenhado (200,00) — impossível",
+      "202543620008: duas leituras seguidas devolveram valores diferentes para a mesma emenda",
       "202443620010: duas leituras seguidas devolveram valores diferentes para a mesma emenda",
-      "202443620006: duas leituras seguidas devolveram valores diferentes para a mesma emenda",
       "202643620001: pago (11.982.191,46) maior que empenhado (1.393,00) — impossível",
-      "202330930008: duas leituras seguidas devolveram valores diferentes para a mesma emenda"
+      "202430930008: duas leituras seguidas devolveram valores diferentes para a mesma emenda"
     ],
-    "totalDeProblemas": 80
+    "totalDeProblemas": 48
   },
   "referencias": {},
   "parlamentares": [
@@ -56,20 +56,388 @@
       "ambiguidadeDeHomonimo": null,
       "foraDoPeriodo": 23,
       "emendas": {
-        "quantidade": 0,
-        "totais": {
-          "empenhado": 0,
-          "liquidado": 0,
-          "pago": 0,
-          "restosInscritos": 0,
-          "restosCancelados": 0,
-          "restosPagos": 0
-        },
-        "porAno": [],
-        "porFuncao": [],
-        "porLocalidade": [],
-        "porTipo": [],
-        "maiores": []
+        "quantidade": 22,
+        "valoresPublicados": false,
+        "totais": null,
+        "porAno": [
+          {
+            "ano": 2023,
+            "quantidade": 5,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "ano": 2024,
+            "quantidade": 4,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "ano": 2025,
+            "quantidade": 5,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "ano": 2026,
+            "quantidade": 8,
+            "empenhado": null,
+            "pago": null
+          }
+        ],
+        "porFuncao": [
+          {
+            "nome": "Desporto e lazer",
+            "quantidade": 7,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Saúde",
+            "quantidade": 6,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Encargos especiais",
+            "quantidade": 5,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Cultura",
+            "quantidade": 2,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Assistência social",
+            "quantidade": 1,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Relações exteriores",
+            "quantidade": 1,
+            "empenhado": null,
+            "pago": null
+          }
+        ],
+        "porLocalidade": [
+          {
+            "nome": "MÚLTIPLO",
+            "quantidade": 11,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "ESPÍRITO SANTO (UF)",
+            "quantidade": 7,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "ARACRUZ - ES",
+            "quantidade": 1,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "ICONHA - ES",
+            "quantidade": 1,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Nacional",
+            "quantidade": 1,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "VILA VELHA - ES",
+            "quantidade": 1,
+            "empenhado": null,
+            "pago": null
+          }
+        ],
+        "porTipo": [
+          {
+            "nome": "Emenda Individual - Transferências com Finalidade Definida",
+            "quantidade": 17,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Emenda Individual - Transferências Especiais",
+            "quantidade": 5,
+            "empenhado": null,
+            "pago": null
+          }
+        ],
+        "criterioDaLista": "as 20 mais recentes",
+        "lista": [
+          {
+            "codigo": "202639120009",
+            "ano": 2026,
+            "numero": "0009",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "ESPÍRITO SANTO (UF)",
+            "funcao": "Desporto e lazer",
+            "subfuncao": "Desporto comunitário",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202639120009"
+          },
+          {
+            "codigo": "202639120008",
+            "ano": 2026,
+            "numero": "0008",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "ESPÍRITO SANTO (UF)",
+            "funcao": "Desporto e lazer",
+            "subfuncao": "Desporto de rendimento",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202639120008"
+          },
+          {
+            "codigo": "202639120007",
+            "ano": 2026,
+            "numero": "0007",
+            "tipo": "Emenda Individual - Transferências Especiais",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Encargos especiais",
+            "subfuncao": "Outras transferências",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202639120007"
+          },
+          {
+            "codigo": "202639120006",
+            "ano": 2026,
+            "numero": "0006",
+            "tipo": "Emenda Individual - Transferências Especiais",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Encargos especiais",
+            "subfuncao": "Outras transferências",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202639120006"
+          },
+          {
+            "codigo": "202639120005",
+            "ano": 2026,
+            "numero": "0005",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "VILA VELHA - ES",
+            "funcao": "Assistência social",
+            "subfuncao": "SERVICOS SOCIOASSISTENCIAIS",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202639120005"
+          },
+          {
+            "codigo": "202639120003",
+            "ano": 2026,
+            "numero": "0003",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Saúde",
+            "subfuncao": "Atenção básica",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202639120003"
+          },
+          {
+            "codigo": "202639120002",
+            "ano": 2026,
+            "numero": "0002",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "ARACRUZ - ES",
+            "funcao": "Saúde",
+            "subfuncao": "Assistência hospitalar e ambulatorial",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202639120002"
+          },
+          {
+            "codigo": "202639120001",
+            "ano": 2026,
+            "numero": "0001",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Saúde",
+            "subfuncao": "Atenção básica",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202639120001"
+          },
+          {
+            "codigo": "202539120005",
+            "ano": 2025,
+            "numero": "0005",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "ICONHA - ES",
+            "funcao": "Cultura",
+            "subfuncao": "Difusão cultural",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202539120005"
+          },
+          {
+            "codigo": "202539120004",
+            "ano": 2025,
+            "numero": "0004",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "ESPÍRITO SANTO (UF)",
+            "funcao": "Desporto e lazer",
+            "subfuncao": "Desporto de rendimento",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202539120004"
+          },
+          {
+            "codigo": "202539120003",
+            "ano": 2025,
+            "numero": "0003",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "ESPÍRITO SANTO (UF)",
+            "funcao": "Desporto e lazer",
+            "subfuncao": "Desporto comunitário",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202539120003"
+          },
+          {
+            "codigo": "202539120002",
+            "ano": 2025,
+            "numero": "0002",
+            "tipo": "Emenda Individual - Transferências Especiais",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Encargos especiais",
+            "subfuncao": "Outras transferências",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202539120002"
+          },
+          {
+            "codigo": "202539120001",
+            "ano": 2025,
+            "numero": "0001",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Saúde",
+            "subfuncao": "Atenção básica",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202539120001"
+          },
+          {
+            "codigo": "202439120004",
+            "ano": 2024,
+            "numero": "0004",
+            "tipo": "Emenda Individual - Transferências Especiais",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Encargos especiais",
+            "subfuncao": "Outras transferências",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202439120004"
+          },
+          {
+            "codigo": "202439120003",
+            "ano": 2024,
+            "numero": "0003",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "ESPÍRITO SANTO (UF)",
+            "funcao": "Desporto e lazer",
+            "subfuncao": "Desporto de rendimento",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202439120003"
+          },
+          {
+            "codigo": "202439120002",
+            "ano": 2024,
+            "numero": "0002",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "ESPÍRITO SANTO (UF)",
+            "funcao": "Desporto e lazer",
+            "subfuncao": "Desporto comunitário",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202439120002"
+          },
+          {
+            "codigo": "202439120001",
+            "ano": 2024,
+            "numero": "0001",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Saúde",
+            "subfuncao": "Atenção básica",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202439120001"
+          },
+          {
+            "codigo": "202339120005",
+            "ano": 2023,
+            "numero": "0005",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "Nacional",
+            "funcao": "Relações exteriores",
+            "subfuncao": "Administração geral",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202339120005"
+          },
+          {
+            "codigo": "202339120004",
+            "ano": 2023,
+            "numero": "0004",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Cultura",
+            "subfuncao": "Difusão cultural",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202339120004"
+          },
+          {
+            "codigo": "202339120003",
+            "ano": 2023,
+            "numero": "0003",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "ESPÍRITO SANTO (UF)",
+            "funcao": "Desporto e lazer",
+            "subfuncao": "Desporto comunitário",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202339120003"
+          }
+        ]
       }
     },
     {
@@ -81,20 +449,406 @@
       "ambiguidadeDeHomonimo": null,
       "foraDoPeriodo": 37,
       "emendas": {
-        "quantidade": 0,
-        "totais": {
-          "empenhado": 0,
-          "liquidado": 0,
-          "pago": 0,
-          "restosInscritos": 0,
-          "restosCancelados": 0,
-          "restosPagos": 0
-        },
-        "porAno": [],
-        "porFuncao": [],
-        "porLocalidade": [],
-        "porTipo": [],
-        "maiores": []
+        "quantidade": 29,
+        "valoresPublicados": false,
+        "totais": null,
+        "porAno": [
+          {
+            "ano": 2023,
+            "quantidade": 8,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "ano": 2024,
+            "quantidade": 6,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "ano": 2025,
+            "quantidade": 8,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "ano": 2026,
+            "quantidade": 7,
+            "empenhado": null,
+            "pago": null
+          }
+        ],
+        "porFuncao": [
+          {
+            "nome": "Saúde",
+            "quantidade": 10,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Desporto e lazer",
+            "quantidade": 4,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Encargos especiais",
+            "quantidade": 4,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Assistência social",
+            "quantidade": 3,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Comércio e serviços",
+            "quantidade": 2,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Defesa nacional",
+            "quantidade": 2,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Agricultura",
+            "quantidade": 1,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Comunicações",
+            "quantidade": 1,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Educação",
+            "quantidade": 1,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Segurança pública",
+            "quantidade": 1,
+            "empenhado": null,
+            "pago": null
+          }
+        ],
+        "porLocalidade": [
+          {
+            "nome": "MÚLTIPLO",
+            "quantidade": 15,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "ESPÍRITO SANTO (UF)",
+            "quantidade": 10,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "SÃO PAULO (UF)",
+            "quantidade": 2,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "GOVERNADOR LINDENBERG - ES",
+            "quantidade": 1,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "JERÔNIMO MONTEIRO - ES",
+            "quantidade": 1,
+            "empenhado": null,
+            "pago": null
+          }
+        ],
+        "porTipo": [
+          {
+            "nome": "Emenda Individual - Transferências com Finalidade Definida",
+            "quantidade": 25,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Emenda Individual - Transferências Especiais",
+            "quantidade": 4,
+            "empenhado": null,
+            "pago": null
+          }
+        ],
+        "criterioDaLista": "as 20 mais recentes",
+        "lista": [
+          {
+            "codigo": "202639480007",
+            "ano": 2026,
+            "numero": "0007",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "ESPÍRITO SANTO (UF)",
+            "funcao": "Defesa nacional",
+            "subfuncao": "Defesa terrestre",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202639480007"
+          },
+          {
+            "codigo": "202639480006",
+            "ano": 2026,
+            "numero": "0006",
+            "tipo": "Emenda Individual - Transferências Especiais",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Encargos especiais",
+            "subfuncao": "Outras transferências",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202639480006"
+          },
+          {
+            "codigo": "202639480005",
+            "ano": 2026,
+            "numero": "0005",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "ESPÍRITO SANTO (UF)",
+            "funcao": "Segurança pública",
+            "subfuncao": "Policiamento",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202639480005"
+          },
+          {
+            "codigo": "202639480004",
+            "ano": 2026,
+            "numero": "0004",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "ESPÍRITO SANTO (UF)",
+            "funcao": "Desporto e lazer",
+            "subfuncao": "Desporto comunitário",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202639480004"
+          },
+          {
+            "codigo": "202639480003",
+            "ano": 2026,
+            "numero": "0003",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Saúde",
+            "subfuncao": "Atenção básica",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202639480003"
+          },
+          {
+            "codigo": "202639480002",
+            "ano": 2026,
+            "numero": "0002",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "SÃO PAULO (UF)",
+            "funcao": "Saúde",
+            "subfuncao": "Assistência hospitalar e ambulatorial",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202639480002"
+          },
+          {
+            "codigo": "202639480001",
+            "ano": 2026,
+            "numero": "0001",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Saúde",
+            "subfuncao": "Assistência hospitalar e ambulatorial",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202639480001"
+          },
+          {
+            "codigo": "202539480010",
+            "ano": 2025,
+            "numero": "0010",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "ESPÍRITO SANTO (UF)",
+            "funcao": "Educação",
+            "subfuncao": "Ensino superior",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202539480010"
+          },
+          {
+            "codigo": "202539480009",
+            "ano": 2025,
+            "numero": "0009",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "ESPÍRITO SANTO (UF)",
+            "funcao": "Comércio e serviços",
+            "subfuncao": "Promoção comercial",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202539480009"
+          },
+          {
+            "codigo": "202539480008",
+            "ano": 2025,
+            "numero": "0008",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "ESPÍRITO SANTO (UF)",
+            "funcao": "Defesa nacional",
+            "subfuncao": "Normatização e fiscalização",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202539480008"
+          },
+          {
+            "codigo": "202539480005",
+            "ano": 2025,
+            "numero": "0005",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "ESPÍRITO SANTO (UF)",
+            "funcao": "Desporto e lazer",
+            "subfuncao": "Desporto comunitário",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202539480005"
+          },
+          {
+            "codigo": "202539480004",
+            "ano": 2025,
+            "numero": "0004",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Saúde",
+            "subfuncao": "Atenção básica",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202539480004"
+          },
+          {
+            "codigo": "202539480003",
+            "ano": 2025,
+            "numero": "0003",
+            "tipo": "Emenda Individual - Transferências Especiais",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Encargos especiais",
+            "subfuncao": "Outras transferências",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202539480003"
+          },
+          {
+            "codigo": "202539480002",
+            "ano": 2025,
+            "numero": "0002",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Saúde",
+            "subfuncao": "Assistência hospitalar e ambulatorial",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202539480002"
+          },
+          {
+            "codigo": "202539480001",
+            "ano": 2025,
+            "numero": "0001",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "SÃO PAULO (UF)",
+            "funcao": "Saúde",
+            "subfuncao": "Assistência hospitalar e ambulatorial",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202539480001"
+          },
+          {
+            "codigo": "202439480006",
+            "ano": 2024,
+            "numero": "0006",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Agricultura",
+            "subfuncao": "Promoção da produção agropecuária",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202439480006"
+          },
+          {
+            "codigo": "202439480005",
+            "ano": 2024,
+            "numero": "0005",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Saúde",
+            "subfuncao": "Atenção básica",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202439480005"
+          },
+          {
+            "codigo": "202439480004",
+            "ano": 2024,
+            "numero": "0004",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Assistência social",
+            "subfuncao": "Assistência comunitária",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202439480004"
+          },
+          {
+            "codigo": "202439480003",
+            "ano": 2024,
+            "numero": "0003",
+            "tipo": "Emenda Individual - Transferências Especiais",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Encargos especiais",
+            "subfuncao": "Outras transferências",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202439480003"
+          },
+          {
+            "codigo": "202439480002",
+            "ano": 2024,
+            "numero": "0002",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "ESPÍRITO SANTO (UF)",
+            "funcao": "Desporto e lazer",
+            "subfuncao": "Desporto comunitário",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202439480002"
+          }
+        ]
       }
     },
     {
@@ -106,20 +860,370 @@
       "ambiguidadeDeHomonimo": null,
       "foraDoPeriodo": 0,
       "emendas": {
-        "quantidade": 0,
-        "totais": {
-          "empenhado": 0,
-          "liquidado": 0,
-          "pago": 0,
-          "restosInscritos": 0,
-          "restosCancelados": 0,
-          "restosPagos": 0
-        },
-        "porAno": [],
-        "porFuncao": [],
-        "porLocalidade": [],
-        "porTipo": [],
-        "maiores": []
+        "quantidade": 21,
+        "valoresPublicados": false,
+        "totais": null,
+        "porAno": [
+          {
+            "ano": 2024,
+            "quantidade": 9,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "ano": 2025,
+            "quantidade": 8,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "ano": 2026,
+            "quantidade": 4,
+            "empenhado": null,
+            "pago": null
+          }
+        ],
+        "porFuncao": [
+          {
+            "nome": "Saúde",
+            "quantidade": 10,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Desporto e lazer",
+            "quantidade": 4,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Encargos especiais",
+            "quantidade": 3,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Agricultura",
+            "quantidade": 1,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Assistência social",
+            "quantidade": 1,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Comércio e serviços",
+            "quantidade": 1,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Defesa nacional",
+            "quantidade": 1,
+            "empenhado": null,
+            "pago": null
+          }
+        ],
+        "porLocalidade": [
+          {
+            "nome": "MÚLTIPLO",
+            "quantidade": 13,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "ESPÍRITO SANTO (UF)",
+            "quantidade": 6,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "VILA VELHA - ES",
+            "quantidade": 2,
+            "empenhado": null,
+            "pago": null
+          }
+        ],
+        "porTipo": [
+          {
+            "nome": "Emenda Individual - Transferências com Finalidade Definida",
+            "quantidade": 18,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Emenda Individual - Transferências Especiais",
+            "quantidade": 3,
+            "empenhado": null,
+            "pago": null
+          }
+        ],
+        "criterioDaLista": "as 20 mais recentes",
+        "lista": [
+          {
+            "codigo": "202643620005",
+            "ano": 2026,
+            "numero": "0005",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Desporto e lazer",
+            "subfuncao": "Desporto comunitário",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202643620005"
+          },
+          {
+            "codigo": "202643620004",
+            "ano": 2026,
+            "numero": "0004",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "ESPÍRITO SANTO (UF)",
+            "funcao": "Comércio e serviços",
+            "subfuncao": "Turismo",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202643620004"
+          },
+          {
+            "codigo": "202643620002",
+            "ano": 2026,
+            "numero": "0002",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Saúde",
+            "subfuncao": "Atenção básica",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202643620002"
+          },
+          {
+            "codigo": "202643620001",
+            "ano": 2026,
+            "numero": "0001",
+            "tipo": "Emenda Individual - Transferências Especiais",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Encargos especiais",
+            "subfuncao": "Outras transferências",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202643620001"
+          },
+          {
+            "codigo": "202543620008",
+            "ano": 2025,
+            "numero": "0008",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Saúde",
+            "subfuncao": "Atenção básica",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202543620008"
+          },
+          {
+            "codigo": "202543620007",
+            "ano": 2025,
+            "numero": "0007",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Saúde",
+            "subfuncao": "Assistência hospitalar e ambulatorial",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202543620007"
+          },
+          {
+            "codigo": "202543620006",
+            "ano": 2025,
+            "numero": "0006",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Saúde",
+            "subfuncao": "Atenção básica",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202543620006"
+          },
+          {
+            "codigo": "202543620005",
+            "ano": 2025,
+            "numero": "0005",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Saúde",
+            "subfuncao": "Assistência hospitalar e ambulatorial",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202543620005"
+          },
+          {
+            "codigo": "202543620004",
+            "ano": 2025,
+            "numero": "0004",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Assistência social",
+            "subfuncao": "SERVICOS SOCIOASSISTENCIAIS",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202543620004"
+          },
+          {
+            "codigo": "202543620003",
+            "ano": 2025,
+            "numero": "0003",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Desporto e lazer",
+            "subfuncao": "Desporto de rendimento",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202543620003"
+          },
+          {
+            "codigo": "202543620002",
+            "ano": 2025,
+            "numero": "0002",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Desporto e lazer",
+            "subfuncao": "Desporto comunitário",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202543620002"
+          },
+          {
+            "codigo": "202543620001",
+            "ano": 2025,
+            "numero": "0001",
+            "tipo": "Emenda Individual - Transferências Especiais",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Encargos especiais",
+            "subfuncao": "Outras transferências",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202543620001"
+          },
+          {
+            "codigo": "202443620010",
+            "ano": 2024,
+            "numero": "0010",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Saúde",
+            "subfuncao": "Assistência hospitalar e ambulatorial",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202443620010"
+          },
+          {
+            "codigo": "202443620009",
+            "ano": 2024,
+            "numero": "0009",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "ESPÍRITO SANTO (UF)",
+            "funcao": "Saúde",
+            "subfuncao": "Assistência hospitalar e ambulatorial",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202443620009"
+          },
+          {
+            "codigo": "202443620008",
+            "ano": 2024,
+            "numero": "0008",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "ESPÍRITO SANTO (UF)",
+            "funcao": "Saúde",
+            "subfuncao": "Assistência hospitalar e ambulatorial",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202443620008"
+          },
+          {
+            "codigo": "202443620007",
+            "ano": 2024,
+            "numero": "0007",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "VILA VELHA - ES",
+            "funcao": "Saúde",
+            "subfuncao": "Atenção básica",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202443620007"
+          },
+          {
+            "codigo": "202443620006",
+            "ano": 2024,
+            "numero": "0006",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "VILA VELHA - ES",
+            "funcao": "Saúde",
+            "subfuncao": "Atenção básica",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202443620006"
+          },
+          {
+            "codigo": "202443620005",
+            "ano": 2024,
+            "numero": "0005",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "ESPÍRITO SANTO (UF)",
+            "funcao": "Desporto e lazer",
+            "subfuncao": "Desporto comunitário",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202443620005"
+          },
+          {
+            "codigo": "202443620004",
+            "ano": 2024,
+            "numero": "0004",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "ESPÍRITO SANTO (UF)",
+            "funcao": "Defesa nacional",
+            "subfuncao": "Defesa naval",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202443620004"
+          },
+          {
+            "codigo": "202443620003",
+            "ano": 2024,
+            "numero": "0003",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "ESPÍRITO SANTO (UF)",
+            "funcao": "Agricultura",
+            "subfuncao": "Promoção da produção agropecuária",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202443620003"
+          }
+        ]
       }
     },
     {
@@ -131,20 +1235,388 @@
       "ambiguidadeDeHomonimo": null,
       "foraDoPeriodo": 75,
       "emendas": {
-        "quantidade": 0,
-        "totais": {
-          "empenhado": 0,
-          "liquidado": 0,
-          "pago": 0,
-          "restosInscritos": 0,
-          "restosCancelados": 0,
-          "restosPagos": 0
-        },
-        "porAno": [],
-        "porFuncao": [],
-        "porLocalidade": [],
-        "porTipo": [],
-        "maiores": []
+        "quantidade": 29,
+        "valoresPublicados": false,
+        "totais": null,
+        "porAno": [
+          {
+            "ano": 2023,
+            "quantidade": 9,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "ano": 2024,
+            "quantidade": 8,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "ano": 2025,
+            "quantidade": 6,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "ano": 2026,
+            "quantidade": 6,
+            "empenhado": null,
+            "pago": null
+          }
+        ],
+        "porFuncao": [
+          {
+            "nome": "Saúde",
+            "quantidade": 12,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Encargos especiais",
+            "quantidade": 8,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Assistência social",
+            "quantidade": 4,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Cultura",
+            "quantidade": 2,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Agricultura",
+            "quantidade": 1,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Desporto e lazer",
+            "quantidade": 1,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Educação",
+            "quantidade": 1,
+            "empenhado": null,
+            "pago": null
+          }
+        ],
+        "porLocalidade": [
+          {
+            "nome": "MÚLTIPLO",
+            "quantidade": 23,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "ESPÍRITO SANTO (UF)",
+            "quantidade": 3,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "CASTELO - ES",
+            "quantidade": 1,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "MIMOSO DO SUL - ES",
+            "quantidade": 1,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "SÃO PAULO (UF)",
+            "quantidade": 1,
+            "empenhado": null,
+            "pago": null
+          }
+        ],
+        "porTipo": [
+          {
+            "nome": "Emenda Individual - Transferências com Finalidade Definida",
+            "quantidade": 21,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Emenda Individual - Transferências Especiais",
+            "quantidade": 8,
+            "empenhado": null,
+            "pago": null
+          }
+        ],
+        "criterioDaLista": "as 20 mais recentes",
+        "lista": [
+          {
+            "codigo": "202630930006",
+            "ano": 2026,
+            "numero": "0006",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Assistência social",
+            "subfuncao": "SERVICOS SOCIOASSISTENCIAIS",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202630930006"
+          },
+          {
+            "codigo": "202630930005",
+            "ano": 2026,
+            "numero": "0005",
+            "tipo": "Emenda Individual - Transferências Especiais",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Encargos especiais",
+            "subfuncao": "Outras transferências",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202630930005"
+          },
+          {
+            "codigo": "202630930004",
+            "ano": 2026,
+            "numero": "0004",
+            "tipo": "Emenda Individual - Transferências Especiais",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Encargos especiais",
+            "subfuncao": "Outras transferências",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202630930004"
+          },
+          {
+            "codigo": "202630930003",
+            "ano": 2026,
+            "numero": "0003",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MIMOSO DO SUL - ES",
+            "funcao": "Saúde",
+            "subfuncao": "Assistência hospitalar e ambulatorial",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202630930003"
+          },
+          {
+            "codigo": "202630930002",
+            "ano": 2026,
+            "numero": "0002",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Saúde",
+            "subfuncao": "Assistência hospitalar e ambulatorial",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202630930002"
+          },
+          {
+            "codigo": "202630930001",
+            "ano": 2026,
+            "numero": "0001",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Saúde",
+            "subfuncao": "Atenção básica",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202630930001"
+          },
+          {
+            "codigo": "202530930006",
+            "ano": 2025,
+            "numero": "0006",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Desporto e lazer",
+            "subfuncao": "Desporto comunitário",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202530930006"
+          },
+          {
+            "codigo": "202530930005",
+            "ano": 2025,
+            "numero": "0005",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Assistência social",
+            "subfuncao": "SERVICOS SOCIOASSISTENCIAIS",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202530930005"
+          },
+          {
+            "codigo": "202530930004",
+            "ano": 2025,
+            "numero": "0004",
+            "tipo": "Emenda Individual - Transferências Especiais",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Encargos especiais",
+            "subfuncao": "Outras transferências",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202530930004"
+          },
+          {
+            "codigo": "202530930003",
+            "ano": 2025,
+            "numero": "0003",
+            "tipo": "Emenda Individual - Transferências Especiais",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Encargos especiais",
+            "subfuncao": "Outras transferências",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202530930003"
+          },
+          {
+            "codigo": "202530930002",
+            "ano": 2025,
+            "numero": "0002",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Saúde",
+            "subfuncao": "Assistência hospitalar e ambulatorial",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202530930002"
+          },
+          {
+            "codigo": "202530930001",
+            "ano": 2025,
+            "numero": "0001",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Saúde",
+            "subfuncao": "Atenção básica",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202530930001"
+          },
+          {
+            "codigo": "202430930009",
+            "ano": 2024,
+            "numero": "0009",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "CASTELO - ES",
+            "funcao": "Educação",
+            "subfuncao": "Educação básica",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202430930009"
+          },
+          {
+            "codigo": "202430930008",
+            "ano": 2024,
+            "numero": "0008",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "ESPÍRITO SANTO (UF)",
+            "funcao": "Agricultura",
+            "subfuncao": "Promoção da produção agropecuária",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202430930008"
+          },
+          {
+            "codigo": "202430930007",
+            "ano": 2024,
+            "numero": "0007",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Assistência social",
+            "subfuncao": "Assistência comunitária",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202430930007"
+          },
+          {
+            "codigo": "202430930005",
+            "ano": 2024,
+            "numero": "0005",
+            "tipo": "Emenda Individual - Transferências Especiais",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Encargos especiais",
+            "subfuncao": "Outras transferências",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202430930005"
+          },
+          {
+            "codigo": "202430930004",
+            "ano": 2024,
+            "numero": "0004",
+            "tipo": "Emenda Individual - Transferências Especiais",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Encargos especiais",
+            "subfuncao": "Outras transferências",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202430930004"
+          },
+          {
+            "codigo": "202430930003",
+            "ano": 2024,
+            "numero": "0003",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "SÃO PAULO (UF)",
+            "funcao": "Saúde",
+            "subfuncao": "Assistência hospitalar e ambulatorial",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202430930003"
+          },
+          {
+            "codigo": "202430930002",
+            "ano": 2024,
+            "numero": "0002",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Saúde",
+            "subfuncao": "Assistência hospitalar e ambulatorial",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202430930002"
+          },
+          {
+            "codigo": "202430930001",
+            "ano": 2024,
+            "numero": "0001",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Saúde",
+            "subfuncao": "Atenção básica",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202430930001"
+          }
+        ]
       }
     },
     {
@@ -156,20 +1628,388 @@
       "ambiguidadeDeHomonimo": null,
       "foraDoPeriodo": 0,
       "emendas": {
-        "quantidade": 0,
-        "totais": {
-          "empenhado": 0,
-          "liquidado": 0,
-          "pago": 0,
-          "restosInscritos": 0,
-          "restosCancelados": 0,
-          "restosPagos": 0
-        },
-        "porAno": [],
-        "porFuncao": [],
-        "porLocalidade": [],
-        "porTipo": [],
-        "maiores": []
+        "quantidade": 31,
+        "valoresPublicados": false,
+        "totais": null,
+        "porAno": [
+          {
+            "ano": 2024,
+            "quantidade": 10,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "ano": 2025,
+            "quantidade": 10,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "ano": 2026,
+            "quantidade": 11,
+            "empenhado": null,
+            "pago": null
+          }
+        ],
+        "porFuncao": [
+          {
+            "nome": "Saúde",
+            "quantidade": 12,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Desporto e lazer",
+            "quantidade": 5,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Assistência social",
+            "quantidade": 3,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Encargos especiais",
+            "quantidade": 3,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Agricultura",
+            "quantidade": 2,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Gestão ambiental",
+            "quantidade": 2,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Ciência e Tecnologia",
+            "quantidade": 1,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Defesa nacional",
+            "quantidade": 1,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Organização agrária",
+            "quantidade": 1,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Transporte",
+            "quantidade": 1,
+            "empenhado": null,
+            "pago": null
+          }
+        ],
+        "porLocalidade": [
+          {
+            "nome": "MÚLTIPLO",
+            "quantidade": 20,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "ESPÍRITO SANTO (UF)",
+            "quantidade": 10,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Nacional",
+            "quantidade": 1,
+            "empenhado": null,
+            "pago": null
+          }
+        ],
+        "porTipo": [
+          {
+            "nome": "Emenda Individual - Transferências com Finalidade Definida",
+            "quantidade": 28,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Emenda Individual - Transferências Especiais",
+            "quantidade": 3,
+            "empenhado": null,
+            "pago": null
+          }
+        ],
+        "criterioDaLista": "as 20 mais recentes",
+        "lista": [
+          {
+            "codigo": "202643830011",
+            "ano": 2026,
+            "numero": "0011",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "ESPÍRITO SANTO (UF)",
+            "funcao": "Defesa nacional",
+            "subfuncao": "Defesa naval",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202643830011"
+          },
+          {
+            "codigo": "202643830010",
+            "ano": 2026,
+            "numero": "0010",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "ESPÍRITO SANTO (UF)",
+            "funcao": "Agricultura",
+            "subfuncao": "Promoção da produção agropecuária",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202643830010"
+          },
+          {
+            "codigo": "202643830009",
+            "ano": 2026,
+            "numero": "0009",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "ESPÍRITO SANTO (UF)",
+            "funcao": "Desporto e lazer",
+            "subfuncao": "Desporto comunitário",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202643830009"
+          },
+          {
+            "codigo": "202643830008",
+            "ano": 2026,
+            "numero": "0008",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "ESPÍRITO SANTO (UF)",
+            "funcao": "Organização agrária",
+            "subfuncao": "Promoção da produção agropecuária",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202643830008"
+          },
+          {
+            "codigo": "202643830007",
+            "ano": 2026,
+            "numero": "0007",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "ESPÍRITO SANTO (UF)",
+            "funcao": "Ciência e Tecnologia",
+            "subfuncao": "Desenvolvimento tecnológico e engenharia",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202643830007"
+          },
+          {
+            "codigo": "202643830006",
+            "ano": 2026,
+            "numero": "0006",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Assistência social",
+            "subfuncao": "SERVICOS SOCIOASSISTENCIAIS",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202643830006"
+          },
+          {
+            "codigo": "202643830005",
+            "ano": 2026,
+            "numero": "0005",
+            "tipo": "Emenda Individual - Transferências Especiais",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Encargos especiais",
+            "subfuncao": "Outras transferências",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202643830005"
+          },
+          {
+            "codigo": "202643830004",
+            "ano": 2026,
+            "numero": "0004",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Saúde",
+            "subfuncao": "Assistência hospitalar e ambulatorial",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202643830004"
+          },
+          {
+            "codigo": "202643830003",
+            "ano": 2026,
+            "numero": "0003",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Saúde",
+            "subfuncao": "Atenção básica",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202643830003"
+          },
+          {
+            "codigo": "202643830002",
+            "ano": 2026,
+            "numero": "0002",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Saúde",
+            "subfuncao": "Assistência hospitalar e ambulatorial",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202643830002"
+          },
+          {
+            "codigo": "202643830001",
+            "ano": 2026,
+            "numero": "0001",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Saúde",
+            "subfuncao": "Atenção básica",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202643830001"
+          },
+          {
+            "codigo": "202543830010",
+            "ano": 2025,
+            "numero": "0010",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Assistência social",
+            "subfuncao": "SERVICOS SOCIOASSISTENCIAIS",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202543830010"
+          },
+          {
+            "codigo": "202543830009",
+            "ano": 2025,
+            "numero": "0009",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "Nacional",
+            "funcao": "Transporte",
+            "subfuncao": "Normatização e fiscalização",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202543830009"
+          },
+          {
+            "codigo": "202543830008",
+            "ano": 2025,
+            "numero": "0008",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "ESPÍRITO SANTO (UF)",
+            "funcao": "Gestão ambiental",
+            "subfuncao": "Preservação e conservação ambiental",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202543830008"
+          },
+          {
+            "codigo": "202543830007",
+            "ano": 2025,
+            "numero": "0007",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "ESPÍRITO SANTO (UF)",
+            "funcao": "Desporto e lazer",
+            "subfuncao": "Desporto comunitário",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202543830007"
+          },
+          {
+            "codigo": "202543830006",
+            "ano": 2025,
+            "numero": "0006",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Saúde",
+            "subfuncao": "Assistência hospitalar e ambulatorial",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202543830006"
+          },
+          {
+            "codigo": "202543830005",
+            "ano": 2025,
+            "numero": "0005",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Desporto e lazer",
+            "subfuncao": "Desporto comunitário",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202543830005"
+          },
+          {
+            "codigo": "202543830004",
+            "ano": 2025,
+            "numero": "0004",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Saúde",
+            "subfuncao": "Assistência hospitalar e ambulatorial",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202543830004"
+          },
+          {
+            "codigo": "202543830003",
+            "ano": 2025,
+            "numero": "0003",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Saúde",
+            "subfuncao": "Atenção básica",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202543830003"
+          },
+          {
+            "codigo": "202543830002",
+            "ano": 2025,
+            "numero": "0002",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Saúde",
+            "subfuncao": "Atenção básica",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202543830002"
+          }
+        ]
       }
     },
     {
@@ -181,20 +2021,376 @@
       "ambiguidadeDeHomonimo": null,
       "foraDoPeriodo": 0,
       "emendas": {
-        "quantidade": 0,
-        "totais": {
-          "empenhado": 0,
-          "liquidado": 0,
-          "pago": 0,
-          "restosInscritos": 0,
-          "restosCancelados": 0,
-          "restosPagos": 0
-        },
-        "porAno": [],
-        "porFuncao": [],
-        "porLocalidade": [],
-        "porTipo": [],
-        "maiores": []
+        "quantidade": 24,
+        "valoresPublicados": false,
+        "totais": null,
+        "porAno": [
+          {
+            "ano": 2024,
+            "quantidade": 11,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "ano": 2025,
+            "quantidade": 10,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "ano": 2026,
+            "quantidade": 3,
+            "empenhado": null,
+            "pago": null
+          }
+        ],
+        "porFuncao": [
+          {
+            "nome": "Saúde",
+            "quantidade": 8,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Encargos especiais",
+            "quantidade": 4,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Assistência social",
+            "quantidade": 3,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Defesa nacional",
+            "quantidade": 3,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Desporto e lazer",
+            "quantidade": 3,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Segurança pública",
+            "quantidade": 2,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Educação",
+            "quantidade": 1,
+            "empenhado": null,
+            "pago": null
+          }
+        ],
+        "porLocalidade": [
+          {
+            "nome": "MÚLTIPLO",
+            "quantidade": 14,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "ESPÍRITO SANTO (UF)",
+            "quantidade": 7,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Nacional",
+            "quantidade": 2,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "CARIACICA - ES",
+            "quantidade": 1,
+            "empenhado": null,
+            "pago": null
+          }
+        ],
+        "porTipo": [
+          {
+            "nome": "Emenda Individual - Transferências com Finalidade Definida",
+            "quantidade": 20,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Emenda Individual - Transferências Especiais",
+            "quantidade": 4,
+            "empenhado": null,
+            "pago": null
+          }
+        ],
+        "criterioDaLista": "as 20 mais recentes",
+        "lista": [
+          {
+            "codigo": "202643840004",
+            "ano": 2026,
+            "numero": "0004",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Saúde",
+            "subfuncao": "Atenção básica",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202643840004"
+          },
+          {
+            "codigo": "202643840003",
+            "ano": 2026,
+            "numero": "0003",
+            "tipo": "Emenda Individual - Transferências Especiais",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Encargos especiais",
+            "subfuncao": "Outras transferências",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202643840003"
+          },
+          {
+            "codigo": "202643840002",
+            "ano": 2026,
+            "numero": "0002",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Saúde",
+            "subfuncao": "Assistência hospitalar e ambulatorial",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202643840002"
+          },
+          {
+            "codigo": "202543840010",
+            "ano": 2025,
+            "numero": "0010",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "Nacional",
+            "funcao": "Defesa nacional",
+            "subfuncao": "Defesa naval",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202543840010"
+          },
+          {
+            "codigo": "202543840009",
+            "ano": 2025,
+            "numero": "0009",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "Nacional",
+            "funcao": "Defesa nacional",
+            "subfuncao": "Normatização e fiscalização",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202543840009"
+          },
+          {
+            "codigo": "202543840008",
+            "ano": 2025,
+            "numero": "0008",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Assistência social",
+            "subfuncao": "SERVICOS SOCIOASSISTENCIAIS",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202543840008"
+          },
+          {
+            "codigo": "202543840007",
+            "ano": 2025,
+            "numero": "0007",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Desporto e lazer",
+            "subfuncao": "Desporto comunitário",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202543840007"
+          },
+          {
+            "codigo": "202543840006",
+            "ano": 2025,
+            "numero": "0006",
+            "tipo": "Emenda Individual - Transferências Especiais",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Encargos especiais",
+            "subfuncao": "Outras transferências",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202543840006"
+          },
+          {
+            "codigo": "202543840005",
+            "ano": 2025,
+            "numero": "0005",
+            "tipo": "Emenda Individual - Transferências Especiais",
+            "localidade": "ESPÍRITO SANTO (UF)",
+            "funcao": "Encargos especiais",
+            "subfuncao": "Outras transferências",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202543840005"
+          },
+          {
+            "codigo": "202543840004",
+            "ano": 2025,
+            "numero": "0004",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Saúde",
+            "subfuncao": "Assistência hospitalar e ambulatorial",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202543840004"
+          },
+          {
+            "codigo": "202543840003",
+            "ano": 2025,
+            "numero": "0003",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Saúde",
+            "subfuncao": "Atenção básica",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202543840003"
+          },
+          {
+            "codigo": "202543840002",
+            "ano": 2025,
+            "numero": "0002",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "ESPÍRITO SANTO (UF)",
+            "funcao": "Educação",
+            "subfuncao": "Ensino superior",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202543840002"
+          },
+          {
+            "codigo": "202543840001",
+            "ano": 2025,
+            "numero": "0001",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Saúde",
+            "subfuncao": "Atenção básica",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202543840001"
+          },
+          {
+            "codigo": "202443840012",
+            "ano": 2024,
+            "numero": "0012",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "ESPÍRITO SANTO (UF)",
+            "funcao": "Defesa nacional",
+            "subfuncao": "Administração geral",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202443840012"
+          },
+          {
+            "codigo": "202443840011",
+            "ano": 2024,
+            "numero": "0011",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "CARIACICA - ES",
+            "funcao": "Saúde",
+            "subfuncao": "Atenção básica",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202443840011"
+          },
+          {
+            "codigo": "202443840010",
+            "ano": 2024,
+            "numero": "0010",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "ESPÍRITO SANTO (UF)",
+            "funcao": "Segurança pública",
+            "subfuncao": "Policiamento",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202443840010"
+          },
+          {
+            "codigo": "202443840009",
+            "ano": 2024,
+            "numero": "0009",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "ESPÍRITO SANTO (UF)",
+            "funcao": "Segurança pública",
+            "subfuncao": "Policiamento",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202443840009"
+          },
+          {
+            "codigo": "202443840008",
+            "ano": 2024,
+            "numero": "0008",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Assistência social",
+            "subfuncao": "Assistência comunitária",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202443840008"
+          },
+          {
+            "codigo": "202443840007",
+            "ano": 2024,
+            "numero": "0007",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Desporto e lazer",
+            "subfuncao": "Desporto comunitário",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202443840007"
+          },
+          {
+            "codigo": "202443840006",
+            "ano": 2024,
+            "numero": "0006",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Saúde",
+            "subfuncao": "Assistência hospitalar e ambulatorial",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202443840006"
+          }
+        ]
       }
     },
     {
@@ -206,20 +2402,424 @@
       "ambiguidadeDeHomonimo": null,
       "foraDoPeriodo": 119,
       "emendas": {
-        "quantidade": 0,
-        "totais": {
-          "empenhado": 0,
-          "liquidado": 0,
-          "pago": 0,
-          "restosInscritos": 0,
-          "restosCancelados": 0,
-          "restosPagos": 0
-        },
-        "porAno": [],
-        "porFuncao": [],
-        "porLocalidade": [],
-        "porTipo": [],
-        "maiores": []
+        "quantidade": 85,
+        "valoresPublicados": false,
+        "totais": null,
+        "porAno": [
+          {
+            "ano": 2023,
+            "quantidade": 17,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "ano": 2024,
+            "quantidade": 25,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "ano": 2025,
+            "quantidade": 23,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "ano": 2026,
+            "quantidade": 20,
+            "empenhado": null,
+            "pago": null
+          }
+        ],
+        "porFuncao": [
+          {
+            "nome": "Saúde",
+            "quantidade": 26,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Direitos da cidadania",
+            "quantidade": 14,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Assistência social",
+            "quantidade": 9,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Cultura",
+            "quantidade": 6,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Organização agrária",
+            "quantidade": 6,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Encargos especiais",
+            "quantidade": 5,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Educação",
+            "quantidade": 4,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Trabalho",
+            "quantidade": 4,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Desporto e lazer",
+            "quantidade": 3,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Agricultura",
+            "quantidade": 2,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Defesa nacional",
+            "quantidade": 2,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Gestão ambiental",
+            "quantidade": 2,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Ciência e Tecnologia",
+            "quantidade": 1,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Segurança pública",
+            "quantidade": 1,
+            "empenhado": null,
+            "pago": null
+          }
+        ],
+        "porLocalidade": [
+          {
+            "nome": "ESPÍRITO SANTO (UF)",
+            "quantidade": 33,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Nacional",
+            "quantidade": 27,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "MÚLTIPLO",
+            "quantidade": 24,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "DISTRITO FEDERAL (UF)",
+            "quantidade": 1,
+            "empenhado": null,
+            "pago": null
+          }
+        ],
+        "porTipo": [
+          {
+            "nome": "Emenda Individual - Transferências com Finalidade Definida",
+            "quantidade": 80,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Emenda Individual - Transferências Especiais",
+            "quantidade": 5,
+            "empenhado": null,
+            "pago": null
+          }
+        ],
+        "criterioDaLista": "as 20 mais recentes",
+        "lista": [
+          {
+            "codigo": "202633120023",
+            "ano": 2026,
+            "numero": "0023",
+            "tipo": "Emenda Individual - Transferências Especiais",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Encargos especiais",
+            "subfuncao": "Outras transferências",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202633120023"
+          },
+          {
+            "codigo": "202633120022",
+            "ano": 2026,
+            "numero": "0022",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Saúde",
+            "subfuncao": "Assistência hospitalar e ambulatorial",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202633120022"
+          },
+          {
+            "codigo": "202633120021",
+            "ano": 2026,
+            "numero": "0021",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Saúde",
+            "subfuncao": "Assistência hospitalar e ambulatorial",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202633120021"
+          },
+          {
+            "codigo": "202633120020",
+            "ano": 2026,
+            "numero": "0020",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Saúde",
+            "subfuncao": "Atenção básica",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202633120020"
+          },
+          {
+            "codigo": "202633120019",
+            "ano": 2026,
+            "numero": "0019",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Saúde",
+            "subfuncao": "Atenção básica",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202633120019"
+          },
+          {
+            "codigo": "202633120018",
+            "ano": 2026,
+            "numero": "0018",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "Nacional",
+            "funcao": "Saúde",
+            "subfuncao": "Formação de recursos humanos",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202633120018"
+          },
+          {
+            "codigo": "202633120016",
+            "ano": 2026,
+            "numero": "0016",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "Nacional",
+            "funcao": "Saúde",
+            "subfuncao": "Desenvolvimento científico",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202633120016"
+          },
+          {
+            "codigo": "202633120015",
+            "ano": 2026,
+            "numero": "0015",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Assistência social",
+            "subfuncao": "SERVICOS SOCIOASSISTENCIAIS",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202633120015"
+          },
+          {
+            "codigo": "202633120014",
+            "ano": 2026,
+            "numero": "0014",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "ESPÍRITO SANTO (UF)",
+            "funcao": "Assistência social",
+            "subfuncao": "Assistência comunitária",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202633120014"
+          },
+          {
+            "codigo": "202633120013",
+            "ano": 2026,
+            "numero": "0013",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "ESPÍRITO SANTO (UF)",
+            "funcao": "Trabalho",
+            "subfuncao": "Fomento ao trabalho",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202633120013"
+          },
+          {
+            "codigo": "202633120012",
+            "ano": 2026,
+            "numero": "0012",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "ESPÍRITO SANTO (UF)",
+            "funcao": "Direitos da cidadania",
+            "subfuncao": "Direitos individuais, coletivos e difusos",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202633120012"
+          },
+          {
+            "codigo": "202633120011",
+            "ano": 2026,
+            "numero": "0011",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "Nacional",
+            "funcao": "Direitos da cidadania",
+            "subfuncao": "Direitos individuais, coletivos e difusos",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202633120011"
+          },
+          {
+            "codigo": "202633120010",
+            "ano": 2026,
+            "numero": "0010",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "ESPÍRITO SANTO (UF)",
+            "funcao": "Assistência social",
+            "subfuncao": "Assistência comunitária",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202633120010"
+          },
+          {
+            "codigo": "202633120009",
+            "ano": 2026,
+            "numero": "0009",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "ESPÍRITO SANTO (UF)",
+            "funcao": "Agricultura",
+            "subfuncao": "Promoção da produção agropecuária",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202633120009"
+          },
+          {
+            "codigo": "202633120006",
+            "ano": 2026,
+            "numero": "0006",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "ESPÍRITO SANTO (UF)",
+            "funcao": "Agricultura",
+            "subfuncao": "Promoção da produção agropecuária",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202633120006"
+          },
+          {
+            "codigo": "202633120005",
+            "ano": 2026,
+            "numero": "0005",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "ESPÍRITO SANTO (UF)",
+            "funcao": "Desporto e lazer",
+            "subfuncao": "Desporto comunitário",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202633120005"
+          },
+          {
+            "codigo": "202633120004",
+            "ano": 2026,
+            "numero": "0004",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "Nacional",
+            "funcao": "Cultura",
+            "subfuncao": "Difusão cultural",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202633120004"
+          },
+          {
+            "codigo": "202633120003",
+            "ano": 2026,
+            "numero": "0003",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "ESPÍRITO SANTO (UF)",
+            "funcao": "Direitos da cidadania",
+            "subfuncao": "Direitos individuais, coletivos e difusos",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202633120003"
+          },
+          {
+            "codigo": "202633120002",
+            "ano": 2026,
+            "numero": "0002",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "ESPÍRITO SANTO (UF)",
+            "funcao": "Direitos da cidadania",
+            "subfuncao": "Direitos individuais, coletivos e difusos",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202633120002"
+          },
+          {
+            "codigo": "202633120001",
+            "ano": 2026,
+            "numero": "0001",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "ESPÍRITO SANTO (UF)",
+            "funcao": "Segurança pública",
+            "subfuncao": "Policiamento",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202633120001"
+          }
+        ]
       }
     },
     {
@@ -231,20 +2831,400 @@
       "ambiguidadeDeHomonimo": null,
       "foraDoPeriodo": 0,
       "emendas": {
-        "quantidade": 0,
-        "totais": {
-          "empenhado": 0,
-          "liquidado": 0,
-          "pago": 0,
-          "restosInscritos": 0,
-          "restosCancelados": 0,
-          "restosPagos": 0
-        },
-        "porAno": [],
-        "porFuncao": [],
-        "porLocalidade": [],
-        "porTipo": [],
-        "maiores": []
+        "quantidade": 37,
+        "valoresPublicados": false,
+        "totais": null,
+        "porAno": [
+          {
+            "ano": 2024,
+            "quantidade": 16,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "ano": 2025,
+            "quantidade": 12,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "ano": 2026,
+            "quantidade": 9,
+            "empenhado": null,
+            "pago": null
+          }
+        ],
+        "porFuncao": [
+          {
+            "nome": "Saúde",
+            "quantidade": 11,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Direitos da cidadania",
+            "quantidade": 6,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Assistência social",
+            "quantidade": 3,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Cultura",
+            "quantidade": 3,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Encargos especiais",
+            "quantidade": 3,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Trabalho",
+            "quantidade": 3,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Desporto e lazer",
+            "quantidade": 2,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Organização agrária",
+            "quantidade": 2,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Administração",
+            "quantidade": 1,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Comércio e serviços",
+            "quantidade": 1,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Educação",
+            "quantidade": 1,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Gestão ambiental",
+            "quantidade": 1,
+            "empenhado": null,
+            "pago": null
+          }
+        ],
+        "porLocalidade": [
+          {
+            "nome": "MÚLTIPLO",
+            "quantidade": 18,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "ESPÍRITO SANTO (UF)",
+            "quantidade": 16,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Nacional",
+            "quantidade": 3,
+            "empenhado": null,
+            "pago": null
+          }
+        ],
+        "porTipo": [
+          {
+            "nome": "Emenda Individual - Transferências com Finalidade Definida",
+            "quantidade": 34,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Emenda Individual - Transferências Especiais",
+            "quantidade": 3,
+            "empenhado": null,
+            "pago": null
+          }
+        ],
+        "criterioDaLista": "as 20 mais recentes",
+        "lista": [
+          {
+            "codigo": "202643970014",
+            "ano": 2026,
+            "numero": "0014",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Assistência social",
+            "subfuncao": "SERVICOS SOCIOASSISTENCIAIS",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202643970014"
+          },
+          {
+            "codigo": "202643970011",
+            "ano": 2026,
+            "numero": "0011",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Cultura",
+            "subfuncao": "Difusão cultural",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202643970011"
+          },
+          {
+            "codigo": "202643970010",
+            "ano": 2026,
+            "numero": "0010",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "ESPÍRITO SANTO (UF)",
+            "funcao": "Desporto e lazer",
+            "subfuncao": "Desporto comunitário",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202643970010"
+          },
+          {
+            "codigo": "202643970007",
+            "ano": 2026,
+            "numero": "0007",
+            "tipo": "Emenda Individual - Transferências Especiais",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Encargos especiais",
+            "subfuncao": "Outras transferências",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202643970007"
+          },
+          {
+            "codigo": "202643970005",
+            "ano": 2026,
+            "numero": "0005",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Saúde",
+            "subfuncao": "Assistência hospitalar e ambulatorial",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202643970005"
+          },
+          {
+            "codigo": "202643970004",
+            "ano": 2026,
+            "numero": "0004",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "ESPÍRITO SANTO (UF)",
+            "funcao": "Comércio e serviços",
+            "subfuncao": "Promoção comercial",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202643970004"
+          },
+          {
+            "codigo": "202643970003",
+            "ano": 2026,
+            "numero": "0003",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "ESPÍRITO SANTO (UF)",
+            "funcao": "Organização agrária",
+            "subfuncao": "Ordenamento territorial",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202643970003"
+          },
+          {
+            "codigo": "202643970002",
+            "ano": 2026,
+            "numero": "0002",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "Nacional",
+            "funcao": "Saúde",
+            "subfuncao": "Formação de recursos humanos",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202643970002"
+          },
+          {
+            "codigo": "202643970001",
+            "ano": 2026,
+            "numero": "0001",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Direitos da cidadania",
+            "subfuncao": "Direitos individuais, coletivos e difusos",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202643970001"
+          },
+          {
+            "codigo": "202543970013",
+            "ano": 2025,
+            "numero": "0013",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Direitos da cidadania",
+            "subfuncao": "Direitos individuais, coletivos e difusos",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202543970013"
+          },
+          {
+            "codigo": "202543970012",
+            "ano": 2025,
+            "numero": "0012",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Saúde",
+            "subfuncao": "Atenção básica",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202543970012"
+          },
+          {
+            "codigo": "202543970011",
+            "ano": 2025,
+            "numero": "0011",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Organização agrária",
+            "subfuncao": "Ordenamento territorial",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202543970011"
+          },
+          {
+            "codigo": "202543970009",
+            "ano": 2025,
+            "numero": "0009",
+            "tipo": "Emenda Individual - Transferências Especiais",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Encargos especiais",
+            "subfuncao": "Outras transferências",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202543970009"
+          },
+          {
+            "codigo": "202543970008",
+            "ano": 2025,
+            "numero": "0008",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Desporto e lazer",
+            "subfuncao": "Desporto comunitário",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202543970008"
+          },
+          {
+            "codigo": "202543970007",
+            "ano": 2025,
+            "numero": "0007",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "ESPÍRITO SANTO (UF)",
+            "funcao": "Direitos da cidadania",
+            "subfuncao": "Direitos individuais, coletivos e difusos",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202543970007"
+          },
+          {
+            "codigo": "202543970006",
+            "ano": 2025,
+            "numero": "0006",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "ESPÍRITO SANTO (UF)",
+            "funcao": "Trabalho",
+            "subfuncao": "Fomento ao trabalho",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202543970006"
+          },
+          {
+            "codigo": "202543970005",
+            "ano": 2025,
+            "numero": "0005",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Cultura",
+            "subfuncao": "Difusão cultural",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202543970005"
+          },
+          {
+            "codigo": "202543970004",
+            "ano": 2025,
+            "numero": "0004",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Saúde",
+            "subfuncao": "Atenção básica",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202543970004"
+          },
+          {
+            "codigo": "202543970003",
+            "ano": 2025,
+            "numero": "0003",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Assistência social",
+            "subfuncao": "SERVICOS SOCIOASSISTENCIAIS",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202543970003"
+          },
+          {
+            "codigo": "202543970002",
+            "ano": 2025,
+            "numero": "0002",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "ESPÍRITO SANTO (UF)",
+            "funcao": "Saúde",
+            "subfuncao": "Assistência hospitalar e ambulatorial",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202543970002"
+          }
+        ]
       }
     },
     {
@@ -256,20 +3236,376 @@
       "ambiguidadeDeHomonimo": null,
       "foraDoPeriodo": 0,
       "emendas": {
-        "quantidade": 0,
-        "totais": {
-          "empenhado": 0,
-          "liquidado": 0,
-          "pago": 0,
-          "restosInscritos": 0,
-          "restosCancelados": 0,
-          "restosPagos": 0
-        },
-        "porAno": [],
-        "porFuncao": [],
-        "porLocalidade": [],
-        "porTipo": [],
-        "maiores": []
+        "quantidade": 25,
+        "valoresPublicados": false,
+        "totais": null,
+        "porAno": [
+          {
+            "ano": 2024,
+            "quantidade": 5,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "ano": 2025,
+            "quantidade": 10,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "ano": 2026,
+            "quantidade": 10,
+            "empenhado": null,
+            "pago": null
+          }
+        ],
+        "porFuncao": [
+          {
+            "nome": "Saúde",
+            "quantidade": 12,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Assistência social",
+            "quantidade": 3,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Desporto e lazer",
+            "quantidade": 3,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Encargos especiais",
+            "quantidade": 3,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Agricultura",
+            "quantidade": 1,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Comércio e serviços",
+            "quantidade": 1,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Cultura",
+            "quantidade": 1,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Segurança pública",
+            "quantidade": 1,
+            "empenhado": null,
+            "pago": null
+          }
+        ],
+        "porLocalidade": [
+          {
+            "nome": "MÚLTIPLO",
+            "quantidade": 12,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "ESPÍRITO SANTO (UF)",
+            "quantidade": 8,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "CARIACICA - ES",
+            "quantidade": 5,
+            "empenhado": null,
+            "pago": null
+          }
+        ],
+        "porTipo": [
+          {
+            "nome": "Emenda Individual - Transferências com Finalidade Definida",
+            "quantidade": 22,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Emenda Individual - Transferências Especiais",
+            "quantidade": 3,
+            "empenhado": null,
+            "pago": null
+          }
+        ],
+        "criterioDaLista": "as 20 mais recentes",
+        "lista": [
+          {
+            "codigo": "202644330010",
+            "ano": 2026,
+            "numero": "0010",
+            "tipo": "Emenda Individual - Transferências Especiais",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Encargos especiais",
+            "subfuncao": "Outras transferências",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202644330010"
+          },
+          {
+            "codigo": "202644330009",
+            "ano": 2026,
+            "numero": "0009",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "ESPÍRITO SANTO (UF)",
+            "funcao": "Desporto e lazer",
+            "subfuncao": "Desporto comunitário",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202644330009"
+          },
+          {
+            "codigo": "202644330008",
+            "ano": 2026,
+            "numero": "0008",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "ESPÍRITO SANTO (UF)",
+            "funcao": "Segurança pública",
+            "subfuncao": "Policiamento",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202644330008"
+          },
+          {
+            "codigo": "202644330007",
+            "ano": 2026,
+            "numero": "0007",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "ESPÍRITO SANTO (UF)",
+            "funcao": "Comércio e serviços",
+            "subfuncao": "Promoção comercial",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202644330007"
+          },
+          {
+            "codigo": "202644330006",
+            "ano": 2026,
+            "numero": "0006",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "ESPÍRITO SANTO (UF)",
+            "funcao": "Agricultura",
+            "subfuncao": "Promoção da produção agropecuária",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202644330006"
+          },
+          {
+            "codigo": "202644330005",
+            "ano": 2026,
+            "numero": "0005",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "ESPÍRITO SANTO (UF)",
+            "funcao": "Assistência social",
+            "subfuncao": "Assistência comunitária",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202644330005"
+          },
+          {
+            "codigo": "202644330004",
+            "ano": 2026,
+            "numero": "0004",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Saúde",
+            "subfuncao": "Atenção básica",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202644330004"
+          },
+          {
+            "codigo": "202644330003",
+            "ano": 2026,
+            "numero": "0003",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Saúde",
+            "subfuncao": "Assistência hospitalar e ambulatorial",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202644330003"
+          },
+          {
+            "codigo": "202644330002",
+            "ano": 2026,
+            "numero": "0002",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Saúde",
+            "subfuncao": "Assistência hospitalar e ambulatorial",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202644330002"
+          },
+          {
+            "codigo": "202644330001",
+            "ano": 2026,
+            "numero": "0001",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Saúde",
+            "subfuncao": "Atenção básica",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202644330001"
+          },
+          {
+            "codigo": "202544330010",
+            "ano": 2025,
+            "numero": "0010",
+            "tipo": "Emenda Individual - Transferências Especiais",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Encargos especiais",
+            "subfuncao": "Outras transferências",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202544330010"
+          },
+          {
+            "codigo": "202544330009",
+            "ano": 2025,
+            "numero": "0009",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Saúde",
+            "subfuncao": "Assistência hospitalar e ambulatorial",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202544330009"
+          },
+          {
+            "codigo": "202544330008",
+            "ano": 2025,
+            "numero": "0008",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "ESPÍRITO SANTO (UF)",
+            "funcao": "Cultura",
+            "subfuncao": "Difusão cultural",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202544330008"
+          },
+          {
+            "codigo": "202544330007",
+            "ano": 2025,
+            "numero": "0007",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Saúde",
+            "subfuncao": "Atenção básica",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202544330007"
+          },
+          {
+            "codigo": "202544330006",
+            "ano": 2025,
+            "numero": "0006",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Saúde",
+            "subfuncao": "Assistência hospitalar e ambulatorial",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202544330006"
+          },
+          {
+            "codigo": "202544330005",
+            "ano": 2025,
+            "numero": "0005",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "ESPÍRITO SANTO (UF)",
+            "funcao": "Desporto e lazer",
+            "subfuncao": "Desporto de rendimento",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202544330005"
+          },
+          {
+            "codigo": "202544330004",
+            "ano": 2025,
+            "numero": "0004",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Assistência social",
+            "subfuncao": "SERVICOS SOCIOASSISTENCIAIS",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202544330004"
+          },
+          {
+            "codigo": "202544330003",
+            "ano": 2025,
+            "numero": "0003",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Saúde",
+            "subfuncao": "Atenção básica",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202544330003"
+          },
+          {
+            "codigo": "202544330002",
+            "ano": 2025,
+            "numero": "0002",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "ESPÍRITO SANTO (UF)",
+            "funcao": "Assistência social",
+            "subfuncao": "Assistência comunitária",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202544330002"
+          },
+          {
+            "codigo": "202544330001",
+            "ano": 2025,
+            "numero": "0001",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Desporto e lazer",
+            "subfuncao": "Desporto comunitário",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202544330001"
+          }
+        ]
       }
     },
     {
@@ -281,20 +3617,388 @@
       "ambiguidadeDeHomonimo": null,
       "foraDoPeriodo": 0,
       "emendas": {
-        "quantidade": 0,
-        "totais": {
-          "empenhado": 0,
-          "liquidado": 0,
-          "pago": 0,
-          "restosInscritos": 0,
-          "restosCancelados": 0,
-          "restosPagos": 0
-        },
-        "porAno": [],
-        "porFuncao": [],
-        "porLocalidade": [],
-        "porTipo": [],
-        "maiores": []
+        "quantidade": 23,
+        "valoresPublicados": false,
+        "totais": null,
+        "porAno": [
+          {
+            "ano": 2024,
+            "quantidade": 8,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "ano": 2025,
+            "quantidade": 8,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "ano": 2026,
+            "quantidade": 7,
+            "empenhado": null,
+            "pago": null
+          }
+        ],
+        "porFuncao": [
+          {
+            "nome": "Saúde",
+            "quantidade": 12,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Encargos especiais",
+            "quantidade": 3,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Assistência social",
+            "quantidade": 2,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Comércio e serviços",
+            "quantidade": 2,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Agricultura",
+            "quantidade": 1,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Desporto e lazer",
+            "quantidade": 1,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Direitos da cidadania",
+            "quantidade": 1,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Organização agrária",
+            "quantidade": 1,
+            "empenhado": null,
+            "pago": null
+          }
+        ],
+        "porLocalidade": [
+          {
+            "nome": "MÚLTIPLO",
+            "quantidade": 14,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "ESPÍRITO SANTO (UF)",
+            "quantidade": 4,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Nacional",
+            "quantidade": 3,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "AFONSO CLÁUDIO - ES",
+            "quantidade": 1,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "DOMINGOS MARTINS - ES",
+            "quantidade": 1,
+            "empenhado": null,
+            "pago": null
+          }
+        ],
+        "porTipo": [
+          {
+            "nome": "Emenda Individual - Transferências com Finalidade Definida",
+            "quantidade": 20,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Emenda Individual - Transferências Especiais",
+            "quantidade": 3,
+            "empenhado": null,
+            "pago": null
+          }
+        ],
+        "criterioDaLista": "as 20 mais recentes",
+        "lista": [
+          {
+            "codigo": "202627740007",
+            "ano": 2026,
+            "numero": "0007",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "Nacional",
+            "funcao": "Saúde",
+            "subfuncao": "Assistência hospitalar e ambulatorial",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202627740007"
+          },
+          {
+            "codigo": "202627740006",
+            "ano": 2026,
+            "numero": "0006",
+            "tipo": "Emenda Individual - Transferências Especiais",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Encargos especiais",
+            "subfuncao": "Outras transferências",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202627740006"
+          },
+          {
+            "codigo": "202627740005",
+            "ano": 2026,
+            "numero": "0005",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "ESPÍRITO SANTO (UF)",
+            "funcao": "Desporto e lazer",
+            "subfuncao": "Desporto de rendimento",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202627740005"
+          },
+          {
+            "codigo": "202627740004",
+            "ano": 2026,
+            "numero": "0004",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "AFONSO CLÁUDIO - ES",
+            "funcao": "Comércio e serviços",
+            "subfuncao": "Turismo",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202627740004"
+          },
+          {
+            "codigo": "202627740003",
+            "ano": 2026,
+            "numero": "0003",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Saúde",
+            "subfuncao": "Atenção básica",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202627740003"
+          },
+          {
+            "codigo": "202627740002",
+            "ano": 2026,
+            "numero": "0002",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "DOMINGOS MARTINS - ES",
+            "funcao": "Saúde",
+            "subfuncao": "Atenção básica",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202627740002"
+          },
+          {
+            "codigo": "202627740001",
+            "ano": 2026,
+            "numero": "0001",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Saúde",
+            "subfuncao": "Assistência hospitalar e ambulatorial",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202627740001"
+          },
+          {
+            "codigo": "202527740008",
+            "ano": 2025,
+            "numero": "0008",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Agricultura",
+            "subfuncao": "Irrigação",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202527740008"
+          },
+          {
+            "codigo": "202527740007",
+            "ano": 2025,
+            "numero": "0007",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "Nacional",
+            "funcao": "Saúde",
+            "subfuncao": "Assistência hospitalar e ambulatorial",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202527740007"
+          },
+          {
+            "codigo": "202527740006",
+            "ano": 2025,
+            "numero": "0006",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "ESPÍRITO SANTO (UF)",
+            "funcao": "Organização agrária",
+            "subfuncao": "Promoção da produção agropecuária",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202527740006"
+          },
+          {
+            "codigo": "202527740005",
+            "ano": 2025,
+            "numero": "0005",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Saúde",
+            "subfuncao": "Assistência hospitalar e ambulatorial",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202527740005"
+          },
+          {
+            "codigo": "202527740004",
+            "ano": 2025,
+            "numero": "0004",
+            "tipo": "Emenda Individual - Transferências Especiais",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Encargos especiais",
+            "subfuncao": "Outras transferências",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202527740004"
+          },
+          {
+            "codigo": "202527740003",
+            "ano": 2025,
+            "numero": "0003",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Assistência social",
+            "subfuncao": "SERVICOS SOCIOASSISTENCIAIS",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202527740003"
+          },
+          {
+            "codigo": "202527740002",
+            "ano": 2025,
+            "numero": "0002",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "ESPÍRITO SANTO (UF)",
+            "funcao": "Comércio e serviços",
+            "subfuncao": "Promoção comercial",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202527740002"
+          },
+          {
+            "codigo": "202527740001",
+            "ano": 2025,
+            "numero": "0001",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Saúde",
+            "subfuncao": "Atenção básica",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202527740001"
+          },
+          {
+            "codigo": "202427740008",
+            "ano": 2024,
+            "numero": "0008",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Saúde",
+            "subfuncao": "Atenção básica",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202427740008"
+          },
+          {
+            "codigo": "202427740007",
+            "ano": 2024,
+            "numero": "0007",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "ESPÍRITO SANTO (UF)",
+            "funcao": "Direitos da cidadania",
+            "subfuncao": "Direitos individuais, coletivos e difusos",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202427740007"
+          },
+          {
+            "codigo": "202427740006",
+            "ano": 2024,
+            "numero": "0006",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Saúde",
+            "subfuncao": "Assistência hospitalar e ambulatorial",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202427740006"
+          },
+          {
+            "codigo": "202427740005",
+            "ano": 2024,
+            "numero": "0005",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Saúde",
+            "subfuncao": "Atenção básica",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202427740005"
+          },
+          {
+            "codigo": "202427740004",
+            "ano": 2024,
+            "numero": "0004",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "Nacional",
+            "funcao": "Saúde",
+            "subfuncao": "Assistência hospitalar e ambulatorial",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202427740004"
+          }
+        ]
       }
     },
     {
@@ -306,20 +4010,448 @@
       "ambiguidadeDeHomonimo": null,
       "foraDoPeriodo": 25,
       "emendas": {
-        "quantidade": 0,
-        "totais": {
-          "empenhado": 0,
-          "liquidado": 0,
-          "pago": 0,
-          "restosInscritos": 0,
-          "restosCancelados": 0,
-          "restosPagos": 0
-        },
-        "porAno": [],
-        "porFuncao": [],
-        "porLocalidade": [],
-        "porTipo": [],
-        "maiores": []
+        "quantidade": 70,
+        "valoresPublicados": false,
+        "totais": null,
+        "porAno": [
+          {
+            "ano": 2023,
+            "quantidade": 9,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "ano": 2024,
+            "quantidade": 24,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "ano": 2025,
+            "quantidade": 21,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "ano": 2026,
+            "quantidade": 16,
+            "empenhado": null,
+            "pago": null
+          }
+        ],
+        "porFuncao": [
+          {
+            "nome": "Saúde",
+            "quantidade": 16,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Direitos da cidadania",
+            "quantidade": 9,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Desporto e lazer",
+            "quantidade": 6,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Educação",
+            "quantidade": 6,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Organização agrária",
+            "quantidade": 6,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Assistência social",
+            "quantidade": 4,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Comércio e serviços",
+            "quantidade": 4,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Cultura",
+            "quantidade": 4,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Agricultura",
+            "quantidade": 3,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Gestão ambiental",
+            "quantidade": 3,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Urbanismo",
+            "quantidade": 3,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Múltiplo",
+            "quantidade": 2,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Administração",
+            "quantidade": 1,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Ciência e Tecnologia",
+            "quantidade": 1,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Essencial à justiça",
+            "quantidade": 1,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Segurança pública",
+            "quantidade": 1,
+            "empenhado": null,
+            "pago": null
+          }
+        ],
+        "porLocalidade": [
+          {
+            "nome": "MÚLTIPLO",
+            "quantidade": 41,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "ESPÍRITO SANTO (UF)",
+            "quantidade": 23,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Nacional",
+            "quantidade": 2,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "ITAGUAÇU - ES",
+            "quantidade": 1,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "SÃO DOMINGOS DO NORTE - ES",
+            "quantidade": 1,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "SÃO JOSÉ DO CALÇADO - ES",
+            "quantidade": 1,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "SERRA - ES",
+            "quantidade": 1,
+            "empenhado": null,
+            "pago": null
+          }
+        ],
+        "porTipo": [
+          {
+            "nome": "Emenda Individual - Transferências com Finalidade Definida",
+            "quantidade": 70,
+            "empenhado": null,
+            "pago": null
+          }
+        ],
+        "criterioDaLista": "as 20 mais recentes",
+        "lista": [
+          {
+            "codigo": "202641800019",
+            "ano": 2026,
+            "numero": "0019",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "ESPÍRITO SANTO (UF)",
+            "funcao": "Cultura",
+            "subfuncao": "Difusão cultural",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202641800019"
+          },
+          {
+            "codigo": "202641800018",
+            "ano": 2026,
+            "numero": "0018",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "ESPÍRITO SANTO (UF)",
+            "funcao": "Direitos da cidadania",
+            "subfuncao": "Direitos individuais, coletivos e difusos",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202641800018"
+          },
+          {
+            "codigo": "202641800017",
+            "ano": 2026,
+            "numero": "0017",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "SÃO JOSÉ DO CALÇADO - ES",
+            "funcao": "Direitos da cidadania",
+            "subfuncao": "Direitos individuais, coletivos e difusos",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202641800017"
+          },
+          {
+            "codigo": "202641800016",
+            "ano": 2026,
+            "numero": "0016",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "ESPÍRITO SANTO (UF)",
+            "funcao": "Comércio e serviços",
+            "subfuncao": "Promoção comercial",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202641800016"
+          },
+          {
+            "codigo": "202641800014",
+            "ano": 2026,
+            "numero": "0014",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "ESPÍRITO SANTO (UF)",
+            "funcao": "Organização agrária",
+            "subfuncao": "Promoção da produção agropecuária",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202641800014"
+          },
+          {
+            "codigo": "202641800013",
+            "ano": 2026,
+            "numero": "0013",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Saúde",
+            "subfuncao": "Atenção básica",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202641800013"
+          },
+          {
+            "codigo": "202641800012",
+            "ano": 2026,
+            "numero": "0012",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "ESPÍRITO SANTO (UF)",
+            "funcao": "Direitos da cidadania",
+            "subfuncao": "Direitos individuais, coletivos e difusos",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202641800012"
+          },
+          {
+            "codigo": "202641800011",
+            "ano": 2026,
+            "numero": "0011",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Saúde",
+            "subfuncao": "Assistência hospitalar e ambulatorial",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202641800011"
+          },
+          {
+            "codigo": "202641800010",
+            "ano": 2026,
+            "numero": "0010",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Saúde",
+            "subfuncao": "Atenção básica",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202641800010"
+          },
+          {
+            "codigo": "202641800007",
+            "ano": 2026,
+            "numero": "0007",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Saúde",
+            "subfuncao": "Assistência hospitalar e ambulatorial",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202641800007"
+          },
+          {
+            "codigo": "202641800006",
+            "ano": 2026,
+            "numero": "0006",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "ESPÍRITO SANTO (UF)",
+            "funcao": "Agricultura",
+            "subfuncao": "Promoção da produção agropecuária",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202641800006"
+          },
+          {
+            "codigo": "202641800005",
+            "ano": 2026,
+            "numero": "0005",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Assistência social",
+            "subfuncao": "SERVICOS SOCIOASSISTENCIAIS",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202641800005"
+          },
+          {
+            "codigo": "202641800004",
+            "ano": 2026,
+            "numero": "0004",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "ESPÍRITO SANTO (UF)",
+            "funcao": "Cultura",
+            "subfuncao": "Patrimônio histórico, artístico e arqueológico",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202641800004"
+          },
+          {
+            "codigo": "202641800003",
+            "ano": 2026,
+            "numero": "0003",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "ITAGUAÇU - ES",
+            "funcao": "Educação",
+            "subfuncao": "Educação básica",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202641800003"
+          },
+          {
+            "codigo": "202641800002",
+            "ano": 2026,
+            "numero": "0002",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "ESPÍRITO SANTO (UF)",
+            "funcao": "Agricultura",
+            "subfuncao": "Promoção da produção agropecuária",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202641800002"
+          },
+          {
+            "codigo": "202641800001",
+            "ano": 2026,
+            "numero": "0001",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Desporto e lazer",
+            "subfuncao": "Desporto comunitário",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202641800001"
+          },
+          {
+            "codigo": "202541800022",
+            "ano": 2025,
+            "numero": "0022",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Urbanismo",
+            "subfuncao": "Assistência comunitária",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202541800022"
+          },
+          {
+            "codigo": "202541800021",
+            "ano": 2025,
+            "numero": "0021",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Desporto e lazer",
+            "subfuncao": "Desporto comunitário",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202541800021"
+          },
+          {
+            "codigo": "202541800020",
+            "ano": 2025,
+            "numero": "0020",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "ESPÍRITO SANTO (UF)",
+            "funcao": "Comércio e serviços",
+            "subfuncao": "Promoção comercial",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202541800020"
+          },
+          {
+            "codigo": "202541800019",
+            "ano": 2025,
+            "numero": "0019",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Saúde",
+            "subfuncao": "Atenção básica",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202541800019"
+          }
+        ]
       }
     },
     {
@@ -331,20 +4463,370 @@
       "ambiguidadeDeHomonimo": null,
       "foraDoPeriodo": 78,
       "emendas": {
-        "quantidade": 0,
-        "totais": {
-          "empenhado": 0,
-          "liquidado": 0,
-          "pago": 0,
-          "restosInscritos": 0,
-          "restosCancelados": 0,
-          "restosPagos": 0
-        },
-        "porAno": [],
-        "porFuncao": [],
-        "porLocalidade": [],
-        "porTipo": [],
-        "maiores": []
+        "quantidade": 34,
+        "valoresPublicados": false,
+        "totais": null,
+        "porAno": [
+          {
+            "ano": 2024,
+            "quantidade": 12,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "ano": 2025,
+            "quantidade": 11,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "ano": 2026,
+            "quantidade": 11,
+            "empenhado": null,
+            "pago": null
+          }
+        ],
+        "porFuncao": [
+          {
+            "nome": "Saúde",
+            "quantidade": 13,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Assistência social",
+            "quantidade": 7,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Desporto e lazer",
+            "quantidade": 4,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Segurança pública",
+            "quantidade": 4,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Comércio e serviços",
+            "quantidade": 3,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Encargos especiais",
+            "quantidade": 3,
+            "empenhado": null,
+            "pago": null
+          }
+        ],
+        "porLocalidade": [
+          {
+            "nome": "MÚLTIPLO",
+            "quantidade": 16,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "ESPÍRITO SANTO (UF)",
+            "quantidade": 11,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Nacional",
+            "quantidade": 6,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "IRUPI - ES",
+            "quantidade": 1,
+            "empenhado": null,
+            "pago": null
+          }
+        ],
+        "porTipo": [
+          {
+            "nome": "Emenda Individual - Transferências com Finalidade Definida",
+            "quantidade": 31,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Emenda Individual - Transferências Especiais",
+            "quantidade": 3,
+            "empenhado": null,
+            "pago": null
+          }
+        ],
+        "criterioDaLista": "as 20 mais recentes",
+        "lista": [
+          {
+            "codigo": "202620290014",
+            "ano": 2026,
+            "numero": "0014",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "Nacional",
+            "funcao": "Segurança pública",
+            "subfuncao": "Policiamento",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202620290014"
+          },
+          {
+            "codigo": "202620290012",
+            "ano": 2026,
+            "numero": "0012",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "Nacional",
+            "funcao": "Segurança pública",
+            "subfuncao": "Policiamento",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202620290012"
+          },
+          {
+            "codigo": "202620290011",
+            "ano": 2026,
+            "numero": "0011",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "ESPÍRITO SANTO (UF)",
+            "funcao": "Comércio e serviços",
+            "subfuncao": "Promoção comercial",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202620290011"
+          },
+          {
+            "codigo": "202620290010",
+            "ano": 2026,
+            "numero": "0010",
+            "tipo": "Emenda Individual - Transferências Especiais",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Encargos especiais",
+            "subfuncao": "Outras transferências",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202620290010"
+          },
+          {
+            "codigo": "202620290008",
+            "ano": 2026,
+            "numero": "0008",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "ESPÍRITO SANTO (UF)",
+            "funcao": "Desporto e lazer",
+            "subfuncao": "Desporto comunitário",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202620290008"
+          },
+          {
+            "codigo": "202620290007",
+            "ano": 2026,
+            "numero": "0007",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Assistência social",
+            "subfuncao": "SERVICOS SOCIOASSISTENCIAIS",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202620290007"
+          },
+          {
+            "codigo": "202620290005",
+            "ano": 2026,
+            "numero": "0005",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "ESPÍRITO SANTO (UF)",
+            "funcao": "Assistência social",
+            "subfuncao": "Assistência comunitária",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202620290005"
+          },
+          {
+            "codigo": "202620290004",
+            "ano": 2026,
+            "numero": "0004",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Saúde",
+            "subfuncao": "Assistência hospitalar e ambulatorial",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202620290004"
+          },
+          {
+            "codigo": "202620290003",
+            "ano": 2026,
+            "numero": "0003",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "ESPÍRITO SANTO (UF)",
+            "funcao": "Saúde",
+            "subfuncao": "Assistência hospitalar e ambulatorial",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202620290003"
+          },
+          {
+            "codigo": "202620290002",
+            "ano": 2026,
+            "numero": "0002",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Saúde",
+            "subfuncao": "Atenção básica",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202620290002"
+          },
+          {
+            "codigo": "202620290001",
+            "ano": 2026,
+            "numero": "0001",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Saúde",
+            "subfuncao": "Atenção básica",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202620290001"
+          },
+          {
+            "codigo": "202520290011",
+            "ano": 2025,
+            "numero": "0011",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "ESPÍRITO SANTO (UF)",
+            "funcao": "Segurança pública",
+            "subfuncao": "Policiamento",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202520290011"
+          },
+          {
+            "codigo": "202520290010",
+            "ano": 2025,
+            "numero": "0010",
+            "tipo": "Emenda Individual - Transferências Especiais",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Encargos especiais",
+            "subfuncao": "Outras transferências",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202520290010"
+          },
+          {
+            "codigo": "202520290009",
+            "ano": 2025,
+            "numero": "0009",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "ESPÍRITO SANTO (UF)",
+            "funcao": "Comércio e serviços",
+            "subfuncao": "Promoção comercial",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202520290009"
+          },
+          {
+            "codigo": "202520290008",
+            "ano": 2025,
+            "numero": "0008",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "ESPÍRITO SANTO (UF)",
+            "funcao": "Desporto e lazer",
+            "subfuncao": "Desporto comunitário",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202520290008"
+          },
+          {
+            "codigo": "202520290007",
+            "ano": 2025,
+            "numero": "0007",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "ESPÍRITO SANTO (UF)",
+            "funcao": "Assistência social",
+            "subfuncao": "Assistência comunitária",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202520290007"
+          },
+          {
+            "codigo": "202520290006",
+            "ano": 2025,
+            "numero": "0006",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "IRUPI - ES",
+            "funcao": "Assistência social",
+            "subfuncao": "SERVICOS SOCIOASSISTENCIAIS",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202520290006"
+          },
+          {
+            "codigo": "202520290005",
+            "ano": 2025,
+            "numero": "0005",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Assistência social",
+            "subfuncao": "SERVICOS SOCIOASSISTENCIAIS",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202520290005"
+          },
+          {
+            "codigo": "202520290004",
+            "ano": 2025,
+            "numero": "0004",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Saúde",
+            "subfuncao": "Assistência hospitalar e ambulatorial",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202520290004"
+          },
+          {
+            "codigo": "202520290003",
+            "ano": 2025,
+            "numero": "0003",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Saúde",
+            "subfuncao": "Assistência hospitalar e ambulatorial",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202520290003"
+          }
+        ]
       }
     },
     {
@@ -356,20 +4838,406 @@
       "ambiguidadeDeHomonimo": null,
       "foraDoPeriodo": 39,
       "emendas": {
-        "quantidade": 0,
-        "totais": {
-          "empenhado": 0,
-          "liquidado": 0,
-          "pago": 0,
-          "restosInscritos": 0,
-          "restosCancelados": 0,
-          "restosPagos": 0
-        },
-        "porAno": [],
-        "porFuncao": [],
-        "porLocalidade": [],
-        "porTipo": [],
-        "maiores": []
+        "quantidade": 28,
+        "valoresPublicados": false,
+        "totais": null,
+        "porAno": [
+          {
+            "ano": 2023,
+            "quantidade": 8,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "ano": 2024,
+            "quantidade": 7,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "ano": 2025,
+            "quantidade": 9,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "ano": 2026,
+            "quantidade": 4,
+            "empenhado": null,
+            "pago": null
+          }
+        ],
+        "porFuncao": [
+          {
+            "nome": "Saúde",
+            "quantidade": 10,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Segurança pública",
+            "quantidade": 4,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Assistência social",
+            "quantidade": 3,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Defesa nacional",
+            "quantidade": 3,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Encargos especiais",
+            "quantidade": 3,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Educação",
+            "quantidade": 2,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Agricultura",
+            "quantidade": 1,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Comércio e serviços",
+            "quantidade": 1,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Desporto e lazer",
+            "quantidade": 1,
+            "empenhado": null,
+            "pago": null
+          }
+        ],
+        "porLocalidade": [
+          {
+            "nome": "MÚLTIPLO",
+            "quantidade": 17,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "ESPÍRITO SANTO (UF)",
+            "quantidade": 6,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Nacional",
+            "quantidade": 2,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "CARIACICA - ES",
+            "quantidade": 1,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "LINHARES - ES",
+            "quantidade": 1,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "VILA VELHA - ES",
+            "quantidade": 1,
+            "empenhado": null,
+            "pago": null
+          }
+        ],
+        "porTipo": [
+          {
+            "nome": "Emenda Individual - Transferências com Finalidade Definida",
+            "quantidade": 25,
+            "empenhado": null,
+            "pago": null
+          },
+          {
+            "nome": "Emenda Individual - Transferências Especiais",
+            "quantidade": 3,
+            "empenhado": null,
+            "pago": null
+          }
+        ],
+        "criterioDaLista": "as 20 mais recentes",
+        "lista": [
+          {
+            "codigo": "202692040004",
+            "ano": 2026,
+            "numero": "0004",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Assistência social",
+            "subfuncao": "SERVICOS SOCIOASSISTENCIAIS",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202692040004"
+          },
+          {
+            "codigo": "202692040003",
+            "ano": 2026,
+            "numero": "0003",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Saúde",
+            "subfuncao": "Assistência hospitalar e ambulatorial",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202692040003"
+          },
+          {
+            "codigo": "202692040002",
+            "ano": 2026,
+            "numero": "0002",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Saúde",
+            "subfuncao": "Atenção básica",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202692040002"
+          },
+          {
+            "codigo": "202692040001",
+            "ano": 2026,
+            "numero": "0001",
+            "tipo": "Emenda Individual - Transferências Especiais",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Encargos especiais",
+            "subfuncao": "Outras transferências",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202692040001"
+          },
+          {
+            "codigo": "202592040009",
+            "ano": 2025,
+            "numero": "0009",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Assistência social",
+            "subfuncao": "SERVICOS SOCIOASSISTENCIAIS",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202592040009"
+          },
+          {
+            "codigo": "202592040008",
+            "ano": 2025,
+            "numero": "0008",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Desporto e lazer",
+            "subfuncao": "Desporto comunitário",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202592040008"
+          },
+          {
+            "codigo": "202592040007",
+            "ano": 2025,
+            "numero": "0007",
+            "tipo": "Emenda Individual - Transferências Especiais",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Encargos especiais",
+            "subfuncao": "Outras transferências",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202592040007"
+          },
+          {
+            "codigo": "202592040006",
+            "ano": 2025,
+            "numero": "0006",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "ESPÍRITO SANTO (UF)",
+            "funcao": "Segurança pública",
+            "subfuncao": "Custódia e reintegração social",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202592040006"
+          },
+          {
+            "codigo": "202592040005",
+            "ano": 2025,
+            "numero": "0005",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "LINHARES - ES",
+            "funcao": "Saúde",
+            "subfuncao": "Assistência hospitalar e ambulatorial",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202592040005"
+          },
+          {
+            "codigo": "202592040004",
+            "ano": 2025,
+            "numero": "0004",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Saúde",
+            "subfuncao": "Atenção básica",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202592040004"
+          },
+          {
+            "codigo": "202592040003",
+            "ano": 2025,
+            "numero": "0003",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "ESPÍRITO SANTO (UF)",
+            "funcao": "Educação",
+            "subfuncao": "Ensino profissional",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202592040003"
+          },
+          {
+            "codigo": "202592040002",
+            "ano": 2025,
+            "numero": "0002",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "ESPÍRITO SANTO (UF)",
+            "funcao": "Comércio e serviços",
+            "subfuncao": "Promoção comercial",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202592040002"
+          },
+          {
+            "codigo": "202592040001",
+            "ano": 2025,
+            "numero": "0001",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Saúde",
+            "subfuncao": "Assistência hospitalar e ambulatorial",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202592040001"
+          },
+          {
+            "codigo": "202492040007",
+            "ano": 2024,
+            "numero": "0007",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "ESPÍRITO SANTO (UF)",
+            "funcao": "Segurança pública",
+            "subfuncao": "Policiamento",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202492040007"
+          },
+          {
+            "codigo": "202492040006",
+            "ano": 2024,
+            "numero": "0006",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "ESPÍRITO SANTO (UF)",
+            "funcao": "Educação",
+            "subfuncao": "Ensino profissional",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202492040006"
+          },
+          {
+            "codigo": "202492040005",
+            "ano": 2024,
+            "numero": "0005",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Assistência social",
+            "subfuncao": "Assistência comunitária",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202492040005"
+          },
+          {
+            "codigo": "202492040004",
+            "ano": 2024,
+            "numero": "0004",
+            "tipo": "Emenda Individual - Transferências Especiais",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Encargos especiais",
+            "subfuncao": "Outras transferências",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202492040004"
+          },
+          {
+            "codigo": "202492040003",
+            "ano": 2024,
+            "numero": "0003",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Agricultura",
+            "subfuncao": "Promoção da produção agropecuária",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202492040003"
+          },
+          {
+            "codigo": "202492040002",
+            "ano": 2024,
+            "numero": "0002",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Saúde",
+            "subfuncao": "Assistência hospitalar e ambulatorial",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202492040002"
+          },
+          {
+            "codigo": "202492040001",
+            "ano": 2024,
+            "numero": "0001",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Saúde",
+            "subfuncao": "Atenção básica",
+            "empenhado": null,
+            "liquidado": null,
+            "pago": null,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202492040001"
+          }
+        ]
       }
     }
   ]

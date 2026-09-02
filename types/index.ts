@@ -424,19 +424,23 @@ export interface ArquivoSenadores {
  * Tem `empenhado` E `pago` porque os dois contam historias diferentes
  * e so juntos descrevem o fato. Empenhar e reservar; pagar e o dinheiro
  * sair. Mostrar so um dos dois enganaria em qualquer direcao.
+ *
+ * Os dois sao `null` quando a fonte reprovou na conferencia. A
+ * contagem sobrevive: ela nao depende de valor, e os campos de texto
+ * da fonte nao vem corrompidos. Ver `Emendas.valoresPublicados`.
  */
 export interface EmendaAgrupada {
   nome: string;
   quantidade: number;
-  empenhado: number;
-  pago: number;
+  empenhado: number | null;
+  pago: number | null;
 }
 
 export interface EmendaPorAno {
   ano: number;
   quantidade: number;
-  empenhado: number;
-  pago: number;
+  empenhado: number | null;
+  pago: number | null;
 }
 
 /** Uma emenda, com o link para a pagina dela no portal. */
@@ -448,14 +452,21 @@ export interface EmendaIndividual {
   localidade: string | null;
   funcao: string | null;
   subfuncao: string | null;
-  empenhado: number;
-  liquidado: number;
-  pago: number;
+  empenhado: number | null;
+  liquidado: number | null;
+  pago: number | null;
   paginaOficial: string;
 }
 
 export interface Emendas {
   quantidade: number;
+  /**
+   * Falso quando a conferencia reprovou a fonte. A ficha entao mostra
+   * QUANTAS emendas, PARA ONDE e EM QUE AREA — que vem de campos de
+   * texto, estaveis — e nenhum valor em reais, com o link para o valor
+   * de cada emenda na pagina dela no portal.
+   */
+  valoresPublicados: boolean;
   totais: {
     empenhado: number;
     liquidado: number;
@@ -463,12 +474,14 @@ export interface Emendas {
     restosInscritos: number;
     restosCancelados: number;
     restosPagos: number;
-  };
+  } | null;
   porAno: EmendaPorAno[];
   porFuncao: EmendaAgrupada[];
   porLocalidade: EmendaAgrupada[];
   porTipo: EmendaAgrupada[];
-  maiores: EmendaIndividual[];
+  /** O recorte da lista, dito na tela: muda quando nao ha valor. */
+  criterioDaLista: string;
+  lista: EmendaIndividual[];
 }
 
 /**

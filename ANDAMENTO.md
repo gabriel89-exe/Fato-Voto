@@ -2,6 +2,9 @@
 
 ## Onde estamos
 
+> A lista curta e acionável do que resta está em [`O-QUE-FALTA.md`](O-QUE-FALTA.md).
+> Este arquivo guarda o raciocínio; aquele guarda a tarefa.
+
 O site saiu do protótipo. Em **27/08/2026** os dados fictícios de "Serra Verde"
 foram removidos e substituídos por dados públicos reais do **Espírito Santo**:
 575 candidaturas de 2026 (TSE) e o mandato dos 10 deputados federais do estado

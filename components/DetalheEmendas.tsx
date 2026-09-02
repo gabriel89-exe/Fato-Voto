@@ -26,13 +26,28 @@ import type {
  * Nada é adjetivado, nenhum valor recebe cor de alerta, e o link leva à
  * página daquela emenda no portal — não à lista de emendas.
  *
- * Três coisas específicas desta fonte pesam na tela:
+ * ==================================================================
+ * ESTA TELA TEM DOIS MODOS, E O MOTIVO É UM DEFEITO DA FONTE.
+ *
+ * A API do Portal da Transparência devolve valor monetário dividido por
+ * 10.000 em cerca de 9 de cada 10 leituras dos registros afetados. Os
+ * campos de TEXTO — código, ano, tipo, função, localidade — nunca vêm
+ * corrompidos: 30 emendas lidas três vezes cada em 02/09/2026, zero
+ * divergência.
+ *
+ * Então, quando a conferência reprova a fonte, a ficha mostra QUANTAS
+ * emendas, PARA ONDE foram e EM QUE ÁREA — e nenhum número em reais,
+ * com o link para o valor de cada uma na página dela no portal. Meia
+ * resposta verdadeira vale mais que uma resposta inteira e suspeita, e
+ * muito mais que silêncio.
+ *
+ * `valoresPublicados` é o que separa os dois modos.
+ * ==================================================================
+ *
+ * As outras três coisas que pesam na tela:
  *
  * 1. EMPENHADO NÃO É PAGO. Empenhar é reservar; pagar é o dinheiro
- *    sair. Publicar só o empenhado sugeriria dinheiro entregue que
- *    talvez não tenha saído; publicar só o pago esconderia o que foi
- *    destinado. Os dois aparecem sempre juntos, com a diferença dita
- *    em palavras.
+ *    sair. Quando há valor, os dois aparecem sempre juntos.
  *
  * 2. O TOTAL NÃO VAI SOZINHO. Vem ao lado da mediana e da faixa da
  *    bancada do mesmo cargo — deputado com deputado, senador com
@@ -41,19 +56,17 @@ import type {
  *
  * 3. AUSÊNCIA NÃO É OMISSÃO DA PESSOA. Deputado de primeiro mandato não
  *    tem emenda de 2023: o Orçamento daquele ano foi emendado em 2022,
- *    pela legislatura anterior. A tela diz isso, em vez de deixar o
- *    vazio parecer inércia. Ver regra 5.
- *
- * 4. FONTE REPROVADA NA CONFERÊNCIA NÃO VIRA NÚMERO. A coleta confere a
- *    API antes de publicar, e quando ela devolve valores que não batem
- *    entre si, a ficha diz isso — com o exemplo — em vez de mostrar um
- *    número que não se sustenta. É a regra 5 aplicada à própria fonte.
+ *    pela legislatura anterior. Ver regra 5.
  */
 
 /** Nome da localidade como a fonte publica, só com caixa legível. */
 function localidadeLegivel(nome: string): string {
   if (nome === "MÚLTIPLO") return "Vários municípios";
   return nome;
+}
+
+function contagem(n: number): string {
+  return `${fmtNumero(n)} ${n === 1 ? "emenda" : "emendas"}`;
 }
 
 export default function DetalheEmendas({
@@ -70,62 +83,9 @@ export default function DetalheEmendas({
   conferencia: ConferenciaDaFonte;
 }) {
   /*
-   * A fonte não passou na conferência. Nada dela vira número aqui —
-   * nem os valores que pareceriam certos, porque não há como saber
-   * quais estão certos. Ver o item 4 do cabeçalho.
-   */
-  if (!conferencia.aprovada) {
-    return (
-      <Alert>
-        <AlertTitle>
-          A fonte está devolvendo valores que não batem entre si
-        </AlertTitle>
-        <AlertDescription>
-          <p>
-            Antes de publicar, esta plataforma pergunta duas vezes à API do
-            Portal da Transparência e compara as respostas. Nesta coleta, as
-            duas não bateram em{" "}
-            <strong>{fmtNumero(conferencia.totalDeProblemas)}</strong> pontos —
-            a mesma emenda voltou com valores diferentes em consultas seguidas,
-            e há registro com valor pago maior que o empenhado, o que é
-            impossível.
-          </p>
-          {conferencia.problemas[0] ? (
-            <p className="mt-2">
-              Um exemplo, como saiu da fonte:{" "}
-              <span className="font-mono text-xs">
-                {conferencia.problemas[0]}
-              </span>
-            </p>
-          ) : null}
-          <p className="mt-2">
-            Por isso <strong>nenhum valor de emenda aparece nesta ficha</strong>.
-            Publicar um número que a própria fonte não confirma seria pior que
-            não publicar: ele iria para a tela ao lado de um selo de dado
-            oficial, sem nada avisando. A coleta roda todo dia e volta a
-            publicar assim que as duas consultas concordarem.
-          </p>
-          <p className="mt-2">
-            As emendas de {registro.nomeUrna} existem e são públicas — elas
-            estão no portal, que é a fonte primária.{" "}
-            <a
-              href="https://portaldatransparencia.gov.br/emendas/consulta"
-              rel="nofollow noopener"
-              className="inline-flex items-center gap-1"
-            >
-              Consultar no Portal da Transparência
-              <IconeLinkExterno />
-            </a>
-          </p>
-        </AlertDescription>
-      </Alert>
-    );
-  }
-
-  /*
    * Homônimo na fonte: dois autores com o mesmo nome e códigos de autor
-   * diferentes. A coleta se recusa a atribuir, e a tela explica — um
-   * número errado aqui seria pior que a ausência dele.
+   * diferentes. Aqui a dúvida não é sobre o valor, é sobre DE QUEM é a
+   * emenda — e sem isso nem a contagem se sustenta. Nada é mostrado.
    */
   if (registro.ambiguidadeDeHomonimo) {
     return (
@@ -137,8 +97,8 @@ export default function DetalheEmendas({
             <Termo id="emenda-parlamentar">emenda</Termo> pelo nome, e há mais
             de uma pessoa registrada como{" "}
             <strong>{registro.nomeAutorNaFonte}</strong>. Sem um identificador
-            que as separe, atribuir qualquer valor seria adivinhar — e este site
-            prefere dizer que não sabe.
+            que as separe, atribuir qualquer emenda seria adivinhar — e este
+            site prefere dizer que não sabe.
           </p>
         </AlertDescription>
       </Alert>
@@ -146,8 +106,8 @@ export default function DetalheEmendas({
   }
 
   const { emendas } = registro;
-  const { totais } = emendas;
-  const naoPago = totais.empenhado - totais.pago;
+  const totais = emendas.totais;
+  const comValores = emendas.valoresPublicados && totais !== null;
   const primeiroAno = emendas.porAno[0]?.ano;
   const faltamAnosNoComeco = primeiroAno != null && primeiroAno > anos[0];
 
@@ -170,73 +130,123 @@ export default function DetalheEmendas({
 
   return (
     <div className="space-y-10">
-      {/* ---------- Quanto, e comparado com o quê ---------- */}
+      {/* ---------- Quantas, e o que dá para dizer sobre elas ---------- */}
       <section>
         <p className="text-sm text-tinta-700">
           <Termo id="emenda-parlamentar">Emenda parlamentar</Termo> é a fatia do
-          Orçamento que cada parlamentar aponta para onde deve ser gasta. Abaixo
-          estão as {fmtNumero(emendas.quantidade)} emendas de autoria de{" "}
-          {registro.nomeUrna} entre {anos[0]} e {anos.at(-1)}.
+          Orçamento que cada parlamentar aponta para onde deve ser gasta.{" "}
+          {registro.nomeUrna} tem{" "}
+          <strong>{contagem(emendas.quantidade)}</strong> de autoria própria
+          entre {anos[0]} e {anos.at(-1)}.
         </p>
 
-        {/* Empenhado e pago lado a lado, e o total nunca sozinho:
-            sem o denominador da bancada, número maior parece pior ou
-            melhor. Ver docs/principios.md, regra 4. */}
-        <dl className="mt-4 grid gap-4 border-y border-tinta-300 py-4 sm:grid-cols-3">
-          <div>
-            <dt className="rotulo-meta">Empenhado no período</dt>
-            <dd className="mt-1 font-mono text-lg font-bold tabular-nums text-tinta-900">
-              {reais(totais.empenhado)}
-            </dd>
-          </div>
-          <div>
-            <dt className="rotulo-meta">Efetivamente pago</dt>
-            <dd className="mt-1 font-mono text-lg tabular-nums text-tinta-900">
-              {reais(totais.pago)}
-            </dd>
-          </div>
-          {referencia ? (
-            <div>
-              <dt className="rotulo-meta">
-                Mediana empenhada da bancada ({referencia.bancada}{" "}
-                {registro.cargo === "Senador" ? "senadores" : "deputados"} do ES)
-              </dt>
-              <dd className="mt-1 font-mono text-lg tabular-nums text-tinta-700">
-                {reais(referencia.medianaEmpenhado)}
-              </dd>
-            </div>
-          ) : null}
-        </dl>
+        {comValores && totais ? (
+          <>
+            {/* Empenhado e pago lado a lado, e o total nunca sozinho:
+                sem o denominador da bancada, número maior parece pior ou
+                melhor. Ver docs/principios.md, regra 4. */}
+            <dl className="mt-4 grid gap-4 border-y border-tinta-300 py-4 sm:grid-cols-3">
+              <div>
+                <dt className="rotulo-meta">Empenhado no período</dt>
+                <dd className="mt-1 font-mono text-lg font-bold tabular-nums text-tinta-900">
+                  {reais(totais.empenhado)}
+                </dd>
+              </div>
+              <div>
+                <dt className="rotulo-meta">Efetivamente pago</dt>
+                <dd className="mt-1 font-mono text-lg tabular-nums text-tinta-900">
+                  {reais(totais.pago)}
+                </dd>
+              </div>
+              {referencia ? (
+                <div>
+                  <dt className="rotulo-meta">
+                    Mediana empenhada da bancada ({referencia.bancada}{" "}
+                    {registro.cargo === "Senador" ? "senadores" : "deputados"} do
+                    ES)
+                  </dt>
+                  <dd className="mt-1 font-mono text-lg tabular-nums text-tinta-700">
+                    {reais(referencia.medianaEmpenhado)}
+                  </dd>
+                </div>
+              ) : null}
+            </dl>
 
-        {referencia ? (
-          <p className="mt-2 text-xs text-tinta-600">
-            A faixa da bancada vai de {reais(referencia.menor)} a{" "}
-            {reais(referencia.maior)} empenhados no mesmo período. A mediana e a
-            faixa estão aqui de propósito: um valor sozinho não diz se é alto ou
-            baixo, e esta plataforma não classifica ninguém. A comparação é
-            entre {registro.cargo === "Senador" ? "senadores" : "deputados"}{" "}
-            porque a cota de emenda dos dois cargos tem tamanho diferente.
-            {referencia.bancada <= 3 ? (
-              <>
-                {" "}
-                Com {referencia.bancada} no cargo, a mediana é literalmente o
-                valor do meio entre eles — denominador estreito, e vale saber
-                disso ao ler.
-              </>
+            {referencia ? (
+              <p className="mt-2 text-xs text-tinta-600">
+                A faixa da bancada vai de {reais(referencia.menor)} a{" "}
+                {reais(referencia.maior)} empenhados no mesmo período. A mediana
+                e a faixa estão aqui de propósito: um valor sozinho não diz se é
+                alto ou baixo, e esta plataforma não classifica ninguém. A
+                comparação é entre{" "}
+                {registro.cargo === "Senador" ? "senadores" : "deputados"}{" "}
+                porque a cota de emenda dos dois cargos tem tamanho diferente.
+                {referencia.bancada <= 3 ? (
+                  <>
+                    {" "}
+                    Com {referencia.bancada} no cargo, a mediana é literalmente
+                    o valor do meio entre eles — denominador estreito, e vale
+                    saber disso ao ler.
+                  </>
+                ) : null}
+              </p>
             ) : null}
-          </p>
-        ) : null}
 
-        {/* Empenhar não é pagar. É a leitura que mais muda de sentido
-            quando falta, e por isso vem em texto, não em rodapé. */}
-        <p className="mt-4 text-sm text-tinta-700">
-          <strong>Empenhar é reservar o dinheiro; pagar é o dinheiro sair.</strong>{" "}
-          Dos {reais(totais.empenhado)} empenhados, {reais(totais.pago)} foram
-          pagos — uma diferença de {reais(naoPago)}. Parte dela pode ainda virar{" "}
-          pagamento nos próximos anos, como <em>restos a pagar</em>; parte pode
-          nunca sair. O portal registra {reais(totais.restosInscritos)} inscritos
-          em restos a pagar e {reais(totais.restosPagos)} já pagos por essa via.
-        </p>
+            <p className="mt-4 text-sm text-tinta-700">
+              <strong>
+                Empenhar é reservar o dinheiro; pagar é o dinheiro sair.
+              </strong>{" "}
+              Dos {reais(totais.empenhado)} empenhados, {reais(totais.pago)}{" "}
+              foram pagos — uma diferença de{" "}
+              {reais(totais.empenhado - totais.pago)}. Parte dela pode ainda
+              virar pagamento nos próximos anos, como <em>restos a pagar</em>;
+              parte pode nunca sair. O portal registra{" "}
+              {reais(totais.restosInscritos)} inscritos em restos a pagar e{" "}
+              {reais(totais.restosPagos)} já pagos por essa via.
+            </p>
+          </>
+        ) : (
+          /*
+           * Modo sem valor. O aviso vem ANTES dos gráficos, não depois:
+           * quem lê precisa saber o que está faltando antes de
+           * interpretar o que está ali.
+           */
+          <Alert className="mt-4">
+            <AlertTitle>
+              O valor em reais não aparece aqui — e o motivo é a fonte
+            </AlertTitle>
+            <AlertDescription>
+              <p>
+                A API do Portal da Transparência está devolvendo valores que não
+                batem entre si: a mesma emenda volta com números diferentes em
+                consultas seguidas. Nesta coleta foram{" "}
+                <strong>{fmtNumero(conferencia.totalDeProblemas)}</strong>{" "}
+                divergências.
+              </p>
+              {conferencia.problemas[0] ? (
+                <p className="mt-2">
+                  Um exemplo, como saiu da fonte:{" "}
+                  <span className="font-mono text-xs">
+                    {conferencia.problemas[0]}
+                  </span>
+                </p>
+              ) : null}
+              <p className="mt-2">
+                <strong>
+                  O resto do que a fonte diz sobre estas emendas continua de pé.
+                </strong>{" "}
+                Quantas são, para quais municípios foram e em que áreas — isso
+                vem de campos de texto, que a fonte não corrompe, e está abaixo.
+                O valor de cada emenda está na página dela no portal, no link de
+                cada linha da tabela.
+              </p>
+              <p className="mt-2">
+                Esta plataforma volta a publicar os valores sozinha no dia em
+                que duas consultas seguidas concordarem.
+              </p>
+            </AlertDescription>
+          </Alert>
+        )}
       </section>
 
       {/* ---------- Para onde foi ---------- */}
@@ -249,12 +259,14 @@ export default function DetalheEmendas({
         </p>
         <div className="mt-5">
           <GraficoBarras
-            legenda={`Emendas de ${registro.nomeUrna} por localidade do gasto, em valor empenhado`}
-            formatar={reais}
+            legenda={`Emendas de ${registro.nomeUrna} por localidade do gasto`}
+            formatar={comValores ? reais : contagem}
             itens={emendas.porLocalidade.slice(0, 12).map((l) => ({
               rotulo: localidadeLegivel(l.nome),
-              valor: l.empenhado,
-              detalhe: `${fmtNumero(l.quantidade)} ${l.quantidade === 1 ? "emenda" : "emendas"} · ${reais(l.pago)} pagos`,
+              valor: comValores ? (l.empenhado ?? 0) : l.quantidade,
+              detalhe: comValores
+                ? `${contagem(l.quantidade)} · ${reais(l.pago ?? 0)} pagos`
+                : undefined,
             }))}
           />
         </div>
@@ -271,12 +283,14 @@ export default function DetalheEmendas({
         </p>
         <div className="mt-5">
           <GraficoBarras
-            legenda={`Emendas de ${registro.nomeUrna} por área, em valor empenhado`}
-            formatar={reais}
+            legenda={`Emendas de ${registro.nomeUrna} por área`}
+            formatar={comValores ? reais : contagem}
             itens={emendas.porFuncao.slice(0, 12).map((f) => ({
               rotulo: f.nome,
-              valor: f.empenhado,
-              detalhe: `${fmtNumero(f.quantidade)} ${f.quantidade === 1 ? "emenda" : "emendas"} · ${reais(f.pago)} pagos`,
+              valor: comValores ? (f.empenhado ?? 0) : f.quantidade,
+              detalhe: comValores
+                ? `${contagem(f.quantidade)} · ${reais(f.pago ?? 0)} pagos`
+                : undefined,
             }))}
           />
         </div>
@@ -291,8 +305,12 @@ export default function DetalheEmendas({
               <TableRow>
                 <TableHead>Ano</TableHead>
                 <TableHead className="text-right">Emendas</TableHead>
-                <TableHead className="text-right">Empenhado</TableHead>
-                <TableHead className="text-right">Pago</TableHead>
+                {comValores ? (
+                  <>
+                    <TableHead className="text-right">Empenhado</TableHead>
+                    <TableHead className="text-right">Pago</TableHead>
+                  </>
+                ) : null}
               </TableRow>
             </TableHeader>
             <TableBody>
@@ -305,12 +323,16 @@ export default function DetalheEmendas({
                   <TableCellNumero rotulo="Emendas">
                     {fmtNumero(a.quantidade)}
                   </TableCellNumero>
-                  <TableCellNumero rotulo="Empenhado">
-                    {reais(a.empenhado)}
-                  </TableCellNumero>
-                  <TableCellNumero rotulo="Pago">
-                    {reais(a.pago)}
-                  </TableCellNumero>
+                  {comValores ? (
+                    <>
+                      <TableCellNumero rotulo="Empenhado">
+                        {reais(a.empenhado ?? 0)}
+                      </TableCellNumero>
+                      <TableCellNumero rotulo="Pago">
+                        {reais(a.pago ?? 0)}
+                      </TableCellNumero>
+                    </>
+                  ) : null}
                 </TableRow>
               ))}
             </TableBody>
@@ -327,21 +349,27 @@ export default function DetalheEmendas({
               : `de ${anos[0]} a ${primeiroAno - 1}`}{" "}
             nesta lista. O Orçamento de um ano é emendado no ano anterior: quem
             assumiu o mandato em {anos[0]} não participou da elaboração do
-            Orçamento de {anos[0]}. A ausência é do calendário orçamentário,
-            não da pessoa.
+            Orçamento de {anos[0]}. A ausência é do calendário orçamentário, não
+            da pessoa.
           </p>
         ) : null}
       </section>
 
-      {/* ---------- As maiores ---------- */}
+      {/* ---------- A lista ---------- */}
       <section>
         <h4 className="text-base font-bold text-tinta-950">
-          As {emendas.maiores.length} maiores emendas
+          {comValores
+            ? `As ${emendas.lista.length} maiores emendas`
+            : "Emendas, uma a uma"}
         </h4>
         <p className="mt-1 text-sm text-tinta-600">
-          Ordenadas por valor empenhado, com o link para a página de cada uma no
-          portal. É lá que estão o programa, a ação orçamentária e os documentos
-          de execução.
+          Recorte: {emendas.criterioDaLista}
+          {emendas.quantidade > emendas.lista.length
+            ? `, de ${contagem(emendas.quantidade)} no período`
+            : ""}
+          . Cada linha leva à página daquela emenda no portal — é lá que estão o
+          programa, a ação orçamentária, os documentos de execução
+          {comValores ? "" : " e o valor"}.
         </p>
 
         <div className="mt-4">
@@ -351,13 +379,17 @@ export default function DetalheEmendas({
                 <TableHead>Área</TableHead>
                 <TableHead>Ano</TableHead>
                 <TableHead>Localidade</TableHead>
-                <TableHead className="text-right">Empenhado</TableHead>
-                <TableHead className="text-right">Pago</TableHead>
+                {comValores ? (
+                  <>
+                    <TableHead className="text-right">Empenhado</TableHead>
+                    <TableHead className="text-right">Pago</TableHead>
+                  </>
+                ) : null}
                 <TableHead>No portal</TableHead>
               </TableRow>
             </TableHeader>
             <TableBody>
-              {emendas.maiores.map((e) => (
+              {emendas.lista.map((e) => (
                 <TableRow key={e.codigo}>
                   {/* Sem rótulo: no celular a área abre a ficha. */}
                   <TableCell>
@@ -376,19 +408,23 @@ export default function DetalheEmendas({
                   <TableCell rotulo="Localidade">
                     {e.localidade ? localidadeLegivel(e.localidade) : "—"}
                   </TableCell>
-                  <TableCellNumero rotulo="Empenhado">
-                    {reais(e.empenhado)}
-                  </TableCellNumero>
-                  <TableCellNumero rotulo="Pago">
-                    {reais(e.pago)}
-                  </TableCellNumero>
-                  <TableCell rotulo="No portal">
+                  {comValores ? (
+                    <>
+                      <TableCellNumero rotulo="Empenhado">
+                        {reais(e.empenhado ?? 0)}
+                      </TableCellNumero>
+                      <TableCellNumero rotulo="Pago">
+                        {reais(e.pago ?? 0)}
+                      </TableCellNumero>
+                    </>
+                  ) : null}
+                  <TableCell rotulo={comValores ? "No portal" : "Valor"}>
                     <a
                       href={e.paginaOficial}
                       rel="nofollow noopener"
                       className="inline-flex items-center gap-1 whitespace-nowrap text-sm"
                     >
-                      Emenda {e.codigo}
+                      {comValores ? `Emenda ${e.codigo}` : "Ver valor no portal"}
                       <IconeLinkExterno />
                     </a>
                   </TableCell>
@@ -413,8 +449,8 @@ export default function DetalheEmendas({
           <p className="mt-2">
             O portal também não diz o que foi comprado com o dinheiro. Ele
             registra a quem o recurso foi destinado, em que área e em que fase
-            da execução está. O que cada município fez com o repasse é
-            prestação de contas de outro órgão.
+            da execução está. O que cada município fez com o repasse é prestação
+            de contas de outro órgão.
           </p>
           {registro.foraDoPeriodo > 0 ? (
             <p className="mt-2">
