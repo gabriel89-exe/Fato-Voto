@@ -1,5 +1,6 @@
 import candidaturasJson from "@/data/es/candidaturas-2026.json";
 import parlamentaresJson from "@/data/es/deputados-federais.json";
+import emendasEstaduaisJson from "@/data/es/emendas-estaduais.json";
 import emendasJson from "@/data/es/emendas.json";
 import senadoresJson from "@/data/es/senadores.json";
 import votacoesJson from "@/data/es/votacoes-camara.json";
@@ -7,12 +8,14 @@ import { CARGOS } from "@/types";
 import type {
   ArquivoCandidaturas,
   ArquivoEmendas,
+  ArquivoEmendasEstaduais,
   ArquivoParlamentares,
   ArquivoSenadores,
   ArquivoVotacoes,
   Candidatura,
   Cargo,
   EmendasDoParlamentar,
+  EmendasEstaduaisDoCandidato,
   Parlamentar,
   ReferenciaEmendas,
   Senador,
@@ -35,6 +38,8 @@ const arquivoParlamentares =
 const arquivoSenadores = senadoresJson as unknown as ArquivoSenadores;
 const arquivoVotacoes = votacoesJson as unknown as ArquivoVotacoes;
 const arquivoEmendas = emendasJson as unknown as ArquivoEmendas;
+const arquivoEmendasEstaduais =
+  emendasEstaduaisJson as unknown as ArquivoEmendasEstaduais;
 
 export const candidaturas = arquivoCandidaturas.candidaturas;
 export const parlamentares = arquivoParlamentares.parlamentares;
@@ -64,6 +69,14 @@ export const RECORTE_EMENDAS = arquivoEmendas.recorte;
  * scripts/coleta/transparencia.mjs.
  */
 export const CONFERENCIA_EMENDAS = arquivoEmendas.conferencia;
+
+export const FONTE_EMENDAS_ESTADUAIS = arquivoEmendasEstaduais.fonte;
+export const COLETADO_EM_EMENDAS_ESTADUAIS = arquivoEmendasEstaduais.coletadoEm;
+export const ANOS_EMENDAS_ESTADUAIS = arquivoEmendasEstaduais.anos;
+export const RECORTE_EMENDAS_ESTADUAIS = arquivoEmendasEstaduais.recorte;
+export const CONFERENCIA_EMENDAS_ESTADUAIS = arquivoEmendasEstaduais.conferencia;
+/** Mediana e faixa da bancada estadual. Regra 4: total nunca vai sozinho. */
+export const REFERENCIA_EMENDAS_ESTADUAIS = arquivoEmendasEstaduais.referencia;
 
 export const ESTADO = { nome: "Espírito Santo", sigla: "ES" };
 
@@ -158,6 +171,25 @@ export function emendasDoMandato(
  */
 export function referenciaEmendas(cargo: string): ReferenciaEmendas | null {
   return arquivoEmendas.referencias[cargo] ?? null;
+}
+
+/**
+ * As emendas ESTADUAIS desta candidatura, ou `null` quando nao ha.
+ *
+ * A chave e o id da propria candidatura: a ALES nao tem fonte de
+ * bancada coletavel, entao o casamento por nome foi feito na coleta,
+ * com codigo de autor e desistencia em qualquer ambiguidade. Refazer o
+ * casamento aqui so criaria uma segunda chance de errar. Ver
+ * scripts/coleta/emendas-estaduais.mjs.
+ */
+export function emendasEstaduaisDaCandidatura(
+  idCandidatura: string,
+): EmendasEstaduaisDoCandidato | null {
+  return (
+    arquivoEmendasEstaduais.parlamentares.find(
+      (p) => p.idCandidatura === idCandidatura,
+    ) ?? null
+  );
 }
 
 /**

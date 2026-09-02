@@ -4,6 +4,7 @@ import AvatarCandidato from "@/components/AvatarCandidato";
 import DadoOficial from "@/components/DadoOficial";
 import DetalheDespesas from "@/components/DetalheDespesas";
 import DetalheEmendas from "@/components/DetalheEmendas";
+import DetalheEmendasEstaduais from "@/components/DetalheEmendasEstaduais";
 import Termo from "@/components/Termo";
 import { GraficoComposicao, GraficoEvolucao } from "@/components/graficos";
 import { IconeLinkExterno, IconeSeta } from "@/components/icones";
@@ -24,18 +25,23 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import Votacoes from "@/components/Votacoes";
 import {
   ANOS_EMENDAS,
+  ANOS_EMENDAS_ESTADUAIS,
   candidaturas,
   COLETADO_EM,
   COLETADO_EM_CAMARA,
   COLETADO_EM_EMENDAS,
+  COLETADO_EM_EMENDAS_ESTADUAIS,
   CONFERENCIA_EMENDAS,
+  CONFERENCIA_EMENDAS_ESTADUAIS,
   COLETADO_EM_SENADO,
   COLETADO_EM_VOTACOES,
   CRITERIO_VOTACOES,
   ELEICAO,
   emendasDoMandato,
+  emendasEstaduaisDaCandidatura,
   ESTADO,
   FONTE_CAMARA,
+  FONTE_EMENDAS_ESTADUAIS,
   FONTE_SENADO,
   FONTE_TRANSPARENCIA,
   FONTE_TSE,
@@ -45,6 +51,8 @@ import {
   obterMandatoSenado,
   QUANTAS_VOTACOES,
   RECORTE_EMENDAS,
+  RECORTE_EMENDAS_ESTADUAIS,
+  REFERENCIA_EMENDAS_ESTADUAIS,
   referenciaBancada,
   referenciaEmendas,
   traduzirVotoSenado,
@@ -101,6 +109,16 @@ export default async function PaginaCandidato({
   const emendasDeSenado = mandatoSenado
     ? emendasDoMandato(mandatoSenado.id)
     : null;
+
+  /*
+   * Mandato estadual: a ALES não tem fonte de bancada coletável, então
+   * o que existe é o que a SEFAZ prova — as emendas que a pessoa
+   * assinou como deputada estadual na legislatura atual. O casamento
+   * por nome, com código de autor e desistência em ambiguidade, foi
+   * feito na coleta. Ver scripts/coleta/emendas-estaduais.mjs.
+   */
+  const emendasEstaduais =
+    !mandato && !mandatoSenado ? emendasEstaduaisDaCandidatura(c.id) : null;
   const idade = c.dataNascimento ? idadeEm(c.dataNascimento) : null;
 
   return (
@@ -181,7 +199,7 @@ export default async function PaginaCandidato({
               <TabsTrigger value="proposta">Proposta</TabsTrigger>
               <TabsTrigger value="bens">Bens</TabsTrigger>
               <TabsTrigger value="historico">Histórico</TabsTrigger>
-              {mandato || mandatoSenado ? (
+              {mandato || mandatoSenado || emendasEstaduais ? (
                 <TabsTrigger value="mandato">Mandato</TabsTrigger>
               ) : null}
             </TabsList>
@@ -794,6 +812,58 @@ export default async function PaginaCandidato({
                     />
                   </DadoOficial>
                 ) : null}
+              </TabsContent>
+            ) : null}
+
+            {/* ---------- Mandato estadual (só quando há) ---------- */}
+            {emendasEstaduais ? (
+              <TabsContent value="mandato">
+                <DadoOficial
+                  titulo={`Emendas de deputado estadual — ${ANOS_EMENDAS_ESTADUAIS[0]} a ${ANOS_EMENDAS_ESTADUAIS[ANOS_EMENDAS_ESTADUAIS.length - 1]}`}
+                  fonte={FONTE_EMENDAS_ESTADUAIS.nome}
+                  coletadoEm={COLETADO_EM_EMENDAS_ESTADUAIS}
+                  urlOriginal={FONTE_EMENDAS_ESTADUAIS.url}
+                >
+                  <p className="text-sm text-tinta-700">
+                    {c.nomeUrna} destinou emendas ao Orçamento do estado como{" "}
+                    <strong>deputado estadual</strong> na legislatura atual da
+                    Assembleia Legislativa (2023–2027)
+                    {c.cargo !== "Deputado Estadual"
+                      ? ` e disputa agora o cargo de ${c.cargo}. Os dados abaixo são do mandato estadual, não da candidatura`
+                      : ""}
+                    .
+                  </p>
+
+                  <div className="mt-5">
+                    <DetalheEmendasEstaduais
+                      registro={emendasEstaduais}
+                      referencia={REFERENCIA_EMENDAS_ESTADUAIS}
+                      anos={ANOS_EMENDAS_ESTADUAIS}
+                      recorte={RECORTE_EMENDAS_ESTADUAIS}
+                      conferencia={CONFERENCIA_EMENDAS_ESTADUAIS}
+                      fonte={FONTE_EMENDAS_ESTADUAIS}
+                    />
+                  </div>
+                </DadoOficial>
+
+                {/*
+                  Regra 5: o que NÃO está aqui, dito com o motivo. Sem
+                  este aviso, uma aba só de emendas seria lida como "só
+                  fez emendas" — e a lacuna é da fonte, não da pessoa.
+                */}
+                <Alert className="mt-6">
+                  <AlertTitle>
+                    Votações, presença e projetos não disponíveis
+                  </AlertTitle>
+                  <AlertDescription>
+                    A Assembleia Legislativa do Espírito Santo não publica a
+                    atuação em plenário — votações nominais, presença e
+                    produção legislativa — em formato aberto que possamos
+                    coletar e conferir. Por isso esta aba mostra menos que a de
+                    um deputado federal: a diferença é das fontes, não das
+                    pessoas.
+                  </AlertDescription>
+                </Alert>
               </TabsContent>
             ) : null}
           </Tabs>

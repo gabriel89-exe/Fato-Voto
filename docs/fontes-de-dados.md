@@ -18,8 +18,9 @@ lugar errado com confiança.
 | TSE — Dados Abertos | Os mesmos dados, em lote (ZIP/CSV) | Não testado |
 | Câmara dos Deputados | Mandato federal: votações, despesas, proposições | Sim, livre |
 | Senado Federal | Mandato: autorias e mandatos | Sim, livre |
-| Portal da Transparência | Emendas parlamentares | Sim, **exige token** — obtido em 01/09/2026 |
-| ALES (Assembleia do ES) | Mandato estadual | Não há API |
+| Portal da Transparência | Emendas parlamentares federais | Sim, **exige token** — obtido em 01/09/2026 |
+| SEFAZ-ES (dados.es.gov.br) | Emendas parlamentares **estaduais** | Sim, livre — CSVs via CKAN |
+| ALES (Assembleia do ES) | Atuação em plenário (votações, presença, projetos) | Não há API |
 
 ---
 
@@ -358,15 +359,58 @@ roda uma vez por dia.
 
 ---
 
+## SEFAZ-ES — Emendas parlamentares estaduais (dados.es.gov.br)
+
+`https://dados.es.gov.br/dataset/portal-da-transparencia-emendas-parlamentares-do-estado`
+
+**Descoberta em 02/09/2026, quando este arquivo ainda dizia que não havia
+fonte para deputado estadual.** Havia — só que na SEFAZ, não na ALES: emenda
+estadual é executada pelo governo do estado, e quem publica a execução é a
+Fazenda, no catálogo CKAN estadual. O erro foi procurar o dado na casa
+legislativa.
+
+O que entrega: um CSV por ano da LOA (2021 a 2026), com **`CodAutor`
+numérico** ao lado do nome — o identificador que o Portal da Transparência
+federal não tem —, valores previsto/empenhado/liquidado/pago/RAP, função,
+município, tipo e o texto da finalidade. Atualizado pelo estado com a execução
+em andamento (os arquivos de 2026 mudaram no próprio dia da descoberta).
+
+As armadilhas, todas tratadas em `scripts/coleta/emendas-estaduais.mjs`:
+
+- **Uma linha não é uma emenda.** O arquivo tem uma linha por instrumento de
+  execução; `ValorPrevisto` repete em cada linha da mesma emenda, os demais
+  valores se somam. Contar linhas, ou somar o previsto repetido, publicaria
+  número errado com cara de certo.
+- **A função orçamentária é da execução, não da emenda** — 86 emendas da
+  janela executam em mais de uma área.
+- **`CpfCnpjNis` pode trazer CPF/NIS** (11 dígitos, pessoa física). A coleta
+  descarta antes de qualquer gravação, como já faz com o CPF do TSE. CNPJ
+  fica.
+- **Não há página por emenda** no portal estadual. O link de procedência leva
+  ao dataset, e as telas dizem isso — exceção declarada à regra 6.
+- **A licença declarada no catálogo é Creative Commons Não Comercial.** Uso
+  aqui é não comercial e cabe; um fork comercial precisaria reavaliar.
+- **A LOA 2023 é da legislatura anterior** (emendada em 2022): 16 dos 30
+  autores dela nem estão mais na ALES. A coleta só atribui a quem assina
+  emenda em LOA emendada durante o mandato atual (2024–2026).
+
+Acesso do runner do GitHub Actions confirmado em 02/09/2026 por sonda
+dedicada (workflow temporário, branch descartado).
+
+---
+
 ## ALES — Assembleia Legislativa do Espírito Santo
 
 `https://www.al.es.gov.br/Transparencia/DadosAbertos`
 
-O ponto mais incerto do piloto. Tem portal de dados abertos e de transparência,
-com frequência em plenário e verba de gabinete, e o ALES Digital tem a base de
-produção legislativa. Mas **não há API documentada** — provavelmente exige
-raspagem de HTML/CSV.
+O que resta da lacuna estadual depois da SEFAZ: **a atuação em plenário** —
+votações nominais, presença e produção legislativa. Tem portal de dados
+abertos e de transparência, e o ALES Digital tem a base de produção
+legislativa. Mas **não há API documentada** — provavelmente exige raspagem de
+HTML/CSV. Em 02/09/2026 o site nem respondia a partir desta máquina (respondeu
+ao runner dos EUA na mesma hora — instabilidade, não bloqueio geográfico).
 
 Enquanto isso não estiver de pé, deputado estadual tem candidatura, bens e
-proposta de governo (pelo TSE), mas não histórico de atuação. **A lacuna precisa
-estar declarada na ficha**, senão o vazio é lido como "não fez nada".
+proposta (TSE) e emendas (SEFAZ), mas não atuação em plenário. **A lacuna
+está declarada na ficha**, na própria aba de mandato estadual, senão o vazio
+é lido como "não fez nada".

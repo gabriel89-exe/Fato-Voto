@@ -12,16 +12,20 @@ import {
 } from "@/components/ui/table";
 import {
   ANOS_EMENDAS,
+  ANOS_EMENDAS_ESTADUAIS,
   candidaturas,
   COLETADO_EM,
   COLETADO_EM_CAMARA,
   COLETADO_EM_EMENDAS,
+  COLETADO_EM_EMENDAS_ESTADUAIS,
   CONFERENCIA_EMENDAS,
+  CONFERENCIA_EMENDAS_ESTADUAIS,
   COLETADO_EM_SENADO,
   contarPorCargo,
   ELEICAO,
   ESTADO,
   FONTE_CAMARA,
+  FONTE_EMENDAS_ESTADUAIS,
   FONTE_SENADO,
   FONTE_TRANSPARENCIA,
   FONTE_TSE,
@@ -53,11 +57,17 @@ export default function PaginaFontes() {
   );
 
   /** O que existe hoje, por cargo. A coluna de mandato é a lacuna. */
+  const mandatoDe = (cargo: string): string | null => {
+    if (cargo === "Deputado Federal") return "Sim — Câmara";
+    if (cargo === "Senador") return "Sim — Senado";
+    if (cargo === "Deputado Estadual") return "Emendas — SEFAZ";
+    return null;
+  };
   const cobertura = CARGOS.map((cargo) => ({
     cargo,
     candidaturas: totalDe(cargo),
     proposta: cargo === "Presidente" || cargo === "Governador",
-    mandato: cargo === "Deputado Federal",
+    mandato: mandatoDe(cargo),
   }));
 
   return (
@@ -132,9 +142,7 @@ export default function PaginaFontes() {
                       )}
                     </TableCell>
                     <TableCell rotulo="Histórico de mandato">
-                      {linha.mandato ? (
-                        "Sim — Câmara"
-                      ) : (
+                      {linha.mandato ?? (
                         <span className="text-tinta-500">Ainda não temos</span>
                       )}
                     </TableCell>
@@ -314,6 +322,56 @@ export default function PaginaFontes() {
                 </a>
               </p>
             </div>
+
+            <div className="painel p-5">
+              <div className="flex flex-wrap items-center gap-3">
+                <Badge variant="oficial">Dado oficial</Badge>
+                <h3 className="text-lg font-bold">
+                  {FONTE_EMENDAS_ESTADUAIS.nome}
+                </h3>
+              </div>
+              <p className="mt-3 text-sm text-tinta-700">
+                Emendas ao Orçamento do estado, de{" "}
+                {ANOS_EMENDAS_ESTADUAIS[0]} a{" "}
+                {ANOS_EMENDAS_ESTADUAIS[ANOS_EMENDAS_ESTADUAIS.length - 1]}:
+                quanto cada deputado estadual destinou, para onde e em que fase
+                da execução está. Vem do catálogo de dados abertos do governo do
+                estado, em arquivos por ano publicados pela Fazenda — sem
+                credencial. Não há página por emenda no portal estadual, então o
+                link de procedência leva ao arquivo oficial, e as fichas dizem
+                isso.
+              </p>
+              <dl className="mt-4 grid gap-2 text-sm sm:grid-cols-2">
+                <div>
+                  <dt className="rotulo-meta">Coletado em</dt>
+                  <dd className="mt-0.5">
+                    {dataPorExtenso(COLETADO_EM_EMENDAS_ESTADUAIS)}
+                  </dd>
+                </div>
+                <div>
+                  <dt className="rotulo-meta">Licença</dt>
+                  <dd className="mt-0.5">{FONTE_EMENDAS_ESTADUAIS.licenca}</dd>
+                </div>
+              </dl>
+              {/* Mesma regra da fonte federal: se a conferência reprovar,
+                  a suspensão dos valores se declara aqui também. */}
+              {CONFERENCIA_EMENDAS_ESTADUAIS.aprovada ? null : (
+                <p className="mt-3 border-l-4 border-tinta-300 pl-3 text-sm text-tinta-700">
+                  <strong>Os valores desta fonte estão suspensos.</strong> A
+                  conferência automática encontrou{" "}
+                  {fmtNumero(CONFERENCIA_EMENDAS_ESTADUAIS.totalDeProblemas)}{" "}
+                  inconsistências nos arquivos, e valor que não confere não é
+                  publicado. As fichas mostram quantas emendas, para onde e em
+                  que áreas; os valores voltam sozinhos quando a fonte voltar a
+                  conferir.
+                </p>
+              )}
+              <p className="mt-3 text-sm">
+                <a href={FONTE_EMENDAS_ESTADUAIS.url} rel="nofollow noopener">
+                  Ir à fonte
+                </a>
+              </p>
+            </div>
           </div>
         </section>
 
@@ -331,9 +389,9 @@ export default function PaginaFontes() {
                   "Emenda coletiva move dinheiro e não tem autor individual na fonte: ela não entra na soma de pessoa nenhuma, nem aqui. Mostrar isso exige uma tela que descreva a bancada do estado, e não a pessoa candidata.",
               },
               {
-                titulo: "Atuação de deputado estadual",
+                titulo: "Atuação de deputado estadual em plenário",
                 texto:
-                  "Votações, presença e projetos na Assembleia Legislativa do Espírito Santo. A Assembleia não publica esses dados em formato aberto, e a coleta ainda está sendo estudada.",
+                  "As emendas estaduais já estão nas fichas, pela SEFAZ. O que segue faltando é a atuação na Assembleia Legislativa — votações nominais, presença e projetos —, que a ALES não publica em formato aberto que possamos coletar e conferir.",
               },
               {
                 titulo: "Execução orçamentária estadual",

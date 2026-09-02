@@ -547,3 +547,85 @@ export interface ArquivoEmendas {
   referencias: Record<string, ReferenciaEmendas>;
   parlamentares: EmendasDoParlamentar[];
 }
+
+/* ------------------------------------------------------------------ */
+/*  Emendas parlamentares ESTADUAIS — SEFAZ-ES (dados.es.gov.br)       */
+/* ------------------------------------------------------------------ */
+
+/**
+ * Uma emenda ao Orcamento do estado, ja agregada: o arquivo da SEFAZ
+ * tem uma linha por instrumento de execucao, e a coleta soma. Nao ha
+ * pagina propria por emenda no portal estadual — o link de procedencia
+ * e o do dataset, no nivel do arquivo.
+ *
+ * `funcao` pode trazer mais de uma area separada por " · ": a execucao
+ * de uma emenda pode se espalhar por areas, e escolher uma seria
+ * inferencia.
+ */
+export interface EmendaEstadualIndividual {
+  numero: string;
+  ano: number;
+  tipo: string | null;
+  localidade: string;
+  funcao: string | null;
+  /** O texto da finalidade, como consta da LOA. */
+  objeto: string | null;
+  previsto: number | null;
+  empenhado: number | null;
+  pago: number | null;
+}
+
+export interface EmendasEstaduais {
+  quantidade: number;
+  /** Mesmo contrato da fonte federal: falso = conferencia reprovou. */
+  valoresPublicados: boolean;
+  totais: {
+    previsto: number;
+    empenhado: number;
+    liquidado: number;
+    pago: number;
+    restosAPagar: number;
+  } | null;
+  porAno: EmendaPorAno[];
+  /**
+   * Por area o dinheiro e somado por linha de execucao e a quantidade
+   * conta emendas distintas que tocam a area — uma emenda pode contar
+   * em duas areas. A tela declara isso.
+   */
+  porFuncao: EmendaAgrupada[];
+  porLocalidade: EmendaAgrupada[];
+  porTipo: EmendaAgrupada[];
+  criterioDaLista: string;
+  lista: EmendaEstadualIndividual[];
+}
+
+/**
+ * As emendas estaduais de uma candidatura. A chave e o id da PROPRIA
+ * candidatura: a ALES nao tem fonte de bancada coletavel, entao o
+ * casamento nome-a-nome acontece na coleta, com desistencia em
+ * qualquer ambiguidade — nunca na tela.
+ */
+export interface EmendasEstaduaisDoCandidato {
+  idCandidatura: string;
+  cargoEmDisputa: string;
+  nomeUrna: string;
+  nomeAutorNaFonte: string;
+  codigoAutor: string;
+  /** Emendas do mesmo autor nas LOAs de 2021 e 2022. So a contagem. */
+  foraDoPeriodo: number;
+  emendas: EmendasEstaduais;
+}
+
+export interface ArquivoEmendasEstaduais {
+  fonte: Fonte;
+  uf: string;
+  anos: number[];
+  coletadoEm: string;
+  recorte: string;
+  conferencia: ConferenciaDaFonte;
+  /** Um cargo so: a mediana e a faixa da bancada estadual da janela. */
+  referencia: ReferenciaEmendas | null;
+  parlamentares: EmendasEstaduaisDoCandidato[];
+  /** Autores da janela que nao viraram ficha, com o motivo. */
+  semCasamento: { nomeAutorNaFonte: string; codigoAutor: string | null; motivo: string }[];
+}

@@ -15,6 +15,7 @@
     "coleta:tse:normalizar": "node scripts/coleta/tse-normalizar.mjs",
     "coleta:senado": "node scripts/coleta/senado.mjs",
     "coleta:transparencia": "node --env-file-if-exists=.env.local scripts/coleta/transparencia.mjs",
+    "coleta:emendas-estaduais": "node scripts/coleta/emendas-estaduais.mjs",
     "coleta:votacoes": "node scripts/coleta/votacoes.mjs"
   },
   "dependencies": {

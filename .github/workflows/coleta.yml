@@ -87,6 +87,15 @@ jobs:
           TRANSPARENCIA_TOKEN: ${{ secrets.TRANSPARENCIA_TOKEN }}
         run: npm run coleta:transparencia
 
+      # Emendas ESTADUAIS, da SEFAZ (dados.es.gov.br). Sem credencial.
+      # Depende do TSE ter rodado ANTES neste mesmo job? Não: o
+      # casamento lê data/es/candidaturas-2026.json do checkout, que já
+      # existe versionado — a coleta do dia só o atualiza. Acesso do
+      # runner à fonte foi confirmado em 02/09/2026 por sonda dedicada.
+      - name: SEFAZ — emendas estaduais
+        if: always()
+        run: npm run coleta:emendas-estaduais
+
       # Verifica que o site ainda compila com o dado novo. Se uma fonte
       # mudar de formato e quebrar a build, é melhor descobrir aqui do
       # que em produção — o commit não acontece.

@@ -115,9 +115,18 @@ decisões de fora do código, listadas logo abaixo.
       tipo e votações nominais de plenário nas duas casas. O recorte das
       votações é declarado na tela: as mais recentes com participação
       registrada, e não uma seleção do que consideramos importante.
-- [ ] **Atuação de deputado estadual** — a ALES não tem API. Maior incerteza,
-      e a que mais pesa: deixa o cargo com mais candidaturas sem aba de
-      mandato.
+- [x] **Emendas estaduais** — feito em 02/09/2026. A fonte que a documentação
+      dizia não existir existia: emenda estadual é executada pelo governo do
+      estado, e a SEFAZ publica tudo em CSV no CKAN estadual
+      (`dados.es.gov.br`), com código de autor, sem token e com valores
+      íntegros — a conferência aprovou. 29 fichas ganharam aba de Mandato
+      (22 candidatos à reeleição e 7 deputados estaduais disputando outro
+      cargo). Ver as decisões registradas abaixo e
+      `docs/fontes-de-dados.md`.
+- [ ] **Atuação de deputado estadual em plenário** — o que sobrou da lacuna
+      estadual: votações, presença e projetos. A ALES não tem API (e em
+      02/09/2026 o site nem respondia daqui). As fichas declaram a lacuna na
+      própria aba de mandato.
 - [ ] **Lacunas já visíveis nos dados atuais** — `bens` vem vazio em 195 das
       575 candidaturas e `eleicoesAnteriores` em 178. A omissão é da fonte; o
       que cabe conferir é se a ficha diz *por que* está vazio (regra 7 de
@@ -184,6 +193,49 @@ Nada disto muda comportamento, mas confunde quem chegar ao projeto:
       número fixo; ele muda a cada coleta.
 
 ## Decisões registradas
+
+**Emenda estadual vem da SEFAZ, não da ALES.** A documentação dizia que
+deputado estadual não tinha fonte porque procurava o dado na casa
+legislativa. Emenda é executada pelo Executivo, e quem publica a execução é a
+Fazenda: `dados.es.gov.br`, um CSV por LOA (2021–2026), com `CodAutor`
+numérico — o identificador que a fonte federal não tem. A licença declarada
+no catálogo é CC Não Comercial; o uso aqui cabe, e um fork comercial
+precisaria reavaliar.
+
+**No arquivo da SEFAZ, uma linha não é uma emenda.** Uma linha por
+instrumento de execução: 1.731 linhas eram 1.684 emendas na primeira coleta.
+`ValorPrevisto` repete em todas as linhas da mesma emenda; empenho e
+pagamento se somam. Contar linhas, ou somar o previsto repetido, publicaria
+número errado com cara de certo — e a conferência prova a premissa a cada
+coleta (previsto divergente entre linhas da mesma emenda reprova a fonte).
+
+**Só é mandato atual quem assina emenda em LOA emendada durante o mandato.**
+A LOA de um ano é emendada no ano anterior: a de 2023 é obra da legislatura
+anterior inteira — 16 dos 30 autores dela nem estão mais na ALES. A coleta
+exige autoria em LOA 2024–2026 para abrir ficha; sem o filtro, um
+ex-deputado candidato ganharia aba de mandato por um mandato que acabou. Quem
+passa no filtro leva junto as emendas de 2023 que tiver — são execução do
+período, como na janela federal — e quem assumiu em 2023 não tem emenda de
+2023, com a ficha explicando o calendário (regra 5).
+
+**O casamento estadual é nome parlamentar contra nome de urna, com
+desistência dupla.** A SEFAZ publica "Dep. Fulano" (às vezes sem o prefixo);
+o TSE, nome de urna e nome civil. Liga só quando há exatamente uma
+candidatura com aquele nome, e os que não casam ficam listados em
+`semCasamento` no próprio JSON — lacuna auditável em vez de silenciosa. Na
+primeira coleta: 29 casaram, 4 não (dois nomes divergentes ou não candidatos,
+dois deputados que deixaram a ALES).
+
+**A área da emenda estadual é da execução, não da emenda.** 86 emendas da
+janela executam em mais de uma função orçamentária. O agrupamento por área
+soma o dinheiro por linha (exato) e conta emendas distintas que tocam a área
+— uma emenda pode contar em duas, e a tela declara. Ratear seria inventar
+número.
+
+**A aba de mandato estadual declara o que não tem.** Sem o aviso de que a
+ALES não publica votações, presença e projetos em formato coletável, uma aba
+só de emendas seria lida como "só fez emendas". A diferença é das fontes,
+não das pessoas — mesma frase de sempre, regra 5.
 
 **A coleta se alinha ao `main` antes de commitar, e não depois.** O passo
 commitava e só então dava `git pull --rebase`. Em 02/09/2026 isso perdeu uma
@@ -389,10 +441,11 @@ subir para `next 16`, que corrige na raiz.
 ## Como rodar a coleta
 
 ```bash
-npm run coleta:tse              # 575 candidaturas do ES (TSE)
-npm run coleta:camara           # bancada federal do ES (Câmara)
-npm run coleta:senado           # senadores do ES (Senado)
-npm run coleta:tse:normalizar   # reconstrói o normalizado sem tocar na rede
+npm run coleta:tse                # 575 candidaturas do ES (TSE)
+npm run coleta:camara             # bancada federal do ES (Câmara)
+npm run coleta:senado             # senadores do ES (Senado)
+npm run coleta:emendas-estaduais  # emendas estaduais (SEFAZ, sem token)
+npm run coleta:tse:normalizar     # reconstrói o normalizado sem tocar na rede
 ```
 
 O terceiro existe porque corrigir uma regra de normalização não deve custar 575

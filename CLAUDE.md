@@ -61,11 +61,12 @@ projeto:
 ## Coleta
 
 ```bash
-npm run coleta:tse              # candidaturas do ES (TSE)
-npm run coleta:camara           # bancada federal do ES (Câmara)
-npm run coleta:senado           # senadores do ES (Senado)
-npm run coleta:votacoes         # votações nominais
-npm run coleta:tse:normalizar   # reconstrói o normalizado sem tocar na rede
+npm run coleta:tse                # candidaturas do ES (TSE)
+npm run coleta:camara             # bancada federal do ES (Câmara)
+npm run coleta:senado             # senadores do ES (Senado)
+npm run coleta:votacoes           # votações nominais
+npm run coleta:emendas-estaduais  # emendas estaduais (SEFAZ, sem token)
+npm run coleta:tse:normalizar     # reconstrói o normalizado sem tocar na rede
 ```
 
 A normalização é determinística de propósito: arrays ordenados, para o diff
