@@ -6,15 +6,93 @@
   },
   "uf": "ES",
   "legislatura": 57,
-  "coletadoEm": "2026-09-02T13:46:36.406Z",
+  "coletadoEm": "2026-09-03T13:43:26.027Z",
   "criterio": {
     "orgao": "Plenário",
     "tipo": "Votações nominais",
     "quantidade": 20,
     "ordem": "As mais recentes primeiro",
-    "sondagens": 358
+    "sondagens": 376
   },
   "votacoes": [
+    {
+      "id": "2645346-18",
+      "data": "2026-09-02",
+      "registradaEm": "2026-09-02T13:53:25",
+      "descricao": "Aprovado o Projeto de Decreto Legislativo nº 995, de 2026 (Aprova a indicação do Sr. Rodrigo Otávio Soares Pacheco para o cargo de Ministro do Tribunal de Contas da União). Sim: 404; Não: 61; Abstenção: 1; Total: 466.",
+      "aprovada": true,
+      "proposicao": {
+        "id": 2645346,
+        "sigla": "PDL",
+        "numero": 995,
+        "ano": 2026,
+        "ementa": "Escolhe o Senhor Rodrigo Otávio Soares Pacheco para o cargo de Ministro do Tribunal de Contas da União, nos termos do inciso II do § 2º do art. 73 da Constituição Federal, do inciso II do art. 105 da Lei nº 8.443, de 16 de julho de 1992, e do art. 2º do Decreto Legislativo nº 6, de 1993.",
+        "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2645346"
+      },
+      "placar": [
+        {
+          "voto": "Não informado",
+          "total": 466
+        }
+      ],
+      "votantes": 466,
+      "votosDoEstado": [
+        {
+          "idExterno": 204356,
+          "nome": "Amaro Neto",
+          "partido": "PP",
+          "voto": null
+        },
+        {
+          "idExterno": 204355,
+          "nome": "Da Vitoria",
+          "partido": "PP",
+          "voto": null
+        },
+        {
+          "idExterno": 220528,
+          "nome": "Dr. Victor Linhalis",
+          "partido": "PSB",
+          "voto": null
+        },
+        {
+          "idExterno": 178871,
+          "nome": "Evair Vieira de Melo",
+          "partido": "REPUBLICANOS",
+          "voto": null
+        },
+        {
+          "idExterno": 220529,
+          "nome": "Gilson Daniel",
+          "partido": "PODE",
+          "voto": null
+        },
+        {
+          "idExterno": 220526,
+          "nome": "Gilvan da Federal",
+          "partido": "PL",
+          "voto": null
+        },
+        {
+          "idExterno": 178873,
+          "nome": "Helder Salomão",
+          "partido": "PT",
+          "voto": null
+        },
+        {
+          "idExterno": 220530,
+          "nome": "Messias Donato",
+          "partido": "UNIÃO",
+          "voto": null
+        },
+        {
+          "idExterno": 160517,
+          "nome": "Paulo Folletto",
+          "partido": "PSB",
+          "voto": null
+        }
+      ]
+    },
     {
       "id": "2643915-8",
       "data": "2026-09-01",
@@ -1556,96 +1634,6 @@
           "nome": "Paulo Folletto",
           "partido": "PSB",
           "voto": "Sim"
-        }
-      ]
-    },
-    {
-      "id": "2629954-8",
-      "data": "2026-06-03",
-      "registradaEm": "2026-06-03T12:10:37",
-      "descricao": "Aprovado o Requerimento de Urgência (Art. 155 do RICD). Sim: 311; Não: 135; Abstenção: 2; Total: 448.",
-      "aprovada": true,
-      "proposicao": {
-        "id": 2423263,
-        "sigla": "PL",
-        "numero": 957,
-        "ano": 2024,
-        "ementa": "Altera dispositivos do Decreto-Lei nº 227, de 28 de fevereiro de 1967, o Código de Mineração, da Lei nº 6.567, de 24 de setembro de 1978, e da Lei nº 7.805, de 18 de julho de 1989.",
-        "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2423263"
-      },
-      "placar": [
-        {
-          "voto": "Sim",
-          "total": 311
-        },
-        {
-          "voto": "Não",
-          "total": 135
-        },
-        {
-          "voto": "Obstrução",
-          "total": 7
-        },
-        {
-          "voto": "Abstenção",
-          "total": 2
-        }
-      ],
-      "votantes": 455,
-      "votosDoEstado": [
-        {
-          "idExterno": 204356,
-          "nome": "Amaro Neto",
-          "partido": "PP",
-          "voto": "Sim"
-        },
-        {
-          "idExterno": 204355,
-          "nome": "Da Vitoria",
-          "partido": "PP",
-          "voto": "Sim"
-        },
-        {
-          "idExterno": 220528,
-          "nome": "Dr. Victor Linhalis",
-          "partido": "PSB",
-          "voto": "Sim"
-        },
-        {
-          "idExterno": 178871,
-          "nome": "Evair Vieira de Melo",
-          "partido": "REPUBLICANOS",
-          "voto": "Sim"
-        },
-        {
-          "idExterno": 220529,
-          "nome": "Gilson Daniel",
-          "partido": "PODE",
-          "voto": "Não"
-        },
-        {
-          "idExterno": 178873,
-          "nome": "Helder Salomão",
-          "partido": "PT",
-          "voto": "Não"
-        },
-        {
-          "idExterno": 220527,
-          "nome": "Jack Rocha",
-          "partido": "PT",
-          "voto": "Não"
-        },
-        {
-          "idExterno": 220530,
-          "nome": "Messias Donato",
-          "partido": "UNIÃO",
-          "voto": "Sim"
-        },
-        {
-          "idExterno": 160517,
-          "nome": "Paulo Folletto",
-          "partido": "PSB",
-          "voto": "Não"
         }
       ]
     },

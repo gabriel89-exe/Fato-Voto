@@ -6,7 +6,7 @@
   },
   "uf": "ES",
   "legislatura": 57,
-  "coletadoEm": "2026-09-02T13:42:55.785Z",
+  "coletadoEm": "2026-09-03T13:38:47.669Z",
   "referencia": {
     "bancada": 10,
     "medianaDespesas": 1783876.5800000024,
@@ -7000,6 +7000,11 @@
             "total": 10
           },
           {
+            "tipo": "Requerimento de Inclusão de Matéria na Ordem do Dia",
+            "sigla": "REQ",
+            "total": 9
+          },
+          {
             "tipo": "Recurso contra apreciação conclusiva de comissão (Art. 58, § 1º c/c art. 132, § 2º, RICD)",
             "sigla": "REC",
             "total": 8
@@ -7011,11 +7016,6 @@
           },
           {
             "tipo": "Requerimento para envio de Requerimento de Informação pela Comissão",
-            "sigla": "REQ",
-            "total": 8
-          },
-          {
-            "tipo": "Requerimento de Inclusão de Matéria na Ordem do Dia",
             "sigla": "REQ",
             "total": 8
           },
@@ -7167,6 +7167,16 @@
         ],
         "recentes": [
           {
+            "id": 2645565,
+            "sigla": "REQ",
+            "tipo": "Requerimento de Inclusão de Matéria na Ordem do Dia",
+            "numero": 4174,
+            "ano": 2026,
+            "ementa": "Requer a inclusão na Ordem do Dia do Plenário para votação imediata da PEC nº 333 de 2017, que Altera os arts. 5º, 37, 96, 102, 105, 108 e 125 da Constituição Federal para extinguir o foro especial por prerrogativa de função no caso dos crimes comuns, e revoga o inciso X do art. 29 e o § 1º do art. 53 da Constituição Federal.",
+            "apresentadaEm": "2026-09-02T14:33",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2645565"
+          },
+          {
             "id": 2644968,
             "sigla": "RIC",
             "tipo": "Requerimento de Informação",
@@ -7255,16 +7265,6 @@
             "ementa": "Recurso contra a apreciação conclusiva do Projeto de Lei nº 5.094, de 2019",
             "apresentadaEm": "2026-08-13T12:43",
             "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2643662"
-          },
-          {
-            "id": 2643409,
-            "sigla": "RIC",
-            "tipo": "Requerimento de Informação",
-            "numero": 2405,
-            "ano": 2026,
-            "ementa": "Requer informações à Advocacia-Geral da União acerca da efetividade e da transparência na recuperação de recursos públicos adiantados para o ressarcimento de segurados do INSS vítimas de fraudes em descontos associativos.",
-            "apresentadaEm": "2026-08-12T20:21",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2643409"
           }
         ]
       }

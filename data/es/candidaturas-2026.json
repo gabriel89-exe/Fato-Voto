@@ -9,7 +9,7 @@
     "idEleicao": "20322002026",
     "uf": "ES"
   },
-  "coletadoEm": "2026-09-02T13:41:33.260Z",
+  "coletadoEm": "2026-09-03T13:37:20.767Z",
   "total": 575,
   "candidaturas": [
     {
@@ -7927,17 +7927,17 @@
       "eleicoesAnteriores": [
         {
           "ano": 2022,
-          "cargo": "Deputado Estadual",
-          "partido": "REPUBLICANOS",
-          "uf": "ES",
-          "resultado": "Concorrendo"
-        },
-        {
-          "ano": 2022,
           "cargo": "Vice-governador",
           "partido": "SOLIDARIEDADE",
           "uf": "ES",
           "resultado": "Não eleito"
+        },
+        {
+          "ano": 2022,
+          "cargo": "Deputado Estadual",
+          "partido": "REPUBLICANOS",
+          "uf": "ES",
+          "resultado": "Concorrendo"
         }
       ],
       "primeiraCandidatura": false,
@@ -15415,9 +15415,9 @@
         "nome": "PARTIDO SOCIALISTA BRASILEIRO"
       },
       "coligacao": "PSB",
-      "situacaoRegistro": "Aguardando julgamento",
-      "situacaoCandidatura": "Cadastrado",
-      "apto": false,
+      "situacaoRegistro": "Deferido",
+      "situacaoCandidatura": "Consta da urna",
+      "apto": true,
       "disputaReeleicao": false,
       "dataNascimento": "1988-09-20",
       "genero": "FEM.",
@@ -24710,9 +24710,9 @@
         "nome": "PARTIDO NOVO"
       },
       "coligacao": "NOVO",
-      "situacaoRegistro": "Aguardando julgamento",
-      "situacaoCandidatura": "Cadastrado",
-      "apto": false,
+      "situacaoRegistro": "Deferido",
+      "situacaoCandidatura": "Consta da urna",
+      "apto": true,
       "disputaReeleicao": false,
       "dataNascimento": "1966-01-28",
       "genero": "FEM.",
@@ -26066,9 +26066,9 @@
         "nome": "PARTIDO NOVO"
       },
       "coligacao": "NOVO",
-      "situacaoRegistro": "Aguardando julgamento",
-      "situacaoCandidatura": "Cadastrado",
-      "apto": false,
+      "situacaoRegistro": "Deferido",
+      "situacaoCandidatura": "Consta da urna",
+      "apto": true,
       "disputaReeleicao": false,
       "dataNascimento": "1959-01-06",
       "genero": "MASC.",
@@ -50965,8 +50965,8 @@
         "nome": "PARTIDO NOVO"
       },
       "coligacao": "NOVO",
-      "situacaoRegistro": "Aguardando julgamento",
-      "situacaoCandidatura": "Cadastrado",
+      "situacaoRegistro": "Indeferido",
+      "situacaoCandidatura": "Não consta da urna",
       "apto": false,
       "disputaReeleicao": false,
       "dataNascimento": "1974-09-26",
@@ -52738,19 +52738,19 @@
         {
           "ordem": 1,
           "tipo": "Veículo automotor terrestre: caminhão, automóvel, moto, etc.",
-          "descricao": "S10",
-          "valor": 62663.89,
-          "atualizadoEm": "2026-08-12"
+          "descricao": "Volkswagen T-Cross TSI, ano de fabricação 2020, modelo 2021",
+          "valor": 91000,
+          "atualizadoEm": "2026-09-02"
         },
         {
           "ordem": 2,
           "tipo": "Veículo automotor terrestre: caminhão, automóvel, moto, etc.",
-          "descricao": "ONIX",
-          "valor": 33550.32,
-          "atualizadoEm": "2026-08-12"
+          "descricao": "Chevrolet Onix 1.4 AT ACT, ano de fabricação 2019, modelo 2019",
+          "valor": 68000,
+          "atualizadoEm": "2026-09-02"
         }
       ],
-      "totalBens": 96214.20999999999,
+      "totalBens": 159000,
       "proposta": {
         "exigida": false,
         "documento": null
@@ -64321,7 +64321,7 @@
       "id": "80002551795",
       "cargo": "Deputado Estadual",
       "uf": "ES",
-      "nomeUrna": "SUBTENENTE RENATO DIAS",
+      "nomeUrna": "SUBTEN RENATO DIAS",
       "nomeCompleto": "LUIZ RENATO DIAS DA NEIVA",
       "numero": 27028,
       "partido": {
@@ -65969,9 +65969,9 @@
         "nome": "PARTIDO SOCIALISTA BRASILEIRO"
       },
       "coligacao": "PSB",
-      "situacaoRegistro": "Aguardando julgamento",
-      "situacaoCandidatura": "Cadastrado",
-      "apto": false,
+      "situacaoRegistro": "Deferido",
+      "situacaoCandidatura": "Consta da urna",
+      "apto": true,
       "disputaReeleicao": false,
       "dataNascimento": "1978-02-02",
       "genero": "MASC.",
