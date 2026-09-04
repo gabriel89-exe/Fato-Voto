@@ -11,7 +11,7 @@
     2025,
     2026
   ],
-  "coletadoEm": "2026-09-02T13:43:04.242Z",
+  "coletadoEm": "2026-09-04T13:34:56.150Z",
   "senadores": [
     {
       "id": "senado-5953",
@@ -3410,6 +3410,16 @@
         "fim": "2031-01-31"
       },
       "materias": [
+        {
+          "id": "175716",
+          "identificacao": "PEC 17/2026",
+          "sigla": "PEC",
+          "numero": "17",
+          "ano": 2026,
+          "ementa": "Altera os arts. 14 e 101 da Constituição Federal, para dispor sobre os requisitos de escolha dos Ministros do Supremo Tribunal Federal e sobre sua inelegibilidade para qualquer cargo eletivo, pelo prazo de cinco anos após deixarem a função.",
+          "data": "2026-09-02",
+          "autorPrincipal": false
+        },
         {
           "id": "175675",
           "identificacao": "RQS 648/2026",
@@ -7912,7 +7922,7 @@
         },
         {
           "sigla": "PEC",
-          "total": 61
+          "total": 62
         },
         {
           "sigla": "PL",
@@ -7972,6 +7982,26 @@
         "fim": "2027-01-31"
       },
       "materias": [
+        {
+          "id": "175723",
+          "identificacao": "REQ 327/2026 - CDIR",
+          "sigla": "REQ",
+          "numero": "327",
+          "ano": 2026,
+          "ementa": "Requer licença para desempenhar missão política ou cultural de interesse parlamentar, sem ônus para o Senado Federal.",
+          "data": "2026-09-03",
+          "autorPrincipal": true
+        },
+        {
+          "id": "175716",
+          "identificacao": "PEC 17/2026",
+          "sigla": "PEC",
+          "numero": "17",
+          "ano": 2026,
+          "ementa": "Altera os arts. 14 e 101 da Constituição Federal, para dispor sobre os requisitos de escolha dos Ministros do Supremo Tribunal Federal e sobre sua inelegibilidade para qualquer cargo eletivo, pelo prazo de cinco anos após deixarem a função.",
+          "data": "2026-09-02",
+          "autorPrincipal": false
+        },
         {
           "id": "174910",
           "identificacao": "REQ 265/2026 - CDIR",
@@ -10990,11 +11020,11 @@
         },
         {
           "sigla": "PEC",
-          "total": 67
+          "total": 68
         },
         {
           "sigla": "REQ",
-          "total": 65
+          "total": 66
         },
         {
           "sigla": "PL",
@@ -11060,8 +11090,40 @@
           "idExterno": 5942,
           "nome": "Marcos do Val",
           "partido": "AVANTE",
-          "registro": "NCom",
+          "registro": "AP",
           "voto": null
+        }
+      ]
+    },
+    {
+      "id": "7105-2",
+      "data": "2026-09-01",
+      "materia": "PLP 74/2026",
+      "ementa": "Altera a Lei Complementar nº 229, de 30 de março de 2026, para incluir o regime especial de tributação para serviços de datacenter, o programa federal de financiamento de ações de apoio às pessoas com câncer e às pessoas com deficiência, bem como a desoneração do Imposto sobre a Renda das Pessoas Jurídicas (IRPJ) e da Contribuição Social sobre o Lucro Líquido (CSLL) das sociedades resseguradoras locais entre as exceções às regras aplicáveis à concessão de benefícios tributários e altera a Lei Complementar nº 101, de 4 de maio de 2000 (Lei de Responsabilidade Fiscal).",
+      "descricao": "Votação nominal do Projeto de Lei Complementar nº 74, de 2026, nos termos do parecer.",
+      "resultado": "Aprovado",
+      "secreta": false,
+      "votosDoEstado": [
+        {
+          "idExterno": 5953,
+          "nome": "Fabiano Contarato",
+          "partido": "PT",
+          "registro": "Sim",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 631,
+          "nome": "Magno Malta",
+          "partido": "PL",
+          "registro": "Sim",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 5942,
+          "nome": "Marcos do Val",
+          "partido": "AVANTE",
+          "registro": "AP",
+          "voto": "AP"
         }
       ]
     },

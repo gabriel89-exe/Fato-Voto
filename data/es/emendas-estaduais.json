@@ -11,11 +11,11 @@
     2025,
     2026
   ],
-  "coletadoEm": "2026-09-03T13:54:38.813Z",
+  "coletadoEm": "2026-09-04T13:46:16.102Z",
   "recorte": "Emendas ao Orçamento do Espírito Santo cujo autor individual é deputado estadual da legislatura atual da ALES (2023–2027) e candidato em 2026. A LOA de um ano é emendada no ano anterior: a de 2023 foi emendada pela legislatura anterior, e só aparece para quem já era deputado. Emenda de bancada e de comissão não tem autor individual e não entra. O casamento com a candidatura é por nome, com desistência em qualquer ambiguidade — os nomes que não casaram estão listados no dado.",
   "conferencia": {
     "aprovada": true,
-    "conferidoEm": "2026-09-03T13:54:38.762Z",
+    "conferidoEm": "2026-09-04T13:46:16.053Z",
     "provas": [
       "cada arquivo é baixado duas vezes, e os dois downloads têm de ser idênticos",
       "o valor previsto da emenda repete igual em todas as linhas dela",
@@ -26,9 +26,9 @@
   },
   "referencia": {
     "bancada": 33,
-    "medianaEmpenhado": 5263341.1899999995,
+    "medianaEmpenhado": 5674537,
     "menor": 644846.78,
-    "maior": 75293222.5
+    "maior": 82004303.5
   },
   "parlamentares": [
     {
@@ -43,10 +43,10 @@
         "valoresPublicados": true,
         "totais": {
           "previsto": 8700000,
-          "empenhado": 6356788.5600000005,
-          "liquidado": 5274598.5600000005,
-          "pago": 4778717.800000001,
-          "restosAPagar": 705880.76
+          "empenhado": 7574833.5600000005,
+          "liquidado": 5620643.5600000005,
+          "pago": 5124762.800000001,
+          "restosAPagar": 1405880.76
         },
         "porAno": [
           {
@@ -64,52 +64,52 @@
           {
             "ano": 2025,
             "quantidade": 40,
-            "empenhado": 1792283.23,
-            "pago": 1570093.23
+            "empenhado": 2755688.23,
+            "pago": 1833498.23
           },
           {
             "ano": 2026,
             "quantidade": 49,
-            "empenhado": 1703197.5,
-            "pago": 843197.5
+            "empenhado": 1957837.5,
+            "pago": 925837.5
           }
         ],
         "porFuncao": [
           {
+            "nome": "Não informada",
+            "quantidade": 87,
+            "empenhado": 2755688.23,
+            "pago": 1833498.23
+          },
+          {
             "nome": "AGRICULTURA",
-            "quantidade": 11,
-            "empenhado": 1840036.85,
-            "pago": 827846.8500000001
+            "quantidade": 8,
+            "empenhado": 1792058.33,
+            "pago": 760058.3300000001
           },
           {
             "nome": "ASSISTÊNCIA SOCIAL",
-            "quantidade": 52,
-            "empenhado": 1754200.91,
-            "pago": 1754200.91
+            "quantidade": 34,
+            "empenhado": 1244216.75,
+            "pago": 1244216.75
           },
           {
             "nome": "SAÚDE",
-            "quantidade": 11,
-            "empenhado": 1225880.76,
-            "pago": 730000
+            "quantidade": 5,
+            "empenhado": 645880.76,
+            "pago": 150000
           },
           {
             "nome": "CULTURA",
-            "quantidade": 6,
-            "empenhado": 699995.4,
-            "pago": 699995.4
+            "quantidade": 4,
+            "empenhado": 529995.4,
+            "pago": 529995.4
           },
           {
             "nome": "DIREITOS DA CIDADANIA",
-            "quantidade": 9,
-            "empenhado": 404997.5,
-            "pago": 334997.5
-          },
-          {
-            "nome": "EDUCAÇÃO",
-            "quantidade": 4,
-            "empenhado": 202318.59,
-            "pago": 202318.59
+            "quantidade": 8,
+            "empenhado": 304997.5,
+            "pago": 304997.5
           },
           {
             "nome": "COMÉRCIO E SERVIÇOS",
@@ -118,24 +118,30 @@
             "pago": 159650
           },
           {
-            "nome": "DESPORTO E LAZER",
-            "quantidade": 1,
-            "empenhado": 69708.55,
-            "pago": 69708.55
-          },
-          {
-            "nome": "Não informada",
-            "quantidade": 53,
-            "empenhado": 0,
-            "pago": 0
+            "nome": "EDUCAÇÃO",
+            "quantidade": 3,
+            "empenhado": 142346.59,
+            "pago": 142346.59
           }
         ],
         "porLocalidade": [
+          {
+            "nome": "Domingos Martins",
+            "quantidade": 8,
+            "empenhado": 1054397.97,
+            "pago": 214397.97
+          },
           {
             "nome": "Vitória",
             "quantidade": 18,
             "empenhado": 919667.88,
             "pago": 919667.88
+          },
+          {
+            "nome": "Laranja da Terra",
+            "quantidade": 5,
+            "empenhado": 824116,
+            "pago": 811926
           },
           {
             "nome": "Santa Maria de Jetibá",
@@ -150,6 +156,18 @@
             "pago": 597747.52
           },
           {
+            "nome": "São Roque do Canaã",
+            "quantidade": 2,
+            "empenhado": 592000,
+            "pago": 10000
+          },
+          {
+            "nome": "Santa Teresa",
+            "quantidade": 5,
+            "empenhado": 540000,
+            "pago": 90000
+          },
+          {
             "nome": "Castelo",
             "quantidade": 9,
             "empenhado": 535880.76,
@@ -160,30 +178,6 @@
             "quantidade": 18,
             "empenhado": 499530.52999999997,
             "pago": 499530.52999999997
-          },
-          {
-            "nome": "São Roque do Canaã",
-            "quantidade": 2,
-            "empenhado": 495000,
-            "pago": 10000
-          },
-          {
-            "nome": "Laranja da Terra",
-            "quantidade": 5,
-            "empenhado": 478071,
-            "pago": 465881
-          },
-          {
-            "nome": "Santa Teresa",
-            "quantidade": 5,
-            "empenhado": 465000,
-            "pago": 90000
-          },
-          {
-            "nome": "Domingos Martins",
-            "quantidade": 8,
-            "empenhado": 354397.97,
-            "pago": 214397.97
           },
           {
             "nome": "Não informada",
@@ -316,12 +310,34 @@
           {
             "nome": "Individual com finalidade definida não impositiva",
             "quantidade": 148,
-            "empenhado": 6356788.5600000005,
-            "pago": 4778717.800000001
+            "empenhado": 7574833.5600000005,
+            "pago": 5124762.800000001
           }
         ],
         "criterioDaLista": "as 10 de maior valor empenhado",
         "lista": [
+          {
+            "numero": "2025 / E0500",
+            "ano": 2025,
+            "tipo": "Individual com finalidade definida não impositiva",
+            "localidade": "Domingos Martins",
+            "funcao": "AGRICULTURA",
+            "objeto": "EMENDA DESTINADA PARA AQUISIÇÃO DE UM TRATOR AGRÍCOLA EM FAVOR DA ASSOCIAÇÃO COMUNITÁRIA DOS MORADORES DE MELGAÇO DE BAIXO - ASSOCIAÇÃO COMUNITÁRIA DOS MORADORES DE MELGACO BAIXO (36.364.669/0001-00).",
+            "previsto": 140000,
+            "empenhado": 840000,
+            "pago": 0
+          },
+          {
+            "numero": "2026 / E1065",
+            "ano": 2026,
+            "tipo": "Individual com finalidade definida não impositiva",
+            "localidade": "São Roque do Canaã",
+            "funcao": "AGRICULTURA",
+            "objeto": "EMENDA DESTINADA PARA AQUISIÇÃO DE UM CARRO EM FAVOR DA ASSOCIAÇÃO DE PRODUTORES RURAIS AGRICULTORES E AGRICULTORAS FAMILIARES DE ALTO MISTERIOSO. - ASSOCIACAO DE PRODUTORES RURAIS AGRICULTORES E AGRICULTORAS FAMILIARES DO ALTO MISTERIOSO (40.195.024/0001-68)",
+            "previsto": 130000,
+            "empenhado": 582000,
+            "pago": 0
+          },
           {
             "numero": "2024 / E0739",
             "ano": 2024,
@@ -334,28 +350,6 @@
             "pago": 0
           },
           {
-            "numero": "2026 / E1065",
-            "ano": 2026,
-            "tipo": "Individual com finalidade definida não impositiva",
-            "localidade": "São Roque do Canaã",
-            "funcao": "AGRICULTURA",
-            "objeto": "EMENDA DESTINADA PARA AQUISIÇÃO DE UM CARRO EM FAVOR DA ASSOCIAÇÃO DE PRODUTORES RURAIS AGRICULTORES E AGRICULTORAS FAMILIARES DE ALTO MISTERIOSO. - ASSOCIACAO DE PRODUTORES RURAIS AGRICULTORES E AGRICULTORAS FAMILIARES DO ALTO MISTERIOSO (40.195.024/0001-68)",
-            "previsto": 130000,
-            "empenhado": 485000,
-            "pago": 0
-          },
-          {
-            "numero": "2025 / E0458",
-            "ano": 2025,
-            "tipo": "Individual com finalidade definida não impositiva",
-            "localidade": "Marechal Floriano",
-            "funcao": "SAÚDE",
-            "objeto": "CUSTEIO PARA A SAÚDE PÚBLICA MUNICIPAL DO MUNICÍPIO DE MARECHAL FLORIANO, MELHORANDO A INFRAESTRUTURA E OS SERVIÇOS OFERECIDOS A POPULAÇÃO.",
-            "previsto": 430000,
-            "empenhado": 430000,
-            "pago": 430000
-          },
-          {
             "numero": "2026 / E1063",
             "ano": 2026,
             "tipo": "Individual com finalidade definida não impositiva",
@@ -363,8 +357,19 @@
             "funcao": "AGRICULTURA",
             "objeto": "EMENDA DESTINADA PARA AQUISIÇÃO DE UM SECADOR EM FAVOR DA ASSOCIAÇÃO DOS PRODUTORES RURAIS DAS COMUNIDADES DE SÃO MARCOS, SÃO JOSÉ E SÃO VALENTIM. - ASSOCIACAO DOS PRODUTORES RURAIS DAS COMUNIDADES DE SAO MARCOS,SAO JOSE E SAO VALENTIM (05.023.680/0001-82)",
             "previsto": 75000,
-            "empenhado": 375000,
+            "empenhado": 450000,
             "pago": 0
+          },
+          {
+            "numero": "2025 / E0458",
+            "ano": 2025,
+            "tipo": "Individual com finalidade definida não impositiva",
+            "localidade": "Marechal Floriano",
+            "funcao": null,
+            "objeto": "CUSTEIO PARA A SAÚDE PÚBLICA MUNICIPAL DO MUNICÍPIO DE MARECHAL FLORIANO, MELHORANDO A INFRAESTRUTURA E OS SERVIÇOS OFERECIDOS A POPULAÇÃO.",
+            "previsto": 430000,
+            "empenhado": 430000,
+            "pago": 430000
           },
           {
             "numero": "2026 / E1057",
@@ -374,8 +379,8 @@
             "funcao": "AGRICULTURA",
             "objeto": "EMENDA DESTINADA PARA AQUISIÇÃO DE UM SECADOR EM FAVOR DA ASSOCIAÇÃO DOS PEQUENOS PRODUTORES RURAIS DE DUAS BARRAS. - ASSOCIACAO DOS PEQUENOS PRODUTORES RURAIS DE DUAS BARRAS (22.937.888/0001-26)",
             "previsto": 70000,
-            "empenhado": 325000,
-            "pago": 325000
+            "empenhado": 390000,
+            "pago": 390000
           },
           {
             "numero": "2024 / E0699",
@@ -411,26 +416,15 @@
             "pago": 179397.97
           },
           {
-            "numero": "2025 / E0500",
+            "numero": "2025 / E0497",
             "ano": 2025,
             "tipo": "Individual com finalidade definida não impositiva",
-            "localidade": "Domingos Martins",
-            "funcao": "AGRICULTURA",
-            "objeto": "EMENDA DESTINADA PARA AQUISIÇÃO DE UM TRATOR AGRÍCOLA EM FAVOR DA ASSOCIAÇÃO COMUNITÁRIA DOS MORADORES DE MELGAÇO DE BAIXO - ASSOCIAÇÃO COMUNITÁRIA DOS MORADORES DE MELGACO BAIXO (36.364.669/0001-00).",
-            "previsto": 140000,
-            "empenhado": 140000,
-            "pago": 0
-          },
-          {
-            "numero": "2024 / E0727",
-            "ano": 2024,
-            "tipo": "Individual com finalidade definida não impositiva",
-            "localidade": "Itarana",
-            "funcao": "COMÉRCIO E SERVIÇOS",
-            "objeto": "TRANSFERÊNCIA DE RECURSOS PARA QUE A ADETURI POSSA ADQUIRIR UM PANELÃO    ENTIDADE  ADETURI    ASSOCIAÇÃO PARA DESENVOLVIMENTO DO TURISMO DE ITARANA",
-            "previsto": 130000,
-            "empenhado": 129650,
-            "pago": 129650
+            "localidade": "Laranja da Terra",
+            "funcao": null,
+            "objeto": "EMENDA DESTINADA PARA AQUISIÇÃO DE IMPLEMENTOS AGRÍCOLAS EM FAVOR DA ASSOCIÇÃO DE AGRICULTORES FAMILIARES DE VENDINHA - ASSOCIAÇÃO DOS AGRICULTORES FAMILIARES DE VENDINHA (53.122.827/0001-34).",
+            "previsto": 30000,
+            "empenhado": 172926,
+            "pago": 172926
           }
         ]
       }
@@ -447,7 +441,7 @@
         "valoresPublicados": true,
         "totais": {
           "previsto": 7200000,
-          "empenhado": 2216174.6999999997,
+          "empenhado": 2216174.7,
           "liquidado": 2166174,
           "pago": 2066436.9800000002,
           "restosAPagar": 149737.02000000002
@@ -475,9 +469,15 @@
         "porFuncao": [
           {
             "nome": "ASSISTÊNCIA SOCIAL",
-            "quantidade": 35,
-            "empenhado": 1558185.14,
-            "pago": 1438448.1199999999
+            "quantidade": 22,
+            "empenhado": 969331.92,
+            "pago": 969331.92
+          },
+          {
+            "nome": "Não informada",
+            "quantidade": 129,
+            "empenhado": 613853.2200000001,
+            "pago": 494116.2
           },
           {
             "nome": "SAÚDE",
@@ -487,21 +487,15 @@
           },
           {
             "nome": "DESPORTO E LAZER",
-            "quantidade": 4,
-            "empenhado": 105000,
-            "pago": 104999.3
+            "quantidade": 3,
+            "empenhado": 80000,
+            "pago": 79999.3
           },
           {
             "nome": "CULTURA",
             "quantidade": 2,
             "empenhado": 59998.67,
             "pago": 29998.67
-          },
-          {
-            "nome": "Não informada",
-            "quantidade": 111,
-            "empenhado": 0,
-            "pago": 0
           }
         ],
         "porLocalidade": [
@@ -732,7 +726,7 @@
           {
             "nome": "Individual com finalidade definida não impositiva",
             "quantidade": 152,
-            "empenhado": 2216174.6999999997,
+            "empenhado": 2216174.7,
             "pago": 2066436.9800000002
           }
         ],
@@ -776,7 +770,7 @@
             "ano": 2025,
             "tipo": "Individual com finalidade definida não impositiva",
             "localidade": "Santa Teresa",
-            "funcao": "ASSISTÊNCIA SOCIAL",
+            "funcao": null,
             "objeto": "APOIO FINANCEIRO PARA CUSTEIO DE DESPESAS DA PESTALOZZI DE SANTA TERESA. ASSOCIAÇÃO PESTALOZZI DE SANTA TERESA (32.405.664/0001-27)",
             "previsto": 70000,
             "empenhado": 70000,
@@ -820,7 +814,7 @@
             "ano": 2025,
             "tipo": "Individual com finalidade definida não impositiva",
             "localidade": "Linhares",
-            "funcao": "ASSISTÊNCIA SOCIAL",
+            "funcao": null,
             "objeto": "APOIO FINANCEIRO PARA CUSTEIO DE DESPESAS DO CENTRO LINHARENSE DOS AMIGOS DA CRIANÇA E DO ADOLESCENTE (27.563.063/0001-02)",
             "previsto": 50000,
             "empenhado": 50000,
@@ -831,7 +825,7 @@
             "ano": 2025,
             "tipo": "Individual com finalidade definida não impositiva",
             "localidade": "Alfredo Chaves",
-            "funcao": "ASSISTÊNCIA SOCIAL",
+            "funcao": null,
             "objeto": "APOIO FINANCEIRO PARA CUSTEIO DE DESPESAS DA ACALAI. ASSOCIAÇÃO CASA LAR - ACONCHEGO DO IDOSO - ACALAI (05.735.798/0001-33)",
             "previsto": 50000,
             "empenhado": 50000,
@@ -842,7 +836,7 @@
             "ano": 2025,
             "tipo": "Individual com finalidade definida não impositiva",
             "localidade": "Aracruz",
-            "funcao": "ASSISTÊNCIA SOCIAL",
+            "funcao": null,
             "objeto": "APOIO FINANCEIRO PARA QUE POSSAM SER REALIZADOS INVESTIMENTOS NA APAE DE ARACRUZ. ASSOCIAÇÃO DE PAIS E AMIGOS DOS EXCEPCIONAIS DE ARACRUZ (32.400.772/0001-07)",
             "previsto": 50000,
             "empenhado": 50000,
@@ -864,8 +858,8 @@
         "totais": {
           "previsto": 8700000,
           "empenhado": 6434713.789999999,
-          "liquidado": 6338721.95,
-          "pago": 6338721.95,
+          "liquidado": 6338721.949999999,
+          "pago": 6338721.949999999,
           "restosAPagar": 0
         },
         "porAno": [
@@ -897,33 +891,33 @@
         "porFuncao": [
           {
             "nome": "DESPORTO E LAZER",
-            "quantidade": 39,
-            "empenhado": 3364841.1,
-            "pago": 3268849.2600000002
+            "quantidade": 27,
+            "empenhado": 2374941.1,
+            "pago": 2278969.67
+          },
+          {
+            "nome": "Não informada",
+            "quantidade": 50,
+            "empenhado": 1789900,
+            "pago": 1789879.5900000003
           },
           {
             "nome": "COMÉRCIO E SERVIÇOS",
-            "quantidade": 9,
-            "empenhado": 1550000,
-            "pago": 1550000
+            "quantidade": 7,
+            "empenhado": 1100000,
+            "pago": 1100000
           },
           {
             "nome": "ASSISTÊNCIA SOCIAL",
-            "quantidade": 19,
-            "empenhado": 1249924.9300000002,
-            "pago": 1249924.9300000002
+            "quantidade": 16,
+            "empenhado": 999924.9300000002,
+            "pago": 999924.9300000002
           },
           {
             "nome": "SAÚDE",
             "quantidade": 2,
             "empenhado": 110000,
             "pago": 110000
-          },
-          {
-            "nome": "DIREITOS DA CIDADANIA",
-            "quantidade": 1,
-            "empenhado": 100000,
-            "pago": 100000
           },
           {
             "nome": "AGRICULTURA",
@@ -936,12 +930,6 @@
             "quantidade": 1,
             "empenhado": 14947.76,
             "pago": 14947.76
-          },
-          {
-            "nome": "Não informada",
-            "quantidade": 32,
-            "empenhado": 0,
-            "pago": 0
           }
         ],
         "porLocalidade": [
@@ -967,7 +955,7 @@
             "nome": "Pedro Canário",
             "quantidade": 11,
             "empenhado": 475000,
-            "pago": 379991.76999999996
+            "pago": 379991.77
           },
           {
             "nome": "Guarapari",
@@ -1083,7 +1071,7 @@
             "nome": "Individual com finalidade definida não impositiva",
             "quantidade": 104,
             "empenhado": 6434713.789999999,
-            "pago": 6338721.95
+            "pago": 6338721.949999999
           }
         ],
         "criterioDaLista": "as 10 de maior valor empenhado",
@@ -1104,7 +1092,7 @@
             "ano": 2025,
             "tipo": "Individual com finalidade definida não impositiva",
             "localidade": "Vitória",
-            "funcao": "COMÉRCIO E SERVIÇOS",
+            "funcao": null,
             "objeto": "DESENVOLVIMENTO DAS ATIVIDADES TURISTICAS DA LIGA INDEPENDENTE DAS ESCOLAS DE SAMBA DO GRUPO ESPECIAL (09.473.443/0001-74)",
             "previsto": 400000,
             "empenhado": 400000,
@@ -1137,7 +1125,7 @@
             "ano": 2025,
             "tipo": "Individual com finalidade definida não impositiva",
             "localidade": "Serra",
-            "funcao": "DESPORTO E LAZER",
+            "funcao": null,
             "objeto": "EMENDA DESTINADA A REALIZAÇÃO DA COPA DAS SELEÇÕES MUNICIPAIS FEDERACAO ESPIRITO SANTENSE DE FUTEBOL DE SALÃO (28.539.849/0001-57)",
             "previsto": 300000,
             "empenhado": 300000,
@@ -1159,7 +1147,7 @@
             "ano": 2025,
             "tipo": "Individual com finalidade definida não impositiva",
             "localidade": "Serra",
-            "funcao": "DESPORTO E LAZER",
+            "funcao": null,
             "objeto": "EMENDA DESTINADA A REALIZAÇÃO DE EVENTOS ESPORTIVOS  LIGA DE DESPORTOS DA SERRA (27.450.543/0001-67)",
             "previsto": 300000,
             "empenhado": 299900,
@@ -1213,9 +1201,9 @@
         "valoresPublicados": true,
         "totais": {
           "previsto": 7200000,
-          "empenhado": 4576198.799999999,
-          "liquidado": 4147458.7099999995,
-          "pago": 3942565.9599999995,
+          "empenhado": 4635598.8,
+          "liquidado": 4147458.709999999,
+          "pago": 3942565.959999999,
           "restosAPagar": 326620.75
         },
         "porAno": [
@@ -1234,52 +1222,58 @@
           {
             "ano": 2026,
             "quantidade": 65,
-            "empenhado": 1321120.6,
+            "empenhado": 1380520.6,
             "pago": 1014120.6
           }
         ],
         "porFuncao": [
           {
-            "nome": "ASSISTÊNCIA SOCIAL",
-            "quantidade": 44,
-            "empenhado": 1514516.35,
-            "pago": 1334516.35
+            "nome": "Não informada",
+            "quantidade": 126,
+            "empenhado": 1839266.8199999998,
+            "pago": 1659255.56
           },
           {
             "nome": "DESPORTO E LAZER",
-            "quantidade": 18,
-            "empenhado": 1004244.8,
-            "pago": 1004232.71
+            "quantidade": 12,
+            "empenhado": 714785.5,
+            "pago": 714784.6699999999
+          },
+          {
+            "nome": "ASSISTÊNCIA SOCIAL",
+            "quantidade": 28,
+            "empenhado": 714708.83,
+            "pago": 714708.83
           },
           {
             "nome": "AGRICULTURA",
-            "quantidade": 15,
-            "empenhado": 704177.75,
-            "pago": 280557
-          },
-          {
-            "nome": "COMÉRCIO E SERVIÇOS",
-            "quantidade": 6,
-            "empenhado": 580000,
-            "pago": 580000
+            "quantidade": 14,
+            "empenhado": 693577.75,
+            "pago": 210557
           },
           {
             "nome": "CULTURA",
-            "quantidade": 8,
-            "empenhado": 379429.1,
-            "pago": 379429.1
-          },
-          {
-            "nome": "SAÚDE",
             "quantidade": 5,
-            "empenhado": 198830.8,
-            "pago": 198830.8
+            "empenhado": 299429.1,
+            "pago": 299429.1
           },
           {
             "nome": "DIREITOS DA CIDADANIA",
-            "quantidade": 5,
-            "empenhado": 175000,
-            "pago": 155000
+            "quantidade": 4,
+            "empenhado": 145000,
+            "pago": 125000
+          },
+          {
+            "nome": "COMÉRCIO E SERVIÇOS",
+            "quantidade": 2,
+            "empenhado": 110000,
+            "pago": 110000
+          },
+          {
+            "nome": "SAÚDE",
+            "quantidade": 4,
+            "empenhado": 98830.8,
+            "pago": 98830.8
           },
           {
             "nome": "EDUCAÇÃO",
@@ -1292,12 +1286,6 @@
             "quantidade": 1,
             "empenhado": 10000,
             "pago": 10000
-          },
-          {
-            "nome": "Não informada",
-            "quantidade": 89,
-            "empenhado": 0,
-            "pago": 0
           }
         ],
         "porLocalidade": [
@@ -1305,19 +1293,19 @@
             "nome": "Cachoeiro de Itapemirim",
             "quantidade": 56,
             "empenhado": 2063822.9300000002,
-            "pago": 1862113.67
+            "pago": 1862113.6700000004
+          },
+          {
+            "nome": "Piúma",
+            "quantidade": 5,
+            "empenhado": 491400,
+            "pago": 135000
           },
           {
             "nome": "Vitória",
             "quantidade": 12,
             "empenhado": 470000,
             "pago": 470000
-          },
-          {
-            "nome": "Piúma",
-            "quantidade": 5,
-            "empenhado": 432000,
-            "pago": 135000
           },
           {
             "nome": "Castelo",
@@ -1516,8 +1504,8 @@
           {
             "nome": "Individual com finalidade definida não impositiva",
             "quantidade": 182,
-            "empenhado": 4576198.799999999,
-            "pago": 3942565.9599999995
+            "empenhado": 4635598.8,
+            "pago": 3942565.959999999
           }
         ],
         "criterioDaLista": "as 10 de maior valor empenhado",
@@ -1530,7 +1518,7 @@
             "funcao": "AGRICULTURA",
             "objeto": "IMPLEMENTAçãO DO SISTEMA DE ENERGIA FOTOVOLTAICA PELA COOPERATIVA DE VALORIZAÇÃO, INCENTIVO E DESENVOLVIMENTO AGROPECUÁRIO SUSTENTÁVEL. - COOPERATIVA DE VALORIZACAO, INCENTIVO E DESENVOLVIMENTO AGROPECUARIO SUSTENTAVEL - COOPERVIDAS (09.555.854/0001-09)",
             "previsto": 60000,
-            "empenhado": 297000,
+            "empenhado": 356400,
             "pago": 0
           },
           {
@@ -1538,7 +1526,7 @@
             "ano": 2025,
             "tipo": "Individual com finalidade definida não impositiva",
             "localidade": "Vitória",
-            "funcao": "COMÉRCIO E SERVIÇOS",
+            "funcao": null,
             "objeto": "EMENDA DESTINADA PARA REALIZAÇÃO DE EVENTOS REALIZADOS PELA ADERES",
             "previsto": 270000,
             "empenhado": 270000,
@@ -1560,7 +1548,7 @@
             "ano": 2025,
             "tipo": "Individual com finalidade definida não impositiva",
             "localidade": "Cachoeiro de Itapemirim",
-            "funcao": "ASSISTÊNCIA SOCIAL",
+            "funcao": null,
             "objeto": "RECURSO ENVIADO PARA CUSTEIO E MANUTENÇÃO DA ENTIDADE ASSOCIAÇÃO DE PAIS E AMIGOS DOS EXCEPCIONAIS - APAE CACHOEIRO DE ITAPEMIRIM - APAE - ASSOCIACAO DE PAIS E AMIGOS DOS EXCEPCIONAIS (27.192.707/0001-01)",
             "previsto": 200000,
             "empenhado": 200000,
@@ -1604,7 +1592,7 @@
             "ano": 2025,
             "tipo": "Individual com finalidade definida não impositiva",
             "localidade": "Vitória",
-            "funcao": "COMÉRCIO E SERVIÇOS",
+            "funcao": null,
             "objeto": "APOIO A ENTIDADE PARA AQUISIÇÃO DE VEÍCULO E PROMOVER O DESENVOLVIMENTO DA OCB/ES-SIND E ORG DAS COOPERATIVAS BRASILEIRAS DO ESTADO DO ES (27.060.433/0001-99)",
             "previsto": 100000,
             "empenhado": 100000,
@@ -1615,7 +1603,7 @@
             "ano": 2025,
             "tipo": "Individual com finalidade definida não impositiva",
             "localidade": "Cachoeiro de Itapemirim",
-            "funcao": "SAÚDE",
+            "funcao": null,
             "objeto": "TRANSFERÊNCIA DE RECURSOS PARA CUSTEIO EM FAVOR DO HOSPITAL MARTERNO INFANTIL FRANCISCO DE ASSIS - HIFA, GARANTIR ACESSO DA POPULAÇÃO A SERVIÇOS DE QUALIDADE. - HOSPITAL INFANTIL FRANCISCO DE ASSIS (27.192.590/0001-58).",
             "previsto": 100000,
             "empenhado": 100000,
@@ -1626,7 +1614,7 @@
             "ano": 2025,
             "tipo": "Individual com finalidade definida não impositiva",
             "localidade": "Cachoeiro de Itapemirim",
-            "funcao": "DESPORTO E LAZER",
+            "funcao": null,
             "objeto": "REPASSE DE RECURSOS PARA CUSTEIO DE EVENTOS EM CACHOEIRO DE ITAPEMIRIM, REALIZADOS PELA ENTIDADE FEDERAÇÃO CAPIXABA DE JIU JITSU ESPORTIVO. - FEDERACAO CAPIXABA DE JIU-JITSU ESPORTIVO (22.715.925/0001-51)",
             "previsto": 100000,
             "empenhado": 100000,
@@ -1675,21 +1663,21 @@
         "porFuncao": [
           {
             "nome": "DESPORTO E LAZER",
-            "quantidade": 19,
-            "empenhado": 2269940,
-            "pago": 1459941.47
+            "quantidade": 12,
+            "empenhado": 1609940,
+            "pago": 799999.96
+          },
+          {
+            "nome": "Não informada",
+            "quantidade": 44,
+            "empenhado": 1459677.8399999999,
+            "pago": 1359619.3499999999
           },
           {
             "nome": "ASSISTÊNCIA SOCIAL",
-            "quantidade": 18,
-            "empenhado": 1449845.21,
-            "pago": 1349845.21
-          },
-          {
-            "nome": "SAÚDE",
-            "quantidade": 7,
-            "empenhado": 519550.4,
-            "pago": 519550.4
+            "quantidade": 12,
+            "empenhado": 969857.77,
+            "pago": 969857.77
           },
           {
             "nome": "CULTURA",
@@ -1704,15 +1692,15 @@
             "pago": 300000
           },
           {
+            "nome": "SAÚDE",
+            "quantidade": 3,
+            "empenhado": 199860,
+            "pago": 199860
+          },
+          {
             "nome": "AGRICULTURA",
             "quantidade": 1,
             "empenhado": 12190,
-            "pago": 0
-          },
-          {
-            "nome": "Não informada",
-            "quantidade": 26,
-            "empenhado": 0,
             "pago": 0
           }
         ],
@@ -1954,7 +1942,7 @@
             "ano": 2025,
             "tipo": "Individual com finalidade definida não impositiva",
             "localidade": "Serra",
-            "funcao": "DESPORTO E LAZER",
+            "funcao": null,
             "objeto": "EMENDA DESTINADA AO CUSTEIO DA ASSOCIAÇÃO ESPIRITO SANTENSE DE ESPORTES, CULTURA E TURISMO  AESECT (41.418.269/0001-70)",
             "previsto": 200000,
             "empenhado": 200000,
@@ -1976,7 +1964,7 @@
             "ano": 2025,
             "tipo": "Individual com finalidade definida não impositiva",
             "localidade": "Vila Velha",
-            "funcao": "SAÚDE",
+            "funcao": null,
             "objeto": "EMENDA PARA CUSTEIO - ASSOCIAÇÃO EVANGÉLICA BENEFICENTE ESPIRITO-SANTENSE - AEBES (28.127.926/0001-61).",
             "previsto": 150000,
             "empenhado": 150000,
@@ -2025,9 +2013,15 @@
         "porFuncao": [
           {
             "nome": "COMÉRCIO E SERVIÇOS",
-            "quantidade": 7,
-            "empenhado": 1470000,
-            "pago": 1470000
+            "quantidade": 4,
+            "empenhado": 970000,
+            "pago": 970000
+          },
+          {
+            "nome": "Não informada",
+            "quantidade": 102,
+            "empenhado": 610000,
+            "pago": 610000
           },
           {
             "nome": "DIREITOS DA CIDADANIA",
@@ -2036,16 +2030,16 @@
             "pago": 310000
           },
           {
-            "nome": "DESPORTO E LAZER",
-            "quantidade": 3,
-            "empenhado": 160000,
-            "pago": 110000
-          },
-          {
             "nome": "ASSISTÊNCIA SOCIAL",
             "quantidade": 2,
             "empenhado": 50000,
             "pago": 50000
+          },
+          {
+            "nome": "DESPORTO E LAZER",
+            "quantidade": 1,
+            "empenhado": 50000,
+            "pago": 0
           },
           {
             "nome": "SAÚDE",
@@ -2058,12 +2052,6 @@
             "quantidade": 1,
             "empenhado": 5200,
             "pago": 5200
-          },
-          {
-            "nome": "Não informada",
-            "quantidade": 97,
-            "empenhado": 0,
-            "pago": 0
           }
         ],
         "porLocalidade": [
@@ -2338,7 +2326,7 @@
             "ano": 2025,
             "tipo": "Individual com finalidade definida não impositiva",
             "localidade": "Vargem Alta",
-            "funcao": "COMÉRCIO E SERVIÇOS",
+            "funcao": null,
             "objeto": "EMENDA DESTINADA PARA REALIZAÇÃO DE FESTIVAIS E FEIRAS DE NEGÓCIOS DA ASSOCIAÇÃO COMERCIAL E EMPRESARIAL DO ESPIRITO SANTO (03.077.236/0001-14)",
             "previsto": 200000,
             "empenhado": 200000,
@@ -2360,7 +2348,7 @@
             "ano": 2025,
             "tipo": "Individual com finalidade definida não impositiva",
             "localidade": "Serra",
-            "funcao": "COMÉRCIO E SERVIÇOS",
+            "funcao": null,
             "objeto": "EMENDA DESTINADA PARA REALIZAÇÃO DE FESTIVAIS E FEIRAS DE NEGÓCIOS DA ASSOCIAÇÃO BENEFICENTE CASA DA MULHER (01.977.379/0001-57)",
             "previsto": 150000,
             "empenhado": 150000,
@@ -2371,7 +2359,7 @@
             "ano": 2025,
             "tipo": "Individual com finalidade definida não impositiva",
             "localidade": "Cariacica",
-            "funcao": "COMÉRCIO E SERVIÇOS",
+            "funcao": null,
             "objeto": "APOIO FINANCEIRO PARA A PROMOçãO DO CARNAVAL CAPIXABA ATRAVÉS DO GRÊMIO RECREATIVO CULTURAL ESPORTIVO SOCIAL ESCOLA DE SAMBA INDEPENDENTE DE BOA VISTA (28.483.204/0001-40)",
             "previsto": 150000,
             "empenhado": 150000,
@@ -2393,7 +2381,7 @@
             "ano": 2025,
             "tipo": "Individual com finalidade definida não impositiva",
             "localidade": "Serra",
-            "funcao": "DESPORTO E LAZER",
+            "funcao": null,
             "objeto": "RECURSO ENVIADO PARA CUSTEIO E MANUTENÇÃO DA ENTIDADE INSTITUTO CAPIXABA DE PROMOAÇÃO SOCIAL - ICAPS (35.250.477/0001-00)",
             "previsto": 100000,
             "empenhado": 100000,
@@ -2425,10 +2413,10 @@
         "valoresPublicados": true,
         "totais": {
           "previsto": 7100000,
-          "empenhado": 4392846.01,
-          "liquidado": 3900275.01,
-          "pago": 3755660.01,
-          "restosAPagar": 575108.4199999999
+          "empenhado": 5098391.01,
+          "liquidado": 4090820.01,
+          "pago": 3921205.01,
+          "restosAPagar": 1060108.42
         },
         "porAno": [
           {
@@ -2440,70 +2428,70 @@
           {
             "ano": 2025,
             "quantidade": 56,
-            "empenhado": 1554537.17,
-            "pago": 1147867.17
+            "empenhado": 2205082.17,
+            "pago": 1313412.17
           },
           {
             "ano": 2026,
             "quantidade": 78,
-            "empenhado": 1209945,
+            "empenhado": 1264945,
             "pago": 1190000
           }
         ],
         "porFuncao": [
           {
+            "nome": "Não informada",
+            "quantidade": 108,
+            "empenhado": 2205082.17,
+            "pago": 1313412.17
+          },
+          {
             "nome": "COMÉRCIO E SERVIÇOS",
-            "quantidade": 34,
-            "empenhado": 1385000,
-            "pago": 1365000
-          },
-          {
-            "nome": "DIREITOS DA CIDADANIA",
-            "quantidade": 16,
-            "empenhado": 635000,
-            "pago": 310000
-          },
-          {
-            "nome": "AGRICULTURA",
-            "quantidade": 11,
-            "empenhado": 633593.26,
-            "pago": 446693.26
+            "quantidade": 22,
+            "empenhado": 880000,
+            "pago": 860000
           },
           {
             "nome": "EDUCAÇÃO",
-            "quantidade": 26,
-            "empenhado": 628822.3400000001,
+            "quantidade": 27,
+            "empenhado": 609152.3400000001,
             "pago": 544207.3400000001
           },
           {
+            "nome": "AGRICULTURA",
+            "quantidade": 6,
+            "empenhado": 348485.6,
+            "pago": 258585.6
+          },
+          {
+            "nome": "DIREITOS DA CIDADANIA",
+            "quantidade": 13,
+            "empenhado": 305000,
+            "pago": 245000
+          },
+          {
             "nome": "ASSISTÊNCIA SOCIAL",
-            "quantidade": 11,
-            "empenhado": 319998.24,
-            "pago": 319998.24
+            "quantidade": 7,
+            "empenhado": 199999.9,
+            "pago": 199999.9
           },
           {
             "nome": "CULTURA",
-            "quantidade": 9,
-            "empenhado": 310000,
-            "pago": 310000
+            "quantidade": 5,
+            "empenhado": 180000,
+            "pago": 180000
           },
           {
             "nome": "GESTÃO AMBIENTAL",
-            "quantidade": 4,
-            "empenhado": 185000,
-            "pago": 185000
+            "quantidade": 3,
+            "empenhado": 135000,
+            "pago": 135000
           },
           {
             "nome": "DESPORTO E LAZER",
-            "quantidade": 5,
-            "empenhado": 139761.16999999998,
-            "pago": 139761.16999999998
-          },
-          {
-            "nome": "CIÊNCIA E TECNOLOGIA",
-            "quantidade": 2,
-            "empenhado": 75000,
-            "pago": 75000
+            "quantidade": 4,
+            "empenhado": 110000,
+            "pago": 80000
           },
           {
             "nome": "SAÚDE",
@@ -2512,15 +2500,15 @@
             "pago": 60000
           },
           {
+            "nome": "CIÊNCIA E TECNOLOGIA",
+            "quantidade": 1,
+            "empenhado": 45000,
+            "pago": 45000
+          },
+          {
             "nome": "SEGURANÇA PÚBLICA",
             "quantidade": 1,
             "empenhado": 20671,
-            "pago": 0
-          },
-          {
-            "nome": "Não informada",
-            "quantidade": 70,
-            "empenhado": 0,
             "pago": 0
           }
         ],
@@ -2532,6 +2520,18 @@
             "pago": 2139761.17
           },
           {
+            "nome": "São Mateus",
+            "quantidade": 5,
+            "empenhado": 706089.5700000001,
+            "pago": 124089.57
+          },
+          {
+            "nome": "Aracruz",
+            "quantidade": 9,
+            "empenhado": 298654,
+            "pago": 298654
+          },
+          {
             "nome": "Conceição da Barra",
             "quantidade": 8,
             "empenhado": 283965.6,
@@ -2540,20 +2540,14 @@
           {
             "nome": "Vila Velha",
             "quantidade": 11,
-            "empenhado": 249998.34,
+            "empenhado": 279998.33999999997,
             "pago": 229998.34
           },
           {
             "nome": "Serra",
             "quantidade": 12,
-            "empenhado": 225000,
+            "empenhado": 250000,
             "pago": 195000
-          },
-          {
-            "nome": "São Mateus",
-            "quantidade": 5,
-            "empenhado": 221089.57,
-            "pago": 124089.57
           },
           {
             "nome": "Guarapari",
@@ -2566,12 +2560,6 @@
             "quantidade": 6,
             "empenhado": 135000,
             "pago": 75000
-          },
-          {
-            "nome": "Aracruz",
-            "quantidade": 9,
-            "empenhado": 133109,
-            "pago": 133109
           },
           {
             "nome": "Linhares",
@@ -2746,12 +2734,23 @@
           {
             "nome": "Individual com finalidade definida não impositiva",
             "quantidade": 186,
-            "empenhado": 4392846.01,
-            "pago": 3755660.01
+            "empenhado": 5098391.01,
+            "pago": 3921205.01
           }
         ],
         "criterioDaLista": "as 10 de maior valor empenhado",
         "lista": [
+          {
+            "numero": "2025 / E0785",
+            "ano": 2025,
+            "tipo": "Individual com finalidade definida não impositiva",
+            "localidade": "São Mateus",
+            "funcao": "AGRICULTURA",
+            "objeto": "APOIO FINANCEIRO PARA AQUISIÇÃO DE VEÍCULO PARA O FORTALECIMENTO DA AGRICULTURA FAMILIAR - CENTRO DE FORMAÇÃO MARIA OLINDA - CEFORMA - CENTRO DE FORMAÇÃOO MARIA OLINDA (08.898.995/0001-61).",
+            "previsto": 100000,
+            "empenhado": 582000,
+            "pago": 0
+          },
           {
             "numero": "2024 / E0524",
             "ano": 2024,
@@ -2764,26 +2763,26 @@
             "pago": 220000
           },
           {
+            "numero": "2025 / E0780",
+            "ano": 2025,
+            "tipo": "Individual com finalidade definida não impositiva",
+            "localidade": "Aracruz",
+            "funcao": null,
+            "objeto": "APOIO FINANCEIRO PARA A COMPRA DE EQUIPAMENTOS PARA O FOMENTO DA AGRICULTURA FAMILIAR - AGRA - ASSOCIAÇÃO DE PRODUÇÃO, COMERCIALIZAÇÃO E PRESTAÇÃO DE SERVIÇOS AOS AGRICULTORES DA REFORMA AGRÁRIA. - ASSOCIAÇÃO DE PRODUÇÃO, COMERCILIZAÇÃO E PRESTAÇÃO DE SERVIÇOS AOS AGRICULTORES DA REFORMA AGRÁRIA (42.355.763/0001-03).",
+            "previsto": 40000,
+            "empenhado": 198654,
+            "pago": 198654
+          },
+          {
             "numero": "2025 / E0843",
             "ano": 2025,
             "tipo": "Individual com finalidade definida não impositiva",
             "localidade": "Vitória",
-            "funcao": "COMÉRCIO E SERVIÇOS",
+            "funcao": null,
             "objeto": "REALIZAÇÃO DO CARNAVAL 2025 ATRAVÉS DO INSTITUTO RAIZES (33.253.187/0001-94)",
             "previsto": 150000,
             "empenhado": 150000,
             "pago": 150000
-          },
-          {
-            "numero": "2025 / E0785",
-            "ano": 2025,
-            "tipo": "Individual com finalidade definida não impositiva",
-            "localidade": "São Mateus",
-            "funcao": "AGRICULTURA",
-            "objeto": "APOIO FINANCEIRO PARA AQUISIÇÃO DE VEÍCULO PARA O FORTALECIMENTO DA AGRICULTURA FAMILIAR - CENTRO DE FORMAÇÃO MARIA OLINDA - CEFORMA - CENTRO DE FORMAÇÃOO MARIA OLINDA (08.898.995/0001-61).",
-            "previsto": 100000,
-            "empenhado": 97000,
-            "pago": 0
           },
           {
             "numero": "2024 / E0532",
@@ -2850,17 +2849,6 @@
             "previsto": 50000,
             "empenhado": 50000,
             "pago": 50000
-          },
-          {
-            "numero": "2024 / E0528",
-            "ano": 2024,
-            "tipo": "Individual com finalidade definida não impositiva",
-            "localidade": "Vitória",
-            "funcao": "DIREITOS DA CIDADANIA",
-            "objeto": "APOIO FINANCEIRO PARA A PROMOÇÃO DE ATIVIDADES EM DEFESA DA DIVERSIDADE E CURSOS PROFISSIONALIZANTES PARA A POPULAÇÃO LGBTQIAPN+ - ENTIDADE: ASSOCIAÇÃO GRUPO ORGULHO, LIBERDADE E DIGNIDADE -  GOLD",
-            "previsto": 50000,
-            "empenhado": 50000,
-            "pago": 50000
           }
         ]
       }
@@ -2878,8 +2866,8 @@
         "totais": {
           "previsto": 8700000,
           "empenhado": 4095525.94,
-          "liquidado": 3845280.8,
-          "pago": 3815280.8,
+          "liquidado": 3845280.8000000003,
+          "pago": 3815280.8000000003,
           "restosAPagar": 136643.57
         },
         "porAno": [
@@ -2899,7 +2887,7 @@
             "ano": 2025,
             "quantidade": 11,
             "empenhado": 945651.34,
-            "pago": 809007.7699999999
+            "pago": 809007.77
           },
           {
             "ano": 2026,
@@ -2911,15 +2899,21 @@
         "porFuncao": [
           {
             "nome": "DESPORTO E LAZER",
-            "quantidade": 23,
-            "empenhado": 3250525.9400000004,
-            "pago": 3000280.8000000003
+            "quantidade": 22,
+            "empenhado": 2354874.6,
+            "pago": 2211273.0300000003
+          },
+          {
+            "nome": "Não informada",
+            "quantidade": 74,
+            "empenhado": 945651.34,
+            "pago": 809007.77
           },
           {
             "nome": "COMÉRCIO E SERVIÇOS",
-            "quantidade": 6,
-            "empenhado": 530000,
-            "pago": 530000
+            "quantidade": 4,
+            "empenhado": 510000,
+            "pago": 510000
           },
           {
             "nome": "SAÚDE",
@@ -2928,20 +2922,14 @@
             "pago": 270000
           },
           {
-            "nome": "ASSISTÊNCIA SOCIAL",
-            "quantidade": 1,
-            "empenhado": 30000,
-            "pago": 0
-          },
-          {
             "nome": "GESTÃO AMBIENTAL",
             "quantidade": 1,
             "empenhado": 15000,
             "pago": 15000
           },
           {
-            "nome": "Não informada",
-            "quantidade": 69,
+            "nome": "ASSISTÊNCIA SOCIAL",
+            "quantidade": 1,
             "empenhado": 0,
             "pago": 0
           }
@@ -2957,13 +2945,13 @@
             "nome": "Vila Velha",
             "quantidade": 16,
             "empenhado": 1040628.24,
-            "pago": 933984.6699999999
+            "pago": 933984.67
           },
           {
             "nome": "Vitória",
             "quantidade": 38,
             "empenhado": 644917.7,
-            "pago": 614916.13
+            "pago": 614916.1299999999
           },
           {
             "nome": "Cariacica",
@@ -3049,7 +3037,7 @@
             "nome": "Individual com finalidade definida não impositiva",
             "quantidade": 105,
             "empenhado": 4095525.94,
-            "pago": 3815280.8
+            "pago": 3815280.8000000003
           }
         ],
         "criterioDaLista": "as 10 de maior valor empenhado",
@@ -3063,7 +3051,7 @@
             "objeto": "ESTA EMENDA VISA TRANSFERIR RECURSO PARA CUSTEIO DA PREFEITURA MUNICIPAL DE VILA VELHA.",
             "previsto": 1000000,
             "empenhado": 855651.34,
-            "pago": 749007.7699999999
+            "pago": 749007.77
           },
           {
             "numero": "2026 / E1099",
@@ -3179,10 +3167,10 @@
         "valoresPublicados": true,
         "totais": {
           "previsto": 7200000,
-          "empenhado": 1168258.42,
-          "liquidado": 1045222.7900000002,
+          "empenhado": 1333258.42,
+          "liquidado": 1045222.79,
           "pago": 935222.7900000002,
-          "restosAPagar": 183000
+          "restosAPagar": 298000
         },
         "porAno": [
           {
@@ -3194,40 +3182,52 @@
           {
             "ano": 2025,
             "quantidade": 43,
-            "empenhado": 532750.45,
+            "empenhado": 647750.4500000001,
             "pago": 409714.82
           },
           {
             "ano": 2026,
             "quantidade": 55,
-            "empenhado": 385717.67,
+            "empenhado": 435717.67,
             "pago": 335717.67
           }
         ],
         "porFuncao": [
           {
-            "nome": "ASSISTÊNCIA SOCIAL",
-            "quantidade": 9,
-            "empenhado": 349995.87,
-            "pago": 249995.87
+            "nome": "Não informada",
+            "quantidade": 136,
+            "empenhado": 647750.4500000001,
+            "pago": 409714.82
           },
           {
             "nome": "DESPORTO E LAZER",
-            "quantidade": 7,
-            "empenhado": 305474.8,
-            "pago": 255439.17
+            "quantidade": 4,
+            "empenhado": 175724,
+            "pago": 125724
           },
           {
-            "nome": "SAÚDE",
-            "quantidade": 5,
-            "empenhado": 289792,
-            "pago": 229792
+            "nome": "ASSISTÊNCIA SOCIAL",
+            "quantidade": 7,
+            "empenhado": 169996.21999999997,
+            "pago": 169996.21999999997
           },
           {
             "nome": "COMÉRCIO E SERVIÇOS",
             "quantidade": 3,
             "empenhado": 150000,
             "pago": 150000
+          },
+          {
+            "nome": "SAÚDE",
+            "quantidade": 3,
+            "empenhado": 89792,
+            "pago": 29792
+          },
+          {
+            "nome": "CULTURA",
+            "quantidade": 1,
+            "empenhado": 50000,
+            "pago": 0
           },
           {
             "nome": "DIREITOS DA CIDADANIA",
@@ -3238,17 +3238,17 @@
           {
             "nome": "AGRICULTURA",
             "quantidade": 1,
-            "empenhado": 23000,
-            "pago": 0
-          },
-          {
-            "nome": "Não informada",
-            "quantidade": 127,
             "empenhado": 0,
             "pago": 0
           }
         ],
         "porLocalidade": [
+          {
+            "nome": "Itapemirim",
+            "quantidade": 2,
+            "empenhado": 188000,
+            "pago": 50000
+          },
           {
             "nome": "Vitória",
             "quantidade": 22,
@@ -3274,16 +3274,16 @@
             "pago": 99744.49
           },
           {
+            "nome": "Muniz Freire",
+            "quantidade": 9,
+            "empenhado": 90000,
+            "pago": 40000
+          },
+          {
             "nome": "Cachoeiro de Itapemirim",
             "quantidade": 9,
             "empenhado": 80000,
             "pago": 0
-          },
-          {
-            "nome": "Itapemirim",
-            "quantidade": 2,
-            "empenhado": 73000,
-            "pago": 50000
           },
           {
             "nome": "Cariacica",
@@ -3318,12 +3318,6 @@
           {
             "nome": "Ibitirama",
             "quantidade": 5,
-            "empenhado": 40000,
-            "pago": 40000
-          },
-          {
-            "nome": "Muniz Freire",
-            "quantidade": 9,
             "empenhado": 40000,
             "pago": 40000
           },
@@ -3458,18 +3452,29 @@
           {
             "nome": "Individual com finalidade definida não impositiva",
             "quantidade": 151,
-            "empenhado": 1168258.42,
+            "empenhado": 1333258.42,
             "pago": 935222.7900000002
           }
         ],
         "criterioDaLista": "as 10 de maior valor empenhado",
         "lista": [
           {
+            "numero": "2025 / E0748",
+            "ano": 2025,
+            "tipo": "Individual com finalidade definida não impositiva",
+            "localidade": "Itapemirim",
+            "funcao": "AGRICULTURA",
+            "objeto": "AJUDA FINANCEIRA A ENTIDADE PARA INVESTIMENTO NA AQUISIÇÃO DE UM VEÍCULO PARA ATENDIMENTO NAS DEMANDAS DA INSTITUIÇÃO APEAGRI. - ASSOCIAÇÃO DOS PECUARISTAS E AGRICULTORES FAMILIARES DO MUNICÍPIO DE ITAPEMIRIM - APEAGRI (02.098.233/0001-02).",
+            "previsto": 70000,
+            "empenhado": 138000,
+            "pago": 0
+          },
+          {
             "numero": "2025 / E0734",
             "ano": 2025,
             "tipo": "Individual com finalidade definida não impositiva",
             "localidade": "Vitória",
-            "funcao": "SAÚDE",
+            "funcao": null,
             "objeto": "APOIO FINANCEIRO PARA CUSTEAR AS DESPESAS DA  ENTIDADE IRMANDADE DA SANTA CASA DE MISERICÓRDIA DE VITÓRIA. - IRMANDADE DA SANTA CASA DE MISERICORDIA DE VITORIA (28.141.190/0001-86).",
             "previsto": 100000,
             "empenhado": 100000,
@@ -3480,7 +3485,7 @@
             "ano": 2025,
             "tipo": "Individual com finalidade definida não impositiva",
             "localidade": "Iúna",
-            "funcao": "SAÚDE",
+            "funcao": null,
             "objeto": "APOIO FINANCEIRO A SANTA CASA DE IÚNA PARA AQUISIÇÃO DE EQUIPAMENTOS E MATERIAIS DE NATUREZA PERMANENTE ENTIDADE SANTA CASA DE IÚNA. - SANTA CASA DE IÚNA (27.553.841/0001-82)",
             "previsto": 100000,
             "empenhado": 100000,
@@ -3502,7 +3507,7 @@
             "ano": 2025,
             "tipo": "Individual com finalidade definida não impositiva",
             "localidade": "Guarapari",
-            "funcao": "DESPORTO E LAZER",
+            "funcao": null,
             "objeto": "RECURSO DESTINADO AO CUSTEIO E PROMOÇÕES DE EVENTOS ESPORTIVOS DA ENTIDADE LIGA INDEPENDENTE DE FUTEBOL AMADOR CLUBE DOS 8. - LIGA INDEPENDENTE DE FUTEBOL AMADOR CLUBE DOS OITO (05.109.446/0001-72)",
             "previsto": 100000,
             "empenhado": 59750.8,
@@ -3524,7 +3529,7 @@
             "ano": 2025,
             "tipo": "Individual com finalidade definida não impositiva",
             "localidade": "São José do Calçado",
-            "funcao": "ASSISTÊNCIA SOCIAL",
+            "funcao": null,
             "objeto": "RECURSOS PARA A MANUTENÇÃO DA ENTIDADE ASSOCIAÇÃO RECANTO CARLOS JOSÉ NUNES - LAR DOS IDOSOS (36.402.691/0001-05)",
             "previsto": 50000,
             "empenhado": 50000,
@@ -3562,17 +3567,6 @@
             "previsto": 50000,
             "empenhado": 50000,
             "pago": 0
-          },
-          {
-            "numero": "2026 / E0619",
-            "ano": 2026,
-            "tipo": "Individual com finalidade definida não impositiva",
-            "localidade": "Itapemirim",
-            "funcao": "DESPORTO E LAZER",
-            "objeto": "EMENDA DESTINADA AO APOIO A MANUTENÇÃO DA ENTIDADE ASSOCIAÇÃO DE MORADORES DE SANTO AMARO DO MUNÍCIPIO DE ITAPEMIRIM. - ASSOCIACAO DE MORADORES DE SANTO AMARO (04.977.944/0001-74)",
-            "previsto": 50000,
-            "empenhado": 50000,
-            "pago": 50000
           }
         ]
       }
@@ -3589,9 +3583,9 @@
         "valoresPublicados": true,
         "totais": {
           "previsto": 8700000,
-          "empenhado": 9122525.81,
-          "liquidado": 8538147.040000001,
-          "pago": 8293267.170000001,
+          "empenhado": 9431214.810000002,
+          "liquidado": 8775836.040000003,
+          "pago": 8530956.170000002,
           "restosAPagar": 196687.05
         },
         "porAno": [
@@ -3616,52 +3610,58 @@
           {
             "ano": 2026,
             "quantidade": 48,
-            "empenhado": 3823267.92,
-            "pago": 3190696.33
+            "empenhado": 4131956.92,
+            "pago": 3428385.33
           }
         ],
         "porFuncao": [
           {
             "nome": "DESPORTO E LAZER",
-            "quantidade": 23,
-            "empenhado": 3285909.48,
-            "pago": 3227809.48
+            "quantidade": 16,
+            "empenhado": 2423273.1,
+            "pago": 2365173.1
           },
           {
             "nome": "AGRICULTURA",
             "quantidade": 13,
-            "empenhado": 2090221.51,
-            "pago": 1735221.51
+            "empenhado": 2398910.51,
+            "pago": 1972910.51
           },
           {
-            "nome": "COMÉRCIO E SERVIÇOS",
-            "quantidade": 7,
-            "empenhado": 1068000,
-            "pago": 931312
-          },
-          {
-            "nome": "ASSISTÊNCIA SOCIAL",
-            "quantidade": 39,
-            "empenhado": 1039173.84,
-            "pago": 979174.7899999999
+            "nome": "Não informada",
+            "quantidade": 62,
+            "empenhado": 2025035.8699999996,
+            "pago": 1848347.8699999996
           },
           {
             "nome": "EDUCAÇÃO",
-            "quantidade": 23,
-            "empenhado": 905720.56,
-            "pago": 700839.74
+            "quantidade": 18,
+            "empenhado": 756029.9,
+            "pago": 551149.08
+          },
+          {
+            "nome": "ASSISTÊNCIA SOCIAL",
+            "quantidade": 25,
+            "empenhado": 699975.14,
+            "pago": 679976.09
+          },
+          {
+            "nome": "COMÉRCIO E SERVIÇOS",
+            "quantidade": 6,
+            "empenhado": 528000,
+            "pago": 528000
           },
           {
             "nome": "SAÚDE",
-            "quantidade": 10,
-            "empenhado": 408510.13,
-            "pago": 393919.36
+            "quantidade": 7,
+            "empenhado": 300000,
+            "pago": 285409.23
           },
           {
             "nome": "CULTURA",
-            "quantidade": 5,
-            "empenhado": 154990.28999999998,
-            "pago": 154990.28999999998
+            "quantidade": 4,
+            "empenhado": 129990.29000000001,
+            "pago": 129990.29000000001
           },
           {
             "nome": "URBANISMO",
@@ -3680,12 +3680,6 @@
             "quantidade": 1,
             "empenhado": 30000,
             "pago": 30000
-          },
-          {
-            "nome": "Não informada",
-            "quantidade": 28,
-            "empenhado": 0,
-            "pago": 0
           }
         ],
         "porLocalidade": [
@@ -3704,14 +3698,14 @@
           {
             "nome": "Laranja da Terra",
             "quantidade": 6,
-            "empenhado": 563050,
-            "pago": 563050
+            "empenhado": 641660,
+            "pago": 641660
           },
           {
             "nome": "Colatina",
             "quantidade": 6,
-            "empenhado": 534991.49,
-            "pago": 534991.49
+            "empenhado": 631991.49,
+            "pago": 631991.49
           },
           {
             "nome": "Baixo Guandu",
@@ -3722,13 +3716,13 @@
           {
             "nome": "São José do Calçado",
             "quantidade": 3,
-            "empenhado": 415395,
-            "pago": 340395
+            "empenhado": 492474,
+            "pago": 402474
           },
           {
             "nome": "Barra de São Francisco",
             "quantidade": 2,
-            "empenhado": 330000,
+            "empenhado": 386000,
             "pago": 50000
           },
           {
@@ -3940,8 +3934,8 @@
           {
             "nome": "Individual com finalidade definida não impositiva",
             "quantidade": 151,
-            "empenhado": 9122525.81,
-            "pago": 8293267.170000001
+            "empenhado": 9431214.810000002,
+            "pago": 8530956.170000002
           }
         ],
         "criterioDaLista": "as 10 de maior valor empenhado",
@@ -3958,6 +3952,17 @@
             "pago": 561900
           },
           {
+            "numero": "2026 / E0679",
+            "ano": 2026,
+            "tipo": "Individual com finalidade definida não impositiva",
+            "localidade": "Colatina",
+            "funcao": "AGRICULTURA",
+            "objeto": "VERBAS DE INVESTIMENTO PARA APOIO DAS ATIVIDADES DA COOPERATIVA DOS AGRICULTORES FAMILIARES DE COLATINA - COOPAF - NO MUNICÍPIO DE COLATINA. - CAF - COOPERATIVA DOS AGRICULTORES FAMILIARES DE COLATINA (05.642.134/0001-20)",
+            "previsto": 98000,
+            "empenhado": 582000,
+            "pago": 582000
+          },
+          {
             "numero": "2025 / E0650",
             "ano": 2025,
             "tipo": "Individual com finalidade definida não impositiva",
@@ -3969,15 +3974,15 @@
             "pago": 363312
           },
           {
-            "numero": "2026 / E0679",
+            "numero": "2026 / E0680",
             "ano": 2026,
             "tipo": "Individual com finalidade definida não impositiva",
-            "localidade": "Colatina",
+            "localidade": "São José do Calçado",
             "funcao": "AGRICULTURA",
-            "objeto": "VERBAS DE INVESTIMENTO PARA APOIO DAS ATIVIDADES DA COOPERATIVA DOS AGRICULTORES FAMILIARES DE COLATINA - COOPAF - NO MUNICÍPIO DE COLATINA. - CAF - COOPERATIVA DOS AGRICULTORES FAMILIARES DE COLATINA (05.642.134/0001-20)",
-            "previsto": 98000,
-            "empenhado": 485000,
-            "pago": 485000
+            "objeto": "EMENDA PARA AQUISIÇÃO DE EQUIPAMENTO AGRÍCOLA PARA ASSOCIAÇÃO DOS TRABALHADORES E AGRICULTORES FAMILIARES DA COMUNIDADE DO BERTO PADRE - ATRAP - NO MUNICÍPIO DE SÃO JOSÉ DOS CALÇADOS. - ASSOCIACAO DOS TRABALHADORES RURAIS E AGRICULTORES FAMILIARES DA COMUNIDADE DO BERTO PADRE - ES (ATRAP) (37.630.458/0001-34)",
+            "previsto": 80000,
+            "empenhado": 462474,
+            "pago": 372474
           },
           {
             "numero": "2026 / E0657",
@@ -3991,22 +3996,22 @@
             "pago": 400000
           },
           {
-            "numero": "2026 / E0680",
+            "numero": "2026 / E0678",
             "ano": 2026,
             "tipo": "Individual com finalidade definida não impositiva",
-            "localidade": "São José do Calçado",
+            "localidade": "Barra de São Francisco",
             "funcao": "AGRICULTURA",
-            "objeto": "EMENDA PARA AQUISIÇÃO DE EQUIPAMENTO AGRÍCOLA PARA ASSOCIAÇÃO DOS TRABALHADORES E AGRICULTORES FAMILIARES DA COMUNIDADE DO BERTO PADRE - ATRAP - NO MUNICÍPIO DE SÃO JOSÉ DOS CALÇADOS. - ASSOCIACAO DOS TRABALHADORES RURAIS E AGRICULTORES FAMILIARES DA COMUNIDADE DO BERTO PADRE - ES (ATRAP) (37.630.458/0001-34)",
-            "previsto": 80000,
-            "empenhado": 385395,
-            "pago": 310395
+            "objeto": "EMENDA PARA AQUISIÇÃO DE EQUIPAMENTO AGRÍCOLA PARA ASSOCIAÇÃO DE PRODUTORES RURAIS E AMIGOS DO CÓRREGO RIO DO CAMPO NOMUNICÍPIO DE BARRA DE SÃO FRANCISCO. - ASSOCIACAO DE PRODUTORES RURAIS E AMIGOS DO CORREGO RIO DO CAMPO (36.349.108/0001-31)",
+            "previsto": 60000,
+            "empenhado": 336000,
+            "pago": 0
           },
           {
             "numero": "2025 / E0647",
             "ano": 2025,
             "tipo": "Individual com finalidade definida não impositiva",
             "localidade": "Vitória",
-            "funcao": "DESPORTO E LAZER",
+            "funcao": null,
             "objeto": "EMENDA PARA AQUISIÇÃO DE EQUIPAMENTOS E INVESTIMENTO PARA O VITÓRIA FUTEBOL CLUBE - VITORIA FUTEBOL CLUBE (27.033.745/0001-03)",
             "previsto": 300000,
             "empenhado": 300000,
@@ -4024,17 +4029,6 @@
             "pago": 300000
           },
           {
-            "numero": "2026 / E0678",
-            "ano": 2026,
-            "tipo": "Individual com finalidade definida não impositiva",
-            "localidade": "Barra de São Francisco",
-            "funcao": "AGRICULTURA",
-            "objeto": "EMENDA PARA AQUISIÇÃO DE EQUIPAMENTO AGRÍCOLA PARA ASSOCIAÇÃO DE PRODUTORES RURAIS E AMIGOS DO CÓRREGO RIO DO CAMPO NOMUNICÍPIO DE BARRA DE SÃO FRANCISCO. - ASSOCIACAO DE PRODUTORES RURAIS E AMIGOS DO CORREGO RIO DO CAMPO (36.349.108/0001-31)",
-            "previsto": 60000,
-            "empenhado": 280000,
-            "pago": 0
-          },
-          {
             "numero": "2026 / E0675",
             "ano": 2026,
             "tipo": "Individual com finalidade definida não impositiva",
@@ -4042,19 +4036,19 @@
             "funcao": "AGRICULTURA",
             "objeto": "EMENDA PARA AQUISIÇÃO DE EQUIPAMENTOS AGRÍCOLA PARA ASSOCIAÇÃO DE AGRICULTORES FAMILIARES DE PICADÃO, NO MUNICÍPIO DE LARANJA DA TERRA. - ASSOCIACAO DOS AGRICULTORES FAMILIARES DE PICADAO (33.600.943/0001-04)",
             "previsto": 45000,
-            "empenhado": 224200,
-            "pago": 224200
+            "empenhado": 269040,
+            "pago": 269040
           },
           {
-            "numero": "2024 / E0910",
-            "ano": 2024,
+            "numero": "2026 / E0677",
+            "ano": 2026,
             "tipo": "Individual com finalidade definida não impositiva",
-            "localidade": "Cariacica",
-            "funcao": "DESPORTO E LAZER",
-            "objeto": "EMENDA PARA APOIO, PROMOÇÃO E EVENTOS DE MOTOCICLISMO NO ESTADO DO ESPÍRITO SANTO, POR MEIO DA FEDERAÇAO CAPIXABA DE MOTOCICLISMO. ENTIDADE FEDERAÇÃO CAPIXABA DE MOTOCICLISMO",
-            "previsto": 200000,
-            "empenhado": 200000,
-            "pago": 200000
+            "localidade": "Laranja da Terra",
+            "funcao": "AGRICULTURA",
+            "objeto": "EMENDA PARA AQUISIÇÃO DE EQUIPAMENTO AGRÍCOLA PARA ASSOCIAÇÃO DOS AGRICULTORES FAMILIARES DE VENDINHA NO MUNICÍPIO DE LARANJA DA TERRA - - ASSOCIACAO DOS AGRICULTORES FAMILIARES DE VENDINHA (53.122.827/0001-34)",
+            "previsto": 35000,
+            "empenhado": 202620,
+            "pago": 202620
           }
         ]
       }
@@ -4071,7 +4065,7 @@
         "valoresPublicados": true,
         "totais": {
           "previsto": 7200000,
-          "empenhado": 5999987,
+          "empenhado": 6349987,
           "liquidado": 5999889.97,
           "pago": 5999889.97,
           "restosAPagar": 0
@@ -4092,34 +4086,34 @@
           {
             "ano": 2026,
             "quantidade": 5,
-            "empenhado": 1800000,
+            "empenhado": 2150000,
             "pago": 1800000
           }
         ],
         "porFuncao": [
           {
             "nome": "COMÉRCIO E SERVIÇOS",
-            "quantidade": 4,
-            "empenhado": 3800000,
-            "pago": 3800000
+            "quantidade": 3,
+            "empenhado": 2800000,
+            "pago": 2800000
+          },
+          {
+            "nome": "Não informada",
+            "quantidade": 5,
+            "empenhado": 2200000,
+            "pago": 2200000
           },
           {
             "nome": "DESPORTO E LAZER",
-            "quantidade": 5,
-            "empenhado": 1999987,
-            "pago": 1999889.97
+            "quantidade": 4,
+            "empenhado": 1149987,
+            "pago": 799889.97
           },
           {
             "nome": "ASSISTÊNCIA SOCIAL",
             "quantidade": 3,
             "empenhado": 200000,
             "pago": 200000
-          },
-          {
-            "nome": "Não informada",
-            "quantidade": 3,
-            "empenhado": 0,
-            "pago": 0
           }
         ],
         "porLocalidade": [
@@ -4132,7 +4126,7 @@
           {
             "nome": "Cariacica",
             "quantidade": 2,
-            "empenhado": 200000,
+            "empenhado": 550000,
             "pago": 199902.97
           },
           {
@@ -4152,7 +4146,7 @@
           {
             "nome": "Individual com finalidade definida não impositiva",
             "quantidade": 15,
-            "empenhado": 5999987,
+            "empenhado": 6349987,
             "pago": 5999889.97
           }
         ],
@@ -4174,7 +4168,7 @@
             "ano": 2025,
             "tipo": "Individual com finalidade definida não impositiva",
             "localidade": "Vitória",
-            "funcao": "COMÉRCIO E SERVIÇOS",
+            "funcao": null,
             "objeto": "TRANSFERÊNCIA DE RECURSOS PARA FINS DE CUSTEIO DA ASSOCIAÇÃO CULTURAL CHEGOU O QUE FALTAVA (30.212.963/0001-10)",
             "previsto": 1000000,
             "empenhado": 1000000,
@@ -4185,7 +4179,7 @@
             "ano": 2025,
             "tipo": "Individual com finalidade definida não impositiva",
             "localidade": "Vitória",
-            "funcao": "DESPORTO E LAZER",
+            "funcao": null,
             "objeto": "TRANFERÊNCIA DE RECURSOS PARA FINS DE CUSTEIO DO INSTITUTO CAPIXABA UNIBRASIL.  - INSTITUTO CAPIXABA UNIBRASIL (09.372.695/0001-07)",
             "previsto": 1000000,
             "empenhado": 1000000,
@@ -4225,6 +4219,17 @@
             "pago": 500000
           },
           {
+            "numero": "2026 / E0952",
+            "ano": 2026,
+            "tipo": "Individual com finalidade definida não impositiva",
+            "localidade": "Cariacica",
+            "funcao": "DESPORTO E LAZER",
+            "objeto": "TRANSFERêNCIA DE RECURSOS PARA FINS DE CUSTEIO DA ASSOCIAçãO MUNDO MODERNO DE FUTSAL (20.641.124/0001-63) NA REALIZAçãO DO DESAFIO INTERESTADUAL DE FUTSAL FEMININO. - ASSOCIACAO MUNDO MODERNO DE FUTSAL (20.641.124/0001-63)",
+            "previsto": 350000,
+            "empenhado": 350000,
+            "pago": 0
+          },
+          {
             "numero": "2024 / E0519",
             "ano": 2024,
             "tipo": "Individual com finalidade definida não impositiva",
@@ -4240,7 +4245,7 @@
             "ano": 2025,
             "tipo": "Individual com finalidade definida não impositiva",
             "localidade": "Vitória",
-            "funcao": "DESPORTO E LAZER",
+            "funcao": null,
             "objeto": "TRANFERÊNCIA DE RECURSOS PARA FINS DE CUSTEIO DA ENTIDADE.  - VITORIA FUTEBOL CLUBE (27.033.745/0001-03)",
             "previsto": 200000,
             "empenhado": 200000,
@@ -4256,17 +4261,6 @@
             "previsto": 100000,
             "empenhado": 100000,
             "pago": 100000
-          },
-          {
-            "numero": "2024 / E0514",
-            "ano": 2024,
-            "tipo": "Individual com finalidade definida não impositiva",
-            "localidade": "Viana",
-            "funcao": "DESPORTO E LAZER",
-            "objeto": "TRANSFERÊNCIA DE RECURSOS PARA FINS DE CUSTEIO DO INSTITUTO SOCIOEDUCATIVO MAIS QUERER. ENTIDADE INSTITUTO SOCIOEDUCATIVO MAIS QUERER",
-            "previsto": 100000,
-            "empenhado": 99987,
-            "pago": 99987
           }
         ]
       }
@@ -4283,9 +4277,9 @@
         "valoresPublicados": true,
         "totais": {
           "previsto": 7200000,
-          "empenhado": 5625833.5200000005,
-          "liquidado": 4522914.03,
-          "pago": 4162914.03,
+          "empenhado": 6805314.52,
+          "liquidado": 5466299.029999999,
+          "pago": 5106299.029999999,
           "restosAPagar": 400000
         },
         "porAno": [
@@ -4298,52 +4292,58 @@
           {
             "ano": 2025,
             "quantidade": 37,
-            "empenhado": 1921371.5400000003,
-            "pago": 1509181.54
+            "empenhado": 2905721.54,
+            "pago": 2432581.54
           },
           {
             "ano": 2026,
             "quantidade": 92,
-            "empenhado": 2275555.62,
-            "pago": 1224826.13
+            "empenhado": 2470686.6200000006,
+            "pago": 1244811.13
           }
         ],
         "porFuncao": [
           {
-            "nome": "SAÚDE",
-            "quantidade": 19,
-            "empenhado": 1839604.7,
-            "pago": 1639604.7
-          },
-          {
-            "nome": "ASSISTÊNCIA SOCIAL",
-            "quantidade": 54,
-            "empenhado": 1453705.33,
-            "pago": 1233705.33
+            "nome": "Não informada",
+            "quantidade": 105,
+            "empenhado": 2905721.54,
+            "pago": 2432581.54
           },
           {
             "nome": "AGRICULTURA",
-            "quantidade": 6,
-            "empenhado": 1272525,
-            "pago": 384605
+            "quantidade": 5,
+            "empenhado": 1270786,
+            "pago": 219910
+          },
+          {
+            "nome": "SAÚDE",
+            "quantidade": 15,
+            "empenhado": 989604.7,
+            "pago": 989604.7
+          },
+          {
+            "nome": "ASSISTÊNCIA SOCIAL",
+            "quantidade": 38,
+            "empenhado": 839203.79,
+            "pago": 819203.79
           },
           {
             "nome": "DESPORTO E LAZER",
-            "quantidade": 9,
-            "empenhado": 464999,
-            "pago": 329999
+            "quantidade": 8,
+            "empenhado": 434999,
+            "pago": 299999
           },
           {
             "nome": "COMÉRCIO E SERVIÇOS",
-            "quantidade": 3,
-            "empenhado": 420000,
-            "pago": 420000
+            "quantidade": 2,
+            "empenhado": 220000,
+            "pago": 220000
           },
           {
             "nome": "GESTÃO AMBIENTAL",
-            "quantidade": 6,
-            "empenhado": 90000,
-            "pago": 90000
+            "quantidade": 4,
+            "empenhado": 60000,
+            "pago": 60000
           },
           {
             "nome": "DIREITOS DA CIDADANIA",
@@ -4362,26 +4362,20 @@
             "quantidade": 1,
             "empenhado": 15000,
             "pago": 15000
-          },
-          {
-            "nome": "Não informada",
-            "quantidade": 73,
-            "empenhado": 0,
-            "pago": 0
           }
         ],
         "porLocalidade": [
+          {
+            "nome": "Castelo",
+            "quantidade": 16,
+            "empenhado": 2251220,
+            "pago": 1278080
+          },
           {
             "nome": "Cachoeiro de Itapemirim",
             "quantidade": 30,
             "empenhado": 1679998.96,
             "pago": 1359998.96
-          },
-          {
-            "nome": "Castelo",
-            "quantidade": 16,
-            "empenhado": 1116870,
-            "pago": 354680
           },
           {
             "nome": "Colatina",
@@ -4410,14 +4404,14 @@
           {
             "nome": "Apiacá",
             "quantidade": 3,
-            "empenhado": 150730,
+            "empenhado": 175876,
             "pago": 25000
           },
           {
             "nome": "Piúma",
             "quantidade": 4,
-            "empenhado": 149925,
-            "pago": 149925
+            "empenhado": 169910,
+            "pago": 169910
           },
           {
             "nome": "Guarapari",
@@ -4658,12 +4652,23 @@
           {
             "nome": "Individual com finalidade definida não impositiva",
             "quantidade": 173,
-            "empenhado": 5625833.5200000005,
-            "pago": 4162914.03
+            "empenhado": 6805314.52,
+            "pago": 5106299.029999999
           }
         ],
         "criterioDaLista": "as 10 de maior valor empenhado",
         "lista": [
+          {
+            "numero": "2025 / E0726",
+            "ano": 2025,
+            "tipo": "Individual com finalidade definida não impositiva",
+            "localidade": "Castelo",
+            "funcao": null,
+            "objeto": "APOIO FINANCEIRO PARA AQUISIÇÃO DE EQUIPAMENTOS PARA A ENTIDADE ASSOCIAÇÃO DE MORADORES DE SANTA MARIA DE BAIXO, LOCALIZADA NO MUNICÍPIO DE CASTELO / ES  - ASSOCIAÇÃO DOS MORADORES DE SANTA MARIA DE BAIXO (36.400.323/0001-10).",
+            "previsto": 200000,
+            "empenhado": 1181220,
+            "pago": 1108080
+          },
           {
             "numero": "2026 / E1219",
             "ano": 2026,
@@ -4672,7 +4677,7 @@
             "funcao": "AGRICULTURA",
             "objeto": "APOIO FINANCEIRO PARA AQUISIÇÃO DE EQUIPAMENTOS PARA A ENTIDADE ASSOCIAÇÃO DE MORADORES DE SANTA MARIA DE BAIXO, LOCALIZADA NO MUNICÍPIO DE CASTELO / ES - ASSOCIAÇÃO DOS MORADORES DE SANTA MARIA DE BAIXO. -",
             "previsto": 150000,
-            "empenhado": 750000,
+            "empenhado": 900000,
             "pago": 0
           },
           {
@@ -4691,7 +4696,7 @@
             "ano": 2025,
             "tipo": "Individual com finalidade definida não impositiva",
             "localidade": "Cachoeiro de Itapemirim",
-            "funcao": "SAÚDE",
+            "funcao": null,
             "objeto": "APOIO FINANCEIRO PARA CUSTEIO DE MANUTENÇÃO DO HOSPITAL MATERNO INFANTIL FRANCISCO DE ASSIS - HIFA DE CACHOEIRO DE ITAPEMIRIM - HOSPITAL INFANTIL FRANCISCO DE ASSIS (27.192.590/0001-58).",
             "previsto": 200000,
             "empenhado": 200000,
@@ -4702,7 +4707,7 @@
             "ano": 2025,
             "tipo": "Individual com finalidade definida não impositiva",
             "localidade": "Cachoeiro de Itapemirim",
-            "funcao": "SAÚDE",
+            "funcao": null,
             "objeto": "RECURSOS PARA EMENDA PARA CUSTEIO DO HOSPITAL EVANGÉLICO DE CACHOEIRO DE ITAPEMIRIM. HOSPITAL EVANGÉLICO DE CACHOEIRO DE ITAPEMIRIM (27.193.705/0001-29).",
             "previsto": 200000,
             "empenhado": 200000,
@@ -4713,7 +4718,7 @@
             "ano": 2025,
             "tipo": "Individual com finalidade definida não impositiva",
             "localidade": "Cachoeiro de Itapemirim",
-            "funcao": "COMÉRCIO E SERVIÇOS",
+            "funcao": null,
             "objeto": "APOIO FINANCEIRO A EVENTOS LIGADOS AO EMPREENDEDORISMO",
             "previsto": 200000,
             "empenhado": 200000,
@@ -4742,17 +4747,6 @@
             "pago": 200000
           },
           {
-            "numero": "2025 / E0726",
-            "ano": 2025,
-            "tipo": "Individual com finalidade definida não impositiva",
-            "localidade": "Castelo",
-            "funcao": "AGRICULTURA",
-            "objeto": "APOIO FINANCEIRO PARA AQUISIÇÃO DE EQUIPAMENTOS PARA A ENTIDADE ASSOCIAÇÃO DE MORADORES DE SANTA MARIA DE BAIXO, LOCALIZADA NO MUNICÍPIO DE CASTELO / ES  - ASSOCIAÇÃO DOS MORADORES DE SANTA MARIA DE BAIXO (36.400.323/0001-10).",
-            "previsto": 200000,
-            "empenhado": 196870,
-            "pago": 184680
-          },
-          {
             "numero": "2024 / E0994",
             "ano": 2024,
             "tipo": "Individual com finalidade definida não impositiva",
@@ -4764,15 +4758,15 @@
             "pago": 160000
           },
           {
-            "numero": "2025 / E0686",
-            "ano": 2025,
+            "numero": "2026 / E1364",
+            "ano": 2026,
             "tipo": "Individual com finalidade definida não impositiva",
-            "localidade": "Colatina",
-            "funcao": "SAÚDE",
-            "objeto": "APOIO FINANCEIRO A FUNDAÇÃO SOCIAL RURAL DE COLATINA - HOSPITAL SÃO JOSÉ PARA CUSTEIO DE DESPESAS ESSENCIAIS PARA O FUNCIONAMENTO.  FUND. SOCIAL RURAL DE COLATINA (27.502.715/0001-07).",
-            "previsto": 150000,
-            "empenhado": 150000,
-            "pago": 150000
+            "localidade": "Apiacá",
+            "funcao": "AGRICULTURA",
+            "objeto": "APOIO FINANCEIRO PARA AQUISIÇÃO DE EQUIPAMENTOS, PARA ATENDER A ASSOCIAÇÃO DA COMUNIDADE DO LIMÃO - ACOLI, DO MUNICÍPIO DE APIACÁ - ASSOCIAÇÃO DA COMUNIDADE DO LIMÃO (08.421.376/0001-81). - ASSOCIACAO DA COMUNIDADE DO LIMAO (08.421.376/0001-81)",
+            "previsto": 30000,
+            "empenhado": 150876,
+            "pago": 0
           }
         ]
       }
@@ -4806,7 +4800,7 @@
           {
             "nome": "DESPORTO E LAZER",
             "quantidade": 6,
-            "empenhado": 924757.44,
+            "empenhado": 924757.4400000001,
             "pago": 674757.44
           },
           {
@@ -5025,7 +5019,7 @@
         "valoresPublicados": true,
         "totais": {
           "previsto": 6870000,
-          "empenhado": 5570286.699999999,
+          "empenhado": 5640286.7,
           "liquidado": 5132766.32,
           "pago": 5102766.32,
           "restosAPagar": 117165
@@ -5052,16 +5046,16 @@
           {
             "ano": 2026,
             "quantidade": 19,
-            "empenhado": 2409960.9,
+            "empenhado": 2479960.9,
             "pago": 2059960.9
           }
         ],
         "porFuncao": [
           {
             "nome": "DESPORTO E LAZER",
-            "quantidade": 20,
-            "empenhado": 2806414.9,
-            "pago": 2776059.52
+            "quantidade": 17,
+            "empenhado": 2626917.9,
+            "pago": 2596855.15
           },
           {
             "nome": "COMÉRCIO E SERVIÇOS",
@@ -5072,8 +5066,14 @@
           {
             "nome": "AGRICULTURA",
             "quantidade": 7,
-            "empenhado": 575994.06,
+            "empenhado": 645994.06,
             "pago": 158829.06
+          },
+          {
+            "nome": "Não informada",
+            "quantidade": 38,
+            "empenhado": 199497,
+            "pago": 179204.37000000002
           },
           {
             "nome": "SAÚDE",
@@ -5082,16 +5082,16 @@
             "pago": 130000
           },
           {
-            "nome": "CULTURA",
-            "quantidade": 2,
-            "empenhado": 100000,
-            "pago": 80000
-          },
-          {
             "nome": "ASSISTÊNCIA SOCIAL",
             "quantidade": 5,
             "empenhado": 99877.74,
             "pago": 99877.74
+          },
+          {
+            "nome": "CULTURA",
+            "quantidade": 2,
+            "empenhado": 80000,
+            "pago": 80000
           },
           {
             "nome": "GESTÃO AMBIENTAL",
@@ -5104,12 +5104,6 @@
             "quantidade": 1,
             "empenhado": 28000,
             "pago": 28000
-          },
-          {
-            "nome": "Não informada",
-            "quantidade": 34,
-            "empenhado": 0,
-            "pago": 0
           }
         ],
         "porLocalidade": [
@@ -5122,7 +5116,7 @@
           {
             "nome": "Castelo",
             "quantidade": 3,
-            "empenhado": 497266.55,
+            "empenhado": 567266.55,
             "pago": 114875.55
           },
           {
@@ -5244,7 +5238,7 @@
           {
             "nome": "Individual com finalidade definida não impositiva",
             "quantidade": 77,
-            "empenhado": 5570286.699999999,
+            "empenhado": 5640286.7,
             "pago": 5102766.32
           }
         ],
@@ -5291,7 +5285,7 @@
             "funcao": "AGRICULTURA",
             "objeto": "APOIO FINANCEIRO PARA A AQUISIçãO DE BENS E EQUIPAMENTOS PARA A ASSOCIAçãO, OBJETIVANDO A MELHORIA NO ATENDIMENTO àS SUAS FINALIDADES SOCIAIS. - ASSOCIACAO DOS PRODUTORES DA COMUNIDADE DE SAO MANOEL (20.301.850/0001-37)",
             "previsto": 70000,
-            "empenhado": 350000,
+            "empenhado": 420000,
             "pago": 0
           },
           {
@@ -5375,10 +5369,10 @@
         "valoresPublicados": true,
         "totais": {
           "previsto": 8700000,
-          "empenhado": 5583311.590000001,
-          "liquidado": 4045807.94,
-          "pago": 3925807.94,
-          "restosAPagar": 646494.96
+          "empenhado": 6226811.590000001,
+          "liquidado": 4166807.94,
+          "pago": 4046807.9399999995,
+          "restosAPagar": 1096494.96
         },
         "porAno": [
           {
@@ -5396,46 +5390,46 @@
           {
             "ano": 2025,
             "quantidade": 64,
-            "empenhado": 1064725.94,
-            "pago": 825801.8700000001
+            "empenhado": 1635725.94,
+            "pago": 946801.8700000001
           },
           {
             "ano": 2026,
             "quantidade": 26,
-            "empenhado": 2428372.38,
+            "empenhado": 2500872.38,
             "pago": 1417372.38
           }
         ],
         "porFuncao": [
           {
             "nome": "DESPORTO E LAZER",
-            "quantidade": 29,
-            "empenhado": 2603818.5300000003,
-            "pago": 1926387.69
+            "quantidade": 23,
+            "empenhado": 2434896.38,
+            "pago": 1786389.6099999999
+          },
+          {
+            "nome": "Não informada",
+            "quantidade": 118,
+            "empenhado": 1635725.94,
+            "pago": 946801.8700000001
           },
           {
             "nome": "AGRICULTURA",
-            "quantidade": 16,
-            "empenhado": 948840.81,
-            "pago": 188768
+            "quantidade": 14,
+            "empenhado": 882140.81,
+            "pago": 139568
           },
           {
             "nome": "SAÚDE",
-            "quantidade": 16,
-            "empenhado": 867372.71,
-            "pago": 867372.71
+            "quantidade": 11,
+            "empenhado": 600000,
+            "pago": 600000
           },
           {
             "nome": "ASSISTÊNCIA SOCIAL",
-            "quantidade": 34,
-            "empenhado": 843616.66,
-            "pago": 823616.66
-          },
-          {
-            "nome": "DIREITOS DA CIDADANIA",
-            "quantidade": 3,
-            "empenhado": 179662.88,
-            "pago": 79662.88
+            "quantidade": 20,
+            "empenhado": 494385.58,
+            "pago": 494385.58
           },
           {
             "nome": "EDUCAÇÃO",
@@ -5444,16 +5438,10 @@
             "pago": 0
           },
           {
-            "nome": "CULTURA",
-            "quantidade": 1,
-            "empenhado": 40000,
-            "pago": 40000
-          },
-          {
-            "nome": "Não informada",
-            "quantidade": 85,
-            "empenhado": 0,
-            "pago": 0
+            "nome": "DIREITOS DA CIDADANIA",
+            "quantidade": 3,
+            "empenhado": 79662.88,
+            "pago": 79662.88
           }
         ],
         "porLocalidade": [
@@ -5470,10 +5458,22 @@
             "pago": 841209.5
           },
           {
+            "nome": "Boa Esperança",
+            "quantidade": 3,
+            "empenhado": 563300,
+            "pago": 0
+          },
+          {
             "nome": "Vila Velha",
             "quantidade": 8,
             "empenhado": 350000,
             "pago": 250000
+          },
+          {
+            "nome": "Jaguaré",
+            "quantidade": 5,
+            "empenhado": 299900,
+            "pago": 0
           },
           {
             "nome": "Vitória",
@@ -5482,16 +5482,16 @@
             "pago": 274994.13
           },
           {
-            "nome": "Jaguaré",
-            "quantidade": 5,
-            "empenhado": 264900,
-            "pago": 0
-          },
-          {
             "nome": "Mimoso do Sul",
             "quantidade": 4,
-            "empenhado": 217500,
+            "empenhado": 255000,
             "pago": 30000
+          },
+          {
+            "nome": "Divino de São Lourenço",
+            "quantidade": 3,
+            "empenhado": 145200,
+            "pago": 145200
           },
           {
             "nome": "Ibatiba",
@@ -5510,12 +5510,6 @@
             "quantidade": 4,
             "empenhado": 115000,
             "pago": 95000
-          },
-          {
-            "nome": "Boa Esperança",
-            "quantidade": 3,
-            "empenhado": 113300,
-            "pago": 0
           },
           {
             "nome": "Afonso Cláudio",
@@ -5692,12 +5686,6 @@
             "pago": 24737.76
           },
           {
-            "nome": "Divino de São Lourenço",
-            "quantidade": 3,
-            "empenhado": 24200,
-            "pago": 24200
-          },
-          {
             "nome": "Cachoeiro de Itapemirim",
             "quantidade": 1,
             "empenhado": 20000,
@@ -5822,8 +5810,8 @@
           {
             "nome": "Individual com finalidade definida não impositiva",
             "quantidade": 178,
-            "empenhado": 5583311.590000001,
-            "pago": 3925807.94
+            "empenhado": 6226811.590000001,
+            "pago": 4046807.9399999995
           }
         ],
         "criterioDaLista": "as 10 de maior valor empenhado",
@@ -5851,6 +5839,17 @@
             "pago": 841209.5
           },
           {
+            "numero": "2025 / E1242",
+            "ano": 2025,
+            "tipo": "Individual com finalidade definida não impositiva",
+            "localidade": "Boa Esperança",
+            "funcao": "AGRICULTURA",
+            "objeto": "EMENDA DESTINADA A PREFEITURA DE BOA ESPERANÇA, PARA ATENDER A SECRETARIA DE MEIO AMBIENTE COM 01 VEÍCULO TIPO PICK UP.",
+            "previsto": 90000,
+            "empenhado": 540000,
+            "pago": 0
+          },
+          {
             "numero": "2026 / E0336",
             "ano": 2026,
             "tipo": "Individual com finalidade definida não impositiva",
@@ -5858,7 +5857,7 @@
             "funcao": "AGRICULTURA",
             "objeto": "EMENDA PARLAMENTAR PARA AQUISIÇÃO DE EQUIPAMENTOS DA ASSOCIACAO DE MORADORES E PRODUTORES RURAIS DO ALTO DA INDEPENDENCIA E OUTROS (ASMOPRALTIN) CNPJ 63.344.092/0001-47 - ASSOCIACAO DE MORADORES E PRODUTORES RURAIS DO ALTO DA INDEPENDENCIA E OUTROS (ASMOPRALTIN) (63.344.092/0001-47)",
             "previsto": 40000,
-            "empenhado": 187500,
+            "empenhado": 225000,
             "pago": 0
           },
           {
@@ -5869,8 +5868,19 @@
             "funcao": "AGRICULTURA",
             "objeto": "RECURSO DESTINADO A AQUISIÇÃO DE EQUIPAMENTOS DA ASSOCIAÇÃO DOS PEQUENOS AGRICULTORES DA COMUNIDADE DO SÃO JOÃO DO ESTIVADO DO MUNICIPIO DE JAGUARÉ-ES CNPJ: 13.852.607/0001-41 - ASSOCIACAO DOS PEQUENOS AGRICULTORES DA COMUNIDADE DO SAO JOAO DO ESTIVADO DO MUNICIPIO DE JAGUARE - ES (13.852.607/0001-41)",
             "previsto": 35000,
-            "empenhado": 175000,
+            "empenhado": 210000,
             "pago": 0
+          },
+          {
+            "numero": "2025 / E1244",
+            "ano": 2025,
+            "tipo": "Individual com finalidade definida não impositiva",
+            "localidade": "Divino de São Lourenço",
+            "funcao": null,
+            "objeto": "EMENDA DESTINADA A PREFEITURA DE DIVINO DE SÃO LOURENÇO PARA  A AQUISIÇÃO DE EQUIPAMENTOS PARA A ASSOCIAÇÃO AGRÍCOLA 23 DE OUTUBRO, NO CÓRREGO DA PIEDADE.",
+            "previsto": 25000,
+            "empenhado": 145200,
+            "pago": 145200
           },
           {
             "numero": "2024 / E0189",
@@ -5910,33 +5920,11 @@
             "ano": 2025,
             "tipo": "Individual com finalidade definida não impositiva",
             "localidade": "Anchieta",
-            "funcao": "SAÚDE",
+            "funcao": null,
             "objeto": "EMENDA DESTINADA PREFEITURA DE ANCHIETA PARA AQUISIÇÃO DE VEÍCULO PARA O PSF DE ALTO PONGAL.",
             "previsto": 90000,
             "empenhado": 90000,
             "pago": 90000
-          },
-          {
-            "numero": "2025 / E1242",
-            "ano": 2025,
-            "tipo": "Individual com finalidade definida não impositiva",
-            "localidade": "Boa Esperança",
-            "funcao": "AGRICULTURA",
-            "objeto": "EMENDA DESTINADA A PREFEITURA DE BOA ESPERANÇA, PARA ATENDER A SECRETARIA DE MEIO AMBIENTE COM 01 VEÍCULO TIPO PICK UP.",
-            "previsto": 90000,
-            "empenhado": 90000,
-            "pago": 0
-          },
-          {
-            "numero": "2024 / E0177",
-            "ano": 2024,
-            "tipo": "Individual com finalidade definida não impositiva",
-            "localidade": "Jaguaré",
-            "funcao": "AGRICULTURA",
-            "objeto": "EMENDA DESTINADA A AQUISIÇÃO DE VEÍCULO TIPO PICK UP PARA O MUNICÍPIO DE JAGUARÉ.",
-            "previsto": 90000,
-            "empenhado": 89900,
-            "pago": 0
           }
         ]
       }
@@ -5953,10 +5941,10 @@
         "valoresPublicados": true,
         "totais": {
           "previsto": 8685000,
-          "empenhado": 8702668.97,
-          "liquidado": 7558662.6899999995,
-          "pago": 7499058.55,
-          "restosAPagar": 350568.06
+          "empenhado": 11095718.97,
+          "liquidado": 9336192.690000001,
+          "pago": 9276588.55,
+          "restosAPagar": 748968.06
         },
         "porAno": [
           {
@@ -5974,64 +5962,70 @@
           {
             "ano": 2025,
             "quantidade": 74,
-            "empenhado": 1991778.5399999998,
-            "pago": 1793998.3699999999
+            "empenhado": 3997358.5399999996,
+            "pago": 3340228.3699999996
           },
           {
             "ano": 2026,
             "quantidade": 90,
-            "empenhado": 3656978.3500000006,
-            "pago": 2816128.35
+            "empenhado": 4044448.35,
+            "pago": 3047428.35
           }
         ],
         "porFuncao": [
           {
+            "nome": "Não informada",
+            "quantidade": 138,
+            "empenhado": 3997358.5399999996,
+            "pago": 3340228.3699999996
+          },
+          {
             "nome": "AGRICULTURA",
-            "quantidade": 39,
-            "empenhado": 3094346.99,
-            "pago": 2076393.99
+            "quantidade": 32,
+            "empenhado": 3080700.99,
+            "pago": 1998447.99
           },
           {
             "nome": "COMÉRCIO E SERVIÇOS",
-            "quantidade": 25,
-            "empenhado": 2823500,
-            "pago": 2823500
-          },
-          {
-            "nome": "DESPORTO E LAZER",
-            "quantidade": 34,
-            "empenhado": 919997.36,
-            "pago": 835339
+            "quantidade": 20,
+            "empenhado": 2103500,
+            "pago": 2103500
           },
           {
             "nome": "GESTÃO AMBIENTAL",
-            "quantidade": 44,
-            "empenhado": 852000,
-            "pago": 852000
+            "quantidade": 31,
+            "empenhado": 612000,
+            "pago": 612000
+          },
+          {
+            "nome": "DESPORTO E LAZER",
+            "quantidade": 21,
+            "empenhado": 580356.74,
+            "pago": 535356.63
           },
           {
             "nome": "ASSISTÊNCIA SOCIAL",
-            "quantidade": 36,
-            "empenhado": 563246.95,
-            "pago": 514976.37
-          },
-          {
-            "nome": "EDUCAÇÃO",
-            "quantidade": 6,
-            "empenhado": 136616.28000000003,
-            "pago": 116869.14
+            "quantidade": 27,
+            "empenhado": 384976.37,
+            "pago": 369976.37
           },
           {
             "nome": "CULTURA",
             "quantidade": 5,
-            "empenhado": 134980.05,
+            "empenhado": 119980.05,
             "pago": 119980.05
           },
           {
+            "nome": "EDUCAÇÃO",
+            "quantidade": 5,
+            "empenhado": 116846.28000000001,
+            "pago": 97099.14
+          },
+          {
             "nome": "SAÚDE",
-            "quantidade": 6,
-            "empenhado": 120000,
-            "pago": 120000
+            "quantidade": 3,
+            "empenhado": 60000,
+            "pago": 60000
           },
           {
             "nome": "DIREITOS DA CIDADANIA",
@@ -6042,12 +6036,6 @@
           {
             "nome": "SEGURANÇA PÚBLICA",
             "quantidade": 1,
-            "empenhado": 17981.34,
-            "pago": 0
-          },
-          {
-            "nome": "Não informada",
-            "quantidade": 75,
             "empenhado": 0,
             "pago": 0
           }
@@ -6062,8 +6050,8 @@
           {
             "nome": "Ecoporanga",
             "quantidade": 20,
-            "empenhado": 1124669.99,
-            "pago": 967799.99
+            "empenhado": 1766669.99,
+            "pago": 1487899.99
           },
           {
             "nome": "Cariacica",
@@ -6072,22 +6060,64 @@
             "pago": 969999.89
           },
           {
-            "nome": "São Gabriel da Palha",
-            "quantidade": 2,
-            "empenhado": 666350,
-            "pago": 630000
-          },
-          {
             "nome": "Mimoso do Sul",
             "quantidade": 6,
-            "empenhado": 591900,
-            "pago": 85900
+            "empenhado": 943400,
+            "pago": 340400
+          },
+          {
+            "nome": "São Gabriel da Palha",
+            "quantidade": 2,
+            "empenhado": 796620,
+            "pago": 753000
+          },
+          {
+            "nome": "Domingos Martins",
+            "quantidade": 4,
+            "empenhado": 423766,
+            "pago": 350626
           },
           {
             "nome": "São Mateus",
             "quantidade": 7,
-            "empenhado": 194988.72,
-            "pago": 194988.72
+            "empenhado": 369988.72,
+            "pago": 369988.72
+          },
+          {
+            "nome": "Castelo",
+            "quantidade": 6,
+            "empenhado": 356000,
+            "pago": 355400
+          },
+          {
+            "nome": "Dores do Rio Preto",
+            "quantidade": 3,
+            "empenhado": 327727,
+            "pago": 155949
+          },
+          {
+            "nome": "Conceição da Barra",
+            "quantidade": 6,
+            "empenhado": 250514.64,
+            "pago": 112694.64
+          },
+          {
+            "nome": "Apiacá",
+            "quantidade": 7,
+            "empenhado": 224560,
+            "pago": 146200
+          },
+          {
+            "nome": "Linhares",
+            "quantidade": 9,
+            "empenhado": 197981.34,
+            "pago": 90000
+          },
+          {
+            "nome": "Santa Teresa",
+            "quantidade": 4,
+            "empenhado": 195670,
+            "pago": 190970
           },
           {
             "nome": "Ibiraçu",
@@ -6096,40 +6126,10 @@
             "pago": 169999.99
           },
           {
-            "nome": "Dores do Rio Preto",
-            "quantidade": 3,
-            "empenhado": 184852,
-            "pago": 39574
-          },
-          {
-            "nome": "Domingos Martins",
-            "quantidade": 4,
-            "empenhado": 178961,
-            "pago": 166771
-          },
-          {
-            "nome": "Apiacá",
-            "quantidade": 7,
-            "empenhado": 160310,
-            "pago": 128500
-          },
-          {
             "nome": "Guaçuí",
             "quantidade": 10,
             "empenhado": 140000,
             "pago": 140000
-          },
-          {
-            "nome": "Conceição da Barra",
-            "quantidade": 6,
-            "empenhado": 135664.64,
-            "pago": 112694.64
-          },
-          {
-            "nome": "Linhares",
-            "quantidade": 9,
-            "empenhado": 122981.34,
-            "pago": 90000
           },
           {
             "nome": "Divino de São Lourenço",
@@ -6148,12 +6148,6 @@
             "quantidade": 4,
             "empenhado": 104825.74,
             "pago": 104825.74
-          },
-          {
-            "nome": "Castelo",
-            "quantidade": 6,
-            "empenhado": 101000,
-            "pago": 100900
           },
           {
             "nome": "Ponto Belo",
@@ -6186,6 +6180,12 @@
             "pago": 79651
           },
           {
+            "nome": "Alegre",
+            "quantidade": 2,
+            "empenhado": 78000,
+            "pago": 0
+          },
+          {
             "nome": "Mucurici",
             "quantidade": 5,
             "empenhado": 75000,
@@ -6214,12 +6214,6 @@
             "quantidade": 5,
             "empenhado": 66400,
             "pago": 60400
-          },
-          {
-            "nome": "Santa Teresa",
-            "quantidade": 4,
-            "empenhado": 63170,
-            "pago": 58470
           },
           {
             "nome": "Ibitirama",
@@ -6372,12 +6366,6 @@
             "pago": 14996.38
           },
           {
-            "nome": "Alegre",
-            "quantidade": 2,
-            "empenhado": 13000,
-            "pago": 0
-          },
-          {
             "nome": "Águia Branca",
             "quantidade": 1,
             "empenhado": 0,
@@ -6430,8 +6418,8 @@
           {
             "nome": "Individual com finalidade definida não impositiva",
             "quantidade": 266,
-            "empenhado": 8702668.97,
-            "pago": 7499058.55
+            "empenhado": 11095718.97,
+            "pago": 9276588.55
           }
         ],
         "criterioDaLista": "as 10 de maior valor empenhado",
@@ -6444,8 +6432,19 @@
             "funcao": "AGRICULTURA",
             "objeto": "APOIO FINANCEIRO PARA AQUISIÇÃO DE EQUIPAMENTOS, PARA ATENDER A ASSOCIAÇÃO DOS PEQUENOS AGRICULTORESE MÉDIOS PRODUTORES RURAIS E MEEIROS DO CÓRREGO JACARANDÁ, DO MUNICÍPIO DE SÃO GABRIEL DA PALHA/ES. - ASSOCIACAO DE PEQUENOS, MEDIOS PRODUTORES RUAIS E MEEIROS DO CORREGO JACARANDA (13.533.483/0001-31)",
             "previsto": 150000,
-            "empenhado": 651350,
-            "pago": 615000
+            "empenhado": 781620,
+            "pago": 738000
+          },
+          {
+            "numero": "2026 / E0354",
+            "ano": 2026,
+            "tipo": "Individual com finalidade definida não impositiva",
+            "localidade": "Mimoso do Sul",
+            "funcao": "AGRICULTURA",
+            "objeto": "APOIO FINANCEIRO PARA AQUISIÇÃO DE EQUIPAMENTOS, PARA ATENDER NÚCLEO DE RESGATE, SOCIAL, AGRÍCOLA, CULTURAL E ESPORTIVO - NOVOS TEMPOS DE PONTE DO ITABAPOANA, NO MUNICÍPIO DE MIMOSO DO SUL. - NUCLEO DE RESGATE, SOCIAL, AGRICOLA, CULTURAL E ESPORTIVO - NOVOS TEMPOS DE PONTE DO ITABAPOANA (19.286.615/0001-54)",
+            "previsto": 100000,
+            "empenhado": 582000,
+            "pago": 0
           },
           {
             "numero": "2024 / E0682",
@@ -6463,7 +6462,7 @@
             "ano": 2025,
             "tipo": "Individual com finalidade definida não impositiva",
             "localidade": "Vitória",
-            "funcao": "COMÉRCIO E SERVIÇOS",
+            "funcao": null,
             "objeto": "APOIO FINANCEIRO (CUSTEIO) PARA A ENTIDADE LIGA INDEPENDENTE DAS ESCOLAS DE SAMBA DO GRUPO ESPECIAL (09.473.443/0001-74)",
             "previsto": 500000,
             "empenhado": 500000,
@@ -6481,28 +6480,6 @@
             "pago": 500000
           },
           {
-            "numero": "2026 / E0354",
-            "ano": 2026,
-            "tipo": "Individual com finalidade definida não impositiva",
-            "localidade": "Mimoso do Sul",
-            "funcao": "AGRICULTURA",
-            "objeto": "APOIO FINANCEIRO PARA AQUISIÇÃO DE EQUIPAMENTOS, PARA ATENDER NÚCLEO DE RESGATE, SOCIAL, AGRÍCOLA, CULTURAL E ESPORTIVO - NOVOS TEMPOS DE PONTE DO ITABAPOANA, NO MUNICÍPIO DE MIMOSO DO SUL. - NUCLEO DE RESGATE, SOCIAL, AGRICOLA, CULTURAL E ESPORTIVO - NOVOS TEMPOS DE PONTE DO ITABAPOANA (19.286.615/0001-54)",
-            "previsto": 100000,
-            "empenhado": 485000,
-            "pago": 0
-          },
-          {
-            "numero": "2026 / E0431",
-            "ano": 2026,
-            "tipo": "Individual com finalidade definida não impositiva",
-            "localidade": "Vitória",
-            "funcao": "COMÉRCIO E SERVIÇOS",
-            "objeto": "APOIO FINANCEIRO ENVIADO PARA CUSTEIO PARA ATENDER A ENTIDADE LIGA INDEPENDENTE DAS ESCOLAS DE SAMBA DO GRUPO ESPECIAL, NO MUNICÍPIO DE VITÓRIA. - LIGA INDEPENDENTE DAS ESCOLAS DE SAMBA DO GRUPO ESPECIAL (09.473.443/0001-74)",
-            "previsto": 300000,
-            "empenhado": 300000,
-            "pago": 300000
-          },
-          {
             "numero": "2026 / E0352",
             "ano": 2026,
             "tipo": "Individual com finalidade definida não impositiva",
@@ -6510,19 +6487,8 @@
             "funcao": "AGRICULTURA",
             "objeto": "APOIO FINANCEIRO PARA AQUISIÇÃO DE EQUIPAMENTOS, PARA ATENDER A ASSOCIAÇÃO DOS PRODUTORES RURAIS, TRABALHADORES RURAIS E MORADORES DO CÓRREGO DO CAFÉ, DO MUNICÍPIO DE ECOPORANGA/ES. - ASSOCIACAO DOS PRODUTORES RURAIS, TRAB. RURAIS E MORAD. DO CORREGO DO CAFE - ECOPORANGA - ES (24.725.153/0001-64)",
             "previsto": 60000,
-            "empenhado": 300000,
-            "pago": 173000
-          },
-          {
-            "numero": "2023 / E0576",
-            "ano": 2023,
-            "tipo": "Individual com finalidade definida não impositiva",
-            "localidade": "Vitória",
-            "funcao": "COMÉRCIO E SERVIÇOS",
-            "objeto": "RECURSOS  FINANCEIROS PARA A LIGA DAS ESCOLAS DE SAMBA DO ESPIRITO SANTO - LIESGE- ES, PARA CUSTEIO DE ATIVIDADES CARNAVALESCAS ATRAVES DAS ESCOLAS DE SAMBA:  A G.R.E.S PEGA NO SAMBA, ASSOCIAÇÃO RECREATIVA E CULTURAL MOCIDADE UNIDA DA GLORIA - MUG E OUTRAS - LIGA INDEPENDENTE DAS ESCOLAS DE SAMBA DO GRUPO ESPECIAL - LIESGE - ES",
-            "previsto": 298500,
-            "empenhado": 298500,
-            "pago": 298500
+            "empenhado": 360000,
+            "pago": 207600
           },
           {
             "numero": "2026 / E0356",
@@ -6532,19 +6498,41 @@
             "funcao": "AGRICULTURA",
             "objeto": "APOIO FINANCEIRO PARA AQUISIÇÃO DE EQUIPAMENTOS, PARA ATENDER A ASSOCIACAO DOS AGRICULTORES FAMILIARES DA CABECEIRA DO CORREGO DOIS DE SETEMBRO - AACDS, NO MUNICÍPIO DE ECOPORANGA. - ASSOCIACAO DOS AGRICULTORES FAMILIARES DA CABECEIRA DO CORREGO DOIS DE SETEMBRO - AACDS (05.154.953/0001-28)",
             "previsto": 60000,
-            "empenhado": 280000,
-            "pago": 280000
+            "empenhado": 336000,
+            "pago": 336000
           },
           {
-            "numero": "2025 / E1088",
+            "numero": "2025 / E0857",
             "ano": 2025,
             "tipo": "Individual com finalidade definida não impositiva",
-            "localidade": "Cariacica",
-            "funcao": "COMÉRCIO E SERVIÇOS",
-            "objeto": "APOIO FINANCEIRO (CUSTEIO)  PARA A ENTIDADE GRÊMIO RECREATIVO CULTURAL ESPORTIVO SOCIAL ESCOLA DE SAMBA INDEPENDENTE DE BOA VISTA (28.483.204/0001-40)",
-            "previsto": 180000,
-            "empenhado": 180000,
-            "pago": 180000
+            "localidade": "Castelo",
+            "funcao": "AGRICULTURA",
+            "objeto": "APOIO FINANCEIRO PARA AQUISIÇÃO DE EQUIPAMENTOS, PARA ATENDER A ASSOCIAÇÃO DOS PRODUTORES DA COMUNIDADE DE SÃO MANOEL - ASSOCIAÇÃO DOS PRODUTORES DE SÃO MANOEL, DO MUNICÍPIO DE CASTELO/ES. - ASSOCIAÇÃO DOS PRODUTORES DA COMUNIDADE DE SÃO MANOEL (20.301.850/0001-37).",
+            "previsto": 51000,
+            "empenhado": 306000,
+            "pago": 305400
+          },
+          {
+            "numero": "2025 / E0926",
+            "ano": 2025,
+            "tipo": "Individual com finalidade definida não impositiva",
+            "localidade": "Ecoporanga",
+            "funcao": null,
+            "objeto": "APOIO FINANCEIRO PARA AQUISIÇÃO DE EQUIPAMENTOS, PARA ATENDER A ASSOCIAÇÃO DOS AGRICULTORES FAMILIARES DOS TRÊS CÓRREGOS - AAFATREC, DO MUNICÍPIO DE ECOPORANGA/ES. - AAFATREC - ASSOCIAÇÃO DOS AGRICULTORES FAMILIARES DOS TRÊS CÓRREGOS (11.589.631/0001-04).",
+            "previsto": 51000,
+            "empenhado": 305400,
+            "pago": 305400
+          },
+          {
+            "numero": "2025 / E0982",
+            "ano": 2025,
+            "tipo": "Individual com finalidade definida não impositiva",
+            "localidade": "Mimoso do Sul",
+            "funcao": null,
+            "objeto": "APOIO FINANCEIRO PARA AQUISIÇÃO DE EQUIPAMENTOS, PARA ATENDER A ASSOCIAÇÃO DE CAFEICULTORES FLOR DO CAFÉ - ACAFE, DO MUNICÍPIO DE MIMOSO DO SUL/ES. - ASSOCIAÇÃO DE CAFEICULTORES FLOR DO CAFÉ - ACAFE (51.904.632/0001-10).",
+            "previsto": 51000,
+            "empenhado": 305400,
+            "pago": 305400
           }
         ]
       }
@@ -6561,8 +6549,8 @@
         "valoresPublicados": true,
         "totais": {
           "previsto": 7200000,
-          "empenhado": 6456116.66,
-          "liquidado": 6353590.94,
+          "empenhado": 6456116.659999999,
+          "liquidado": 6353590.9399999995,
           "pago": 6285802.54,
           "restosAPagar": 99996.4
         },
@@ -6589,27 +6577,33 @@
         "porFuncao": [
           {
             "nome": "COMÉRCIO E SERVIÇOS",
-            "quantidade": 18,
-            "empenhado": 3874420,
-            "pago": 3864420
+            "quantidade": 14,
+            "empenhado": 2759420,
+            "pago": 2749420
           },
           {
-            "nome": "CULTURA",
-            "quantidade": 7,
-            "empenhado": 893227.25,
-            "pago": 873227.25
+            "nome": "Não informada",
+            "quantidade": 56,
+            "empenhado": 2069834,
+            "pago": 2069755.42
           },
           {
             "nome": "DESPORTO E LAZER",
-            "quantidade": 11,
-            "empenhado": 660000,
-            "pago": 659682.28
+            "quantidade": 8,
+            "empenhado": 430000,
+            "pago": 429760.86
           },
           {
             "nome": "ASSISTÊNCIA SOCIAL",
-            "quantidade": 28,
-            "empenhado": 478970.16000000003,
-            "pago": 458970.16000000003
+            "quantidade": 24,
+            "empenhado": 393970.16000000003,
+            "pago": 373970.16000000003
+          },
+          {
+            "nome": "CULTURA",
+            "quantidade": 5,
+            "empenhado": 273393.25,
+            "pago": 253393.25
           },
           {
             "nome": "AGRICULTURA",
@@ -6625,9 +6619,9 @@
           },
           {
             "nome": "EDUCAÇÃO",
-            "quantidade": 7,
-            "empenhado": 134499.25,
-            "pago": 74502.85
+            "quantidade": 6,
+            "empenhado": 114499.25,
+            "pago": 54502.85
           },
           {
             "nome": "GESTÃO AMBIENTAL",
@@ -6652,12 +6646,6 @@
             "quantidade": 1,
             "empenhado": 10000,
             "pago": 10000
-          },
-          {
-            "nome": "Não informada",
-            "quantidade": 42,
-            "empenhado": 0,
-            "pago": 0
           }
         ],
         "porLocalidade": [
@@ -6810,7 +6798,7 @@
           {
             "nome": "Individual com finalidade definida não impositiva",
             "quantidade": 119,
-            "empenhado": 6456116.66,
+            "empenhado": 6456116.659999999,
             "pago": 6285802.54
           }
         ],
@@ -6832,7 +6820,7 @@
             "ano": 2025,
             "tipo": "Individual com finalidade definida não impositiva",
             "localidade": "Vitória",
-            "funcao": "CULTURA",
+            "funcao": null,
             "objeto": "REPASSE FINANCEIRO PARA CUSTEIO E MANUTENÇÃO DE ATIVIDADES CULTURAIS ARTíSTICAS E DE PROMOÇÃO DA MEMORIA CULTURAL PARA O INSTITUTO RAÍZES (33.253.187/0001-94)",
             "previsto": 600000,
             "empenhado": 600000,
@@ -6843,7 +6831,7 @@
             "ano": 2025,
             "tipo": "Individual com finalidade definida não impositiva",
             "localidade": "Vitória",
-            "funcao": "COMÉRCIO E SERVIÇOS",
+            "funcao": null,
             "objeto": "REPASSE DE RECURSO PARA REALIZAÇÃO DE ATIVIDADES DE COMERCIALIZAÇÃO E FORTALECIMENTO DA AGRICULTURA FAMILIAR",
             "previsto": 500000,
             "empenhado": 500000,
@@ -6854,7 +6842,7 @@
             "ano": 2025,
             "tipo": "Individual com finalidade definida não impositiva",
             "localidade": "Vitória",
-            "funcao": "COMÉRCIO E SERVIÇOS",
+            "funcao": null,
             "objeto": "APOIO A COMERCIALIZAÇÃO DE EMPREENDEDORISMO EM TODO TERRITÓRIO DO ESPíRITO SANTO ATRAVÉS DA ADERES",
             "previsto": 500000,
             "empenhado": 500000,
@@ -6941,10 +6929,10 @@
         "valoresPublicados": true,
         "totais": {
           "previsto": 8700000,
-          "empenhado": 11196264.899999999,
-          "liquidado": 9518249.95,
-          "pago": 9473261.879999999,
-          "restosAPagar": 330374.07
+          "empenhado": 16716334.9,
+          "liquidado": 14008879.95,
+          "pago": 13963891.879999999,
+          "restosAPagar": 1002224.07
         },
         "porAno": [
           {
@@ -6962,40 +6950,46 @@
           {
             "ano": 2025,
             "quantidade": 41,
-            "empenhado": 2153813,
-            "pago": 1935788.66
+            "empenhado": 6664143,
+            "pago": 5681468.66
           },
           {
             "ano": 2026,
             "quantidade": 50,
-            "empenhado": 6290745,
-            "pago": 4916795
+            "empenhado": 7300485,
+            "pago": 5661745
           }
         ],
         "porFuncao": [
           {
             "nome": "AGRICULTURA",
-            "quantidade": 68,
-            "empenhado": 7527767.33,
-            "pago": 5919871.33
+            "quantidade": 54,
+            "empenhado": 7528661.33,
+            "pago": 5808905.33
+          },
+          {
+            "nome": "Não informada",
+            "quantidade": 89,
+            "empenhado": 6664143,
+            "pago": 5681468.66
           },
           {
             "nome": "DESPORTO E LAZER",
-            "quantidade": 22,
-            "empenhado": 2083614.55,
-            "pago": 2033495.6
+            "quantidade": 17,
+            "empenhado": 1538633.63,
+            "pago": 1488620.95
           },
           {
             "nome": "ASSISTÊNCIA SOCIAL",
-            "quantidade": 30,
-            "empenhado": 1014883.0199999999,
-            "pago": 949894.95
+            "quantidade": 19,
+            "empenhado": 584896.94,
+            "pago": 584896.94
           },
           {
             "nome": "COMÉRCIO E SERVIÇOS",
-            "quantidade": 5,
-            "empenhado": 320000,
-            "pago": 320000
+            "quantidade": 4,
+            "empenhado": 200000,
+            "pago": 200000
           },
           {
             "nome": "CIÊNCIA E TECNOLOGIA",
@@ -7005,41 +6999,29 @@
           },
           {
             "nome": "EDUCAÇÃO",
-            "quantidade": 4,
-            "empenhado": 70000,
-            "pago": 70000
+            "quantidade": 3,
+            "empenhado": 40000,
+            "pago": 40000
           },
           {
             "nome": "GESTÃO AMBIENTAL",
             "quantidade": 1,
             "empenhado": 40000,
             "pago": 40000
-          },
-          {
-            "nome": "SAÚDE",
-            "quantidade": 1,
-            "empenhado": 20000,
-            "pago": 20000
-          },
-          {
-            "nome": "Não informada",
-            "quantidade": 49,
-            "empenhado": 0,
-            "pago": 0
           }
         ],
         "porLocalidade": [
           {
             "nome": "Muniz Freire",
             "quantidade": 16,
-            "empenhado": 2540215,
-            "pago": 1278725
+            "empenhado": 4356295,
+            "pago": 2534805
           },
           {
             "nome": "Ecoporanga",
             "quantidade": 17,
-            "empenhado": 2294481,
-            "pago": 2134281
+            "empenhado": 3979481,
+            "pago": 3555281
           },
           {
             "nome": "Vitória",
@@ -7048,40 +7030,52 @@
             "pago": 2129905.5300000003
           },
           {
+            "nome": "Ibitirama",
+            "quantidade": 12,
+            "empenhado": 1633691,
+            "pago": 1583691
+          },
+          {
+            "nome": "São Domingos do Norte",
+            "quantidade": 2,
+            "empenhado": 632640,
+            "pago": 632640
+          },
+          {
+            "nome": "Barra de São Francisco",
+            "quantidade": 3,
+            "empenhado": 579000,
+            "pago": 579000
+          },
+          {
             "nome": "Cariacica",
             "quantidade": 17,
             "empenhado": 569997.1799999999,
             "pago": 569997.1799999999
           },
           {
-            "nome": "Ibitirama",
-            "quantidade": 12,
-            "empenhado": 529036,
-            "pago": 479036
-          },
-          {
-            "nome": "São Domingos do Norte",
-            "quantidade": 2,
-            "empenhado": 527200,
-            "pago": 527200
+            "nome": "Águia Branca",
+            "quantidade": 9,
+            "empenhado": 528995.4,
+            "pago": 333047.33
           },
           {
             "nome": "Vila Pavão",
             "quantidade": 2,
-            "empenhado": 420000,
-            "pago": 420000
+            "empenhado": 499000,
+            "pago": 499000
           },
           {
-            "nome": "Barra de São Francisco",
-            "quantidade": 3,
-            "empenhado": 411500,
-            "pago": 411500
+            "nome": "São Mateus",
+            "quantidade": 2,
+            "empenhado": 304560,
+            "pago": 179820
           },
           {
-            "nome": "Águia Branca",
-            "quantidade": 9,
-            "empenhado": 278995.4,
-            "pago": 221347.33000000002
+            "nome": "Brejetuba",
+            "quantidade": 1,
+            "empenhado": 205002,
+            "pago": 149382
           },
           {
             "nome": "Nova Venécia",
@@ -7094,12 +7088,6 @@
             "quantidade": 10,
             "empenhado": 181000,
             "pago": 181000
-          },
-          {
-            "nome": "São Mateus",
-            "quantidade": 2,
-            "empenhado": 163000,
-            "pago": 59050
           },
           {
             "nome": "Vila Velha",
@@ -7180,12 +7168,6 @@
             "pago": 38200
           },
           {
-            "nome": "Brejetuba",
-            "quantidade": 1,
-            "empenhado": 34167,
-            "pago": 24897
-          },
-          {
             "nome": "Serra",
             "quantidade": 8,
             "empenhado": 19990,
@@ -7232,12 +7214,23 @@
           {
             "nome": "Individual com finalidade definida não impositiva",
             "quantidade": 177,
-            "empenhado": 11196264.899999999,
-            "pago": 9473261.879999999
+            "empenhado": 16716334.9,
+            "pago": 13963891.879999999
           }
         ],
         "criterioDaLista": "as 10 de maior valor empenhado",
         "lista": [
+          {
+            "numero": "2025 / E0389",
+            "ano": 2025,
+            "tipo": "Individual com finalidade definida não impositiva",
+            "localidade": "Ecoporanga",
+            "funcao": null,
+            "objeto": "AQUISIÇÃO DE BENS, EQUIPAMENTOS E IMPLEMENTOS AGRÍCOLAS PARA A ASSOCIAÇÃO DOS PEQUENOS PRODUTORES RURAIS DE IMBURANA (CNPJ: 04.418.392/0001-64) EM ECOPORANGA.",
+            "previsto": 150000,
+            "empenhado": 900000,
+            "pago": 900000
+          },
           {
             "numero": "2026 / E0178",
             "ano": 2026,
@@ -7250,6 +7243,17 @@
             "pago": 650000
           },
           {
+            "numero": "2025 / E0376",
+            "ano": 2025,
+            "tipo": "Individual com finalidade definida não impositiva",
+            "localidade": "Muniz Freire",
+            "funcao": null,
+            "objeto": "AQUISIÇÃO DE BENS, EQUIPAMENTOS E IMPLEMENTOS AGRÍCOLAS PARA A ASSOCIAÇÃO DOS PRODUTORES DE CAFÉ DA AGRICULTURA FAMILIAR DE FORTALEZA (CNPJ: 47.274.052/0001-10) EM MUNIZ FREIRE.",
+            "previsto": 100000,
+            "empenhado": 600000,
+            "pago": 600000
+          },
+          {
             "numero": "2026 / E0186",
             "ano": 2026,
             "tipo": "Individual com finalidade definida não impositiva",
@@ -7257,8 +7261,8 @@
             "funcao": "AGRICULTURA",
             "objeto": "AQUISIÇÃO DE BENS, EQUIPAMENTOS E IMPLEMENTOS AGRICOLAS PARA A ASSOCIACAO DE MORADORES E PEQUENOS PRODUTORES RURAIS DA CABECEIRA DO SANTA RITA - ASPRARITA EM ECOPORANGA. - ASSOCIACAO DE MORADORES E PEQUENOS PRODUTORES RURAIS DA CABECEIRA DO SANTA RITA - ASPRARITA (13.280.732/0001-24)",
             "previsto": 83000,
-            "empenhado": 415000,
-            "pago": 415000
+            "empenhado": 498000,
+            "pago": 498000
           },
           {
             "numero": "2026 / E0187",
@@ -7268,8 +7272,8 @@
             "funcao": "AGRICULTURA",
             "objeto": "AQUISIÇÃO DE BENS, EQUIPAMENTOS E IMPLEMENTOS AGRICOLAS PARA A ASSOCIACAO DOS PEQUENOS PRODUTORES RURAIS DO ASSENTAMENTO NOVO SONHO E ABRANGENCIAS - APPRANSA EM ECOPORANGA. - ASSOCIACAO DOS PEQUENOS PRODUTORES RURAIS DO ASSENTAMENTO NOVO SONHO E ABRANGENCIAS - APPRANSA (18.770.202/0001-88)",
             "previsto": 83000,
-            "empenhado": 415000,
-            "pago": 415000
+            "empenhado": 498000,
+            "pago": 498000
           },
           {
             "numero": "2026 / E0189",
@@ -7279,8 +7283,8 @@
             "funcao": "AGRICULTURA",
             "objeto": "AQUISIÇÃO DE BENS, EQUIPAMENTOS E IMPLEMENTOS AGRICOLAS PARA A ASSOCIACAO DE MORADORES E PEQUENOS PRODUTORES RURAIS DO ASSENTAMENTO BOM JESUS E ADJACENCIAS-ASPRABOM EM ECOPORANGA. - ASSOCIACAO DE MORADORES E PEQUENOS PRODUTORES RURAIS DO ASSENTAMENTO BOM JESUS E ADJACENCIAS-ASPRABOM (10.973.521/0001-89)",
             "previsto": 83000,
-            "empenhado": 415000,
-            "pago": 415000
+            "empenhado": 498000,
+            "pago": 498000
           },
           {
             "numero": "2026 / E0190",
@@ -7290,8 +7294,8 @@
             "funcao": "AGRICULTURA",
             "objeto": "AQUISIÇÃO DE BENS, EQUIPAMENTOS E IMPLEMENTOS AGRICOLAS PARA A ASSOCIACAO DOS AGRICULTORES FAMILIARES DA LOCALIDADE DE ESCRITORIO E ADJACENCIAS EM MUNIZ FREIRE. - ASSOCIACAO DOS AGRICULTORES FAMILIARES DA LOCALIDADE DE ESCRITORIO E ADJACENCIAS (45.032.979/0001-18)",
             "previsto": 83000,
-            "empenhado": 415000,
-            "pago": 415000
+            "empenhado": 498000,
+            "pago": 498000
           },
           {
             "numero": "2026 / E0191",
@@ -7301,7 +7305,7 @@
             "funcao": "AGRICULTURA",
             "objeto": "AQUISIÇÃO DE BENS, EQUIPAMENTOS E IMPLEMENTOS AGRICOLAS PARA A ASSOCIACAO DE PRODUTORES RURAIS E AGRICULTORES FAMILIARES DE SAO JOAO EM MUNIZ FREIRE. - ASSOCIACAO DE PRODUTORES RURAIS E AGRICULTORES FAMILIARES DE SAO JOAO (11.258.711/0001-87)",
             "previsto": 83000,
-            "empenhado": 415000,
+            "empenhado": 498000,
             "pago": 0
           },
           {
@@ -7312,41 +7316,19 @@
             "funcao": "AGRICULTURA",
             "objeto": "AQUISIÇÃO DE BENS, EQUIPAMENTOS E IMPLEMENTOS AGRICOLAS PARA A ASSOCIACAO DE PEQUENOS PRODUTORES DE SANTO ANTONIO DO AMORIM EM MUNIZ FREIRE. - ASSOCIACAO DE PEQUENOS PRODUTORES DE SANTO ANTONIO DO AMORIM (02.978.857/0001-06)",
             "previsto": 83000,
-            "empenhado": 415000,
+            "empenhado": 498000,
             "pago": 0
           },
           {
-            "numero": "2025 / E0361",
+            "numero": "2025 / E0385",
             "ano": 2025,
             "tipo": "Individual com finalidade definida não impositiva",
-            "localidade": "Vitória",
-            "funcao": "DESPORTO E LAZER",
-            "objeto": "AQUISIÇÃO DE MATERIAL ESPORTIVO PARA A FEDERAÇÃO ESPÍRITO SANTENSE DE FUTEBOL DE SALÃO - FESFS. - FEDERACAO ESPIRITO SANTENSE DE FUTEBOL DE SALAO (28.539.849/0001-57)",
-            "previsto": 400000,
-            "empenhado": 400000,
-            "pago": 400000
-          },
-          {
-            "numero": "2026 / E0196",
-            "ano": 2026,
-            "tipo": "Individual com finalidade definida não impositiva",
-            "localidade": "São Domingos do Norte",
-            "funcao": "AGRICULTURA",
-            "objeto": "AQUISIÇÃO DE BENS, EQUIPAMENTOS E IMPLEMENTOS AGRICOLAS PARA A ASSOCIACAO DE AGRICULTORES FAMILIARES DO SABIA II EM SÃO DOMINGOS DO NORTE. - ASSOCIACAO DE AGRICULTORES FAMILIARES DO SABIA II (52.765.029/0001-68)",
-            "previsto": 79000,
-            "empenhado": 395000,
-            "pago": 395000
-          },
-          {
-            "numero": "2026 / E0199",
-            "ano": 2026,
-            "tipo": "Individual com finalidade definida não impositiva",
-            "localidade": "Vila Pavão",
-            "funcao": "AGRICULTURA",
-            "objeto": "AQUISIÇÃO DE BENS, EQUIPAMENTOS E IMPLEMENTOS AGRICOLAS PARA A ASSOCIACAO DE PEQUENOS AGRICULTORES DO CORREGO PRACA RICA E CORREGO RIO QUINZE DE NOVEMBRO - APACOPRIN EM VILA PAVÃO. - ASSOCIACAO DE PEQUENOS AGRICULTORES DO CORREGO PRACA RICA E CORREGO RIO QUINZE DE NOVEMBRO - APACOPRIN (18.021.627/0001-94)",
-            "previsto": 79000,
-            "empenhado": 395000,
-            "pago": 395000
+            "localidade": "Ibitirama",
+            "funcao": null,
+            "objeto": "AQUISIÇÃO DE BENS, EQUIPAMENTOS E IMPLEMENTOS AGRÍCOLAS PARA A ASSOCIAÇÃO DE PRODUTORES RURAIS E AGRICULTORES FAMILIARES DO CÓRREGO SANTO ANTÔNIO DE BAIXO (CNPJ: 41.067.254/0001-04) EM IBITIRAMA.",
+            "previsto": 130000,
+            "empenhado": 478786,
+            "pago": 478786
           }
         ]
       }
@@ -7390,16 +7372,16 @@
         ],
         "porFuncao": [
           {
-            "nome": "ASSISTÊNCIA SOCIAL",
-            "quantidade": 6,
-            "empenhado": 279996.78,
-            "pago": 199997.81
+            "nome": "Não informada",
+            "quantidade": 153,
+            "empenhado": 234998.09000000003,
+            "pago": 154980.95
           },
           {
             "nome": "DESPORTO E LAZER",
-            "quantidade": 5,
-            "empenhado": 214850,
-            "pago": 214831.83000000002
+            "quantidade": 3,
+            "empenhado": 159850,
+            "pago": 159850
           },
           {
             "nome": "SAÚDE",
@@ -7408,10 +7390,10 @@
             "pago": 150000
           },
           {
-            "nome": "Não informada",
-            "quantidade": 147,
-            "empenhado": 0,
-            "pago": 0
+            "nome": "ASSISTÊNCIA SOCIAL",
+            "quantidade": 4,
+            "empenhado": 99998.69,
+            "pago": 99998.69
           }
         ],
         "porLocalidade": [
@@ -7684,7 +7666,7 @@
             "ano": 2025,
             "tipo": "Individual com finalidade definida não impositiva",
             "localidade": "Vila Pavão",
-            "funcao": "ASSISTÊNCIA SOCIAL",
+            "funcao": null,
             "objeto": "SUBVENÇÃO SOCIAL PARA APOIO À ASSOCIAÇÃO PESTALOZZI DE VILA PAVÃO (01.068.893/0001-70)",
             "previsto": 50000,
             "empenhado": 49999.61,
@@ -7695,7 +7677,7 @@
             "ano": 2025,
             "tipo": "Individual com finalidade definida não impositiva",
             "localidade": "São Mateus",
-            "funcao": "ASSISTÊNCIA SOCIAL",
+            "funcao": null,
             "objeto": "SUBVENÇÃO SOCIAL PARA APOIO À APAE DE SÃO MATEUS. ENTIDADE ASSOCIAÇÃO DE PAIS E AMIGOS DOS EXCEPCIONAIS DE SÃO MATEUS (27.559.418/0001-90)",
             "previsto": 50000,
             "empenhado": 49999.51,
@@ -7749,10 +7731,10 @@
         "valoresPublicados": true,
         "totais": {
           "previsto": 8700000,
-          "empenhado": 5538763.63,
-          "liquidado": 4840852.629999999,
-          "pago": 4702033.009999999,
-          "restosAPagar": 477105.62
+          "empenhado": 7379198.63,
+          "liquidado": 5738137.629999998,
+          "pago": 5599318.009999999,
+          "restosAPagar": 1264255.62
         },
         "porAno": [
           {
@@ -7770,58 +7752,52 @@
           {
             "ano": 2025,
             "quantidade": 55,
-            "empenhado": 1603362.04,
-            "pago": 1376737.42
+            "empenhado": 3231797.0399999996,
+            "pago": 2218022.42
           },
           {
             "ano": 2026,
             "quantidade": 71,
-            "empenhado": 1553831.74,
-            "pago": 1194206.74
+            "empenhado": 1765831.7399999998,
+            "pago": 1250206.7399999998
           }
         ],
         "porFuncao": [
           {
+            "nome": "Não informada",
+            "quantidade": 135,
+            "empenhado": 3231797.0399999996,
+            "pago": 2218022.42
+          },
+          {
             "nome": "ASSISTÊNCIA SOCIAL",
-            "quantidade": 72,
-            "empenhado": 2118065.77,
-            "pago": 2028871.1500000001
+            "quantidade": 58,
+            "empenhado": 1483893.62,
+            "pago": 1463893.62
           },
           {
             "nome": "AGRICULTURA",
-            "quantidade": 22,
-            "empenhado": 1346910.21,
-            "pago": 678999.21
-          },
-          {
-            "nome": "DESPORTO E LAZER",
-            "quantidade": 17,
-            "empenhado": 820640.3099999999,
-            "pago": 790640.3099999999
+            "quantidade": 14,
+            "empenhado": 989223.21,
+            "pago": 422742.21
           },
           {
             "nome": "COMÉRCIO E SERVIÇOS",
-            "quantidade": 12,
-            "empenhado": 722756.3200000001,
-            "pago": 722756.3200000001
+            "quantidade": 11,
+            "empenhado": 672756.3200000001,
+            "pago": 672756.3200000001
           },
           {
-            "nome": "SAÚDE",
-            "quantidade": 3,
-            "empenhado": 171000,
-            "pago": 171000
+            "nome": "DESPORTO E LAZER",
+            "quantidade": 12,
+            "empenhado": 560653.51,
+            "pago": 530653.51
           },
           {
             "nome": "CULTURA",
             "quantidade": 3,
-            "empenhado": 145250,
-            "pago": 145250
-          },
-          {
-            "nome": "EDUCAÇÃO",
-            "quantidade": 3,
-            "empenhado": 109141.01999999999,
-            "pago": 59516.02
+            "empenhado": 195250,
+            "pago": 95250
           },
           {
             "nome": "GESTÃO AMBIENTAL",
@@ -7830,24 +7806,60 @@
             "pago": 75000
           },
           {
+            "nome": "SAÚDE",
+            "quantidade": 2,
+            "empenhado": 71000,
+            "pago": 71000
+          },
+          {
+            "nome": "EDUCAÇÃO",
+            "quantidade": 2,
+            "empenhado": 69624.93,
+            "pago": 19999.93
+          },
+          {
             "nome": "DIREITOS DA CIDADANIA",
             "quantidade": 1,
             "empenhado": 30000,
             "pago": 30000
-          },
-          {
-            "nome": "Não informada",
-            "quantidade": 100,
-            "empenhado": 0,
-            "pago": 0
           }
         ],
         "porLocalidade": [
+          {
+            "nome": "Ecoporanga",
+            "quantidade": 9,
+            "empenhado": 872103,
+            "pago": 613172
+          },
+          {
+            "nome": "Mantenópolis",
+            "quantidade": 9,
+            "empenhado": 828650,
+            "pago": 384950
+          },
+          {
+            "nome": "Muniz Freire",
+            "quantidade": 23,
+            "empenhado": 598205.67,
+            "pago": 414715.67000000004
+          },
+          {
+            "nome": "Vila Pavão",
+            "quantidade": 1,
+            "empenhado": 582000,
+            "pago": 0
+          },
           {
             "nome": "Vitória",
             "quantidade": 20,
             "empenhado": 579899.94,
             "pago": 579899.94
+          },
+          {
+            "nome": "Itapemirim",
+            "quantidade": 8,
+            "empenhado": 499986.69,
+            "pago": 377406.69
           },
           {
             "nome": "Cariacica",
@@ -7856,28 +7868,10 @@
             "pago": 499326.98000000004
           },
           {
-            "nome": "Muniz Freire",
-            "quantidade": 23,
-            "empenhado": 498205.67000000004,
-            "pago": 414715.67000000004
-          },
-          {
-            "nome": "Mantenópolis",
-            "quantidade": 9,
-            "empenhado": 468525,
-            "pago": 80825
-          },
-          {
-            "nome": "Ecoporanga",
-            "quantidade": 9,
-            "empenhado": 426793,
-            "pago": 367862
-          },
-          {
-            "nome": "Itapemirim",
-            "quantidade": 8,
-            "empenhado": 249986.69,
-            "pago": 229556.69
+            "nome": "Águia Branca",
+            "quantidade": 2,
+            "empenhado": 240000,
+            "pago": 240000
           },
           {
             "nome": "Cachoeiro de Itapemirim",
@@ -7958,12 +7952,6 @@
             "pago": 100000
           },
           {
-            "nome": "Vila Pavão",
-            "quantidade": 1,
-            "empenhado": 97000,
-            "pago": 0
-          },
-          {
             "nome": "Domingos Martins",
             "quantidade": 5,
             "empenhado": 96208.26000000001,
@@ -8004,12 +7992,6 @@
             "quantidade": 4,
             "empenhado": 40200,
             "pago": 40200
-          },
-          {
-            "nome": "Águia Branca",
-            "quantidade": 2,
-            "empenhado": 40000,
-            "pago": 40000
           },
           {
             "nome": "Guarapari",
@@ -8166,12 +8148,23 @@
           {
             "nome": "Individual com finalidade definida não impositiva",
             "quantidade": 231,
-            "empenhado": 5538763.63,
-            "pago": 4702033.009999999
+            "empenhado": 7379198.63,
+            "pago": 5599318.009999999
           }
         ],
         "criterioDaLista": "as 10 de maior valor empenhado",
         "lista": [
+          {
+            "numero": "2025 / E1291",
+            "ano": 2025,
+            "tipo": "Individual com finalidade definida não impositiva",
+            "localidade": "Vila Pavão",
+            "funcao": "AGRICULTURA",
+            "objeto": "AQUISIÇÃO DE UM VEÍCULO TIPO PICAPE A ENTIDADE ASSOCIAÇÃO DE PEQUENOS PRODUTORES RURAIS DE VILA PAVÃO - APPROVIPA (CNPJ: 22.135.888/0001-02).",
+            "previsto": 100000,
+            "empenhado": 582000,
+            "pago": 0
+          },
           {
             "numero": "2026 / E0398",
             "ano": 2026,
@@ -8180,8 +8173,8 @@
             "funcao": "AGRICULTURA",
             "objeto": "AQUISIÇÃO DE SECADOR DE CAFÉ PARA ATENDER A ASSOCIAÇÃO DOS PEQUENOS PRODUTORES RURAIS DE ITAPEBA E ADJACÊNCIAS - (19.286.552.0001-36). - ASSOCIACAO DOS PEQUENOS PRODUTORES RURAIS DE ITAPEBA E ADJACENCIAS - APRIA (19.286.552/0001-36)",
             "previsto": 56000,
-            "empenhado": 280000,
-            "pago": 280000
+            "empenhado": 336000,
+            "pago": 336000
           },
           {
             "numero": "2026 / E0418",
@@ -8191,7 +8184,51 @@
             "funcao": "AGRICULTURA",
             "objeto": "AQUISIÇÃO DE UM SECADOR DE CAFÉ PARA ASSOCIAÇÃO DOS PEQUENOS PRODUTORES DE MANTENÓPOLIS (31.797.913/0001-04). - ASSOCIACAO DOS PEQUENOS PRODUTORES DE MANTENOPOLIS (31.797.913/0001-04)",
             "previsto": 56000,
-            "empenhado": 280000,
+            "empenhado": 336000,
+            "pago": 0
+          },
+          {
+            "numero": "2025 / E1286",
+            "ano": 2025,
+            "tipo": "Individual com finalidade definida não impositiva",
+            "localidade": "Itapemirim",
+            "funcao": "AGRICULTURA",
+            "objeto": "AQUISIÇÃO DE BENS E EQUIPAMENTOS. - ASSOCIAÇÃO DOS PECUARISTAS E AGRICULTORES FAMILIARES DO MUNÍCIPIO DE ITAPEMIRIM - APEAGRI (02.098.233/0001-02).",
+            "previsto": 50000,
+            "empenhado": 300000,
+            "pago": 177420
+          },
+          {
+            "numero": "2025 / E1288",
+            "ano": 2025,
+            "tipo": "Individual com finalidade definida não impositiva",
+            "localidade": "Águia Branca",
+            "funcao": null,
+            "objeto": "AQUISIÇÃO DE SECADOR DE 120 SACOS ENTIDADE ASSOCIAÇÃO DE AGRICULTORES FAMILIARES DE SÃO PEDRO - AAFASP (CNPJ: 31.798.283/0001-92).",
+            "previsto": 40000,
+            "empenhado": 240000,
+            "pago": 240000
+          },
+          {
+            "numero": "2025 / E1292",
+            "ano": 2025,
+            "tipo": "Individual com finalidade definida não impositiva",
+            "localidade": "Mantenópolis",
+            "funcao": null,
+            "objeto": "AQUISIÇÃO DE SECADOR DE CAFÉ A ENTIDADE ASSOCIAÇÃO DOS PEQUENOS AGRICULTORES DO CÓRREGO DO CAPIM (CNPJ: 14.533.782/0001-39).",
+            "previsto": 40000,
+            "empenhado": 240000,
+            "pago": 240000
+          },
+          {
+            "numero": "2025 / E1295",
+            "ano": 2025,
+            "tipo": "Individual com finalidade definida não impositiva",
+            "localidade": "Ecoporanga",
+            "funcao": "AGRICULTURA",
+            "objeto": "AQUISIÇÃO DE SECADOR DE CAFÉ A ENTIDADE ASSOCIAÇÃO DE MORADORES E PEQUENOS AGRICULTORES RURAIS DA CABECEIRA DO SANTA RITA - ASPRARITA (CNPJ: 13.280.732/0001-24).",
+            "previsto": 40000,
+            "empenhado": 240000,
             "pago": 0
           },
           {
@@ -8206,6 +8243,17 @@
             "pago": 180000
           },
           {
+            "numero": "2025 / E1298",
+            "ano": 2025,
+            "tipo": "Individual com finalidade definida não impositiva",
+            "localidade": "Mantenópolis",
+            "funcao": null,
+            "objeto": "AQUISIÇÃO DE CARRETA PARA TRANSPORTE E MOVIMENTAÇÃO DE MATERIAIS EM AMBIENTE AGRÍCOLA, COM CAPACIDADE PARA OPERAÇÕES DE CARGA E DESCARGA EFICIENTES A ENTIDADE ASSOCIAÇÃO AGRÍCOLA FAMILIAR DO CÓRREGO DAS FLORES (CNPJ: 06.160.217/0001-45).",
+            "previsto": 25000,
+            "empenhado": 124950,
+            "pago": 124950
+          },
+          {
             "numero": "2023 / E0342",
             "ano": 2023,
             "tipo": "Individual com finalidade definida não impositiva",
@@ -8215,72 +8263,6 @@
             "previsto": 130000,
             "empenhado": 122760,
             "pago": 122760
-          },
-          {
-            "numero": "2025 / E1231",
-            "ano": 2025,
-            "tipo": "Individual com finalidade definida não impositiva",
-            "localidade": "Muniz Freire",
-            "funcao": "SAÚDE",
-            "objeto": "CUSTEIO DA ENTIDADE SANTA CASA DE MISERICÓRDIA JESUS MARIA E JOSÉ. - SANTA CASA DE MISERICÓRDIA JESUS MARIA JOSÉ (27.081.629/0001-60).",
-            "previsto": 100000,
-            "empenhado": 100000,
-            "pago": 100000
-          },
-          {
-            "numero": "2025 / E1245",
-            "ano": 2025,
-            "tipo": "Individual com finalidade definida não impositiva",
-            "localidade": "Serra",
-            "funcao": "DESPORTO E LAZER",
-            "objeto": "CUSTEIO DA ENTIDADE CENTRO COMUNITÁRIO DO CONJUNTO SÃO JOSÉ DE ANCHIETA (27.327.493/0001-25)",
-            "previsto": 100000,
-            "empenhado": 100000,
-            "pago": 100000
-          },
-          {
-            "numero": "2025 / E1284",
-            "ano": 2025,
-            "tipo": "Individual com finalidade definida não impositiva",
-            "localidade": "Cariacica",
-            "funcao": "ASSISTÊNCIA SOCIAL",
-            "objeto": "AQUISIÇÃO DE VEÍCULO UTILIÁRIO. AGÊNCIA ADVENTISTA DE DESENVOLVIMENTO E RECURSOS ASSISTENCIAIS SUDESTE BRASILEIRA - ADRA (16.524.054/0007-81)",
-            "previsto": 100000,
-            "empenhado": 100000,
-            "pago": 100000
-          },
-          {
-            "numero": "2023 / E0366",
-            "ano": 2023,
-            "tipo": "Individual com finalidade definida não impositiva",
-            "localidade": "Atilio Vivacqua",
-            "funcao": "ASSISTÊNCIA SOCIAL",
-            "objeto": "CUSTEIO DA ENTIDADE - PROJETO NEEMIAS",
-            "previsto": 100000,
-            "empenhado": 99694.67,
-            "pago": 99694.67
-          },
-          {
-            "numero": "2025 / E1291",
-            "ano": 2025,
-            "tipo": "Individual com finalidade definida não impositiva",
-            "localidade": "Vila Pavão",
-            "funcao": "AGRICULTURA",
-            "objeto": "AQUISIÇÃO DE UM VEÍCULO TIPO PICAPE A ENTIDADE ASSOCIAÇÃO DE PEQUENOS PRODUTORES RURAIS DE VILA PAVÃO - APPROVIPA (CNPJ: 22.135.888/0001-02).",
-            "previsto": 100000,
-            "empenhado": 97000,
-            "pago": 0
-          },
-          {
-            "numero": "2023 / E0346",
-            "ano": 2023,
-            "tipo": "Individual com finalidade definida não impositiva",
-            "localidade": "Jaguaré",
-            "funcao": "COMÉRCIO E SERVIÇOS",
-            "objeto": "AQUISIÇÃO DE SISTEMA FOTOVOLTAICO - SINDICATO DOS TRABALHADORES RURAIS AGRICULTORES E AGRICULTORAS FAMILIARES DE JAGUARE-ES",
-            "previsto": 80000,
-            "empenhado": 80000,
-            "pago": 80000
           }
         ]
       }
@@ -8545,10 +8527,10 @@
         "valoresPublicados": true,
         "totais": {
           "previsto": 193094300,
-          "empenhado": 75293222.5,
-          "liquidado": 68131214.26,
-          "pago": 68101694.26,
-          "restosAPagar": 725237.89
+          "empenhado": 82004303.5,
+          "liquidado": 72566509.26,
+          "pago": 72536989.26,
+          "restosAPagar": 2589707.89
         },
         "porAno": [
           {
@@ -8560,14 +8542,14 @@
           {
             "ano": 2025,
             "quantidade": 39,
-            "empenhado": 1990952.6,
-            "pago": 1616921.87
+            "empenhado": 6577717.6,
+            "pago": 4339216.87
           },
           {
             "ano": 2026,
             "quantidade": 188,
-            "empenhado": 71795915.31,
-            "pago": 65330762.010000005
+            "empenhado": 73920231.31,
+            "pago": 67043762.01
           }
         ],
         "porFuncao": [
@@ -8579,21 +8561,27 @@
           },
           {
             "nome": "COMÉRCIO E SERVIÇOS",
-            "quantidade": 32,
-            "empenhado": 17536000,
-            "pago": 16695710
+            "quantidade": 30,
+            "empenhado": 17247000,
+            "pago": 16406710
           },
           {
             "nome": "AGRICULTURA",
-            "quantidade": 54,
-            "empenhado": 12302826,
-            "pago": 7021008.109999999
+            "quantidade": 43,
+            "empenhado": 13424789,
+            "pago": 7604549.109999999
           },
           {
             "nome": "DESPORTO E LAZER",
-            "quantidade": 44,
-            "empenhado": 10948258.85,
-            "pago": 10016881.8
+            "quantidade": 42,
+            "empenhado": 10848258.85,
+            "pago": 10418018.530000001
+          },
+          {
+            "nome": "Não informada",
+            "quantidade": 135,
+            "empenhado": 6577717.6,
+            "pago": 4339216.87
           },
           {
             "nome": "CULTURA",
@@ -8602,22 +8590,22 @@
             "pago": 1699800
           },
           {
-            "nome": "ASSISTÊNCIA SOCIAL",
-            "quantidade": 24,
-            "empenhado": 803177.89,
-            "pago": 763177.89
-          },
-          {
-            "nome": "SAÚDE",
-            "quantidade": 6,
-            "empenhado": 719929.6,
-            "pago": 719929.6
-          },
-          {
             "nome": "GESTÃO AMBIENTAL",
             "quantidade": 3,
             "empenhado": 600000,
             "pago": 600000
+          },
+          {
+            "nome": "ASSISTÊNCIA SOCIAL",
+            "quantidade": 16,
+            "empenhado": 503177.89,
+            "pago": 463177.89
+          },
+          {
+            "nome": "SAÚDE",
+            "quantidade": 3,
+            "empenhado": 449929.6,
+            "pago": 449929.6
           },
           {
             "nome": "DIREITOS DA CIDADANIA",
@@ -8627,15 +8615,9 @@
           },
           {
             "nome": "EDUCAÇÃO",
-            "quantidade": 3,
-            "empenhado": 73930.16,
-            "pago": 73930.16
-          },
-          {
-            "nome": "Não informada",
-            "quantidade": 102,
-            "empenhado": 0,
-            "pago": 0
+            "quantidade": 2,
+            "empenhado": 44330.56,
+            "pago": 44330.56
           }
         ],
         "porLocalidade": [
@@ -8649,7 +8631,13 @@
             "nome": "Vitória",
             "quantidade": 65,
             "empenhado": 7683119.6,
-            "pago": 7153119.6
+            "pago": 7653119.6
+          },
+          {
+            "nome": "Barra de São Francisco",
+            "quantidade": 26,
+            "empenhado": 4509330.7,
+            "pago": 2946417.7
           },
           {
             "nome": "Cariacica",
@@ -8658,46 +8646,58 @@
             "pago": 3075000
           },
           {
-            "nome": "Barra de São Francisco",
-            "quantidade": 26,
-            "empenhado": 2612085.7,
-            "pago": 1647172.7
+            "nome": "Ecoporanga",
+            "quantidade": 14,
+            "empenhado": 2620488.09,
+            "pago": 961807.2
           },
           {
             "nome": "Água Doce do Norte",
             "quantidade": 15,
-            "empenhado": 1612141,
-            "pago": 299501
+            "empenhado": 2009646,
+            "pago": 447006
           },
           {
             "nome": "Marilândia",
             "quantidade": 5,
-            "empenhado": 1543999.6,
-            "pago": 1543999.6
-          },
-          {
-            "nome": "Ecoporanga",
-            "quantidade": 14,
-            "empenhado": 1519213.0899999999,
-            "pago": 823807.2
+            "empenhado": 1834999.6,
+            "pago": 1834999.6
           },
           {
             "nome": "Afonso Cláudio",
             "quantidade": 2,
-            "empenhado": 1385000,
-            "pago": 1385000
+            "empenhado": 1662000,
+            "pago": 1662000
+          },
+          {
+            "nome": "Águia Branca",
+            "quantidade": 9,
+            "empenhado": 1613436.96,
+            "pago": 981540.96
           },
           {
             "nome": "Muniz Freire",
             "quantidade": 3,
-            "empenhado": 1307572,
+            "empenhado": 1419572,
             "pago": 747572
           },
           {
             "nome": "Vila Pavão",
             "quantidade": 3,
-            "empenhado": 1210172,
-            "pago": 1210172
+            "empenhado": 1333172,
+            "pago": 1333172
+          },
+          {
+            "nome": "Alto Rio Novo",
+            "quantidade": 2,
+            "empenhado": 1258372,
+            "pago": 520372
+          },
+          {
+            "nome": "Pancas",
+            "quantidade": 3,
+            "empenhado": 1212000,
+            "pago": 1212000
           },
           {
             "nome": "Conceição da Barra",
@@ -8706,22 +8706,10 @@
             "pago": 1177972
           },
           {
-            "nome": "Alto Rio Novo",
-            "quantidade": 2,
-            "empenhado": 1135372,
-            "pago": 520372
-          },
-          {
             "nome": "Colatina",
             "quantidade": 4,
             "empenhado": 1055172,
             "pago": 1054034.95
-          },
-          {
-            "nome": "Águia Branca",
-            "quantidade": 9,
-            "empenhado": 1029120.96,
-            "pago": 670540.96
           },
           {
             "nome": "Brejetuba",
@@ -8766,14 +8754,20 @@
             "pago": 799930
           },
           {
-            "nome": "Pancas",
-            "quantidade": 3,
-            "empenhado": 694000,
-            "pago": 694000
+            "nome": "Nova Venécia",
+            "quantidade": 5,
+            "empenhado": 744488,
+            "pago": 349454
           },
           {
             "nome": "Ibiraçu",
             "quantidade": 3,
+            "empenhado": 600000,
+            "pago": 600000
+          },
+          {
+            "nome": "Pinheiros",
+            "quantidade": 2,
             "empenhado": 600000,
             "pago": 600000
           },
@@ -8784,16 +8778,22 @@
             "pago": 529800
           },
           {
+            "nome": "Mantenópolis",
+            "quantidade": 11,
+            "empenhado": 450440,
+            "pago": 40000
+          },
+          {
             "nome": "Guarapari",
             "quantidade": 9,
             "empenhado": 449970.59,
             "pago": 449970.59
           },
           {
-            "nome": "Mantenópolis",
-            "quantidade": 11,
-            "empenhado": 394440,
-            "pago": 40000
+            "nome": "São José do Calçado",
+            "quantidade": 1,
+            "empenhado": 426000,
+            "pago": 0
           },
           {
             "nome": "João Neiva",
@@ -8802,10 +8802,10 @@
             "pago": 370372
           },
           {
-            "nome": "São José do Calçado",
+            "nome": "São Domingos do Norte",
             "quantidade": 1,
-            "empenhado": 355000,
-            "pago": 0
+            "empenhado": 336000,
+            "pago": 336000
           },
           {
             "nome": "Atilio Vivacqua",
@@ -8820,12 +8820,6 @@
             "pago": 0
           },
           {
-            "nome": "São Domingos do Norte",
-            "quantidade": 1,
-            "empenhado": 280000,
-            "pago": 280000
-          },
-          {
             "nome": "Cachoeiro de Itapemirim",
             "quantidade": 5,
             "empenhado": 250000,
@@ -8836,18 +8830,6 @@
             "quantidade": 2,
             "empenhado": 200000,
             "pago": 200000
-          },
-          {
-            "nome": "Nova Venécia",
-            "quantidade": 5,
-            "empenhado": 140748,
-            "pago": 74909
-          },
-          {
-            "nome": "Pinheiros",
-            "quantidade": 2,
-            "empenhado": 100000,
-            "pago": 100000
           },
           {
             "nome": "Santa Leopoldina",
@@ -8926,8 +8908,8 @@
           {
             "nome": "Individual com finalidade definida não impositiva",
             "quantidade": 265,
-            "empenhado": 75293222.5,
-            "pago": 68101694.26
+            "empenhado": 82004303.5,
+            "pago": 72536989.26
           }
         ],
         "criterioDaLista": "as 10 de maior valor empenhado",
@@ -8966,6 +8948,28 @@
             "pago": 1159710
           },
           {
+            "numero": "2026 / R1588",
+            "ano": 2026,
+            "tipo": "Individual com finalidade definida não impositiva",
+            "localidade": "Marilândia",
+            "funcao": "AGRICULTURA",
+            "objeto": "RECURSO DESTINADO À AMPLIAÇÃO DA PRODUÇÃO AGRÍCOLA. - ASSOCIACAO DOS AGRICULTORES BARRA DAS PIABAS (54.828.554/0001-00)",
+            "previsto": 291000,
+            "empenhado": 1746000,
+            "pago": 1746000
+          },
+          {
+            "numero": "2026 / R1594",
+            "ano": 2026,
+            "tipo": "Individual com finalidade definida não impositiva",
+            "localidade": "Afonso Cláudio",
+            "funcao": "AGRICULTURA",
+            "objeto": "RECURSO DESTINADO À AMPLIAÇÃO DA PRODUÇÃO AGRÍCOLA. - ASSOCIACAO DOS AGRICULTORES FAMILIARES DE SAO PEDRO,VARGEDO,CORREGO DOS MONOS E BARRA DO RIBEIRAO (01.042.744/0001-31)",
+            "previsto": 277000,
+            "empenhado": 1662000,
+            "pago": 1662000
+          },
+          {
             "numero": "2026 / R1610",
             "ano": 2026,
             "tipo": "Individual com finalidade definida não impositiva",
@@ -8988,28 +8992,6 @@
             "pago": 1499300
           },
           {
-            "numero": "2026 / R1588",
-            "ano": 2026,
-            "tipo": "Individual com finalidade definida não impositiva",
-            "localidade": "Marilândia",
-            "funcao": "AGRICULTURA",
-            "objeto": "RECURSO DESTINADO À AMPLIAÇÃO DA PRODUÇÃO AGRÍCOLA. - ASSOCIACAO DOS AGRICULTORES BARRA DAS PIABAS (54.828.554/0001-00)",
-            "previsto": 291000,
-            "empenhado": 1455000,
-            "pago": 1455000
-          },
-          {
-            "numero": "2026 / R1594",
-            "ano": 2026,
-            "tipo": "Individual com finalidade definida não impositiva",
-            "localidade": "Afonso Cláudio",
-            "funcao": "AGRICULTURA",
-            "objeto": "RECURSO DESTINADO À AMPLIAÇÃO DA PRODUÇÃO AGRÍCOLA. - ASSOCIACAO DOS AGRICULTORES FAMILIARES DE SAO PEDRO,VARGEDO,CORREGO DOS MONOS E BARRA DO RIBEIRAO (01.042.744/0001-31)",
-            "previsto": 277000,
-            "empenhado": 1385000,
-            "pago": 1385000
-          },
-          {
             "numero": "2026 / R1604",
             "ano": 2026,
             "tipo": "Individual com finalidade definida não impositiva",
@@ -9021,23 +9003,23 @@
             "pago": 1226559.6
           },
           {
+            "numero": "2026 / E0653",
+            "ano": 2026,
+            "tipo": "Individual com finalidade definida não impositiva",
+            "localidade": "Água Doce do Norte",
+            "funcao": "AGRICULTURA",
+            "objeto": "RECURSO PARA APOIAR O DESENVOLVIMENTO AGRÍCOLA DO MUNICÍPIO.   -",
+            "previsto": 200000,
+            "empenhado": 1164000,
+            "pago": 0
+          },
+          {
             "numero": "2026 / R1608",
             "ano": 2026,
             "tipo": "Individual com finalidade definida não impositiva",
             "localidade": "Cariacica",
             "funcao": "DESPORTO E LAZER",
             "objeto": "CUSTEIO PARA REALIZAçãO DE EVENTOS ESPORTIVOS. - ASSOCIACAO CAPIXABA DE BICICROSS (ACB) (03.874.300/0001-98)",
-            "previsto": 1000000,
-            "empenhado": 1000000,
-            "pago": 1000000
-          },
-          {
-            "numero": "2026 / R1616",
-            "ano": 2026,
-            "tipo": "Individual com finalidade definida não impositiva",
-            "localidade": "Vitória",
-            "funcao": "CULTURA",
-            "objeto": "APOIAR A CULTURA NO ESTADO ATRAVÉS DA ENTIDADE AGENCIA DE DESENVOLVIMENTO ECONOMICO, SOCIAL, CULTURAL E ESPORTIVADO ESTADO DO ESPIRITO SANTO - AGENCIA DE DESENVOLVIMENTO ECONOMICO SOCIAL CULTURAL E ESPORTIVO DO ESTADO DO ESPIRITO SANTO - ADESCEES (08.014.988/0001-50)",
             "previsto": 1000000,
             "empenhado": 1000000,
             "pago": 1000000
@@ -9085,33 +9067,33 @@
         "porFuncao": [
           {
             "nome": "COMÉRCIO E SERVIÇOS",
-            "quantidade": 9,
-            "empenhado": 4035000,
-            "pago": 4035000
-          },
-          {
-            "nome": "DESPORTO E LAZER",
-            "quantidade": 4,
-            "empenhado": 999537,
-            "pago": 996238.9099999999
-          },
-          {
-            "nome": "SAÚDE",
-            "quantidade": 6,
-            "empenhado": 540000,
-            "pago": 520000
-          },
-          {
-            "nome": "ASSISTÊNCIA SOCIAL",
-            "quantidade": 4,
-            "empenhado": 100000,
-            "pago": 100000
+            "quantidade": 8,
+            "empenhado": 3185000,
+            "pago": 3185000
           },
           {
             "nome": "Não informada",
-            "quantidade": 26,
-            "empenhado": 0,
-            "pago": 0
+            "quantidade": 33,
+            "empenhado": 1764537,
+            "pago": 1761238.91
+          },
+          {
+            "nome": "SAÚDE",
+            "quantidade": 4,
+            "empenhado": 340000,
+            "pago": 320000
+          },
+          {
+            "nome": "DESPORTO E LAZER",
+            "quantidade": 1,
+            "empenhado": 300000,
+            "pago": 300000
+          },
+          {
+            "nome": "ASSISTÊNCIA SOCIAL",
+            "quantidade": 3,
+            "empenhado": 85000,
+            "pago": 85000
           }
         ],
         "porLocalidade": [
@@ -9172,7 +9154,7 @@
             "ano": 2025,
             "tipo": "Individual com finalidade definida não impositiva",
             "localidade": "Serra",
-            "funcao": "COMÉRCIO E SERVIÇOS",
+            "funcao": null,
             "objeto": "APOIO FINANCEIRO PARA ADERES PARA A REALIZAÇÃO DE EVENTOS, FEIRAS DE NEGóCIOS, APOIO AO EMPREENDEDORISMO",
             "previsto": 850000,
             "empenhado": 850000,
@@ -9194,7 +9176,7 @@
             "ano": 2025,
             "tipo": "Individual com finalidade definida não impositiva",
             "localidade": "Vitória",
-            "funcao": "DESPORTO E LAZER",
+            "funcao": null,
             "objeto": "APOIO FINANCEIRO PARA REALIZAÇÃO DE EVENTOS E CAMPEONATOS ESPORTIVOS.  - FEDERACAO ESPIRITOS SANTENSE DE TENIS (27.388.271/0001-12)",
             "previsto": 500000,
             "empenhado": 499537,
@@ -9281,10 +9263,10 @@
         "valoresPublicados": true,
         "totais": {
           "previsto": 8656950,
-          "empenhado": 8718204.37,
-          "liquidado": 6060294.199999999,
-          "pago": 5871571.2700000005,
-          "restosAPagar": 536533
+          "empenhado": 10813659.37,
+          "liquidado": 7036839.199999998,
+          "pago": 6848116.27,
+          "restosAPagar": 1229483
         },
         "porAno": [
           {
@@ -9302,40 +9284,46 @@
           {
             "ano": 2025,
             "quantidade": 91,
-            "empenhado": 1688432.0999999999,
-            "pago": 1409641.8699999996
+            "empenhado": 3056807.1000000006,
+            "pago": 2085066.8700000006
           },
           {
             "ano": 2026,
             "quantidade": 102,
-            "empenhado": 4447220.640000001,
-            "pago": 2177420.71
+            "empenhado": 5174300.64,
+            "pago": 2478540.71
           }
         ],
         "porFuncao": [
           {
             "nome": "AGRICULTURA",
-            "quantidade": 42,
-            "empenhado": 4267842.99,
-            "pago": 1831512.99
+            "quantidade": 36,
+            "empenhado": 4711281.99,
+            "pago": 1987581.99
+          },
+          {
+            "nome": "Não informada",
+            "quantidade": 198,
+            "empenhado": 3056807.1000000006,
+            "pago": 2085066.8700000006
           },
           {
             "nome": "ASSISTÊNCIA SOCIAL",
-            "quantidade": 100,
-            "empenhado": 1896445.3599999996,
-            "pago": 1741445.3599999996
+            "quantidade": 69,
+            "empenhado": 1321467.5899999999,
+            "pago": 1241467.5899999999
           },
           {
             "nome": "DESPORTO E LAZER",
-            "quantidade": 54,
-            "empenhado": 1620096.1300000004,
-            "pago": 1524792.96
+            "quantidade": 38,
+            "empenhado": 1119267.4500000002,
+            "pago": 1059164.51
           },
           {
             "nome": "SAÚDE",
-            "quantidade": 16,
-            "empenhado": 543819.96,
-            "pago": 503819.96
+            "quantidade": 11,
+            "empenhado": 279835.31,
+            "pago": 239835.31
           },
           {
             "nome": "URBANISMO",
@@ -9351,15 +9339,9 @@
           },
           {
             "nome": "COMÉRCIO E SERVIÇOS",
-            "quantidade": 4,
-            "empenhado": 70000,
-            "pago": 70000
-          },
-          {
-            "nome": "CULTURA",
-            "quantidade": 2,
-            "empenhado": 60000,
-            "pago": 30000
+            "quantidade": 3,
+            "empenhado": 50000,
+            "pago": 50000
           },
           {
             "nome": "DIREITOS DA CIDADANIA",
@@ -9368,48 +9350,48 @@
             "pago": 35000
           },
           {
-            "nome": "GESTÃO AMBIENTAL",
+            "nome": "CULTURA",
             "quantidade": 2,
-            "empenhado": 35000,
-            "pago": 35000
+            "empenhado": 30000,
+            "pago": 30000
           },
           {
-            "nome": "Não informada",
-            "quantidade": 127,
-            "empenhado": 0,
-            "pago": 0
+            "nome": "GESTÃO AMBIENTAL",
+            "quantidade": 1,
+            "empenhado": 20000,
+            "pago": 20000
           }
         ],
         "porLocalidade": [
           {
             "nome": "Itaguaçu",
             "quantidade": 7,
-            "empenhado": 803300,
-            "pago": 68100
+            "empenhado": 1232800,
+            "pago": 358600
           },
           {
             "nome": "São Roque do Canaã",
             "quantidade": 6,
-            "empenhado": 739995.89,
-            "pago": 739995.89
+            "empenhado": 878995.89,
+            "pago": 878995.89
           },
           {
             "nome": "Águia Branca",
             "quantidade": 13,
-            "empenhado": 709762.78,
-            "pago": 414762.78
-          },
-          {
-            "nome": "Alto Rio Novo",
-            "quantidade": 7,
-            "empenhado": 487440,
-            "pago": 0
+            "empenhado": 821762.78,
+            "pago": 470762.78
           },
           {
             "nome": "Muniz Freire",
             "quantidade": 4,
-            "empenhado": 443100,
-            "pago": 317400
+            "empenhado": 776040,
+            "pago": 380880
+          },
+          {
+            "nome": "Alto Rio Novo",
+            "quantidade": 7,
+            "empenhado": 722390,
+            "pago": 0
           },
           {
             "nome": "São Gabriel da Palha",
@@ -9436,28 +9418,40 @@
             "pago": 347144.56
           },
           {
-            "nome": "Governador Lindenberg",
-            "quantidade": 10,
-            "empenhado": 304712.45,
-            "pago": 304711.74
-          },
-          {
             "nome": "Ecoporanga",
             "quantidade": 6,
-            "empenhado": 300000,
+            "empenhado": 356000,
             "pago": 0
-          },
-          {
-            "nome": "Pancas",
-            "quantidade": 13,
-            "empenhado": 296286.96,
-            "pago": 206286.96000000002
           },
           {
             "nome": "Divino de São Lourenço",
             "quantidade": 2,
-            "empenhado": 280000,
+            "empenhado": 336000,
             "pago": 0
+          },
+          {
+            "nome": "Governador Lindenberg",
+            "quantidade": 10,
+            "empenhado": 329712.45,
+            "pago": 329711.74
+          },
+          {
+            "nome": "Pancas",
+            "quantidade": 13,
+            "empenhado": 296286.95999999996,
+            "pago": 206286.96000000002
+          },
+          {
+            "nome": "São José do Calçado",
+            "quantidade": 3,
+            "empenhado": 261200,
+            "pago": 20000
+          },
+          {
+            "nome": "Ibitirama",
+            "quantidade": 2,
+            "empenhado": 239160,
+            "pago": 239160
           },
           {
             "nome": "Marilândia",
@@ -9468,8 +9462,20 @@
           {
             "nome": "Boa Esperança",
             "quantidade": 5,
-            "empenhado": 195000,
+            "empenhado": 220000,
             "pago": 30000
+          },
+          {
+            "nome": "Brejetuba",
+            "quantidade": 4,
+            "empenhado": 203640,
+            "pago": 105840
+          },
+          {
+            "nome": "Água Doce do Norte",
+            "quantidade": 9,
+            "empenhado": 199880.74,
+            "pago": 186160.74
           },
           {
             "nome": "Nova Venécia",
@@ -9482,6 +9488,12 @@
             "quantidade": 5,
             "empenhado": 149336.45,
             "pago": 149336.45
+          },
+          {
+            "nome": "Jaguaré",
+            "quantidade": 11,
+            "empenhado": 147800,
+            "pago": 147800
           },
           {
             "nome": "São Domingos do Norte",
@@ -9508,22 +9520,10 @@
             "pago": 95511.98999999999
           },
           {
-            "nome": "Brejetuba",
-            "quantidade": 4,
-            "empenhado": 104500,
-            "pago": 88200
-          },
-          {
             "nome": "Montanha",
             "quantidade": 6,
             "empenhado": 99998.75,
             "pago": 79998.75
-          },
-          {
-            "nome": "Água Doce do Norte",
-            "quantidade": 9,
-            "empenhado": 95755.73999999999,
-            "pago": 82035.74
           },
           {
             "nome": "Cariacica",
@@ -9544,22 +9544,10 @@
             "pago": 69532.8
           },
           {
-            "nome": "Jaguaré",
-            "quantidade": 11,
-            "empenhado": 66300,
-            "pago": 66300
-          },
-          {
             "nome": "Pedro Canário",
             "quantidade": 9,
             "empenhado": 65000,
             "pago": 65000
-          },
-          {
-            "nome": "São José do Calçado",
-            "quantidade": 3,
-            "empenhado": 60200,
-            "pago": 20000
           },
           {
             "nome": "Afonso Cláudio",
@@ -9614,12 +9602,6 @@
             "quantidade": 2,
             "empenhado": 39900,
             "pago": 39900
-          },
-          {
-            "nome": "Ibitirama",
-            "quantidade": 2,
-            "empenhado": 39860,
-            "pago": 39860
           },
           {
             "nome": "João Neiva",
@@ -9746,8 +9728,8 @@
           {
             "nome": "Individual com finalidade definida não impositiva",
             "quantidade": 344,
-            "empenhado": 8718204.37,
-            "pago": 5871571.2700000005
+            "empenhado": 10813659.37,
+            "pago": 6848116.27
           }
         ],
         "criterioDaLista": "as 10 de maior valor empenhado",
@@ -9760,8 +9742,8 @@
             "funcao": "AGRICULTURA",
             "objeto": "AQUISIÇÃO DE MAQUINÁRIOS/EQUIPAMENTOS AGRÍCOLAS. - ASSOCIACAO DE PRODUTORES RURAIS AGRICULTORES E AGRICULTORAS FAMILIARES DE NOSSA SENHORA DA SAUDE (55.402.136/0001-10)",
             "previsto": 83000,
-            "empenhado": 415000,
-            "pago": 415000
+            "empenhado": 498000,
+            "pago": 498000
           },
           {
             "numero": "2026 / E1173",
@@ -9771,7 +9753,7 @@
             "funcao": "AGRICULTURA",
             "objeto": "AQUISIÇÃO DE MAQUINÁRIOS/EQUIPAMENTOS AGRÍCOLAS. - ASSOCIACAO DOS AGRICULTORES FAMILIAR DA CABECEIRA DO CORREGO GRANDE (51.470.913/0001-02)",
             "previsto": 83000,
-            "empenhado": 415000,
+            "empenhado": 498000,
             "pago": 0
           },
           {
@@ -9782,7 +9764,7 @@
             "funcao": "AGRICULTURA",
             "objeto": "AQUISIÇÃO DE MAQUINÁRIOS/EQUIPAMENTOS AGRÍCOLAS. - ASSOCIACAO DE PEQUENOS AGRICULTORES FAMILIARES DO CORREGO JACUTINGA (00.667.975/0001-78)",
             "previsto": 83000,
-            "empenhado": 395000,
+            "empenhado": 474000,
             "pago": 0
           },
           {
@@ -9793,8 +9775,8 @@
             "funcao": "AGRICULTURA",
             "objeto": "AQUISIÇÃO DE MAQUINÁRIOS/EQUIPAMENTOS AGRÍCOLAS. - ASSOCIACAO DE PRODUTORES RURAIS AGRICULTORES E AGRICULTORAS FAMILIARES DE NOSSA SENHORA DA SAUDE (55.402.136/0001-10)",
             "previsto": 56000,
-            "empenhado": 280000,
-            "pago": 280000
+            "empenhado": 336000,
+            "pago": 336000
           },
           {
             "numero": "2026 / E1158",
@@ -9804,8 +9786,8 @@
             "funcao": "AGRICULTURA",
             "objeto": "AQUISIÇÃO DE MAQUINÁRIOS/EQUIPAMENTOS AGRÍCOLAS. -",
             "previsto": 56000,
-            "empenhado": 280000,
-            "pago": 280000
+            "empenhado": 336000,
+            "pago": 336000
           },
           {
             "numero": "2026 / E1166",
@@ -9815,7 +9797,7 @@
             "funcao": "AGRICULTURA",
             "objeto": "AQUISIÇÃO DE MAQUINÁRIOS/EQUIPAMENTOS AGRÍCOLAS. - ASSOCIACAO DOS AGRICULTORES FAMILIARES DE CORREGO DAS PEDRAS E SAO JOSE (06.055.897/0001-37)",
             "previsto": 56000,
-            "empenhado": 280000,
+            "empenhado": 336000,
             "pago": 0
           },
           {
@@ -9826,7 +9808,7 @@
             "funcao": "AGRICULTURA",
             "objeto": "AQUISIÇÃO DE MAQUINÁRIOS/EQUIPAMENTOS AGRÍCOLAS. - ASSOCIACAO DOS AGRICULTORES FAMILIAR DA BARRA DA LIMEIRA MUNICIPIO DE ITAGUACU, ESTADO DO ESPIRITO SANTO. (58.386.585/0001-00)",
             "previsto": 56000,
-            "empenhado": 280000,
+            "empenhado": 336000,
             "pago": 0
           },
           {
@@ -9837,8 +9819,8 @@
             "funcao": "AGRICULTURA",
             "objeto": "AQUISIÇÃO DE IMPLEMENTOS/EQUIPAMENTOS AGRÍCOLAS. - ASSOCIACAO DOS PRODUTORES DE CAFE DE QUALIDADE DE MUNIZ FREIRE (07.575.940/0001-58)",
             "previsto": 56000,
-            "empenhado": 280000,
-            "pago": 280000
+            "empenhado": 336000,
+            "pago": 336000
           },
           {
             "numero": "2026 / E1230",
@@ -9848,7 +9830,7 @@
             "funcao": "AGRICULTURA",
             "objeto": "AQUISIÇÃO DE MAQUINÁRIOS/EQUIPAMENTOS AGRÍCOLAS PARA O MUNICÍPIO. -",
             "previsto": 56000,
-            "empenhado": 280000,
+            "empenhado": 336000,
             "pago": 0
           },
           {
@@ -9859,7 +9841,7 @@
             "funcao": "AGRICULTURA",
             "objeto": "AQUISIÇÃO DE MAQUINÁRIOS/EQUIPAMENTOS AGRÍCOLAS. - ASSOCIACAO DOS PRODUTORES RURAIS DO CORREGO OSWALDO CRUZ - APROC (11.183.582/0001-05)",
             "previsto": 56000,
-            "empenhado": 280000,
+            "empenhado": 336000,
             "pago": 0
           }
         ]
@@ -9878,8 +9860,8 @@
         "totais": {
           "previsto": 7200000,
           "empenhado": 3968290.5800000005,
-          "liquidado": 3708696.4400000004,
-          "pago": 3304034.4100000006,
+          "liquidado": 3708696.440000001,
+          "pago": 3304034.41,
           "restosAPagar": 604256.0800000001
         },
         "porAno": [
@@ -9892,7 +9874,7 @@
           {
             "ano": 2025,
             "quantidade": 119,
-            "empenhado": 1945599.26,
+            "empenhado": 1945599.2599999998,
             "pago": 1401219.19
           },
           {
@@ -9904,40 +9886,40 @@
         ],
         "porFuncao": [
           {
+            "nome": "Não informada",
+            "quantidade": 273,
+            "empenhado": 1945599.2599999998,
+            "pago": 1401219.1899999997
+          },
+          {
             "nome": "ASSISTÊNCIA SOCIAL",
-            "quantidade": 149,
-            "empenhado": 2808211.8500000006,
-            "pago": 2263831.78
+            "quantidade": 88,
+            "empenhado": 1314496.73,
+            "pago": 1299496.73
           },
           {
             "nome": "SAÚDE",
-            "quantidade": 9,
-            "empenhado": 416780.68,
-            "pago": 376900.77999999997
+            "quantidade": 5,
+            "empenhado": 229879.13,
+            "pago": 189999.22999999998
           },
           {
             "nome": "DESPORTO E LAZER",
-            "quantidade": 7,
-            "empenhado": 359641.19,
-            "pago": 329641.19
+            "quantidade": 5,
+            "empenhado": 179641.19,
+            "pago": 149641.19
           },
           {
             "nome": "COMÉRCIO E SERVIÇOS",
-            "quantidade": 5,
-            "empenhado": 155000,
-            "pago": 155000
+            "quantidade": 4,
+            "empenhado": 140000,
+            "pago": 140000
           },
           {
             "nome": "EDUCAÇÃO",
             "quantidade": 8,
-            "empenhado": 94676.07,
+            "empenhado": 79676.07,
             "pago": 44679.869999999995
-          },
-          {
-            "nome": "CULTURA",
-            "quantidade": 4,
-            "empenhado": 64980.78999999999,
-            "pago": 64980.78999999999
           },
           {
             "nome": "DIREITOS DA CIDADANIA",
@@ -9947,15 +9929,15 @@
           },
           {
             "nome": "GESTÃO AMBIENTAL",
-            "quantidade": 2,
-            "empenhado": 30000,
-            "pago": 30000
+            "quantidade": 1,
+            "empenhado": 20000,
+            "pago": 20000
           },
           {
-            "nome": "Não informada",
-            "quantidade": 169,
-            "empenhado": 0,
-            "pago": 0
+            "nome": "CULTURA",
+            "quantidade": 1,
+            "empenhado": 19998.2,
+            "pago": 19998.2
           }
         ],
         "porLocalidade": [
@@ -10445,7 +10427,7 @@
             "nome": "Individual com finalidade definida não impositiva",
             "quantidade": 350,
             "empenhado": 3968290.5800000005,
-            "pago": 3304034.4100000006
+            "pago": 3304034.41
           }
         ],
         "criterioDaLista": "as 10 de maior valor empenhado",
@@ -10455,7 +10437,7 @@
             "ano": 2025,
             "tipo": "Individual com finalidade definida não impositiva",
             "localidade": "Colatina",
-            "funcao": "DESPORTO E LAZER",
+            "funcao": null,
             "objeto": "APOIO FINANCEIRO PARA ATENDER A PREFEITURA MUNICIPAL DE COLATINA NA AQUISIÇÃO DE MATERIAIS ESPORTIVOS.",
             "previsto": 150000,
             "empenhado": 150000,
@@ -10521,7 +10503,7 @@
             "ano": 2025,
             "tipo": "Individual com finalidade definida não impositiva",
             "localidade": "Colatina",
-            "funcao": "SAÚDE",
+            "funcao": null,
             "objeto": "TRANSFERÊNCIA DE RECURSO PARA CUSTEIO DA SANTA CASA DE MISERICÓRDIA DE COLATINA. - SOCIEDADE PROVEDORA DA SANTA CASA DE MISERICÓRDIA DE COLATINA (13.769.132/0001-24).",
             "previsto": 60000,
             "empenhado": 60000,
@@ -10532,7 +10514,7 @@
             "ano": 2025,
             "tipo": "Individual com finalidade definida não impositiva",
             "localidade": "Colatina",
-            "funcao": "SAÚDE",
+            "funcao": null,
             "objeto": "TRANSFERÊNCIA DE RECURSO PARA CUSTEIO DA ENTIDADE FUND, SOCIAL RURAL DE COLATINA- HOSPITAL SÃO JOSÉ. FUND SOCIAL RURAL DE COLATINA (27.502.715/0001-07).",
             "previsto": 60000,
             "empenhado": 60000,
@@ -10575,7 +10557,7 @@
         "valoresPublicados": true,
         "totais": {
           "previsto": 3000000,
-          "empenhado": 1263317.98,
+          "empenhado": 1333317.98,
           "liquidado": 803757.98,
           "pago": 803757.98,
           "restosAPagar": 0
@@ -10584,7 +10566,7 @@
           {
             "ano": 2026,
             "quantidade": 80,
-            "empenhado": 1263317.98,
+            "empenhado": 1333317.98,
             "pago": 803757.98
           }
         ],
@@ -10598,7 +10580,7 @@
           {
             "nome": "AGRICULTURA",
             "quantidade": 1,
-            "empenhado": 350000,
+            "empenhado": 420000,
             "pago": 0
           },
           {
@@ -10628,16 +10610,16 @@
         ],
         "porLocalidade": [
           {
+            "nome": "Vila Valério",
+            "quantidade": 1,
+            "empenhado": 420000,
+            "pago": 0
+          },
+          {
             "nome": "Vitória",
             "quantidade": 7,
             "empenhado": 359200,
             "pago": 359200
-          },
-          {
-            "nome": "Vila Valério",
-            "quantidade": 1,
-            "empenhado": 350000,
-            "pago": 0
           },
           {
             "nome": "Mucurici",
@@ -10812,7 +10794,7 @@
           {
             "nome": "Individual com finalidade definida não impositiva",
             "quantidade": 80,
-            "empenhado": 1263317.98,
+            "empenhado": 1333317.98,
             "pago": 803757.98
           }
         ],
@@ -10826,7 +10808,7 @@
             "funcao": "AGRICULTURA",
             "objeto": "PARA AQUISIÇÃO DE SECADOR DE CAFÉ PARA A ASSOCIAÇÃO DE PEQUENOS AGRICULTORES DA REGIÃO PAVÃOZINHO E PARAÍSO POLIS (01.173.581/0001-26) - ASSOC. DE PEQ. AGRIC. DA REG.PAVAOZINHO E PARAISO POLIS (01.173.581/0001-26)",
             "previsto": 70000,
-            "empenhado": 350000,
+            "empenhado": 420000,
             "pago": 0
           },
           {
@@ -10943,9 +10925,9 @@
         "valoresPublicados": true,
         "totais": {
           "previsto": 238140650,
-          "empenhado": 33177104.430000003,
-          "liquidado": 32751083.760000005,
-          "pago": 32151083.760000005,
+          "empenhado": 36265104.43,
+          "liquidado": 35839083.760000005,
+          "pago": 35239083.760000005,
           "restosAPagar": 1017990
         },
         "porAno": [
@@ -10958,64 +10940,46 @@
           {
             "ano": 2025,
             "quantidade": 113,
-            "empenhado": 25820670.470000003,
-            "pago": 24827394.680000003
+            "empenhado": 28908670.47,
+            "pago": 27915394.68
           }
         ],
         "porFuncao": [
           {
-            "nome": "COMÉRCIO E SERVIÇOS",
-            "quantidade": 17,
-            "empenhado": 13625000,
-            "pago": 13615000
+            "nome": "Não informada",
+            "quantidade": 146,
+            "empenhado": 28908670.470000003,
+            "pago": 27915394.68
           },
           {
             "nome": "DESPORTO E LAZER",
-            "quantidade": 44,
-            "empenhado": 10523122.159999998,
-            "pago": 10475093.489999998
+            "quantidade": 15,
+            "empenhado": 2860517.93,
+            "pago": 2855765.05
+          },
+          {
+            "nome": "COMÉRCIO E SERVIÇOS",
+            "quantidade": 4,
+            "empenhado": 1995000,
+            "pago": 1995000
           },
           {
             "nome": "CULTURA",
-            "quantidade": 5,
-            "empenhado": 4106603.3899999997,
-            "pago": 3841603.3899999997
+            "quantidade": 2,
+            "empenhado": 1500000,
+            "pago": 1500000
           },
           {
             "nome": "ASSISTÊNCIA SOCIAL",
-            "quantidade": 40,
-            "empenhado": 2003586.02,
-            "pago": 1328584.02
-          },
-          {
-            "nome": "SAÚDE",
-            "quantidade": 2,
-            "empenhado": 1049977.15,
-            "pago": 1049977.15
+            "quantidade": 22,
+            "empenhado": 689586.02,
+            "pago": 689584.02
           },
           {
             "nome": "AGRICULTURA",
-            "quantidade": 8,
-            "empenhado": 753954.1499999999,
-            "pago": 725964.1499999999
-          },
-          {
-            "nome": "SEGURANÇA PÚBLICA",
-            "quantidade": 1,
-            "empenhado": 550000,
-            "pago": 550000
-          },
-          {
-            "nome": "DIREITOS DA CIDADANIA",
-            "quantidade": 3,
-            "empenhado": 250000,
-            "pago": 250000
-          },
-          {
-            "nome": "GESTÃO AMBIENTAL",
-            "quantidade": 2,
-            "empenhado": 220000,
-            "pago": 220000
+            "quantidade": 5,
+            "empenhado": 116468.45,
+            "pago": 88478.45
           },
           {
             "nome": "EDUCAÇÃO",
@@ -11024,23 +10988,35 @@
             "pago": 59999.21
           },
           {
+            "nome": "SAÚDE",
+            "quantidade": 1,
+            "empenhado": 50000,
+            "pago": 50000
+          },
+          {
             "nome": "CIÊNCIA E TECNOLOGIA",
             "quantidade": 1,
             "empenhado": 34862.35,
             "pago": 34862.35
           },
           {
-            "nome": "Não informada",
-            "quantidade": 69,
-            "empenhado": 0,
-            "pago": 0
+            "nome": "DIREITOS DA CIDADANIA",
+            "quantidade": 1,
+            "empenhado": 30000,
+            "pago": 30000
+          },
+          {
+            "nome": "GESTÃO AMBIENTAL",
+            "quantidade": 1,
+            "empenhado": 20000,
+            "pago": 20000
           }
         ],
         "porLocalidade": [
           {
             "nome": "Não informada",
             "quantidade": 32,
-            "empenhado": 12113616.17,
+            "empenhado": 12113616.170000002,
             "pago": 11248099.23
           },
           {
@@ -11052,8 +11028,14 @@
           {
             "nome": "Muniz Freire",
             "quantidade": 2,
-            "empenhado": 1520800,
-            "pago": 1520800
+            "empenhado": 3064800,
+            "pago": 3064800
+          },
+          {
+            "nome": "Baixo Guandu",
+            "quantidade": 1,
+            "empenhado": 1852800,
+            "pago": 1852800
           },
           {
             "nome": "Colatina",
@@ -11102,12 +11084,6 @@
             "quantidade": 15,
             "empenhado": 324939.9,
             "pago": 324888.62
-          },
-          {
-            "nome": "Baixo Guandu",
-            "quantidade": 1,
-            "empenhado": 308800,
-            "pago": 308800
           },
           {
             "nome": "Ibiraçu",
@@ -11276,8 +11252,8 @@
           {
             "nome": "Individual com finalidade definida não impositiva",
             "quantidade": 193,
-            "empenhado": 33177104.430000003,
-            "pago": 32151083.760000005
+            "empenhado": 36265104.43,
+            "pago": 35239083.760000005
           }
         ],
         "criterioDaLista": "as 10 de maior valor empenhado",
@@ -11287,7 +11263,7 @@
             "ano": 2025,
             "tipo": "Individual com finalidade definida não impositiva",
             "localidade": "Não informada",
-            "funcao": "DESPORTO E LAZER",
+            "funcao": null,
             "objeto": "APOIO FINANCEIRO PARA FEDERAÇÃO DE FUTEBOL DO ESTADO DO ESPIRITO SANTO. ENTIDADE FEDERAÇÃO DO ESTADO DO ESPIRITO SANTO - 27.248.939/0001-26",
             "previsto": 2200000,
             "empenhado": 2118024.49,
@@ -11298,7 +11274,7 @@
             "ano": 2025,
             "tipo": "Individual com finalidade definida não impositiva",
             "localidade": "Vitória",
-            "funcao": "COMÉRCIO E SERVIÇOS",
+            "funcao": null,
             "objeto": "APOIO FINANCEIROS PARA EVENTOS",
             "previsto": 2000000,
             "empenhado": 2000000,
@@ -11309,7 +11285,7 @@
             "ano": 2025,
             "tipo": "Individual com finalidade definida não impositiva",
             "localidade": "Não informada",
-            "funcao": "COMÉRCIO E SERVIÇOS",
+            "funcao": null,
             "objeto": "APOIO FINANCEIRO PARA LIESGE ENTIDADE LIGA INDEPENDENTE DAS ESCOLAS DE SAMBA DO GRUPO ESPECIAL - LIESGE-ES. LIGA INDEPENDENTE DAS ESCOLAS DE SAMBA DO GRUPO ESPECIAL (09.473.443/0001-74)",
             "previsto": 2000000,
             "empenhado": 2000000,
@@ -11320,7 +11296,7 @@
             "ano": 2025,
             "tipo": "Individual com finalidade definida não impositiva",
             "localidade": "Não informada",
-            "funcao": "CULTURA",
+            "funcao": null,
             "objeto": "APOIAR A CULTURA NO ESTADO ATRAVÉS DA ENTIDADE AGENCIA DE DESENVOLVIMENTO ECONOMICO, SOCIAL, CULTURAL E ESPORTIVA DO ESTADO DO ESPIRITO SANTO. AGENCIA DE DESENVOLVIMENTO ECONOMICO SOCIAL CULTURAL E ESPORTIVO DO ESTADO DO ESPIRITO SANTO - ADESCEES (08.014.988/0001-50)",
             "previsto": 2000000,
             "empenhado": 2000000,
@@ -11349,6 +11325,28 @@
             "pago": 1890517.9300000002
           },
           {
+            "numero": "2025 / E1370",
+            "ano": 2025,
+            "tipo": "Individual com finalidade definida não impositiva",
+            "localidade": "Muniz Freire",
+            "funcao": null,
+            "objeto": "AQUISIÇÃO DE UMA RETRO ESCAVADEIRA PARA A PREFEITURA DE MUNIZ FREIRE",
+            "previsto": 308800,
+            "empenhado": 1852800,
+            "pago": 1852800
+          },
+          {
+            "numero": "2025 / E1371",
+            "ano": 2025,
+            "tipo": "Individual com finalidade definida não impositiva",
+            "localidade": "Baixo Guandu",
+            "funcao": null,
+            "objeto": "AQUISIÇÃO DE UMA RETRO ESCAVADEIRA PARA A PREFEITURA DE BAIXO GUANDU",
+            "previsto": 308800,
+            "empenhado": 1852800,
+            "pago": 1852800
+          },
+          {
             "numero": "2024 / E1488",
             "ano": 2024,
             "tipo": "Individual com finalidade definida não impositiva",
@@ -11364,33 +11362,11 @@
             "ano": 2025,
             "tipo": "Individual com finalidade definida não impositiva",
             "localidade": "Colatina",
-            "funcao": "COMÉRCIO E SERVIÇOS",
+            "funcao": null,
             "objeto": "AJUDA FINANCEIRA PARA CUSTEIO  - CAF - COOPERATIVA DOS AGRICULTORES FAMILIARES DE COLATINA (05.642.134/0001-20)",
             "previsto": 1460000,
             "empenhado": 1460000,
             "pago": 1460000
-          },
-          {
-            "numero": "2025 / E1347",
-            "ano": 2025,
-            "tipo": "Individual com finalidade definida não impositiva",
-            "localidade": "Muniz Freire",
-            "funcao": "COMÉRCIO E SERVIÇOS",
-            "objeto": "PARA CUSTEIO E MANUTENÇÃO DAS ATIVIDADES DA INSTITUIÇÃO ASSOCIAÇÃO BENEFICIENTE NOSSA SENHORA DA PENHA CNPJ 02166603000193",
-            "previsto": 1212000,
-            "empenhado": 1212000,
-            "pago": 1212000
-          },
-          {
-            "numero": "2025 / E1383",
-            "ano": 2025,
-            "tipo": "Individual com finalidade definida não impositiva",
-            "localidade": "Não informada",
-            "funcao": "DESPORTO E LAZER",
-            "objeto": "APOIAR A PRATICA ESPORTIVA NO ESTADO ATRAVÉS DA ENTIDADE AGENCIA DE DESENVOLVIMENTO ECONOMICO, SOCIAL, CULTURAL E ESPORTIVA DO ESTADO DO ESPIRITO SANTO. AGENCIA DE DESENVOLVIMENTO ECONOMICO SOCIAL CULTURAL E ESPORTIVO DO ESTADO DO ESPIRITO SANTO - ADESCEES (08.014.988/0001-50)",
-            "previsto": 1000000,
-            "empenhado": 1000000,
-            "pago": 1000000
           }
         ]
       }
@@ -11441,33 +11417,33 @@
         "porFuncao": [
           {
             "nome": "DESPORTO E LAZER",
-            "quantidade": 34,
-            "empenhado": 4169313.05,
-            "pago": 3690109.8
+            "quantidade": 27,
+            "empenhado": 2979113.05,
+            "pago": 2499965.89
+          },
+          {
+            "nome": "Não informada",
+            "quantidade": 45,
+            "empenhado": 2019598,
+            "pago": 1829541.9100000001
           },
           {
             "nome": "COMÉRCIO E SERVIÇOS",
-            "quantidade": 18,
-            "empenhado": 1659800,
-            "pago": 1319800
+            "quantidade": 14,
+            "empenhado": 1070000,
+            "pago": 870000
           },
           {
             "nome": "ASSISTÊNCIA SOCIAL",
-            "quantidade": 9,
-            "empenhado": 322000,
-            "pago": 272000
+            "quantidade": 8,
+            "empenhado": 242000,
+            "pago": 242000
           },
           {
             "nome": "AGRICULTURA",
             "quantidade": 4,
             "empenhado": 201022,
             "pago": 189198
-          },
-          {
-            "nome": "SAÚDE",
-            "quantidade": 1,
-            "empenhado": 99598,
-            "pago": 99598
           },
           {
             "nome": "CULTURA",
@@ -11477,21 +11453,15 @@
           },
           {
             "nome": "DIREITOS DA CIDADANIA",
-            "quantidade": 2,
-            "empenhado": 60000,
-            "pago": 60000
+            "quantidade": 1,
+            "empenhado": 30000,
+            "pago": 30000
           },
           {
             "nome": "GESTÃO AMBIENTAL",
-            "quantidade": 2,
-            "empenhado": 60000,
-            "pago": 60000
-          },
-          {
-            "nome": "Não informada",
-            "quantidade": 27,
-            "empenhado": 0,
-            "pago": 0
+            "quantidade": 1,
+            "empenhado": 30000,
+            "pago": 30000
           }
         ],
         "porLocalidade": [
@@ -11661,7 +11631,7 @@
             "ano": 2025,
             "tipo": "Individual com finalidade definida não impositiva",
             "localidade": "Vitória",
-            "funcao": "DESPORTO E LAZER",
+            "funcao": null,
             "objeto": "APOIO FINANCEIRO PARA REALIZAÇÃO, FORMAÇÃO E PROMOÇÃO DE EVENTOS SOCIAIS E ESPORTIVOS NO MUNICíPIO DE SERRA FEDERACAO ESPIRITO SANTENSE DE FUTEBOL DE SALAO (28.539.849/0001-57)",
             "previsto": 390200,
             "empenhado": 390200,
@@ -11683,7 +11653,7 @@
             "ano": 2025,
             "tipo": "Individual com finalidade definida não impositiva",
             "localidade": "Vitória",
-            "funcao": "COMÉRCIO E SERVIÇOS",
+            "funcao": null,
             "objeto": "APOIO A COMERCIALIZAÇÃO DE EMPREENDEDORES EM TODO O TERRITóRIO DO ES",
             "previsto": 250000,
             "empenhado": 250000,
@@ -11727,7 +11697,7 @@
             "ano": 2025,
             "tipo": "Individual com finalidade definida não impositiva",
             "localidade": "Não informada",
-            "funcao": "DESPORTO E LAZER",
+            "funcao": null,
             "objeto": "APOIO FINANCEIRO PARA EXECUÇÃO DE PROJETOS SOCIAIS E ESPORTIVOS NO MUNICÍPIO DA SERRA CENTRAL DAS COMUNIDADES DO ESTADO DO ESPIRITO SANTO CDC (08.744.786/0001-63)",
             "previsto": 200000,
             "empenhado": 200000,
@@ -11738,7 +11708,7 @@
             "ano": 2025,
             "tipo": "Individual com finalidade definida não impositiva",
             "localidade": "Cariacica",
-            "funcao": "DESPORTO E LAZER",
+            "funcao": null,
             "objeto": "APOIO FINANCEIRO PARA EXECUÇÃO DE PROJETOS SOCIAIS NOS MUNICÍPIOS DE SERRA E VILA VELHA  AGENCIA ADVENTISTA DE DESENVOLVIMENTO E RECURSOS ASSISTENCIAIS SUDESTE BRASILEIRA  ADRA (16.524.054/0007-81)",
             "previsto": 200000,
             "empenhado": 200000,
@@ -11781,9 +11751,9 @@
         "valoresPublicados": true,
         "totais": {
           "previsto": 7200000,
-          "empenhado": 5263341.1899999995,
-          "liquidado": 4724672.85,
-          "pago": 4724672.85,
+          "empenhado": 5463341.1899999995,
+          "liquidado": 4924672.85,
+          "pago": 4924672.85,
           "restosAPagar": 121882.01000000001
         },
         "porAno": [
@@ -11802,40 +11772,46 @@
           {
             "ano": 2026,
             "quantidade": 22,
-            "empenhado": 2036783.1300000001,
-            "pago": 1619996.8
+            "empenhado": 2236783.13,
+            "pago": 1819996.8
           }
         ],
         "porFuncao": [
           {
-            "nome": "DESPORTO E LAZER",
-            "quantidade": 14,
-            "empenhado": 1954459.1800000002,
-            "pago": 1557672.85
-          },
-          {
-            "nome": "COMÉRCIO E SERVIÇOS",
-            "quantidade": 4,
-            "empenhado": 1170000,
-            "pago": 1170000
+            "nome": "Não informada",
+            "quantidade": 41,
+            "empenhado": 1952676.05,
+            "pago": 1952676.05
           },
           {
             "nome": "CIÊNCIA E TECNOLOGIA",
             "quantidade": 1,
-            "empenhado": 1000000,
-            "pago": 1000000
+            "empenhado": 1200000,
+            "pago": 1200000
+          },
+          {
+            "nome": "DESPORTO E LAZER",
+            "quantidade": 10,
+            "empenhado": 981783.13,
+            "pago": 584996.8
+          },
+          {
+            "nome": "COMÉRCIO E SERVIÇOS",
+            "quantidade": 3,
+            "empenhado": 420000,
+            "pago": 420000
           },
           {
             "nome": "SAÚDE",
-            "quantidade": 5,
-            "empenhado": 500000,
-            "pago": 500000
+            "quantidade": 4,
+            "empenhado": 400000,
+            "pago": 400000
           },
           {
             "nome": "ASSISTÊNCIA SOCIAL",
-            "quantidade": 12,
-            "empenhado": 425000,
-            "pago": 405000
+            "quantidade": 7,
+            "empenhado": 295000,
+            "pago": 275000
           },
           {
             "nome": "AGRICULTURA",
@@ -11860,20 +11836,14 @@
             "quantidade": 1,
             "empenhado": 12000,
             "pago": 12000
-          },
-          {
-            "nome": "Não informada",
-            "quantidade": 30,
-            "empenhado": 0,
-            "pago": 0
           }
         ],
         "porLocalidade": [
           {
             "nome": "Vitória",
             "quantidade": 16,
-            "empenhado": 2860000,
-            "pago": 2760000
+            "empenhado": 3060000,
+            "pago": 2960000
           },
           {
             "nome": "Guarapari",
@@ -11964,8 +11934,8 @@
           {
             "nome": "Individual com finalidade definida não impositiva",
             "quantidade": 69,
-            "empenhado": 5263341.1899999995,
-            "pago": 4724672.85
+            "empenhado": 5463341.1899999995,
+            "pago": 4924672.85
           }
         ],
         "criterioDaLista": "as 10 de maior valor empenhado",
@@ -11978,15 +11948,15 @@
             "funcao": "CIÊNCIA E TECNOLOGIA",
             "objeto": "PROMOçãO DO ACESSO à CIêNCIA, TECNOLOGIA E INOVAçãO - AQUISIçãO DE ESPAçO EM AçOS DE DIFUSãO DO CONHECIMENTO CIENTíFICO, TECNOLóGICO, INOVAçãO E DESENVOLVIMENTO DA EDUCAçãO PROFISSIONALIZANTE. -",
             "previsto": 200000,
-            "empenhado": 1000000,
-            "pago": 1000000
+            "empenhado": 1200000,
+            "pago": 1200000
           },
           {
             "numero": "2025 / E0990",
             "ano": 2025,
             "tipo": "Individual com finalidade definida não impositiva",
             "localidade": "Vitória",
-            "funcao": "DESPORTO E LAZER",
+            "funcao": null,
             "objeto": "PARA INVESTIMENTO NA ÁREA DE ESPORTE COMO PROMOÇÃO DE EVENTOS ESPORTIVOS E DE LAZER, AULAS, TREINAMENTOS E DEMAIS ATOS RELACIONADOS  INSTITUTO CAPIXABA UNIBRASIL (09.372.695/0001-07)",
             "previsto": 750000,
             "empenhado": 750000,
@@ -11997,7 +11967,7 @@
             "ano": 2025,
             "tipo": "Individual com finalidade definida não impositiva",
             "localidade": "Vitória",
-            "funcao": "COMÉRCIO E SERVIÇOS",
+            "funcao": null,
             "objeto": "COM O OBJETIVO DE PROMOVER, INVESTIR E INCENTIVAR NA PRODUÇÃO DE EVENTOS E CONGÊNERES, ASSOCIACAO CULTURAL CHEGOU O QUE FALTAVA (30.212.963/0001-10)",
             "previsto": 750000,
             "empenhado": 750000,

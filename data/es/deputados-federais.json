@@ -6,7 +6,7 @@
   },
   "uf": "ES",
   "legislatura": 57,
-  "coletadoEm": "2026-09-03T13:38:47.669Z",
+  "coletadoEm": "2026-09-04T13:34:49.183Z",
   "referencia": {
     "bancada": 10,
     "medianaDespesas": 1783876.5800000024,
@@ -1333,14 +1333,14 @@
             "total": 11
           },
           {
-            "tipo": "Requerimento de Inclusão ou Retirada de Assinatura em Proposição de Iniciativa Individual",
-            "sigla": "REQ",
+            "tipo": "Emenda na Comissão",
+            "sigla": "EMC",
             "total": 8
           },
           {
-            "tipo": "Emenda na Comissão",
-            "sigla": "EMC",
-            "total": 7
+            "tipo": "Requerimento de Inclusão ou Retirada de Assinatura em Proposição de Iniciativa Individual",
+            "sigla": "REQ",
+            "total": 8
           },
           {
             "tipo": "Requerimento de Quebra de Interstício para Inclusão de Matéria na Ordem do Dia",
@@ -1485,6 +1485,16 @@
             "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2626585"
           },
           {
+            "id": 2645745,
+            "sigla": "EMC",
+            "tipo": "Emenda na Comissão",
+            "numero": 13,
+            "ano": 2026,
+            "ementa": "Dá nova redação à MPV 1357/2026",
+            "apresentadaEm": "2026-05-15T00:00",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2645745"
+          },
+          {
             "id": 2623604,
             "sigla": "PEC",
             "tipo": "Proposta de Emenda à Constituição",
@@ -1513,16 +1523,6 @@
             "ementa": "Requer, nos termos do § 3º do art. 58 da Constituição Federal e dos arts. 35, 36 e 37, do Regimento Interno da Câmara dos Deputados, a criação de Comissão Parlamentar de Inquérito, com a finalidade de investigar a prática de atos de crueldade contra animais e as circunstâncias que envolveram a morte do Cão Orelha, ocorrida em Florianópolis/SC, em 2026.",
             "apresentadaEm": "2026-04-16T14:52",
             "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2617166"
-          },
-          {
-            "id": 2610434,
-            "sigla": "RIC",
-            "tipo": "Requerimento de Informação",
-            "numero": 591,
-            "ano": 2026,
-            "ementa": "Requer informações ao Ministro de Estado da Fazenda sobre a aplicação do Imposto sobre Bens e Serviços (IBS) e da Contribuição sobre Bens e Serviços (CBS) ao regime de tributação simplificada (RTS) aplicável ao setor de remessas expressas.",
-            "apresentadaEm": "2026-03-18T17:32",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2610434"
           }
         ]
       }

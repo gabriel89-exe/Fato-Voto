@@ -9,7 +9,7 @@
     "idEleicao": "20322002026",
     "uf": "ES"
   },
-  "coletadoEm": "2026-09-03T13:37:20.767Z",
+  "coletadoEm": "2026-09-04T13:33:34.702Z",
   "total": 575,
   "candidaturas": [
     {
@@ -154,9 +154,9 @@
         "nome": "PARTIDO COMUNISTA BRASILEIRO"
       },
       "coligacao": "PCB",
-      "situacaoRegistro": "Aguardando julgamento",
-      "situacaoCandidatura": "Cadastrado",
-      "apto": false,
+      "situacaoRegistro": "Deferido",
+      "situacaoCandidatura": "Consta da urna",
+      "apto": true,
       "disputaReeleicao": false,
       "dataNascimento": "1950-04-08",
       "genero": "MASC.",
@@ -789,9 +789,9 @@
         "nome": "PARTIDO LIBERAL"
       },
       "coligacao": "PL",
-      "situacaoRegistro": "Aguardando julgamento",
-      "situacaoCandidatura": "Cadastrado",
-      "apto": false,
+      "situacaoRegistro": "Deferido",
+      "situacaoCandidatura": "Consta da urna",
+      "apto": true,
       "disputaReeleicao": false,
       "dataNascimento": "1981-04-30",
       "genero": "MASC.",
@@ -1054,7 +1054,7 @@
           "cargo": "Deputado Estadual",
           "partido": "PP",
           "uf": "RJ",
-          "resultado": "Concorrendo"
+          "resultado": "Eleito"
         }
       ],
       "primeiraCandidatura": false,
@@ -1077,9 +1077,9 @@
         "nome": "PARTIDO SOCIALISTA  DOS TRABALHADORES UNIFICADO"
       },
       "coligacao": "PSTU",
-      "situacaoRegistro": "Aguardando julgamento",
-      "situacaoCandidatura": "Cadastrado",
-      "apto": false,
+      "situacaoRegistro": "Deferido",
+      "situacaoCandidatura": "Consta da urna",
+      "apto": true,
       "disputaReeleicao": false,
       "dataNascimento": "1970-10-20",
       "genero": "MASC.",
@@ -1188,9 +1188,9 @@
         "nome": "PARTIDO DOS TRABALHADORES"
       },
       "coligacao": "BRASIL PRONTO PRA MAIS",
-      "situacaoRegistro": "Aguardando julgamento",
-      "situacaoCandidatura": "Cadastrado",
-      "apto": false,
+      "situacaoRegistro": "Deferido",
+      "situacaoCandidatura": "Consta da urna",
+      "apto": true,
       "disputaReeleicao": false,
       "dataNascimento": "1945-10-06",
       "genero": "MASC.",
@@ -2614,7 +2614,7 @@
           "cargo": "Deputado Federal",
           "partido": "PFL",
           "uf": "GO",
-          "resultado": "Concorrendo"
+          "resultado": "Eleito"
         }
       ],
       "primeiraCandidatura": false,
@@ -2739,9 +2739,9 @@
         "nome": "UNIDADE POPULAR"
       },
       "coligacao": "UP",
-      "situacaoRegistro": "Aguardando julgamento",
-      "situacaoCandidatura": "Cadastrado",
-      "apto": false,
+      "situacaoRegistro": "Deferido",
+      "situacaoCandidatura": "Consta da urna",
+      "apto": true,
       "disputaReeleicao": false,
       "dataNascimento": "1987-08-31",
       "genero": "FEM.",
@@ -2942,7 +2942,7 @@
           "cargo": "Deputado Estadual",
           "partido": "PFL",
           "uf": "SP",
-          "resultado": "Concorrendo"
+          "resultado": "Média"
         }
       ],
       "primeiraCandidatura": false,
@@ -2965,9 +2965,9 @@
         "nome": "PARTIDO NOVO"
       },
       "coligacao": "NOVO",
-      "situacaoRegistro": "Aguardando julgamento",
-      "situacaoCandidatura": "Cadastrado",
-      "apto": false,
+      "situacaoRegistro": "Deferido",
+      "situacaoCandidatura": "Consta da urna",
+      "apto": true,
       "disputaReeleicao": false,
       "dataNascimento": "1964-10-28",
       "genero": "MASC.",
@@ -5311,7 +5311,7 @@
           "cargo": "Senador",
           "partido": "PSB",
           "uf": "ES",
-          "resultado": "Concorrendo"
+          "resultado": "Eleito"
         }
       ],
       "primeiraCandidatura": false,
@@ -5715,7 +5715,7 @@
           "cargo": "Deputado Federal",
           "partido": "PMDB",
           "uf": "ES",
-          "resultado": "Concorrendo"
+          "resultado": "Renúncia/falecimento/cassação antes da eleição"
         }
       ],
       "primeiraCandidatura": false,
@@ -5897,7 +5897,7 @@
           "cargo": "Deputado Estadual",
           "partido": "PSDB",
           "uf": "ES",
-          "resultado": "Concorrendo"
+          "resultado": "Média"
         },
         {
           "ano": 2004,
@@ -7927,17 +7927,17 @@
       "eleicoesAnteriores": [
         {
           "ano": 2022,
-          "cargo": "Vice-governador",
-          "partido": "SOLIDARIEDADE",
-          "uf": "ES",
-          "resultado": "Não eleito"
-        },
-        {
-          "ano": 2022,
           "cargo": "Deputado Estadual",
           "partido": "REPUBLICANOS",
           "uf": "ES",
           "resultado": "Concorrendo"
+        },
+        {
+          "ano": 2022,
+          "cargo": "Vice-governador",
+          "partido": "SOLIDARIEDADE",
+          "uf": "ES",
+          "resultado": "Não eleito"
         }
       ],
       "primeiraCandidatura": false,
@@ -8583,7 +8583,7 @@
           "cargo": "Deputado Estadual",
           "partido": "PSB",
           "uf": "ES",
-          "resultado": "Concorrendo"
+          "resultado": "Média"
         },
         {
           "ano": 2004,
@@ -9013,9 +9013,9 @@
         "nome": "PROGRESSISTAS"
       },
       "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(UNIÃO/PP)",
-      "situacaoRegistro": "Aguardando julgamento",
-      "situacaoCandidatura": "Cadastrado",
-      "apto": false,
+      "situacaoRegistro": "Deferido",
+      "situacaoCandidatura": "Consta da urna",
+      "apto": true,
       "disputaReeleicao": false,
       "dataNascimento": "1971-06-02",
       "genero": "MASC.",
@@ -9316,7 +9316,7 @@
           "cargo": "Deputado Estadual",
           "partido": "PDT",
           "uf": "ES",
-          "resultado": "Concorrendo"
+          "resultado": "Eleito"
         }
       ],
       "primeiraCandidatura": false,
@@ -9731,9 +9731,9 @@
         "nome": "PARTIDO SOCIAL DEMOCRÁTICO"
       },
       "coligacao": "PSD",
-      "situacaoRegistro": "Aguardando julgamento",
-      "situacaoCandidatura": "Cadastrado",
-      "apto": false,
+      "situacaoRegistro": "Deferido",
+      "situacaoCandidatura": "Consta da urna",
+      "apto": true,
       "disputaReeleicao": false,
       "dataNascimento": "1954-12-11",
       "genero": "MASC.",
@@ -9846,7 +9846,7 @@
           "cargo": "Deputado Federal",
           "partido": "PFL",
           "uf": "ES",
-          "resultado": "Concorrendo"
+          "resultado": "Média"
         },
         {
           "ano": 2004,
@@ -9876,9 +9876,9 @@
         "nome": "UNIÃO BRASIL"
       },
       "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(UNIÃO/PP)",
-      "situacaoRegistro": "Aguardando julgamento",
-      "situacaoCandidatura": "Cadastrado",
-      "apto": false,
+      "situacaoRegistro": "Deferido",
+      "situacaoCandidatura": "Consta da urna",
+      "apto": true,
       "disputaReeleicao": false,
       "dataNascimento": "1986-12-07",
       "genero": "MASC.",
@@ -11104,9 +11104,9 @@
         "nome": "PROGRESSISTAS"
       },
       "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(UNIÃO/PP)",
-      "situacaoRegistro": "Aguardando julgamento",
-      "situacaoCandidatura": "Cadastrado",
-      "apto": false,
+      "situacaoRegistro": "Deferido",
+      "situacaoCandidatura": "Consta da urna",
+      "apto": true,
       "disputaReeleicao": false,
       "dataNascimento": "1972-09-18",
       "genero": "MASC.",
@@ -12277,7 +12277,7 @@
           "cargo": "Deputado Estadual",
           "partido": "PAN",
           "uf": "ES",
-          "resultado": "Concorrendo"
+          "resultado": "Renúncia/falecimento/cassação antes da eleição"
         }
       ],
       "primeiraCandidatura": false,
@@ -12430,7 +12430,7 @@
           "cargo": "Deputado Estadual",
           "partido": "PMN",
           "uf": "ES",
-          "resultado": "Concorrendo"
+          "resultado": "Média"
         },
         {
           "ano": 2004,
@@ -13650,7 +13650,7 @@
           "cargo": "Deputado Federal",
           "partido": "PT",
           "uf": "ES",
-          "resultado": "Concorrendo"
+          "resultado": "Eleito"
         }
       ],
       "primeiraCandidatura": false,
@@ -16361,7 +16361,7 @@
           "cargo": "Deputado Federal",
           "partido": "PDT",
           "uf": "ES",
-          "resultado": "Concorrendo"
+          "resultado": "Eleito"
         }
       ],
       "primeiraCandidatura": false,
@@ -16544,9 +16544,9 @@
         "nome": "UNIÃO BRASIL"
       },
       "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(UNIÃO/PP)",
-      "situacaoRegistro": "Aguardando julgamento",
-      "situacaoCandidatura": "Cadastrado",
-      "apto": false,
+      "situacaoRegistro": "Deferido",
+      "situacaoCandidatura": "Consta da urna",
+      "apto": true,
       "disputaReeleicao": false,
       "dataNascimento": "1970-07-20",
       "genero": "MASC.",
@@ -16778,7 +16778,7 @@
           "cargo": "Deputado Estadual",
           "partido": "PTB",
           "uf": "ES",
-          "resultado": "Concorrendo"
+          "resultado": "Eleito"
         }
       ],
       "primeiraCandidatura": false,
@@ -17524,7 +17524,7 @@
           "cargo": "Deputado Federal",
           "partido": "PL",
           "uf": "ES",
-          "resultado": "Concorrendo"
+          "resultado": "Eleito"
         }
       ],
       "primeiraCandidatura": false,
@@ -19741,9 +19741,9 @@
         "nome": "PARTIDO SOCIAL DEMOCRÁTICO"
       },
       "coligacao": "PSD",
-      "situacaoRegistro": "Aguardando julgamento",
-      "situacaoCandidatura": "Cadastrado",
-      "apto": false,
+      "situacaoRegistro": "Deferido",
+      "situacaoCandidatura": "Consta da urna",
+      "apto": true,
       "disputaReeleicao": false,
       "dataNascimento": "1978-07-22",
       "genero": "MASC.",
@@ -23032,7 +23032,7 @@
           "cargo": "Deputado Estadual",
           "partido": "PMN",
           "uf": "ES",
-          "resultado": "Concorrendo"
+          "resultado": "Média"
         },
         {
           "ano": 2004,
@@ -23260,9 +23260,9 @@
         "nome": "MOVIMENTO DEMOCRÁTICO BRASILEIRO"
       },
       "coligacao": "MDB",
-      "situacaoRegistro": "Aguardando julgamento",
-      "situacaoCandidatura": "Cadastrado",
-      "apto": false,
+      "situacaoRegistro": "Deferido",
+      "situacaoCandidatura": "Consta da urna",
+      "apto": true,
       "disputaReeleicao": false,
       "dataNascimento": "1981-09-11",
       "genero": "MASC.",
@@ -24320,7 +24320,7 @@
           "cargo": "Deputado Estadual",
           "partido": "PHS",
           "uf": "ES",
-          "resultado": "Concorrendo"
+          "resultado": "Média"
         },
         {
           "ano": 2004,
@@ -27104,9 +27104,9 @@
         "nome": "MOVIMENTO DEMOCRÁTICO BRASILEIRO"
       },
       "coligacao": "MDB",
-      "situacaoRegistro": "Aguardando julgamento",
-      "situacaoCandidatura": "Cadastrado",
-      "apto": false,
+      "situacaoRegistro": "Deferido",
+      "situacaoCandidatura": "Consta da urna",
+      "apto": true,
       "disputaReeleicao": false,
       "dataNascimento": "1977-08-01",
       "genero": "MASC.",
@@ -28332,9 +28332,9 @@
         "nome": "MOVIMENTO DEMOCRÁTICO BRASILEIRO"
       },
       "coligacao": "MDB",
-      "situacaoRegistro": "Aguardando julgamento",
-      "situacaoCandidatura": "Cadastrado",
-      "apto": false,
+      "situacaoRegistro": "Deferido",
+      "situacaoCandidatura": "Consta da urna",
+      "apto": true,
       "disputaReeleicao": false,
       "dataNascimento": "1987-12-12",
       "genero": "MASC.",
@@ -28886,7 +28886,7 @@
           "cargo": "Deputado Federal",
           "partido": "PSB",
           "uf": "ES",
-          "resultado": "Concorrendo"
+          "resultado": "Média"
         }
       ],
       "primeiraCandidatura": false,
@@ -29237,7 +29237,7 @@
           "cargo": "Deputado Federal",
           "partido": "PDT",
           "uf": "ES",
-          "resultado": "Concorrendo"
+          "resultado": "Média"
         },
         {
           "ano": 2004,
@@ -30836,7 +30836,7 @@
           "cargo": "Deputado Estadual",
           "partido": "PRP",
           "uf": "ES",
-          "resultado": "Concorrendo"
+          "resultado": "Média"
         }
       ],
       "primeiraCandidatura": false,
@@ -32443,7 +32443,7 @@
           "cargo": "Deputado Estadual",
           "partido": "PRP",
           "uf": "ES",
-          "resultado": "Concorrendo"
+          "resultado": "Média"
         },
         {
           "ano": 2004,
@@ -32701,9 +32701,9 @@
         "nome": "PROGRESSISTAS"
       },
       "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(UNIÃO/PP)",
-      "situacaoRegistro": "Aguardando julgamento",
-      "situacaoCandidatura": "Cadastrado",
-      "apto": false,
+      "situacaoRegistro": "Deferido",
+      "situacaoCandidatura": "Consta da urna",
+      "apto": true,
       "disputaReeleicao": false,
       "dataNascimento": "1954-04-30",
       "genero": "MASC.",
@@ -35043,9 +35043,9 @@
         "nome": "PROGRESSISTAS"
       },
       "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(UNIÃO/PP)",
-      "situacaoRegistro": "Aguardando julgamento",
-      "situacaoCandidatura": "Cadastrado",
-      "apto": false,
+      "situacaoRegistro": "Deferido",
+      "situacaoCandidatura": "Consta da urna",
+      "apto": true,
       "disputaReeleicao": false,
       "dataNascimento": "1939-05-31",
       "genero": "MASC.",
@@ -35208,7 +35208,7 @@
           "cargo": "Deputado Estadual",
           "partido": "PTB",
           "uf": "ES",
-          "resultado": "Concorrendo"
+          "resultado": "Eleito"
         },
         {
           "ano": 2004,
@@ -35723,7 +35723,7 @@
           "cargo": "Deputado Estadual",
           "partido": "PAN",
           "uf": "ES",
-          "resultado": "Concorrendo"
+          "resultado": "Eleito"
         },
         {
           "ano": 2004,
@@ -37157,7 +37157,7 @@
           "cargo": "Deputado Federal",
           "partido": "PSOL",
           "uf": "ES",
-          "resultado": "Concorrendo"
+          "resultado": "Não eleito"
         }
       ],
       "primeiraCandidatura": false,
@@ -38354,7 +38354,7 @@
           "cargo": "Deputado Estadual",
           "partido": "PAN",
           "uf": "ES",
-          "resultado": "Concorrendo"
+          "resultado": "Média"
         }
       ],
       "primeiraCandidatura": false,
@@ -41603,7 +41603,7 @@
           "cargo": "Deputado Estadual",
           "partido": "PSOL",
           "uf": "ES",
-          "resultado": "Concorrendo"
+          "resultado": "Não eleito"
         }
       ],
       "primeiraCandidatura": false,
@@ -42041,7 +42041,7 @@
           "cargo": "Deputado Estadual",
           "partido": "PFL",
           "uf": "ES",
-          "resultado": "Concorrendo"
+          "resultado": "Média"
         }
       ],
       "primeiraCandidatura": false,
@@ -42168,9 +42168,9 @@
         "nome": "DEMOCRATA"
       },
       "coligacao": "DEMOCRATA",
-      "situacaoRegistro": "Aguardando julgamento",
-      "situacaoCandidatura": "Cadastrado",
-      "apto": false,
+      "situacaoRegistro": "Deferido",
+      "situacaoCandidatura": "Consta da urna",
+      "apto": true,
       "disputaReeleicao": false,
       "dataNascimento": "1972-02-25",
       "genero": "FEM.",
@@ -44872,7 +44872,7 @@
           "cargo": "Deputado Estadual",
           "partido": "PSB",
           "uf": "ES",
-          "resultado": "Concorrendo"
+          "resultado": "Eleito"
         }
       ],
       "primeiraCandidatura": false,
@@ -45786,7 +45786,7 @@
           "cargo": "Deputado Estadual",
           "partido": "PDT",
           "uf": "ES",
-          "resultado": "Concorrendo"
+          "resultado": "Média"
         },
         {
           "ano": 2004,
@@ -46634,7 +46634,7 @@
           "cargo": "Deputado Estadual",
           "partido": "PDT",
           "uf": "ES",
-          "resultado": "Concorrendo"
+          "resultado": "Média"
         }
       ],
       "primeiraCandidatura": false,
@@ -49908,7 +49908,7 @@
           "cargo": "Deputado Federal",
           "partido": "PSDB",
           "uf": "ES",
-          "resultado": "Concorrendo"
+          "resultado": "Eleito"
         }
       ],
       "primeiraCandidatura": false,
@@ -54568,7 +54568,7 @@
           "cargo": "Deputado Federal",
           "partido": "PP",
           "uf": "ES",
-          "resultado": "Concorrendo"
+          "resultado": "Média"
         },
         {
           "ano": 2004,
@@ -56902,7 +56902,7 @@
           "cargo": "Deputado Estadual",
           "partido": "PSB",
           "uf": "ES",
-          "resultado": "Concorrendo"
+          "resultado": "Eleito"
         }
       ],
       "primeiraCandidatura": false,
@@ -58841,7 +58841,7 @@
           "cargo": "Deputado Estadual",
           "partido": "PT",
           "uf": "ES",
-          "resultado": "Concorrendo"
+          "resultado": "Média"
         },
         {
           "ano": 2004,
@@ -60156,9 +60156,9 @@
         "nome": "UNIÃO BRASIL"
       },
       "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(UNIÃO/PP)",
-      "situacaoRegistro": "Aguardando julgamento",
-      "situacaoCandidatura": "Cadastrado",
-      "apto": false,
+      "situacaoRegistro": "Deferido",
+      "situacaoCandidatura": "Consta da urna",
+      "apto": true,
       "disputaReeleicao": false,
       "dataNascimento": "1976-05-08",
       "genero": "FEM.",
@@ -60837,7 +60837,7 @@
           "cargo": "Deputado Estadual",
           "partido": "PDT",
           "uf": "ES",
-          "resultado": "Concorrendo"
+          "resultado": "Média"
         }
       ],
       "primeiraCandidatura": false,
@@ -61874,9 +61874,9 @@
         "nome": "DEMOCRATA"
       },
       "coligacao": "DEMOCRATA",
-      "situacaoRegistro": "Deferido",
-      "situacaoCandidatura": "Consta da urna",
-      "apto": true,
+      "situacaoRegistro": "Aguardando julgamento",
+      "situacaoCandidatura": "Cadastrado",
+      "apto": false,
       "disputaReeleicao": false,
       "dataNascimento": "1957-09-17",
       "genero": "FEM.",
@@ -62057,7 +62057,7 @@
           "cargo": "Deputado Estadual",
           "partido": "PAN",
           "uf": "ES",
-          "resultado": "Concorrendo"
+          "resultado": "Média"
         },
         {
           "ano": 2004,
@@ -62397,7 +62397,7 @@
           "cargo": "Deputado Estadual",
           "partido": "PL",
           "uf": "ES",
-          "resultado": "Concorrendo"
+          "resultado": "Média"
         },
         {
           "ano": 2004,
@@ -62585,7 +62585,7 @@
           "cargo": "Deputado Estadual",
           "partido": "PTC",
           "uf": "ES",
-          "resultado": "Concorrendo"
+          "resultado": "Média"
         },
         {
           "ano": 2004,
@@ -63715,7 +63715,7 @@
           "cargo": "Deputado Estadual",
           "partido": "PMDB",
           "uf": "ES",
-          "resultado": "Concorrendo"
+          "resultado": "Renúncia/falecimento/cassação antes da eleição"
         }
       ],
       "primeiraCandidatura": false,
@@ -63915,9 +63915,9 @@
         "nome": "PARTIDO SOCIALISMO E LIBERDADE"
       },
       "coligacao": "FEDERAÇÃO PSOL REDE(PSOL/REDE)",
-      "situacaoRegistro": "Aguardando julgamento",
-      "situacaoCandidatura": "Cadastrado",
-      "apto": false,
+      "situacaoRegistro": "Deferido",
+      "situacaoCandidatura": "Consta da urna",
+      "apto": true,
       "disputaReeleicao": false,
       "dataNascimento": "1982-05-13",
       "genero": "FEM.",
@@ -64086,7 +64086,7 @@
           "cargo": "Deputado Estadual",
           "partido": "PDT",
           "uf": "ES",
-          "resultado": "Concorrendo"
+          "resultado": "Média"
         }
       ],
       "primeiraCandidatura": false,
@@ -66064,7 +66064,7 @@
           "cargo": "Deputado Estadual",
           "partido": "PSB",
           "uf": "ES",
-          "resultado": "Concorrendo"
+          "resultado": "Média"
         }
       ],
       "primeiraCandidatura": false,
@@ -67436,7 +67436,7 @@
           "cargo": "Deputado Estadual",
           "partido": "PL",
           "uf": "ES",
-          "resultado": "Concorrendo"
+          "resultado": "Eleito"
         },
         {
           "ano": 2004,
@@ -67590,9 +67590,9 @@
         "nome": "PARTIDO MISSÃO"
       },
       "coligacao": "MISSÃO",
-      "situacaoRegistro": "Aguardando julgamento",
-      "situacaoCandidatura": "Cadastrado",
-      "apto": false,
+      "situacaoRegistro": "Deferido",
+      "situacaoCandidatura": "Consta da urna",
+      "apto": true,
       "disputaReeleicao": false,
       "dataNascimento": "1986-11-28",
       "genero": "MASC.",
@@ -68637,7 +68637,7 @@
           "cargo": "Deputado Estadual",
           "partido": "PFL",
           "uf": "ES",
-          "resultado": "Concorrendo"
+          "resultado": "Média"
         }
       ],
       "primeiraCandidatura": false,

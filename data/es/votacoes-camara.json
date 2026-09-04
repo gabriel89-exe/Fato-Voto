@@ -6,15 +6,99 @@
   },
   "uf": "ES",
   "legislatura": 57,
-  "coletadoEm": "2026-09-03T13:43:26.027Z",
+  "coletadoEm": "2026-09-04T13:36:56.805Z",
   "criterio": {
     "orgao": "Plenário",
     "tipo": "Votações nominais",
     "quantidade": 20,
     "ordem": "As mais recentes primeiro",
-    "sondagens": 376
+    "sondagens": 351
   },
   "votacoes": [
+    {
+      "id": "2611313-31",
+      "data": "2026-09-03",
+      "registradaEm": "2026-09-03T17:28:34",
+      "descricao": "Aprovada a Subemenda Substitutiva ao Projeto de Lei Complementar nº 74, de 2026, adotada pelo relator da Comissão de Finanças e Tributação. Sim: 346; Não: 46; Abstenção: 3; Total: 395.",
+      "aprovada": true,
+      "proposicao": {
+        "id": 2611313,
+        "sigla": "PLP",
+        "numero": 74,
+        "ano": 2026,
+        "ementa": "Dispõe sobre regras relativas a benefícios tributários e despesas obrigatórias no exercício de 2026.",
+        "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2611313"
+      },
+      "placar": [
+        {
+          "voto": "Sim",
+          "total": 346
+        },
+        {
+          "voto": "Não",
+          "total": 46
+        },
+        {
+          "voto": "Abstenção",
+          "total": 3
+        },
+        {
+          "voto": "Artigo 17",
+          "total": 1
+        }
+      ],
+      "votantes": 396,
+      "votosDoEstado": [
+        {
+          "idExterno": 204356,
+          "nome": "Amaro Neto",
+          "partido": "PP",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 220528,
+          "nome": "Dr. Victor Linhalis",
+          "partido": "PSB",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 220529,
+          "nome": "Gilson Daniel",
+          "partido": "PODE",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 220526,
+          "nome": "Gilvan da Federal",
+          "partido": "PL",
+          "voto": "Não"
+        },
+        {
+          "idExterno": 178873,
+          "nome": "Helder Salomão",
+          "partido": "PT",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 220527,
+          "nome": "Jack Rocha",
+          "partido": "PT",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 220530,
+          "nome": "Messias Donato",
+          "partido": "UNIÃO",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 160517,
+          "nome": "Paulo Folletto",
+          "partido": "PSB",
+          "voto": "Sim"
+        }
+      ]
+    },
     {
       "id": "2645346-18",
       "data": "2026-09-02",
@@ -1634,102 +1718,6 @@
           "nome": "Paulo Folletto",
           "partido": "PSB",
           "voto": "Sim"
-        }
-      ]
-    },
-    {
-      "id": "2351506-122",
-      "data": "2026-05-28",
-      "registradaEm": "2026-05-28T17:21:17",
-      "descricao": "Aprovada, em segundo turno, a Proposta de Emenda à Constituição n° 5, de 2023. Sim: 368; Não: 96; Abstenção: 7; Total: 471.",
-      "aprovada": true,
-      "proposicao": {
-        "id": 2351506,
-        "sigla": "PEC",
-        "numero": 5,
-        "ano": 2023,
-        "ementa": "Acrescenta § 4º-A ao art. 150 da Constituição Federal, para dispor sobre a imunidade tributária de que tratam as suas alíneas “b” e “c” do inciso VI.",
-        "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2351506"
-      },
-      "placar": [
-        {
-          "voto": "Sim",
-          "total": 368
-        },
-        {
-          "voto": "Não",
-          "total": 96
-        },
-        {
-          "voto": "Abstenção",
-          "total": 7
-        },
-        {
-          "voto": "Artigo 17",
-          "total": 1
-        }
-      ],
-      "votantes": 472,
-      "votosDoEstado": [
-        {
-          "idExterno": 204356,
-          "nome": "Amaro Neto",
-          "partido": "PP",
-          "voto": "Sim"
-        },
-        {
-          "idExterno": 204355,
-          "nome": "Da Vitoria",
-          "partido": "PP",
-          "voto": "Sim"
-        },
-        {
-          "idExterno": 220528,
-          "nome": "Dr. Victor Linhalis",
-          "partido": "PSB",
-          "voto": "Sim"
-        },
-        {
-          "idExterno": 178871,
-          "nome": "Evair Vieira de Melo",
-          "partido": "REPUBLICANOS",
-          "voto": "Sim"
-        },
-        {
-          "idExterno": 220529,
-          "nome": "Gilson Daniel",
-          "partido": "PODE",
-          "voto": "Sim"
-        },
-        {
-          "idExterno": 220526,
-          "nome": "Gilvan da Federal",
-          "partido": "PL",
-          "voto": "Sim"
-        },
-        {
-          "idExterno": 178873,
-          "nome": "Helder Salomão",
-          "partido": "PT",
-          "voto": "Não"
-        },
-        {
-          "idExterno": 220527,
-          "nome": "Jack Rocha",
-          "partido": "PT",
-          "voto": "Não"
-        },
-        {
-          "idExterno": 220530,
-          "nome": "Messias Donato",
-          "partido": "UNIÃO",
-          "voto": "Sim"
-        },
-        {
-          "idExterno": 160517,
-          "nome": "Paulo Folletto",
-          "partido": "PSB",
-          "voto": "Abstenção"
         }
       ]
     }

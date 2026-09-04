@@ -11,39 +11,39 @@
     2025,
     2026
   ],
-  "coletadoEm": "2026-09-03T13:53:52.105Z",
+  "coletadoEm": "2026-09-04T13:45:31.526Z",
   "recorte": "Emendas cujo autor é o próprio parlamentar, nos anos da legislatura 57. Emendas de bancada estadual e de comissão não têm autor individual e não entram aqui.",
   "conferencia": {
     "aprovada": false,
-    "conferidoEm": "2026-09-03T13:53:52.086Z",
+    "conferidoEm": "2026-09-04T13:45:31.513Z",
     "provas": [
       "o valor vem da consulta por código da emenda, não da consulta por nome",
       "cada emenda é lida duas vezes, e as duas leituras têm de concordar",
       "valor pago não passa do valor empenhado"
     ],
     "problemas": [
-      "202539120001: duas leituras seguidas devolveram valores diferentes para a mesma emenda",
-      "202543620003: duas leituras seguidas devolveram valores diferentes para a mesma emenda",
+      "202339480002: duas leituras seguidas devolveram valores diferentes para a mesma emenda",
+      "202339480007: duas leituras seguidas devolveram valores diferentes para a mesma emenda",
+      "202439480002: duas leituras seguidas devolveram valores diferentes para a mesma emenda",
+      "202539480010: duas leituras seguidas devolveram valores diferentes para a mesma emenda",
+      "202339480004: duas leituras seguidas devolveram valores diferentes para a mesma emenda",
+      "202539480005: duas leituras seguidas devolveram valores diferentes para a mesma emenda",
+      "202539480009: duas leituras seguidas devolveram valores diferentes para a mesma emenda",
+      "202639480001: duas leituras seguidas devolveram valores diferentes para a mesma emenda",
+      "202439480003: duas leituras seguidas devolveram valores diferentes para a mesma emenda",
       "202643620004: duas leituras seguidas devolveram valores diferentes para a mesma emenda",
       "202443620007: duas leituras seguidas devolveram valores diferentes para a mesma emenda",
-      "202443620010: duas leituras seguidas devolveram valores diferentes para a mesma emenda",
+      "202543620008: duas leituras seguidas devolveram valores diferentes para a mesma emenda",
       "202443620009: duas leituras seguidas devolveram valores diferentes para a mesma emenda",
       "202443620006: duas leituras seguidas devolveram valores diferentes para a mesma emenda",
-      "202543620006: duas leituras seguidas devolveram valores diferentes para a mesma emenda",
       "202643620001: pago (11.982.191,46) maior que empenhado (1.393,00) — impossível",
-      "202330930008: duas leituras seguidas devolveram valores diferentes para a mesma emenda",
       "202430930008: duas leituras seguidas devolveram valores diferentes para a mesma emenda",
       "202630930003: duas leituras seguidas devolveram valores diferentes para a mesma emenda",
+      "202330930007: duas leituras seguidas devolveram valores diferentes para a mesma emenda",
       "202530930006: duas leituras seguidas devolveram valores diferentes para a mesma emenda",
-      "202430930007: duas leituras seguidas devolveram valores diferentes para a mesma emenda",
-      "202630930006: duas leituras seguidas devolveram valores diferentes para a mesma emenda",
-      "202530930002: duas leituras seguidas devolveram valores diferentes para a mesma emenda",
-      "202643830010: duas leituras seguidas devolveram valores diferentes para a mesma emenda",
-      "202443830009: duas leituras seguidas devolveram valores diferentes para a mesma emenda",
-      "202643830006: duas leituras seguidas devolveram valores diferentes para a mesma emenda",
-      "202443830007: duas leituras seguidas devolveram valores diferentes para a mesma emenda"
+      "202430930003: duas leituras seguidas devolveram valores diferentes para a mesma emenda"
     ],
-    "totalDeProblemas": 118
+    "totalDeProblemas": 102
   },
   "referencias": {},
   "parlamentares": [
