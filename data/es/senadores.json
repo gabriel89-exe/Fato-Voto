@@ -11,7 +11,7 @@
     2025,
     2026
   ],
-  "coletadoEm": "2026-09-04T13:34:56.150Z",
+  "coletadoEm": "2026-09-06T12:55:23.249Z",
   "senadores": [
     {
       "id": "senado-5953",
@@ -3411,6 +3411,16 @@
       },
       "materias": [
         {
+          "id": "175743",
+          "identificacao": "PET 20/2026",
+          "sigla": "PET",
+          "numero": "20",
+          "ano": 2026,
+          "ementa": "Oferece representação contra o Ministro do Supremo Tribunal Federal Alexandre de Moraes, com fundamento no art. 52, inciso II da Constituição Federal e no art. 39 da Lei nº 1.079/1950.",
+          "data": "2026-09-04",
+          "autorPrincipal": false
+        },
+        {
           "id": "175716",
           "identificacao": "PEC 17/2026",
           "sigla": "PEC",
@@ -5286,7 +5296,7 @@
           "sigla": "REQ",
           "numero": "1",
           "ano": 2025,
-          "ementa": "Requer, nos termos dos arts. 50, caput, e 58, § 2º, III, da Constituição Federal e dos arts. 90, III, 397, § 1º e 400-A do Regimento Interno do Senado Federal, a convocação do Exmo. Sr. Embaixador Mauro Vieira, Ministro das Relações Exteriores.",
+          "ementa": "Requer, nos termos dos arts. 50, caput, e 58, § 2º, III, da Constituição Federal e dos arts. 90, III, 397, § 1º e 400-A do Regimento Interno do Senado Federal, a convocação do Exmo. Sr. Embaixador Mauro Vieira, Ministro das Relações Exteriores, a fim de prestar esclarecimentos\nsobre as declarações feitas pela diplomata Cláudia Assaf.",
           "data": "2025-01-08",
           "autorPrincipal": true
         },
@@ -7942,7 +7952,7 @@
         },
         {
           "sigla": "PET",
-          "total": 5
+          "total": 6
         },
         {
           "sigla": "PLP",
@@ -8138,7 +8148,7 @@
           "sigla": "REQ",
           "numero": "4",
           "ano": 2026,
-          "ementa": "Requer a realização de audiência pública, com o objetivo de, junto com especialistas em Defesa Nacional, Geopolítica e Tecnologia Espacial, avaliar os impactos da suposta existência de instalações chinesas no Brasil, nas quais sejam conduzidas atividades de cooperação e de desenvolvimento científico e tecnológico de tecnologias de uso militar ou dual com instituições brasileiras, públicas e privadas.",
+          "ementa": "Requer, nos termos do art. 58, § 2º, II, da Constituição Federal e do art. 93, II, do Regimento Interno do Senado Federal, a realização de audiência pública, com o objetivo de, junto a especialistas em Defesa Nacional, Geopolítica e Tecnologia Espacial, avaliar os impactos da suposta existência de instalações chinesas no Brasil voltadas a atividades de cooperação e desenvolvimento científico e tecnológico de uso militar ou dual com instituições brasileiras, públicas e privadas.",
           "data": "2026-03-10",
           "autorPrincipal": true
         },
@@ -8148,7 +8158,7 @@
           "sigla": "REQ",
           "numero": "5",
           "ano": 2026,
-          "ementa": "Requer que sejam prestadas, pelo Senhor Ministro de Estado da Casa Civil da Presidência da República, Rui Costa, informações, produzidas ou custodiadas pela Agência Brasileira de Inteligência (Abin), subordinada à Pasta, sobre suposta existência de instalações chinesas no Brasil, nas quais se realizem atividades com fins militares ou de emprego e desenvolvimento de tecnologia de uso dual, em especial no contexto de projetos de cooperação e parcerias com instituições brasileiras.",
+          "ementa": "Requer que sejam prestadas, pelo Ministro de Estado da Casa Civil da Presidência da República, Rui Costa, nos termos do art. 90, VII, do Regimento Interno do Senado Federal, informações produzidas ou custodiadas pela Agência Brasileira de Inteligência (Abin), subordinada à Pasta, sobre suposta existência de instalações chinesas no Brasil nas quais se realizem atividades com fins militares ou de emprego e desenvolvimento de tecnologia de uso dual.",
           "data": "2026-03-10",
           "autorPrincipal": true
         },
@@ -8158,7 +8168,7 @@
           "sigla": "REQ",
           "numero": "6",
           "ano": 2026,
-          "ementa": "Requer que sejam prestadas, pela Senhora Ministra da Ciência, Tecnologia e Inovação, Luciana Santos, informações sobre suposta existência de instalações chinesas no Brasil para fins militares ou de uso dual, que desenvolveriam cooperação com instituições brasileiras na área de ciência e tecnologia.",
+          "ementa": "Requer que sejam prestadas, pela Ministra da Ciência, Tecnologia e Inovação, Luciana Santos, nos termos do art. 90, VII, do Regimento Interno do Senado Federal, informações sobre suposta existência de instalações chinesas no Brasil para fins militares ou de uso dual, desenvolvidas em cooperação com instituições brasileiras na área de ciência e tecnologia.",
           "data": "2026-03-10",
           "autorPrincipal": true
         },
@@ -8548,7 +8558,7 @@
           "sigla": "REQ",
           "numero": "13",
           "ano": 2025,
-          "ementa": "Requer que a Comissão de Relações Exteriores avalie a criação de Grupo de trabalho para elaboração de um plano nacional de cibersegurança.",
+          "ementa": "Requer, nos termos do art. 96-B do Regimento Interno do Senado Federal,  que a Comissão de Relações Exteriores avalie a criação de Grupo de trabalho para elaboração de um plano nacional de cibersegurança.",
           "data": "2025-06-24",
           "autorPrincipal": true
         },
@@ -11064,6 +11074,38 @@
   ],
   "votacoes": [
     {
+      "id": "7105-2",
+      "data": "2026-09-03",
+      "materia": "PLP 74/2026",
+      "ementa": "Altera a Lei Complementar nº 229, de 30 de março de 2026, para incluir o regime especial de tributação para serviços de datacenter, o programa federal de financiamento de ações de apoio às pessoas com câncer e às pessoas com deficiência, bem como a desoneração do Imposto sobre a Renda das Pessoas Jurídicas (IRPJ) e da Contribuição Social sobre o Lucro Líquido (CSLL) das sociedades resseguradoras locais entre as exceções às regras aplicáveis à concessão de benefícios tributários e altera a Lei Complementar nº 101, de 4 de maio de 2000 (Lei de Responsabilidade Fiscal).",
+      "descricao": "Votação nominal do Projeto de Lei Complementar nº 74, de 2026, nos termos do parecer.",
+      "resultado": "Aprovado",
+      "secreta": false,
+      "votosDoEstado": [
+        {
+          "idExterno": 5953,
+          "nome": "Fabiano Contarato",
+          "partido": "PT",
+          "registro": "Sim",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 631,
+          "nome": "Magno Malta",
+          "partido": "PL",
+          "registro": "Sim",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 5942,
+          "nome": "Marcos do Val",
+          "partido": "AVANTE",
+          "registro": "AP",
+          "voto": "AP"
+        }
+      ]
+    },
+    {
       "id": "7104-1",
       "data": "2026-09-01",
       "materia": "PDL 995/2026",
@@ -11092,38 +11134,6 @@
           "partido": "AVANTE",
           "registro": "AP",
           "voto": null
-        }
-      ]
-    },
-    {
-      "id": "7105-2",
-      "data": "2026-09-01",
-      "materia": "PLP 74/2026",
-      "ementa": "Altera a Lei Complementar nº 229, de 30 de março de 2026, para incluir o regime especial de tributação para serviços de datacenter, o programa federal de financiamento de ações de apoio às pessoas com câncer e às pessoas com deficiência, bem como a desoneração do Imposto sobre a Renda das Pessoas Jurídicas (IRPJ) e da Contribuição Social sobre o Lucro Líquido (CSLL) das sociedades resseguradoras locais entre as exceções às regras aplicáveis à concessão de benefícios tributários e altera a Lei Complementar nº 101, de 4 de maio de 2000 (Lei de Responsabilidade Fiscal).",
-      "descricao": "Votação nominal do Projeto de Lei Complementar nº 74, de 2026, nos termos do parecer.",
-      "resultado": "Aprovado",
-      "secreta": false,
-      "votosDoEstado": [
-        {
-          "idExterno": 5953,
-          "nome": "Fabiano Contarato",
-          "partido": "PT",
-          "registro": "Sim",
-          "voto": "Sim"
-        },
-        {
-          "idExterno": 631,
-          "nome": "Magno Malta",
-          "partido": "PL",
-          "registro": "Sim",
-          "voto": "Sim"
-        },
-        {
-          "idExterno": 5942,
-          "nome": "Marcos do Val",
-          "partido": "AVANTE",
-          "registro": "AP",
-          "voto": "AP"
         }
       ]
     },
