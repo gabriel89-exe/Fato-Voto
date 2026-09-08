@@ -310,6 +310,39 @@ tentativas. A coleta não usa `ano` — filtra por ano em memória.
 confirma. Um piso de grandeza como detector do defeito foi tentado e descartado
 por isso: reprovaria a coleta para sempre por causa de um dado correto.
 
+#### O contorno pelos documentos de execução — testado e descartado
+
+Em 07/09/2026, procurando publicar o valor sem depender do conserto da CGU:
+reconstruir o valor de cada emenda somando os **documentos de execução** dela.
+
+O caminho existe e o dado está certo. `/emendas/documentos/{codigo}` lista os
+empenhos, liquidações e pagamentos; `/despesas/documentos` devolve o `valor` de
+cada um. Para a emenda `202533120003` os dois empenhos somaram exatamente
+R$ 200.000,00 — o valor da página pública — enquanto `/emendas` devolvia
+`"20,00"`. E o endpoint de documentos é **estável**: 10 leituras, 10 resultados
+idênticos.
+
+**Mas não escala, e o motivo é a forma da consulta.** `/despesas/documentos` não
+aceita `codigoDocumento` como filtro próprio: exige `dataEmissao` + `fase` +
+unidade gestora, e devolve TODOS os documentos daquela unidade naquele dia, 15
+por página. Achar um documento vira varredura.
+
+Medido em três emendas:
+
+| Emenda | Documentos | Requisições | Resultado |
+|---|---|---|---|
+| `202533120003` | 6 | 4 | reconstruiu certo |
+| `202543840005` | 9 | 26 | não achou em 25 páginas |
+| `202443620010` | 6 | 19 | não achou |
+
+A primeira funcionou porque a unidade gestora tinha só dois documentos naquele
+dia. A segunda cai numa unidade movimentada: 25 páginas — 375 documentos — não
+bastaram. Estimando por baixo, seriam **milhares de requisições por coleta**
+contra um serviço público, para contornar um defeito que é dele. Não se faz.
+
+Fica registrado para não ser tentado de novo. Se a CGU um dia expuser busca de
+documento por código, o caminho volta a valer.
+
 #### Como relatar
 
 A correção depende do Portal. O canal é o Fala.BR
