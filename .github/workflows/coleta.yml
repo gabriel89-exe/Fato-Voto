@@ -37,7 +37,7 @@ jobs:
 
     steps:
       # v5: as v4 rodam em Node 20, descontinuado nos runners.
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v7
 
       - uses: actions/setup-node@v5
         with:
