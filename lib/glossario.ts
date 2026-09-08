@@ -406,6 +406,14 @@ export const DINHEIRO: Verbete[] = [
       },
     ],
   },
+];
+
+
+/* ------------------------------------------------------------------ */
+/*  Como alguem vira candidato                                         */
+/* ------------------------------------------------------------------ */
+
+export const CANDIDATURA: Verbete[] = [
   {
     id: "aguardando-julgamento",
     termo: "Aguardando julgamento",
@@ -463,6 +471,13 @@ export const SECOES = [
     intro:
       "Nem toda votação registra o nome de quem votou. Entender isso explica por que algumas posições são conhecidas e outras não.",
     verbetes: VOTACAO,
+  },
+  {
+    id: "candidatura",
+    titulo: "Como alguém vira candidato",
+    intro:
+      "Entre pedir o registro e estar na urna existe um processo — e ele explica por que tanta gente aparece aqui como “aguardando julgamento” enquanto já faz campanha na rua.",
+    verbetes: CANDIDATURA,
   },
   {
     id: "dinheiro",

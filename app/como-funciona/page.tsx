@@ -2,6 +2,7 @@ import Link from "next/link";
 import { IconeLinkExterno, IconeSeta } from "@/components/icones";
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 import { Button } from "@/components/ui/button";
+import BuscaDeVerbetes from "@/components/BuscaDeVerbetes";
 import { SECOES, type Verbete } from "@/lib/glossario";
 
 export const metadata = {
@@ -105,6 +106,11 @@ export default function PaginaComoFunciona() {
           </AlertDescription>
         </Alert>
 
+        {/* Busca antes do sumário: quem chega com dúvida concreta
+            resolve em um passo, e quem quer passear tem o sumário
+            logo abaixo. */}
+        <BuscaDeVerbetes />
+
         {/* ---------- Sumário ---------- */}
         <nav aria-label="Seções desta página" className="mt-10">
           <h2 className="text-lg">O que tem aqui</h2>
@@ -113,19 +119,26 @@ export default function PaginaComoFunciona() {
               do padrão que o resto do site cumpre. */}
           <ol className="mt-2">
             {SECOES.map((secao, i) => (
-              <li key={secao.id} className="flex items-center gap-3">
+              <li key={secao.id} className="flex items-baseline gap-3">
                 <span
                   aria-hidden="true"
                   className="font-mono text-tinta-500 tabular-nums"
                 >
                   {i + 1}.
                 </span>
-                <Link
-                  href={`#${secao.id}`}
-                  className="alvo-toque justify-start py-1 text-left"
-                >
-                  {secao.titulo}
-                </Link>
+                <span className="min-w-0">
+                  <Link
+                    href={`#${secao.id}`}
+                    className="alvo-toque justify-start py-1 text-left"
+                  >
+                    {secao.titulo}
+                  </Link>
+                  {/* Os termos da seção no próprio sumário: sem isso,
+                      escolher a seção certa exige já saber o assunto. */}
+                  <span className="block pb-1 text-sm text-tinta-600">
+                    {secao.verbetes.map((v) => v.termo).join(" · ")}
+                  </span>
+                </span>
               </li>
             ))}
           </ol>
