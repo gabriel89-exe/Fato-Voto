@@ -200,7 +200,12 @@ export default function DetalheEmendas({
                 <strong>
                   Empenhar é reservar o dinheiro; pagar é o dinheiro sair.
                 </strong>{" "}
-                O funil abaixo mostra cada etapa. A diferença entre elas pode
+                <Termo id="empenho">Empenhar</Termo> é o governo separar o
+                valor para aquela finalidade: ele fica reservado e não pode ir
+                para outra coisa, mas ainda não saiu da conta. Pagar é a saída
+                de fato. As emendas apontam o dinheiro na{" "}
+                <Termo id="loa">LOA</Termo>, a lei que autoriza o gasto do ano
+                — autoriza, não obriga. O funil abaixo mostra cada etapa. A diferença entre elas pode
                 ainda virar pagamento nos próximos anos, como{" "}
                 <em>restos a pagar</em> — o portal registra{" "}
                 {reais(totais.restosInscritos)} inscritos e{" "}

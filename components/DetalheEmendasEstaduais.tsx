@@ -127,11 +127,21 @@ export default function DetalheEmendasEstaduais({
                 <strong>
                   Destinar não é empenhar, e empenhar não é pagar.
                 </strong>{" "}
-                O funil abaixo mostra cada etapa do caminho do dinheiro. A
-                diferença entre elas pode ainda virar pagamento — a execução
-                do ano corrente está em andamento e a fonte registra{" "}
-                {reais(totais.restosAPagar)} em <em>restos a pagar</em> — ou
-                pode nunca sair.
+                São três etapas, e cada uma significa uma coisa.{" "}
+                <strong>Destinar</strong> é a emenda apontar o dinheiro na{" "}
+                <Termo id="loa">LOA</Termo>, a lei que autoriza o gasto do ano
+                — autoriza, não obriga.{" "}
+                <strong><Termo id="empenho">Empenhar</Termo></strong> é o
+                governo reservar o valor: ele fica separado e não pode ir para
+                outra coisa, mas ainda não saiu da conta.{" "}
+                <strong>Pagar</strong> é o dinheiro sair de fato.
+              </p>
+              <p className="mt-2 text-sm text-tinta-700">
+                A diferença entre as etapas pode ainda virar pagamento — a
+                execução do ano corrente está em andamento e a fonte registra{" "}
+                {reais(totais.restosAPagar)} em <em>restos a pagar</em>, que é
+                o empenhado de um ano que ficou para os seguintes — ou pode
+                nunca sair.
               </p>
               <GraficoFunil
                 legenda={`O caminho do dinheiro das emendas de ${registro.nomeUrna}: destinado, empenhado e pago`}

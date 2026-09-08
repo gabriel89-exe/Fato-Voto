@@ -180,9 +180,20 @@ export default async function PaginaCandidato({
               Situação do registro: {c.situacaoRegistro ?? "Não informada"}.
             </span>{" "}
             <span className="text-tinta-700">
-              {c.apto
-                ? "A Justiça Eleitoral já julgou este registro. A decisão ainda pode mudar em recurso."
-                : "O registro ainda não foi julgado pela Justiça Eleitoral. Enquanto não há decisão final, o nome pode continuar na lista."}
+              {c.apto ? (
+                "A Justiça Eleitoral já julgou este registro. A decisão ainda pode mudar em recurso."
+              ) : (
+                <>
+                  O partido pediu o registro e a Justiça Eleitoral ainda não
+                  decidiu se aceita. Quem{" "}
+                  <Termo id="aguardando-julgamento">aguarda julgamento</Termo>{" "}
+                  <strong>já pode fazer campanha</strong> — a lei permite desde
+                  o pedido, sem esperar a decisão. Se o julgamento não sair a
+                  tempo, o nome vai para a urna e os votos são contados sub
+                  judice. Não é acusação nem sinal de problema: é o processo
+                  correndo, e a maior parte termina em deferimento.
+                </>
+              )}
             </span>
           </p>
           <p className="rotulo-meta mt-1">
@@ -206,6 +217,8 @@ export default async function PaginaCandidato({
           <ResumoPatrimonio
             candidatura={c}
             referencia={referenciaPatrimonio(c.cargo)}
+            fonte={FONTE_TSE.nome}
+            coletadoEm={COLETADO_EM}
           />
 
           {/* ================= Abas ================= */}
@@ -214,7 +227,6 @@ export default async function PaginaCandidato({
             <TabsList>
               <TabsTrigger value="perfil">Perfil</TabsTrigger>
               <TabsTrigger value="proposta">Proposta</TabsTrigger>
-              <TabsTrigger value="bens">Bens</TabsTrigger>
               <TabsTrigger value="historico">Histórico</TabsTrigger>
               {mandato || mandatoSenado || emendasEstaduais ? (
                 <TabsTrigger value="mandato">Mandato</TabsTrigger>
@@ -311,80 +323,6 @@ export default async function PaginaCandidato({
                   </ul>
                 </div>
               ) : null}
-            </TabsContent>
-
-            {/* ---------- Bens ---------- */}
-            <TabsContent value="bens">
-              {!c.divulgacaoAutorizada.bens ? (
-                <Alert>
-                  <AlertTitle>Bens não disponíveis para divulgação</AlertTitle>
-                  <AlertDescription>
-                    O Tribunal Superior Eleitoral não autoriza a divulgação dos
-                    bens desta candidatura. A omissão é da fonte, não desta
-                    plataforma.
-                  </AlertDescription>
-                </Alert>
-              ) : c.bens.length === 0 ? (
-                <Alert>
-                  <AlertTitle>Nenhum bem declarado</AlertTitle>
-                  <AlertDescription>
-                    A candidatura não declarou bens no pedido de registro. Não
-                    declarar bens é permitido e não indica irregularidade.
-                  </AlertDescription>
-                </Alert>
-              ) : (
-                <DadoOficial
-                  titulo="Bens declarados no registro"
-                  fonte={FONTE_TSE.nome}
-                  coletadoEm={COLETADO_EM}
-                  urlOriginal={c.paginaOficial}
-                >
-                  <p className="mb-4 text-sm text-tinta-700">
-                    Total declarado:{" "}
-                    <strong className="font-mono tabular-nums">
-                      {reais(c.totalBens ?? 0)}
-                    </strong>{" "}
-                    em {c.bens.length}{" "}
-                    {c.bens.length === 1 ? "bem" : "bens"}. Valores nominais,
-                    como declarados, sem correção pela inflação.
-                  </p>
-
-                  <GraficoComposicao
-                    legenda={`Composição dos bens declarados por ${c.nomeUrna}`}
-                    itens={[...c.bens]
-                      .sort((a, b) => b.valor - a.valor)
-                      .map((b) => ({ rotulo: b.tipo, valor: b.valor }))}
-                  />
-
-                  <div className="mt-5">
-                    <Table>
-                      <TableHeader>
-                        <TableRow>
-                          <TableHead>Tipo</TableHead>
-                          <TableHead>Descrição</TableHead>
-                          <TableHead className="text-right">Valor</TableHead>
-                        </TableRow>
-                      </TableHeader>
-                      <TableBody>
-                        {[...c.bens]
-                          .sort((a, b) => b.valor - a.valor)
-                          .map((b) => (
-                            <TableRow key={b.ordem}>
-                              {/* Sem rótulo: no celular o tipo abre a ficha. */}
-                              <TableCell>{b.tipo}</TableCell>
-                              <TableCell rotulo="Descrição" larga>
-                                {b.descricao}
-                              </TableCell>
-                              <TableCellNumero rotulo="Valor">
-                                {reais(b.valor)}
-                              </TableCellNumero>
-                            </TableRow>
-                          ))}
-                      </TableBody>
-                    </Table>
-                  </div>
-                </DadoOficial>
-              )}
             </TabsContent>
 
             {/* ---------- Histórico ---------- */}

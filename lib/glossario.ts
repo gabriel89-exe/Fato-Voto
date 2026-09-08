@@ -367,6 +367,68 @@ export const DINHEIRO: Verbete[] = [
       },
     ],
   },
+  {
+    id: "loa",
+    termo: "LOA",
+    nome: "Lei Orçamentária Anual",
+    resumo:
+      "A lei que diz quanto o governo pode gastar no ano seguinte, e com o quê.",
+    explicacao: [
+      "Todo ano o governo manda ao Congresso uma proposta de orçamento para o ano seguinte. O Congresso discute, altera e aprova. O resultado é a LOA — a lei que autoriza o gasto.",
+      "É dentro dela que entram as emendas parlamentares: cada parlamentar aponta destino para uma parcela. Por isso o Orçamento de um ano é emendado no ano ANTERIOR — quem assumiu o mandato em 2023 não participou da elaboração do Orçamento de 2023.",
+      "Um ponto que muda a leitura: a LOA AUTORIZA o gasto, não o obriga. Estar na lei não garante que o dinheiro saia. É por isso que o valor destinado e o valor pago são números diferentes, e os dois precisam aparecer.",
+    ],
+    baseLegal: "Constituição Federal, art. 165, III",
+    fontes: [
+      {
+        rotulo: "Constituição Federal, art. 165",
+        url: "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art165",
+      },
+    ],
+  },
+  {
+    id: "empenho",
+    termo: "Empenho",
+    resumo:
+      "A reserva do dinheiro. É o primeiro dos três passos até o pagamento sair.",
+    explicacao: [
+      "Dinheiro público não sai da conta de uma vez. Passa por três fases, e cada uma tem um nome que aparece nas fichas deste site:",
+      "EMPENHO é o governo reservar o valor para aquela finalidade. O dinheiro ainda não saiu — ficou separado, e não pode ser usado para outra coisa.",
+      "LIQUIDAÇÃO é o reconhecimento de que o serviço foi prestado ou o produto entregue. É quando o governo confere que a obrigação existe de verdade.",
+      "PAGAMENTO é o dinheiro saindo da conta.",
+      "Por que isso importa para quem lê: um valor alto empenhado não significa dinheiro entregue. Entre empenhar e pagar pode passar anos, e às vezes o pagamento nunca acontece. Olhar só o empenhado superestima; olhar só o pago subestima o que foi destinado. Os dois juntos descrevem o fato.",
+      "O que sobra de um ano para o outro vira RESTOS A PAGAR: valor empenhado que não foi pago no exercício e fica pendurado para os anos seguintes.",
+    ],
+    fontes: [
+      {
+        rotulo: "Lei 4.320/1964, arts. 58 a 65",
+        url: "https://www.planalto.gov.br/ccivil_03/leis/l4320.htm#art58",
+      },
+    ],
+  },
+  {
+    id: "aguardando-julgamento",
+    termo: "Aguardando julgamento",
+    resumo:
+      "O pedido de registro foi entregue e a Justiça Eleitoral ainda não decidiu se aceita.",
+    explicacao: [
+      "Ser candidato não é só se inscrever. O partido pede o registro à Justiça Eleitoral, que confere documentos, contas, filiação e se a pessoa está inelegível. Até essa decisão sair, a situação fica como “aguardando julgamento”.",
+      "E aqui está o ponto que confunde: quem aguarda julgamento JÁ PODE FAZER CAMPANHA. A lei permite praticar atos de campanha desde o pedido de registro, sem esperar a decisão. Por isso você vê na rua candidatura que neste site aparece como pendente.",
+      "Pode ir além: se o julgamento não sair a tempo, o nome vai para a urna e os votos são contados sub judice — ficam guardados até a decisão final. Se o registro for deferido depois, os votos valem; se for indeferido em definitivo, são anulados.",
+      "Ou seja: “aguardando julgamento” não é acusação nem sinal de problema. É o processo correndo. A maior parte termina em deferimento.",
+    ],
+    baseLegal: "Lei 9.504/1997, arts. 11 e 16-A",
+    fontes: [
+      {
+        rotulo: "Lei 9.504/1997, art. 16-A",
+        url: "https://www.planalto.gov.br/ccivil_03/leis/l9504.htm#art16a",
+      },
+      {
+        rotulo: "TSE — Registro de candidatura",
+        url: "https://www.tse.jus.br/eleicoes/eleicoes-2026",
+      },
+    ],
+  },
 ];
 
 /* ------------------------------------------------------------------ */

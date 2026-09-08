@@ -1,4 +1,8 @@
-import { LinkParaAba } from "@/components/AbasDaFicha";
+"use client";
+
+import { useState } from "react";
+
+import DetalheBens from "@/components/DetalheBens";
 import { IconeSeta } from "@/components/icones";
 import { dataCurta, numero as fmtNumero, reais } from "@/lib/formato";
 import type { Candidatura } from "@/types";
@@ -26,15 +30,19 @@ import type { Candidatura } from "@/types";
  * contexto. Sem denominador, viraria ranking involuntário na primeira
  * olhada.
  *
- * O DETALHE NÃO É CARREGADO AQUI. O link leva à aba Bens, cujo
- * conteúdo o Radix só monta quando ela abre. Duplicar a lista aqui
- * colocaria o mesmo dado em dois lugares e mandaria o detalhe para o
- * HTML de todas as 575 fichas sem ninguém pedir.
+ * O DETALHE NÃO VEM NO HTML. A aba "Bens" deixou de existir: ela
+ * repetia total e quantidade que já estavam aqui, uma tela abaixo, e
+ * dois lugares com o mesmo dado é um lugar a mais para divergir. Agora
+ * o detalhe abre AQUI, e só quando alguém pede — o componente é
+ * cliente e só monta <DetalheBens> depois do clique, então a marcação
+ * não vai para o HTML das 575 fichas de graça.
  * ==================================================================
  */
 export default function ResumoPatrimonio({
   candidatura,
   referencia,
+  fonte,
+  coletadoEm,
 }: {
   candidatura: Candidatura;
   referencia: {
@@ -44,7 +52,10 @@ export default function ResumoPatrimonio({
     menor: number;
     maior: number;
   };
+  fonte: string;
+  coletadoEm: string;
 }) {
+  const [aberto, setAberto] = useState(false);
   const { bens, totalBens, cargo, divulgacaoAutorizada } = candidatura;
 
   /* A data que a própria fonte carimba em cada bem. */
@@ -138,17 +149,39 @@ export default function ResumoPatrimonio({
 
         {!semAutorizacao && !semBens ? (
           <p className="mt-4">
-            <LinkParaAba
-              aba="bens"
+            <button
+              type="button"
+              aria-expanded={aberto}
+              aria-controls="detalhe-dos-bens"
+              onClick={() => setAberto(!aberto)}
               className="inline-flex min-h-toque items-center gap-2 rounded border border-acento-borda bg-acento-leve px-4 py-2 text-sm font-semibold text-acento-forte hover:bg-acento hover:text-papel-alta"
             >
-              Saiba mais: ver os {fmtNumero(bens.length)}{" "}
-              {bens.length === 1 ? "bem declarado" : "bens declarados"}
+              {aberto ? (
+                "Esconder os bens declarados"
+              ) : (
+                <>
+                  Saiba mais: ver os {fmtNumero(bens.length)}{" "}
+                  {bens.length === 1 ? "bem declarado" : "bens declarados"}
+                </>
+              )}
               <IconeSeta />
-            </LinkParaAba>
+            </button>
           </p>
         ) : null}
       </div>
+
+      {/* Só existe depois do clique: nada disto vai no HTML inicial. */}
+      {aberto && !semAutorizacao && !semBens ? (
+        <div id="detalhe-dos-bens" className="border-t border-tinta-200 p-4">
+          <DetalheBens
+            bens={bens}
+            nome={candidatura.nomeUrna}
+            fonte={fonte}
+            coletadoEm={coletadoEm}
+            urlOriginal={candidatura.paginaOficial}
+          />
+        </div>
+      ) : null}
     </section>
   );
 }
