@@ -313,9 +313,42 @@ por isso: reprovaria a coleta para sempre por causa de um dado correto.
 #### Como relatar
 
 A correção depende do Portal. O canal é o Fala.BR
-(<https://falabr.cgu.gov.br>), como pedido de informação ou reclamação sobre a
-API de dados abertos. O relato precisa de: o endpoint, o `codigoEmenda`, o valor
-devolvido, o valor da página pública e a taxa observada — tudo está acima.
+(<https://falabr.cgu.gov.br>), como reclamação sobre a API de dados abertos.
+Exige login gov.br, então é passo de pessoa.
+
+Texto pronto para colar, com os dados que um relato útil precisa ter:
+
+> **Assunto:** API de dados abertos devolve valor de emenda dividido por 10.000
+>
+> O endpoint `/api-de-dados/emendas` da API do Portal da Transparência devolve
+> valores monetários incorretos de forma intermitente: o valor correto dividido
+> por 10.000. O defeito aparece em `valorEmpenhado`, `valorLiquidado`,
+> `valorPago` e nos campos de restos a pagar, de forma independente entre eles.
+>
+> É verificável comparando a resposta da API com a página pública da mesma
+> emenda. Exemplos, com a data da verificação:
+>
+> - `codigoEmenda=202533120003` — a página informa R$ 200.000,00 empenhado; a
+>   API devolveu `"20,00"` em 9 de 10 consultas seguidas e `"200.000,00"` em 1.
+> - `codigoEmenda=202543840005` — a página informa R$ 1.400.000,00 empenhado; a
+>   API devolveu `"140,00"` em 9 de 10 consultas e `"1.400.000,00"` em 1.
+> - `codigoEmenda=202539120004` — a página informa R$ 250.000,00 empenhado; a
+>   API chegou a devolver `"25,00"` em `valorEmpenhado` e o valor correto em
+>   `valorPago` na MESMA resposta, o que produz pago maior que empenhado.
+>
+> Medição em 07/09/2026: 24 emendas consultadas 6 vezes cada, 17% devolveram
+> valores diferentes entre consultas. Em 02/09/2026 a taxa era de cerca de 30%.
+>
+> O comportamento não depende do ritmo das requisições (testado com pausas de
+> 600ms, 180ms e sem pausa) nem do reuso de conexão TCP (testado com keep-alive
+> ligado e desligado). O parâmetro `ano` agrava: com ele, `valorEmpenhado` veio
+> encolhido em todas as tentativas.
+>
+> Consequência para quem consome a API: não há como distinguir um valor correto
+> de um encolhido sem consultar a página pública de cada emenda, o que inviabiliza
+> o uso programático dos dados.
+
+Se o relato tiver protocolo, anote-o aqui junto com a data.
 
 ### O código da emenda carrega o código do autor
 

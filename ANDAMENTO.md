@@ -101,11 +101,12 @@ decisões de fora do código, listadas logo abaixo.
 
 - [ ] **Domínio de produção** (`NEXT_PUBLIC_SITE_URL`). Enquanto vazio, o
       sitemap, o `robots.txt` e as tags de compartilhamento geram URL errada.
-- [ ] **Arquivo `LICENSE`.** A licença já foi escolhida — **AGPL-3.0-only**,
-      registrada no `package.json`, no `README.md` e no rodapé do site. Falta
-      só o arquivo `LICENSE` com o texto: adicionar pelo GitHub
-      (*Add file → Create new file → `LICENSE` → Choose a license template →
-      GNU AGPLv3*), que insere o texto canônico. É passo de pessoa.
+- [x] **Arquivo `LICENSE`** — feito em 07/09/2026. Texto canônico da
+      **AGPL-3.0** baixado de `gnu.org/licenses/agpl-3.0.txt` e gravado
+      verbatim: 34.523 bytes, 661 linhas, as 18 seções e a cláusula 13
+      (*Remote Network Interaction*), que é a que faz do copyleft um copyleft
+      de rede e a que o rodapé do site já invocava. Conferido byte a byte
+      contra o original. O texto NÃO foi alterado — a própria licença proíbe.
 - [ ] **Revisão jurídica da página de privacidade.** O enquadramento em
       `/privacidade` é o raciocínio do projeto, não parecer. Uma leitura de
       advogado antes de divulgar é barata perto do risco: o site publica dado

@@ -11,19 +11,7 @@ Ordem proposital: o que trava a divulgação vem primeiro, e nada disso é códi
 
 ## 1. Bloqueia a divulgação — depende de pessoa, não de código
 
-### 1.1 Arquivo `LICENSE`
-
-**O que fazer:** GitHub → *Add file* → *Create new file* → nomear `LICENSE` →
-*Choose a license template* → **GNU AGPLv3**.
-
-**Por que trava:** o `package.json`, o `README.md` e o rodapé do site já
-declaram AGPL-3.0-only, mas **sem o arquivo ninguém tem direito legal de reusar
-o código**. Um projeto que se diz aberto e não entrega licença faz uma promessa
-que não cumpre. Conferido em 07/09/2026: o arquivo não existe.
-
-**Custo:** dois minutos. É o item de menor esforço e maior desproporção.
-
-### 1.2 Domínio de produção
+### 1.1 Domínio de produção
 
 **O que fazer:** definir `NEXT_PUBLIC_SITE_URL` na Vercel com o domínio final.
 
@@ -33,7 +21,7 @@ pré-visualização quebrada, e o Google indexa endereço que não existe.
 
 **Custo:** minutos, depois de decidir o domínio.
 
-### 1.3 Revisão jurídica da página de privacidade
+### 1.2 Revisão jurídica da página de privacidade
 
 **O que fazer:** um advogado ler `/privacidade` antes da divulgação.
 
@@ -193,6 +181,8 @@ Nada disto muda comportamento, mas confunde quem chegar ao projeto:
 
 Para não reabrir o que já foi fechado:
 
+- **Arquivo `LICENSE`** (07/09) — texto canônico da AGPL-3.0, verbatim.
+  O projeto deixou de prometer abertura sem entregar o direito de reuso.
 - **Emendas estaduais** (02/09) — a fonte que a documentação dizia não existir.
   Era a maior lacuna do projeto.
 - **Secret `TRANSPARENCIA_TOKEN`** (01/09) — cadastrado e confirmado em log.
@@ -206,6 +196,6 @@ Para não reabrir o que já foi fechado:
 
 ## Resumo em uma linha
 
-O produto está pronto. **Faltam três passos de pessoa** — licença, domínio e
-revisão jurídica — e **um passo de terceiro**: o Portal da Transparência
+O produto está pronto. **Faltam dois passos de pessoa** — domínio e revisão
+jurídica — e **um passo de terceiro**: o Portal da Transparência
 terminar de consertar a API de emendas. O resto é ampliação, não conclusão.
