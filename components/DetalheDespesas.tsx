@@ -73,6 +73,9 @@ export default function DetalheDespesas({
 }) {
   const { comprovantes, fornecedores, glosas, maiores, porTipo } = despesas;
   const semPdf = comprovantes.total - comprovantes.com;
+  /* Denominador da barra: a maior das listadas, não o total do mandato.
+     A pergunta é a proporção ENTRE estas dez. */
+  const maiorNota = Math.max(...maiores.map((n) => n.valor), 1);
 
   return (
     <div className="space-y-10">
@@ -221,41 +224,55 @@ export default function DetalheDespesas({
           As dez maiores notas
         </h4>
         <p className="mt-1 text-sm text-tinta-600">
-          Ordenadas por valor, com o comprovante quando existe. O documento é a
-          fonte: ele mostra o que a linha da tabela não cabe.
+          Ordenadas por valor, com o comprovante quando existe. A barra mostra
+          o tamanho de cada uma em relação à maior — o olho pega a diferença
+          antes de ler o número.
         </p>
 
-        <div className="mt-4">
-          <Table>
-            <TableHeader>
-              <TableRow>
-                <TableHead>Data</TableHead>
-                <TableHead>Tipo</TableHead>
-                <TableHead>Fornecedor</TableHead>
-                <TableHead className="text-right">Valor</TableHead>
-                <TableHead>Comprovante</TableHead>
-              </TableRow>
-            </TableHeader>
-            <TableBody>
-              {maiores.map((n) => (
-                <TableRow key={n.id ?? `${n.data}-${n.valor}`}>
-                  <TableCell rotulo="Data" className="whitespace-nowrap">
-                    {n.data ? dataCurta(n.data) : "—"}
-                  </TableCell>
-                  <TableCell rotulo="Tipo">{n.tipo}</TableCell>
-                  {/* Sem rótulo: no celular o fornecedor abre a ficha. */}
-                  <TableCell>{n.fornecedor ?? "Não informado"}</TableCell>
-                  <TableCellNumero rotulo="Valor">
-                    {reais(n.valor)}
-                  </TableCellNumero>
-                  <TableCell rotulo="Comprovante">
-                    <LinkDocumento url={n.documento} />
-                  </TableCell>
-                </TableRow>
-              ))}
-            </TableBody>
-          </Table>
-        </div>
+        {/*
+          Era tabela de cinco colunas. Virou barra porque a pergunta
+          aqui é de PROPORÇÃO: "esta nota é muito maior que as outras?".
+          Numa tabela isso exige comparar dez números mentalmente; numa
+          barra é imediato.
+
+          Todas da mesma cor, de propósito. Variar cor por valor seria
+          dizer que nota grande é pior — juízo que a fonte não emite e
+          esta plataforma não emite. Ver docs/principios.md, regra 3.
+        */}
+        <ol className="mt-5 space-y-4">
+          {maiores.map((n) => (
+            <li key={n.id ?? `${n.data}-${n.valor}`}>
+              <div className="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1">
+                <span className="min-w-0 font-medium text-tinta-900">
+                  {n.fornecedor ?? "Não informado"}
+                </span>
+                <span className="shrink-0 font-mono text-sm tabular-nums text-tinta-900">
+                  {reais(n.valor)}
+                </span>
+              </div>
+
+              <span
+                aria-hidden="true"
+                className="mt-1 block h-2 w-full bg-tinta-100"
+              >
+                <span
+                  className="block h-2 bg-acento"
+                  style={{
+                    width: `${Math.max((n.valor / maiorNota) * 100, 1)}%`,
+                  }}
+                />
+              </span>
+
+              <p className="mt-1 flex flex-wrap items-baseline gap-x-3 gap-y-1 text-xs text-tinta-600">
+                {n.data ? (
+                  <span className="tabular-nums">{dataCurta(n.data)}</span>
+                ) : null}
+                <span className="min-w-0">{n.tipo}</span>
+                <LinkDocumento url={n.documento} />
+              </p>
+            </li>
+          ))}
+        </ol>
       </section>
 
       {/* ---------- O que a fonte não publica ---------- */}
