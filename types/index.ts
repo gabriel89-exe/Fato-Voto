@@ -127,9 +127,24 @@ export interface ArquivoCandidaturas {
 /*  Mandato em exercicio — Camara dos Deputados                        */
 /* ------------------------------------------------------------------ */
 
+/**
+ * Uma categoria de despesa, com quem recebeu e as notas dela.
+ *
+ * A categoria e da PROPRIA CAMARA — "LOCACAO OU FRETAMENTO DE VEICULOS
+ * AUTOMOTORES", "DIVULGACAO DA ATIVIDADE PARLAMENTAR" —, nao uma
+ * classificacao nossa. A plataforma nao escolhe o que e notavel: abre o
+ * que a fonte ja separou e deixa o leitor filtrar. Regras 1 e 3 de
+ * docs/principios.md.
+ *
+ * `fornecedores` e `maiores` sao recortes pequenos (8 e 5), porque
+ * `data/es/` e commitado todo dia. A lista inteira esta no portal.
+ */
 export interface DespesaPorTipo {
   tipo: string;
   valor: number;
+  notas: number;
+  fornecedores: Fornecedor[];
+  maiores: NotaDespesa[];
 }
 
 export interface DespesaPorMes {

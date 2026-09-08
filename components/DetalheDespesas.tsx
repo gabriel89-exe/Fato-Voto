@@ -1,3 +1,4 @@
+import GastosPorCategoria from "@/components/GastosPorCategoria";
 import { GraficoBarras } from "@/components/graficos";
 import Termo from "@/components/Termo";
 import { IconeLinkExterno } from "@/components/icones";
@@ -70,11 +71,20 @@ export default function DetalheDespesas({
   despesas: Despesas;
   nome: string;
 }) {
-  const { comprovantes, fornecedores, glosas, maiores } = despesas;
+  const { comprovantes, fornecedores, glosas, maiores, porTipo } = despesas;
   const semPdf = comprovantes.total - comprovantes.com;
 
   return (
     <div className="space-y-10">
+      {/*
+        Categorias primeiro: é a porta de entrada de quem quer filtrar
+        — "quanto foi para locação de veículo, e para quem" — e as
+        seções abaixo são recortes do mandato inteiro. Ver o cabeçalho
+        de GastosPorCategoria para por que esta tela não elege gasto
+        suspeito.
+      */}
+      <GastosPorCategoria categorias={porTipo} nome={nome} />
+
       {/* ---------- Quem recebeu ---------- */}
       <section>
         <h4 className="text-base font-bold text-tinta-950">Quem recebeu</h4>

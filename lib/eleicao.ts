@@ -148,6 +148,49 @@ export function obterMandatoSenado(candidatura: Candidatura): Senador | null {
 }
 
 /**
+ * Denominador do patrimonio declarado, por cargo.
+ *
+ * Existe pelo mesmo motivo que a mediana da bancada existe para gasto:
+ * numero absoluto sozinho na tela vira ranking involuntario. E aqui o
+ * risco e maior, nao menor — patrimonio e o dado que mais facilmente
+ * lido como "rico" ou "pobre", e o resumo agora aparece no TOPO da
+ * ficha, antes de qualquer contexto. Ver docs/principios.md, regra 4.
+ *
+ * A mediana e entre quem DECLAROU, nao entre todas as candidaturas.
+ * Incluir os zeros de quem nao declarou puxaria a mediana para baixo e
+ * descreveria mal os dois grupos; a contagem de quem nao declarou vai
+ * junto, para a tela poder dizer as duas coisas.
+ */
+export function referenciaPatrimonio(cargo: string): {
+  declararam: number;
+  naoDeclararam: number;
+  mediana: number;
+  menor: number;
+  maior: number;
+} {
+  const doCargo = candidaturas.filter((c) => c.cargo === cargo);
+  const valores = doCargo
+    .filter((c) => c.bens.length > 0)
+    .map((c) => c.totalBens ?? 0)
+    .sort((a, b) => a - b);
+
+  const meio = Math.floor(valores.length / 2);
+  const mediana = valores.length
+    ? valores.length % 2
+      ? valores[meio]
+      : (valores[meio - 1] + valores[meio]) / 2
+    : 0;
+
+  return {
+    declararam: valores.length,
+    naoDeclararam: doCargo.length - valores.length,
+    mediana,
+    menor: valores[0] ?? 0,
+    maior: valores.at(-1) ?? 0,
+  };
+}
+
+/**
  * As emendas parlamentares deste mandato, ou `null` quando a fonte nao
  * tem nada dela.
  *

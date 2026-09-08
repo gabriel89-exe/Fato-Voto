@@ -207,6 +207,36 @@ Nada disto muda comportamento, mas confunde quem chegar ao projeto:
 
 ## Decisões registradas
 
+**A tela de gastos não elege gasto suspeito.** O pedido era uma aba de "gastos
+que merecem sua atenção" — hospedagem cara, locação de veículo de quem já
+declarou carro, assessor com salário fora da curva. O impulso é justo e o
+material existe. A execução, não: seria a plataforma escolhendo QUAIS gastos são
+suspeitos, e isso é veredito, não fato. Quebraria a regra 1 (nada de ranking) e
+a regra 3 (descritivo, nunca normativo) de uma vez, às vésperas de uma eleição,
+sobre 575 pessoas identificadas — bastaria uma categoria rotulada como "curiosa"
+para o projeto inteiro ser lido como campanha.
+
+O que entrou no lugar entrega a mesma capacidade sem o veredito: **"Gastos por
+categoria"**, com as categorias da PRÓPRIA CÂMARA, todas visíveis, nenhuma
+destacada. Abrir uma mostra quais empresas receberam, com CNPJ, e as notas de
+maior valor com o comprovante. Quem escolhe o que investigar é quem lê — que era
+o pedido de verdade: "para que fique mais fácil a população realizar essa
+filtragem".
+
+**O topo da ficha mostra patrimônio, e diz que patrimônio não é renda.** O
+pedido falava em "renda declarada". O TSE **não publica renda** — não há campo
+de renda, salário ou receita no registro. O que existe é declaração de bens, que
+é patrimônio acumulado. Trocar um pelo outro em silêncio seria deixar o leitor
+achar que vê renda quando vê patrimônio, que é o que a regra 5 proíbe. A tela
+mostra bens, chama de bens, e diz que renda não é publicada.
+
+O total vem ao lado da **mediana de quem disputa o mesmo cargo**, entre os que
+declararam. É a regra 4 onde ela mais pesa: patrimônio é o número que mais
+facilmente se lê como "rico" ou "pobre", e o resumo aparece antes de qualquer
+contexto. O detalhe **não é carregado** — o link leva à aba Bens, que o Radix só
+monta quando abre.
+
+
 **Reprovar a fonte não é falhar a coleta.** De 02/09 a 07/09/2026 a coleta
 diária terminou vermelha seis vezes seguidas, e o motivo principal era o passo
 do Portal da Transparência saindo com erro porque a conferência reprovou — que

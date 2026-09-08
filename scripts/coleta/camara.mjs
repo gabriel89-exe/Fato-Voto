@@ -50,6 +50,17 @@ const ANOS = [2023, 2024, 2025, 2026];
  */
 const RECENTES = 10;
 
+/*
+ * Quanto cada CATEGORIA de despesa carrega de detalhe.
+ *
+ * Números pequenos de propósito: `data/es/` é commitado todo dia, e o
+ * detalhe por categoria multiplica por seis o que antes era uma linha.
+ * Oito fornecedores e cinco notas bastam para o padrão de uma categoria
+ * aparecer; quem quiser a lista inteira tem o portal da Câmara no link.
+ */
+const FORNECEDORES_POR_TIPO = 8;
+const NOTAS_POR_TIPO = 5;
+
 const FONTE = {
   nome: "Câmara dos Deputados — Dados Abertos",
   url: "https://dadosabertos.camara.leg.br/",
@@ -236,6 +247,7 @@ function agruparProposicoes(lista, tipos) {
 function agregarDespesas(linhas) {
   const porTipo = new Map();
   const porMes = new Map();
+  const linhasDoTipo = new Map();
   let total = 0;
 
   for (const linha of linhas) {
@@ -245,6 +257,8 @@ function agregarDespesas(linhas) {
 
     const tipo = linha.tipoDespesa ?? "Não informado";
     porTipo.set(tipo, (porTipo.get(tipo) ?? 0) + valor);
+    if (!linhasDoTipo.has(tipo)) linhasDoTipo.set(tipo, []);
+    linhasDoTipo.get(tipo).push(linha);
 
     const competencia = `${linha.ano}-${String(linha.mes).padStart(2, "0")}`;
     porMes.set(competencia, (porMes.get(competencia) ?? 0) + valor);
@@ -253,8 +267,31 @@ function agregarDespesas(linhas) {
   return {
     total,
     documentos: linhas.length,
+    /*
+     * CADA CATEGORIA CARREGA QUEM RECEBEU E AS NOTAS DELA.
+     *
+     * As categorias são as da PRÓPRIA CÂMARA — "LOCAÇÃO OU FRETAMENTO
+     * DE VEÍCULOS AUTOMOTORES", "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR" —,
+     * não uma classificação nossa. Isso importa: a plataforma não
+     * escolhe o que é notável, ela abre o que a fonte já separou e
+     * deixa o leitor filtrar. Ver docs/principios.md, regras 1 e 3.
+     *
+     * Antes daqui, a ficha mostrava o total por categoria e os doze
+     * maiores fornecedores do mandato inteiro. Quem quisesse saber
+     * QUAIS empresas receberam por locação de veículo não tinha como
+     * chegar lá — o dado existia na fonte e não chegava à tela.
+     */
     porTipo: [...porTipo.entries()]
-      .map(([tipo, valor]) => ({ tipo, valor }))
+      .map(([tipo, valor]) => {
+        const doTipo = linhasDoTipo.get(tipo) ?? [];
+        return {
+          tipo,
+          valor,
+          notas: doTipo.length,
+          fornecedores: agruparFornecedores(doTipo, FORNECEDORES_POR_TIPO),
+          maiores: maioresNotas(doTipo, NOTAS_POR_TIPO),
+        };
+      })
       .sort((a, b) => b.valor - a.valor),
     porMes: [...porMes.entries()]
       .map(([competencia, valor]) => ({ competencia, valor }))
@@ -293,7 +330,7 @@ function nota(linha) {
  * merece pergunta. Guardamos 12: o bastante para o padrão aparecer,
  * pouco o bastante para o arquivo não inchar num commit diário.
  */
-function agruparFornecedores(linhas) {
+function agruparFornecedores(linhas, quantos = 12) {
   const m = new Map();
   for (const l of linhas) {
     const nome = (l.nomeFornecedor ?? "").trim();
@@ -334,7 +371,9 @@ function agruparFornecedores(linhas) {
     e.notas++;
     m.set(chave, e);
   }
-  return [...m.values()].sort((a, b) => b.total - a.total).slice(0, 12);
+  return [...m.values()]
+    .sort((a, b) => b.total - a.total || a.nome.localeCompare(b.nome, "pt-BR"))
+    .slice(0, quantos);
 }
 
 /**
@@ -360,14 +399,17 @@ function agruparGlosas(linhas) {
 }
 
 /** As maiores notas individuais, com link para o comprovante. */
-function maioresNotas(linhas) {
+function maioresNotas(linhas, quantas = 10) {
   return [...linhas]
     .sort(
       (a, b) =>
         Number(b.valorLiquido ?? b.valorDocumento ?? 0) -
-        Number(a.valorLiquido ?? a.valorDocumento ?? 0),
+          Number(a.valorLiquido ?? a.valorDocumento ?? 0) ||
+        /* Desempate estável: sem ele, duas notas de mesmo valor trocam
+           de lugar entre coletas e o diff diário vira ruído. */
+        String(a.codDocumento ?? "").localeCompare(String(b.codDocumento ?? "")),
     )
-    .slice(0, 10)
+    .slice(0, quantas)
     .map(nota);
 }
 

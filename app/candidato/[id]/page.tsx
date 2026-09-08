@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { AbasControladas, ProvedorDeAbas } from "@/components/AbasDaFicha";
 import AvatarCandidato from "@/components/AvatarCandidato";
 import DadoOficial from "@/components/DadoOficial";
 import DetalheDespesas from "@/components/DetalheDespesas";
@@ -9,6 +10,7 @@ import Termo from "@/components/Termo";
 import { GraficoComposicao, GraficoEvolucao } from "@/components/graficos";
 import { IconeLinkExterno, IconeSeta } from "@/components/icones";
 import NumeroUrna from "@/components/NumeroUrna";
+import ResumoPatrimonio from "@/components/ResumoPatrimonio";
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -21,7 +23,7 @@ import {
   TableHeader,
   TableRow,
 } from "@/components/ui/table";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import Votacoes from "@/components/Votacoes";
 import {
   ANOS_EMENDAS,
@@ -55,6 +57,7 @@ import {
   REFERENCIA_EMENDAS_ESTADUAIS,
   referenciaBancada,
   referenciaEmendas,
+  referenciaPatrimonio,
   traduzirVotoSenado,
   votacoesDoDeputado,
   votacoesDoSenador,
@@ -191,9 +194,23 @@ export default async function PaginaCandidato({
           </p>
         </div>
 
-        {/* ================= Abas ================= */}
-        <div className="mt-10">
-          <Tabs defaultValue="perfil">
+        {/*
+          Patrimônio acima das abas: é a primeira pergunta que muita
+          gente faz sobre uma candidatura, e estava três cliques abaixo.
+          Só o resumo — o detalhe mora na aba Bens e o botão leva até lá.
+          Ver o cabeçalho de ResumoPatrimonio.
+        */}
+        {/* O provedor precisa envolver os dois: quem manda na aba
+            (o botão do resumo) e as abas em si. */}
+        <ProvedorDeAbas inicial="perfil">
+          <ResumoPatrimonio
+            candidatura={c}
+            referencia={referenciaPatrimonio(c.cargo)}
+          />
+
+          {/* ================= Abas ================= */}
+          <div className="mt-10">
+            <AbasControladas>
             <TabsList>
               <TabsTrigger value="perfil">Perfil</TabsTrigger>
               <TabsTrigger value="proposta">Proposta</TabsTrigger>
@@ -866,8 +883,9 @@ export default async function PaginaCandidato({
                 </Alert>
               </TabsContent>
             ) : null}
-          </Tabs>
-        </div>
+            </AbasControladas>
+          </div>
+        </ProvedorDeAbas>
 
         {/*
           O TSE não abre a ficha por link direto — a rota dele falha em
