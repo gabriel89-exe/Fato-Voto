@@ -191,6 +191,62 @@ export async function buscarJson(
 }
 
 /**
+ * GET de TEXTO, com a mesma paciencia do `buscarJson`.
+ *
+ * Existe porque nem toda fonte publica JSON: a SEFAZ publica CSV e a
+ * Camara publica a frequencia em plenario como pagina HTML. Este era um
+ * `baixarTexto` privado dentro do coletor de emendas estaduais; subiu
+ * para ca quando o segundo coletor precisou dele, antes que virasse
+ * terceira copia da mesma logica de repeticao.
+ *
+ * Mesmas regras: seis tentativas, espera dobrando, teto por conexao, e
+ * 4xx desistindo na primeira — menos o 429, que pede espera.
+ */
+export async function baixarTexto(
+  url,
+  { tentativas = 6, pausaMs = 800, tempoLimiteMs = 30000, cabecalhos = {} } = {},
+) {
+  let ultimoErro;
+  for (let i = 1; i <= tentativas; i++) {
+    try {
+      const resposta = await fetch(url, {
+        headers: { "User-Agent": AGENTE, ...cabecalhos },
+        signal: AbortSignal.timeout(tempoLimiteMs),
+      });
+      if (!resposta.ok) {
+        const erro = new Error(`HTTP ${resposta.status} em ${url}`);
+        erro.status = resposta.status;
+        if (resposta.status === 429) {
+          erro.esperarMs = esperaPedidaPeloServidor(
+            resposta.headers.get("retry-after"),
+          );
+        }
+        throw erro;
+      }
+      return await resposta.text();
+    } catch (erro) {
+      ultimoErro = erro;
+      if (erro.status >= 400 && erro.status < 500 && erro.status !== 429) {
+        throw erro;
+      }
+      if (i < tentativas) {
+        const pausa = erro.esperarMs ?? pausaMs * 2 ** (i - 1);
+        console.warn(
+          `  tentativa ${i} de ${tentativas} falhou (${erro.message}). ` +
+            `Repetindo em ${(pausa / 1000).toFixed(1)}s.`,
+        );
+        await espera(pausa);
+      }
+    }
+  }
+  const motivo = ultimoErro?.message ?? "falha desconhecida";
+  throw new Error(
+    `${motivo.includes(url) ? motivo : `${motivo} em ${url}`} — depois de ` +
+      `${tentativas} tentativas`,
+  );
+}
+
+/**
  * Percorre uma colecao paginada da API da Camara.
  *
  * ARMADILHA DOCUMENTADA: em /deputados/{id}/despesas o filtro `ano=`

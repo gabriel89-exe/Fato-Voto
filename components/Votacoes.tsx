@@ -1,12 +1,5 @@
 import { Badge } from "@/components/ui/badge";
-import {
-  Table,
-  TableBody,
-  TableCell,
-  TableHead,
-  TableHeader,
-  TableRow,
-} from "@/components/ui/table";
+import { IconeLinkExterno } from "@/components/icones";
 import { dataCurta } from "@/lib/formato";
 
 /**
@@ -31,6 +24,24 @@ import { dataCurta } from "@/lib/formato";
  *
  *  4. A EMENTA VEM JUNTO. Sem ela a linha diz "votou Sim" sobre um
  *     código, e voto sem objeto não informa nada.
+ *
+ * ==================================================================
+ * POR QUE DEIXOU DE SER TABELA.
+ *
+ * Era uma tabela de cinco colunas: data, matéria, o que foi votado,
+ * como votou, resultado. Cabia, mas não se lia — a coluna que importa
+ * ("o que foi votado") é um parágrafo, e parágrafo espremido em célula
+ * ao lado de quatro colunas curtas obriga o olho a costurar a frase da
+ * esquerda com o voto da direita, linha após linha.
+ *
+ * Agora é uma ficha por votação: o QUE se votou vem primeiro e inteiro,
+ * o voto logo abaixo em destaque, e data e resultado como metadado. A
+ * ordem da leitura passa a ser a ordem da pergunta — "o que era isso?"
+ * antes de "como ele votou?".
+ *
+ * O que NÃO mudou: continua sem contagem agregada, sem cor por voto e
+ * com o critério do recorte à vista.
+ * ==================================================================
  */
 
 export interface LinhaVotacao {
@@ -87,78 +98,66 @@ export default function Votacoes({
 
   return (
     <div>
-      <Table>
-        <TableHeader>
-          <TableRow>
-            <TableHead>Data</TableHead>
-            <TableHead>Matéria</TableHead>
-            <TableHead>O que foi votado</TableHead>
-            <TableHead>Como votou</TableHead>
-            <TableHead>Resultado</TableHead>
-          </TableRow>
-        </TableHeader>
-        <TableBody>
-          {linhas.map((l) => (
-            <TableRow key={l.id}>
-              <TableCell
-                rotulo="Data"
-                className="whitespace-nowrap tabular-nums"
-              >
-                {l.data ? dataCurta(l.data) : "—"}
-              </TableCell>
+      <ol className="space-y-3">
+        {linhas.map((l) => (
+          <li
+            key={l.id}
+            className="border border-tinta-200 bg-papel-alta p-4"
+          >
+            {/* O QUE se votou vem primeiro e inteiro. */}
+            <p className="font-medium text-tinta-900">
+              {l.objeto ??
+                l.ementa ??
+                "A fonte não publicou descrição desta votação."}
+            </p>
+            {l.objeto && l.ementa ? (
+              <p className="mt-1 text-sm text-tinta-600">{l.ementa}</p>
+            ) : null}
 
-              {/* Sem rótulo: no celular a matéria abre a ficha. */}
-              <TableCell className="whitespace-nowrap font-mono text-xs">
-                {l.paginaOficial && l.materia ? (
-                  <a href={l.paginaOficial} target="_blank" rel="nofollow noopener">
-                    {l.materia}
-                  </a>
-                ) : (
-                  (l.materia ?? "—")
-                )}
-              </TableCell>
-
-              {/* O objeto em cima, a ementa embaixo: a mesma proposição
-                  volta ao plenário várias vezes, e é o objeto que
-                  distingue uma sessão da outra. */}
-              <TableCell rotulo="O que foi votado" larga className="max-w-md">
-                {l.objeto ? (
-                  <span className="block font-medium text-tinta-900">
-                    {l.objeto}
-                  </span>
-                ) : null}
-                <span
-                  className={
-                    l.objeto ? "mt-1 block text-tinta-600" : "block text-tinta-900"
-                  }
-                >
-                  {l.ementa ?? "A fonte não publicou ementa para esta matéria."}
+            {/* Como votou, logo abaixo e em destaque. Mesma marca para
+                toda posição: voto não é acerto. */}
+            <p className="mt-3 flex flex-wrap items-center gap-2">
+              <span className="rotulo-meta">Votou</span>
+              <Badge variant="contorno">{l.voto}</Badge>
+              {l.siglaOriginal && !l.voto.startsWith(l.siglaOriginal) ? (
+                <span className="font-mono text-[0.7rem] text-tinta-600">
+                  {l.siglaOriginal}
                 </span>
-              </TableCell>
+              ) : null}
+            </p>
 
-              {/* Mesma marca para todo voto: a posição não recebe cor.  */}
-              <TableCell rotulo="Como votou" className="whitespace-nowrap">
-                <Badge variant="discreto">{l.voto}</Badge>
-                {/* Só quando a sigla acrescenta algo. "Votou" traduzido
-                    para "Votou (votação secreta)" já contém a palavra
-                    original, e repeti-la embaixo vira ruído. */}
-                {l.siglaOriginal && !l.voto.startsWith(l.siglaOriginal) ? (
-                  <span className="mt-1 block font-mono text-[0.7rem] text-tinta-600">
-                    {l.siglaOriginal}
-                  </span>
-                ) : null}
-              </TableCell>
-
-              <TableCell
-                rotulo="Resultado"
-                className="whitespace-nowrap text-tinta-700"
-              >
-                {l.resultado ?? "—"}
-              </TableCell>
-            </TableRow>
-          ))}
-        </TableBody>
-      </Table>
+            {/* Metadado por último: é o que menos responde à pergunta. */}
+            <p className="mt-3 flex flex-wrap items-baseline gap-x-4 gap-y-1 border-t border-tinta-100 pt-2 text-xs text-tinta-600">
+              {l.data ? (
+                <span className="tabular-nums">{dataCurta(l.data)}</span>
+              ) : null}
+              {l.materia ? (
+                <span className="font-mono">
+                  {l.paginaOficial ? (
+                    <a
+                      href={l.paginaOficial}
+                      target="_blank"
+                      rel="nofollow noopener"
+                      className="inline-flex items-center gap-1"
+                    >
+                      {l.materia}
+                      <IconeLinkExterno />
+                    </a>
+                  ) : (
+                    l.materia
+                  )}
+                </span>
+              ) : null}
+              {l.resultado ? (
+                <span>
+                  <span className="rotulo-meta">A Casa decidiu: </span>
+                  {l.resultado}
+                </span>
+              ) : null}
+            </p>
+          </li>
+        ))}
+      </ol>
 
       <p className="mt-3 text-xs text-tinta-600">{criterio}</p>
       {aviso ? <p className="mt-2 text-xs text-tinta-600">{aviso}</p> : null}

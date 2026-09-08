@@ -1,0 +1,549 @@
+{
+  "fonte": {
+    "nome": "Câmara dos Deputados — Presença em plenário",
+    "url": "https://www.camara.leg.br/deputados",
+    "licenca": "Dados abertos, uso livre com citação da fonte"
+  },
+  "uf": "ES",
+  "anos": [
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "coletadoEm": "2026-09-08T20:13:16.126Z",
+  "recorte": "Presença em sessões deliberativas do plenário da Câmara, na legislatura 57. A contagem é da própria Casa, segue o Ato da Mesa n. 191 de 2017 e considera apenas o período de exercício do mandato — quem assumiu no meio do período não é contado como ausente antes disso.",
+  "conferencia": {
+    "aprovada": true,
+    "conferidoEm": "2026-09-08T20:13:16.117Z",
+    "provas": [
+      "os seis rótulos da Câmara foram encontrados em todas as páginas",
+      "dias com presença não passam do total de dias com sessão",
+      "a soma das ausências não passa do total de dias"
+    ],
+    "problemas": [],
+    "totalDeProblemas": 0
+  },
+  "parlamentares": [
+    {
+      "id": "camara-204356",
+      "idExterno": 204356,
+      "nomeUrna": "Amaro Neto",
+      "totais": {
+        "sessoes": 409,
+        "ausenciasNaoJustificadas": 0,
+        "dias": 392,
+        "diasComPresenca": 391,
+        "diasJustificados": 1,
+        "diasNaoJustificados": 0
+      },
+      "porAno": [
+        {
+          "ano": 2023,
+          "sessoes": 120,
+          "ausenciasNaoJustificadas": 0,
+          "dias": 115,
+          "diasComPresenca": 115,
+          "diasJustificados": 0,
+          "diasNaoJustificados": 0
+        },
+        {
+          "ano": 2024,
+          "sessoes": 90,
+          "ausenciasNaoJustificadas": 0,
+          "dias": 87,
+          "diasComPresenca": 87,
+          "diasJustificados": 0,
+          "diasNaoJustificados": 0
+        },
+        {
+          "ano": 2025,
+          "sessoes": 127,
+          "ausenciasNaoJustificadas": 0,
+          "dias": 121,
+          "diasComPresenca": 120,
+          "diasJustificados": 1,
+          "diasNaoJustificados": 0
+        },
+        {
+          "ano": 2026,
+          "sessoes": 72,
+          "ausenciasNaoJustificadas": 0,
+          "dias": 69,
+          "diasComPresenca": 69,
+          "diasJustificados": 0,
+          "diasNaoJustificados": 0
+        }
+      ],
+      "paginaOficial": "https://www.camara.leg.br/deputados/204356/presenca-plenario/2026"
+    },
+    {
+      "id": "camara-204355",
+      "idExterno": 204355,
+      "nomeUrna": "Da Vitoria",
+      "totais": {
+        "sessoes": 409,
+        "ausenciasNaoJustificadas": 3,
+        "dias": 392,
+        "diasComPresenca": 383,
+        "diasJustificados": 6,
+        "diasNaoJustificados": 3
+      },
+      "porAno": [
+        {
+          "ano": 2023,
+          "sessoes": 120,
+          "ausenciasNaoJustificadas": 1,
+          "dias": 115,
+          "diasComPresenca": 113,
+          "diasJustificados": 1,
+          "diasNaoJustificados": 1
+        },
+        {
+          "ano": 2024,
+          "sessoes": 90,
+          "ausenciasNaoJustificadas": 2,
+          "dias": 87,
+          "diasComPresenca": 83,
+          "diasJustificados": 2,
+          "diasNaoJustificados": 2
+        },
+        {
+          "ano": 2025,
+          "sessoes": 127,
+          "ausenciasNaoJustificadas": 0,
+          "dias": 121,
+          "diasComPresenca": 118,
+          "diasJustificados": 3,
+          "diasNaoJustificados": 0
+        },
+        {
+          "ano": 2026,
+          "sessoes": 72,
+          "ausenciasNaoJustificadas": 0,
+          "dias": 69,
+          "diasComPresenca": 69,
+          "diasJustificados": 0,
+          "diasNaoJustificados": 0
+        }
+      ],
+      "paginaOficial": "https://www.camara.leg.br/deputados/204355/presenca-plenario/2026"
+    },
+    {
+      "id": "camara-220528",
+      "idExterno": 220528,
+      "nomeUrna": "Dr. Victor Linhalis",
+      "totais": {
+        "sessoes": 408,
+        "ausenciasNaoJustificadas": 7,
+        "dias": 391,
+        "diasComPresenca": 358,
+        "diasJustificados": 26,
+        "diasNaoJustificados": 7
+      },
+      "porAno": [
+        {
+          "ano": 2023,
+          "sessoes": 119,
+          "ausenciasNaoJustificadas": 2,
+          "dias": 114,
+          "diasComPresenca": 110,
+          "diasJustificados": 2,
+          "diasNaoJustificados": 2
+        },
+        {
+          "ano": 2024,
+          "sessoes": 90,
+          "ausenciasNaoJustificadas": 5,
+          "dias": 87,
+          "diasComPresenca": 78,
+          "diasJustificados": 4,
+          "diasNaoJustificados": 5
+        },
+        {
+          "ano": 2025,
+          "sessoes": 127,
+          "ausenciasNaoJustificadas": 0,
+          "dias": 121,
+          "diasComPresenca": 107,
+          "diasJustificados": 14,
+          "diasNaoJustificados": 0
+        },
+        {
+          "ano": 2026,
+          "sessoes": 72,
+          "ausenciasNaoJustificadas": 0,
+          "dias": 69,
+          "diasComPresenca": 63,
+          "diasJustificados": 6,
+          "diasNaoJustificados": 0
+        }
+      ],
+      "paginaOficial": "https://www.camara.leg.br/deputados/220528/presenca-plenario/2026"
+    },
+    {
+      "id": "camara-178871",
+      "idExterno": 178871,
+      "nomeUrna": "Evair Vieira de Melo",
+      "totais": {
+        "sessoes": 409,
+        "ausenciasNaoJustificadas": 9,
+        "dias": 392,
+        "diasComPresenca": 370,
+        "diasJustificados": 17,
+        "diasNaoJustificados": 5
+      },
+      "porAno": [
+        {
+          "ano": 2023,
+          "sessoes": 120,
+          "ausenciasNaoJustificadas": 3,
+          "dias": 115,
+          "diasComPresenca": 111,
+          "diasJustificados": 3,
+          "diasNaoJustificados": 1
+        },
+        {
+          "ano": 2024,
+          "sessoes": 90,
+          "ausenciasNaoJustificadas": 2,
+          "dias": 87,
+          "diasComPresenca": 83,
+          "diasJustificados": 3,
+          "diasNaoJustificados": 1
+        },
+        {
+          "ano": 2025,
+          "sessoes": 127,
+          "ausenciasNaoJustificadas": 4,
+          "dias": 121,
+          "diasComPresenca": 108,
+          "diasJustificados": 10,
+          "diasNaoJustificados": 3
+        },
+        {
+          "ano": 2026,
+          "sessoes": 72,
+          "ausenciasNaoJustificadas": 0,
+          "dias": 69,
+          "diasComPresenca": 68,
+          "diasJustificados": 1,
+          "diasNaoJustificados": 0
+        }
+      ],
+      "paginaOficial": "https://www.camara.leg.br/deputados/178871/presenca-plenario/2026"
+    },
+    {
+      "id": "camara-220529",
+      "idExterno": 220529,
+      "nomeUrna": "Gilson Daniel",
+      "totais": {
+        "sessoes": 408,
+        "ausenciasNaoJustificadas": 3,
+        "dias": 391,
+        "diasComPresenca": 386,
+        "diasJustificados": 3,
+        "diasNaoJustificados": 2
+      },
+      "porAno": [
+        {
+          "ano": 2023,
+          "sessoes": 119,
+          "ausenciasNaoJustificadas": 2,
+          "dias": 114,
+          "diasComPresenca": 110,
+          "diasJustificados": 2,
+          "diasNaoJustificados": 2
+        },
+        {
+          "ano": 2024,
+          "sessoes": 90,
+          "ausenciasNaoJustificadas": 1,
+          "dias": 87,
+          "diasComPresenca": 87,
+          "diasJustificados": 0,
+          "diasNaoJustificados": 0
+        },
+        {
+          "ano": 2025,
+          "sessoes": 127,
+          "ausenciasNaoJustificadas": 0,
+          "dias": 121,
+          "diasComPresenca": 121,
+          "diasJustificados": 0,
+          "diasNaoJustificados": 0
+        },
+        {
+          "ano": 2026,
+          "sessoes": 72,
+          "ausenciasNaoJustificadas": 0,
+          "dias": 69,
+          "diasComPresenca": 68,
+          "diasJustificados": 1,
+          "diasNaoJustificados": 0
+        }
+      ],
+      "paginaOficial": "https://www.camara.leg.br/deputados/220529/presenca-plenario/2026"
+    },
+    {
+      "id": "camara-220526",
+      "idExterno": 220526,
+      "nomeUrna": "Gilvan da Federal",
+      "totais": {
+        "sessoes": 379,
+        "ausenciasNaoJustificadas": 2,
+        "dias": 363,
+        "diasComPresenca": 334,
+        "diasJustificados": 27,
+        "diasNaoJustificados": 2
+      },
+      "porAno": [
+        {
+          "ano": 2023,
+          "sessoes": 119,
+          "ausenciasNaoJustificadas": 1,
+          "dias": 114,
+          "diasComPresenca": 111,
+          "diasJustificados": 2,
+          "diasNaoJustificados": 1
+        },
+        {
+          "ano": 2024,
+          "sessoes": 90,
+          "ausenciasNaoJustificadas": 0,
+          "dias": 87,
+          "diasComPresenca": 84,
+          "diasJustificados": 3,
+          "diasNaoJustificados": 0
+        },
+        {
+          "ano": 2025,
+          "sessoes": 98,
+          "ausenciasNaoJustificadas": 1,
+          "dias": 93,
+          "diasComPresenca": 85,
+          "diasJustificados": 7,
+          "diasNaoJustificados": 1
+        },
+        {
+          "ano": 2026,
+          "sessoes": 72,
+          "ausenciasNaoJustificadas": 0,
+          "dias": 69,
+          "diasComPresenca": 54,
+          "diasJustificados": 15,
+          "diasNaoJustificados": 0
+        }
+      ],
+      "paginaOficial": "https://www.camara.leg.br/deputados/220526/presenca-plenario/2026"
+    },
+    {
+      "id": "camara-178873",
+      "idExterno": 178873,
+      "nomeUrna": "Helder Salomão",
+      "totais": {
+        "sessoes": 409,
+        "ausenciasNaoJustificadas": 0,
+        "dias": 392,
+        "diasComPresenca": 391,
+        "diasJustificados": 1,
+        "diasNaoJustificados": 0
+      },
+      "porAno": [
+        {
+          "ano": 2023,
+          "sessoes": 120,
+          "ausenciasNaoJustificadas": 0,
+          "dias": 115,
+          "diasComPresenca": 115,
+          "diasJustificados": 0,
+          "diasNaoJustificados": 0
+        },
+        {
+          "ano": 2024,
+          "sessoes": 90,
+          "ausenciasNaoJustificadas": 0,
+          "dias": 87,
+          "diasComPresenca": 87,
+          "diasJustificados": 0,
+          "diasNaoJustificados": 0
+        },
+        {
+          "ano": 2025,
+          "sessoes": 127,
+          "ausenciasNaoJustificadas": 0,
+          "dias": 121,
+          "diasComPresenca": 120,
+          "diasJustificados": 1,
+          "diasNaoJustificados": 0
+        },
+        {
+          "ano": 2026,
+          "sessoes": 72,
+          "ausenciasNaoJustificadas": 0,
+          "dias": 69,
+          "diasComPresenca": 69,
+          "diasJustificados": 0,
+          "diasNaoJustificados": 0
+        }
+      ],
+      "paginaOficial": "https://www.camara.leg.br/deputados/178873/presenca-plenario/2026"
+    },
+    {
+      "id": "camara-220527",
+      "idExterno": 220527,
+      "nomeUrna": "Jack Rocha",
+      "totais": {
+        "sessoes": 408,
+        "ausenciasNaoJustificadas": 2,
+        "dias": 391,
+        "diasComPresenca": 381,
+        "diasJustificados": 10,
+        "diasNaoJustificados": 0
+      },
+      "porAno": [
+        {
+          "ano": 2023,
+          "sessoes": 119,
+          "ausenciasNaoJustificadas": 0,
+          "dias": 114,
+          "diasComPresenca": 111,
+          "diasJustificados": 3,
+          "diasNaoJustificados": 0
+        },
+        {
+          "ano": 2024,
+          "sessoes": 90,
+          "ausenciasNaoJustificadas": 0,
+          "dias": 87,
+          "diasComPresenca": 87,
+          "diasJustificados": 0,
+          "diasNaoJustificados": 0
+        },
+        {
+          "ano": 2025,
+          "sessoes": 127,
+          "ausenciasNaoJustificadas": 1,
+          "dias": 121,
+          "diasComPresenca": 117,
+          "diasJustificados": 4,
+          "diasNaoJustificados": 0
+        },
+        {
+          "ano": 2026,
+          "sessoes": 72,
+          "ausenciasNaoJustificadas": 1,
+          "dias": 69,
+          "diasComPresenca": 66,
+          "diasJustificados": 3,
+          "diasNaoJustificados": 0
+        }
+      ],
+      "paginaOficial": "https://www.camara.leg.br/deputados/220527/presenca-plenario/2026"
+    },
+    {
+      "id": "camara-220530",
+      "idExterno": 220530,
+      "nomeUrna": "Messias Donato",
+      "totais": {
+        "sessoes": 408,
+        "ausenciasNaoJustificadas": 1,
+        "dias": 391,
+        "diasComPresenca": 388,
+        "diasJustificados": 2,
+        "diasNaoJustificados": 1
+      },
+      "porAno": [
+        {
+          "ano": 2023,
+          "sessoes": 119,
+          "ausenciasNaoJustificadas": 0,
+          "dias": 114,
+          "diasComPresenca": 112,
+          "diasJustificados": 2,
+          "diasNaoJustificados": 0
+        },
+        {
+          "ano": 2024,
+          "sessoes": 90,
+          "ausenciasNaoJustificadas": 0,
+          "dias": 87,
+          "diasComPresenca": 87,
+          "diasJustificados": 0,
+          "diasNaoJustificados": 0
+        },
+        {
+          "ano": 2025,
+          "sessoes": 127,
+          "ausenciasNaoJustificadas": 1,
+          "dias": 121,
+          "diasComPresenca": 120,
+          "diasJustificados": 0,
+          "diasNaoJustificados": 1
+        },
+        {
+          "ano": 2026,
+          "sessoes": 72,
+          "ausenciasNaoJustificadas": 0,
+          "dias": 69,
+          "diasComPresenca": 69,
+          "diasJustificados": 0,
+          "diasNaoJustificados": 0
+        }
+      ],
+      "paginaOficial": "https://www.camara.leg.br/deputados/220530/presenca-plenario/2026"
+    },
+    {
+      "id": "camara-160517",
+      "idExterno": 160517,
+      "nomeUrna": "Paulo Folletto",
+      "totais": {
+        "sessoes": 409,
+        "ausenciasNaoJustificadas": 2,
+        "dias": 392,
+        "diasComPresenca": 311,
+        "diasJustificados": 79,
+        "diasNaoJustificados": 2
+      },
+      "porAno": [
+        {
+          "ano": 2023,
+          "sessoes": 120,
+          "ausenciasNaoJustificadas": 1,
+          "dias": 115,
+          "diasComPresenca": 87,
+          "diasJustificados": 27,
+          "diasNaoJustificados": 1
+        },
+        {
+          "ano": 2024,
+          "sessoes": 90,
+          "ausenciasNaoJustificadas": 1,
+          "dias": 87,
+          "diasComPresenca": 61,
+          "diasJustificados": 25,
+          "diasNaoJustificados": 1
+        },
+        {
+          "ano": 2025,
+          "sessoes": 127,
+          "ausenciasNaoJustificadas": 0,
+          "dias": 121,
+          "diasComPresenca": 97,
+          "diasJustificados": 24,
+          "diasNaoJustificados": 0
+        },
+        {
+          "ano": 2026,
+          "sessoes": 72,
+          "ausenciasNaoJustificadas": 0,
+          "dias": 69,
+          "diasComPresenca": 66,
+          "diasJustificados": 3,
+          "diasNaoJustificados": 0
+        }
+      ],
+      "paginaOficial": "https://www.camara.leg.br/deputados/160517/presenca-plenario/2026"
+    }
+  ]
+}

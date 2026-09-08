@@ -644,3 +644,46 @@ export interface ArquivoEmendasEstaduais {
   /** Autores da janela que nao viraram ficha, com o motivo. */
   semCasamento: { nomeAutorNaFonte: string; codigoAutor: string | null; motivo: string }[];
 }
+
+/* ------------------------------------------------------------------ */
+/*  Presenca em plenario — Camara                                      */
+/* ------------------------------------------------------------------ */
+
+/**
+ * Os seis totais que a Camara publica, por ano.
+ *
+ * Sao os numeros da propria Casa, com os rotulos dela. A separacao entre
+ * ausencia JUSTIFICADA e NAO JUSTIFICADA e o que torna este dado
+ * publicavel: sem ela, licenca medica e falta viram a mesma coisa na
+ * tela, e o numero acusa em vez de descrever.
+ */
+export interface PresencaNoAno {
+  ano: number;
+  /** Sessoes deliberativas com Ordem do Dia iniciada. */
+  sessoes: number;
+  ausenciasNaoJustificadas: number;
+  /** Dias em que houve sessao deliberativa no periodo de exercicio. */
+  dias: number;
+  diasComPresenca: number;
+  diasJustificados: number;
+  diasNaoJustificados: number;
+}
+
+export interface PresencaDoParlamentar {
+  id: string;
+  idExterno: number;
+  nomeUrna: string;
+  totais: Omit<PresencaNoAno, "ano">;
+  porAno: PresencaNoAno[];
+  paginaOficial: string;
+}
+
+export interface ArquivoPresenca {
+  fonte: Fonte;
+  uf: string;
+  anos: number[];
+  coletadoEm: string;
+  recorte: string;
+  conferencia: ConferenciaDaFonte;
+  parlamentares: PresencaDoParlamentar[];
+}

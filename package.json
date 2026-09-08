@@ -13,6 +13,7 @@
     "coleta:camara": "node scripts/coleta/camara.mjs",
     "coleta:tse": "node scripts/coleta/tse.mjs",
     "coleta:tse:normalizar": "node scripts/coleta/tse-normalizar.mjs",
+    "coleta:presenca": "node scripts/coleta/presenca.mjs",
     "coleta:senado": "node scripts/coleta/senado.mjs",
     "coleta:transparencia": "node --env-file-if-exists=.env.local scripts/coleta/transparencia.mjs",
     "coleta:emendas-estaduais": "node scripts/coleta/emendas-estaduais.mjs",

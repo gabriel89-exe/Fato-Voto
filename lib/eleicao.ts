@@ -2,6 +2,7 @@ import candidaturasJson from "@/data/es/candidaturas-2026.json";
 import parlamentaresJson from "@/data/es/deputados-federais.json";
 import emendasEstaduaisJson from "@/data/es/emendas-estaduais.json";
 import emendasJson from "@/data/es/emendas.json";
+import presencaJson from "@/data/es/presenca-camara.json";
 import senadoresJson from "@/data/es/senadores.json";
 import votacoesJson from "@/data/es/votacoes-camara.json";
 import { CARGOS } from "@/types";
@@ -10,6 +11,7 @@ import type {
   ArquivoEmendas,
   ArquivoEmendasEstaduais,
   ArquivoParlamentares,
+  ArquivoPresenca,
   ArquivoSenadores,
   ArquivoVotacoes,
   Candidatura,
@@ -17,6 +19,7 @@ import type {
   EmendasDoParlamentar,
   EmendasEstaduaisDoCandidato,
   Parlamentar,
+  PresencaDoParlamentar,
   ReferenciaEmendas,
   Senador,
   VotacaoCamara,
@@ -38,6 +41,7 @@ const arquivoParlamentares =
 const arquivoSenadores = senadoresJson as unknown as ArquivoSenadores;
 const arquivoVotacoes = votacoesJson as unknown as ArquivoVotacoes;
 const arquivoEmendas = emendasJson as unknown as ArquivoEmendas;
+const arquivoPresenca = presencaJson as unknown as ArquivoPresenca;
 const arquivoEmendasEstaduais =
   emendasEstaduaisJson as unknown as ArquivoEmendasEstaduais;
 
@@ -69,6 +73,26 @@ export const RECORTE_EMENDAS = arquivoEmendas.recorte;
  * scripts/coleta/transparencia.mjs.
  */
 export const CONFERENCIA_EMENDAS = arquivoEmendas.conferencia;
+
+export const FONTE_PRESENCA = arquivoPresenca.fonte;
+export const COLETADO_EM_PRESENCA = arquivoPresenca.coletadoEm;
+export const RECORTE_PRESENCA = arquivoPresenca.recorte;
+
+/**
+ * A presenca em plenario deste mandato, ou `null` quando nao ha.
+ *
+ * So existe para deputado federal: a Camara publica a frequencia por
+ * deputado, e o Senado nao publica equivalente coletavel. A ficha de
+ * senador diz isso em vez de deixar o vazio parecer omissao da pessoa.
+ */
+export function presencaDoMandato(
+  idParlamentar: string,
+): PresencaDoParlamentar | null {
+  if (!arquivoPresenca.conferencia.aprovada) return null;
+  return (
+    arquivoPresenca.parlamentares.find((p) => p.id === idParlamentar) ?? null
+  );
+}
 
 export const FONTE_EMENDAS_ESTADUAIS = arquivoEmendasEstaduais.fonte;
 export const COLETADO_EM_EMENDAS_ESTADUAIS = arquivoEmendasEstaduais.coletadoEm;

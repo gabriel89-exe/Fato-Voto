@@ -10,6 +10,8 @@ import Termo from "@/components/Termo";
 import { GraficoComposicao, GraficoEvolucao } from "@/components/graficos";
 import { IconeLinkExterno, IconeSeta } from "@/components/icones";
 import NumeroUrna from "@/components/NumeroUrna";
+import PresencaEmPlenario from "@/components/PresencaEmPlenario";
+import Recolhivel from "@/components/Recolhivel";
 import ResumoPatrimonio from "@/components/ResumoPatrimonio";
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 import { Badge } from "@/components/ui/badge";
@@ -51,8 +53,10 @@ import {
   obterCandidatura,
   obterMandato,
   obterMandatoSenado,
+  presencaDoMandato,
   QUANTAS_VOTACOES,
   RECORTE_EMENDAS,
+  RECORTE_PRESENCA,
   RECORTE_EMENDAS_ESTADUAIS,
   REFERENCIA_EMENDAS_ESTADUAIS,
   referenciaBancada,
@@ -109,6 +113,7 @@ export default async function PaginaCandidato({
    * segunda chance de errar. Ver scripts/coleta/transparencia.mjs.
    */
   const emendasDeCamara = mandato ? emendasDoMandato(mandato.id) : null;
+  const presenca = mandato ? presencaDoMandato(mandato.id) : null;
   const emendasDeSenado = mandatoSenado
     ? emendasDoMandato(mandatoSenado.id)
     : null;
@@ -213,7 +218,35 @@ export default async function PaginaCandidato({
         */}
         {/* O provedor precisa envolver os dois: quem manda na aba
             (o botão do resumo) e as abas em si. */}
-        <ProvedorDeAbas inicial="perfil">
+        {/*
+          Perfil saiu das abas e virou o primeiro bloco depois da ficha.
+          Era a aba de entrada, mas nada nela é opcional: idade,
+          escolaridade e ocupação são o que a pessoa procura primeiro, e
+          esconder isso atrás de uma aba é esconder o básico.
+
+          Patrimônio vem logo depois, e o que sobrou nas abas — proposta,
+          histórico e mandato — é o que nem toda candidatura tem.
+        */}
+            <DadoOficial
+              titulo="Dados declarados no registro"
+              fonte={FONTE_TSE.nome}
+              coletadoEm={COLETADO_EM}
+              urlOriginal={c.paginaOficial}
+            >
+              <dl className="grid gap-x-6 gap-y-3 text-sm sm:grid-cols-2">
+                <Campo
+                  rotulo="Idade"
+                  valor={idade !== null ? `${idade} anos` : null}
+                />
+                <Campo rotulo="Gênero" valor={c.genero} />
+                <Campo rotulo="Cor ou raça (autodeclarada)" valor={c.corRaca} />
+                <Campo rotulo="Escolaridade" valor={c.escolaridade} />
+                <Campo rotulo="Ocupação declarada" valor={c.ocupacao} />
+                <Campo rotulo="Naturalidade" valor={c.naturalidade} />
+              </dl>
+            </DadoOficial>
+
+        <ProvedorDeAbas inicial="proposta">
           <ResumoPatrimonio
             candidatura={c}
             referencia={referenciaPatrimonio(c.cargo)}
@@ -225,35 +258,12 @@ export default async function PaginaCandidato({
           <div className="mt-10">
             <AbasControladas>
             <TabsList>
-              <TabsTrigger value="perfil">Perfil</TabsTrigger>
               <TabsTrigger value="proposta">Proposta</TabsTrigger>
               <TabsTrigger value="historico">Histórico</TabsTrigger>
               {mandato || mandatoSenado || emendasEstaduais ? (
                 <TabsTrigger value="mandato">Mandato</TabsTrigger>
               ) : null}
             </TabsList>
-
-            {/* ---------- Perfil ---------- */}
-            <TabsContent value="perfil">
-              <DadoOficial
-                titulo="Dados declarados no registro"
-                fonte={FONTE_TSE.nome}
-                coletadoEm={COLETADO_EM}
-                urlOriginal={c.paginaOficial}
-              >
-                <dl className="grid gap-x-6 gap-y-3 text-sm sm:grid-cols-2">
-                  <Campo
-                    rotulo="Idade"
-                    valor={idade !== null ? `${idade} anos` : null}
-                  />
-                  <Campo rotulo="Gênero" valor={c.genero} />
-                  <Campo rotulo="Cor ou raça (autodeclarada)" valor={c.corRaca} />
-                  <Campo rotulo="Escolaridade" valor={c.escolaridade} />
-                  <Campo rotulo="Ocupação declarada" valor={c.ocupacao} />
-                  <Campo rotulo="Naturalidade" valor={c.naturalidade} />
-                </dl>
-              </DadoOficial>
-            </TabsContent>
 
             {/* ---------- Proposta ---------- */}
             <TabsContent value="proposta">
@@ -638,10 +648,25 @@ export default async function PaginaCandidato({
                     contra improdutivo, que é o ranking involuntário da
                     regra 4.
                   */}
-                  <div className="mt-6 border-t border-tinta-300 pt-5">
-                    <p className="rotulo-meta mb-3">
-                      Proposições apresentadas, por tipo
-                    </p>
+                  {/*
+                    Presença antes das proposições: "apareceu para
+                    trabalhar" é a pergunta mais direta que se faz de um
+                    mandato, e vinha sem resposta nenhuma até aqui.
+                  */}
+                  {presenca ? (
+                    <div className="mt-8 border-t border-tinta-300 pt-6">
+                      <PresencaEmPlenario
+                        presenca={presenca}
+                        recorte={RECORTE_PRESENCA}
+                      />
+                    </div>
+                  ) : null}
+
+                  <div className="mt-6 space-y-3 border-t border-tinta-300 pt-5">
+                    <Recolhivel
+                      titulo="Proposições apresentadas, por tipo"
+                      resumo={`${mandato.proposicoes.porTipo.length} tipos de proposição`}
+                    >
                     <ul className="flex flex-wrap gap-2">
                       {mandato.proposicoes.porTipo.slice(0, 12).map((t) => (
                         <li key={t.tipo}>
@@ -657,12 +682,12 @@ export default async function PaginaCandidato({
                       contariam igual num total, e não são a mesma coisa. Por
                       isso não há um número único.
                     </p>
-                  </div>
+                    </Recolhivel>
 
-                  <div className="mt-6">
-                    <p className="rotulo-meta mb-3">
-                      Proposições mais recentes
-                    </p>
+                    <Recolhivel
+                      titulo="Proposições mais recentes"
+                      resumo={`${mandato.proposicoes.recentes.length} propostas, com o que cada uma trata`}
+                    >
                     <Table>
                       <TableHeader>
                         <TableRow>
@@ -703,6 +728,7 @@ export default async function PaginaCandidato({
                       data de apresentação. A lista completa está no portal da
                       Câmara.
                     </p>
+                    </Recolhivel>
                   </div>
 
                   <div className="mt-8 border-t border-tinta-300 pt-5">
