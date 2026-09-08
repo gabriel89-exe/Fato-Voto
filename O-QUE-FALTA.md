@@ -119,6 +119,52 @@ está vazio em cada caso, como manda a regra 5 de `docs/principios.md`.
 
 ---
 
+## 3.5 Salário dos cargos — falta a fonte, não o código
+
+**O que se quer:** mostrar quanto paga cada cargo em disputa, na
+`/como-funciona` e na ficha de quem tem mandato.
+
+**O que impede:** procedência. O valor do subsídio é público e fixado por
+lei, mas em 08/09/2026 nenhum caminho testado devolveu o número numa fonte
+citável:
+
+| Onde | Resultado |
+|---|---|
+| `camara.leg.br/transparencia/remuneracao-e-verbas` | 404 |
+| `www2.camara.leg.br/transparencia/recursos-humanos/remuneracao` | valores renderizados por JS, ausentes no HTML servido |
+| Tabelas de remuneração → "Deputados Federais" | PDF de **servidores**, não do subsídio de deputado |
+| `al.es.gov.br/Transparencia/RemuneracaoDeputados` | sem valores no HTML |
+| `senado.leg.br/transparencia/rh/remuneracao-dos-senadores` | 404 |
+
+Saber o valor de cabeça não basta: a regra 2 exige fonte à vista. **Não
+publicar número sem procedência.**
+
+**Caminhos ainda não testados:** arquivos abertos do Senado, Diário Oficial
+da União (o decreto legislativo que fixa o subsídio), e o portal de
+transparência da ALES em formato de arquivo.
+
+## 3.6 Presença em sessões — a API não tem o que torna o dado justo
+
+**O que se quer:** quantas sessões houve, quantas a pessoa compareceu,
+quantas ausências foram justificadas.
+
+**O que a API da Câmara dá:** `/deputados/{id}/eventos` (eventos de que
+participou) e `/eventos/{id}/deputados` (quem esteve num evento).
+
+**O que ela NÃO dá:** frequência em plenário de forma agregada, e —
+decisivo — **a justificativa de ausência**. Sem separar licença médica,
+licença-maternidade e missão oficial, "compareceu a 140 de 200" vira
+acusação, não fato. O projeto já tem decisão registrada contra placar de
+presença exatamente por isso.
+
+**Só vale construir com raspagem** do portal de frequência da Câmara, fora
+da API. É mais frágil e precisa de decisão de pessoa sobre o risco.
+
+**"Quantos projetos aprovou" não entra**, mesmo que o dado existisse:
+aprovação depende de relator, pauta e acordo de líderes, e a contagem
+repetiria o ranking de produtividade que a decisão sobre proposições já
+recusou.
+
 ## 4. Interface
 
 ### 4.1 Comparador
