@@ -1,8 +1,8 @@
 # O que falta para finalizar
 
-Levantamento de **02/09/2026**, feito ao fim da integração com o Portal da
-Transparência. É a lista curta e acionável; o raciocínio de cada decisão está
-no [`ANDAMENTO.md`](ANDAMENTO.md), e o mapa das fontes em
+Levantamento de **07/09/2026**, refeito depois de uma revisão completa do
+projeto. É a lista curta e acionável; o raciocínio de cada decisão está no
+[`ANDAMENTO.md`](ANDAMENTO.md), e o mapa das fontes em
 [`docs/fontes-de-dados.md`](docs/fontes-de-dados.md).
 
 Ordem proposital: o que trava a divulgação vem primeiro, e nada disso é código.
@@ -11,7 +11,19 @@ Ordem proposital: o que trava a divulgação vem primeiro, e nada disso é códi
 
 ## 1. Bloqueia a divulgação — depende de pessoa, não de código
 
-### 1.1 Domínio de produção
+### 1.1 Arquivo `LICENSE`
+
+**O que fazer:** GitHub → *Add file* → *Create new file* → nomear `LICENSE` →
+*Choose a license template* → **GNU AGPLv3**.
+
+**Por que trava:** o `package.json`, o `README.md` e o rodapé do site já
+declaram AGPL-3.0-only, mas **sem o arquivo ninguém tem direito legal de reusar
+o código**. Um projeto que se diz aberto e não entrega licença faz uma promessa
+que não cumpre. Conferido em 07/09/2026: o arquivo não existe.
+
+**Custo:** dois minutos. É o item de menor esforço e maior desproporção.
+
+### 1.2 Domínio de produção
 
 **O que fazer:** definir `NEXT_PUBLIC_SITE_URL` na Vercel com o domínio final.
 
@@ -20,18 +32,6 @@ compartilhamento geram URL errada. Um link do site colado no WhatsApp mostra
 pré-visualização quebrada, e o Google indexa endereço que não existe.
 
 **Custo:** minutos, depois de decidir o domínio.
-
-### 1.2 Arquivo `LICENSE`
-
-**O que fazer:** adicionar pelo seletor de licença do GitHub, escolhendo
-**AGPL-3.0-only**.
-
-**Por que trava:** o `package.json`, o `README.md` e o rodapé do site já
-declaram AGPL-3.0-only, mas **sem o arquivo ninguém tem direito legal de
-reusar o código**. Um projeto que se diz aberto e não entrega licença está
-fazendo uma promessa que não cumpre.
-
-**Custo:** dois minutos. É o item de menor esforço e maior desproporção.
 
 ### 1.3 Revisão jurídica da página de privacidade
 
@@ -46,7 +46,7 @@ do risco.
 
 ---
 
-## 2. Emendas parlamentares — pronto, esperando a fonte
+## 2. Emendas federais — pronto, esperando a fonte
 
 A integração está **completa, conferida e no ar**. O que falta não é nosso.
 
@@ -62,19 +62,17 @@ fonte.
 ### Por que o valor está suspenso
 
 A API do Portal da Transparência devolve valor monetário **dividido por
-10.000**, de forma intermitente. Medido em 02/09/2026, dez consultas seguidas ao
-mesmo código, contra a página pública do próprio portal:
+10.000**, de forma intermitente e aleatória.
 
-| Emenda | Página pública | O que a API devolveu |
-|---|---|---|
-| `202533120003` | R$ 200.000,00 | `"20,00"` 9× · `"200.000,00"` 1× |
-| `202543840005` | R$ 1.400.000,00 | `"140,00"` 9× · `"1.400.000,00"` 1× |
-| `202643830011` | R$ 7,00 | `"7,00"` 10× (correto) |
+Medido em 07/09/2026, 24 emendas com 6 leituras cada: **17% ainda oscilam**.
+Melhorou — era cerca de 30% em 02/09 —, mas não consertou. Duas hipóteses de
+causa foram testadas e descartadas: **não é ritmo de requisição** (a taxa é a
+mesma com pausa de 600ms, 180ms ou nenhuma) e **não é reuso de conexão** (mesma
+taxa com `keepAlive` ligado e desligado).
 
-Cerca de **uma leitura correta a cada dez** nos registros afetados. Os campos de
-texto — código, ano, tipo, função, localidade — são estáveis: 30 emendas lidas
-três vezes cada, zero divergência. Por isso a ficha mostra tudo, menos o
-dinheiro.
+Cuidado ao reavaliar: uma amostra de 3 leituras por registro **parece limpa** e
+não é. Foi exatamente esse erro que me fez concluir, em 07/09, que a fonte tinha
+consertado. Use 6 leituras ou mais.
 
 ### O que fazer
 
@@ -83,16 +81,15 @@ dinheiro.
 API de dados abertos.
 
 O relato precisa de: o endpoint (`/api-de-dados/emendas`), o `codigoEmenda`, o
-valor devolvido, o valor da página pública e a taxa observada. Está tudo na
-tabela acima e em `docs/fontes-de-dados.md`.
+valor devolvido, o valor da página pública e a taxa observada. Está tudo em
+`docs/fontes-de-dados.md`.
 
 ### O que NÃO fazer
 
 Publicar o valor mesmo assim. A corrupção só encolhe, nunca infla, então ler
 várias vezes e ficar com o maior acertaria na maioria — e **erraria em silêncio
 para menos** nos registros que nunca viessem limpos. Numa plataforma de
-transparência, subnotificar gasto público é o pior erro possível. A decisão está
-registrada no `ANDAMENTO.md`.
+transparência, subnotificar gasto público é o pior erro possível.
 
 ### Quando a fonte consertar
 
@@ -104,15 +101,14 @@ código dos dois modos já está escrito e testado.
 
 ## 3. Dados que faltam
 
-### 3.1 Atuação de deputado estadual — a maior lacuna
+### 3.1 Atuação de deputado estadual em plenário
 
-A Assembleia Legislativa do ES **não tem API**. Há portal de dados abertos e de
-transparência, com frequência em plenário e verba de gabinete, mas sem interface
-documentada — provavelmente exige raspagem de HTML/CSV.
+O que sobrou da lacuna estadual depois de 02/09: **votações, presença e
+projetos**. A ALES não tem API.
 
-**Peso:** é o cargo com mais candidaturas no piloto, e o único sem nenhuma aba
-de mandato. Quem procurar um deputado estadual encontra a ficha de candidatura e
-nada sobre o que a pessoa fez.
+**O que já foi resolvido:** as emendas estaduais, pela SEFAZ
+(`dados.es.gov.br`), com valores íntegros e conferência aprovada. 29 fichas
+ganharam aba de Mandato. O cargo deixou de ser um vazio.
 
 ### 3.2 Emendas de bancada e de comissão
 
@@ -120,7 +116,14 @@ Emenda coletiva move dinheiro e **não tem autor individual na fonte**. Não ent
 na soma de pessoa nenhuma, nem deveria. Mostrá-la exige uma tela que descreva a
 bancada do estado, não a pessoa candidata — é produto novo, não ajuste.
 
-### 3.3 Lacunas já visíveis nos dados atuais
+### 3.3 Quatro autores estaduais sem ficha
+
+`Danilo Bahiense`, `Iriny Lopes`, `Lucas Scaramussa` e `Theodorico Ferraço` não
+casaram com nenhuma candidatura de 2026 — não são candidatos, ou o nome mudou. Estão
+declarados no próprio dado, com o motivo. Vale conferir se algum é candidato sob
+outro nome de urna.
+
+### 3.4 Lacunas já visíveis nos dados atuais
 
 `bens` vem vazio em **195 das 575** candidaturas, e `eleicoesAnteriores` em
 **178**. A omissão é da fonte. O que falta conferir é se a ficha diz *por que*
@@ -143,28 +146,21 @@ facilmente vira ranking involuntário.
 
 ## 5. Operação — o que vigiar
 
-### 5.1 A coleta diária das 6h17
+### 5.1 Câmara e Senado caem de forma intermitente
 
-Em 02/09/2026 ela falhou três vezes seguidas, por três motivos diferentes. Todos
-já corrigidos, mas vale conferir o resultado da próxima execução agendada:
+**Assinatura:** o passo dura ~88 segundos e termina com `fetch failed` — as seis
+tentativas do `buscarJson` esgotando contra uma conexão que não se estabelece.
 
-| O que aconteceu | Correção |
-|---|---|
-| TSE devolveu `HTTP 429` na candidatura 210 de 410 | 429 passa a ser tratado como "espere", com `Retry-After` |
-| Câmara caiu com `fetch failed` por ~1 minuto | seis tentativas, espera dobrando, teto de 15s por conexão |
-| O commit da coleta morreu em conflito de rebase | alinha com o `main` **antes** de commitar, não depois |
+**Frequência:** 2 das 6 execuções agendadas entre 02/09 e 07/09, alternando
+entre as duas fontes. Em 07/09 foi a Câmara, e os dados dela ficaram um dia
+atrás.
 
-As cinco coletas anteriores (29/08 a 01/09) passaram. As falhas foram do dia,
-não estruturais — o 429 do TSE foi provocado por termos disparado a coleta
-quatro vezes em uma hora, depurando.
+**Não há conserto no código.** A paciência já foi ao limite razoável: seis
+tentativas, espera dobrando até ~25s, teto de 15s por conexão. É a
+infraestrutura dessas APIs recusando conexão do runner do GitHub.
 
-**O que olhar:** se a Câmara falhar de novo com `fetch failed`, não é mais
-soluço. Aí seria a Câmara recusando conexão do runner do GitHub, e o conserto
-não está no código — teria que ser outro caminho de rede.
-
-**Ponto de atenção:** o endpoint `deputados?siglaUf=ES` levou **9,1 segundos**
-numa medição local. É lento por natureza, e o teto por conexão é de 15s. Se
-ficar mais lento, vira falha.
+**Se piorar,** a saída seria coletar de um IP brasileiro — runner próprio ou uma
+máquina pequena no Brasil. É decisão de infraestrutura, não de código.
 
 ### 5.2 Proteção de branch
 
@@ -189,12 +185,27 @@ Nada disto muda comportamento, mas confunde quem chegar ao projeto:
 - `TarjaPrototipo` já não é tarja de protótipo; o nome mente sobre o que o
   componente faz.
 - `.github/workflows/coleta.yml` cita "232 registros em julgamento" como número
-  fixo; ele muda a cada coleta.
+  fixo; em 07/09/2026 eram 98.
+
+---
+
+## Resolvido desde o levantamento anterior
+
+Para não reabrir o que já foi fechado:
+
+- **Emendas estaduais** (02/09) — a fonte que a documentação dizia não existir.
+  Era a maior lacuna do projeto.
+- **Secret `TRANSPARENCIA_TOKEN`** (01/09) — cadastrado e confirmado em log.
+- **CI vermelho todo dia** (07/09) — reprovação da conferência virou anotação
+  amarela em vez de falha. Vermelho volta a significar algo.
+- **TSE devolvendo 429** (02/09) — 429 passou a ser tratado como "espere".
+- **Commit da coleta morrendo em conflito** (02/09) — alinha com o `main` antes
+  de commitar, não depois.
 
 ---
 
 ## Resumo em uma linha
 
-O produto está pronto. **Faltam três passos de pessoa** — domínio, licença e
+O produto está pronto. **Faltam três passos de pessoa** — licença, domínio e
 revisão jurídica — e **um passo de terceiro**: o Portal da Transparência
-consertar a API de emendas. O resto é ampliação, não conclusão.
+terminar de consertar a API de emendas. O resto é ampliação, não conclusão.

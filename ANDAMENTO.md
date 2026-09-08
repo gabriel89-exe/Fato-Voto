@@ -206,6 +206,24 @@ Nada disto muda comportamento, mas confunde quem chegar ao projeto:
 
 ## Decisões registradas
 
+**Reprovar a fonte não é falhar a coleta.** De 02/09 a 07/09/2026 a coleta
+diária terminou vermelha seis vezes seguidas, e o motivo principal era o passo
+do Portal da Transparência saindo com erro porque a conferência reprovou — que
+é exatamente o que a conferência existe para fazer.
+
+O risco não é a cor: é a **fadiga de alarme**. Quando tudo está sempre vermelho,
+ninguém olha, e a falha de verdade passa junto. Foi o que aconteceu em
+07/09/2026 — a Câmara caiu de fato naquele dia, e isso se perdeu dentro do
+vermelho de sempre.
+
+Reprovar é resultado previsto e tratado: a coleta grava o veredito, o site
+publica o que sobrou de confiável e diz na tela por que o resto não está lá.
+Ninguém precisa agir. Agora vira **anotação amarela** no resumo da execução —
+visível, sem gastar o alarme. Vermelho passa a significar o contrário: dado que
+não atualizou, ou código que quebrou. Conferido nos três casos: reprovação sai
+com 0, token ausente sai com 1, erro de rede sai com 1.
+
+
 **A identidade é tinta sobre papel, e a logomarca é o círculo dividido.**
 Em 02/09/2026, a pedido do mantenedor, o azul-violeta saiu e o único acento
 passou a ser a própria tinta: neutralidade máxima, nenhum matiz que possa

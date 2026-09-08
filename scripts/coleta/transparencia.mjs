@@ -3,6 +3,7 @@ import { join } from "node:path";
 
 import {
   RAIZ_NORMALIZADA,
+  anunciarReprovacao,
   atualizarManifesto,
   buscarJson,
   gravarNormalizado,
@@ -705,21 +706,14 @@ async function principal() {
   });
 
   if (!conferencia.aprovada) {
-    console.error(
-      `\nCONFERÊNCIA REPROVADA — ${problemas.length} inconsistências na fonte.`,
-    );
-    for (const problema of problemas.slice(0, 10)) {
-      console.error("  ✗ " + problema);
-    }
-    if (problemas.length > 10) {
-      console.error(`  ... e mais ${problemas.length - 10}.`);
-    }
-    console.error(
-      "\nNenhum VALOR foi publicado — mas quantas, para onde e em que área, " +
+    anunciarReprovacao({
+      fonte: FONTE.nome,
+      problemas,
+      consequencia:
+        "Nenhum VALOR foi publicado — mas quantas, para onde e em que área, " +
         "sim: esses campos vêm de texto, que a fonte não corrompe. A ficha " +
         "mostra isso e diz por que o dinheiro não está lá.",
-    );
-    process.exitCode = 1;
+    });
     return;
   }
 

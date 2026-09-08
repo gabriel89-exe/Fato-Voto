@@ -78,9 +78,16 @@ jobs:
       # build, que é onde um segredo vazaria para dentro de `.next/`.
       #
       # Sem o secret configurado, o passo falha com mensagem clara e as
-      # outras quatro coletas seguem: `data/es/emendas.json` fica com o
+      # outras coletas seguem: `data/es/emendas.json` fica com o
       # conteúdo do dia anterior, e o site mostra a data antiga na
       # procedência em vez de mostrar um vazio novo.
+      #
+      # O passo NÃO fica vermelho quando a conferência reprova a fonte.
+      # Reprovar é resultado previsto e tratado — a coleta grava o
+      # veredito e o site diz na tela o que ficou de fora. Vira anotação
+      # amarela, visível no resumo. Vermelho aqui significa dado que não
+      # atualizou ou código que quebrou. Ver `anunciarReprovacao` em
+      # scripts/coleta/comum.mjs para o episódio que motivou isso.
       - name: Portal da Transparência — emendas parlamentares
         if: always()
         env:

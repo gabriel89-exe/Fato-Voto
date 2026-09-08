@@ -273,3 +273,56 @@ export function reais(valor) {
     maximumFractionDigits: 0,
   }).format(valor);
 }
+
+/**
+ * Anuncia que a conferencia reprovou a fonte — SEM derrubar o passo.
+ *
+ * ==================================================================
+ * POR QUE REPROVAR NAO E FALHAR.
+ *
+ * De 02/09 a 07/09/2026 a coleta diaria terminou VERMELHA seis vezes
+ * seguidas. O motivo principal era este: o passo do Portal da
+ * Transparencia saia com erro porque a conferencia reprovou a fonte —
+ * que e exatamente o que a conferencia existe para fazer quando a API
+ * devolve valor inconsistente.
+ *
+ * O risco nao e a cor. E a fadiga de alarme: quando tudo esta sempre
+ * vermelho, ninguem olha, e a falha de verdade passa junto. Foi o que
+ * aconteceu em 07/09 — a Camara caiu de fato naquele dia, e isso se
+ * perdeu dentro do vermelho de sempre.
+ *
+ * Reprovar e um resultado PREVISTO e TRATADO: a coleta grava o
+ * veredito, o site publica o que sobrou de confiavel e diz na tela por
+ * que o resto nao esta la. Nada foi perdido e ninguem precisa agir.
+ * Vermelho aqui deve significar o contrario: dado que NAO atualizou,
+ * ou codigo que quebrou.
+ *
+ * O aviso nao some — no GitHub Actions ele vira anotacao amarela, que
+ * aparece no resumo da execucao. Visivel, e sem gastar o alarme.
+ * ==================================================================
+ */
+export function anunciarReprovacao({ fonte, problemas, consequencia }) {
+  console.error(
+    `\nCONFERÊNCIA REPROVADA — ${problemas.length} inconsistências em ${fonte}.`,
+  );
+  for (const problema of problemas.slice(0, 10)) {
+    console.error("  ✗ " + problema);
+  }
+  if (problemas.length > 10) {
+    console.error(`  ... e mais ${problemas.length - 10}.`);
+  }
+  console.error("\n" + consequencia);
+  console.error(
+    "\nIsto NÃO é falha da coleta: é a trava funcionando. O passo termina " +
+      "com sucesso de propósito — vermelho aqui fica reservado para dado " +
+      "que não atualizou ou código que quebrou.",
+  );
+
+  /* Anotacao amarela no resumo da execucao. Só existe no Actions. */
+  if (process.env.GITHUB_ACTIONS) {
+    const uma = `${fonte}: ${problemas.length} inconsistências. ${consequencia}`;
+    console.log(
+      `::warning title=Conferência reprovou a fonte::${uma.replace(/\s+/g, " ")}`,
+    );
+  }
+}

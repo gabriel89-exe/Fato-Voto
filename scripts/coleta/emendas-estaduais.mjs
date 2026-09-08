@@ -3,6 +3,7 @@ import { join } from "node:path";
 
 import {
   RAIZ_NORMALIZADA,
+  anunciarReprovacao,
   atualizarManifesto,
   gravarNormalizado,
   guardarBruto,
@@ -746,16 +747,11 @@ async function principal() {
   }
 
   if (!conferencia.aprovada) {
-    console.error(
-      `\nCONFERÊNCIA REPROVADA — ${problemas.length} inconsistências na fonte.`,
-    );
-    for (const problema of problemas.slice(0, 10)) {
-      console.error("  ✗ " + problema);
-    }
-    console.error(
-      "\nNenhum VALOR foi publicado — quantas e para onde, sim.",
-    );
-    process.exitCode = 1;
+    anunciarReprovacao({
+      fonte: FONTE.nome,
+      problemas,
+      consequencia: "Nenhum VALOR foi publicado — quantas e para onde, sim.",
+    });
     return;
   }
 
