@@ -13,3 +13,10 @@ dados-brutos
 
 # Permissoes de ferramenta por maquina, nao do projeto.
 .claude/settings.local.json
+
+# Skills de terceiros, tratadas como dependencia: o LOCK entra no
+# repositorio, o conteudo nao. Sao 8 MB de markdown, fonte e CSV que
+# nao foram escritos aqui e que `npx skills add` reconstroi a partir do
+# skills-lock.json. `.claude/skills/` sao so symlinks para `.agents/`.
+.agents/
+.claude/skills/
