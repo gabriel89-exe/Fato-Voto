@@ -415,6 +415,49 @@ export const DINHEIRO: Verbete[] = [
 
 export const CANDIDATURA: Verbete[] = [
   {
+    id: "coligacao-federacao",
+    termo: "Coligação e federação",
+    resumo:
+      "Duas formas de partidos andarem juntos — e elas valem para eleições diferentes.",
+    explicacao: [
+      "COLIGAÇÃO é a união de partidos para lançar um candidato só. Vale hoje apenas nas eleições majoritárias — presidente, governador e senador. Acaba no dia da posse: cada partido volta a andar sozinho.",
+      "FEDERAÇÃO é mais séria. Os partidos se unem e passam a agir como um só partido por no mínimo quatro anos, inclusive no Congresso. Quem sai antes do prazo fica sem fundo partidário e sem tempo de TV.",
+      "Nas eleições de deputado federal e estadual, coligação NÃO existe mais desde 2020. Se a ficha de um deputado mostra vários partidos no campo de coligação, é federação — e é por isso que o nome vem escrito assim.",
+      "Por que isso importa para quem vota: numa federação, o seu voto ajuda a eleger candidatos de todos os partidos que a compõem, não só do partido do seu candidato.",
+    ],
+    baseLegal: "Emenda Constitucional 97/2017 e Lei 14.208/2021",
+    fontes: [
+      {
+        rotulo: "Emenda Constitucional 97/2017",
+        url: "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc97.htm",
+      },
+      {
+        rotulo: "Lei 14.208/2021 — federação partidária",
+        url: "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14208.htm",
+      },
+    ],
+  },
+  {
+    id: "situacao-do-registro",
+    termo: "Situação do registro",
+    resumo:
+      "Deferido, indeferido, aguardando julgamento ou renúncia — o que cada palavra significa.",
+    explicacao: [
+      "DEFERIDO: a Justiça Eleitoral analisou o pedido e aceitou. A candidatura está regular. A decisão ainda pode mudar se houver recurso.",
+      "AGUARDANDO JULGAMENTO: o pedido foi entregue e ainda não há decisão. A pessoa já pode fazer campanha, e o nome pode ir para a urna com os votos contados sub judice.",
+      "INDEFERIDO: a Justiça recusou o registro. Se ainda cabe recurso, a candidatura pode ser retomada; se a decisão é final, os votos são anulados.",
+      "RENÚNCIA: a própria pessoa desistiu depois de pedir o registro. Não é decisão da Justiça, é decisão dela.",
+      "Nenhuma dessas palavras é julgamento moral sobre a pessoa. São etapas de um processo administrativo, e a maior parte das candidaturas termina deferida.",
+    ],
+    baseLegal: "Lei 9.504/1997, art. 11",
+    fontes: [
+      {
+        rotulo: "Lei 9.504/1997, art. 11",
+        url: "https://www.planalto.gov.br/ccivil_03/leis/l9504.htm#art11",
+      },
+    ],
+  },
+  {
     id: "aguardando-julgamento",
     termo: "Aguardando julgamento",
     resumo:
@@ -434,6 +477,69 @@ export const CANDIDATURA: Verbete[] = [
       {
         rotulo: "TSE — Registro de candidatura",
         url: "https://www.tse.jus.br/eleicoes/eleicoes-2026",
+      },
+    ],
+  },
+];
+
+
+/* ------------------------------------------------------------------ */
+/*  Como o voto vira cadeira                                           */
+/* ------------------------------------------------------------------ */
+
+export const URNA: Verbete[] = [
+  {
+    id: "quociente-eleitoral",
+    termo: "Quociente eleitoral",
+    resumo:
+      "A conta que explica por que o candidato mais votado às vezes não se elege.",
+    explicacao: [
+      "Deputado federal e estadual não são eleitos pelos mais votados. A eleição é PROPORCIONAL, e funciona em duas etapas.",
+      "Primeiro descobre-se quantos votos valem uma cadeira: divide-se o total de votos válidos pelo número de vagas. Esse número é o quociente eleitoral.",
+      "Depois vê-se quantas cadeiras cada partido ou federação conquistou: os votos que ele recebeu, somando todos os seus candidatos mais os votos de legenda, divididos pelo quociente eleitoral.",
+      "Só então se olha para as pessoas: dentro de cada partido, as cadeiras vão para os mais votados — desde que tenham alcançado pelo menos 10% do quociente eleitoral.",
+      "É por isso que um candidato com muitos votos pode ficar de fora enquanto outro com menos entra: o que decide primeiro é quanto o PARTIDO somou, não quanto a pessoa somou.",
+    ],
+    baseLegal: "Código Eleitoral, arts. 106 a 109",
+    fontes: [
+      {
+        rotulo: "Código Eleitoral, art. 106",
+        url: "https://www.planalto.gov.br/ccivil_03/leis/l4737.htm#art106",
+      },
+    ],
+  },
+  {
+    id: "voto-de-legenda",
+    termo: "Voto de legenda",
+    resumo:
+      "Votar só no número do partido, sem escolher pessoa. O voto conta para as cadeiras dele.",
+    explicacao: [
+      "Nas eleições proporcionais dá para digitar só os dois dígitos do partido. O voto não vai para nenhum candidato específico — vai para a soma do partido.",
+      "Essa soma entra na conta do quociente eleitoral e ajuda a definir quantas cadeiras o partido leva. Quem ocupa essas cadeiras são os candidatos mais votados dele.",
+      "Ou seja: o voto de legenda elege gente, só que quem escolhe QUEM é o conjunto dos outros eleitores, não você.",
+    ],
+    fontes: [
+      {
+        rotulo: "Código Eleitoral, art. 176",
+        url: "https://www.planalto.gov.br/ccivil_03/leis/l4737.htm#art176",
+      },
+    ],
+  },
+  {
+    id: "suplente",
+    termo: "Suplente",
+    resumo:
+      "Quem assume a cadeira quando o titular sai, licencia ou vira ministro.",
+    explicacao: [
+      "Na eleição proporcional, os candidatos do partido que não alcançaram cadeira ficam na fila como suplentes, na ordem de votação.",
+      "Eles assumem quando um titular se afasta — por licença, por assumir cargo no Executivo, por renúncia ou por cassação. Não é situação rara: acontece em toda legislatura.",
+      "No Senado é diferente: cada candidato registra os próprios suplentes na chapa, e o eleitor vota nos três de uma vez, mesmo que só o nome do titular apareça na urna.",
+    ],
+    baseLegal: "Constituição Federal, art. 56",
+    fontes: [
+      {
+        rotulo: "Constituição Federal, art. 56",
+        url: "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#art56",
       },
     ],
   },
@@ -478,6 +584,13 @@ export const SECOES = [
     intro:
       "Entre pedir o registro e estar na urna existe um processo — e ele explica por que tanta gente aparece aqui como “aguardando julgamento” enquanto já faz campanha na rua.",
     verbetes: CANDIDATURA,
+  },
+  {
+    id: "urna",
+    titulo: "Como o seu voto vira cadeira",
+    intro:
+      "Deputado não é eleito pelos mais votados. Esta é a parte do sistema que mais surpreende quem descobre — e a que mais muda o sentido do próprio voto.",
+    verbetes: URNA,
   },
   {
     id: "dinheiro",
