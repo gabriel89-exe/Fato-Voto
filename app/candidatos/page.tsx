@@ -96,14 +96,37 @@ export default async function PaginaCandidatos({
           ) : null}
         </h1>
 
-        <p className="mt-4 flex flex-wrap items-center gap-2 text-sm text-tinta-600">
-          <IconeSorteio className="h-4 w-4 shrink-0 text-tinta-500" />
-          <span>
-            Ordem sorteada em {dataCurta(dia)}. Ela é a mesma para todo mundo
-            hoje e muda amanhã.{" "}
-            <Link href="/metodologia">Por que sorteamos</Link>.
-          </span>
-        </p>
+        {/* A régua do sorteio, escura como a da home.
+            O sorteio é o dispositivo central de neutralidade do site, e
+            estava dito numa linha de texto cinza entre outras linhas de
+            texto cinza. Numa página cuja ordem é aleatória de propósito,
+            quem não lê esse aviso lê a lista como um ranking — que é
+            exatamente o que ela não é.
+
+            Escuro por peso, não por alarme: é a mesma tinta do resto,
+            sem matiz e sem cor de alerta. Ver docs/principios.md,
+            regras 1 e 3. */}
+        <div className="mt-6 flex flex-wrap items-center justify-between gap-x-6 gap-y-3 rounded-lg bg-tinta-950 px-5 py-4">
+          <p className="flex items-center gap-3 text-papel">
+            <IconeSorteio
+              className="h-5 w-5 shrink-0 text-papel/70"
+              aria-hidden="true"
+            />
+            <span>
+              <span className="font-semibold">Ordem sorteada</span>{" "}
+              <span className="text-papel/70">
+                em {dataCurta(dia)} — a mesma para todo mundo hoje, outra
+                amanhã.
+              </span>
+            </span>
+          </p>
+          <Link
+            href="/metodologia"
+            className="alvo-toque rounded border border-papel/40 px-3 text-sm text-papel no-underline transition-colors hover:border-papel hover:bg-papel hover:text-tinta-950"
+          >
+            Por que sorteamos
+          </Link>
+        </div>
       </header>
 
       <div className="mt-8 grid gap-6 lg:grid-cols-[18rem_minmax(0,1fr)] lg:gap-8">

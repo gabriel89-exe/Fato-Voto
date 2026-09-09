@@ -53,8 +53,13 @@ projeto:
   Em script, usar `process.cwd()` em vez de escrever o caminho. E conferir a
   saída: já houve ferramenta que saiu com código 0 tendo pulado todos os
   arquivos por causa disso, em silêncio. Renomear a pasta resolveria de vez.
-- **Não rodar `npm run build` com o servidor de desenvolvimento ligado** — os
-  chunks do `.next` corrompem e o erro aparece longe da causa.
+- **Não rodar `npm run build` com nenhum servidor ligado** — nem o de
+  desenvolvimento nem o `next start`. Os chunks do `.next` corrompem e o erro
+  aparece longe da causa. Com o `next start`, o sintoma é pior porque não
+  parece erro: o servidor continua servindo o build ANTERIOR, a página abre
+  normalmente, e a alteração que acabou de compilar simplesmente não está lá.
+  Já custou uma rodada de investigação. Parar o servidor, `rm -rf .next`,
+  build, subir de novo.
 - **Backtick em `node -e` ou heredoc não citado é substituição de comando.** O
   shell esvazia o conteúdo em silêncio. Para texto com backtick ou `${}`, usar
   as ferramentas de escrita de arquivo, não o shell.

@@ -71,6 +71,9 @@ const PARES = [
   ["papel sobre tinta-950 (título)", PAPEL, "#191713", 4.5],
   ["papel/70 sobre tinta-950 (rótulo)", "#b4b2ae", "#191713", 4.5],
   ["papel/65 sobre tinta-950 (detalhe)", "#a9a7a3", "#191713", 4.5],
+  /* Borda de controle sobre a régua escura: 3:1 pela WCAG 1.4.11.
+     A 30% dava 2,60:1 e passou perto de ir ao ar assim. */
+  ["papel/40 borda de controle sobre tinta-950", "#72706c", "#191713", 3.0],
 ];
 
 let reprovou = false;
