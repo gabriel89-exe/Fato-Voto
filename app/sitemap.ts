@@ -35,6 +35,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.6,
     },
     {
+      url: `${SITE_URL}/o-projeto`,
+      lastModified: coleta,
+      changeFrequency: "daily",
+      priority: 0.7,
+    },
+    {
       url: `${SITE_URL}/metodologia`,
       changeFrequency: "monthly",
       priority: 0.5,

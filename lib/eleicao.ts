@@ -102,6 +102,56 @@ export const CONFERENCIA_EMENDAS_ESTADUAIS = arquivoEmendasEstaduais.conferencia
 /** Mediana e faixa da bancada estadual. Regra 4: total nunca vai sozinho. */
 export const REFERENCIA_EMENDAS_ESTADUAIS = arquivoEmendasEstaduais.referencia;
 
+/**
+ * Panorama do que está publicado, medido do próprio dado.
+ *
+ * Existe para a página /o-projeto poder afirmar números sem que
+ * alguém os digite à mão num parágrafo. Texto com número fixo
+ * envelhece em silêncio: a coleta roda todo dia, e uma frase que diz
+ * "458 emendas" continua dizendo isso depois de a fonte publicar a
+ * 459ª. Aqui o número é sempre o do arquivo lido nesta compilação.
+ *
+ * `emendasFederaisComValor` é o ponto da regra 5 e não é acessório:
+ * quando a conferência reprova a fonte, a contagem sai e o dinheiro
+ * não. A página diz isso com o próprio veredito, não com uma nota
+ * escrita à parte que pode ficar mentindo depois.
+ */
+export const PANORAMA = {
+  candidaturas: arquivoCandidaturas.candidaturas.length,
+  emJulgamento: arquivoCandidaturas.candidaturas.filter((c) => !c.apto).length,
+  cargos: CARGOS.length,
+
+  deputadosFederais: arquivoParlamentares.parlamentares.length,
+  senadores: arquivoSenadores.senadores.length,
+
+  emendasFederais: arquivoEmendas.parlamentares.reduce(
+    (soma, p) => soma + (p.emendas?.quantidade ?? 0),
+    0,
+  ),
+  emendasFederaisComValor: arquivoEmendas.conferencia.aprovada,
+  problemasNaFonteDeEmendas:
+    arquivoEmendas.conferencia.totalDeProblemas ??
+    arquivoEmendas.conferencia.problemas.length,
+
+  emendasEstaduais: arquivoEmendasEstaduais.parlamentares.reduce(
+    (soma, p) => soma + (p.emendas?.quantidade ?? 0),
+    0,
+  ),
+  emendasEstaduaisComValor: arquivoEmendasEstaduais.conferencia.aprovada,
+
+  presenca: arquivoPresenca.parlamentares.reduce(
+    (acc, p) => ({
+      dias: acc.dias + p.totais.dias,
+      comPresenca: acc.comPresenca + p.totais.diasComPresenca,
+      justificadas: acc.justificadas + p.totais.diasJustificados,
+      naoJustificadas: acc.naoJustificadas + p.totais.diasNaoJustificados,
+    }),
+    { dias: 0, comPresenca: 0, justificadas: 0, naoJustificadas: 0 },
+  ),
+
+  despesas: arquivoParlamentares.referencia,
+};
+
 export const ESTADO = { nome: "Espírito Santo", sigla: "ES" };
 
 const porId = new Map(candidaturas.map((c) => [c.id, c]));
