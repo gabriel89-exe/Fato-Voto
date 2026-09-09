@@ -20,3 +20,9 @@ dados-brutos
 # skills-lock.json. `.claude/skills/` sao so symlinks para `.agents/`.
 .agents/
 .claude/skills/
+
+# Mapa de arquitetura gerado pela skill `understand`: 400 kB de JSON que
+# se refazem a cada mudanca de codigo. Versionar isso encheria o diff
+# diario de ruido, que e exatamente o que a normalizacao deterministica
+# da coleta existe para evitar. Reconstroi com `/understand`.
+.ua/

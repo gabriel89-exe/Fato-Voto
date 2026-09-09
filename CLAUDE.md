@@ -44,10 +44,15 @@ projeto:
 
 ## Armadilhas desta máquina
 
-- **O `&` no nome da pasta quebra o `npx`.** O `cmd.exe` corta a linha no `&`.
-  Por isso os scripts do `package.json` chamam o Next direto pelo `node`.
-  `npm run build` funciona; `npx tsc`, `npx next` e afins não. Para checar
-  tipos, rodar o build. Renomear a pasta resolveria de vez.
+- **O `&` no nome da pasta corrompe o caminho em qualquer camada que
+  reinterprete a linha.** Não é peculiaridade do `npx`: o `cmd.exe` corta a
+  linha no `&`, e um caminho literal montado à mão dentro de `node -e` no
+  Bash chega do outro lado como `C:UsersgabriDesktop\fato&voto` — sem as
+  barras. Por isso os scripts do `package.json` chamam o Next direto pelo
+  `node`: `npm run build` funciona; `npx tsc`, `npx next` e afins não.
+  Em script, usar `process.cwd()` em vez de escrever o caminho. E conferir a
+  saída: já houve ferramenta que saiu com código 0 tendo pulado todos os
+  arquivos por causa disso, em silêncio. Renomear a pasta resolveria de vez.
 - **Não rodar `npm run build` com o servidor de desenvolvimento ligado** — os
   chunks do `.next` corrompem e o erro aparece longe da causa.
 - **Backtick em `node -e` ou heredoc não citado é substituição de comando.** O
