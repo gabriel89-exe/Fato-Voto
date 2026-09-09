@@ -29,6 +29,31 @@ import { mesAno, percentual, reais } from "@/lib/formato";
  */
 const CORES = ["#191713", "#383430", "#5f5951", "#898275", "#d6d1c8"];
 
+/**
+ * A sexta fatia nao ganha uma sexta cor: ganha hachura.
+ *
+ * A escala tem cinco degraus, e o codigo antigo fazia `i % CORES.length`.
+ * Com seis fatias — cinco categorias mais o resto — a sexta voltava para
+ * o primeiro tom, identica a maior fatia do grafico. Nao era hipotese:
+ * nove dos dez deputados da bancada produzem seis fatias.
+ *
+ * Somar um sexto tom monocromatico resolveria a colisao e criaria outra:
+ * dois degraus vizinhos que ninguem distingue num celular. A hachura
+ * distingue por forma, nao por cor, e diz a coisa certa — "Outras" nao e
+ * uma categoria, e o que sobrou.
+ *
+ * O id do padrao sai do texto da legenda porque a ficha desenha duas
+ * roscas na mesma pagina, bens e despesas, e dois `<pattern>` com o
+ * mesmo id fariam a segunda apontar para o primeiro.
+ */
+function chaveDaLegenda(legenda: string) {
+  let h = 0;
+  for (let i = 0; i < legenda.length; i++) {
+    h = (h * 31 + legenda.charCodeAt(i)) | 0;
+  }
+  return Math.abs(h).toString(36);
+}
+
 /* ------------------------------------------------------------------ */
 /*  Composição — rosca                                                 */
 /* ------------------------------------------------------------------ */
@@ -69,18 +94,30 @@ export function GraficoComposicao({
       ? [
           ...principais,
           {
-            rotulo: `Outras ${resto.length} categorias`,
+            rotulo:
+              resto.length === 1
+                ? "Outra 1 categoria"
+                : `Outras ${resto.length} categorias`,
             valor: resto.reduce((s, i) => s + i.valor, 0),
           },
         ]
       : principais;
+
+  const idHachura = `hachura-${chaveDaLegenda(legenda)}`;
 
   let angulo = 0;
   const desenhadas = fatias.map((f, i) => {
     const inicio = angulo;
     const fim = angulo + (f.valor / total) * Math.PI * 2;
     angulo = fim;
-    return { ...f, inicio, fim, cor: CORES[i % CORES.length] };
+    const ehResto = resto.length > 0 && i === fatias.length - 1;
+    return {
+      ...f,
+      inicio,
+      fim,
+      ehResto,
+      cor: ehResto ? CORES[CORES.length - 1] : CORES[i],
+    };
   });
 
   return (
@@ -91,12 +128,31 @@ export function GraficoComposicao({
           aria-hidden="true"
           className="h-40 w-40 shrink-0"
         >
+          <defs>
+            <pattern
+              id={idHachura}
+              patternUnits="userSpaceOnUse"
+              width="6"
+              height="6"
+              patternTransform="rotate(45)"
+            >
+              <rect width="6" height="6" fill={CORES[CORES.length - 1]} />
+              <line
+                x1="0"
+                y1="0"
+                x2="0"
+                y2="6"
+                stroke={CORES[2]}
+                strokeWidth="2.5"
+              />
+            </pattern>
+          </defs>
           {desenhadas.map((f) => (
             <path
               key={f.rotulo}
               d={arco(60, 60, 46, f.inicio, f.fim)}
               fill="none"
-              stroke={f.cor}
+              stroke={f.ehResto ? `url(#${idHachura})` : f.cor}
               strokeWidth="22"
             />
           ))}
@@ -118,7 +174,14 @@ export function GraficoComposicao({
               <span
                 aria-hidden="true"
                 className="mt-1 h-3 w-3 shrink-0 border border-tinta-900"
-                style={{ backgroundColor: f.cor }}
+                style={
+                  f.ehResto
+                    ? {
+                        backgroundColor: CORES[CORES.length - 1],
+                        backgroundImage: `repeating-linear-gradient(45deg, ${CORES[2]} 0 2px, transparent 2px 5px)`,
+                      }
+                    : { backgroundColor: f.cor }
+                }
               />
               <span className="min-w-0 flex-1">
                 <span className="block text-tinta-800">{f.rotulo}</span>
