@@ -205,63 +205,91 @@ export default function PaginaInicial() {
         </div>
       </section>
 
-      {/* ================= Números da eleição =================
+      {/* ================= Régua de dados =================
+          A ÚNICA FAIXA ESCURA DO SITE, e a razão de ela existir é de
+          forma, não de enfeite: o site inteiro é papel morno, e uma
+          página só de papel não tem onde o olho descansar. A faixa dá
+          o corte.
+
+          Escura, e ainda assim sem matiz nenhum — tinta sobre osso. A
+          paleta abandonou a cor em 02/09/2026 porque qualquer tom pode
+          ser lido como cor de partido, e inverter o contraste não
+          reabre essa porta.
+
           Agregados, nunca por candidatura: contar o conjunto não
           destaca ninguém. */}
-      <section className="envelope pt-10 sm:pt-14">
-        <h2 className="apenas-leitor">A eleição em números</h2>
-        <ul className="grid gap-4 sm:grid-cols-3">
-          {numeros.map((numero, i) => (
-            <BlurFade
-              key={numero.titulo}
-              como="li"
-              inView
-              delay={0.05 * i}
-              className="cartao relative h-full overflow-hidden p-5 pt-6 shadow-cartao"
-            >
-              {/* Filete de tinta no topo: o mesmo em todos os cartões —
-                  assinatura, não destaque. */}
-              <span
-                aria-hidden="true"
-                className="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-tinta-950 via-tinta-500 to-tinta-200"
-              />
-              <p className="font-display text-5xl font-bold tabular-nums text-tinta-950">
-                <NumberTicker value={numero.valor} delay={0.2 + 0.05 * i} />
-              </p>
-              <p className="mt-2 font-semibold text-tinta-900">
-                {numero.titulo}
-              </p>
-              <p className="mt-1 text-sm text-tinta-600">{numero.detalhe}</p>
-            </BlurFade>
-          ))}
-        </ul>
+      <section className="mt-12 border-y border-tinta-950 bg-tinta-950 sm:mt-16">
+        <div className="envelope py-10 sm:py-14">
+          <h2 className="rotulo-meta text-papel/70">A eleição em números</h2>
+
+          <ul className="mt-6 grid gap-px overflow-hidden bg-tinta-800 sm:grid-cols-3">
+            {numeros.map((numero, i) => (
+              <BlurFade
+                key={numero.titulo}
+                como="li"
+                inView
+                escala
+                delay={0.06 * i}
+                className="bg-tinta-950 px-1 py-2 sm:px-6 sm:py-1"
+              >
+                <p className="font-display text-6xl font-bold tabular-nums text-papel-alta sm:text-7xl">
+                  <NumberTicker value={numero.valor} delay={0.2 + 0.06 * i} />
+                </p>
+                <p className="mt-3 font-semibold text-papel">{numero.titulo}</p>
+                <p className="mt-1 text-sm text-papel/65">{numero.detalhe}</p>
+              </BlurFade>
+            ))}
+          </ul>
+
+          <p className="mt-8 border-t border-tinta-800 pt-5 text-sm text-papel/65">
+            Coletado em {dataPorExtenso(COLETADO_EM)} do TSE. Nenhum número
+            desta página é estimado.
+          </p>
+        </div>
       </section>
 
-      {/* ================= Cargos ================= */}
+      {/* ================= Cargos =================
+          Grade em bento: o primeiro cartão ocupa duas colunas para a
+          grade ter ritmo. A ordem é a da Constituição, de cargo mais
+          abrangente a menos — NÃO por número de candidaturas, que
+          produziria um ranking de disputa. */}
       <section className="envelope mt-12 sm:mt-16">
-        <h2>Ver por cargo</h2>
-        <p className="mt-2 max-w-leitura text-tinta-700">
+        <div className="secao-cabeca">
+          <h2>Ver por cargo</h2>
+          <p className="rotulo-meta">{CARGOS.length} cargos em disputa</p>
+        </div>
+        <p className="mt-3 max-w-leitura text-tinta-700">
           Cada cargo tem funções diferentes. A ficha de cada candidatura mostra
           o que aquele cargo de fato faz.
         </p>
 
-        <ul className="mt-5 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+        <ul className="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
           {CARGOS.map((cargo, i) => (
-            <BlurFade key={cargo} como="li" inView delay={0.04 * i}>
+            <BlurFade
+              key={cargo}
+              como="li"
+              inView
+              escala
+              delay={0.05 * i}
+              className={i === 0 ? "lg:col-span-2" : undefined}
+            >
               <Link
                 href={`/candidatos?cargo=${encodeURIComponent(cargo)}`}
-                className="group flex h-full items-center justify-between gap-4 rounded-lg border border-tinta-200 bg-papel-alta p-5 no-underline shadow-cartao transition-all hover:-translate-y-0.5 hover:border-acento-borda hover:shadow-elevado motion-reduce:hover:translate-y-0"
+                className="group flex h-full flex-col justify-between gap-6 rounded-lg border border-tinta-200 bg-papel-alta p-5 no-underline shadow-cartao transition-all hover:-translate-y-0.5 hover:border-tinta-950 hover:shadow-elevado motion-reduce:hover:translate-y-0"
               >
+                <span className="flex items-start justify-between gap-4">
+                  <span className="font-display text-4xl font-bold tabular-nums text-tinta-950">
+                    {totalDe(cargo)}
+                  </span>
+                  <span className="grid h-10 w-10 shrink-0 place-items-center rounded-full border border-tinta-200 bg-papel transition-colors group-hover:border-tinta-950 group-hover:bg-tinta-950">
+                    <IconeSeta className="h-4 w-4 text-tinta-700 transition-all group-hover:translate-x-0.5 group-hover:text-white motion-reduce:group-hover:translate-x-0" />
+                  </span>
+                </span>
                 <span className="flex min-w-0 flex-col">
                   <span className="text-lg font-bold text-tinta-950">
                     {cargo}
                   </span>
-                  <span className="text-tinta-600">
-                    {totalDe(cargo)} candidaturas
-                  </span>
-                </span>
-                <span className="grid h-10 w-10 shrink-0 place-items-center rounded-full border border-tinta-200 bg-papel transition-colors group-hover:border-tinta-950 group-hover:bg-tinta-950">
-                  <IconeSeta className="h-4 w-4 text-tinta-700 transition-all group-hover:translate-x-0.5 group-hover:text-white motion-reduce:group-hover:translate-x-0" />
+                  <span className="text-sm text-tinta-600">candidaturas</span>
                 </span>
               </Link>
             </BlurFade>
@@ -282,25 +310,45 @@ export default function PaginaInicial() {
         </Alert>
       </section>
 
-      {/* ================= Como funciona ================= */}
+      {/* ================= Como funciona =================
+          Numerados, e a numeração não é enfeite: estas quatro são
+          recusas, e recusa em lista numerada se lê como compromisso,
+          não como característica de produto. O filete no topo é o
+          mesmo em todos — assinatura, nunca destaque. */}
       <section className="envelope mt-12 sm:mt-16">
-        <h2>Como este site funciona</h2>
+        <div className="secao-cabeca">
+          <h2>Como este site funciona</h2>
+          <p className="rotulo-meta">Quatro regras que não abrimos</p>
+        </div>
 
-        <ul className="mt-5 grid gap-4 sm:grid-cols-2">
+        <ul className="mt-6 grid gap-4 sm:grid-cols-2">
           {comoFunciona.map((item, i) => (
             <BlurFade
               key={item.titulo}
               como="li"
               inView
-              delay={0.05 * i}
-              className="h-full rounded-lg border border-tinta-200 bg-papel-alta p-5 shadow-cartao"
+              escala
+              delay={0.06 * i}
+              className="group relative h-full overflow-hidden rounded-lg border border-tinta-200 bg-papel-alta p-6 shadow-cartao transition-all hover:-translate-y-0.5 hover:border-tinta-950 hover:shadow-elevado motion-reduce:hover:translate-y-0"
             >
               <span
                 aria-hidden="true"
-                className="grid h-11 w-11 place-items-center rounded-lg bg-tinta-950 text-white"
-              >
-                <item.Icone className="h-5 w-5" />
-              </span>
+                className="absolute inset-x-0 top-0 h-1 bg-tinta-950"
+              />
+              <div className="flex items-start justify-between gap-4">
+                <span
+                  aria-hidden="true"
+                  className="grid h-11 w-11 shrink-0 place-items-center rounded-lg bg-tinta-950 text-white transition-transform group-hover:-rotate-6 motion-reduce:group-hover:rotate-0"
+                >
+                  <item.Icone className="h-5 w-5" />
+                </span>
+                <span
+                  aria-hidden="true"
+                  className="font-display text-3xl font-bold tabular-nums text-tinta-200 transition-colors group-hover:text-tinta-400"
+                >
+                  {String(i + 1).padStart(2, "0")}
+                </span>
+              </div>
               <h3 className="mt-4 text-tinta-950">{item.titulo}</h3>
               <p className="mt-1.5 text-tinta-700">{item.texto}</p>
             </BlurFade>

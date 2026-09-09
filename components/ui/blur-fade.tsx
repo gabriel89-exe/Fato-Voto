@@ -45,6 +45,20 @@ interface BlurFadeProps extends MotionProps {
   offset?: number;
   /** Anima ao entrar na tela, em vez de na montagem. */
   inView?: boolean;
+  /**
+   * Entrada com escala, para GRADE DE CARTÃO.
+   *
+   * É o nível "Standard" do padrão Stagger List: o item nasce a 92%,
+   * sobe 16px e assenta com um repique curto. O repique existe para a
+   * grade ler como um conjunto que chega junto, e não como itens soltos
+   * aparecendo.
+   *
+   * NÃO usar em tabela nem em lista densa de dados: ali o repique lê
+   * como desleixo, e a própria orientação que trouxe este padrão diz
+   * isso. Em lista longa, o escalonamento por item também precisa cair
+   * para 0,02–0,04s, senão a revelação inteira fica arrastada.
+   */
+  escala?: boolean;
   inViewMargin?: MargemVista;
   blur?: string;
 }
@@ -58,6 +72,7 @@ export function BlurFade({
   offset = 8,
   inView = false,
   inViewMargin = "-50px",
+  escala = false,
   blur = "5px",
   ...props
 }: BlurFadeProps) {
@@ -70,10 +85,19 @@ export function BlurFade({
 
   const variantes: Variants = semMovimento
     ? { escondido: { opacity: 1 }, visivel: { opacity: 1 } }
-    : {
-        escondido: { y: offset, opacity: 0, filter: `blur(${blur})` },
-        visivel: { y: 0, opacity: 1, filter: "blur(0px)" },
-      };
+    : escala
+      ? {
+          escondido: { y: 16, opacity: 0, scale: 0.92 },
+          visivel: { y: 0, opacity: 1, scale: 1 },
+        }
+      : {
+          escondido: { y: offset, opacity: 0, filter: `blur(${blur})` },
+          visivel: { y: 0, opacity: 1, filter: "blur(0px)" },
+        };
+
+  /* back.out(1.4) do padrão, traduzido para bezier. O quarto ponto
+     passa de 1 — é ele que produz o repique. */
+  const REPIQUE = [0.34, 1.56, 0.64, 1] as const;
 
   return (
     <Componente
@@ -82,7 +106,11 @@ export function BlurFade({
       initial="escondido"
       animate={visivel ? "visivel" : "escondido"}
       variants={variantes}
-      transition={{ delay: 0.04 + delay, duration, ease: "easeOut" }}
+      transition={
+        escala
+          ? { delay: 0.04 + delay, duration: 0.4, ease: [...REPIQUE] }
+          : { delay: 0.04 + delay, duration, ease: "easeOut" }
+      }
       className={className}
       {...props}
     >

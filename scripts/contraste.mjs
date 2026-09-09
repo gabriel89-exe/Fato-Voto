@@ -60,6 +60,17 @@ const PARES = [
   ["oficial-texto sobre oficial-fundo", "#26231e", "#f1efeb", 4.5],
   ["resumo-texto sobre resumo-fundo", "#5e3c1a", "#faf3ea", 4.5],
   ["grafico-4 sobre branco (só área)", "#898275", BRANCO, 3.0],
+
+  /* --- Régua de dados: a única faixa escura do site ---------------
+     O texto ali é papel com opacidade sobre tinta-950. Opacidade não
+     é cor: o navegador compõe, e o valor composto é o que a pessoa
+     lê. Por isso os pares abaixo entram JÁ MISTURADOS — conferir o
+     #f7f5f1 puro diria 16:1 e esconderia que o rótulo real é 8,45:1.
+     Se alguém baixar a opacidade, é aqui que a queda aparece. */
+  ["papel-alta sobre tinta-950 (numeral)", BRANCO, "#191713", 4.5],
+  ["papel sobre tinta-950 (título)", PAPEL, "#191713", 4.5],
+  ["papel/70 sobre tinta-950 (rótulo)", "#b4b2ae", "#191713", 4.5],
+  ["papel/65 sobre tinta-950 (detalhe)", "#a9a7a3", "#191713", 4.5],
 ];
 
 let reprovou = false;
