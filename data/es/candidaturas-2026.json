@@ -9,7 +9,7 @@
     "idEleicao": "20322002026",
     "uf": "ES"
   },
-  "coletadoEm": "2026-09-09T13:44:47.971Z",
+  "coletadoEm": "2026-09-10T13:37:42.309Z",
   "total": 575,
   "candidaturas": [
     {
@@ -2280,17 +2280,17 @@
         },
         {
           "ano": 2022,
-          "cargo": "Deputado Federal",
-          "partido": "PROS",
-          "uf": "SP",
-          "resultado": "Não eleito"
-        },
-        {
-          "ano": 2022,
           "cargo": "Presidente",
           "partido": "PROS",
           "uf": "BR",
           "resultado": "Concorrendo"
+        },
+        {
+          "ano": 2022,
+          "cargo": "Deputado Federal",
+          "partido": "PROS",
+          "uf": "SP",
+          "resultado": "Não eleito"
         }
       ],
       "primeiraCandidatura": false,
@@ -3266,9 +3266,16 @@
           "descricao": "valor acumulado do ano de 2025",
           "valor": 40000,
           "atualizadoEm": "2026-08-25"
+        },
+        {
+          "ordem": 4,
+          "tipo": "Apartamento",
+          "descricao": "localizado em Vila Velha - 50% do valor do imóvel",
+          "valor": 202500,
+          "atualizadoEm": "2026-09-09"
         }
       ],
-      "totalBens": 50001,
+      "totalBens": 252501,
       "proposta": {
         "exigida": true,
         "documento": {
@@ -14761,9 +14768,9 @@
         "nome": "PARTIDO SOCIAL DEMOCRÁTICO"
       },
       "coligacao": "PSD",
-      "situacaoRegistro": "Aguardando julgamento",
-      "situacaoCandidatura": "Cadastrado",
-      "apto": false,
+      "situacaoRegistro": "Deferido",
+      "situacaoCandidatura": "Consta da urna",
+      "apto": true,
       "disputaReeleicao": false,
       "dataNascimento": "1987-10-26",
       "genero": "MASC.",
@@ -21921,9 +21928,9 @@
         "nome": "DEMOCRACIA CRISTÃ"
       },
       "coligacao": "DC",
-      "situacaoRegistro": "Aguardando julgamento",
-      "situacaoCandidatura": "Cadastrado",
-      "apto": false,
+      "situacaoRegistro": "Deferido",
+      "situacaoCandidatura": "Consta da urna",
+      "apto": true,
       "disputaReeleicao": false,
       "dataNascimento": "1967-11-02",
       "genero": "FEM.",
@@ -23174,9 +23181,9 @@
         "nome": "AGIR"
       },
       "coligacao": "AGIR",
-      "situacaoRegistro": "Aguardando julgamento",
-      "situacaoCandidatura": "Cadastrado",
-      "apto": false,
+      "situacaoRegistro": "Deferido",
+      "situacaoCandidatura": "Consta da urna",
+      "apto": true,
       "disputaReeleicao": false,
       "dataNascimento": "1999-02-07",
       "genero": "MASC.",
@@ -33451,9 +33458,9 @@
         "nome": "REPUBLICANOS"
       },
       "coligacao": "REPUBLICANOS",
-      "situacaoRegistro": "Aguardando julgamento",
-      "situacaoCandidatura": "Cadastrado",
-      "apto": false,
+      "situacaoRegistro": "Deferido",
+      "situacaoCandidatura": "Consta da urna",
+      "apto": true,
       "disputaReeleicao": false,
       "dataNascimento": "1982-02-18",
       "genero": "MASC.",
@@ -37027,6 +37034,18 @@
         {
           "id": 80017138846,
           "nomeArquivo": "pje-CERTIDÃO NEGATIVA CRIMINAL SEGUNDA INSTÂNCIA.pdf",
+          "tipo": "Certidão criminal — Justiça Estadual, 2º grau",
+          "codTipo": 14
+        },
+        {
+          "id": 80017141093,
+          "nomeArquivo": "pje-Emissão de Certidão Negativa 1 Grau.pdf",
+          "tipo": "Certidão criminal — Justiça Estadual, 1º grau",
+          "codTipo": 13
+        },
+        {
+          "id": 80017141094,
+          "nomeArquivo": "pje-Emissão de Certidão Negativa 2 Grau.pdf",
           "tipo": "Certidão criminal — Justiça Estadual, 2º grau",
           "codTipo": 14
         }
@@ -66495,14 +66514,14 @@
         },
         {
           "ano": 2004,
-          "cargo": "Vice-Prefeito",
+          "cargo": "Vereador",
           "partido": "PSB",
           "uf": "56812",
           "resultado": "Concorrendo"
         },
         {
           "ano": 2004,
-          "cargo": "Vereador",
+          "cargo": "Vice-Prefeito",
           "partido": "PSB",
           "uf": "56812",
           "resultado": "Concorrendo"
