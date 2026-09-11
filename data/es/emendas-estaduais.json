@@ -11,11 +11,11 @@
     2025,
     2026
   ],
-  "coletadoEm": "2026-09-10T13:55:45.499Z",
+  "coletadoEm": "2026-09-11T13:47:04.946Z",
   "recorte": "Emendas ao Orçamento do Espírito Santo cujo autor individual é deputado estadual da legislatura atual da ALES (2023–2027) e candidato em 2026. A LOA de um ano é emendada no ano anterior: a de 2023 foi emendada pela legislatura anterior, e só aparece para quem já era deputado. Emenda de bancada e de comissão não tem autor individual e não entra. O casamento com a candidatura é por nome, com desistência em qualquer ambiguidade — os nomes que não casaram estão listados no dado.",
   "conferencia": {
     "aprovada": true,
-    "conferidoEm": "2026-09-10T13:55:45.450Z",
+    "conferidoEm": "2026-09-11T13:47:04.893Z",
     "provas": [
       "cada arquivo é baixado duas vezes, e os dois downloads têm de ser idênticos",
       "o valor previsto da emenda repete igual em todas as linhas dela",
@@ -1636,8 +1636,8 @@
         "totais": {
           "previsto": 6800000,
           "empenhado": 5001525.609999999,
-          "liquidado": 3939277.0799999996,
-          "pago": 3879337.0799999996,
+          "liquidado": 4139277.0799999996,
+          "pago": 4079337.0799999996,
           "restosAPagar": 172130
         },
         "porAno": [
@@ -1657,7 +1657,7 @@
             "ano": 2026,
             "quantidade": 18,
             "empenhado": 2050000,
-            "pago": 1100000
+            "pago": 1300000
           }
         ],
         "porFuncao": [
@@ -1683,7 +1683,7 @@
             "nome": "CULTURA",
             "quantidade": 2,
             "empenhado": 450000,
-            "pago": 250000
+            "pago": 450000
           },
           {
             "nome": "COMÉRCIO E SERVIÇOS",
@@ -1745,7 +1745,7 @@
             "nome": "Atilio Vivacqua",
             "quantidade": 1,
             "empenhado": 200000,
-            "pago": 0
+            "pago": 200000
           },
           {
             "nome": "Guarapari",
@@ -1855,7 +1855,7 @@
             "nome": "Individual com finalidade definida não impositiva",
             "quantidade": 72,
             "empenhado": 5001525.609999999,
-            "pago": 3879337.0799999996
+            "pago": 4079337.0799999996
           }
         ],
         "criterioDaLista": "as 10 de maior valor empenhado",
@@ -1957,7 +1957,7 @@
             "objeto": "EMENDA DE CUSTEIO PARA A ENTIDADE  - PROJETO NEEMIAS (36.113.888/0001-16)",
             "previsto": 200000,
             "empenhado": 200000,
-            "pago": 0
+            "pago": 200000
           },
           {
             "numero": "2025 / E0762",
@@ -5369,7 +5369,7 @@
         "valoresPublicados": true,
         "totais": {
           "previsto": 8700000,
-          "empenhado": 6299311.590000001,
+          "empenhado": 6329311.590000001,
           "liquidado": 4166807.94,
           "pago": 4046807.9399999995,
           "restosAPagar": 1096494.96
@@ -5396,20 +5396,20 @@
           {
             "ano": 2026,
             "quantidade": 26,
-            "empenhado": 2573372.38,
+            "empenhado": 2603372.38,
             "pago": 1417372.38
           }
         ],
         "porFuncao": [
           {
             "nome": "DESPORTO E LAZER",
-            "quantidade": 23,
-            "empenhado": 2434896.38,
+            "quantidade": 24,
+            "empenhado": 2464896.38,
             "pago": 1786389.6099999999
           },
           {
             "nome": "Não informada",
-            "quantidade": 118,
+            "quantidade": 117,
             "empenhado": 1635725.94,
             "pago": 946801.8700000001
           },
@@ -5448,7 +5448,7 @@
           {
             "nome": "Serra",
             "quantidade": 11,
-            "empenhado": 1180000,
+            "empenhado": 1210000,
             "pago": 471496.18
           },
           {
@@ -5810,7 +5810,7 @@
           {
             "nome": "Individual com finalidade definida não impositiva",
             "quantidade": 178,
-            "empenhado": 6299311.590000001,
+            "empenhado": 6329311.590000001,
             "pago": 4046807.9399999995
           }
         ],
@@ -6550,8 +6550,8 @@
         "totais": {
           "previsto": 7200000,
           "empenhado": 6476116.66,
-          "liquidado": 6353590.94,
-          "pago": 6285802.54,
+          "liquidado": 6373590.94,
+          "pago": 6305802.54,
           "restosAPagar": 99996.4
         },
         "porAno": [
@@ -6571,7 +6571,7 @@
             "ano": 2026,
             "quantidade": 35,
             "empenhado": 2639996.37,
-            "pago": 2579996.37
+            "pago": 2599996.37
           }
         ],
         "porFuncao": [
@@ -6603,7 +6603,7 @@
             "nome": "CULTURA",
             "quantidade": 6,
             "empenhado": 293393.25,
-            "pago": 253393.25
+            "pago": 273393.25
           },
           {
             "nome": "AGRICULTURA",
@@ -6653,7 +6653,7 @@
             "nome": "Vitória",
             "quantidade": 57,
             "empenhado": 4852726.88,
-            "pago": 4792726.88
+            "pago": 4812726.88
           },
           {
             "nome": "São Mateus",
@@ -6799,7 +6799,7 @@
             "nome": "Individual com finalidade definida não impositiva",
             "quantidade": 119,
             "empenhado": 6476116.66,
-            "pago": 6285802.54
+            "pago": 6305802.54
           }
         ],
         "criterioDaLista": "as 10 de maior valor empenhado",
