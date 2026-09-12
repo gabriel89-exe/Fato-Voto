@@ -9,7 +9,7 @@
     "idEleicao": "20322002026",
     "uf": "ES"
   },
-  "coletadoEm": "2026-09-11T13:35:05.761Z",
+  "coletadoEm": "2026-09-12T12:51:46.584Z",
   "total": 575,
   "candidaturas": [
     {
@@ -700,9 +700,37 @@
           "descricao": "SALDO EM CONTA",
           "valor": 1866.02,
           "atualizadoEm": "2026-08-14"
+        },
+        {
+          "ordem": 57,
+          "tipo": "Outras participações societárias",
+          "descricao": "50% DAS COTAS DE PARTICIPAÇÃO SOCIETÁRIA NA EMPRESA FREE MIND PUBLISH KKC, SITUADA NOS ESTADOS UNIDOS",
+          "valor": 268524.91,
+          "atualizadoEm": "2026-09-11"
+        },
+        {
+          "ordem": 58,
+          "tipo": "Outras participações societárias",
+          "descricao": "5% DE PARTICIPAÇÃO SOCIETÁRIA NA EMPRESA CURY ACADEMIA COMPORTAMENTAL LLC, SITUADA NOS ESTADOS UNIDOS",
+          "valor": 37710.4,
+          "atualizadoEm": "2026-09-11"
+        },
+        {
+          "ordem": 59,
+          "tipo": "Outras participações societárias",
+          "descricao": "100% DE PARTICIPAÇÃO NA EMPRESA CONTEMPLARE INVESTMENTS LLC",
+          "valor": 5114.6,
+          "atualizadoEm": "2026-09-11"
+        },
+        {
+          "ordem": 60,
+          "tipo": "OUTROS BENS E DIREITOS",
+          "descricao": "CONTEMPLARE INTELIGÊNCIA IMOBILIÁRIA LTDA",
+          "valor": 500,
+          "atualizadoEm": "2026-09-11"
         }
       ],
-      "totalBens": 242281162.52,
+      "totalBens": 242593012.43,
       "proposta": {
         "exigida": true,
         "documento": {
@@ -12314,9 +12342,9 @@
         "nome": "DEMOCRACIA CRISTÃ"
       },
       "coligacao": "DC",
-      "situacaoRegistro": "Aguardando julgamento",
-      "situacaoCandidatura": "Cadastrado",
-      "apto": false,
+      "situacaoRegistro": "Deferido",
+      "situacaoCandidatura": "Consta da urna",
+      "apto": true,
       "disputaReeleicao": false,
       "dataNascimento": "1967-01-07",
       "genero": "MASC.",
@@ -24036,7 +24064,7 @@
           "cargo": "Deputado Estadual",
           "partido": "PODE",
           "uf": "ES",
-          "resultado": "Eleito por média"
+          "resultado": "Suplente"
         },
         {
           "ano": 2020,
@@ -26331,8 +26359,8 @@
         "nome": "PARTIDO LIBERAL"
       },
       "coligacao": "PL",
-      "situacaoRegistro": "Aguardando julgamento",
-      "situacaoCandidatura": "Cadastrado",
+      "situacaoRegistro": "Indeferido",
+      "situacaoCandidatura": "Não consta da urna",
       "apto": false,
       "disputaReeleicao": false,
       "dataNascimento": "1991-07-25",
@@ -27049,9 +27077,9 @@
         "nome": "SOLIDARIEDADE"
       },
       "coligacao": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA(PRD/SOLIDARIEDADE)",
-      "situacaoRegistro": "Aguardando julgamento",
-      "situacaoCandidatura": "Cadastrado",
-      "apto": false,
+      "situacaoRegistro": "Deferido",
+      "situacaoCandidatura": "Consta da urna",
+      "apto": true,
       "disputaReeleicao": false,
       "dataNascimento": "1991-05-26",
       "genero": "MASC.",
@@ -29678,9 +29706,9 @@
         "nome": "SOLIDARIEDADE"
       },
       "coligacao": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA(PRD/SOLIDARIEDADE)",
-      "situacaoRegistro": "Aguardando julgamento",
-      "situacaoCandidatura": "Cadastrado",
-      "apto": false,
+      "situacaoRegistro": "Deferido",
+      "situacaoCandidatura": "Consta da urna",
+      "apto": true,
       "disputaReeleicao": false,
       "dataNascimento": "1989-05-02",
       "genero": "MASC.",
@@ -30781,9 +30809,9 @@
         "nome": "PARTIDO LIBERAL"
       },
       "coligacao": "PL",
-      "situacaoRegistro": "Aguardando julgamento",
-      "situacaoCandidatura": "Cadastrado",
-      "apto": false,
+      "situacaoRegistro": "Deferido",
+      "situacaoCandidatura": "Consta da urna",
+      "apto": true,
       "disputaReeleicao": false,
       "dataNascimento": "1975-07-31",
       "genero": "MASC.",
@@ -32928,9 +32956,9 @@
         "nome": "PARTIDO LIBERAL"
       },
       "coligacao": "PL",
-      "situacaoRegistro": "Aguardando julgamento",
-      "situacaoCandidatura": "Cadastrado",
-      "apto": false,
+      "situacaoRegistro": "Deferido",
+      "situacaoCandidatura": "Consta da urna",
+      "apto": true,
       "disputaReeleicao": false,
       "dataNascimento": "1956-05-08",
       "genero": "MASC.",
@@ -34079,9 +34107,9 @@
         "nome": "PARTIDO DOS TRABALHADORES"
       },
       "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(PT/PC do B/PV)",
-      "situacaoRegistro": "Deferido",
-      "situacaoCandidatura": "Consta da urna",
-      "apto": true,
+      "situacaoRegistro": "Renúncia",
+      "situacaoCandidatura": "Não consta da urna",
+      "apto": false,
       "disputaReeleicao": false,
       "dataNascimento": "1968-05-27",
       "genero": "MASC.",
@@ -40345,7 +40373,7 @@
           "cargo": "Deputado Estadual",
           "partido": "REDE",
           "uf": "ES",
-          "resultado": "Suplente"
+          "resultado": "Eleito por média"
         },
         {
           "ano": 2020,
@@ -52118,102 +52146,6 @@
       "paginaOficial": "https://divulgacandcontas.tse.jus.br/divulga/#/home/2026"
     },
     {
-      "id": "80002549098",
-      "cargo": "Deputado Estadual",
-      "uf": "ES",
-      "nomeUrna": "MARLUCE DIRETORA",
-      "nomeCompleto": "MARLUCE ALVES DE ASSIS",
-      "numero": 15155,
-      "partido": {
-        "sigla": "MDB",
-        "nome": "MOVIMENTO DEMOCRÁTICO BRASILEIRO"
-      },
-      "coligacao": "MDB",
-      "situacaoRegistro": "Deferido",
-      "situacaoCandidatura": "Consta da urna",
-      "apto": true,
-      "disputaReeleicao": false,
-      "dataNascimento": "1955-10-18",
-      "genero": "FEM.",
-      "corRaca": "BRANCA",
-      "escolaridade": "Superior completo",
-      "ocupacao": "Aposentado (Exceto Servidor Público)",
-      "naturalidade": "ES-COLATINA",
-      "bens": [
-        {
-          "ordem": 1,
-          "tipo": "Prédio residencial",
-          "descricao": "PREDIO",
-          "valor": 2000000,
-          "atualizadoEm": "2026-08-12"
-        },
-        {
-          "ordem": 2,
-          "tipo": "Casa",
-          "descricao": "CASA",
-          "valor": 1000000,
-          "atualizadoEm": "2026-08-12"
-        }
-      ],
-      "totalBens": 3000000,
-      "proposta": {
-        "exigida": false,
-        "documento": null
-      },
-      "documentos": [
-        {
-          "id": 80017077710,
-          "nomeArquivo": "apicand_certidao_criminal_justica_estadual_segundo_grau_1786541631387.pdf",
-          "tipo": "Certidão criminal — Justiça Estadual, 2º grau",
-          "codTipo": 14
-        },
-        {
-          "id": 80017081520,
-          "nomeArquivo": "2.Marluce Assis  TJES 1 Instancia  Criminal.pdf",
-          "tipo": "Certidão criminal — Justiça Estadual, 1º grau",
-          "codTipo": 13
-        },
-        {
-          "id": 80017081521,
-          "nomeArquivo": "4.Marluce de Assis  TJES 2 Instancia Criminal.pdf",
-          "tipo": "Certidão criminal — Justiça Estadual, 2º grau",
-          "codTipo": 14
-        },
-        {
-          "id": 80017081522,
-          "nomeArquivo": "3.Marluce Certidao TRF2 Criminal.pdf",
-          "tipo": "Certidão criminal — Justiça Federal, 2º grau",
-          "codTipo": 12
-        },
-        {
-          "id": 80017081523,
-          "nomeArquivo": "5.Marluce Certidao TRF2 Para fins eleitorais.pdf",
-          "tipo": "Certidão criminal — Justiça Federal, 1º grau",
-          "codTipo": 11
-        },
-        {
-          "id": 80017083988,
-          "nomeArquivo": "apicand_certidao_criminal_justica_federal_primeiro_grau_1786540227633.pdf",
-          "tipo": "Certidão criminal — Justiça Federal, 1º grau",
-          "codTipo": 11
-        },
-        {
-          "id": 80017085336,
-          "nomeArquivo": "apicand_certidao_criminal_justica_estadual_primeiro_grau_1786541686081.pdf",
-          "tipo": "Certidão criminal — Justiça Estadual, 1º grau",
-          "codTipo": 13
-        }
-      ],
-      "eleicoesAnteriores": [],
-      "primeiraCandidatura": true,
-      "divulgacaoAutorizada": {
-        "ficha": true,
-        "bens": true,
-        "documentos": true
-      },
-      "paginaOficial": "https://divulgacandcontas.tse.jus.br/divulga/#/home/2026"
-    },
-    {
       "id": "80002549037",
       "cargo": "Deputado Estadual",
       "uf": "ES",
@@ -56066,9 +55998,9 @@
         "nome": "DEMOCRACIA CRISTÃ"
       },
       "coligacao": "DC",
-      "situacaoRegistro": "Aguardando julgamento",
-      "situacaoCandidatura": "Cadastrado",
-      "apto": false,
+      "situacaoRegistro": "Deferido",
+      "situacaoCandidatura": "Consta da urna",
+      "apto": true,
       "disputaReeleicao": false,
       "dataNascimento": "1970-07-31",
       "genero": "MASC.",
@@ -59248,6 +59180,102 @@
           "nomeArquivo": "apicand_certidao_criminal_justica_estadual_segundo_grau_1786540162843.pdf",
           "tipo": "Certidão criminal — Justiça Estadual, 2º grau",
           "codTipo": 14
+        }
+      ],
+      "eleicoesAnteriores": [],
+      "primeiraCandidatura": true,
+      "divulgacaoAutorizada": {
+        "ficha": true,
+        "bens": true,
+        "documentos": true
+      },
+      "paginaOficial": "https://divulgacandcontas.tse.jus.br/divulga/#/home/2026"
+    },
+    {
+      "id": "80002549098",
+      "cargo": "Deputado Estadual",
+      "uf": "ES",
+      "nomeUrna": "PROFESSORA MARLUCE",
+      "nomeCompleto": "MARLUCE ALVES DE ASSIS",
+      "numero": 15155,
+      "partido": {
+        "sigla": "MDB",
+        "nome": "MOVIMENTO DEMOCRÁTICO BRASILEIRO"
+      },
+      "coligacao": "MDB",
+      "situacaoRegistro": "Deferido",
+      "situacaoCandidatura": "Consta da urna",
+      "apto": true,
+      "disputaReeleicao": false,
+      "dataNascimento": "1955-10-18",
+      "genero": "FEM.",
+      "corRaca": "BRANCA",
+      "escolaridade": "Superior completo",
+      "ocupacao": "Aposentado (Exceto Servidor Público)",
+      "naturalidade": "ES-COLATINA",
+      "bens": [
+        {
+          "ordem": 1,
+          "tipo": "Prédio residencial",
+          "descricao": "PREDIO",
+          "valor": 2000000,
+          "atualizadoEm": "2026-08-12"
+        },
+        {
+          "ordem": 2,
+          "tipo": "Casa",
+          "descricao": "CASA",
+          "valor": 1000000,
+          "atualizadoEm": "2026-08-12"
+        }
+      ],
+      "totalBens": 3000000,
+      "proposta": {
+        "exigida": false,
+        "documento": null
+      },
+      "documentos": [
+        {
+          "id": 80017077710,
+          "nomeArquivo": "apicand_certidao_criminal_justica_estadual_segundo_grau_1786541631387.pdf",
+          "tipo": "Certidão criminal — Justiça Estadual, 2º grau",
+          "codTipo": 14
+        },
+        {
+          "id": 80017081520,
+          "nomeArquivo": "2.Marluce Assis  TJES 1 Instancia  Criminal.pdf",
+          "tipo": "Certidão criminal — Justiça Estadual, 1º grau",
+          "codTipo": 13
+        },
+        {
+          "id": 80017081521,
+          "nomeArquivo": "4.Marluce de Assis  TJES 2 Instancia Criminal.pdf",
+          "tipo": "Certidão criminal — Justiça Estadual, 2º grau",
+          "codTipo": 14
+        },
+        {
+          "id": 80017081522,
+          "nomeArquivo": "3.Marluce Certidao TRF2 Criminal.pdf",
+          "tipo": "Certidão criminal — Justiça Federal, 2º grau",
+          "codTipo": 12
+        },
+        {
+          "id": 80017081523,
+          "nomeArquivo": "5.Marluce Certidao TRF2 Para fins eleitorais.pdf",
+          "tipo": "Certidão criminal — Justiça Federal, 1º grau",
+          "codTipo": 11
+        },
+        {
+          "id": 80017083988,
+          "nomeArquivo": "apicand_certidao_criminal_justica_federal_primeiro_grau_1786540227633.pdf",
+          "tipo": "Certidão criminal — Justiça Federal, 1º grau",
+          "codTipo": 11
+        },
+        {
+          "id": 80017085336,
+          "nomeArquivo": "apicand_certidao_criminal_justica_estadual_primeiro_grau_1786541686081.pdf",
+          "tipo": "Certidão criminal — Justiça Estadual, 1º grau",
+          "codTipo": 13
         }
       ],
       "eleicoesAnteriores": [],
@@ -66119,9 +66147,9 @@
         "nome": "SOLIDARIEDADE"
       },
       "coligacao": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA(PRD/SOLIDARIEDADE)",
-      "situacaoRegistro": "Aguardando julgamento",
-      "situacaoCandidatura": "Cadastrado",
-      "apto": false,
+      "situacaoRegistro": "Deferido",
+      "situacaoCandidatura": "Consta da urna",
+      "apto": true,
       "disputaReeleicao": false,
       "dataNascimento": "1986-11-03",
       "genero": "MASC.",
