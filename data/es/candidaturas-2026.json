@@ -9,8 +9,8 @@
     "idEleicao": "20322002026",
     "uf": "ES"
   },
-  "coletadoEm": "2026-09-13T13:49:02.383Z",
-  "total": 575,
+  "coletadoEm": "2026-09-14T15:54:58.584Z",
+  "total": 576,
   "candidaturas": [
     {
       "id": "280002552484",
@@ -2308,17 +2308,17 @@
         },
         {
           "ano": 2022,
-          "cargo": "Presidente",
-          "partido": "PROS",
-          "uf": "BR",
-          "resultado": "Concorrendo"
-        },
-        {
-          "ano": 2022,
           "cargo": "Deputado Federal",
           "partido": "PROS",
           "uf": "SP",
           "resultado": "Não eleito"
+        },
+        {
+          "ano": 2022,
+          "cargo": "Presidente",
+          "partido": "PROS",
+          "uf": "BR",
+          "resultado": "Concorrendo"
         }
       ],
       "primeiraCandidatura": false,
@@ -15637,6 +15637,118 @@
       "paginaOficial": "https://divulgacandcontas.tse.jus.br/divulga/#/home/2026"
     },
     {
+      "id": "80002554483",
+      "cargo": "Deputado Federal",
+      "uf": "ES",
+      "nomeUrna": "LUCAS O FEDERAL DA DIREITA",
+      "nomeCompleto": "LUCAS STEIN CASAGRANDE",
+      "numero": 2222,
+      "partido": {
+        "sigla": "PL",
+        "nome": "PARTIDO LIBERAL"
+      },
+      "coligacao": "PL",
+      "situacaoRegistro": "Aguardando julgamento",
+      "situacaoCandidatura": "Cadastrado",
+      "apto": false,
+      "disputaReeleicao": false,
+      "dataNascimento": "1987-02-16",
+      "genero": "MASC.",
+      "corRaca": "BRANCA",
+      "escolaridade": "Superior completo",
+      "ocupacao": "Vereador",
+      "naturalidade": "ES-VILA VELHA",
+      "bens": [
+        {
+          "ordem": 1,
+          "tipo": "Depósito bancário em conta corrente no País",
+          "descricao": "CONTA BANCÁRIA  BANESTES",
+          "valor": 10961.7,
+          "atualizadoEm": "2026-09-13"
+        },
+        {
+          "ordem": 2,
+          "tipo": "Outras aplicações e Investimentos",
+          "descricao": "INVESTIMENTO FUNDO IMOBILIARIO",
+          "valor": 14624,
+          "atualizadoEm": "2026-09-13"
+        },
+        {
+          "ordem": 3,
+          "tipo": "Depósito bancário em conta corrente no País",
+          "descricao": "CONTA BANCÁRIA  NUBANK",
+          "valor": 4796.99,
+          "atualizadoEm": "2026-09-13"
+        }
+      ],
+      "totalBens": 30382.690000000002,
+      "proposta": {
+        "exigida": false,
+        "documento": null
+      },
+      "documentos": [
+        {
+          "id": 80017142148,
+          "nomeArquivo": "2TRF FINS ELEITORAIAS Resultado da consulta  Certidoes TRF2.pdf",
+          "tipo": "Certidão criminal — Justiça Federal, 2º grau",
+          "codTipo": 12
+        },
+        {
+          "id": 80017142149,
+          "nomeArquivo": "1 TRF Resultado da consulta  Certidoes TRF2.pdf",
+          "tipo": "Certidão criminal — Justiça Federal, 1º grau",
+          "codTipo": 11
+        },
+        {
+          "id": 80017142151,
+          "nomeArquivo": "1 TJ Emissao de Certidao Negativa Estadual.pdf",
+          "tipo": "Certidão criminal — Justiça Estadual, 1º grau",
+          "codTipo": 13
+        },
+        {
+          "id": 80017142155,
+          "nomeArquivo": "2 TJ Emissao de Certidao Negativa Estadual 2 instancia.pdf",
+          "tipo": "Certidão criminal — Justiça Estadual, 2º grau",
+          "codTipo": 14
+        },
+        {
+          "id": 80017142178,
+          "nomeArquivo": "apicand_certidao_criminal_justica_federal_primeiro_grau_1789313821716.pdf",
+          "tipo": "Certidão criminal — Justiça Federal, 1º grau",
+          "codTipo": 11
+        },
+        {
+          "id": 80017142197,
+          "nomeArquivo": "apicand_certidao_criminal_justica_estadual_primeiro_grau_1789314124868.pdf",
+          "tipo": "Certidão criminal — Justiça Estadual, 1º grau",
+          "codTipo": 13
+        }
+      ],
+      "eleicoesAnteriores": [
+        {
+          "ano": 2024,
+          "cargo": "Vereador",
+          "partido": "PL",
+          "uf": "57010",
+          "resultado": "Eleito por média"
+        },
+        {
+          "ano": 2020,
+          "cargo": "Vereador",
+          "partido": "PSL",
+          "uf": "57010",
+          "resultado": "Não eleito"
+        }
+      ],
+      "primeiraCandidatura": false,
+      "divulgacaoAutorizada": {
+        "ficha": true,
+        "bens": true,
+        "documentos": true
+      },
+      "paginaOficial": "https://divulgacandcontas.tse.jus.br/divulga/#/home/2026"
+    },
+    {
       "id": "80002549698",
       "cargo": "Deputado Federal",
       "uf": "ES",
@@ -26359,9 +26471,9 @@
         "nome": "PARTIDO LIBERAL"
       },
       "coligacao": "PL",
-      "situacaoRegistro": "Indeferido",
-      "situacaoCandidatura": "Não consta da urna",
-      "apto": false,
+      "situacaoRegistro": "Indeferido em prazo recursal ou com recurso",
+      "situacaoCandidatura": "Consta da urna",
+      "apto": true,
       "disputaReeleicao": false,
       "dataNascimento": "1991-07-25",
       "genero": "MASC.",
@@ -35490,17 +35602,17 @@
         },
         {
           "ano": 2004,
-          "cargo": "Vice-Prefeito",
-          "partido": "PTC",
-          "uf": "57096",
-          "resultado": "Concorrendo"
-        },
-        {
-          "ano": 2004,
           "cargo": "Prefeito",
           "partido": "PTC",
           "uf": "57096",
           "resultado": "Não eleito"
+        },
+        {
+          "ano": 2004,
+          "cargo": "Vice-Prefeito",
+          "partido": "PTC",
+          "uf": "57096",
+          "resultado": "Concorrendo"
         }
       ],
       "primeiraCandidatura": false,
@@ -43998,8 +44110,8 @@
         "nome": "MOVIMENTO DEMOCRÁTICO BRASILEIRO"
       },
       "coligacao": "MDB",
-      "situacaoRegistro": "Aguardando julgamento",
-      "situacaoCandidatura": "Cadastrado",
+      "situacaoRegistro": "Renúncia",
+      "situacaoCandidatura": "Não consta da urna",
       "apto": false,
       "disputaReeleicao": false,
       "dataNascimento": "1972-05-13",
@@ -48435,9 +48547,9 @@
         "nome": "UNIÃO BRASIL"
       },
       "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(UNIÃO/PP)",
-      "situacaoRegistro": "Aguardando julgamento",
-      "situacaoCandidatura": "Cadastrado",
-      "apto": false,
+      "situacaoRegistro": "Deferido",
+      "situacaoCandidatura": "Consta da urna",
+      "apto": true,
       "disputaReeleicao": false,
       "dataNascimento": "1990-12-08",
       "genero": "MASC.",
@@ -49881,9 +49993,9 @@
         "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
       },
       "coligacao": "FEDERAÇÃO PSDB CIDADANIA(PSDB/CIDADANIA)",
-      "situacaoRegistro": "Indeferido",
-      "situacaoCandidatura": "Não consta da urna",
-      "apto": false,
+      "situacaoRegistro": "Indeferido em prazo recursal ou com recurso",
+      "situacaoCandidatura": "Consta da urna",
+      "apto": true,
       "disputaReeleicao": false,
       "dataNascimento": "1956-12-13",
       "genero": "MASC.",
@@ -55582,14 +55694,14 @@
           "cargo": "Deputado Estadual",
           "partido": "PRB",
           "uf": "ES",
-          "resultado": "Concorrendo"
+          "resultado": "Suplente"
         },
         {
           "ano": 2014,
           "cargo": "Deputado Estadual",
           "partido": "PRB",
           "uf": "ES",
-          "resultado": "Suplente"
+          "resultado": "Concorrendo"
         }
       ],
       "primeiraCandidatura": false,

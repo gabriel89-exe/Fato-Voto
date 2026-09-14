@@ -6,7 +6,7 @@
   },
   "uf": "ES",
   "legislatura": 57,
-  "coletadoEm": "2026-09-13T13:50:18.743Z",
+  "coletadoEm": "2026-09-14T15:56:25.579Z",
   "referencia": {
     "bancada": 10,
     "medianaDespesas": 1791819.8150000032,
@@ -7530,8 +7530,8 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/220526.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/220526",
       "despesas": {
-        "total": 1463466.1700000009,
-        "documentos": 1668,
+        "total": 1466466.1700000009,
+        "documentos": 1669,
         "porTipo": [
           {
             "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
@@ -7923,14 +7923,14 @@
           },
           {
             "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
-            "valor": 122684.18999999994,
-            "notas": 107,
+            "valor": 125684.18999999993,
+            "notas": 108,
             "fornecedores": [
               {
                 "nome": "HECTOR ANTONIO VILCHEZ GUERRERO",
                 "cnpjCpf": "17555579000151",
-                "total": 71245.52,
-                "notas": 31,
+                "total": 74245.51999999999,
+                "notas": 32,
                 "outrosNomes": [
                   "Guerrero imóveis"
                 ]
@@ -8589,7 +8589,7 @@
           },
           {
             "competencia": "2026-08",
-            "valor": 9456.94
+            "valor": 12456.94
           },
           {
             "competencia": "2026-09",
@@ -8624,8 +8624,8 @@
           {
             "nome": "HECTOR ANTONIO VILCHEZ GUERRERO",
             "cnpjCpf": "17555579000151",
-            "total": 71245.52,
-            "notas": 31,
+            "total": 74245.51999999999,
+            "notas": 32,
             "outrosNomes": [
               "Guerrero imóveis"
             ]
@@ -8868,8 +8868,8 @@
           }
         ],
         "comprovantes": {
-          "com": 1319,
-          "total": 1668
+          "com": 1320,
+          "total": 1669
         }
       },
       "proposicoes": {
