@@ -11,7 +11,7 @@
     2025,
     2026
   ],
-  "coletadoEm": "2026-09-14T15:56:34.006Z",
+  "coletadoEm": "2026-09-15T14:22:39.909Z",
   "senadores": [
     {
       "id": "senado-5953",
@@ -3410,6 +3410,16 @@
         "fim": "2031-01-31"
       },
       "materias": [
+        {
+          "id": "175798",
+          "identificacao": "RQS 685/2026",
+          "sigla": "RQS",
+          "numero": "685",
+          "ano": 2026,
+          "ementa": "Requer a realização de Sessão de Debates Temáticos destinada a discutir os impactos das apostas online sobrea saúde mental da população, a economia das famílias, a saúde pública e a economia brasileira, bem como discutir medidas destinadas à prevenção e à redução dos danos associados a essa atividade.",
+          "data": "2026-09-15",
+          "autorPrincipal": false
+        },
         {
           "id": "175743",
           "identificacao": "PET 20/2026",
@@ -7924,7 +7934,7 @@
       "materiasPorTipo": [
         {
           "sigla": "RQS",
-          "total": 211
+          "total": 212
         },
         {
           "sigla": "REQ",
@@ -7992,6 +8002,16 @@
         "fim": "2027-01-31"
       },
       "materias": [
+        {
+          "id": "175798",
+          "identificacao": "RQS 685/2026",
+          "sigla": "RQS",
+          "numero": "685",
+          "ano": 2026,
+          "ementa": "Requer a realização de Sessão de Debates Temáticos destinada a discutir os impactos das apostas online sobrea saúde mental da população, a economia das famílias, a saúde pública e a economia brasileira, bem como discutir medidas destinadas à prevenção e à redução dos danos associados a essa atividade.",
+          "data": "2026-09-15",
+          "autorPrincipal": false
+        },
         {
           "id": "175723",
           "identificacao": "REQ 327/2026 - CDIR",
@@ -11026,7 +11046,7 @@
       "materiasPorTipo": [
         {
           "sigla": "RQS",
-          "total": 103
+          "total": 104
         },
         {
           "sigla": "PEC",

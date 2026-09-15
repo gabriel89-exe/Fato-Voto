@@ -9,8 +9,8 @@
     "idEleicao": "20322002026",
     "uf": "ES"
   },
-  "coletadoEm": "2026-09-14T15:54:58.584Z",
-  "total": 576,
+  "coletadoEm": "2026-09-15T14:20:55.562Z",
+  "total": 577,
   "candidaturas": [
     {
       "id": "280002552484",
@@ -1205,6 +1205,145 @@
       "paginaOficial": "https://divulgacandcontas.tse.jus.br/divulga/#/home/2026"
     },
     {
+      "id": "280002554479",
+      "cargo": "Presidente",
+      "uf": "BR",
+      "nomeUrna": "LEONARDO AVALANCHE",
+      "nomeCompleto": "LEONARDO ALVES DE ARAUJO",
+      "numero": 28,
+      "partido": {
+        "sigla": "PRTB",
+        "nome": "PARTIDO RENOVADOR TRABALHISTA BRASILEIRO"
+      },
+      "coligacao": "PRTB",
+      "situacaoRegistro": "Aguardando julgamento",
+      "situacaoCandidatura": "Cadastrado",
+      "apto": false,
+      "disputaReeleicao": false,
+      "dataNascimento": "1977-10-23",
+      "genero": "MASC.",
+      "corRaca": "BRANCA",
+      "escolaridade": "Superior completo",
+      "ocupacao": "Empresário",
+      "naturalidade": "GO-ANÁPOLIS",
+      "bens": [
+        {
+          "ordem": 1,
+          "tipo": "Jóia, quadro, objeto de arte, de coleção, antiguidade, etc.",
+          "descricao": "JÓIAS",
+          "valor": 1200000,
+          "atualizadoEm": "2026-09-14"
+        },
+        {
+          "ordem": 2,
+          "tipo": "Quotas ou quinhões de capital",
+          "descricao": "100% DAS QUOTAS ¿ AVALANCHE BANK LTDA. (CNPJ 35.741.159/0001-41)",
+          "valor": 500000,
+          "atualizadoEm": "2026-09-14"
+        },
+        {
+          "ordem": 3,
+          "tipo": "Outras aplicações e Investimentos",
+          "descricao": "INVESTIMENTOS EM CRIPTOMOEDAS ¿ BITCOIN",
+          "valor": 491000000,
+          "atualizadoEm": "2026-09-14"
+        },
+        {
+          "ordem": 4,
+          "tipo": "Quotas ou quinhões de capital",
+          "descricao": "100% DAS QUOTAS ¿ AVALANCHE CONSULTORIA PARTICIPAÇÃO & INCORPORAÇÃO LTDA. (CNPJ 19.152.972/0001-20)",
+          "valor": 100000,
+          "atualizadoEm": "2026-09-14"
+        },
+        {
+          "ordem": 5,
+          "tipo": "Jóia, quadro, objeto de arte, de coleção, antiguidade, etc.",
+          "descricao": "OBRAS DE ARTE",
+          "valor": 2230000,
+          "atualizadoEm": "2026-09-14"
+        }
+      ],
+      "totalBens": 495030000,
+      "proposta": {
+        "exigida": true,
+        "documento": {
+          "id": 280017142413,
+          "nomeArquivo": "PLANO DE GOVERNO CHAPA BRASIL PROSPERO.pdf",
+          "tipo": "Proposta de governo",
+          "codTipo": 5
+        }
+      },
+      "documentos": [
+        {
+          "id": 280017142408,
+          "nomeArquivo": "TJ  2  Leonardo.pdf",
+          "tipo": "Certidão criminal — Justiça Estadual, 2º grau",
+          "codTipo": 14
+        },
+        {
+          "id": 280017142409,
+          "nomeArquivo": "TJ  1  Leonardo.pdf",
+          "tipo": "Certidão criminal — Justiça Estadual, 1º grau",
+          "codTipo": 13
+        },
+        {
+          "id": 280017142410,
+          "nomeArquivo": "JF  2  Leonardo.pdf",
+          "tipo": "Certidão criminal — Justiça Federal, 2º grau",
+          "codTipo": 12
+        },
+        {
+          "id": 280017142412,
+          "nomeArquivo": "JF  1  Leonardo.pdf",
+          "tipo": "Certidão criminal — Justiça Federal, 1º grau",
+          "codTipo": 11
+        },
+        {
+          "id": 280017142413,
+          "nomeArquivo": "PLANO DE GOVERNO CHAPA BRASIL PROSPERO.pdf",
+          "tipo": "Proposta de governo",
+          "codTipo": 5
+        }
+      ],
+      "eleicoesAnteriores": [
+        {
+          "ano": 2018,
+          "cargo": "Deputado Federal",
+          "partido": "PODE",
+          "uf": "GO",
+          "resultado": "Suplente"
+        },
+        {
+          "ano": 2016,
+          "cargo": "Vereador",
+          "partido": "PTN",
+          "uf": "93734",
+          "resultado": "Suplente"
+        },
+        {
+          "ano": 2008,
+          "cargo": "Vereador",
+          "partido": "PRTB",
+          "uf": "93734",
+          "resultado": "Suplente"
+        },
+        {
+          "ano": 2006,
+          "cargo": "Deputado Estadual",
+          "partido": "PT do B",
+          "uf": "GO",
+          "resultado": "Média"
+        }
+      ],
+      "primeiraCandidatura": false,
+      "divulgacaoAutorizada": {
+        "ficha": true,
+        "bens": true,
+        "documentos": true
+      },
+      "paginaOficial": "https://divulgacandcontas.tse.jus.br/divulga/#/home/2026"
+    },
+    {
       "id": "280002542548",
       "cargo": "Presidente",
       "uf": "BR",
@@ -2308,17 +2447,17 @@
         },
         {
           "ano": 2022,
-          "cargo": "Deputado Federal",
-          "partido": "PROS",
-          "uf": "SP",
-          "resultado": "Não eleito"
-        },
-        {
-          "ano": 2022,
           "cargo": "Presidente",
           "partido": "PROS",
           "uf": "BR",
           "resultado": "Concorrendo"
+        },
+        {
+          "ano": 2022,
+          "cargo": "Deputado Federal",
+          "partido": "PROS",
+          "uf": "SP",
+          "resultado": "Não eleito"
         }
       ],
       "primeiraCandidatura": false,
@@ -7962,17 +8101,17 @@
       "eleicoesAnteriores": [
         {
           "ano": 2022,
-          "cargo": "Vice-governador",
-          "partido": "SOLIDARIEDADE",
-          "uf": "ES",
-          "resultado": "Não eleito"
-        },
-        {
-          "ano": 2022,
           "cargo": "Deputado Estadual",
           "partido": "REPUBLICANOS",
           "uf": "ES",
           "resultado": "Concorrendo"
+        },
+        {
+          "ano": 2022,
+          "cargo": "Vice-governador",
+          "partido": "SOLIDARIEDADE",
+          "uf": "ES",
+          "resultado": "Não eleito"
         }
       ],
       "primeiraCandidatura": false,
@@ -8407,9 +8546,9 @@
         "nome": "PARTIDO SOCIAL DEMOCRÁTICO"
       },
       "coligacao": "PSD",
-      "situacaoRegistro": "Deferido",
-      "situacaoCandidatura": "Consta da urna",
-      "apto": true,
+      "situacaoRegistro": "Renúncia",
+      "situacaoCandidatura": "Não consta da urna",
+      "apto": false,
       "disputaReeleicao": false,
       "dataNascimento": "1973-07-03",
       "genero": "FEM.",
@@ -18844,17 +18983,17 @@
       "eleicoesAnteriores": [
         {
           "ano": 2024,
-          "cargo": "Vice-prefeito",
-          "partido": "PODE",
-          "uf": "56979",
-          "resultado": "Eleito"
-        },
-        {
-          "ano": 2024,
           "cargo": "Vereador",
           "partido": "PODE",
           "uf": "56979",
           "resultado": "Concorrendo"
+        },
+        {
+          "ano": 2024,
+          "cargo": "Vice-prefeito",
+          "partido": "PODE",
+          "uf": "56979",
+          "resultado": "Eleito"
         }
       ],
       "primeiraCandidatura": false,
@@ -47044,8 +47183,8 @@
         "nome": "PARTIDO NOVO"
       },
       "coligacao": "NOVO",
-      "situacaoRegistro": "Aguardando julgamento",
-      "situacaoCandidatura": "Cadastrado",
+      "situacaoRegistro": "Indeferido",
+      "situacaoCandidatura": "Não consta da urna",
       "apto": false,
       "disputaReeleicao": false,
       "dataNascimento": "1995-02-09",
@@ -55694,14 +55833,14 @@
           "cargo": "Deputado Estadual",
           "partido": "PRB",
           "uf": "ES",
-          "resultado": "Suplente"
+          "resultado": "Concorrendo"
         },
         {
           "ano": 2014,
           "cargo": "Deputado Estadual",
           "partido": "PRB",
           "uf": "ES",
-          "resultado": "Concorrendo"
+          "resultado": "Suplente"
         }
       ],
       "primeiraCandidatura": false,
