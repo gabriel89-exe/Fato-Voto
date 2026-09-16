@@ -9,7 +9,7 @@
     "idEleicao": "20322002026",
     "uf": "ES"
   },
-  "coletadoEm": "2026-09-15T14:20:55.562Z",
+  "coletadoEm": "2026-09-16T14:12:48.809Z",
   "total": 577,
   "candidaturas": [
     {
@@ -1216,9 +1216,9 @@
         "nome": "PARTIDO RENOVADOR TRABALHISTA BRASILEIRO"
       },
       "coligacao": "PRTB",
-      "situacaoRegistro": "Aguardando julgamento",
-      "situacaoCandidatura": "Cadastrado",
-      "apto": false,
+      "situacaoRegistro": "Pendente de julgamento",
+      "situacaoCandidatura": "Consta da urna",
+      "apto": true,
       "disputaReeleicao": false,
       "dataNascimento": "1977-10-23",
       "genero": "MASC.",
@@ -7079,9 +7079,9 @@
         "nome": "DEMOCRACIA CRISTÃ"
       },
       "coligacao": "DC",
-      "situacaoRegistro": "Aguardando julgamento",
-      "situacaoCandidatura": "Cadastrado",
-      "apto": false,
+      "situacaoRegistro": "Indeferido em prazo recursal ou com recurso",
+      "situacaoCandidatura": "Consta da urna",
+      "apto": true,
       "disputaReeleicao": false,
       "dataNascimento": "1970-06-25",
       "genero": "FEM.",
@@ -8101,17 +8101,17 @@
       "eleicoesAnteriores": [
         {
           "ano": 2022,
-          "cargo": "Deputado Estadual",
-          "partido": "REPUBLICANOS",
-          "uf": "ES",
-          "resultado": "Concorrendo"
-        },
-        {
-          "ano": 2022,
           "cargo": "Vice-governador",
           "partido": "SOLIDARIEDADE",
           "uf": "ES",
           "resultado": "Não eleito"
+        },
+        {
+          "ano": 2022,
+          "cargo": "Deputado Estadual",
+          "partido": "REPUBLICANOS",
+          "uf": "ES",
+          "resultado": "Concorrendo"
         }
       ],
       "primeiraCandidatura": false,
@@ -15787,9 +15787,9 @@
         "nome": "PARTIDO LIBERAL"
       },
       "coligacao": "PL",
-      "situacaoRegistro": "Aguardando julgamento",
-      "situacaoCandidatura": "Cadastrado",
-      "apto": false,
+      "situacaoRegistro": "Pendente de julgamento",
+      "situacaoCandidatura": "Consta da urna",
+      "apto": true,
       "disputaReeleicao": false,
       "dataNascimento": "1987-02-16",
       "genero": "MASC.",
@@ -21885,9 +21885,9 @@
         "nome": "PARTIDO SOCIAL DEMOCRÁTICO"
       },
       "coligacao": "PSD",
-      "situacaoRegistro": "Deferido",
-      "situacaoCandidatura": "Consta da urna",
-      "apto": true,
+      "situacaoRegistro": "Renúncia",
+      "situacaoCandidatura": "Não consta da urna",
+      "apto": false,
       "disputaReeleicao": false,
       "dataNascimento": "1984-04-09",
       "genero": "MASC.",
@@ -26020,9 +26020,9 @@
         "nome": "DEMOCRATA"
       },
       "coligacao": "DEMOCRATA",
-      "situacaoRegistro": "Aguardando julgamento",
-      "situacaoCandidatura": "Cadastrado",
-      "apto": false,
+      "situacaoRegistro": "Indeferido em prazo recursal ou com recurso",
+      "situacaoCandidatura": "Consta da urna",
+      "apto": true,
       "disputaReeleicao": false,
       "dataNascimento": "1958-09-07",
       "genero": "FEM.",
@@ -28969,9 +28969,9 @@
         "nome": "PARTIDO LIBERAL"
       },
       "coligacao": "PL",
-      "situacaoRegistro": "Aguardando julgamento",
-      "situacaoCandidatura": "Cadastrado",
-      "apto": false,
+      "situacaoRegistro": "Indeferido em prazo recursal ou com recurso",
+      "situacaoCandidatura": "Consta da urna",
+      "apto": true,
       "disputaReeleicao": false,
       "dataNascimento": "1963-04-12",
       "genero": "MASC.",
@@ -35741,17 +35741,17 @@
         },
         {
           "ano": 2004,
-          "cargo": "Prefeito",
-          "partido": "PTC",
-          "uf": "57096",
-          "resultado": "Não eleito"
-        },
-        {
-          "ano": 2004,
           "cargo": "Vice-Prefeito",
           "partido": "PTC",
           "uf": "57096",
           "resultado": "Concorrendo"
+        },
+        {
+          "ano": 2004,
+          "cargo": "Prefeito",
+          "partido": "PTC",
+          "uf": "57096",
+          "resultado": "Não eleito"
         }
       ],
       "primeiraCandidatura": false,
@@ -35774,9 +35774,9 @@
         "nome": "MOVIMENTO DEMOCRÁTICO BRASILEIRO"
       },
       "coligacao": "MDB",
-      "situacaoRegistro": "Aguardando julgamento",
-      "situacaoCandidatura": "Cadastrado",
-      "apto": false,
+      "situacaoRegistro": "Deferido",
+      "situacaoCandidatura": "Consta da urna",
+      "apto": true,
       "disputaReeleicao": false,
       "dataNascimento": "1962-04-22",
       "genero": "MASC.",
@@ -38267,7 +38267,7 @@
       "disputaReeleicao": false,
       "dataNascimento": "1974-08-30",
       "genero": "MASC.",
-      "corRaca": "BRANCA",
+      "corRaca": "PARDA",
       "escolaridade": "Superior completo",
       "ocupacao": "Advogado",
       "naturalidade": "ES-VITÓRIA",
@@ -46237,9 +46237,9 @@
         "nome": "PARTIDO SOCIALISTA BRASILEIRO"
       },
       "coligacao": "PSB",
-      "situacaoRegistro": "Aguardando julgamento",
-      "situacaoCandidatura": "Cadastrado",
-      "apto": false,
+      "situacaoRegistro": "Deferido",
+      "situacaoCandidatura": "Consta da urna",
+      "apto": true,
       "disputaReeleicao": false,
       "dataNascimento": "1982-04-13",
       "genero": "MASC.",
@@ -47442,6 +47442,110 @@
       "paginaOficial": "https://divulgacandcontas.tse.jus.br/divulga/#/home/2026"
     },
     {
+      "id": "80002541037",
+      "cargo": "Deputado Estadual",
+      "uf": "ES",
+      "nomeUrna": "JÚLIO ANDREÃO",
+      "nomeCompleto": "JÚLIO CÉSAR FERRAÇO ANDREÃO",
+      "numero": 40170,
+      "partido": {
+        "sigla": "PSB",
+        "nome": "PARTIDO SOCIALISTA BRASILEIRO"
+      },
+      "coligacao": "PSB",
+      "situacaoRegistro": "Deferido",
+      "situacaoCandidatura": "Consta da urna",
+      "apto": true,
+      "disputaReeleicao": false,
+      "dataNascimento": "1966-07-18",
+      "genero": "MASC.",
+      "corRaca": "BRANCA",
+      "escolaridade": "Ensino Médio completo",
+      "ocupacao": "Comerciante",
+      "naturalidade": "ES-CASTELO",
+      "bens": [
+        {
+          "ordem": 1,
+          "tipo": "OUTROS BENS E DIREITOS",
+          "descricao": "PROPRIEDADE RURAL",
+          "valor": 350000,
+          "atualizadoEm": "2026-08-07"
+        },
+        {
+          "ordem": 2,
+          "tipo": "Veículo automotor terrestre: caminhão, automóvel, moto, etc.",
+          "descricao": "CARRO ANO 2014",
+          "valor": 48000,
+          "atualizadoEm": "2026-08-07"
+        }
+      ],
+      "totalBens": 398000,
+      "proposta": {
+        "exigida": false,
+        "documento": null
+      },
+      "documentos": [
+        {
+          "id": 80016997545,
+          "nomeArquivo": "apicand_certidao_criminal_justica_estadual_segundo_grau_1786131505398.pdf",
+          "tipo": "Certidão criminal — Justiça Estadual, 2º grau",
+          "codTipo": 14
+        },
+        {
+          "id": 80016999923,
+          "nomeArquivo": "TRF2 1 .pdf",
+          "tipo": "Certidão criminal — Justiça Federal, 1º grau",
+          "codTipo": 11
+        },
+        {
+          "id": 80016999924,
+          "nomeArquivo": "TJ ES 2.pdf",
+          "tipo": "Certidão criminal — Justiça Estadual, 2º grau",
+          "codTipo": 14
+        },
+        {
+          "id": 80016999927,
+          "nomeArquivo": "TRF2 2 .pdf",
+          "tipo": "Certidão criminal — Justiça Federal, 2º grau",
+          "codTipo": 12
+        },
+        {
+          "id": 80016999928,
+          "nomeArquivo": "TJ ES 1.pdf",
+          "tipo": "Certidão criminal — Justiça Estadual, 1º grau",
+          "codTipo": 13
+        },
+        {
+          "id": 80017002573,
+          "nomeArquivo": "apicand_certidao_criminal_justica_estadual_primeiro_grau_1786131253461.pdf",
+          "tipo": "Certidão criminal — Justiça Estadual, 1º grau",
+          "codTipo": 13
+        },
+        {
+          "id": 80017005912,
+          "nomeArquivo": "apicand_certidao_criminal_justica_federal_primeiro_grau_1786130295531.pdf",
+          "tipo": "Certidão criminal — Justiça Federal, 1º grau",
+          "codTipo": 11
+        }
+      ],
+      "eleicoesAnteriores": [
+        {
+          "ano": 2024,
+          "cargo": "Vereador",
+          "partido": "PSB",
+          "uf": "56278",
+          "resultado": "Suplente"
+        }
+      ],
+      "primeiraCandidatura": false,
+      "divulgacaoAutorizada": {
+        "ficha": true,
+        "bens": true,
+        "documentos": true
+      },
+      "paginaOficial": "https://divulgacandcontas.tse.jus.br/divulga/#/home/2026"
+    },
+    {
       "id": "80002549074",
       "cargo": "Deputado Estadual",
       "uf": "ES",
@@ -47660,110 +47764,6 @@
           "partido": "PTB",
           "uf": "56251",
           "resultado": "Não eleito"
-        }
-      ],
-      "primeiraCandidatura": false,
-      "divulgacaoAutorizada": {
-        "ficha": true,
-        "bens": true,
-        "documentos": true
-      },
-      "paginaOficial": "https://divulgacandcontas.tse.jus.br/divulga/#/home/2026"
-    },
-    {
-      "id": "80002541037",
-      "cargo": "Deputado Estadual",
-      "uf": "ES",
-      "nomeUrna": "JÚLIO FERRAÇO ANDREÃO",
-      "nomeCompleto": "JÚLIO CÉSAR FERRAÇO ANDREÃO",
-      "numero": 40170,
-      "partido": {
-        "sigla": "PSB",
-        "nome": "PARTIDO SOCIALISTA BRASILEIRO"
-      },
-      "coligacao": "PSB",
-      "situacaoRegistro": "Deferido",
-      "situacaoCandidatura": "Consta da urna",
-      "apto": true,
-      "disputaReeleicao": false,
-      "dataNascimento": "1966-07-18",
-      "genero": "MASC.",
-      "corRaca": "BRANCA",
-      "escolaridade": "Ensino Médio completo",
-      "ocupacao": "Comerciante",
-      "naturalidade": "ES-CASTELO",
-      "bens": [
-        {
-          "ordem": 1,
-          "tipo": "OUTROS BENS E DIREITOS",
-          "descricao": "PROPRIEDADE RURAL",
-          "valor": 350000,
-          "atualizadoEm": "2026-08-07"
-        },
-        {
-          "ordem": 2,
-          "tipo": "Veículo automotor terrestre: caminhão, automóvel, moto, etc.",
-          "descricao": "CARRO ANO 2014",
-          "valor": 48000,
-          "atualizadoEm": "2026-08-07"
-        }
-      ],
-      "totalBens": 398000,
-      "proposta": {
-        "exigida": false,
-        "documento": null
-      },
-      "documentos": [
-        {
-          "id": 80016997545,
-          "nomeArquivo": "apicand_certidao_criminal_justica_estadual_segundo_grau_1786131505398.pdf",
-          "tipo": "Certidão criminal — Justiça Estadual, 2º grau",
-          "codTipo": 14
-        },
-        {
-          "id": 80016999923,
-          "nomeArquivo": "TRF2 1 .pdf",
-          "tipo": "Certidão criminal — Justiça Federal, 1º grau",
-          "codTipo": 11
-        },
-        {
-          "id": 80016999924,
-          "nomeArquivo": "TJ ES 2.pdf",
-          "tipo": "Certidão criminal — Justiça Estadual, 2º grau",
-          "codTipo": 14
-        },
-        {
-          "id": 80016999927,
-          "nomeArquivo": "TRF2 2 .pdf",
-          "tipo": "Certidão criminal — Justiça Federal, 2º grau",
-          "codTipo": 12
-        },
-        {
-          "id": 80016999928,
-          "nomeArquivo": "TJ ES 1.pdf",
-          "tipo": "Certidão criminal — Justiça Estadual, 1º grau",
-          "codTipo": 13
-        },
-        {
-          "id": 80017002573,
-          "nomeArquivo": "apicand_certidao_criminal_justica_estadual_primeiro_grau_1786131253461.pdf",
-          "tipo": "Certidão criminal — Justiça Estadual, 1º grau",
-          "codTipo": 13
-        },
-        {
-          "id": 80017005912,
-          "nomeArquivo": "apicand_certidao_criminal_justica_federal_primeiro_grau_1786130295531.pdf",
-          "tipo": "Certidão criminal — Justiça Federal, 1º grau",
-          "codTipo": 11
-        }
-      ],
-      "eleicoesAnteriores": [
-        {
-          "ano": 2024,
-          "cargo": "Vereador",
-          "partido": "PSB",
-          "uf": "56278",
-          "resultado": "Suplente"
         }
       ],
       "primeiraCandidatura": false,
@@ -52244,9 +52244,9 @@
         "nome": "PODEMOS"
       },
       "coligacao": "PODE",
-      "situacaoRegistro": "Aguardando julgamento",
-      "situacaoCandidatura": "Cadastrado",
-      "apto": false,
+      "situacaoRegistro": "Deferido",
+      "situacaoCandidatura": "Consta da urna",
+      "apto": true,
       "disputaReeleicao": false,
       "dataNascimento": "1984-10-28",
       "genero": "FEM.",
@@ -53721,9 +53721,9 @@
         "nome": "DEMOCRACIA CRISTÃ"
       },
       "coligacao": "DC",
-      "situacaoRegistro": "Aguardando julgamento",
-      "situacaoCandidatura": "Cadastrado",
-      "apto": false,
+      "situacaoRegistro": "Indeferido em prazo recursal ou com recurso",
+      "situacaoCandidatura": "Consta da urna",
+      "apto": true,
       "disputaReeleicao": false,
       "dataNascimento": "1965-09-07",
       "genero": "MASC.",
@@ -54694,9 +54694,9 @@
         "nome": "DEMOCRATA"
       },
       "coligacao": "DEMOCRATA",
-      "situacaoRegistro": "Aguardando julgamento",
-      "situacaoCandidatura": "Cadastrado",
-      "apto": false,
+      "situacaoRegistro": "Deferido",
+      "situacaoCandidatura": "Consta da urna",
+      "apto": true,
       "disputaReeleicao": false,
       "dataNascimento": "1941-07-12",
       "genero": "MASC.",
@@ -55833,14 +55833,14 @@
           "cargo": "Deputado Estadual",
           "partido": "PRB",
           "uf": "ES",
-          "resultado": "Concorrendo"
+          "resultado": "Suplente"
         },
         {
           "ano": 2014,
           "cargo": "Deputado Estadual",
           "partido": "PRB",
           "uf": "ES",
-          "resultado": "Suplente"
+          "resultado": "Concorrendo"
         }
       ],
       "primeiraCandidatura": false,
@@ -63967,9 +63967,9 @@
         "nome": "MOVIMENTO DEMOCRÁTICO BRASILEIRO"
       },
       "coligacao": "MDB",
-      "situacaoRegistro": "Aguardando julgamento",
-      "situacaoCandidatura": "Cadastrado",
-      "apto": false,
+      "situacaoRegistro": "Indeferido em prazo recursal ou com recurso",
+      "situacaoCandidatura": "Consta da urna",
+      "apto": true,
       "disputaReeleicao": false,
       "dataNascimento": "1949-01-08",
       "genero": "MASC.",
@@ -66523,9 +66523,9 @@
         "nome": "PARTIDO VERDE"
       },
       "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(PT/PC do B/PV)",
-      "situacaoRegistro": "Aguardando julgamento",
-      "situacaoCandidatura": "Cadastrado",
-      "apto": false,
+      "situacaoRegistro": "Indeferido em prazo recursal ou com recurso",
+      "situacaoCandidatura": "Consta da urna",
+      "apto": true,
       "disputaReeleicao": false,
       "dataNascimento": "1960-02-26",
       "genero": "MASC.",
@@ -66822,14 +66822,14 @@
         },
         {
           "ano": 2004,
-          "cargo": "Vice-Prefeito",
+          "cargo": "Vereador",
           "partido": "PSB",
           "uf": "56812",
           "resultado": "Concorrendo"
         },
         {
           "ano": 2004,
-          "cargo": "Vereador",
+          "cargo": "Vice-Prefeito",
           "partido": "PSB",
           "uf": "56812",
           "resultado": "Concorrendo"
