@@ -9,7 +9,7 @@
     "idEleicao": "20322002026",
     "uf": "ES"
   },
-  "coletadoEm": "2026-09-16T14:12:48.809Z",
+  "coletadoEm": "2026-09-17T14:18:31.513Z",
   "total": 577,
   "candidaturas": [
     {
@@ -2447,17 +2447,17 @@
         },
         {
           "ano": 2022,
-          "cargo": "Presidente",
-          "partido": "PROS",
-          "uf": "BR",
-          "resultado": "Concorrendo"
-        },
-        {
-          "ano": 2022,
           "cargo": "Deputado Federal",
           "partido": "PROS",
           "uf": "SP",
           "resultado": "Não eleito"
+        },
+        {
+          "ano": 2022,
+          "cargo": "Presidente",
+          "partido": "PROS",
+          "uf": "BR",
+          "resultado": "Concorrendo"
         }
       ],
       "primeiraCandidatura": false,
@@ -3522,7 +3522,7 @@
         "sigla": "PT",
         "nome": "PARTIDO DOS TRABALHADORES"
       },
-      "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(PT/PC do B/PV)",
+      "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(13-PT/65-PC do B/45-PV)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -4626,7 +4626,7 @@
         "sigla": "PT",
         "nome": "PARTIDO DOS TRABALHADORES"
       },
-      "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(PT/PC do B/PV)",
+      "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(13-PT/65-PC do B/45-PV)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -5264,7 +5264,7 @@
         "sigla": "PSOL",
         "nome": "PARTIDO SOCIALISMO E LIBERDADE"
       },
-      "coligacao": "FEDERAÇÃO PSOL REDE(PSOL/REDE)",
+      "coligacao": "FEDERAÇÃO PSOL REDE(50-PSOL/18-REDE)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -6100,7 +6100,7 @@
         "sigla": "PT",
         "nome": "PARTIDO DOS TRABALHADORES"
       },
-      "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(PT/PC do B/PV)",
+      "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(13-PT/65-PC do B/45-PV)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -6719,7 +6719,7 @@
         "sigla": "SOLIDARIEDADE",
         "nome": "SOLIDARIEDADE"
       },
-      "coligacao": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA(PRD/SOLIDARIEDADE)",
+      "coligacao": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA(25-PRD/77-SOLIDARIEDADE)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -6808,7 +6808,7 @@
         "sigla": "PP",
         "nome": "PROGRESSISTAS"
       },
-      "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(UNIÃO/PP)",
+      "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(44-UNIÃO/11-PP)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -6960,7 +6960,7 @@
         "sigla": "PSOL",
         "nome": "PARTIDO SOCIALISMO E LIBERDADE"
       },
-      "coligacao": "FEDERAÇÃO PSOL REDE(PSOL/REDE)",
+      "coligacao": "FEDERAÇÃO PSOL REDE(50-PSOL/18-REDE)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -7284,9 +7284,9 @@
         "nome": "DEMOCRACIA CRISTÃ"
       },
       "coligacao": "DC",
-      "situacaoRegistro": "Indeferido",
-      "situacaoCandidatura": "Não consta da urna",
-      "apto": false,
+      "situacaoRegistro": "Indeferido em prazo recursal ou com recurso",
+      "situacaoCandidatura": "Consta da urna",
+      "apto": true,
       "disputaReeleicao": false,
       "dataNascimento": "1957-02-03",
       "genero": "MASC.",
@@ -8022,7 +8022,7 @@
         "sigla": "PP",
         "nome": "PROGRESSISTAS"
       },
-      "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(UNIÃO/PP)",
+      "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(44-UNIÃO/11-PP)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -8101,17 +8101,17 @@
       "eleicoesAnteriores": [
         {
           "ano": 2022,
-          "cargo": "Vice-governador",
-          "partido": "SOLIDARIEDADE",
-          "uf": "ES",
-          "resultado": "Não eleito"
-        },
-        {
-          "ano": 2022,
           "cargo": "Deputado Estadual",
           "partido": "REPUBLICANOS",
           "uf": "ES",
           "resultado": "Concorrendo"
+        },
+        {
+          "ano": 2022,
+          "cargo": "Vice-governador",
+          "partido": "SOLIDARIEDADE",
+          "uf": "ES",
+          "resultado": "Não eleito"
         }
       ],
       "primeiraCandidatura": false,
@@ -8626,7 +8626,7 @@
         "sigla": "UNIÃO",
         "nome": "UNIÃO BRASIL"
       },
-      "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(UNIÃO/PP)",
+      "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(44-UNIÃO/11-PP)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -9193,7 +9193,7 @@
         "sigla": "PP",
         "nome": "PROGRESSISTAS"
       },
-      "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(UNIÃO/PP)",
+      "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(44-UNIÃO/11-PP)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -9616,7 +9616,7 @@
         "sigla": "SOLIDARIEDADE",
         "nome": "SOLIDARIEDADE"
       },
-      "coligacao": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA(PRD/SOLIDARIEDADE)",
+      "coligacao": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA(25-PRD/77-SOLIDARIEDADE)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -10056,7 +10056,7 @@
         "sigla": "UNIÃO",
         "nome": "UNIÃO BRASIL"
       },
-      "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(UNIÃO/PP)",
+      "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(44-UNIÃO/11-PP)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -10465,7 +10465,7 @@
         "sigla": "PSOL",
         "nome": "PARTIDO SOCIALISMO E LIBERDADE"
       },
-      "coligacao": "FEDERAÇÃO PSOL REDE(PSOL/REDE)",
+      "coligacao": "FEDERAÇÃO PSOL REDE(50-PSOL/18-REDE)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -10682,7 +10682,7 @@
         "sigla": "PCDOB",
         "nome": "PARTIDO COMUNISTA DO BRASIL"
       },
-      "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(PT/PC do B/PV)",
+      "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(13-PT/65-PC do B/45-PV)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -11064,7 +11064,7 @@
         "sigla": "SOLIDARIEDADE",
         "nome": "SOLIDARIEDADE"
       },
-      "coligacao": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA(PRD/SOLIDARIEDADE)",
+      "coligacao": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA(25-PRD/77-SOLIDARIEDADE)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -11181,7 +11181,7 @@
         "sigla": "PV",
         "nome": "PARTIDO VERDE"
       },
-      "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(PT/PC do B/PV)",
+      "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(13-PT/65-PC do B/45-PV)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -11284,7 +11284,7 @@
         "sigla": "PP",
         "nome": "PROGRESSISTAS"
       },
-      "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(UNIÃO/PP)",
+      "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(44-UNIÃO/11-PP)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -12839,7 +12839,7 @@
         "sigla": "PSOL",
         "nome": "PARTIDO SOCIALISMO E LIBERDADE"
       },
-      "coligacao": "FEDERAÇÃO PSOL REDE(PSOL/REDE)",
+      "coligacao": "FEDERAÇÃO PSOL REDE(50-PSOL/18-REDE)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -13715,7 +13715,7 @@
         "sigla": "PT",
         "nome": "PARTIDO DOS TRABALHADORES"
       },
-      "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(PT/PC do B/PV)",
+      "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(13-PT/65-PC do B/45-PV)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -13853,7 +13853,7 @@
         "sigla": "PV",
         "nome": "PARTIDO VERDE"
       },
-      "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(PT/PC do B/PV)",
+      "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(13-PT/65-PC do B/45-PV)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -13971,7 +13971,7 @@
         "sigla": "PT",
         "nome": "PARTIDO DOS TRABALHADORES"
       },
-      "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(PT/PC do B/PV)",
+      "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(13-PT/65-PC do B/45-PV)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -14137,7 +14137,7 @@
         "sigla": "PT",
         "nome": "PARTIDO DOS TRABALHADORES"
       },
-      "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(PT/PC do B/PV)",
+      "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(13-PT/65-PC do B/45-PV)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -14485,7 +14485,7 @@
         "sigla": "PT",
         "nome": "PARTIDO DOS TRABALHADORES"
       },
-      "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(PT/PC do B/PV)",
+      "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(13-PT/65-PC do B/45-PV)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -14764,7 +14764,7 @@
         "sigla": "SOLIDARIEDADE",
         "nome": "SOLIDARIEDADE"
       },
-      "coligacao": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA(PRD/SOLIDARIEDADE)",
+      "coligacao": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA(25-PRD/77-SOLIDARIEDADE)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -16836,7 +16836,7 @@
         "sigla": "UNIÃO",
         "nome": "UNIÃO BRASIL"
       },
-      "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(UNIÃO/PP)",
+      "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(44-UNIÃO/11-PP)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -17093,7 +17093,7 @@
         "sigla": "PCDOB",
         "nome": "PARTIDO COMUNISTA DO BRASIL"
       },
-      "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(PT/PC do B/PV)",
+      "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(13-PT/65-PC do B/45-PV)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -17264,7 +17264,7 @@
         "sigla": "UNIÃO",
         "nome": "UNIÃO BRASIL"
       },
-      "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(UNIÃO/PP)",
+      "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(44-UNIÃO/11-PP)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -17521,7 +17521,7 @@
         "sigla": "PRD",
         "nome": "PARTIDO RENOVACAO DEMOCRATICA"
       },
-      "coligacao": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA(PRD/SOLIDARIEDADE)",
+      "coligacao": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA(25-PRD/77-SOLIDARIEDADE)",
       "situacaoRegistro": "Renúncia",
       "situacaoCandidatura": "Não consta da urna",
       "apto": false,
@@ -17839,7 +17839,7 @@
         "sigla": "PT",
         "nome": "PARTIDO DOS TRABALHADORES"
       },
-      "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(PT/PC do B/PV)",
+      "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(13-PT/65-PC do B/45-PV)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -18577,7 +18577,7 @@
         "sigla": "PSOL",
         "nome": "PARTIDO SOCIALISMO E LIBERDADE"
       },
-      "coligacao": "FEDERAÇÃO PSOL REDE(PSOL/REDE)",
+      "coligacao": "FEDERAÇÃO PSOL REDE(50-PSOL/18-REDE)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -18911,7 +18911,7 @@
         "sigla": "UNIÃO",
         "nome": "UNIÃO BRASIL"
       },
-      "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(UNIÃO/PP)",
+      "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(44-UNIÃO/11-PP)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -18983,17 +18983,17 @@
       "eleicoesAnteriores": [
         {
           "ano": 2024,
-          "cargo": "Vereador",
-          "partido": "PODE",
-          "uf": "56979",
-          "resultado": "Concorrendo"
-        },
-        {
-          "ano": 2024,
           "cargo": "Vice-prefeito",
           "partido": "PODE",
           "uf": "56979",
           "resultado": "Eleito"
+        },
+        {
+          "ano": 2024,
+          "cargo": "Vereador",
+          "partido": "PODE",
+          "uf": "56979",
+          "resultado": "Concorrendo"
         }
       ],
       "primeiraCandidatura": false,
@@ -19015,7 +19015,7 @@
         "sigla": "PRD",
         "nome": "PARTIDO RENOVACAO DEMOCRATICA"
       },
-      "coligacao": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA(PRD/SOLIDARIEDADE)",
+      "coligacao": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA(25-PRD/77-SOLIDARIEDADE)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -19104,7 +19104,7 @@
         "sigla": "PRD",
         "nome": "PARTIDO RENOVACAO DEMOCRATICA"
       },
-      "coligacao": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA(PRD/SOLIDARIEDADE)",
+      "coligacao": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA(25-PRD/77-SOLIDARIEDADE)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -19289,7 +19289,7 @@
         "sigla": "PT",
         "nome": "PARTIDO DOS TRABALHADORES"
       },
-      "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(PT/PC do B/PV)",
+      "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(13-PT/65-PC do B/45-PV)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -19421,7 +19421,7 @@
         "sigla": "PSOL",
         "nome": "PARTIDO SOCIALISMO E LIBERDADE"
       },
-      "coligacao": "FEDERAÇÃO PSOL REDE(PSOL/REDE)",
+      "coligacao": "FEDERAÇÃO PSOL REDE(50-PSOL/18-REDE)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -19546,7 +19546,7 @@
         "sigla": "PP",
         "nome": "PROGRESSISTAS"
       },
-      "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(UNIÃO/PP)",
+      "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(44-UNIÃO/11-PP)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -20443,7 +20443,7 @@
         "sigla": "PRD",
         "nome": "PARTIDO RENOVACAO DEMOCRATICA"
       },
-      "coligacao": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA(PRD/SOLIDARIEDADE)",
+      "coligacao": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA(25-PRD/77-SOLIDARIEDADE)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -20881,7 +20881,7 @@
         "sigla": "SOLIDARIEDADE",
         "nome": "SOLIDARIEDADE"
       },
-      "coligacao": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA(PRD/SOLIDARIEDADE)",
+      "coligacao": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA(25-PRD/77-SOLIDARIEDADE)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -21505,7 +21505,7 @@
         "sigla": "SOLIDARIEDADE",
         "nome": "SOLIDARIEDADE"
       },
-      "coligacao": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA(PRD/SOLIDARIEDADE)",
+      "coligacao": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA(25-PRD/77-SOLIDARIEDADE)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -21676,7 +21676,7 @@
         "sigla": "UNIÃO",
         "nome": "UNIÃO BRASIL"
       },
-      "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(UNIÃO/PP)",
+      "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(44-UNIÃO/11-PP)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -21801,7 +21801,7 @@
         "sigla": "PSOL",
         "nome": "PARTIDO SOCIALISMO E LIBERDADE"
       },
-      "coligacao": "FEDERAÇÃO PSOL REDE(PSOL/REDE)",
+      "coligacao": "FEDERAÇÃO PSOL REDE(50-PSOL/18-REDE)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -22110,7 +22110,7 @@
         "sigla": "SOLIDARIEDADE",
         "nome": "SOLIDARIEDADE"
       },
-      "coligacao": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA(PRD/SOLIDARIEDADE)",
+      "coligacao": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA(25-PRD/77-SOLIDARIEDADE)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -22207,9 +22207,9 @@
         "nome": "DEMOCRACIA CRISTÃ"
       },
       "coligacao": "DC",
-      "situacaoRegistro": "Deferido",
-      "situacaoCandidatura": "Consta da urna",
-      "apto": true,
+      "situacaoRegistro": "Renúncia",
+      "situacaoCandidatura": "Não consta da urna",
+      "apto": false,
       "disputaReeleicao": false,
       "dataNascimento": "1967-11-02",
       "genero": "FEM.",
@@ -22780,7 +22780,7 @@
         "sigla": "PT",
         "nome": "PARTIDO DOS TRABALHADORES"
       },
-      "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(PT/PC do B/PV)",
+      "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(13-PT/65-PC do B/45-PV)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -22979,7 +22979,7 @@
         "sigla": "PP",
         "nome": "PROGRESSISTAS"
       },
-      "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(UNIÃO/PP)",
+      "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(44-UNIÃO/11-PP)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -23181,7 +23181,7 @@
         "sigla": "PP",
         "nome": "PROGRESSISTAS"
       },
-      "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(UNIÃO/PP)",
+      "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(44-UNIÃO/11-PP)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -23354,7 +23354,7 @@
         "sigla": "PT",
         "nome": "PARTIDO DOS TRABALHADORES"
       },
-      "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(PT/PC do B/PV)",
+      "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(13-PT/65-PC do B/45-PV)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -24358,7 +24358,7 @@
         "sigla": "SOLIDARIEDADE",
         "nome": "SOLIDARIEDADE"
       },
-      "coligacao": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA(PRD/SOLIDARIEDADE)",
+      "coligacao": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA(25-PRD/77-SOLIDARIEDADE)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -24836,7 +24836,7 @@
         "sigla": "REDE",
         "nome": "REDE SUSTENTABILIDADE"
       },
-      "coligacao": "FEDERAÇÃO PSOL REDE(PSOL/REDE)",
+      "coligacao": "FEDERAÇÃO PSOL REDE(50-PSOL/18-REDE)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -25085,7 +25085,7 @@
         "sigla": "PSDB",
         "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
       },
-      "coligacao": "FEDERAÇÃO PSDB CIDADANIA(PSDB/CIDADANIA)",
+      "coligacao": "FEDERAÇÃO PSDB CIDADANIA(45-PSDB/23-CIDADANIA)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -25166,7 +25166,7 @@
         "sigla": "PSDB",
         "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
       },
-      "coligacao": "FEDERAÇÃO PSDB CIDADANIA(PSDB/CIDADANIA)",
+      "coligacao": "FEDERAÇÃO PSDB CIDADANIA(45-PSDB/23-CIDADANIA)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -25650,7 +25650,7 @@
         "sigla": "PP",
         "nome": "PROGRESSISTAS"
       },
-      "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(UNIÃO/PP)",
+      "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(44-UNIÃO/11-PP)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -27063,7 +27063,7 @@
         "sigla": "PP",
         "nome": "PROGRESSISTAS"
       },
-      "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(UNIÃO/PP)",
+      "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(44-UNIÃO/11-PP)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -27327,7 +27327,7 @@
         "sigla": "SOLIDARIEDADE",
         "nome": "SOLIDARIEDADE"
       },
-      "coligacao": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA(PRD/SOLIDARIEDADE)",
+      "coligacao": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA(25-PRD/77-SOLIDARIEDADE)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -28551,7 +28551,7 @@
         "sigla": "UNIÃO",
         "nome": "UNIÃO BRASIL"
       },
-      "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(UNIÃO/PP)",
+      "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(44-UNIÃO/11-PP)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -28842,7 +28842,7 @@
         "sigla": "PSOL",
         "nome": "PARTIDO SOCIALISMO E LIBERDADE"
       },
-      "coligacao": "FEDERAÇÃO PSOL REDE(PSOL/REDE)",
+      "coligacao": "FEDERAÇÃO PSOL REDE(50-PSOL/18-REDE)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -29303,7 +29303,7 @@
         "sigla": "SOLIDARIEDADE",
         "nome": "SOLIDARIEDADE"
       },
-      "coligacao": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA(PRD/SOLIDARIEDADE)",
+      "coligacao": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA(25-PRD/77-SOLIDARIEDADE)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -29565,7 +29565,7 @@
         "sigla": "PT",
         "nome": "PARTIDO DOS TRABALHADORES"
       },
-      "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(PT/PC do B/PV)",
+      "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(13-PT/65-PC do B/45-PV)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -29956,7 +29956,7 @@
         "sigla": "SOLIDARIEDADE",
         "nome": "SOLIDARIEDADE"
       },
-      "coligacao": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA(PRD/SOLIDARIEDADE)",
+      "coligacao": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA(25-PRD/77-SOLIDARIEDADE)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -30031,7 +30031,7 @@
         "sigla": "PT",
         "nome": "PARTIDO DOS TRABALHADORES"
       },
-      "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(PT/PC do B/PV)",
+      "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(13-PT/65-PC do B/45-PV)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -30177,7 +30177,7 @@
         "sigla": "PSDB",
         "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
       },
-      "coligacao": "FEDERAÇÃO PSDB CIDADANIA(PSDB/CIDADANIA)",
+      "coligacao": "FEDERAÇÃO PSDB CIDADANIA(45-PSDB/23-CIDADANIA)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -30287,7 +30287,7 @@
         "sigla": "SOLIDARIEDADE",
         "nome": "SOLIDARIEDADE"
       },
-      "coligacao": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA(PRD/SOLIDARIEDADE)",
+      "coligacao": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA(25-PRD/77-SOLIDARIEDADE)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -30376,7 +30376,7 @@
         "sigla": "UNIÃO",
         "nome": "UNIÃO BRASIL"
       },
-      "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(UNIÃO/PP)",
+      "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(44-UNIÃO/11-PP)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -30633,7 +30633,7 @@
         "sigla": "PSDB",
         "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
       },
-      "coligacao": "FEDERAÇÃO PSDB CIDADANIA(PSDB/CIDADANIA)",
+      "coligacao": "FEDERAÇÃO PSDB CIDADANIA(45-PSDB/23-CIDADANIA)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -30722,7 +30722,7 @@
         "sigla": "PSOL",
         "nome": "PARTIDO SOCIALISMO E LIBERDADE"
       },
-      "coligacao": "FEDERAÇÃO PSOL REDE(PSOL/REDE)",
+      "coligacao": "FEDERAÇÃO PSOL REDE(50-PSOL/18-REDE)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -31157,7 +31157,7 @@
         "sigla": "PSDB",
         "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
       },
-      "coligacao": "FEDERAÇÃO PSDB CIDADANIA(PSDB/CIDADANIA)",
+      "coligacao": "FEDERAÇÃO PSDB CIDADANIA(45-PSDB/23-CIDADANIA)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -32025,7 +32025,7 @@
         "sigla": "PP",
         "nome": "PROGRESSISTAS"
       },
-      "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(UNIÃO/PP)",
+      "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(44-UNIÃO/11-PP)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -32124,7 +32124,7 @@
         "sigla": "PP",
         "nome": "PROGRESSISTAS"
       },
-      "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(UNIÃO/PP)",
+      "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(44-UNIÃO/11-PP)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -32493,7 +32493,7 @@
         "sigla": "SOLIDARIEDADE",
         "nome": "SOLIDARIEDADE"
       },
-      "coligacao": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA(PRD/SOLIDARIEDADE)",
+      "coligacao": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA(25-PRD/77-SOLIDARIEDADE)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -32999,7 +32999,7 @@
         "sigla": "PP",
         "nome": "PROGRESSISTAS"
       },
-      "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(UNIÃO/PP)",
+      "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(44-UNIÃO/11-PP)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -34013,7 +34013,7 @@
         "sigla": "UNIÃO",
         "nome": "UNIÃO BRASIL"
       },
-      "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(UNIÃO/PP)",
+      "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(44-UNIÃO/11-PP)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -34137,7 +34137,7 @@
         "sigla": "PT",
         "nome": "PARTIDO DOS TRABALHADORES"
       },
-      "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(PT/PC do B/PV)",
+      "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(13-PT/65-PC do B/45-PV)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -34357,7 +34357,7 @@
         "sigla": "PT",
         "nome": "PARTIDO DOS TRABALHADORES"
       },
-      "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(PT/PC do B/PV)",
+      "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(13-PT/65-PC do B/45-PV)",
       "situacaoRegistro": "Renúncia",
       "situacaoCandidatura": "Não consta da urna",
       "apto": false,
@@ -35341,7 +35341,7 @@
         "sigla": "PP",
         "nome": "PROGRESSISTAS"
       },
-      "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(UNIÃO/PP)",
+      "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(44-UNIÃO/11-PP)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -36623,7 +36623,7 @@
         "sigla": "PP",
         "nome": "PROGRESSISTAS"
       },
-      "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(UNIÃO/PP)",
+      "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(44-UNIÃO/11-PP)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -37029,7 +37029,7 @@
         "sigla": "PSOL",
         "nome": "PARTIDO SOCIALISMO E LIBERDADE"
       },
-      "coligacao": "FEDERAÇÃO PSOL REDE(PSOL/REDE)",
+      "coligacao": "FEDERAÇÃO PSOL REDE(50-PSOL/18-REDE)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -37216,7 +37216,7 @@
         "sigla": "PP",
         "nome": "PROGRESSISTAS"
       },
-      "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(UNIÃO/PP)",
+      "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(44-UNIÃO/11-PP)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -37400,7 +37400,7 @@
         "sigla": "PSOL",
         "nome": "PARTIDO SOCIALISMO E LIBERDADE"
       },
-      "coligacao": "FEDERAÇÃO PSOL REDE(PSOL/REDE)",
+      "coligacao": "FEDERAÇÃO PSOL REDE(50-PSOL/18-REDE)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -37519,7 +37519,7 @@
         "sigla": "PSDB",
         "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
       },
-      "coligacao": "FEDERAÇÃO PSDB CIDADANIA(PSDB/CIDADANIA)",
+      "coligacao": "FEDERAÇÃO PSDB CIDADANIA(45-PSDB/23-CIDADANIA)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -38260,7 +38260,7 @@
         "sigla": "PSOL",
         "nome": "PARTIDO SOCIALISMO E LIBERDADE"
       },
-      "coligacao": "FEDERAÇÃO PSOL REDE(PSOL/REDE)",
+      "coligacao": "FEDERAÇÃO PSOL REDE(50-PSOL/18-REDE)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -38352,7 +38352,7 @@
         "sigla": "PT",
         "nome": "PARTIDO DOS TRABALHADORES"
       },
-      "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(PT/PC do B/PV)",
+      "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(13-PT/65-PC do B/45-PV)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -38429,7 +38429,7 @@
         "sigla": "PSDB",
         "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
       },
-      "coligacao": "FEDERAÇÃO PSDB CIDADANIA(PSDB/CIDADANIA)",
+      "coligacao": "FEDERAÇÃO PSDB CIDADANIA(45-PSDB/23-CIDADANIA)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -38518,7 +38518,7 @@
         "sigla": "SOLIDARIEDADE",
         "nome": "SOLIDARIEDADE"
       },
-      "coligacao": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA(PRD/SOLIDARIEDADE)",
+      "coligacao": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA(25-PRD/77-SOLIDARIEDADE)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -38806,7 +38806,7 @@
         "sigla": "PT",
         "nome": "PARTIDO DOS TRABALHADORES"
       },
-      "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(PT/PC do B/PV)",
+      "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(13-PT/65-PC do B/45-PV)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -39678,7 +39678,7 @@
         "sigla": "SOLIDARIEDADE",
         "nome": "SOLIDARIEDADE"
       },
-      "coligacao": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA(PRD/SOLIDARIEDADE)",
+      "coligacao": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA(25-PRD/77-SOLIDARIEDADE)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -40034,7 +40034,7 @@
         "sigla": "REDE",
         "nome": "REDE SUSTENTABILIDADE"
       },
-      "coligacao": "FEDERAÇÃO PSOL REDE(PSOL/REDE)",
+      "coligacao": "FEDERAÇÃO PSOL REDE(50-PSOL/18-REDE)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -40267,7 +40267,7 @@
         "sigla": "PSDB",
         "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
       },
-      "coligacao": "FEDERAÇÃO PSDB CIDADANIA(PSDB/CIDADANIA)",
+      "coligacao": "FEDERAÇÃO PSDB CIDADANIA(45-PSDB/23-CIDADANIA)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -40431,7 +40431,7 @@
         "sigla": "PSDB",
         "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
       },
-      "coligacao": "FEDERAÇÃO PSDB CIDADANIA(PSDB/CIDADANIA)",
+      "coligacao": "FEDERAÇÃO PSDB CIDADANIA(45-PSDB/23-CIDADANIA)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -41504,7 +41504,7 @@
         "sigla": "PSOL",
         "nome": "PARTIDO SOCIALISMO E LIBERDADE"
       },
-      "coligacao": "FEDERAÇÃO PSOL REDE(PSOL/REDE)",
+      "coligacao": "FEDERAÇÃO PSOL REDE(50-PSOL/18-REDE)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -41965,7 +41965,7 @@
         "sigla": "PT",
         "nome": "PARTIDO DOS TRABALHADORES"
       },
-      "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(PT/PC do B/PV)",
+      "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(13-PT/65-PC do B/45-PV)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -42970,7 +42970,7 @@
         "sigla": "PT",
         "nome": "PARTIDO DOS TRABALHADORES"
       },
-      "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(PT/PC do B/PV)",
+      "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(13-PT/65-PC do B/45-PV)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -43073,7 +43073,7 @@
         "sigla": "PSDB",
         "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
       },
-      "coligacao": "FEDERAÇÃO PSDB CIDADANIA(PSDB/CIDADANIA)",
+      "coligacao": "FEDERAÇÃO PSDB CIDADANIA(45-PSDB/23-CIDADANIA)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -43258,7 +43258,7 @@
         "sigla": "PV",
         "nome": "PARTIDO VERDE"
       },
-      "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(PT/PC do B/PV)",
+      "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(13-PT/65-PC do B/45-PV)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -43876,7 +43876,7 @@
         "sigla": "SOLIDARIEDADE",
         "nome": "SOLIDARIEDADE"
       },
-      "coligacao": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA(PRD/SOLIDARIEDADE)",
+      "coligacao": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA(25-PRD/77-SOLIDARIEDADE)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -44159,7 +44159,7 @@
         "sigla": "PCDOB",
         "nome": "PARTIDO COMUNISTA DO BRASIL"
       },
-      "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(PT/PC do B/PV)",
+      "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(13-PT/65-PC do B/45-PV)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -44404,7 +44404,7 @@
         "sigla": "UNIÃO",
         "nome": "UNIÃO BRASIL"
       },
-      "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(UNIÃO/PP)",
+      "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(44-UNIÃO/11-PP)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -45234,7 +45234,7 @@
         "sigla": "SOLIDARIEDADE",
         "nome": "SOLIDARIEDADE"
       },
-      "coligacao": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA(PRD/SOLIDARIEDADE)",
+      "coligacao": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA(25-PRD/77-SOLIDARIEDADE)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -45890,7 +45890,7 @@
         "sigla": "PSDB",
         "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
       },
-      "coligacao": "FEDERAÇÃO PSDB CIDADANIA(PSDB/CIDADANIA)",
+      "coligacao": "FEDERAÇÃO PSDB CIDADANIA(45-PSDB/23-CIDADANIA)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -46630,7 +46630,7 @@
         "sigla": "REDE",
         "nome": "REDE SUSTENTABILIDADE"
       },
-      "coligacao": "FEDERAÇÃO PSOL REDE(PSOL/REDE)",
+      "coligacao": "FEDERAÇÃO PSOL REDE(50-PSOL/18-REDE)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -46699,7 +46699,7 @@
         "sigla": "PT",
         "nome": "PARTIDO DOS TRABALHADORES"
       },
-      "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(PT/PC do B/PV)",
+      "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(13-PT/65-PC do B/45-PV)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -46774,7 +46774,7 @@
         "sigla": "UNIÃO",
         "nome": "UNIÃO BRASIL"
       },
-      "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(UNIÃO/PP)",
+      "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(44-UNIÃO/11-PP)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -47183,9 +47183,9 @@
         "nome": "PARTIDO NOVO"
       },
       "coligacao": "NOVO",
-      "situacaoRegistro": "Indeferido",
-      "situacaoCandidatura": "Não consta da urna",
-      "apto": false,
+      "situacaoRegistro": "Indeferido em prazo recursal ou com recurso",
+      "situacaoCandidatura": "Consta da urna",
+      "apto": true,
       "disputaReeleicao": false,
       "dataNascimento": "1995-02-09",
       "genero": "MASC.",
@@ -47556,7 +47556,7 @@
         "sigla": "PT",
         "nome": "PARTIDO DOS TRABALHADORES"
       },
-      "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(PT/PC do B/PV)",
+      "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(13-PT/65-PC do B/45-PV)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -47868,7 +47868,7 @@
         "sigla": "PT",
         "nome": "PARTIDO DOS TRABALHADORES"
       },
-      "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(PT/PC do B/PV)",
+      "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(13-PT/65-PC do B/45-PV)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -48685,7 +48685,7 @@
         "sigla": "UNIÃO",
         "nome": "UNIÃO BRASIL"
       },
-      "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(UNIÃO/PP)",
+      "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(44-UNIÃO/11-PP)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -49619,7 +49619,7 @@
         "sigla": "REDE",
         "nome": "REDE SUSTENTABILIDADE"
       },
-      "coligacao": "FEDERAÇÃO PSOL REDE(PSOL/REDE)",
+      "coligacao": "FEDERAÇÃO PSOL REDE(50-PSOL/18-REDE)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -49960,7 +49960,7 @@
         "sigla": "PSOL",
         "nome": "PARTIDO SOCIALISMO E LIBERDADE"
       },
-      "coligacao": "FEDERAÇÃO PSOL REDE(PSOL/REDE)",
+      "coligacao": "FEDERAÇÃO PSOL REDE(50-PSOL/18-REDE)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -50131,7 +50131,7 @@
         "sigla": "PSDB",
         "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
       },
-      "coligacao": "FEDERAÇÃO PSDB CIDADANIA(PSDB/CIDADANIA)",
+      "coligacao": "FEDERAÇÃO PSDB CIDADANIA(45-PSDB/23-CIDADANIA)",
       "situacaoRegistro": "Indeferido em prazo recursal ou com recurso",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -50270,7 +50270,7 @@
         "sigla": "REDE",
         "nome": "REDE SUSTENTABILIDADE"
       },
-      "coligacao": "FEDERAÇÃO PSOL REDE(PSOL/REDE)",
+      "coligacao": "FEDERAÇÃO PSOL REDE(50-PSOL/18-REDE)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -50345,7 +50345,7 @@
         "sigla": "PSDB",
         "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
       },
-      "coligacao": "FEDERAÇÃO PSDB CIDADANIA(PSDB/CIDADANIA)",
+      "coligacao": "FEDERAÇÃO PSDB CIDADANIA(45-PSDB/23-CIDADANIA)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -50442,7 +50442,7 @@
         "sigla": "PP",
         "nome": "PROGRESSISTAS"
       },
-      "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(UNIÃO/PP)",
+      "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(44-UNIÃO/11-PP)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -50626,7 +50626,7 @@
         "sigla": "REDE",
         "nome": "REDE SUSTENTABILIDADE"
       },
-      "coligacao": "FEDERAÇÃO PSOL REDE(PSOL/REDE)",
+      "coligacao": "FEDERAÇÃO PSOL REDE(50-PSOL/18-REDE)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -51118,7 +51118,7 @@
         "sigla": "PT",
         "nome": "PARTIDO DOS TRABALHADORES"
       },
-      "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(PT/PC do B/PV)",
+      "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(13-PT/65-PC do B/45-PV)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -51207,7 +51207,7 @@
         "sigla": "PSDB",
         "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
       },
-      "coligacao": "FEDERAÇÃO PSDB CIDADANIA(PSDB/CIDADANIA)",
+      "coligacao": "FEDERAÇÃO PSDB CIDADANIA(45-PSDB/23-CIDADANIA)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -52340,7 +52340,7 @@
         "sigla": "PSDB",
         "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
       },
-      "coligacao": "FEDERAÇÃO PSDB CIDADANIA(PSDB/CIDADANIA)",
+      "coligacao": "FEDERAÇÃO PSDB CIDADANIA(45-PSDB/23-CIDADANIA)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -52745,7 +52745,7 @@
         "sigla": "PT",
         "nome": "PARTIDO DOS TRABALHADORES"
       },
-      "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(PT/PC do B/PV)",
+      "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(13-PT/65-PC do B/45-PV)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -53534,7 +53534,7 @@
         "sigla": "PSOL",
         "nome": "PARTIDO SOCIALISMO E LIBERDADE"
       },
-      "coligacao": "FEDERAÇÃO PSOL REDE(PSOL/REDE)",
+      "coligacao": "FEDERAÇÃO PSOL REDE(50-PSOL/18-REDE)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -53789,7 +53789,7 @@
         "sigla": "UNIÃO",
         "nome": "UNIÃO BRASIL"
       },
-      "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(UNIÃO/PP)",
+      "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(44-UNIÃO/11-PP)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -53920,7 +53920,7 @@
         "sigla": "PRD",
         "nome": "PARTIDO RENOVACAO DEMOCRATICA"
       },
-      "coligacao": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA(PRD/SOLIDARIEDADE)",
+      "coligacao": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA(25-PRD/77-SOLIDARIEDADE)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -54031,7 +54031,7 @@
         "sigla": "PP",
         "nome": "PROGRESSISTAS"
       },
-      "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(UNIÃO/PP)",
+      "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(44-UNIÃO/11-PP)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -54519,7 +54519,7 @@
         "sigla": "PRD",
         "nome": "PARTIDO RENOVACAO DEMOCRATICA"
       },
-      "coligacao": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA(PRD/SOLIDARIEDADE)",
+      "coligacao": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA(25-PRD/77-SOLIDARIEDADE)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -54930,7 +54930,7 @@
         "sigla": "PT",
         "nome": "PARTIDO DOS TRABALHADORES"
       },
-      "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(PT/PC do B/PV)",
+      "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(13-PT/65-PC do B/45-PV)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -55282,7 +55282,7 @@
         "sigla": "PT",
         "nome": "PARTIDO DOS TRABALHADORES"
       },
-      "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(PT/PC do B/PV)",
+      "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(13-PT/65-PC do B/45-PV)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -55385,7 +55385,7 @@
         "sigla": "PP",
         "nome": "PROGRESSISTAS"
       },
-      "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(UNIÃO/PP)",
+      "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(44-UNIÃO/11-PP)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -55772,7 +55772,7 @@
         "sigla": "PSDB",
         "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
       },
-      "coligacao": "FEDERAÇÃO PSDB CIDADANIA(PSDB/CIDADANIA)",
+      "coligacao": "FEDERAÇÃO PSDB CIDADANIA(45-PSDB/23-CIDADANIA)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -55833,14 +55833,14 @@
           "cargo": "Deputado Estadual",
           "partido": "PRB",
           "uf": "ES",
-          "resultado": "Suplente"
+          "resultado": "Concorrendo"
         },
         {
           "ano": 2014,
           "cargo": "Deputado Estadual",
           "partido": "PRB",
           "uf": "ES",
-          "resultado": "Concorrendo"
+          "resultado": "Suplente"
         }
       ],
       "primeiraCandidatura": false,
@@ -55862,7 +55862,7 @@
         "sigla": "REDE",
         "nome": "REDE SUSTENTABILIDADE"
       },
-      "coligacao": "FEDERAÇÃO PSOL REDE(PSOL/REDE)",
+      "coligacao": "FEDERAÇÃO PSOL REDE(50-PSOL/18-REDE)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -56028,7 +56028,7 @@
         "sigla": "UNIÃO",
         "nome": "UNIÃO BRASIL"
       },
-      "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(UNIÃO/PP)",
+      "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(44-UNIÃO/11-PP)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -57147,7 +57147,7 @@
         "sigla": "REDE",
         "nome": "REDE SUSTENTABILIDADE"
       },
-      "coligacao": "FEDERAÇÃO PSOL REDE(PSOL/REDE)",
+      "coligacao": "FEDERAÇÃO PSOL REDE(50-PSOL/18-REDE)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -57398,7 +57398,7 @@
         "sigla": "PP",
         "nome": "PROGRESSISTAS"
       },
-      "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(UNIÃO/PP)",
+      "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(44-UNIÃO/11-PP)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -58104,7 +58104,7 @@
         "sigla": "PSDB",
         "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
       },
-      "coligacao": "FEDERAÇÃO PSDB CIDADANIA(PSDB/CIDADANIA)",
+      "coligacao": "FEDERAÇÃO PSDB CIDADANIA(45-PSDB/23-CIDADANIA)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -58331,7 +58331,7 @@
         "sigla": "PSOL",
         "nome": "PARTIDO SOCIALISMO E LIBERDADE"
       },
-      "coligacao": "FEDERAÇÃO PSOL REDE(PSOL/REDE)",
+      "coligacao": "FEDERAÇÃO PSOL REDE(50-PSOL/18-REDE)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -58502,7 +58502,7 @@
         "sigla": "REDE",
         "nome": "REDE SUSTENTABILIDADE"
       },
-      "coligacao": "FEDERAÇÃO PSOL REDE(PSOL/REDE)",
+      "coligacao": "FEDERAÇÃO PSOL REDE(50-PSOL/18-REDE)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -58607,7 +58607,7 @@
         "sigla": "PT",
         "nome": "PARTIDO DOS TRABALHADORES"
       },
-      "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(PT/PC do B/PV)",
+      "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(13-PT/65-PC do B/45-PV)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -58739,7 +58739,7 @@
         "sigla": "SOLIDARIEDADE",
         "nome": "SOLIDARIEDADE"
       },
-      "coligacao": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA(PRD/SOLIDARIEDADE)",
+      "coligacao": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA(25-PRD/77-SOLIDARIEDADE)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -58961,7 +58961,7 @@
         "sigla": "PT",
         "nome": "PARTIDO DOS TRABALHADORES"
       },
-      "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(PT/PC do B/PV)",
+      "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(13-PT/65-PC do B/45-PV)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -59392,7 +59392,7 @@
         "sigla": "PT",
         "nome": "PARTIDO DOS TRABALHADORES"
       },
-      "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(PT/PC do B/PV)",
+      "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(13-PT/65-PC do B/45-PV)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -59944,7 +59944,7 @@
         "sigla": "PT",
         "nome": "PARTIDO DOS TRABALHADORES"
       },
-      "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(PT/PC do B/PV)",
+      "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(13-PT/65-PC do B/45-PV)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -60025,7 +60025,7 @@
         "sigla": "PP",
         "nome": "PROGRESSISTAS"
       },
-      "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(UNIÃO/PP)",
+      "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(44-UNIÃO/11-PP)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -60123,7 +60123,7 @@
         "sigla": "PP",
         "nome": "PROGRESSISTAS"
       },
-      "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(UNIÃO/PP)",
+      "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(44-UNIÃO/11-PP)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -60350,7 +60350,7 @@
         "sigla": "PP",
         "nome": "PROGRESSISTAS"
       },
-      "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(UNIÃO/PP)",
+      "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(44-UNIÃO/11-PP)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -60495,7 +60495,7 @@
         "sigla": "UNIÃO",
         "nome": "UNIÃO BRASIL"
       },
-      "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(UNIÃO/PP)",
+      "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(44-UNIÃO/11-PP)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -60666,7 +60666,7 @@
         "sigla": "PCDOB",
         "nome": "PARTIDO COMUNISTA DO BRASIL"
       },
-      "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(PT/PC do B/PV)",
+      "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(13-PT/65-PC do B/45-PV)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -60836,7 +60836,7 @@
         "sigla": "PV",
         "nome": "PARTIDO VERDE"
       },
-      "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(PT/PC do B/PV)",
+      "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(13-PT/65-PC do B/45-PV)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -60937,7 +60937,7 @@
         "sigla": "PSOL",
         "nome": "PARTIDO SOCIALISMO E LIBERDADE"
       },
-      "coligacao": "FEDERAÇÃO PSOL REDE(PSOL/REDE)",
+      "coligacao": "FEDERAÇÃO PSOL REDE(50-PSOL/18-REDE)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -61798,7 +61798,7 @@
         "sigla": "PT",
         "nome": "PARTIDO DOS TRABALHADORES"
       },
-      "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(PT/PC do B/PV)",
+      "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(13-PT/65-PC do B/45-PV)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -63045,7 +63045,7 @@
         "sigla": "PSDB",
         "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
       },
-      "coligacao": "FEDERAÇÃO PSDB CIDADANIA(PSDB/CIDADANIA)",
+      "coligacao": "FEDERAÇÃO PSDB CIDADANIA(45-PSDB/23-CIDADANIA)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -63863,7 +63863,7 @@
         "sigla": "PSDB",
         "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
       },
-      "coligacao": "FEDERAÇÃO PSDB CIDADANIA(PSDB/CIDADANIA)",
+      "coligacao": "FEDERAÇÃO PSDB CIDADANIA(45-PSDB/23-CIDADANIA)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -64254,7 +64254,7 @@
         "sigla": "PSOL",
         "nome": "PARTIDO SOCIALISMO E LIBERDADE"
       },
-      "coligacao": "FEDERAÇÃO PSOL REDE(PSOL/REDE)",
+      "coligacao": "FEDERAÇÃO PSOL REDE(50-PSOL/18-REDE)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -64757,7 +64757,7 @@
         "sigla": "PSDB",
         "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
       },
-      "coligacao": "FEDERAÇÃO PSDB CIDADANIA(PSDB/CIDADANIA)",
+      "coligacao": "FEDERAÇÃO PSDB CIDADANIA(45-PSDB/23-CIDADANIA)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -65102,7 +65102,7 @@
         "sigla": "SOLIDARIEDADE",
         "nome": "SOLIDARIEDADE"
       },
-      "coligacao": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA(PRD/SOLIDARIEDADE)",
+      "coligacao": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA(25-PRD/77-SOLIDARIEDADE)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -65397,7 +65397,7 @@
         "sigla": "PSDB",
         "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
       },
-      "coligacao": "FEDERAÇÃO PSDB CIDADANIA(PSDB/CIDADANIA)",
+      "coligacao": "FEDERAÇÃO PSDB CIDADANIA(45-PSDB/23-CIDADANIA)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -65466,7 +65466,7 @@
         "sigla": "PT",
         "nome": "PARTIDO DOS TRABALHADORES"
       },
-      "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(PT/PC do B/PV)",
+      "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(13-PT/65-PC do B/45-PV)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -65688,7 +65688,7 @@
         "sigla": "PSDB",
         "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
       },
-      "coligacao": "FEDERAÇÃO PSDB CIDADANIA(PSDB/CIDADANIA)",
+      "coligacao": "FEDERAÇÃO PSDB CIDADANIA(45-PSDB/23-CIDADANIA)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -65858,7 +65858,7 @@
         "sigla": "PP",
         "nome": "PROGRESSISTAS"
       },
-      "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(UNIÃO/PP)",
+      "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(44-UNIÃO/11-PP)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -66011,7 +66011,7 @@
         "sigla": "REDE",
         "nome": "REDE SUSTENTABILIDADE"
       },
-      "coligacao": "FEDERAÇÃO PSOL REDE(PSOL/REDE)",
+      "coligacao": "FEDERAÇÃO PSOL REDE(50-PSOL/18-REDE)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -66426,7 +66426,7 @@
         "sigla": "SOLIDARIEDADE",
         "nome": "SOLIDARIEDADE"
       },
-      "coligacao": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA(PRD/SOLIDARIEDADE)",
+      "coligacao": "FEDERAÇÃO RENOVAÇÃO SOLIDÁRIA(25-PRD/77-SOLIDARIEDADE)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -66522,7 +66522,7 @@
         "sigla": "PV",
         "nome": "PARTIDO VERDE"
       },
-      "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(PT/PC do B/PV)",
+      "coligacao": "FEDERAÇÃO BRASIL DA ESPERANÇA - FE BRASIL(13-PT/65-PC do B/45-PV)",
       "situacaoRegistro": "Indeferido em prazo recursal ou com recurso",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -66822,14 +66822,14 @@
         },
         {
           "ano": 2004,
-          "cargo": "Vereador",
+          "cargo": "Vice-Prefeito",
           "partido": "PSB",
           "uf": "56812",
           "resultado": "Concorrendo"
         },
         {
           "ano": 2004,
-          "cargo": "Vice-Prefeito",
+          "cargo": "Vereador",
           "partido": "PSB",
           "uf": "56812",
           "resultado": "Concorrendo"
@@ -67054,7 +67054,7 @@
         "sigla": "PSDB",
         "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
       },
-      "coligacao": "FEDERAÇÃO PSDB CIDADANIA(PSDB/CIDADANIA)",
+      "coligacao": "FEDERAÇÃO PSDB CIDADANIA(45-PSDB/23-CIDADANIA)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -67501,7 +67501,7 @@
         "sigla": "PSDB",
         "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
       },
-      "coligacao": "FEDERAÇÃO PSDB CIDADANIA(PSDB/CIDADANIA)",
+      "coligacao": "FEDERAÇÃO PSDB CIDADANIA(45-PSDB/23-CIDADANIA)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
@@ -68328,7 +68328,7 @@
         "sigla": "UNIÃO",
         "nome": "UNIÃO BRASIL"
       },
-      "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(UNIÃO/PP)",
+      "coligacao": "FEDERAÇÃO UNIÃO PROGRESSISTA(44-UNIÃO/11-PP)",
       "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
