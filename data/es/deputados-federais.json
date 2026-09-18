@@ -6,12 +6,12 @@
   },
   "uf": "ES",
   "legislatura": 57,
-  "coletadoEm": "2026-09-15T14:22:22.921Z",
+  "coletadoEm": "2026-09-18T13:38:01.905Z",
   "referencia": {
     "bancada": 10,
-    "medianaDespesas": 1894779.1350000026,
-    "menor": 1418048.0299999898,
-    "maior": 1977408.4799999986
+    "medianaDespesas": 1896871.9650000026,
+    "menor": 1421231.76999999,
+    "maior": 1980934.78
   },
   "parlamentares": [
     {
@@ -35,8 +35,8 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/204356.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/204356",
       "despesas": {
-        "total": 1841706.680000002,
-        "documentos": 1026,
+        "total": 1850097.430000002,
+        "documentos": 1036,
         "porTipo": [
           {
             "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
@@ -213,8 +213,8 @@
           },
           {
             "tipo": "PASSAGEM AÉREA - SIGEPA",
-            "valor": 242725.55999999974,
-            "notas": 272,
+            "valor": 249998.92999999973,
+            "notas": 276,
             "fornecedores": [
               {
                 "nome": "TAM",
@@ -226,8 +226,8 @@
               {
                 "nome": "LATAM Airlines Brasil",
                 "cnpjCpf": null,
-                "total": 94107.92,
-                "notas": 107,
+                "total": 101381.28999999998,
+                "notas": 111,
                 "outrosNomes": []
               },
               {
@@ -302,8 +302,8 @@
           },
           {
             "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
-            "valor": 139319.87999999998,
-            "notas": 186,
+            "valor": 140437.25999999995,
+            "notas": 190,
             "fornecedores": [
               {
                 "nome": "APE VILA VELHA IMOBILIARIA E CONSTRUCOES LTDA",
@@ -318,8 +318,8 @@
               {
                 "nome": "CONDOMINIO DO EDIFICIO ITAPARICA TOP BUSINESS",
                 "cnpjCpf": "27423181000115",
-                "total": 25105.84000000001,
-                "notas": 76,
+                "total": 25909.320000000014,
+                "notas": 78,
                 "outrosNomes": [
                   "Condominio do Edificio Itaparica Top Business"
                 ]
@@ -327,8 +327,8 @@
               {
                 "nome": "EDP ESPIRITO SANTO DISTRIBUICAO DE ENERGIA S.A.",
                 "cnpjCpf": "28152650000171",
-                "total": 9388.6,
-                "notas": 63,
+                "total": 9702.5,
+                "notas": 65,
                 "outrosNomes": [
                   "0EDP ESPIRITO SANTO DISTRIBUICAO DE ENERGIA S.A."
                 ]
@@ -697,7 +697,7 @@
           },
           {
             "competencia": "2026-05",
-            "valor": 36220.05
+            "valor": 40285.020000000004
           },
           {
             "competencia": "2026-06",
@@ -709,11 +709,11 @@
           },
           {
             "competencia": "2026-08",
-            "valor": 10574.779999999999
+            "valor": 14097.079999999998
           },
           {
             "competencia": "2026-09",
-            "valor": 507.64
+            "valor": 1311.12
           }
         ],
         "fornecedores": [
@@ -760,6 +760,13 @@
             "outrosNomes": []
           },
           {
+            "nome": "LATAM Airlines Brasil",
+            "cnpjCpf": null,
+            "total": 101381.28999999998,
+            "notas": 111,
+            "outrosNomes": []
+          },
+          {
             "nome": "AGENCIA LAB. PRODUÇÕES LTFA",
             "cnpjCpf": "41928704000106",
             "total": 99500,
@@ -777,13 +784,6 @@
             ]
           },
           {
-            "nome": "LATAM Airlines Brasil",
-            "cnpjCpf": null,
-            "total": 94107.92,
-            "notas": 107,
-            "outrosNomes": []
-          },
-          {
             "nome": "QUASAR LOCADORA DE VEICULOS EIRELI",
             "cnpjCpf": "38024675000143",
             "total": 31500,
@@ -793,8 +793,8 @@
           {
             "nome": "CONDOMINIO DO EDIFICIO ITAPARICA TOP BUSINESS",
             "cnpjCpf": "27423181000115",
-            "total": 25105.84000000001,
-            "notas": 76,
+            "total": 25909.320000000014,
+            "notas": 78,
             "outrosNomes": [
               "Condominio do Edificio Itaparica Top Business"
             ]
@@ -817,8 +817,8 @@
           }
         ],
         "glosas": {
-          "quantidade": 146,
-          "valor": 7874.200000000003,
+          "quantidade": 150,
+          "valor": 8022.500000000003,
           "exemplos": [
             {
               "id": "7585825",
@@ -995,8 +995,8 @@
           }
         ],
         "comprovantes": {
-          "com": 699,
-          "total": 1026
+          "com": 703,
+          "total": 1036
         }
       },
       "proposicoes": {
@@ -1286,8 +1286,8 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/204355.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/204355",
       "despesas": {
-        "total": 1897027.2200000035,
-        "documentos": 1405,
+        "total": 1899438.7800000033,
+        "documentos": 1410,
         "porTipo": [
           {
             "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
@@ -1412,8 +1412,8 @@
           },
           {
             "tipo": "PASSAGEM AÉREA - SIGEPA",
-            "valor": 507777.4499999999,
-            "notas": 473,
+            "valor": 510189.0099999999,
+            "notas": 474,
             "fornecedores": [
               {
                 "nome": "TAM",
@@ -1425,8 +1425,8 @@
               {
                 "nome": "LATAM Airlines Brasil",
                 "cnpjCpf": null,
-                "total": 104929.11000000002,
-                "notas": 94,
+                "total": 107340.67000000001,
+                "notas": 95,
                 "outrosNomes": []
               },
               {
@@ -2183,7 +2183,7 @@
           },
           {
             "competencia": "2026-08",
-            "valor": 7913.400000000001
+            "valor": 10324.960000000001
           }
         ],
         "fornecedores": [
@@ -2232,8 +2232,8 @@
           {
             "nome": "LATAM Airlines Brasil",
             "cnpjCpf": null,
-            "total": 104929.11000000002,
-            "notas": 94,
+            "total": 107340.67000000001,
+            "notas": 95,
             "outrosNomes": []
           },
           {
@@ -2462,7 +2462,7 @@
         ],
         "comprovantes": {
           "com": 707,
-          "total": 1405
+          "total": 1410
         }
       },
       "proposicoes": {
@@ -2713,8 +2713,8 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/220528.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/220528",
       "despesas": {
-        "total": 1977408.4799999986,
-        "documentos": 1008,
+        "total": 1978273.7499999986,
+        "documentos": 1014,
         "porTipo": [
           {
             "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
@@ -2945,8 +2945,8 @@
           },
           {
             "tipo": "PASSAGEM AÉREA - SIGEPA",
-            "valor": 353900.1500000001,
-            "notas": 353,
+            "valor": 354765.4200000001,
+            "notas": 354,
             "fornecedores": [
               {
                 "nome": "TAM",
@@ -2958,8 +2958,8 @@
               {
                 "nome": "LATAM Airlines Brasil",
                 "cnpjCpf": null,
-                "total": 82714.24,
-                "notas": 83,
+                "total": 83579.51000000001,
+                "notas": 84,
                 "outrosNomes": []
               },
               {
@@ -3621,7 +3621,7 @@
           },
           {
             "competencia": "2026-05",
-            "valor": 95361.64000000001
+            "valor": 96226.91000000002
           },
           {
             "competencia": "2026-06",
@@ -3684,8 +3684,8 @@
           {
             "nome": "LATAM Airlines Brasil",
             "cnpjCpf": null,
-            "total": 82714.24,
-            "notas": 83,
+            "total": 83579.51000000001,
+            "notas": 84,
             "outrosNomes": []
           },
           {
@@ -3911,7 +3911,7 @@
         ],
         "comprovantes": {
           "com": 438,
-          "total": 1008
+          "total": 1014
         }
       },
       "proposicoes": {
@@ -4172,8 +4172,8 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/178871.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/178871",
       "despesas": {
-        "total": 1975111.12,
-        "documentos": 1589,
+        "total": 1980934.78,
+        "documentos": 1593,
         "porTipo": [
           {
             "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
@@ -4387,8 +4387,8 @@
           },
           {
             "tipo": "PASSAGEM AÉREA - SIGEPA",
-            "valor": 358541.5799999999,
-            "notas": 250,
+            "valor": 364365.2399999999,
+            "notas": 253,
             "fornecedores": [
               {
                 "nome": "TAM",
@@ -4400,8 +4400,8 @@
               {
                 "nome": "LATAM Airlines Brasil",
                 "cnpjCpf": null,
-                "total": 102385.81,
-                "notas": 71,
+                "total": 108209.47,
+                "notas": 74,
                 "outrosNomes": []
               },
               {
@@ -5287,7 +5287,7 @@
           },
           {
             "competencia": "2026-08",
-            "valor": 13499.630000000001
+            "valor": 19323.29
           },
           {
             "competencia": "2026-09",
@@ -5335,8 +5335,8 @@
           {
             "nome": "LATAM Airlines Brasil",
             "cnpjCpf": null,
-            "total": 102385.81,
-            "notas": 71,
+            "total": 108209.47,
+            "notas": 74,
             "outrosNomes": []
           },
           {
@@ -5588,7 +5588,7 @@
         ],
         "comprovantes": {
           "com": 1200,
-          "total": 1589
+          "total": 1593
         }
       },
       "proposicoes": {
@@ -5998,8 +5998,8 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/220529.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/220529",
       "despesas": {
-        "total": 1895063.2400000012,
-        "documentos": 1441,
+        "total": 1897247.7000000014,
+        "documentos": 1443,
         "porTipo": [
           {
             "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
@@ -6205,8 +6205,8 @@
           },
           {
             "tipo": "PASSAGEM AÉREA - SIGEPA",
-            "valor": 295719.0100000003,
-            "notas": 225,
+            "valor": 297903.4700000003,
+            "notas": 226,
             "fornecedores": [
               {
                 "nome": "TAM",
@@ -6218,8 +6218,8 @@
               {
                 "nome": "LATAM Airlines Brasil",
                 "cnpjCpf": null,
-                "total": 65948.23,
-                "notas": 44,
+                "total": 68132.68999999999,
+                "notas": 45,
                 "outrosNomes": []
               },
               {
@@ -7037,7 +7037,7 @@
           },
           {
             "competencia": "2026-08",
-            "valor": 15450.480000000001
+            "valor": 17634.940000000002
           }
         ],
         "fornecedores": [
@@ -7101,8 +7101,8 @@
           {
             "nome": "LATAM Airlines Brasil",
             "cnpjCpf": null,
-            "total": 65948.23,
-            "notas": 44,
+            "total": 68132.68999999999,
+            "notas": 45,
             "outrosNomes": []
           },
           {
@@ -7314,7 +7314,7 @@
         ],
         "comprovantes": {
           "com": 1142,
-          "total": 1441
+          "total": 1443
         }
       },
       "proposicoes": {
@@ -7619,9 +7619,105 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/220526.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/220526",
       "despesas": {
-        "total": 1604230.3000000007,
-        "documentos": 1802,
+        "total": 1617159.4800000007,
+        "documentos": 1812,
         "porTipo": [
+          {
+            "tipo": "PASSAGEM AÉREA - SIGEPA",
+            "valor": 434961.3299999999,
+            "notas": 377,
+            "fornecedores": [
+              {
+                "nome": "TAM",
+                "cnpjCpf": null,
+                "total": 200284.77000000002,
+                "notas": 207,
+                "outrosNomes": []
+              },
+              {
+                "nome": "LATAM Airlines Brasil",
+                "cnpjCpf": null,
+                "total": 129712.99000000003,
+                "notas": 95,
+                "outrosNomes": []
+              },
+              {
+                "nome": "GOL",
+                "cnpjCpf": null,
+                "total": 61906.489999999976,
+                "notas": 45,
+                "outrosNomes": []
+              },
+              {
+                "nome": "AZUL",
+                "cnpjCpf": null,
+                "total": 24653.900000000005,
+                "notas": 18,
+                "outrosNomes": []
+              },
+              {
+                "nome": "Gol Linhas Aéreas",
+                "cnpjCpf": null,
+                "total": 10809.8,
+                "notas": 7,
+                "outrosNomes": []
+              },
+              {
+                "nome": "Azul Linhas Aéreas",
+                "cnpjCpf": null,
+                "total": 7593.38,
+                "notas": 5,
+                "outrosNomes": []
+              }
+            ],
+            "maiores": [
+              {
+                "id": "FC132317-B3EB-422A-B65B-492463C72C43",
+                "data": "2026-04-15",
+                "tipo": "PASSAGEM AÉREA - SIGEPA",
+                "valor": 3347.89,
+                "fornecedor": "LATAM Airlines Brasil",
+                "cnpjCpf": null,
+                "documento": null
+              },
+              {
+                "id": "FF059539-21B3-474B-ADFD-E67338147440",
+                "data": "2026-04-07",
+                "tipo": "PASSAGEM AÉREA - SIGEPA",
+                "valor": 3347.89,
+                "fornecedor": "LATAM Airlines Brasil",
+                "cnpjCpf": null,
+                "documento": null
+              },
+              {
+                "id": "5CB857AF-E0F7-466C-8EF4-AA1D8A4185E0",
+                "data": "2026-03-24",
+                "tipo": "PASSAGEM AÉREA - SIGEPA",
+                "valor": 3156.9,
+                "fornecedor": "LATAM Airlines Brasil",
+                "cnpjCpf": null,
+                "documento": null
+              },
+              {
+                "id": "F18C4D9D-997D-42F8-A68B-9C6981277301",
+                "data": "2026-03-24",
+                "tipo": "PASSAGEM AÉREA - SIGEPA",
+                "valor": 3124.17,
+                "fornecedor": "LATAM Airlines Brasil",
+                "cnpjCpf": null,
+                "documento": null
+              },
+              {
+                "id": "7394EAA5-50CB-4687-A288-6B2B4B8C5200",
+                "data": "2026-05-04",
+                "tipo": "PASSAGEM AÉREA - SIGEPA",
+                "valor": 3043.66,
+                "fornecedor": "LATAM Airlines Brasil",
+                "cnpjCpf": null,
+                "documento": null
+              }
+            ]
+          },
           {
             "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
             "valor": 427328.7,
@@ -7730,105 +7826,9 @@
             ]
           },
           {
-            "tipo": "PASSAGEM AÉREA - SIGEPA",
-            "valor": 424609.29,
-            "notas": 371,
-            "fornecedores": [
-              {
-                "nome": "TAM",
-                "cnpjCpf": null,
-                "total": 200284.77000000002,
-                "notas": 207,
-                "outrosNomes": []
-              },
-              {
-                "nome": "LATAM Airlines Brasil",
-                "cnpjCpf": null,
-                "total": 119360.95000000004,
-                "notas": 89,
-                "outrosNomes": []
-              },
-              {
-                "nome": "GOL",
-                "cnpjCpf": null,
-                "total": 61906.489999999976,
-                "notas": 45,
-                "outrosNomes": []
-              },
-              {
-                "nome": "AZUL",
-                "cnpjCpf": null,
-                "total": 24653.900000000005,
-                "notas": 18,
-                "outrosNomes": []
-              },
-              {
-                "nome": "Gol Linhas Aéreas",
-                "cnpjCpf": null,
-                "total": 10809.8,
-                "notas": 7,
-                "outrosNomes": []
-              },
-              {
-                "nome": "Azul Linhas Aéreas",
-                "cnpjCpf": null,
-                "total": 7593.38,
-                "notas": 5,
-                "outrosNomes": []
-              }
-            ],
-            "maiores": [
-              {
-                "id": "FC132317-B3EB-422A-B65B-492463C72C43",
-                "data": "2026-04-15",
-                "tipo": "PASSAGEM AÉREA - SIGEPA",
-                "valor": 3347.89,
-                "fornecedor": "LATAM Airlines Brasil",
-                "cnpjCpf": null,
-                "documento": null
-              },
-              {
-                "id": "FF059539-21B3-474B-ADFD-E67338147440",
-                "data": "2026-04-07",
-                "tipo": "PASSAGEM AÉREA - SIGEPA",
-                "valor": 3347.89,
-                "fornecedor": "LATAM Airlines Brasil",
-                "cnpjCpf": null,
-                "documento": null
-              },
-              {
-                "id": "5CB857AF-E0F7-466C-8EF4-AA1D8A4185E0",
-                "data": "2026-03-24",
-                "tipo": "PASSAGEM AÉREA - SIGEPA",
-                "valor": 3156.9,
-                "fornecedor": "LATAM Airlines Brasil",
-                "cnpjCpf": null,
-                "documento": null
-              },
-              {
-                "id": "F18C4D9D-997D-42F8-A68B-9C6981277301",
-                "data": "2026-03-24",
-                "tipo": "PASSAGEM AÉREA - SIGEPA",
-                "valor": 3124.17,
-                "fornecedor": "LATAM Airlines Brasil",
-                "cnpjCpf": null,
-                "documento": null
-              },
-              {
-                "id": "4EB4B226-FB6A-4513-AE0D-0EA15D7C42D5",
-                "data": "2026-02-12",
-                "tipo": "PASSAGEM AÉREA - SIGEPA",
-                "valor": 3017.99,
-                "fornecedor": "LATAM Airlines Brasil",
-                "cnpjCpf": null,
-                "documento": null
-              }
-            ]
-          },
-          {
             "tipo": "LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES",
-            "valor": 355659.10000000003,
-            "notas": 91,
+            "valor": 357836.10000000003,
+            "notas": 92,
             "fornecedores": [
               {
                 "nome": "NOVACAR LOCADORA DE VEICULOS LTDA",
@@ -7857,6 +7857,15 @@
                 "outrosNomes": []
               },
               {
+                "nome": "QUASAR LOCADORA DE VEICULOS LTDA",
+                "cnpjCpf": "38024675000143",
+                "total": 4425.33,
+                "notas": 3,
+                "outrosNomes": [
+                  "QUASAR LOCADORA DE VEICULOS EIRELI"
+                ]
+              },
+              {
                 "nome": "Localiza Rent a Car S.A.",
                 "cnpjCpf": "16670085014105",
                 "total": 3234.0599999999995,
@@ -7864,13 +7873,6 @@
                 "outrosNomes": [
                   "LOCALIZA RENT A CAR SA"
                 ]
-              },
-              {
-                "nome": "QUASAR LOCADORA DE VEICULOS EIRELI",
-                "cnpjCpf": "38024675000143",
-                "total": 2248.33,
-                "notas": 2,
-                "outrosNomes": []
               }
             ],
             "maiores": [
@@ -7923,14 +7925,14 @@
           },
           {
             "tipo": "COMBUSTÍVEIS E LUBRIFICANTES.",
-            "valor": 135125.34000000003,
-            "notas": 770,
+            "valor": 135525.48,
+            "notas": 773,
             "fornecedores": [
               {
                 "nome": "071 - LAGO NORTE - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
                 "cnpjCpf": "00306597007100",
-                "total": 12245.749999999998,
-                "notas": 101,
+                "total": 12395.749999999998,
+                "notas": 102,
                 "outrosNomes": []
               },
               {
@@ -8687,7 +8689,7 @@
           },
           {
             "competencia": "2026-05",
-            "valor": 46448.130000000005
+            "valor": 56800.17000000001
           },
           {
             "competencia": "2026-06",
@@ -8703,7 +8705,7 @@
           },
           {
             "competencia": "2026-09",
-            "valor": 200
+            "valor": 2777.14
           }
         ],
         "fornecedores": [
@@ -8734,8 +8736,8 @@
           {
             "nome": "LATAM Airlines Brasil",
             "cnpjCpf": null,
-            "total": 119360.95000000004,
-            "notas": 89,
+            "total": 129712.99000000003,
+            "notas": 95,
             "outrosNomes": []
           },
           {
@@ -8978,8 +8980,8 @@
           }
         ],
         "comprovantes": {
-          "com": 1320,
-          "total": 1802
+          "com": 1324,
+          "total": 1812
         }
       },
       "proposicoes": {
@@ -9279,8 +9281,8 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/178873.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/178873",
       "despesas": {
-        "total": 1418048.0299999898,
-        "documentos": 2393,
+        "total": 1421231.76999999,
+        "documentos": 2400,
         "porTipo": [
           {
             "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
@@ -9396,8 +9398,8 @@
           },
           {
             "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
-            "valor": 294105.9899999996,
-            "notas": 274,
+            "valor": 295895.9899999996,
+            "notas": 275,
             "fornecedores": [
               {
                 "nome": "MD SOLUCOES IMOBILIARIAS LTDA",
@@ -9411,8 +9413,8 @@
               {
                 "nome": "VIX VITORIA INFORMATICA LTDA",
                 "cnpjCpf": "13253245000172",
-                "total": 72840,
-                "notas": 42,
+                "total": 74630,
+                "notas": 43,
                 "outrosNomes": []
               },
               {
@@ -9592,14 +9594,14 @@
           },
           {
             "tipo": "COMBUSTÍVEIS E LUBRIFICANTES.",
-            "valor": 141600.2999999999,
-            "notas": 765,
+            "valor": 142994.0399999999,
+            "notas": 771,
             "fornecedores": [
               {
                 "nome": "POSTO CAMPO GRANDE LTDA",
                 "cnpjCpf": "02582857000192",
-                "total": 79837.63999999998,
-                "notas": 450,
+                "total": 80414.12000000001,
+                "notas": 453,
                 "outrosNomes": [
                   "POSTO CAMPO GRANDE LTDA."
                 ]
@@ -9623,8 +9625,8 @@
               {
                 "nome": "PETROVERA - POSTO DE PRODUTOS DE PETROLEO E TRANSPORTES LTDA",
                 "cnpjCpf": "27926384000124",
-                "total": 8230.040000000003,
-                "notas": 40,
+                "total": 8730.970000000003,
+                "notas": 42,
                 "outrosNomes": []
               },
               {
@@ -9669,6 +9671,15 @@
                 "documento": "http://www.camara.leg.br/cota-parlamentar/nota-fiscal-eletronica?ideDocumentoFiscal=7924314"
               },
               {
+                "id": "8157554",
+                "data": "2026-07-22",
+                "tipo": "COMBUSTÍVEIS E LUBRIFICANTES.",
+                "valor": 316.33,
+                "fornecedor": "IMPERIO COMERCIO DE COMBUSTIVEIS LTDA",
+                "cnpjCpf": "55775938000175",
+                "documento": "http://www.camara.leg.br/cota-parlamentar/nota-fiscal-eletronica?ideDocumentoFiscal=8157554"
+              },
+              {
                 "id": "8088676",
                 "data": "2026-04-20",
                 "tipo": "COMBUSTÍVEIS E LUBRIFICANTES.",
@@ -9694,15 +9705,6 @@
                 "fornecedor": "POSTO CAMPO GRANDE LTDA",
                 "cnpjCpf": "02582857000192",
                 "documento": "http://www.camara.leg.br/cota-parlamentar/nota-fiscal-eletronica?ideDocumentoFiscal=8119366"
-              },
-              {
-                "id": "7862260",
-                "data": "2024-12-18",
-                "tipo": "COMBUSTÍVEIS E LUBRIFICANTES.",
-                "valor": 294.77,
-                "fornecedor": "DIAMANTE NEGRO LTDA",
-                "cnpjCpf": "54285426000168",
-                "documento": "http://www.camara.leg.br/cota-parlamentar/nota-fiscal-eletronica?ideDocumentoFiscal=7862260"
               }
             ]
           },
@@ -10353,11 +10355,15 @@
           },
           {
             "competencia": "2026-07",
-            "valor": 22567.649999999998
+            "valor": 23080.5
           },
           {
             "competencia": "2026-08",
-            "valor": 8691.730000000003
+            "valor": 10861.689999999995
+          },
+          {
+            "competencia": "2026-09",
+            "valor": 500.93
           }
         ],
         "fornecedores": [
@@ -10396,8 +10402,8 @@
           {
             "nome": "POSTO CAMPO GRANDE LTDA",
             "cnpjCpf": "02582857000192",
-            "total": 79837.63999999998,
-            "notas": 450,
+            "total": 80414.12000000001,
+            "notas": 453,
             "outrosNomes": [
               "POSTO CAMPO GRANDE LTDA."
             ]
@@ -10405,8 +10411,8 @@
           {
             "nome": "VIX VITORIA INFORMATICA LTDA",
             "cnpjCpf": "13253245000172",
-            "total": 72840,
-            "notas": 42,
+            "total": 74630,
+            "notas": 43,
             "outrosNomes": []
           },
           {
@@ -10652,8 +10658,8 @@
           }
         ],
         "comprovantes": {
-          "com": 2192,
-          "total": 2393
+          "com": 2199,
+          "total": 2400
         }
       },
       "proposicoes": {
@@ -10978,8 +10984,8 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/220527.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/220527",
       "despesas": {
-        "total": 1806016.7800000005,
-        "documentos": 1519,
+        "total": 1825337.54,
+        "documentos": 1531,
         "porTipo": [
           {
             "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
@@ -11182,14 +11188,14 @@
           },
           {
             "tipo": "LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES",
-            "valor": 316513,
-            "notas": 80,
+            "valor": 332513,
+            "notas": 84,
             "fornecedores": [
               {
                 "nome": "EVO LOCADORA DE VEICULOS LTDA.",
                 "cnpjCpf": "10234473000107",
-                "total": 243713,
-                "notas": 63,
+                "total": 259713,
+                "notas": 67,
                 "outrosNomes": [
                   "EVO COMERCIO DE VEICULOS LTDA"
                 ]
@@ -11254,8 +11260,8 @@
           },
           {
             "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
-            "valor": 240990.6600000001,
-            "notas": 208,
+            "valor": 243286.2800000001,
+            "notas": 210,
             "fornecedores": [
               {
                 "nome": "PRIVILEGE ADMINISTRACAO E NEGOCIOS IMOBILIARIOS LTDA",
@@ -11269,8 +11275,8 @@
               {
                 "nome": "LIBERTY CARTUCHOS LTDA",
                 "cnpjCpf": "03817452000159",
-                "total": 65770,
-                "notas": 36,
+                "total": 67975,
+                "notas": 37,
                 "outrosNomes": [
                   "Liberty Cartuchos LTDA"
                 ]
@@ -11301,8 +11307,8 @@
               {
                 "nome": "EDP ESPIRITO SANTO DISTRIBUICAO DE ENERGIA S.A.",
                 "cnpjCpf": "28152650000171",
-                "total": 13229.839999999997,
-                "notas": 55,
+                "total": 13320.459999999997,
+                "notas": 56,
                 "outrosNomes": []
               },
               {
@@ -11370,8 +11376,8 @@
           },
           {
             "tipo": "COMBUSTÍVEIS E LUBRIFICANTES.",
-            "valor": 101287.71999999991,
-            "notas": 649,
+            "valor": 102312.85999999991,
+            "notas": 654,
             "fornecedores": [
               {
                 "nome": "POSTO PIO XII - COMERCIO DE COMBUSTIVEIS LTDA",
@@ -11976,11 +11982,15 @@
           },
           {
             "competencia": "2026-07",
-            "valor": 35742.69
+            "valor": 37947.69
           },
           {
             "competencia": "2026-08",
-            "valor": 7843.11
+            "valor": 20578.81
+          },
+          {
+            "competencia": "2026-09",
+            "valor": 4380.06
           }
         ],
         "fornecedores": [
@@ -11992,20 +12002,20 @@
             "outrosNomes": []
           },
           {
+            "nome": "EVO LOCADORA DE VEICULOS LTDA.",
+            "cnpjCpf": "10234473000107",
+            "total": 259713,
+            "notas": 67,
+            "outrosNomes": [
+              "EVO COMERCIO DE VEICULOS LTDA"
+            ]
+          },
+          {
             "nome": "CASA DE COMUNICACAO LTDA",
             "cnpjCpf": "35442497000182",
             "total": 258075,
             "notas": 18,
             "outrosNomes": []
-          },
-          {
-            "nome": "EVO LOCADORA DE VEICULOS LTDA.",
-            "cnpjCpf": "10234473000107",
-            "total": 243713,
-            "notas": 63,
-            "outrosNomes": [
-              "EVO COMERCIO DE VEICULOS LTDA"
-            ]
           },
           {
             "nome": "TAM",
@@ -12049,8 +12059,8 @@
           {
             "nome": "LIBERTY CARTUCHOS LTDA",
             "cnpjCpf": "03817452000159",
-            "total": 65770,
-            "notas": 36,
+            "total": 67975,
+            "notas": 37,
             "outrosNomes": [
               "Liberty Cartuchos LTDA"
             ]
@@ -12256,8 +12266,8 @@
           }
         ],
         "comprovantes": {
-          "com": 1150,
-          "total": 1519
+          "com": 1161,
+          "total": 1531
         }
       },
       "proposicoes": {
@@ -12553,8 +12563,8 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/220530.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/220530",
       "despesas": {
-        "total": 1931701.1499999992,
-        "documentos": 1268,
+        "total": 1939337.3099999991,
+        "documentos": 1275,
         "porTipo": [
           {
             "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
@@ -12753,8 +12763,8 @@
           },
           {
             "tipo": "PASSAGEM AÉREA - SIGEPA",
-            "valor": 297417.0300000002,
-            "notas": 233,
+            "valor": 304491.7000000001,
+            "notas": 236,
             "fornecedores": [
               {
                 "nome": "TAM",
@@ -12766,8 +12776,8 @@
               {
                 "nome": "LATAM Airlines Brasil",
                 "cnpjCpf": null,
-                "total": 73186.68999999997,
-                "notas": 52,
+                "total": 80261.35999999997,
+                "notas": 55,
                 "outrosNomes": []
               },
               {
@@ -12849,8 +12859,8 @@
           },
           {
             "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
-            "valor": 266617.1599999999,
-            "notas": 169,
+            "valor": 267178.6499999999,
+            "notas": 171,
             "fornecedores": [
               {
                 "nome": "M A EMPREENDIMENTO IMOBILIARIOS LTDA",
@@ -12883,8 +12893,8 @@
               {
                 "nome": "EDP ESPIRITO SANTO DISTRIBUICAO DE ENERGIA S.A.",
                 "cnpjCpf": "28152650000171",
-                "total": 17931.08,
-                "notas": 60,
+                "total": 18492.57,
+                "notas": 62,
                 "outrosNomes": [
                   "0EDP ESPIRITO SANTO DISTRIBUICAO DE ENERGIA S.A."
                 ]
@@ -13377,7 +13387,7 @@
           },
           {
             "competencia": "2026-05",
-            "valor": 109149.43
+            "valor": 116224.09999999999
           },
           {
             "competencia": "2026-06",
@@ -13389,7 +13399,7 @@
           },
           {
             "competencia": "2026-08",
-            "valor": 15746.809999999998
+            "valor": 16308.299999999997
           },
           {
             "competencia": "2026-09",
@@ -13455,17 +13465,17 @@
             ]
           },
           {
+            "nome": "LATAM Airlines Brasil",
+            "cnpjCpf": null,
+            "total": 80261.35999999997,
+            "notas": 55,
+            "outrosNomes": []
+          },
+          {
             "nome": "WELLINGTON ABNER DA SILVA",
             "cnpjCpf": "56958976000126",
             "total": 79000,
             "notas": 19,
-            "outrosNomes": []
-          },
-          {
-            "nome": "LATAM Airlines Brasil",
-            "cnpjCpf": null,
-            "total": 73186.68999999997,
-            "notas": 52,
             "outrosNomes": []
           },
           {
@@ -13494,8 +13504,8 @@
           }
         ],
         "glosas": {
-          "quantidade": 58,
-          "valor": 459.88999999999993,
+          "quantidade": 60,
+          "valor": 464.63999999999993,
           "exemplos": [
             {
               "id": "8091354",
@@ -13672,8 +13682,8 @@
           }
         ],
         "comprovantes": {
-          "com": 978,
-          "total": 1268
+          "com": 980,
+          "total": 1275
         }
       },
       "proposicoes": {
@@ -13681,7 +13691,7 @@
           {
             "tipo": "Requerimento de Informação",
             "sigla": "RIC",
-            "total": 269
+            "total": 270
           },
           {
             "tipo": "Requerimento de Registro de Frente Parlamentar na Câmara dos Deputados",
@@ -13696,7 +13706,7 @@
           {
             "tipo": "Projeto de Lei",
             "sigla": "PL",
-            "total": 105
+            "total": 106
           },
           {
             "tipo": "Requerimento de Moção",
@@ -13706,7 +13716,7 @@
           {
             "tipo": "Indicação",
             "sigla": "INC",
-            "total": 59
+            "total": 61
           },
           {
             "tipo": "Projeto de Decreto Legislativo de Sustação de Atos Normativos do Poder Executivo",
@@ -13931,6 +13941,46 @@
         ],
         "recentes": [
           {
+            "id": 2646508,
+            "sigla": "RIC",
+            "tipo": "Requerimento de Informação",
+            "numero": 2628,
+            "ano": 2026,
+            "ementa": "Requer informações ao Senhor Ministro de Estado do Planejamento e Orçamento sobre a revisão metodológica do Sistema de Contas Nacionais pelo IBGE, a mensuração de estimativas de atividades econômicas ilícitas e seus impactos na apuração do Produto Interno Bruto (PIB) e nas metas de responsabilidade fiscal.",
+            "apresentadaEm": "2026-09-16T16:35",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2646508"
+          },
+          {
+            "id": 2646505,
+            "sigla": "PL",
+            "tipo": "Projeto de Lei",
+            "numero": 5385,
+            "ano": 2026,
+            "ementa": "Altera a Lei nº 8.080, de 19 de setembro de 1990 (Lei Orgânica da Saúde), para estabelecer diretrizes de monitoramento, transparência ativa e controle de perdas e estoques de medicamentos, vacinas e insumos no âmbito do Sistema Único de Saúde (SUS).",
+            "apresentadaEm": "2026-09-16T15:46",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2646505"
+          },
+          {
+            "id": 2646502,
+            "sigla": "INC",
+            "tipo": "Indicação",
+            "numero": 1591,
+            "ano": 2026,
+            "ementa": "Sugere ao Ministério das Relações Exteriores a adoção de providências diplomáticas e acordos de reciprocidade internacional para o reconhecimento de credenciais brasileiras de pessoas com deficiência, cartões de estacionamento prioritário, identificações com tecnologia verificável e proteção consular a viajantes e residentes no exterior.",
+            "apresentadaEm": "2026-09-16T15:19",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2646502"
+          },
+          {
+            "id": 2646501,
+            "sigla": "INC",
+            "tipo": "Indicação",
+            "numero": 1590,
+            "ano": 2026,
+            "ementa": "Sugere ao Poder Executivo a adoção de medidas para possibilitar a oferta facultativa de gasolina E0 e E10 e a realização de estudos sobre os efeitos de diferentes teores de etanol anidro na durabilidade dos componentes dos veículos automotores.",
+            "apresentadaEm": "2026-09-16T15:09",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2646501"
+          },
+          {
             "id": 2646405,
             "sigla": "PL",
             "tipo": "Projeto de Lei",
@@ -13989,46 +14039,6 @@
             "ementa": "Requer Informações ao Ministro de Estado da Integração e do Desenvolvimento Regional acerca das providências administrativas, financeiras, correicionais e de controle adotadas pelo Ministério e pelo Departamento Nacional de Obras Contra as Secas — DNOCS após a deflagração da Operação Overclean, especialmente diante do indiciamento de pessoas ligadas à Autarquia e das deficiências apontadas em documentos de auditoria interna.",
             "apresentadaEm": "2026-08-31T15:33",
             "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2644968"
-          },
-          {
-            "id": 2644800,
-            "sigla": "PEC",
-            "tipo": "Proposta de Emenda à Constituição",
-            "numero": 16,
-            "ano": 2026,
-            "ementa": "Acrescenta os art. 68-A no Ato das Disposições Constitucionais Transitórias para ratificar os registros de imóveis rurais em faixa de fronteira concedidos pelos estados antes da promulgação desta Constituição Federal e dá outras providências.",
-            "apresentadaEm": "2026-08-28T15:16",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2644800"
-          },
-          {
-            "id": 2644031,
-            "sigla": "RIC",
-            "tipo": "Requerimento de Informação",
-            "numero": 2457,
-            "ano": 2026,
-            "ementa": "Requer informações ao Senhor Ministro de Estado da Fazenda acerca dos recordes de inadimplência de empresas brasileiras - com ênfase nas micro e pequenas empresas -, da eficácia das medidas governamentais adotadas e do impacto do ambiente macroeconômico sobre o setor produtivo nacional.",
-            "apresentadaEm": "2026-08-18T18:32",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2644031"
-          },
-          {
-            "id": 2643965,
-            "sigla": "RIC",
-            "tipo": "Requerimento de Informação",
-            "numero": 2452,
-            "ano": 2026,
-            "ementa": "Solicita informações complementares ao Senhor Ministro de Estado da Agricultura e Pecuária, em aditamento ao Requerimento de Informação nº 1.298/2026, acerca da exclusão do Brasil da lista de países autorizados a exportar produtos de origem animal para a União Europeia, em razão das novas exigências relativas ao uso de antimicrobianos na produção animal.",
-            "apresentadaEm": "2026-08-18T13:30",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2643965"
-          },
-          {
-            "id": 2643934,
-            "sigla": "PL",
-            "tipo": "Projeto de Lei",
-            "numero": 5097,
-            "ano": 2026,
-            "ementa": "Institui o Programa Nacional Antes do Sim, destinado à preparação para relações conjugais saudáveis e à prevenção da violência doméstica e familiar no âmbito de ações públicas de casamento coletivo ou comunitário e de iniciativas executadas em cooperação com a Justiça Itinerante; altera a Lei nº 11.340, de 7 de agosto de 2006; e dá outras providências.",
-            "apresentadaEm": "2026-08-17T18:42",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2643934"
           }
         ]
       }
@@ -14053,8 +14063,8 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/160517.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/160517",
       "despesas": {
-        "total": 1894495.030000004,
-        "documentos": 1033,
+        "total": 1896496.2300000042,
+        "documentos": 1041,
         "porTipo": [
           {
             "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
@@ -14381,8 +14391,8 @@
           },
           {
             "tipo": "PASSAGEM AÉREA - SIGEPA",
-            "valor": 250202.1500000001,
-            "notas": 265,
+            "valor": 252203.35000000012,
+            "notas": 269,
             "fornecedores": [
               {
                 "nome": "TAM",
@@ -14394,8 +14404,8 @@
               {
                 "nome": "LATAM Airlines Brasil",
                 "cnpjCpf": null,
-                "total": 87078.2,
-                "notas": 90,
+                "total": 89079.4,
+                "notas": 94,
                 "outrosNomes": []
               },
               {
@@ -15088,7 +15098,7 @@
           },
           {
             "competencia": "2026-08",
-            "valor": 5573.839999999999
+            "valor": 7575.04
           }
         ],
         "fornecedores": [
@@ -15154,8 +15164,8 @@
           {
             "nome": "LATAM Airlines Brasil",
             "cnpjCpf": null,
-            "total": 87078.2,
-            "notas": 90,
+            "total": 89079.4,
+            "notas": 94,
             "outrosNomes": []
           },
           {
@@ -15371,7 +15381,7 @@
         ],
         "comprovantes": {
           "com": 645,
-          "total": 1033
+          "total": 1041
         }
       },
       "proposicoes": {
