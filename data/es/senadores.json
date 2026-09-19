@@ -11,7 +11,7 @@
     2025,
     2026
   ],
-  "coletadoEm": "2026-09-18T13:38:07.501Z",
+  "coletadoEm": "2026-09-19T13:12:40.888Z",
   "senadores": [
     {
       "id": "senado-5953",
@@ -3410,6 +3410,16 @@
         "fim": "2031-01-31"
       },
       "materias": [
+        {
+          "id": "175818",
+          "identificacao": "INS 31/2026",
+          "sigla": "INS",
+          "numero": "31",
+          "ano": 2026,
+          "ementa": "Sugere à Comissão de Constituição, Justiça e Cidadania a constituição de Grupo de Trabalho destinado ao estudo, sistematização e consolidação das proposições legislativas em tramitação no Congresso Nacional que tratem do Supremo Tribunal Federal e ao exame de medidas destinadas ao aperfeiçoamento de seu marco constitucional e legal.",
+          "data": "2026-09-18",
+          "autorPrincipal": false
+        },
         {
           "id": "175798",
           "identificacao": "RQS 685/2026",
@@ -7965,6 +7975,10 @@
           "total": 6
         },
         {
+          "sigla": "INS",
+          "total": 2
+        },
+        {
           "sigla": "PLP",
           "total": 2
         },
@@ -7974,10 +7988,6 @@
         },
         {
           "sigla": "R.C",
-          "total": 1
-        },
-        {
-          "sigla": "INS",
           "total": 1
         },
         {

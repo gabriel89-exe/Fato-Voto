@@ -9,7 +9,7 @@
     "idEleicao": "20322002026",
     "uf": "ES"
   },
-  "coletadoEm": "2026-09-18T13:36:50.384Z",
+  "coletadoEm": "2026-09-19T13:11:05.175Z",
   "total": 577,
   "candidaturas": [
     {
@@ -15861,6 +15861,12 @@
           "nomeArquivo": "apicand_certidao_criminal_justica_estadual_primeiro_grau_1789314124868.pdf",
           "tipo": "Certidão criminal — Justiça Estadual, 1º grau",
           "codTipo": 13
+        },
+        {
+          "id": 80017142937,
+          "nomeArquivo": "apicand_certidao_criminal_justica_estadual_segundo_grau_1789769522139.pdf",
+          "tipo": "Certidão criminal — Justiça Estadual, 2º grau",
+          "codTipo": 14
         }
       ],
       "eleicoesAnteriores": [
@@ -35782,7 +35788,7 @@
         "nome": "MOVIMENTO DEMOCRÁTICO BRASILEIRO"
       },
       "coligacao": "MDB",
-      "situacaoRegistro": "Deferido",
+      "situacaoRegistro": "Deferido com recurso",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
       "disputaReeleicao": false,
@@ -52252,7 +52258,7 @@
         "nome": "PODEMOS"
       },
       "coligacao": "PODE",
-      "situacaoRegistro": "Deferido",
+      "situacaoRegistro": "Deferido com recurso",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
       "disputaReeleicao": false,
@@ -53729,9 +53735,9 @@
         "nome": "DEMOCRACIA CRISTÃ"
       },
       "coligacao": "DC",
-      "situacaoRegistro": "Indeferido em prazo recursal ou com recurso",
+      "situacaoRegistro": "Indeferido",
       "situacaoCandidatura": "Consta da urna",
-      "apto": true,
+      "apto": false,
       "disputaReeleicao": false,
       "dataNascimento": "1965-09-07",
       "genero": "MASC.",
@@ -54702,7 +54708,7 @@
         "nome": "DEMOCRATA"
       },
       "coligacao": "DEMOCRATA",
-      "situacaoRegistro": "Deferido",
+      "situacaoRegistro": "Deferido com recurso",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
       "disputaReeleicao": false,
