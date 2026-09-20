@@ -9,7 +9,7 @@
     "idEleicao": "20322002026",
     "uf": "ES"
   },
-  "coletadoEm": "2026-09-19T13:11:05.175Z",
+  "coletadoEm": "2026-09-20T13:35:53.904Z",
   "total": 577,
   "candidaturas": [
     {
@@ -24428,17 +24428,17 @@
       "eleicoesAnteriores": [
         {
           "ano": 2008,
-          "cargo": "Vice-Prefeito",
-          "partido": "PRTB",
-          "uf": "57037",
-          "resultado": "Concorrendo"
-        },
-        {
-          "ano": 2008,
           "cargo": "Vereador",
           "partido": "PRTB",
           "uf": "57037",
           "resultado": "Não eleito"
+        },
+        {
+          "ano": 2008,
+          "cargo": "Vice-Prefeito",
+          "partido": "PRTB",
+          "uf": "57037",
+          "resultado": "Concorrendo"
         }
       ],
       "primeiraCandidatura": false,
@@ -55847,14 +55847,14 @@
           "cargo": "Deputado Estadual",
           "partido": "PRB",
           "uf": "ES",
-          "resultado": "Concorrendo"
+          "resultado": "Suplente"
         },
         {
           "ano": 2014,
           "cargo": "Deputado Estadual",
           "partido": "PRB",
           "uf": "ES",
-          "resultado": "Suplente"
+          "resultado": "Concorrendo"
         }
       ],
       "primeiraCandidatura": false,
@@ -57082,8 +57082,16 @@
       "escolaridade": "Superior completo",
       "ocupacao": "Vereador",
       "naturalidade": "ES-ITAPEMIRIM",
-      "bens": [],
-      "totalBens": 0,
+      "bens": [
+        {
+          "ordem": 1,
+          "tipo": "Veículo automotor terrestre: caminhão, automóvel, moto, etc.",
+          "descricao": "Motocicleta Honda - ano 2008 - modelo 2008",
+          "valor": 8842,
+          "atualizadoEm": "2026-09-19"
+        }
+      ],
+      "totalBens": 8842,
       "proposta": {
         "exigida": false,
         "documento": null

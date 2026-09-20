@@ -6,7 +6,7 @@
   },
   "uf": "ES",
   "legislatura": 57,
-  "coletadoEm": "2026-09-18T13:38:01.905Z",
+  "coletadoEm": "2026-09-20T13:37:07.173Z",
   "referencia": {
     "bancada": 10,
     "medianaDespesas": 1896871.9650000026,
@@ -5616,7 +5616,7 @@
           {
             "tipo": "Projeto de Lei",
             "sigla": "PL",
-            "total": 201
+            "total": 205
           },
           {
             "tipo": "Requerimento para envio de Requerimento de Informação pela Comissão",
@@ -5876,6 +5876,46 @@
         ],
         "recentes": [
           {
+            "id": 2646829,
+            "sigla": "PL",
+            "tipo": "Projeto de Lei",
+            "numero": 5407,
+            "ano": 2026,
+            "ementa": "Institui a Política Nacional de Micromobilidade Elétrica.",
+            "apresentadaEm": "2026-09-18T18:06",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2646829"
+          },
+          {
+            "id": 2646828,
+            "sigla": "PL",
+            "tipo": "Projeto de Lei",
+            "numero": 5406,
+            "ano": 2026,
+            "ementa": "Altera a Lei nº 11.340, de 7 de agosto de 2006 (Lei Maria da Penha), para dispor sobre medidas que aprimorem a efetividade das políticas públicas já existentes, no que se refere ao combate à violência doméstica e familiar contra a mulher.",
+            "apresentadaEm": "2026-09-18T18:01",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2646828"
+          },
+          {
+            "id": 2646827,
+            "sigla": "PL",
+            "tipo": "Projeto de Lei",
+            "numero": 5405,
+            "ano": 2026,
+            "ementa": "Altera a Lei nº 7.678, de 8 de novembro de 1988, para ampliar os canais de comercialização do vinho produzido por agricultor familiar ou empreendedor familiar rural.",
+            "apresentadaEm": "2026-09-18T18:01",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2646827"
+          },
+          {
+            "id": 2646826,
+            "sigla": "PL",
+            "tipo": "Projeto de Lei",
+            "numero": 5404,
+            "ano": 2026,
+            "ementa": "Dispõe sobre a isenção do Imposto sobre Produtos Industrializados (IPI) incidente na aquisição de veículos automotores destinados ao exercício das atividades de feirante e vendedor ambulante.",
+            "apresentadaEm": "2026-09-18T18:01",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2646826"
+          },
+          {
             "id": 2646302,
             "sigla": "REQ",
             "tipo": "Requerimento de Convocação de Ministro de Estado no Plenário (art. 50, CF)",
@@ -5934,46 +5974,6 @@
             "ementa": "Requer a convocação do Ministro de Estado da Saúde para prestar esclarecimentos sobre denúncias de possível conflito de interesses envolvendo a gestão de projetos estratégicos do Complexo Econômico-Industrial da Saúde (CEIS), os critérios de destinação de recursos públicos bilionários e as medidas adotadas para assegurar a legalidade, a impessoalidade e a transparência na aplicação desses recursos.",
             "apresentadaEm": "2026-08-14T13:23",
             "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2646128"
-          },
-          {
-            "id": 2643825,
-            "sigla": "REQ",
-            "tipo": "Requerimento de Convocação de Ministro de Estado no Plenário (art. 50, CF)",
-            "numero": 4055,
-            "ano": 2026,
-            "ementa": "Requer a convocação do Ministro de Estado da Saúde para prestar esclarecimentos sobre denúncias de possível conflito de interesses envolvendo a gestão de projetos estratégicos do Complexo Econômico-Industrial da Saúde (CEIS), os critérios de destinação de recursos públicos bilionários e as medidas adotadas para assegurar a legalidade, a impessoalidade e a transparência na aplicação desses recursos.",
-            "apresentadaEm": "2026-08-14T13:23",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2643825"
-          },
-          {
-            "id": 2643824,
-            "sigla": "PL",
-            "tipo": "Projeto de Lei",
-            "numero": 5085,
-            "ano": 2026,
-            "ementa": "Concede isenção do Imposto de Importação (II) sobre medicamentos destinados ao tratamento de enfermidades graves ou doenças raras, quando importados por pessoa física para uso próprio ou individual, inclusive por meio de bagagem acompanhada.",
-            "apresentadaEm": "2026-08-14T13:23",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2643824"
-          },
-          {
-            "id": 2646125,
-            "sigla": "REQ",
-            "tipo": "Requerimento para envio de Solicitação de Informação ao TCU pela Comissão",
-            "numero": 187,
-            "ano": 2026,
-            "ementa": "Requer informações ao Tribunal de Contas da União acerca dos procedimentos administrativos adotados pelo Tribunal Superior Eleitoral para o credenciamento de missões nacionais e internacionais de observação eleitoral nas Eleições Gerais de 2026.",
-            "apresentadaEm": "2026-08-14T13:16",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2646125"
-          },
-          {
-            "id": 2643820,
-            "sigla": "SIT",
-            "tipo": "Solicitação de Informação ao TCU",
-            "numero": 51,
-            "ano": 2026,
-            "ementa": "Requer informações ao Tribunal de Contas da União acerca dos procedimentos administrativos adotados pelo Tribunal Superior Eleitoral para o credenciamento de missões nacionais e internacionais de observação eleitoral nas Eleições Gerais de 2026.",
-            "apresentadaEm": "2026-08-14T13:16",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2643820"
           }
         ]
       }
