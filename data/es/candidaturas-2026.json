@@ -9,7 +9,7 @@
     "idEleicao": "20322002026",
     "uf": "ES"
   },
-  "coletadoEm": "2026-09-20T13:35:53.904Z",
+  "coletadoEm": "2026-09-21T15:55:12.551Z",
   "total": 577,
   "candidaturas": [
     {
@@ -7284,9 +7284,9 @@
         "nome": "DEMOCRACIA CRISTÃ"
       },
       "coligacao": "DC",
-      "situacaoRegistro": "Indeferido em prazo recursal ou com recurso",
+      "situacaoRegistro": "Indeferido",
       "situacaoCandidatura": "Consta da urna",
-      "apto": true,
+      "apto": false,
       "disputaReeleicao": false,
       "dataNascimento": "1957-02-03",
       "genero": "MASC.",
@@ -24428,17 +24428,17 @@
       "eleicoesAnteriores": [
         {
           "ano": 2008,
-          "cargo": "Vereador",
-          "partido": "PRTB",
-          "uf": "57037",
-          "resultado": "Não eleito"
-        },
-        {
-          "ano": 2008,
           "cargo": "Vice-Prefeito",
           "partido": "PRTB",
           "uf": "57037",
           "resultado": "Concorrendo"
+        },
+        {
+          "ano": 2008,
+          "cargo": "Vereador",
+          "partido": "PRTB",
+          "uf": "57037",
+          "resultado": "Não eleito"
         }
       ],
       "primeiraCandidatura": false,
@@ -55847,14 +55847,14 @@
           "cargo": "Deputado Estadual",
           "partido": "PRB",
           "uf": "ES",
-          "resultado": "Suplente"
+          "resultado": "Concorrendo"
         },
         {
           "ano": 2014,
           "cargo": "Deputado Estadual",
           "partido": "PRB",
           "uf": "ES",
-          "resultado": "Concorrendo"
+          "resultado": "Suplente"
         }
       ],
       "primeiraCandidatura": false,

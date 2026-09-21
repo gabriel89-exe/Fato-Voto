@@ -6,11 +6,11 @@
   },
   "uf": "ES",
   "legislatura": 57,
-  "coletadoEm": "2026-09-20T13:37:07.173Z",
+  "coletadoEm": "2026-09-21T15:56:43.712Z",
   "referencia": {
     "bancada": 10,
-    "medianaDespesas": 1896871.9650000026,
-    "menor": 1421231.76999999,
+    "medianaDespesas": 1898343.2400000023,
+    "menor": 1418960.0699999898,
     "maior": 1980934.78
   },
   "parlamentares": [
@@ -9281,8 +9281,8 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/178873.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/178873",
       "despesas": {
-        "total": 1421231.76999999,
-        "documentos": 2400,
+        "total": 1418960.0699999898,
+        "documentos": 2401,
         "porTipo": [
           {
             "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
@@ -9398,8 +9398,8 @@
           },
           {
             "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
-            "valor": 295895.9899999996,
-            "notas": 275,
+            "valor": 295977.9099999996,
+            "notas": 276,
             "fornecedores": [
               {
                 "nome": "MD SOLUCOES IMOBILIARIAS LTDA",
@@ -9522,14 +9522,14 @@
           },
           {
             "tipo": "LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES",
-            "valor": 256761.4,
-            "notas": 86,
+            "valor": 254270.4,
+            "notas": 85,
             "fornecedores": [
               {
                 "nome": "DELTA AUTOMOTORES LTDA",
                 "cnpjCpf": "05080045000137",
-                "total": 224811.4,
-                "notas": 81,
+                "total": 222320.4,
+                "notas": 80,
                 "outrosNomes": [
                   "DELTA AUTOMOTORES LTDA - ME"
                 ]
@@ -9594,14 +9594,14 @@
           },
           {
             "tipo": "COMBUSTÍVEIS E LUBRIFICANTES.",
-            "valor": 142994.0399999999,
-            "notas": 771,
+            "valor": 143131.4199999999,
+            "notas": 772,
             "fornecedores": [
               {
                 "nome": "POSTO CAMPO GRANDE LTDA",
                 "cnpjCpf": "02582857000192",
-                "total": 80414.12000000001,
-                "notas": 453,
+                "total": 80836.43000000002,
+                "notas": 455,
                 "outrosNomes": [
                   "POSTO CAMPO GRANDE LTDA."
                 ]
@@ -9637,13 +9637,6 @@
                 "outrosNomes": []
               },
               {
-                "nome": "RGM COMERCIO DE PETROLEO LTDA",
-                "cnpjCpf": "34765228000194",
-                "total": 1973.3200000000002,
-                "notas": 9,
-                "outrosNomes": []
-              },
-              {
                 "nome": "AUTO SHOPPING DERIVADOS DE PETROLEO LTDA",
                 "cnpjCpf": "37063328001058",
                 "total": 1772.52,
@@ -9656,6 +9649,13 @@
                 "nome": "AUTO POSTO 4 RODAS LTDA",
                 "cnpjCpf": "36348472000187",
                 "total": 1730.7,
+                "notas": 8,
+                "outrosNomes": []
+              },
+              {
+                "nome": "RGM COMERCIO DE PETROLEO LTDA",
+                "cnpjCpf": "34765228000194",
+                "total": 1688.39,
                 "notas": 8,
                 "outrosNomes": []
               }
@@ -10327,11 +10327,11 @@
           },
           {
             "competencia": "2025-12",
-            "valor": 51726.579999999994
+            "valor": 51923.63999999999
           },
           {
             "competencia": "2026-01",
-            "valor": 37384.42000000001
+            "valor": 34893.42000000001
           },
           {
             "competencia": "2026-02",
@@ -10347,11 +10347,11 @@
           },
           {
             "competencia": "2026-05",
-            "valor": 55171.630000000005
+            "valor": 55396.880000000005
           },
           {
             "competencia": "2026-06",
-            "valor": 25936.64
+            "valor": 25651.709999999995
           },
           {
             "competencia": "2026-07",
@@ -10359,7 +10359,7 @@
           },
           {
             "competencia": "2026-08",
-            "valor": 10861.689999999995
+            "valor": 10943.609999999995
           },
           {
             "competencia": "2026-09",
@@ -10370,8 +10370,8 @@
           {
             "nome": "DELTA AUTOMOTORES LTDA",
             "cnpjCpf": "05080045000137",
-            "total": 224811.4,
-            "notas": 81,
+            "total": 222320.4,
+            "notas": 80,
             "outrosNomes": [
               "DELTA AUTOMOTORES LTDA - ME"
             ]
@@ -10402,8 +10402,8 @@
           {
             "nome": "POSTO CAMPO GRANDE LTDA",
             "cnpjCpf": "02582857000192",
-            "total": 80414.12000000001,
-            "notas": 453,
+            "total": 80836.43000000002,
+            "notas": 455,
             "outrosNomes": [
               "POSTO CAMPO GRANDE LTDA."
             ]
@@ -10658,8 +10658,8 @@
           }
         ],
         "comprovantes": {
-          "com": 2199,
-          "total": 2400
+          "com": 2200,
+          "total": 2401
         }
       },
       "proposicoes": {
@@ -10984,8 +10984,8 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/220527.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/220527",
       "despesas": {
-        "total": 1825337.54,
-        "documentos": 1531,
+        "total": 1829614.1300000001,
+        "documentos": 1533,
         "porTipo": [
           {
             "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
@@ -11188,14 +11188,14 @@
           },
           {
             "tipo": "LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES",
-            "valor": 332513,
-            "notas": 84,
+            "valor": 336513,
+            "notas": 85,
             "fornecedores": [
               {
                 "nome": "EVO LOCADORA DE VEICULOS LTDA.",
                 "cnpjCpf": "10234473000107",
-                "total": 259713,
-                "notas": 67,
+                "total": 263713,
+                "notas": 68,
                 "outrosNomes": [
                   "EVO COMERCIO DE VEICULOS LTDA"
                 ]
@@ -11260,8 +11260,8 @@
           },
           {
             "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
-            "valor": 243286.2800000001,
-            "notas": 210,
+            "valor": 243562.87000000008,
+            "notas": 211,
             "fornecedores": [
               {
                 "nome": "PRIVILEGE ADMINISTRACAO E NEGOCIOS IMOBILIARIOS LTDA",
@@ -11307,8 +11307,8 @@
               {
                 "nome": "EDP ESPIRITO SANTO DISTRIBUICAO DE ENERGIA S.A.",
                 "cnpjCpf": "28152650000171",
-                "total": 13320.459999999997,
-                "notas": 56,
+                "total": 13597.05,
+                "notas": 57,
                 "outrosNomes": []
               },
               {
@@ -11986,11 +11986,11 @@
           },
           {
             "competencia": "2026-08",
-            "valor": 20578.81
+            "valor": 20855.4
           },
           {
             "competencia": "2026-09",
-            "valor": 4380.06
+            "valor": 8380.060000000001
           }
         ],
         "fornecedores": [
@@ -12004,8 +12004,8 @@
           {
             "nome": "EVO LOCADORA DE VEICULOS LTDA.",
             "cnpjCpf": "10234473000107",
-            "total": 259713,
-            "notas": 67,
+            "total": 263713,
+            "notas": 68,
             "outrosNomes": [
               "EVO COMERCIO DE VEICULOS LTDA"
             ]
@@ -12266,8 +12266,8 @@
           }
         ],
         "comprovantes": {
-          "com": 1161,
-          "total": 1531
+          "com": 1163,
+          "total": 1533
         }
       },
       "proposicoes": {
@@ -14063,8 +14063,8 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/160517.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/160517",
       "despesas": {
-        "total": 1896496.2300000042,
-        "documentos": 1041,
+        "total": 1910203.590000004,
+        "documentos": 1045,
         "porTipo": [
           {
             "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
@@ -14182,8 +14182,8 @@
           },
           {
             "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
-            "valor": 399478.89999999973,
-            "notas": 287,
+            "valor": 413186.25999999966,
+            "notas": 291,
             "fornecedores": [
               {
                 "nome": "EXPERT'S CONSULTORIA E AVALIACOES LTDA",
@@ -14195,11 +14195,12 @@
                 ]
               },
               {
-                "nome": "Giovani Føntana Prest de Serviços Ltda",
+                "nome": "GIOVANI FONTANA E OUTROS PRESTACAO DE SERVICOS LTDA",
                 "cnpjCpf": "06348525000107",
-                "total": 154185.66999999998,
-                "notas": 38,
+                "total": 167739.53,
+                "notas": 41,
                 "outrosNomes": [
+                  "Giovani Føntana Prest de Serviços Ltda",
                   "Giovani Fontana",
                   "Giovani Fontana Imobiliaria Ltda.-ME"
                 ]
@@ -14233,8 +14234,8 @@
               {
                 "nome": "EMPRESA LUZ E FORCA SANTA MARIA S A",
                 "cnpjCpf": "27485069000109",
-                "total": 8281.319999999998,
-                "notas": 32,
+                "total": 8434.819999999998,
+                "notas": 33,
                 "outrosNomes": [
                   "Empresa Luz e Força Santa Maria"
                 ]
@@ -14306,13 +14307,13 @@
                 "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/2317/2023/7504660.pdf"
               },
               {
-                "id": "7915834",
-                "data": "2025-04-29",
+                "id": "8158234",
+                "data": "2026-06-24",
                 "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
-                "valor": 5185.02,
-                "fornecedor": "Giovani Fontana",
+                "valor": 5553.86,
+                "fornecedor": "GIOVANI FONTANA E OUTROS PRESTACAO DE SERVICOS LTDA",
                 "cnpjCpf": "06348525000107",
-                "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/2317/2025/7915834.pdf"
+                "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/2317/2026/8158234.pdf"
               }
             ]
           },
@@ -15090,15 +15091,15 @@
           },
           {
             "competencia": "2026-06",
-            "valor": 20043.17
+            "valor": 25597.03
           },
           {
             "competencia": "2026-07",
-            "valor": 18469.83
+            "valor": 22469.829999999998
           },
           {
             "competencia": "2026-08",
-            "valor": 7575.04
+            "valor": 11728.54
           }
         ],
         "fornecedores": [
@@ -15138,11 +15139,12 @@
             ]
           },
           {
-            "nome": "Giovani Føntana Prest de Serviços Ltda",
+            "nome": "GIOVANI FONTANA E OUTROS PRESTACAO DE SERVICOS LTDA",
             "cnpjCpf": "06348525000107",
-            "total": 154185.66999999998,
-            "notas": 38,
+            "total": 167739.53,
+            "notas": 41,
             "outrosNomes": [
+              "Giovani Føntana Prest de Serviços Ltda",
               "Giovani Fontana",
               "Giovani Fontana Imobiliaria Ltda.-ME"
             ]
@@ -15380,8 +15382,8 @@
           }
         ],
         "comprovantes": {
-          "com": 645,
-          "total": 1041
+          "com": 649,
+          "total": 1045
         }
       },
       "proposicoes": {
