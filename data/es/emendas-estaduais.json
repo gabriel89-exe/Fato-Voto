@@ -11,11 +11,11 @@
     2025,
     2026
   ],
-  "coletadoEm": "2026-09-22T14:15:50.317Z",
+  "coletadoEm": "2026-09-23T14:27:22.092Z",
   "recorte": "Emendas ao Orçamento do Espírito Santo cujo autor individual é deputado estadual da legislatura atual da ALES (2023–2027) e candidato em 2026. A LOA de um ano é emendada no ano anterior: a de 2023 foi emendada pela legislatura anterior, e só aparece para quem já era deputado. Emenda de bancada e de comissão não tem autor individual e não entra. O casamento com a candidatura é por nome, com desistência em qualquer ambiguidade — os nomes que não casaram estão listados no dado.",
   "conferencia": {
     "aprovada": true,
-    "conferidoEm": "2026-09-22T14:15:50.270Z",
+    "conferidoEm": "2026-09-23T14:27:22.026Z",
     "provas": [
       "cada arquivo é baixado duas vezes, e os dois downloads têm de ser idênticos",
       "o valor previsto da emenda repete igual em todas as linhas dela",
@@ -28,7 +28,7 @@
     "bancada": 33,
     "medianaEmpenhado": 6207874.29,
     "menor": 644846.78,
-    "maior": 69719034.9
+    "maior": 69749019.2
   },
   "parlamentares": [
     {
@@ -44,8 +44,8 @@
         "totais": {
           "previsto": 8700000,
           "empenhado": 6935421.63,
-          "liquidado": 6226851.63,
-          "pago": 5700970.87,
+          "liquidado": 6236851.63,
+          "pago": 5730970.87,
           "restosAPagar": 985880.76
         },
         "porAno": [
@@ -71,7 +71,7 @@
             "ano": 2026,
             "quantidade": 49,
             "empenhado": 724637.5,
-            "pago": 512637.5
+            "pago": 542637.5
           }
         ],
         "porFuncao": [
@@ -85,7 +85,7 @@
             "nome": "ASSISTÊNCIA SOCIAL",
             "quantidade": 55,
             "empenhado": 1794200.91,
-            "pago": 1754200.91
+            "pago": 1784200.91
           },
           {
             "nome": "AGRICULTURA",
@@ -159,7 +159,7 @@
             "nome": "Castelo",
             "quantidade": 9,
             "empenhado": 555880.76,
-            "pago": 40000
+            "pago": 60000
           },
           {
             "nome": "Afonso Cláudio",
@@ -279,7 +279,7 @@
             "nome": "Alfredo Chaves",
             "quantidade": 1,
             "empenhado": 10000,
-            "pago": 0
+            "pago": 10000
           },
           {
             "nome": "Alto Rio Novo",
@@ -317,7 +317,7 @@
             "nome": "Individual com finalidade definida não impositiva",
             "quantidade": 148,
             "empenhado": 6935421.63,
-            "pago": 5700970.87
+            "pago": 5730970.87
           }
         ],
         "criterioDaLista": "as 10 de maior valor empenhado",
@@ -864,8 +864,8 @@
         "totais": {
           "previsto": 8700000,
           "empenhado": 6549713.789999999,
-          "liquidado": 6388721.949999999,
-          "pago": 6388721.949999999,
+          "liquidado": 6428721.949999999,
+          "pago": 6428721.949999999,
           "restosAPagar": 0
         },
         "porAno": [
@@ -873,7 +873,7 @@
             "ano": 2023,
             "quantidade": 22,
             "empenhado": 989971.82,
-            "pago": 989002.1
+            "pago": 989002.0999999999
           },
           {
             "ano": 2024,
@@ -891,7 +891,7 @@
             "ano": 2026,
             "quantidade": 37,
             "empenhado": 1799949.5,
-            "pago": 1639949.49
+            "pago": 1679949.49
           }
         ],
         "porFuncao": [
@@ -899,7 +899,7 @@
             "nome": "DESPORTO E LAZER",
             "quantidade": 41,
             "empenhado": 3429841.1,
-            "pago": 3268849.2600000007
+            "pago": 3308849.2600000007
           },
           {
             "nome": "COMÉRCIO E SERVIÇOS",
@@ -910,8 +910,8 @@
           {
             "nome": "ASSISTÊNCIA SOCIAL",
             "quantidade": 19,
-            "empenhado": 1249924.93,
-            "pago": 1249924.93
+            "empenhado": 1249924.9300000002,
+            "pago": 1249924.9300000002
           },
           {
             "nome": "SAÚDE",
@@ -1027,7 +1027,7 @@
             "nome": "Conceição da Barra",
             "quantidade": 1,
             "empenhado": 40000,
-            "pago": 0
+            "pago": 40000
           },
           {
             "nome": "Muniz Freire",
@@ -1083,7 +1083,7 @@
             "nome": "Individual com finalidade definida não impositiva",
             "quantidade": 104,
             "empenhado": 6549713.789999999,
-            "pago": 6388721.949999999
+            "pago": 6428721.949999999
           }
         ],
         "criterioDaLista": "as 10 de maior valor empenhado",
@@ -1648,7 +1648,7 @@
         "totais": {
           "previsto": 6800000,
           "empenhado": 5371216.01,
-          "liquidado": 4508905.449999999,
+          "liquidado": 4508905.45,
           "pago": 4448965.449999999,
           "restosAPagar": 172130
         },
@@ -2426,7 +2426,7 @@
         "totais": {
           "previsto": 7100000,
           "empenhado": 5077953.67,
-          "liquidado": 4438382.67,
+          "liquidado": 4468382.67,
           "pago": 4313712.67,
           "restosAPagar": 672108.4199999999
         },
@@ -2905,7 +2905,7 @@
             "ano": 2026,
             "quantidade": 28,
             "empenhado": 1699934.5999999999,
-            "pago": 1556384.34
+            "pago": 1556384.3399999999
           }
         ],
         "porFuncao": [
@@ -2963,7 +2963,7 @@
             "nome": "Vitória",
             "quantidade": 38,
             "empenhado": 644917.7,
-            "pago": 614915.8699999999
+            "pago": 614915.87
           },
           {
             "nome": "Cariacica",
@@ -3181,7 +3181,7 @@
           "previsto": 7200000,
           "empenhado": 1564258.42,
           "liquidado": 1345222.7899999998,
-          "pago": 1185222.7899999998,
+          "pago": 1235222.7899999998,
           "restosAPagar": 229000
         },
         "porAno": [
@@ -3201,7 +3201,7 @@
             "ano": 2026,
             "quantidade": 55,
             "empenhado": 535717.6699999999,
-            "pago": 385717.67
+            "pago": 435717.67
           }
         ],
         "porFuncao": [
@@ -3215,7 +3215,7 @@
             "nome": "ASSISTÊNCIA SOCIAL",
             "quantidade": 10,
             "empenhado": 399995.87,
-            "pago": 249995.87
+            "pago": 299995.86999999994
           },
           {
             "nome": "DESPORTO E LAZER",
@@ -3307,7 +3307,7 @@
             "nome": "Castelo",
             "quantidade": 6,
             "empenhado": 50000,
-            "pago": 0
+            "pago": 50000
           },
           {
             "nome": "Laranja da Terra",
@@ -3465,7 +3465,7 @@
             "nome": "Individual com finalidade definida não impositiva",
             "quantidade": 151,
             "empenhado": 1564258.42,
-            "pago": 1185222.7899999998
+            "pago": 1235222.7899999998
           }
         ],
         "criterioDaLista": "as 10 de maior valor empenhado",
@@ -3597,7 +3597,7 @@
           "previsto": 8700000,
           "empenhado": 9433211.45,
           "liquidado": 9054244.68,
-          "pago": 9014245.629999999,
+          "pago": 9014245.63,
           "restosAPagar": 333375.05
         },
         "porAno": [
@@ -3605,7 +3605,7 @@
             "ano": 2023,
             "quantidade": 29,
             "empenhado": 2312160.56,
-            "pago": 2292161.51
+            "pago": 2292161.5100000002
           },
           {
             "ano": 2024,
@@ -3672,8 +3672,8 @@
           {
             "nome": "CULTURA",
             "quantidade": 6,
-            "empenhado": 194990.29,
-            "pago": 194990.29
+            "empenhado": 194990.28999999998,
+            "pago": 194990.28999999998
           },
           {
             "nome": "SANEAMENTO",
@@ -3941,7 +3941,7 @@
             "nome": "Individual com finalidade definida não impositiva",
             "quantidade": 151,
             "empenhado": 9433211.45,
-            "pago": 9014245.629999999
+            "pago": 9014245.63
           }
         ],
         "criterioDaLista": "as 10 de maior valor empenhado",
@@ -4285,7 +4285,7 @@
           "previsto": 7200000,
           "empenhado": 6324044.6899999995,
           "liquidado": 6072328.17,
-          "pago": 5492333,
+          "pago": 5512328.17,
           "restosAPagar": 600000
         },
         "porAno": [
@@ -4305,7 +4305,7 @@
             "ano": 2026,
             "quantidade": 92,
             "empenhado": 1530026.79,
-            "pago": 1334885.1
+            "pago": 1354880.27
           }
         ],
         "porFuncao": [
@@ -4319,7 +4319,7 @@
             "nome": "ASSISTÊNCIA SOCIAL",
             "quantidade": 56,
             "empenhado": 1473700.4999999998,
-            "pago": 1253705.33
+            "pago": 1273700.5
           },
           {
             "nome": "AGRICULTURA",
@@ -4381,7 +4381,7 @@
             "nome": "Castelo",
             "quantidade": 16,
             "empenhado": 930605.17,
-            "pago": 724040
+            "pago": 744035.17
           },
           {
             "nome": "Colatina",
@@ -4659,7 +4659,7 @@
             "nome": "Individual com finalidade definida não impositiva",
             "quantidade": 173,
             "empenhado": 6324044.6899999995,
-            "pago": 5492333
+            "pago": 5512328.17
           }
         ],
         "criterioDaLista": "as 10 de maior valor empenhado",
@@ -5026,8 +5026,8 @@
         "totais": {
           "previsto": 6870000,
           "empenhado": 5631959.760000001,
-          "liquidado": 5419664.990000001,
-          "pago": 5389664.990000001,
+          "liquidado": 5419664.99,
+          "pago": 5389664.99,
           "restosAPagar": 171939
         },
         "porAno": [
@@ -5035,7 +5035,7 @@
             "ano": 2023,
             "quantidade": 37,
             "empenhado": 1305326.12,
-            "pago": 1205717.93
+            "pago": 1205717.9300000002
           },
           {
             "ano": 2024,
@@ -5053,7 +5053,7 @@
             "ano": 2026,
             "quantidade": 19,
             "empenhado": 2129960.9,
-            "pago": 2059960.5100000002
+            "pago": 2059960.5099999998
           }
         ],
         "porFuncao": [
@@ -5158,8 +5158,8 @@
           {
             "nome": "Jerônimo Monteiro",
             "quantidade": 6,
-            "empenhado": 79732.76000000001,
-            "pago": 49784.76
+            "empenhado": 79732.76,
+            "pago": 49784.759999999995
           },
           {
             "nome": "Domingos Martins",
@@ -5245,7 +5245,7 @@
             "nome": "Individual com finalidade definida não impositiva",
             "quantidade": 77,
             "empenhado": 5631959.760000001,
-            "pago": 5389664.990000001
+            "pago": 5389664.99
           }
         ],
         "criterioDaLista": "as 10 de maior valor empenhado",
@@ -5384,7 +5384,7 @@
           {
             "ano": 2023,
             "quantidade": 40,
-            "empenhado": 699851.39,
+            "empenhado": 699851.3899999999,
             "pago": 659848.46
           },
           {
@@ -5410,7 +5410,7 @@
           {
             "nome": "DESPORTO E LAZER",
             "quantidade": 30,
-            "empenhado": 2792608.53,
+            "empenhado": 2792608.5300000003,
             "pago": 1956387.69
           },
           {
@@ -5953,7 +5953,7 @@
         "valoresPublicados": true,
         "totais": {
           "previsto": 8685000,
-          "empenhado": 8598930.419999998,
+          "empenhado": 8598930.42,
           "liquidado": 7821364.09,
           "pago": 7761759.95,
           "restosAPagar": 584428.06
@@ -5980,8 +5980,8 @@
           {
             "ano": 2026,
             "quantidade": 90,
-            "empenhado": 2122098.35,
-            "pago": 1905928.3
+            "empenhado": 2122098.3499999996,
+            "pago": 1905928.2999999998
           }
         ],
         "porFuncao": [
@@ -6012,7 +6012,7 @@
           {
             "nome": "ASSISTÊNCIA SOCIAL",
             "quantidade": 36,
-            "empenhado": 563246.9500000001,
+            "empenhado": 563246.95,
             "pago": 529976.37
           },
           {
@@ -6430,7 +6430,7 @@
           {
             "nome": "Individual com finalidade definida não impositiva",
             "quantidade": 266,
-            "empenhado": 8598930.419999998,
+            "empenhado": 8598930.42,
             "pago": 7761759.95
           }
         ],
@@ -6563,7 +6563,7 @@
           "previsto": 7200000,
           "empenhado": 8215950.66,
           "liquidado": 8133421.319999999,
-          "pago": 8065632.92,
+          "pago": 8085632.92,
           "restosAPagar": 99996.4
         },
         "porAno": [
@@ -6583,7 +6583,7 @@
             "ano": 2026,
             "quantidade": 35,
             "empenhado": 2659996.37,
-            "pago": 2639992.75
+            "pago": 2659992.75
           }
         ],
         "porFuncao": [
@@ -6609,7 +6609,7 @@
             "nome": "ASSISTÊNCIA SOCIAL",
             "quantidade": 29,
             "empenhado": 498970.16000000003,
-            "pago": 458970.16000000003
+            "pago": 478970.16000000003
           },
           {
             "nome": "AGRICULTURA",
@@ -6731,7 +6731,7 @@
             "nome": "Alfredo Chaves",
             "quantidade": 2,
             "empenhado": 40000,
-            "pago": 20000
+            "pago": 40000
           },
           {
             "nome": "Mimoso do Sul",
@@ -6811,7 +6811,7 @@
             "nome": "Individual com finalidade definida não impositiva",
             "quantidade": 119,
             "empenhado": 8215950.66,
-            "pago": 8065632.92
+            "pago": 8085632.92
           }
         ],
         "criterioDaLista": "as 10 de maior valor empenhado",
@@ -6942,16 +6942,16 @@
         "totais": {
           "previsto": 8700000,
           "empenhado": 9837816.23,
-          "liquidado": 8827766.92,
-          "pago": 8782778.85,
+          "liquidado": 8827766.919999998,
+          "pago": 8782778.849999998,
           "restosAPagar": 614440.0700000001
         },
         "porAno": [
           {
             "ano": 2023,
             "quantidade": 40,
-            "empenhado": 1635625.82,
-            "pago": 1604973.3800000001
+            "empenhado": 1635625.8199999998,
+            "pago": 1604973.38
           },
           {
             "ano": 2024,
@@ -6969,7 +6969,7 @@
             "ano": 2026,
             "quantidade": 50,
             "empenhado": 2251785,
-            "pago": 1866986.6400000001
+            "pago": 1866986.64
           }
         ],
         "porFuncao": [
@@ -7233,7 +7233,7 @@
             "nome": "Individual com finalidade definida não impositiva",
             "quantidade": 177,
             "empenhado": 9837816.23,
-            "pago": 8782778.85
+            "pago": 8782778.849999998
           }
         ],
         "criterioDaLista": "as 10 de maior valor empenhado",
@@ -7758,8 +7758,8 @@
           {
             "ano": 2023,
             "quantidade": 36,
-            "empenhado": 1420855.75,
-            "pago": 1200875.75
+            "empenhado": 1420855.7500000002,
+            "pago": 1200875.7500000002
           },
           {
             "ano": 2024,
@@ -8551,9 +8551,9 @@
         "valoresPublicados": true,
         "totais": {
           "previsto": 193094300,
-          "empenhado": 69719034.9,
-          "liquidado": 65897139.349999994,
-          "pago": 65547139.349999994,
+          "empenhado": 69749019.2,
+          "liquidado": 65897139.35,
+          "pago": 65897139.35,
           "restosAPagar": 1471025.8900000001
         },
         "porAno": [
@@ -8572,8 +8572,8 @@
           {
             "ano": 2026,
             "quantidade": 188,
-            "empenhado": 63883021.70999999,
-            "pago": 61183289.099999994
+            "empenhado": 63913006.010000005,
+            "pago": 61533289.1
           }
         ],
         "porFuncao": [
@@ -8591,9 +8591,9 @@
           },
           {
             "nome": "DESPORTO E LAZER",
-            "quantidade": 48,
-            "empenhado": 11418258.85,
-            "pago": 10453018.49
+            "quantidade": 49,
+            "empenhado": 11448243.149999999,
+            "pago": 10703018.49
           },
           {
             "nome": "AGRICULTURA",
@@ -8617,7 +8617,7 @@
             "nome": "ASSISTÊNCIA SOCIAL",
             "quantidade": 25,
             "empenhado": 903177.89,
-            "pago": 803177.89
+            "pago": 903177.89
           },
           {
             "nome": "GESTÃO AMBIENTAL",
@@ -8639,7 +8639,7 @@
           },
           {
             "nome": "Não informada",
-            "quantidade": 85,
+            "quantidade": 84,
             "empenhado": 0,
             "pago": 0
           }
@@ -8666,14 +8666,14 @@
           {
             "nome": "Barra de São Francisco",
             "quantidade": 26,
-            "empenhado": 1915783.7,
+            "empenhado": 1945768,
             "pago": 1384870.7
           },
           {
             "nome": "Vila Velha",
             "quantidade": 6,
             "empenhado": 1199930,
-            "pago": 949930
+            "pago": 1199930
           },
           {
             "nome": "Conceição da Barra",
@@ -8775,7 +8775,7 @@
             "nome": "Pancas",
             "quantidade": 3,
             "empenhado": 460000,
-            "pago": 360000
+            "pago": 460000
           },
           {
             "nome": "Guarapari",
@@ -8932,8 +8932,8 @@
           {
             "nome": "Individual com finalidade definida não impositiva",
             "quantidade": 265,
-            "empenhado": 69719034.9,
-            "pago": 65547139.349999994
+            "empenhado": 69749019.2,
+            "pago": 65897139.35
           }
         ],
         "criterioDaLista": "as 10 de maior valor empenhado",
@@ -9287,16 +9287,16 @@
         "valoresPublicados": true,
         "totais": {
           "previsto": 8656950,
-          "empenhado": 6992913.01,
-          "liquidado": 5711662.84,
-          "pago": 5527939.84,
+          "empenhado": 6992913.009999999,
+          "liquidado": 5731662.84,
+          "pago": 5562939.84,
           "restosAPagar": 873713
         },
         "porAno": [
           {
             "ano": 2023,
             "quantidade": 57,
-            "empenhado": 1358466.2200000002,
+            "empenhado": 1358466.2199999997,
             "pago": 1248424.3399999999
           },
           {
@@ -9314,8 +9314,8 @@
           {
             "ano": 2026,
             "quantidade": 102,
-            "empenhado": 1608900.64,
-            "pago": 1057940.64
+            "empenhado": 1608900.6400000001,
+            "pago": 1092940.6400000001
           }
         ],
         "porFuncao": [
@@ -9329,12 +9329,12 @@
             "nome": "ASSISTÊNCIA SOCIAL",
             "quantidade": 103,
             "empenhado": 1951445.3599999996,
-            "pago": 1771445.3599999996
+            "pago": 1806445.3599999996
           },
           {
             "nome": "DESPORTO E LAZER",
             "quantidade": 54,
-            "empenhado": 1620096.1300000001,
+            "empenhado": 1620096.1300000004,
             "pago": 1524792.9600000002
           },
           {
@@ -9420,8 +9420,8 @@
           {
             "nome": "Pancas",
             "quantidade": 13,
-            "empenhado": 316286.95999999996,
-            "pago": 206286.96000000002
+            "empenhado": 316286.96,
+            "pago": 226286.96000000002
           },
           {
             "nome": "Águia Branca",
@@ -9685,7 +9685,7 @@
             "nome": "Alfredo Chaves",
             "quantidade": 2,
             "empenhado": 15000,
-            "pago": 0
+            "pago": 15000
           },
           {
             "nome": "Iúna",
@@ -9752,8 +9752,8 @@
           {
             "nome": "Individual com finalidade definida não impositiva",
             "quantidade": 344,
-            "empenhado": 6992913.01,
-            "pago": 5527939.84
+            "empenhado": 6992913.009999999,
+            "pago": 5562939.84
           }
         ],
         "criterioDaLista": "as 10 de maior valor empenhado",
@@ -9885,7 +9885,7 @@
           "previsto": 7200000,
           "empenhado": 4265174.720000001,
           "liquidado": 4050580.580000001,
-          "pago": 3610918.550000001,
+          "pago": 3645918.550000001,
           "restosAPagar": 604256.08
         },
         "porAno": [
@@ -9905,7 +9905,7 @@
             "ano": 2026,
             "quantidade": 153,
             "empenhado": 434641.19,
-            "pago": 399641.19
+            "pago": 434641.19
           }
         ],
         "porFuncao": [
@@ -9913,7 +9913,7 @@
             "nome": "ASSISTÊNCIA SOCIAL",
             "quantidade": 151,
             "empenhado": 2843211.8500000006,
-            "pago": 2278831.7800000003
+            "pago": 2313831.7800000003
           },
           {
             "nome": "SAÚDE",
@@ -10077,7 +10077,7 @@
             "nome": "Castelo",
             "quantidade": 6,
             "empenhado": 54996.85,
-            "pago": 39996.85
+            "pago": 54996.85
           },
           {
             "nome": "Conceição da Barra",
@@ -10137,7 +10137,7 @@
             "nome": "Alfredo Chaves",
             "quantidade": 4,
             "empenhado": 44999.96,
-            "pago": 24999.96
+            "pago": 44999.96
           },
           {
             "nome": "Bom Jesus do Norte",
@@ -10445,7 +10445,7 @@
             "nome": "Individual com finalidade definida não impositiva",
             "quantidade": 350,
             "empenhado": 4265174.720000001,
-            "pago": 3610918.550000001
+            "pago": 3645918.550000001
           }
         ],
         "criterioDaLista": "as 10 de maior valor empenhado",
@@ -10576,7 +10576,7 @@
         "totais": {
           "previsto": 3000000,
           "empenhado": 1038317.98,
-          "liquidado": 833757.98,
+          "liquidado": 868757.98,
           "pago": 833757.98,
           "restosAPagar": 0
         },
@@ -10598,7 +10598,7 @@
           {
             "nome": "ASSISTÊNCIA SOCIAL",
             "quantidade": 8,
-            "empenhado": 184557.97999999998,
+            "empenhado": 184557.98,
             "pago": 149557.97999999998
           },
           {
@@ -11782,8 +11782,8 @@
         "totais": {
           "previsto": 7200000,
           "empenhado": 5313341.1899999995,
-          "liquidado": 5191458.169999999,
-          "pago": 5191458.169999999,
+          "liquidado": 5191458.17,
+          "pago": 5191458.17,
           "restosAPagar": 121882.01000000001
         },
         "porAno": [
@@ -11802,8 +11802,8 @@
           {
             "ano": 2026,
             "quantidade": 22,
-            "empenhado": 1236783.1300000001,
-            "pago": 1236782.1199999999
+            "empenhado": 1236783.13,
+            "pago": 1236782.12
           }
         ],
         "porFuncao": [
@@ -11965,7 +11965,7 @@
             "nome": "Individual com finalidade definida não impositiva",
             "quantidade": 69,
             "empenhado": 5313341.1899999995,
-            "pago": 5191458.169999999
+            "pago": 5191458.17
           }
         ],
         "criterioDaLista": "as 10 de maior valor empenhado",

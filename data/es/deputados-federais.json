@@ -6,11 +6,11 @@
   },
   "uf": "ES",
   "legislatura": 57,
-  "coletadoEm": "2026-09-22T14:04:39.742Z",
+  "coletadoEm": "2026-09-23T14:16:05.441Z",
   "referencia": {
     "bancada": 10,
     "medianaDespesas": 1905961.2350000027,
-    "menor": 1421752.54999999,
+    "menor": 1426142.8299999903,
     "maior": 1994105.35
   },
   "parlamentares": [
@@ -9281,8 +9281,8 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/178873.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/178873",
       "despesas": {
-        "total": 1421752.54999999,
-        "documentos": 2403,
+        "total": 1426142.8299999903,
+        "documentos": 2405,
         "porTipo": [
           {
             "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
@@ -9398,8 +9398,8 @@
           },
           {
             "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
-            "valor": 295977.9099999996,
-            "notas": 276,
+            "valor": 297677.9099999996,
+            "notas": 277,
             "fornecedores": [
               {
                 "nome": "MD SOLUCOES IMOBILIARIAS LTDA",
@@ -9420,8 +9420,8 @@
               {
                 "nome": "L B M INFO SERVICE INFORMATICA LTDA",
                 "cnpjCpf": "11202373000161",
-                "total": 66300,
-                "notas": 39,
+                "total": 68000,
+                "notas": 40,
                 "outrosNomes": [
                   "LBM INFO SERVICE LTDA-ME"
                 ]
@@ -9522,14 +9522,14 @@
           },
           {
             "tipo": "LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES",
-            "valor": 256761.4,
-            "notas": 86,
+            "valor": 259451.68,
+            "notas": 87,
             "fornecedores": [
               {
                 "nome": "DELTA AUTOMOTORES LTDA",
                 "cnpjCpf": "05080045000137",
-                "total": 224811.4,
-                "notas": 81,
+                "total": 227501.68,
+                "notas": 82,
                 "outrosNomes": [
                   "DELTA AUTOMOTORES LTDA - ME"
                 ]
@@ -10359,7 +10359,7 @@
           },
           {
             "competencia": "2026-08",
-            "valor": 10943.609999999995
+            "valor": 15333.889999999996
           },
           {
             "competencia": "2026-09",
@@ -10370,8 +10370,8 @@
           {
             "nome": "DELTA AUTOMOTORES LTDA",
             "cnpjCpf": "05080045000137",
-            "total": 224811.4,
-            "notas": 81,
+            "total": 227501.68,
+            "notas": 82,
             "outrosNomes": [
               "DELTA AUTOMOTORES LTDA - ME"
             ]
@@ -10425,8 +10425,8 @@
           {
             "nome": "L B M INFO SERVICE INFORMATICA LTDA",
             "cnpjCpf": "11202373000161",
-            "total": 66300,
-            "notas": 39,
+            "total": 68000,
+            "notas": 40,
             "outrosNomes": [
               "LBM INFO SERVICE LTDA-ME"
             ]
@@ -10658,8 +10658,8 @@
           }
         ],
         "comprovantes": {
-          "com": 2202,
-          "total": 2403
+          "com": 2204,
+          "total": 2405
         }
       },
       "proposicoes": {
@@ -12563,8 +12563,8 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/220530.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/220530",
       "despesas": {
-        "total": 1939337.3099999991,
-        "documentos": 1275,
+        "total": 1939907.169999999,
+        "documentos": 1277,
         "porTipo": [
           {
             "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
@@ -12859,8 +12859,8 @@
           },
           {
             "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
-            "valor": 267178.6499999999,
-            "notas": 171,
+            "valor": 267748.5099999999,
+            "notas": 173,
             "fornecedores": [
               {
                 "nome": "M A EMPREENDIMENTO IMOBILIARIOS LTDA",
@@ -12893,8 +12893,8 @@
               {
                 "nome": "EDP ESPIRITO SANTO DISTRIBUICAO DE ENERGIA S.A.",
                 "cnpjCpf": "28152650000171",
-                "total": 18492.57,
-                "notas": 62,
+                "total": 19062.43,
+                "notas": 64,
                 "outrosNomes": [
                   "0EDP ESPIRITO SANTO DISTRIBUICAO DE ENERGIA S.A."
                 ]
@@ -13395,7 +13395,7 @@
           },
           {
             "competencia": "2026-07",
-            "valor": 21876.779999999995
+            "valor": 22446.639999999996
           },
           {
             "competencia": "2026-08",
@@ -13504,8 +13504,8 @@
           }
         ],
         "glosas": {
-          "quantidade": 60,
-          "valor": 464.63999999999993,
+          "quantidade": 62,
+          "valor": 508.71999999999997,
           "exemplos": [
             {
               "id": "8091354",
@@ -13516,6 +13516,16 @@
               "cnpjCpf": "28152650000171",
               "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3631/2026/8091354.pdf",
               "valorGlosa": 36.89
+            },
+            {
+              "id": "8155987",
+              "data": "2026-07-07",
+              "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
+              "valor": 412.61,
+              "fornecedor": "EDP ESPIRITO SANTO DISTRIBUICAO DE ENERGIA S.A.",
+              "cnpjCpf": "28152650000171",
+              "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3631/2026/8155987.pdf",
+              "valorGlosa": 30.93
             },
             {
               "id": "7741077",
@@ -13576,16 +13586,6 @@
               "cnpjCpf": "28152650000171",
               "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3631/2025/7875661.pdf",
               "valorGlosa": 14.23
-            },
-            {
-              "id": "7924782",
-              "data": "2025-03-10",
-              "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
-              "valor": 284.49,
-              "fornecedor": "EDP ESPIRITO SANTO DISTRIBUICAO DE ENERGIA S.A.",
-              "cnpjCpf": "28152650000171",
-              "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3631/2025/7924782.pdf",
-              "valorGlosa": 12.66
             }
           ]
         },
@@ -13682,8 +13682,8 @@
           }
         ],
         "comprovantes": {
-          "com": 980,
-          "total": 1275
+          "com": 982,
+          "total": 1277
         }
       },
       "proposicoes": {
