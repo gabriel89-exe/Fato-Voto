@@ -11,7 +11,7 @@
     2025,
     2026
   ],
-  "coletadoEm": "2026-09-23T14:16:13.375Z",
+  "coletadoEm": "2026-09-24T14:14:50.259Z",
   "senadores": [
     {
       "id": "senado-5953",
@@ -2946,7 +2946,7 @@
           "ano": 2023,
           "ementa": "Urgência para o PRS nº 24/2023.",
           "data": "2023-03-14",
-          "autorPrincipal": true
+          "autorPrincipal": false
         },
         {
           "id": "156224",
@@ -2956,7 +2956,7 @@
           "ano": 2023,
           "ementa": "Urgência para o PRS nº 24/2023.",
           "data": "2023-03-14",
-          "autorPrincipal": false
+          "autorPrincipal": true
         },
         {
           "id": "156391",

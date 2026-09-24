@@ -9,7 +9,7 @@
     "idEleicao": "20322002026",
     "uf": "ES"
   },
-  "coletadoEm": "2026-09-23T14:14:50.643Z",
+  "coletadoEm": "2026-09-24T14:13:23.253Z",
   "total": 577,
   "candidaturas": [
     {
@@ -51232,8 +51232,16 @@
       "escolaridade": "Superior incompleto",
       "ocupacao": "Empresário",
       "naturalidade": "ES-VITÓRIA",
-      "bens": [],
-      "totalBens": 0,
+      "bens": [
+        {
+          "ordem": 1,
+          "tipo": "Casa",
+          "descricao": "CASA",
+          "valor": 500000,
+          "atualizadoEm": "2026-08-07"
+        }
+      ],
+      "totalBens": 500000,
       "proposta": {
         "exigida": false,
         "documento": null
@@ -51407,6 +51415,62 @@
       "naturalidade": "RJ-RIO DE JANEIRO",
       "bens": [
         {
+          "ordem": 1,
+          "tipo": "Terreno",
+          "descricao": "UMA AREA DE TERRA EM LINHARES",
+          "valor": 401526,
+          "atualizadoEm": "2026-08-12"
+        },
+        {
+          "ordem": 2,
+          "tipo": "Apartamento",
+          "descricao": "APARTAMENTO EM ITAPARICA EM VILA VELHA",
+          "valor": 1925436.3,
+          "atualizadoEm": "2026-08-12"
+        },
+        {
+          "ordem": 3,
+          "tipo": "Terreno",
+          "descricao": "4 LOTES DE TERRA EM LINHARES",
+          "valor": 425636,
+          "atualizadoEm": "2026-08-12"
+        },
+        {
+          "ordem": 4,
+          "tipo": "Depósito bancário em conta corrente no País",
+          "descricao": "DEPOSITO EM CONTA CORRENTE NA CAIXA",
+          "valor": 314.33,
+          "atualizadoEm": "2026-08-12"
+        },
+        {
+          "ordem": 5,
+          "tipo": "Terreno",
+          "descricao": "UM LOTE DE TERRA MEDINDO 275M² EM PARQUE RESIDENCIAL LOGOA DO MEIO - LINHARES",
+          "valor": 95640,
+          "atualizadoEm": "2026-08-12"
+        },
+        {
+          "ordem": 6,
+          "tipo": "Terreno",
+          "descricao": "DOIS LOTES DE TERRA EM SÃO MATEUS",
+          "valor": 62456,
+          "atualizadoEm": "2026-08-12"
+        },
+        {
+          "ordem": 7,
+          "tipo": "Terreno",
+          "descricao": "UMA AREA DE TERRA MEDINDO 532.400M², EM RIO BANANAL",
+          "valor": 335429,
+          "atualizadoEm": "2026-08-12"
+        },
+        {
+          "ordem": 8,
+          "tipo": "Terra nua",
+          "descricao": "PROPRIEDADE AGRÍCOLA DENOMINADA FAZENDA INDEPENDÊNCIA",
+          "valor": 295700,
+          "atualizadoEm": "2026-08-12"
+        },
+        {
           "ordem": 9,
           "tipo": "OUTROS BENS E DIREITOS",
           "descricao": "JUROS SOBRE CAPITAL PRÓPRIO AG. SICOOB",
@@ -51421,10 +51485,136 @@
           "atualizadoEm": "2026-08-12"
         },
         {
+          "ordem": 11,
+          "tipo": "Terreno",
+          "descricao": "UM LOTE DE TERRA EM LINHARES",
+          "valor": 131526,
+          "atualizadoEm": "2026-08-12"
+        },
+        {
+          "ordem": 12,
+          "tipo": "Terreno",
+          "descricao": "TERRENO ADQUIRIDO POR CONTRATO DE COMPRA E VENDA EM 30/12/2022",
+          "valor": 181818,
+          "atualizadoEm": "2026-08-12"
+        },
+        {
+          "ordem": 13,
+          "tipo": "Outros bens imóveis",
+          "descricao": "UM LOTE C/CASA EM LINHARES ES",
+          "valor": 395400,
+          "atualizadoEm": "2026-08-12"
+        },
+        {
+          "ordem": 14,
+          "tipo": "Outros bens imóveis",
+          "descricao": "UMA LOJA COMERCIAL EM LINHARES",
+          "valor": 121436,
+          "atualizadoEm": "2026-08-12"
+        },
+        {
+          "ordem": 15,
+          "tipo": "Casa",
+          "descricao": "CASA EM LINHARES",
+          "valor": 96859,
+          "atualizadoEm": "2026-08-12"
+        },
+        {
+          "ordem": 16,
+          "tipo": "Terreno",
+          "descricao": "UMA AREA DE TERRA EM LINHARES",
+          "valor": 149839,
+          "atualizadoEm": "2026-08-12"
+        },
+        {
+          "ordem": 17,
+          "tipo": "Terreno",
+          "descricao": "UM LOTE DE TERRA MEDINDO 275M²",
+          "valor": 131426,
+          "atualizadoEm": "2026-08-12"
+        },
+        {
+          "ordem": 18,
+          "tipo": "Terreno",
+          "descricao": "UM LOTE DE TERRA MEDINDO 275M²",
+          "valor": 115426,
+          "atualizadoEm": "2026-08-12"
+        },
+        {
+          "ordem": 19,
+          "tipo": "Depósito bancário em conta corrente no País",
+          "descricao": "SALDO EM CONTA CORRENTO NA CAIXA ECONOMICA FEDERAL",
+          "valor": 128.57,
+          "atualizadoEm": "2026-08-12"
+        },
+        {
+          "ordem": 20,
+          "tipo": "Outros bens imóveis",
+          "descricao": "POSSE DE GARAGEM, ESCADA E HALL, ADQUIRIDA POR HERANÇA (ADJUDICAÇÃO) EM 23/02/2022",
+          "valor": 85000,
+          "atualizadoEm": "2026-08-12"
+        },
+        {
+          "ordem": 21,
+          "tipo": "Quotas ou quinhões de capital",
+          "descricao": "QUOTAS DE CAPITAL SOCIAL NA EMPRESA LGM EMPREENDIMENTOS IMOBILIARIOS LTDA",
+          "valor": 6000000,
+          "atualizadoEm": "2026-08-12"
+        },
+        {
+          "ordem": 22,
+          "tipo": "Quotas ou quinhões de capital",
+          "descricao": "QUOTAS DECAPITAL SOCIAL DA EMPRESA CERIMONIAL COLISEU LTDA-ME",
+          "valor": 420000,
+          "atualizadoEm": "2026-08-12"
+        },
+        {
           "ordem": 23,
           "tipo": "Dinheiro em espécie - moeda nacional",
           "descricao": "DINHEIRO EM MAOS",
           "valor": 390000,
+          "atualizadoEm": "2026-08-12"
+        },
+        {
+          "ordem": 24,
+          "tipo": "Terreno",
+          "descricao": "UM LOTE DE TERRA MEDINDO 275M²",
+          "valor": 110426,
+          "atualizadoEm": "2026-08-12"
+        },
+        {
+          "ordem": 25,
+          "tipo": "Outros bens imóveis",
+          "descricao": "LOJA COMERCIAL EM LINHARES ES",
+          "valor": 156969,
+          "atualizadoEm": "2026-08-12"
+        },
+        {
+          "ordem": 26,
+          "tipo": "Apartamento",
+          "descricao": "APARTAMENTO ADQUIRIDO POR HERANÇA (ADJUDICAÇÃO) EM 23/02/2022,",
+          "valor": 595000,
+          "atualizadoEm": "2026-08-12"
+        },
+        {
+          "ordem": 27,
+          "tipo": "Crédito decorrente de empréstimo",
+          "descricao": "CREDITO DECORRENTE DE EMPRESTIMO",
+          "valor": 700000,
+          "atualizadoEm": "2026-08-12"
+        },
+        {
+          "ordem": 28,
+          "tipo": "Terreno",
+          "descricao": "UM LOTE DE TERRA",
+          "valor": 435869,
+          "atualizadoEm": "2026-08-12"
+        },
+        {
+          "ordem": 29,
+          "tipo": "Terreno",
+          "descricao": "UMA AREA DE TERRA MEDINDO 700M²",
+          "valor": 235900,
           "atualizadoEm": "2026-08-12"
         },
         {
@@ -51435,6 +51625,27 @@
           "atualizadoEm": "2026-08-12"
         },
         {
+          "ordem": 31,
+          "tipo": "Quotas ou quinhões de capital",
+          "descricao": "QUOTAS DE CAPITAL SOCIAL NA EMPRESA GARCIA EMPREENDIMENTOS IMOBILIARIOS LTDA",
+          "valor": 1317000,
+          "atualizadoEm": "2026-08-12"
+        },
+        {
+          "ordem": 32,
+          "tipo": "Depósito bancário em conta corrente no País",
+          "descricao": "SALDO EM CONTAO CORRENTO NO BANCO SICOOB",
+          "valor": 82745.05,
+          "atualizadoEm": "2026-08-12"
+        },
+        {
+          "ordem": 33,
+          "tipo": "Outros bens imóveis",
+          "descricao": "UMA LOJA COMERCIAL MEDINDO 337,61M² EM LINHARES",
+          "valor": 121859,
+          "atualizadoEm": "2026-08-12"
+        },
+        {
           "ordem": 34,
           "tipo": "Outros bens imóveis",
           "descricao": "TERRAÇO ADQUIRIDO POR HERANÇA (ADJUDICAÇÃO), EM 23/02/2022",
@@ -51442,7 +51653,7 @@
           "atualizadoEm": "2026-08-12"
         }
       ],
-      "totalBens": 2171365.32,
+      "totalBens": 17298129.57,
       "proposta": {
         "exigida": false,
         "documento": null
@@ -51544,8 +51755,30 @@
       "escolaridade": "Superior completo",
       "ocupacao": "Deputado",
       "naturalidade": "ES-CACHOEIRO DE ITAPEMIRIM",
-      "bens": [],
-      "totalBens": 0,
+      "bens": [
+        {
+          "ordem": 1,
+          "tipo": "Veículo automotor terrestre: caminhão, automóvel, moto, etc.",
+          "descricao": "FIAT BRAVA",
+          "valor": 20000,
+          "atualizadoEm": "2026-08-05"
+        },
+        {
+          "ordem": 2,
+          "tipo": "Veículo automotor terrestre: caminhão, automóvel, moto, etc.",
+          "descricao": "TRATOR",
+          "valor": 17000,
+          "atualizadoEm": "2026-08-05"
+        },
+        {
+          "ordem": 3,
+          "tipo": "Outros bens móveis",
+          "descricao": "EMPILHADEIRA",
+          "valor": 85000,
+          "atualizadoEm": "2026-08-05"
+        }
+      ],
+      "totalBens": 122000,
       "proposta": {
         "exigida": false,
         "documento": null
@@ -51718,8 +51951,16 @@
       "escolaridade": "Ensino Médio completo",
       "ocupacao": "Estudante, Bolsista, Estagiário e Assemelhados",
       "naturalidade": "ES-CONCEIÇÃO DO CASTELO",
-      "bens": [],
-      "totalBens": 0,
+      "bens": [
+        {
+          "ordem": 1,
+          "tipo": "Veículo automotor terrestre: caminhão, automóvel, moto, etc.",
+          "descricao": "VEICULO COROLLA 2010",
+          "valor": 50000,
+          "atualizadoEm": "2026-08-12"
+        }
+      ],
+      "totalBens": 50000,
       "proposta": {
         "exigida": false,
         "documento": null
@@ -52036,6 +52277,13 @@
           "atualizadoEm": "2026-08-05"
         },
         {
+          "ordem": 2,
+          "tipo": "Veículo automotor terrestre: caminhão, automóvel, moto, etc.",
+          "descricao": "CARRO",
+          "valor": 102000,
+          "atualizadoEm": "2026-08-05"
+        },
+        {
           "ordem": 3,
           "tipo": "Veículo automotor terrestre: caminhão, automóvel, moto, etc.",
           "descricao": "CARRO",
@@ -52043,7 +52291,7 @@
           "atualizadoEm": "2026-08-05"
         }
       ],
-      "totalBens": 630000,
+      "totalBens": 732000,
       "proposta": {
         "exigida": false,
         "documento": null
@@ -52215,14 +52463,28 @@
       "naturalidade": "SP-PEREIRA BARRETO",
       "bens": [
         {
+          "ordem": 1,
+          "tipo": "Outros bens móveis",
+          "descricao": "VEICULO - MODELO HILUX",
+          "valor": 150000,
+          "atualizadoEm": "2026-08-12"
+        },
+        {
           "ordem": 2,
           "tipo": "Outros bens móveis",
           "descricao": "VEICULO - MODELO TRACKER",
           "valor": 100000,
           "atualizadoEm": "2026-08-12"
+        },
+        {
+          "ordem": 3,
+          "tipo": "Casa",
+          "descricao": "CASA - JARDIM TROPICAL",
+          "valor": 150000,
+          "atualizadoEm": "2026-08-12"
         }
       ],
-      "totalBens": 100000,
+      "totalBens": 400000,
       "proposta": {
         "exigida": false,
         "documento": null
@@ -52318,14 +52580,28 @@
       "naturalidade": "RJ-RIO DE JANEIRO",
       "bens": [
         {
+          "ordem": 1,
+          "tipo": "Apartamento",
+          "descricao": "APTO FINANCIADO",
+          "valor": 105036.27,
+          "atualizadoEm": "2026-08-07"
+        },
+        {
           "ordem": 2,
           "tipo": "Apartamento",
           "descricao": "APTO 67% EM PROCESSO JUDICIAL POR FINANCIAMENTO",
           "valor": 22445,
           "atualizadoEm": "2026-08-07"
+        },
+        {
+          "ordem": 3,
+          "tipo": "Veículo automotor terrestre: caminhão, automóvel, moto, etc.",
+          "descricao": "AUTOMÓVEL 2019/2020",
+          "valor": 40000,
+          "atualizadoEm": "2026-08-07"
         }
       ],
-      "totalBens": 22445,
+      "totalBens": 167481.27000000002,
       "proposta": {
         "exigida": false,
         "documento": null
@@ -52718,6 +52994,13 @@
       "naturalidade": "ES-NOVA VENÉCIA",
       "bens": [
         {
+          "ordem": 1,
+          "tipo": "Veículo automotor terrestre: caminhão, automóvel, moto, etc.",
+          "descricao": "Volkswagen T-Cross TSI, ano de fabricação 2020, modelo 2021",
+          "valor": 91000,
+          "atualizadoEm": "2026-09-02"
+        },
+        {
           "ordem": 2,
           "tipo": "Veículo automotor terrestre: caminhão, automóvel, moto, etc.",
           "descricao": "Chevrolet Onix 1.4 AT ACT, ano de fabricação 2019, modelo 2019",
@@ -52725,7 +53008,7 @@
           "atualizadoEm": "2026-09-02"
         }
       ],
-      "totalBens": 68000,
+      "totalBens": 159000,
       "proposta": {
         "exigida": false,
         "documento": null
@@ -52928,10 +53211,31 @@
       "naturalidade": "ES-VITÓRIA",
       "bens": [
         {
+          "ordem": 1,
+          "tipo": "Aplicação de renda fixa (CDB, RDB e outros)",
+          "descricao": "BANESTES",
+          "valor": 120800.09,
+          "atualizadoEm": "2026-08-12"
+        },
+        {
+          "ordem": 2,
+          "tipo": "Outros créditos e poupança vinculados",
+          "descricao": "BANCO DO BRASIL",
+          "valor": 361.59,
+          "atualizadoEm": "2026-08-12"
+        },
+        {
           "ordem": 3,
           "tipo": "Quotas ou quinhões de capital",
           "descricao": "SICOOB",
           "valor": 164.62,
+          "atualizadoEm": "2026-08-12"
+        },
+        {
+          "ordem": 4,
+          "tipo": "Aplicação de renda fixa (CDB, RDB e outros)",
+          "descricao": "SICOOB",
+          "valor": 20000,
           "atualizadoEm": "2026-08-12"
         },
         {
@@ -52940,9 +53244,23 @@
           "descricao": "BANESTES",
           "valor": 25542.61,
           "atualizadoEm": "2026-08-12"
+        },
+        {
+          "ordem": 6,
+          "tipo": "Aplicação de renda fixa (CDB, RDB e outros)",
+          "descricao": "BANCO DO BRASIL",
+          "valor": 1659.85,
+          "atualizadoEm": "2026-08-12"
+        },
+        {
+          "ordem": 7,
+          "tipo": "Quotas ou quinhões de capital",
+          "descricao": "CAPITAL SOCIAL",
+          "valor": 5000,
+          "atualizadoEm": "2026-08-12"
         }
       ],
-      "totalBens": 25707.23,
+      "totalBens": 173528.76,
       "proposta": {
         "exigida": false,
         "documento": null
@@ -53133,6 +53451,13 @@
       "naturalidade": "SP-RIBEIRÃO PRETO",
       "bens": [
         {
+          "ordem": 1,
+          "tipo": "Veículo automotor terrestre: caminhão, automóvel, moto, etc.",
+          "descricao": "MERCEDES BENS - A160 ANO 2000",
+          "valor": 3000,
+          "atualizadoEm": "2026-08-12"
+        },
+        {
           "ordem": 2,
           "tipo": "Veículo automotor terrestre: caminhão, automóvel, moto, etc.",
           "descricao": "DISCOVERY TDV6- SE  ANO 2008",
@@ -53154,7 +53479,7 @@
           "atualizadoEm": "2026-08-12"
         }
       ],
-      "totalBens": 211000,
+      "totalBens": 214000,
       "proposta": {
         "exigida": false,
         "documento": null
@@ -53316,9 +53641,23 @@
           "descricao": "HONDA",
           "valor": 20000,
           "atualizadoEm": "2026-08-12"
+        },
+        {
+          "ordem": 2,
+          "tipo": "Casa",
+          "descricao": "2 QUARTOS",
+          "valor": 190000,
+          "atualizadoEm": "2026-08-12"
+        },
+        {
+          "ordem": 3,
+          "tipo": "Veículo automotor terrestre: caminhão, automóvel, moto, etc.",
+          "descricao": "LIVINA",
+          "valor": 22000,
+          "atualizadoEm": "2026-08-12"
         }
       ],
-      "totalBens": 20000,
+      "totalBens": 232000,
       "proposta": {
         "exigida": false,
         "documento": null
@@ -53620,9 +53959,16 @@
           "descricao": "YAMAHA FACTOR YBR 125 ED",
           "valor": 3000,
           "atualizadoEm": "2026-08-13"
+        },
+        {
+          "ordem": 3,
+          "tipo": "Veículo automotor terrestre: caminhão, automóvel, moto, etc.",
+          "descricao": "PEUGEOT 207 HB XRS",
+          "valor": 16000,
+          "atualizadoEm": "2026-08-13"
         }
       ],
-      "totalBens": 25000,
+      "totalBens": 41000,
       "proposta": {
         "exigida": false,
         "documento": null
@@ -54205,9 +54551,23 @@
           "descricao": "TOWNER ANO 2010",
           "valor": 12500,
           "atualizadoEm": "2026-08-27"
+        },
+        {
+          "ordem": 2,
+          "tipo": "Veículo automotor terrestre: caminhão, automóvel, moto, etc.",
+          "descricao": "MOTO MOTTU ANO 2023",
+          "valor": 5000,
+          "atualizadoEm": "2026-08-27"
+        },
+        {
+          "ordem": 3,
+          "tipo": "Veículo automotor terrestre: caminhão, automóvel, moto, etc.",
+          "descricao": "CORSA WIND ANO 2000",
+          "valor": 7000,
+          "atualizadoEm": "2026-08-27"
         }
       ],
-      "totalBens": 12500,
+      "totalBens": 24500,
       "proposta": {
         "exigida": false,
         "documento": null
@@ -54381,6 +54741,20 @@
           "atualizadoEm": "2026-08-12"
         },
         {
+          "ordem": 4,
+          "tipo": "Veículo automotor terrestre: caminhão, automóvel, moto, etc.",
+          "descricao": "KIA PICANTO 2013",
+          "valor": 30000,
+          "atualizadoEm": "2026-08-12"
+        },
+        {
+          "ordem": 5,
+          "tipo": "Depósito bancário em conta corrente no País",
+          "descricao": "CONTA B",
+          "valor": 4.45,
+          "atualizadoEm": "2026-08-12"
+        },
+        {
           "ordem": 6,
           "tipo": "Terreno",
           "descricao": "50% DO TERRENO EM SANTA LEOPOLDINA",
@@ -54395,7 +54769,7 @@
           "atualizadoEm": "2026-08-12"
         }
       ],
-      "totalBens": 635681.73,
+      "totalBens": 665686.18,
       "proposta": {
         "exigida": false,
         "documento": null
@@ -54581,8 +54955,23 @@
       "escolaridade": "Ensino Médio completo",
       "ocupacao": "Aposentado (Exceto Servidor Público)",
       "naturalidade": "ES-VILA VELHA",
-      "bens": [],
-      "totalBens": 0,
+      "bens": [
+        {
+          "ordem": 1,
+          "tipo": "Apartamento",
+          "descricao": "APARTAMENTO THE WEEKEND PRAIA DE ITAPARICA",
+          "valor": 288250.11,
+          "atualizadoEm": "2026-08-12"
+        },
+        {
+          "ordem": 2,
+          "tipo": "Veículo automotor terrestre: caminhão, automóvel, moto, etc.",
+          "descricao": "VEÍCULO CAOACHERRY/TIGGO MISTO UTILITÁRIO ANO 21/22",
+          "valor": 130000,
+          "atualizadoEm": "2026-08-12"
+        }
+      ],
+      "totalBens": 418250.11,
       "proposta": {
         "exigida": false,
         "documento": null
@@ -54801,8 +55190,16 @@
       "escolaridade": "Superior completo",
       "ocupacao": "Deputado",
       "naturalidade": "ES-VITÓRIA",
-      "bens": [],
-      "totalBens": 0,
+      "bens": [
+        {
+          "ordem": 1,
+          "tipo": "Veículo automotor terrestre: caminhão, automóvel, moto, etc.",
+          "descricao": "FIAT TORO VOLC AT9",
+          "valor": 130000,
+          "atualizadoEm": "2026-08-12"
+        }
+      ],
+      "totalBens": 130000,
       "proposta": {
         "exigida": false,
         "documento": null
@@ -55309,8 +55706,16 @@
       "escolaridade": "Ensino Médio completo",
       "ocupacao": "Vereador",
       "naturalidade": "ES-VITÓRIA",
-      "bens": [],
-      "totalBens": 0,
+      "bens": [
+        {
+          "ordem": 1,
+          "tipo": "Veículo automotor terrestre: caminhão, automóvel, moto, etc.",
+          "descricao": "AUTOMOVEL LOGAN 2013",
+          "valor": 15000,
+          "atualizadoEm": "2026-08-12"
+        }
+      ],
+      "totalBens": 15000,
       "proposta": {
         "exigida": false,
         "documento": null
@@ -55664,6 +56069,13 @@
           "atualizadoEm": "2026-08-12"
         },
         {
+          "ordem": 3,
+          "tipo": "Veículo automotor terrestre: caminhão, automóvel, moto, etc.",
+          "descricao": "TOYOTA YARIS CROSS",
+          "valor": 171000,
+          "atualizadoEm": "2026-08-12"
+        },
+        {
           "ordem": 4,
           "tipo": "Veículo automotor terrestre: caminhão, automóvel, moto, etc.",
           "descricao": "CAMINHONETE FORD F 1000",
@@ -55671,7 +56083,7 @@
           "atualizadoEm": "2026-08-12"
         }
       ],
-      "totalBens": 240000,
+      "totalBens": 411000,
       "proposta": {
         "exigida": false,
         "documento": null
@@ -57042,6 +57454,13 @@
           "atualizadoEm": "2026-08-12"
         },
         {
+          "ordem": 4,
+          "tipo": "Caderneta de poupança",
+          "descricao": "POUPANÇA BANCO DO BRASIL",
+          "valor": 25331.14,
+          "atualizadoEm": "2026-08-12"
+        },
+        {
           "ordem": 5,
           "tipo": "Apartamento",
           "descricao": "APARTAMENTO",
@@ -57084,7 +57503,7 @@
           "atualizadoEm": "2026-08-12"
         }
       ],
-      "totalBens": 647665.07,
+      "totalBens": 672996.21,
       "proposta": {
         "exigida": false,
         "documento": null
@@ -57344,9 +57763,16 @@
           "descricao": "SANTA CRUZ (SEM ESCRITURA",
           "valor": 120000,
           "atualizadoEm": "2026-08-14"
+        },
+        {
+          "ordem": 2,
+          "tipo": "Veículo automotor terrestre: caminhão, automóvel, moto, etc.",
+          "descricao": "FORD FOCUS SE AT 2,0SC",
+          "valor": 65000,
+          "atualizadoEm": "2026-08-14"
         }
       ],
-      "totalBens": 120000,
+      "totalBens": 185000,
       "proposta": {
         "exigida": false,
         "documento": null
