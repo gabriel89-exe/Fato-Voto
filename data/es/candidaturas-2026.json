@@ -9,7 +9,7 @@
     "idEleicao": "20322002026",
     "uf": "ES"
   },
-  "coletadoEm": "2026-09-24T14:13:23.253Z",
+  "coletadoEm": "2026-09-25T14:37:19.053Z",
   "total": 577,
   "candidaturas": [
     {
@@ -60198,9 +60198,16 @@
           "descricao": "SALDO EM CONTA CEF",
           "valor": 4719.77,
           "atualizadoEm": "2026-08-12"
+        },
+        {
+          "ordem": 7,
+          "tipo": "Veículo automotor terrestre: caminhão, automóvel, moto, etc.",
+          "descricao": "JEEP/RENEGADE SPORT",
+          "valor": 65000,
+          "atualizadoEm": "2026-09-24"
         }
       ],
-      "totalBens": 411196.32,
+      "totalBens": 476196.32,
       "proposta": {
         "exigida": false,
         "documento": null

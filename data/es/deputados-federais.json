@@ -6,12 +6,12 @@
   },
   "uf": "ES",
   "legislatura": 57,
-  "coletadoEm": "2026-09-24T14:14:42.117Z",
+  "coletadoEm": "2026-09-25T14:40:49.338Z",
   "referencia": {
     "bancada": 10,
     "medianaDespesas": 1905961.2350000027,
     "menor": 1426142.8299999903,
-    "maior": 1994105.35
+    "maior": 1994521.46
   },
   "parlamentares": [
     {
@@ -35,8 +35,8 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/204356.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/204356",
       "despesas": {
-        "total": 1850097.430000002,
-        "documentos": 1036,
+        "total": 1850315.120000002,
+        "documentos": 1037,
         "porTipo": [
           {
             "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
@@ -419,8 +419,8 @@
           },
           {
             "tipo": "COMBUSTÍVEIS E LUBRIFICANTES.",
-            "valor": 73607.78999999998,
-            "notas": 364,
+            "valor": 73825.47999999998,
+            "notas": 365,
             "fornecedores": [
               {
                 "nome": "POSTO CIBIEN DE COMBUSTIVEIS LTDA",
@@ -434,8 +434,8 @@
               {
                 "nome": "067 - PARANOA II - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
                 "cnpjCpf": "00306597006723",
-                "total": 8532.949999999999,
-                "notas": 46,
+                "total": 8750.639999999998,
+                "notas": 47,
                 "outrosNomes": [
                   "067 - PARANOA II - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA."
                 ]
@@ -713,7 +713,7 @@
           },
           {
             "competencia": "2026-09",
-            "valor": 1311.12
+            "valor": 1528.81
           }
         ],
         "fornecedores": [
@@ -995,8 +995,8 @@
           }
         ],
         "comprovantes": {
-          "com": 703,
-          "total": 1036
+          "com": 704,
+          "total": 1037
         }
       },
       "proposicoes": {
@@ -1286,19 +1286,19 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/204355.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/204355",
       "despesas": {
-        "total": 1913207.3900000032,
-        "documentos": 1418,
+        "total": 1923207.3900000032,
+        "documentos": 1419,
         "porTipo": [
           {
             "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
-            "valor": 779245.1399999999,
-            "notas": 435,
+            "valor": 789245.1399999999,
+            "notas": 436,
             "fornecedores": [
               {
                 "nome": "ATIVE ENGENHARIA LTDA",
                 "cnpjCpf": "39407978000108",
-                "total": 343858.76999999996,
-                "notas": 43,
+                "total": 353858.7699999999,
+                "notas": 44,
                 "outrosNomes": [
                   "ATIVE ENGENHARIA"
                 ]
@@ -2183,15 +2183,15 @@
           },
           {
             "competencia": "2026-08",
-            "valor": 11063.11
+            "valor": 21063.109999999997
           }
         ],
         "fornecedores": [
           {
             "nome": "ATIVE ENGENHARIA LTDA",
             "cnpjCpf": "39407978000108",
-            "total": 343858.76999999996,
-            "notas": 43,
+            "total": 353858.7699999999,
+            "notas": 44,
             "outrosNomes": [
               "ATIVE ENGENHARIA"
             ]
@@ -2433,6 +2433,15 @@
             "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3256/2026/8144480.pdf"
           },
           {
+            "id": "8159544",
+            "data": "2026-09-01",
+            "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
+            "valor": 10000,
+            "fornecedor": "ATIVE ENGENHARIA LTDA",
+            "cnpjCpf": "39407978000108",
+            "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3256/2026/8159544.pdf"
+          },
+          {
             "id": "7958545",
             "data": "2025-07-11",
             "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
@@ -2449,20 +2458,11 @@
             "fornecedor": "ATIVE ENGENHARIA",
             "cnpjCpf": "39407978000108",
             "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3256/2025/8013320.pdf"
-          },
-          {
-            "id": "8022180",
-            "data": "2025-12-02",
-            "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
-            "valor": 8413,
-            "fornecedor": "ATIVE ENGENHARIA",
-            "cnpjCpf": "39407978000108",
-            "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3256/2025/8022180.pdf"
           }
         ],
         "comprovantes": {
-          "com": 707,
-          "total": 1418
+          "com": 708,
+          "total": 1419
         }
       },
       "proposicoes": {
@@ -4172,8 +4172,8 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/178871.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/178871",
       "despesas": {
-        "total": 1994105.35,
-        "documentos": 1603,
+        "total": 1994521.46,
+        "documentos": 1605,
         "porTipo": [
           {
             "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
@@ -4483,8 +4483,8 @@
           },
           {
             "tipo": "COMBUSTÍVEIS E LUBRIFICANTES.",
-            "valor": 250097.5500000001,
-            "notas": 519,
+            "valor": 250513.66000000006,
+            "notas": 521,
             "fornecedores": [
               {
                 "nome": "AUTO POSTO ESMIG LTDA",
@@ -4496,8 +4496,8 @@
               {
                 "nome": "AUTO POSTO CINCO ESTRELAS LTDA",
                 "cnpjCpf": "00692418000107",
-                "total": 9964.820000000002,
-                "notas": 57,
+                "total": 10280.929999999998,
+                "notas": 58,
                 "outrosNomes": []
               },
               {
@@ -5291,7 +5291,7 @@
           },
           {
             "competencia": "2026-09",
-            "valor": 200
+            "valor": 616.11
           }
         ],
         "fornecedores": [
@@ -5587,8 +5587,8 @@
           }
         ],
         "comprovantes": {
-          "com": 1201,
-          "total": 1603
+          "com": 1203,
+          "total": 1605
         }
       },
       "proposicoes": {
