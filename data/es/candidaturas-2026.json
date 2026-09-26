@@ -9,7 +9,7 @@
     "idEleicao": "20322002026",
     "uf": "ES"
   },
-  "coletadoEm": "2026-09-25T14:37:19.053Z",
+  "coletadoEm": "2026-09-26T13:45:53.317Z",
   "total": 577,
   "candidaturas": [
     {
@@ -24745,8 +24745,8 @@
       "dataNascimento": "1981-07-01",
       "genero": "MASC.",
       "corRaca": "PARDA",
-      "escolaridade": "Superior incompleto",
-      "ocupacao": "Estudante, Bolsista, Estagiário e Assemelhados",
+      "escolaridade": "Superior completo",
+      "ocupacao": "Vereador",
       "naturalidade": "ES-LINHARES",
       "bens": [
         {
@@ -40126,9 +40126,9 @@
         "nome": "PARTIDO NOVO"
       },
       "coligacao": "NOVO",
-      "situacaoRegistro": "Deferido",
+      "situacaoRegistro": "Renúncia",
       "situacaoCandidatura": "Consta da urna",
-      "apto": true,
+      "apto": false,
       "disputaReeleicao": false,
       "dataNascimento": "1980-07-08",
       "genero": "FEM.",
@@ -42418,9 +42418,9 @@
         "nome": "MOVIMENTO DEMOCRÁTICO BRASILEIRO"
       },
       "coligacao": "MDB",
-      "situacaoRegistro": "Deferido",
+      "situacaoRegistro": "Renúncia",
       "situacaoCandidatura": "Consta da urna",
-      "apto": true,
+      "apto": false,
       "disputaReeleicao": false,
       "dataNascimento": "1968-08-05",
       "genero": "MASC.",
@@ -53624,9 +53624,9 @@
         "nome": "MOVIMENTO DEMOCRÁTICO BRASILEIRO"
       },
       "coligacao": "MDB",
-      "situacaoRegistro": "Deferido",
+      "situacaoRegistro": "Renúncia",
       "situacaoCandidatura": "Consta da urna",
-      "apto": true,
+      "apto": false,
       "disputaReeleicao": false,
       "dataNascimento": "1957-02-19",
       "genero": "MASC.",
