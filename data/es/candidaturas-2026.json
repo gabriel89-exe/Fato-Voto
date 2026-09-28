@@ -9,7 +9,7 @@
     "idEleicao": "20322002026",
     "uf": "ES"
   },
-  "coletadoEm": "2026-09-27T14:43:00.368Z",
+  "coletadoEm": "2026-09-28T17:40:30.755Z",
   "total": 577,
   "candidaturas": [
     {
@@ -2447,17 +2447,17 @@
         },
         {
           "ano": 2022,
-          "cargo": "Presidente",
-          "partido": "PROS",
-          "uf": "BR",
-          "resultado": "Concorrendo"
-        },
-        {
-          "ano": 2022,
           "cargo": "Deputado Federal",
           "partido": "PROS",
           "uf": "SP",
           "resultado": "Não eleito"
+        },
+        {
+          "ano": 2022,
+          "cargo": "Presidente",
+          "partido": "PROS",
+          "uf": "BR",
+          "resultado": "Concorrendo"
         }
       ],
       "primeiraCandidatura": false,
