@@ -11,7 +11,7 @@
     2025,
     2026
   ],
-  "coletadoEm": "2026-09-28T17:42:07.274Z",
+  "coletadoEm": "2026-09-29T15:53:32.498Z",
   "senadores": [
     {
       "id": "senado-5953",
@@ -2946,7 +2946,7 @@
           "ano": 2023,
           "ementa": "Urgência para o PRS nº 24/2023.",
           "data": "2023-03-14",
-          "autorPrincipal": true
+          "autorPrincipal": false
         },
         {
           "id": "156224",
@@ -2956,7 +2956,7 @@
           "ano": 2023,
           "ementa": "Urgência para o PRS nº 24/2023.",
           "data": "2023-03-14",
-          "autorPrincipal": false
+          "autorPrincipal": true
         },
         {
           "id": "156391",
@@ -6276,7 +6276,7 @@
           "sigla": "RQS",
           "numero": "83",
           "ano": 2024,
-          "ementa": "Requer a convocação, perante o Plenário, do Senhor Mauro Vieira, Ministro de Estado das Relações Exteriores, para prestar informações sobre os possíveis impactos internacionais decorrente das recentes declarações do Presidente da República que comparam a contraofensiva militar israelense na Faixa de Gaza ao Holocausto, e as possíveis medidas a serem adotadas pelo Itamaraty para remediar a situação diplomática",
+          "ementa": "Requer a convocação para prestar informações, perante o Plenário, do Senhor Mauro Vieira, Ministro de Estado das Relações Exteriores, sobre os possíveis impactos internacionais decorrentes das recentes declarações do Presidente da República que comparam a contraofensiva militar israelense na Faixa de Gaza ao Holocausto e as possíveis medidas a serem adotadas pelo Itamaraty para remediar a situação diplomática.",
           "data": "2024-02-20",
           "autorPrincipal": false
         },

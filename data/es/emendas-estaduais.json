@@ -11,11 +11,11 @@
     2025,
     2026
   ],
-  "coletadoEm": "2026-09-28T17:44:40.951Z",
+  "coletadoEm": "2026-09-29T16:04:21.605Z",
   "recorte": "Emendas ao Orçamento do Espírito Santo cujo autor individual é deputado estadual da legislatura atual da ALES (2023–2027) e candidato em 2026. A LOA de um ano é emendada no ano anterior: a de 2023 foi emendada pela legislatura anterior, e só aparece para quem já era deputado. Emenda de bancada e de comissão não tem autor individual e não entra. O casamento com a candidatura é por nome, com desistência em qualquer ambiguidade — os nomes que não casaram estão listados no dado.",
   "conferencia": {
     "aprovada": true,
-    "conferidoEm": "2026-09-28T17:44:40.881Z",
+    "conferidoEm": "2026-09-29T16:04:21.556Z",
     "provas": [
       "cada arquivo é baixado duas vezes, e os dois downloads têm de ser idênticos",
       "o valor previsto da emenda repete igual em todas as linhas dela",
@@ -8552,8 +8552,8 @@
         "totais": {
           "previsto": 193094300,
           "empenhado": 69749019.19999999,
-          "liquidado": 66107123.65,
-          "pago": 66047139.35,
+          "liquidado": 66107123.64999999,
+          "pago": 66047139.349999994,
           "restosAPagar": 1471025.8900000001
         },
         "porAno": [
@@ -8933,7 +8933,7 @@
             "nome": "Individual com finalidade definida não impositiva",
             "quantidade": 265,
             "empenhado": 69749019.19999999,
-            "pago": 66047139.35
+            "pago": 66047139.349999994
           }
         ],
         "criterioDaLista": "as 10 de maior valor empenhado",

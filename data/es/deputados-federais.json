@@ -6,11 +6,11 @@
   },
   "uf": "ES",
   "legislatura": 57,
-  "coletadoEm": "2026-09-26T13:47:12.087Z",
+  "coletadoEm": "2026-09-29T15:53:25.397Z",
   "referencia": {
     "bancada": 10,
     "medianaDespesas": 1905961.2350000027,
-    "menor": 1426142.8299999903,
+    "menor": 1426685.3399999903,
     "maior": 1994521.46
   },
   "parlamentares": [
@@ -35,8 +35,8 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/204356.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/204356",
       "despesas": {
-        "total": 1850315.120000002,
-        "documentos": 1037,
+        "total": 1853135.660000002,
+        "documentos": 1038,
         "porTipo": [
           {
             "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
@@ -302,14 +302,14 @@
           },
           {
             "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
-            "valor": 140437.25999999995,
-            "notas": 190,
+            "valor": 143257.8,
+            "notas": 191,
             "fornecedores": [
               {
                 "nome": "APE VILA VELHA IMOBILIARIA E CONSTRUCOES LTDA",
                 "cnpjCpf": "28926781000169",
-                "total": 97887.48000000003,
-                "notas": 38,
+                "total": 100708.02000000002,
+                "notas": 39,
                 "outrosNomes": [
                   "Apê Vila Velha Imobiliária e Construções",
                   "Apê Vila Velha Imobiliária e Construções.."
@@ -713,7 +713,7 @@
           },
           {
             "competencia": "2026-09",
-            "valor": 1528.81
+            "valor": 4349.349999999999
           }
         ],
         "fornecedores": [
@@ -767,21 +767,21 @@
             "outrosNomes": []
           },
           {
+            "nome": "APE VILA VELHA IMOBILIARIA E CONSTRUCOES LTDA",
+            "cnpjCpf": "28926781000169",
+            "total": 100708.02000000002,
+            "notas": 39,
+            "outrosNomes": [
+              "Apê Vila Velha Imobiliária e Construções",
+              "Apê Vila Velha Imobiliária e Construções.."
+            ]
+          },
+          {
             "nome": "AGENCIA LAB. PRODUÇÕES LTFA",
             "cnpjCpf": "41928704000106",
             "total": 99500,
             "notas": 9,
             "outrosNomes": []
-          },
-          {
-            "nome": "APE VILA VELHA IMOBILIARIA E CONSTRUCOES LTDA",
-            "cnpjCpf": "28926781000169",
-            "total": 97887.48000000003,
-            "notas": 38,
-            "outrosNomes": [
-              "Apê Vila Velha Imobiliária e Construções",
-              "Apê Vila Velha Imobiliária e Construções.."
-            ]
           },
           {
             "nome": "QUASAR LOCADORA DE VEICULOS EIRELI",
@@ -817,8 +817,8 @@
           }
         ],
         "glosas": {
-          "quantidade": 150,
-          "valor": 8022.500000000003,
+          "quantidade": 151,
+          "valor": 8025.500000000003,
           "exemplos": [
             {
               "id": "7585825",
@@ -995,8 +995,8 @@
           }
         ],
         "comprovantes": {
-          "com": 704,
-          "total": 1037
+          "com": 705,
+          "total": 1038
         }
       },
       "proposicoes": {
@@ -4173,7 +4173,7 @@
       "paginaOficial": "https://www.camara.leg.br/deputados/178871",
       "despesas": {
         "total": 1994521.46,
-        "documentos": 1605,
+        "documentos": 1606,
         "porTipo": [
           {
             "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
@@ -5588,7 +5588,7 @@
         ],
         "comprovantes": {
           "com": 1203,
-          "total": 1605
+          "total": 1606
         }
       },
       "proposicoes": {
@@ -9281,8 +9281,8 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/178873.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/178873",
       "despesas": {
-        "total": 1426142.8299999903,
-        "documentos": 2405,
+        "total": 1426685.3399999903,
+        "documentos": 2416,
         "porTipo": [
           {
             "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
@@ -9398,8 +9398,8 @@
           },
           {
             "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
-            "valor": 297677.9099999996,
-            "notas": 277,
+            "valor": 297803.71999999956,
+            "notas": 278,
             "fornecedores": [
               {
                 "nome": "MD SOLUCOES IMOBILIARIAS LTDA",
@@ -9439,8 +9439,8 @@
               {
                 "nome": "CLARO NXT TELECOMUNICACOES S/A",
                 "cnpjCpf": "66970229010472",
-                "total": 4420.740000000003,
-                "notas": 38,
+                "total": 4546.550000000004,
+                "notas": 39,
                 "outrosNomes": [
                   "Claro NXT Telecomunicações S.A",
                   "Nextel Telecomunicações ltda"
@@ -9875,8 +9875,8 @@
           },
           {
             "tipo": "HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.",
-            "valor": 43827.51000000001,
-            "notas": 207,
+            "valor": 44147.51000000001,
+            "notas": 211,
             "fornecedores": [
               {
                 "nome": "HOTEL PHENICIA LTDA",
@@ -10064,8 +10064,8 @@
           },
           {
             "tipo": "SERVIÇO DE TÁXI, PEDÁGIO E ESTACIONAMENTO",
-            "valor": 12569.149999999976,
-            "notas": 764,
+            "valor": 12665.849999999975,
+            "notas": 770,
             "fornecedores": [
               {
                 "nome": "UBER DO BRASIL TECNOLOGIA LTDA.",
@@ -10082,11 +10082,13 @@
                 "outrosNomes": []
               },
               {
-                "nome": "UBER",
+                "nome": "UBER DO BRASIL TECNOLOGIA LTDA.",
                 "cnpjCpf": "17895646005901",
-                "total": 581.66,
-                "notas": 25,
-                "outrosNomes": []
+                "total": 678.36,
+                "notas": 31,
+                "outrosNomes": [
+                  "UBER"
+                ]
               },
               {
                 "nome": "UBER DO BRASIL TECNOLOGIA LTDA.",
@@ -10351,15 +10353,15 @@
           },
           {
             "competencia": "2026-06",
-            "valor": 25936.64
+            "valor": 25947.579999999998
           },
           {
             "competencia": "2026-07",
-            "valor": 23080.5
+            "valor": 23486.26
           },
           {
             "competencia": "2026-08",
-            "valor": 15333.889999999996
+            "valor": 15459.699999999995
           },
           {
             "competencia": "2026-09",
@@ -10658,8 +10660,8 @@
           }
         ],
         "comprovantes": {
-          "com": 2204,
-          "total": 2405
+          "com": 2215,
+          "total": 2416
         }
       },
       "proposicoes": {
@@ -10984,8 +10986,8 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/220527.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/220527",
       "despesas": {
-        "total": 1834991.55,
-        "documentos": 1535,
+        "total": 1846534.5499999998,
+        "documentos": 1542,
         "porTipo": [
           {
             "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
@@ -11188,8 +11190,8 @@
           },
           {
             "tipo": "LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES",
-            "valor": 336513,
-            "notas": 85,
+            "valor": 343313,
+            "notas": 86,
             "fornecedores": [
               {
                 "nome": "EVO LOCADORA DE VEICULOS LTDA.",
@@ -11203,8 +11205,8 @@
               {
                 "nome": "PANTANAL-VEICULOS LTDA",
                 "cnpjCpf": "07319323000191",
-                "total": 72800,
-                "notas": 17,
+                "total": 79600,
+                "notas": 18,
                 "outrosNomes": [
                   "PANTANAL VEÍCULOS LTDA"
                 ]
@@ -11239,6 +11241,15 @@
                 "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3651/2026/8148747.pdf"
               },
               {
+                "id": "8157130",
+                "data": "2026-09-02",
+                "tipo": "LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES",
+                "valor": 6800,
+                "fornecedor": "PANTANAL-VEICULOS LTDA",
+                "cnpjCpf": "07319323000191",
+                "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3651/2026/8157130.pdf"
+              },
+              {
                 "id": "7818277",
                 "data": "2024-10-11",
                 "tipo": "LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES",
@@ -11246,28 +11257,19 @@
                 "fornecedor": "EVO COMERCIO DE VEICULOS LTDA",
                 "cnpjCpf": "10234473000107",
                 "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3651/2024/7818277.pdf"
-              },
-              {
-                "id": "7818278",
-                "data": "2024-10-11",
-                "tipo": "LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES",
-                "valor": 5000,
-                "fornecedor": "EVO COMERCIO DE VEICULOS LTDA",
-                "cnpjCpf": "10234473000107",
-                "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3651/2024/7818278.pdf"
               }
             ]
           },
           {
             "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
-            "valor": 243562.87000000008,
-            "notas": 211,
+            "valor": 247867.87000000008,
+            "notas": 213,
             "fornecedores": [
               {
                 "nome": "PRIVILEGE ADMINISTRACAO E NEGOCIOS IMOBILIARIOS LTDA",
                 "cnpjCpf": "11368482000153",
-                "total": 80801.42,
-                "notas": 39,
+                "total": 82901.42,
+                "notas": 40,
                 "outrosNomes": [
                   "PRIVILEGE ADMINISTRAÇÃO E NEGÓCIOS IMOBILIÁRIOS LTDA"
                 ]
@@ -11275,8 +11277,8 @@
               {
                 "nome": "LIBERTY CARTUCHOS LTDA",
                 "cnpjCpf": "03817452000159",
-                "total": 67975,
-                "notas": 37,
+                "total": 70180,
+                "notas": 38,
                 "outrosNomes": [
                   "Liberty Cartuchos LTDA"
                 ]
@@ -11376,8 +11378,8 @@
           },
           {
             "tipo": "COMBUSTÍVEIS E LUBRIFICANTES.",
-            "valor": 102312.85999999991,
-            "notas": 654,
+            "valor": 102692.91999999991,
+            "notas": 656,
             "fornecedores": [
               {
                 "nome": "POSTO PIO XII - COMERCIO DE COMBUSTIVEIS LTDA",
@@ -11598,24 +11600,26 @@
           },
           {
             "tipo": "SERVIÇO DE TÁXI, PEDÁGIO E ESTACIONAMENTO",
-            "valor": 3609.8200000000006,
-            "notas": 100,
+            "valor": 3667.76,
+            "notas": 102,
             "fornecedores": [
               {
                 "nome": "UBER DO BRASIL TECNOLOGIA LTDA.",
                 "cnpjCpf": "17895646000187",
-                "total": 3421.45,
-                "notas": 92,
+                "total": 3439.39,
+                "notas": 93,
                 "outrosNomes": [
                   "UBER DO BRASIL TECNOLOGIA LTDA"
                 ]
               },
               {
-                "nome": "99 POP",
+                "nome": "99 TECNOLOGIA LTDA",
                 "cnpjCpf": "18033552000161",
-                "total": 89.53,
-                "notas": 3,
-                "outrosNomes": []
+                "total": 129.53,
+                "notas": 4,
+                "outrosNomes": [
+                  "99 POP"
+                ]
               },
               {
                 "nome": "EMPRESA BRASILIENSE DE ESTACIONAMENTO LTDA",
@@ -11986,11 +11990,11 @@
           },
           {
             "competencia": "2026-08",
-            "valor": 20855.4
+            "valor": 27655.400000000005
           },
           {
             "competencia": "2026-09",
-            "valor": 8380.060000000001
+            "valor": 13123.06
           }
         ],
         "fornecedores": [
@@ -12034,8 +12038,8 @@
           {
             "nome": "PRIVILEGE ADMINISTRACAO E NEGOCIOS IMOBILIARIOS LTDA",
             "cnpjCpf": "11368482000153",
-            "total": 80801.42,
-            "notas": 39,
+            "total": 82901.42,
+            "notas": 40,
             "outrosNomes": [
               "PRIVILEGE ADMINISTRAÇÃO E NEGÓCIOS IMOBILIÁRIOS LTDA"
             ]
@@ -12043,8 +12047,8 @@
           {
             "nome": "PANTANAL-VEICULOS LTDA",
             "cnpjCpf": "07319323000191",
-            "total": 72800,
-            "notas": 17,
+            "total": 79600,
+            "notas": 18,
             "outrosNomes": [
               "PANTANAL VEÍCULOS LTDA"
             ]
@@ -12059,8 +12063,8 @@
           {
             "nome": "LIBERTY CARTUCHOS LTDA",
             "cnpjCpf": "03817452000159",
-            "total": 67975,
-            "notas": 37,
+            "total": 70180,
+            "notas": 38,
             "outrosNomes": [
               "Liberty Cartuchos LTDA"
             ]
@@ -12266,8 +12270,8 @@
           }
         ],
         "comprovantes": {
-          "com": 1163,
-          "total": 1535
+          "com": 1170,
+          "total": 1542
         }
       },
       "proposicoes": {
