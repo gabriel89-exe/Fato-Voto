@@ -6,11 +6,11 @@
   },
   "uf": "ES",
   "legislatura": 57,
-  "coletadoEm": "2026-09-29T15:53:25.397Z",
+  "coletadoEm": "2026-09-30T15:57:54.429Z",
   "referencia": {
     "bancada": 10,
     "medianaDespesas": 1905961.2350000027,
-    "menor": 1426685.3399999903,
+    "menor": 1426772.1199999903,
     "maior": 1994521.46
   },
   "parlamentares": [
@@ -217,39 +217,29 @@
             "notas": 276,
             "fornecedores": [
               {
-                "nome": "TAM",
-                "cnpjCpf": null,
-                "total": 110170.37999999996,
-                "notas": 129,
-                "outrosNomes": []
-              },
-              {
                 "nome": "LATAM Airlines Brasil",
-                "cnpjCpf": null,
-                "total": 101381.28999999998,
-                "notas": 111,
-                "outrosNomes": []
+                "cnpjCpf": "02012862000160",
+                "total": 211551.6699999998,
+                "notas": 240,
+                "outrosNomes": [
+                  "TAM"
+                ]
               },
               {
                 "nome": "GOL",
-                "cnpjCpf": null,
+                "cnpjCpf": "07575651000159",
                 "total": 24251.05,
                 "notas": 26,
                 "outrosNomes": []
               },
               {
-                "nome": "AZUL",
-                "cnpjCpf": null,
-                "total": 13693.45,
-                "notas": 9,
-                "outrosNomes": []
-              },
-              {
                 "nome": "Azul Linhas Aéreas",
-                "cnpjCpf": null,
-                "total": 502.76,
-                "notas": 1,
-                "outrosNomes": []
+                "cnpjCpf": "09296295000160",
+                "total": 14196.210000000001,
+                "notas": 10,
+                "outrosNomes": [
+                  "AZUL"
+                ]
               }
             ],
             "maiores": [
@@ -259,7 +249,7 @@
                 "tipo": "PASSAGEM AÉREA - SIGEPA",
                 "valor": 3128.68,
                 "fornecedor": "LATAM Airlines Brasil",
-                "cnpjCpf": null,
+                "cnpjCpf": "02012862000160",
                 "documento": null
               },
               {
@@ -268,7 +258,7 @@
                 "tipo": "PASSAGEM AÉREA - SIGEPA",
                 "valor": 3063.73,
                 "fornecedor": "TAM",
-                "cnpjCpf": null,
+                "cnpjCpf": "02012862000160",
                 "documento": null
               },
               {
@@ -277,7 +267,7 @@
                 "tipo": "PASSAGEM AÉREA - SIGEPA",
                 "valor": 2976.21,
                 "fornecedor": "GOL",
-                "cnpjCpf": null,
+                "cnpjCpf": "07575651000159",
                 "documento": null
               },
               {
@@ -286,7 +276,7 @@
                 "tipo": "PASSAGEM AÉREA - SIGEPA",
                 "valor": 2964.79,
                 "fornecedor": "LATAM Airlines Brasil",
-                "cnpjCpf": null,
+                "cnpjCpf": "02012862000160",
                 "documento": null
               },
               {
@@ -295,7 +285,7 @@
                 "tipo": "PASSAGEM AÉREA - SIGEPA",
                 "valor": 2955.83,
                 "fornecedor": "LATAM Airlines Brasil",
-                "cnpjCpf": null,
+                "cnpjCpf": "02012862000160",
                 "documento": null
               }
             ]
@@ -735,6 +725,15 @@
             "outrosNomes": []
           },
           {
+            "nome": "LATAM Airlines Brasil",
+            "cnpjCpf": "02012862000160",
+            "total": 211551.6699999998,
+            "notas": 240,
+            "outrosNomes": [
+              "TAM"
+            ]
+          },
+          {
             "nome": "PONTA LOCACAO DE VEICULOS LTDA",
             "cnpjCpf": "42761872000112",
             "total": 155250,
@@ -751,20 +750,6 @@
             "outrosNomes": [
               "AQUI CENTRO AUTOMOTIVO LTDA EPP4347"
             ]
-          },
-          {
-            "nome": "TAM",
-            "cnpjCpf": null,
-            "total": 110170.37999999996,
-            "notas": 129,
-            "outrosNomes": []
-          },
-          {
-            "nome": "LATAM Airlines Brasil",
-            "cnpjCpf": null,
-            "total": 101381.28999999998,
-            "notas": 111,
-            "outrosNomes": []
           },
           {
             "nome": "APE VILA VELHA IMOBILIARIA E CONSTRUCOES LTDA",
@@ -801,7 +786,7 @@
           },
           {
             "nome": "GOL",
-            "cnpjCpf": null,
+            "cnpjCpf": "07575651000159",
             "total": 24251.05,
             "notas": 26,
             "outrosNomes": []
@@ -813,6 +798,15 @@
             "notas": 8,
             "outrosNomes": [
               "AMERICA LOCACAO E SERVICOS LTDA"
+            ]
+          },
+          {
+            "nome": "Azul Linhas Aéreas",
+            "cnpjCpf": "09296295000160",
+            "total": 14196.210000000001,
+            "notas": 10,
+            "outrosNomes": [
+              "AZUL"
             ]
           }
         ],
@@ -1286,13 +1280,13 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/204355.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/204355",
       "despesas": {
-        "total": 1923207.3900000032,
-        "documentos": 1419,
+        "total": 1934966.2600000035,
+        "documentos": 1430,
         "porTipo": [
           {
             "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
-            "valor": 789245.1399999999,
-            "notas": 436,
+            "valor": 791765.14,
+            "notas": 438,
             "fornecedores": [
               {
                 "nome": "ATIVE ENGENHARIA LTDA",
@@ -1325,8 +1319,8 @@
               {
                 "nome": "ROMEU EMERICK",
                 "cnpjCpf": "24988138704",
-                "total": 60300.59,
-                "notas": 39,
+                "total": 62200.59,
+                "notas": 40,
                 "outrosNomes": []
               },
               {
@@ -1348,8 +1342,8 @@
               {
                 "nome": "SISNETTI INTEGRADORA DE SOLUCOES LTDA",
                 "cnpjCpf": "01319851000164",
-                "total": 18230,
-                "notas": 25,
+                "total": 18850,
+                "notas": 26,
                 "outrosNomes": []
               },
               {
@@ -1416,46 +1410,31 @@
             "notas": 482,
             "fornecedores": [
               {
-                "nome": "TAM",
-                "cnpjCpf": null,
-                "total": 294028.41000000015,
-                "notas": 269,
-                "outrosNomes": []
-              },
-              {
                 "nome": "LATAM Airlines Brasil",
-                "cnpjCpf": null,
-                "total": 120371.13,
-                "notas": 101,
-                "outrosNomes": []
-              },
-              {
-                "nome": "GOL",
-                "cnpjCpf": null,
-                "total": 72930.2,
-                "notas": 72,
-                "outrosNomes": []
-              },
-              {
-                "nome": "AZUL",
-                "cnpjCpf": null,
-                "total": 28826.930000000004,
-                "notas": 32,
-                "outrosNomes": []
+                "cnpjCpf": "02012862000160",
+                "total": 414399.5400000003,
+                "notas": 370,
+                "outrosNomes": [
+                  "TAM"
+                ]
               },
               {
                 "nome": "Gol Linhas Aéreas",
-                "cnpjCpf": null,
-                "total": 5726.46,
-                "notas": 7,
-                "outrosNomes": []
+                "cnpjCpf": "07575651000159",
+                "total": 78656.65999999999,
+                "notas": 79,
+                "outrosNomes": [
+                  "GOL"
+                ]
               },
               {
                 "nome": "Azul Linhas Aéreas",
-                "cnpjCpf": null,
-                "total": 2074.49,
-                "notas": 1,
-                "outrosNomes": []
+                "cnpjCpf": "09296295000160",
+                "total": 30901.420000000006,
+                "notas": 33,
+                "outrosNomes": [
+                  "AZUL"
+                ]
               }
             ],
             "maiores": [
@@ -1465,7 +1444,7 @@
                 "tipo": "PASSAGEM AÉREA - SIGEPA",
                 "valor": 5571.22,
                 "fornecedor": "TAM",
-                "cnpjCpf": null,
+                "cnpjCpf": "02012862000160",
                 "documento": null
               },
               {
@@ -1474,7 +1453,7 @@
                 "tipo": "PASSAGEM AÉREA - SIGEPA",
                 "valor": 4813.61,
                 "fornecedor": "TAM",
-                "cnpjCpf": null,
+                "cnpjCpf": "02012862000160",
                 "documento": null
               },
               {
@@ -1483,7 +1462,7 @@
                 "tipo": "PASSAGEM AÉREA - SIGEPA",
                 "valor": 4029.19,
                 "fornecedor": "GOL",
-                "cnpjCpf": null,
+                "cnpjCpf": "07575651000159",
                 "documento": null
               },
               {
@@ -1492,7 +1471,7 @@
                 "tipo": "PASSAGEM AÉREA - SIGEPA",
                 "valor": 3895.62,
                 "fornecedor": "TAM",
-                "cnpjCpf": null,
+                "cnpjCpf": "02012862000160",
                 "documento": null
               },
               {
@@ -1501,21 +1480,21 @@
                 "tipo": "PASSAGEM AÉREA - SIGEPA",
                 "valor": 3794.97,
                 "fornecedor": "TAM",
-                "cnpjCpf": null,
+                "cnpjCpf": "02012862000160",
                 "documento": null
               }
             ]
           },
           {
             "tipo": "LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES",
-            "valor": 221185,
-            "notas": 45,
+            "valor": 226685,
+            "notas": 46,
             "fornecedores": [
               {
                 "nome": "SUPREMA MOBILIDADE LTDA",
                 "cnpjCpf": "24894397000170",
-                "total": 82500,
-                "notas": 15,
+                "total": 88000,
+                "notas": 16,
                 "outrosNomes": []
               },
               {
@@ -1592,8 +1571,8 @@
           },
           {
             "tipo": "COMBUSTÍVEIS E LUBRIFICANTES.",
-            "valor": 196910.59999999998,
-            "notas": 157,
+            "valor": 197573.16999999995,
+            "notas": 159,
             "fornecedores": [
               {
                 "nome": "POSTO IATE LTDA",
@@ -1612,8 +1591,8 @@
               {
                 "nome": "AUTO POSTO MORADA DOS NOBRES LTDA",
                 "cnpjCpf": "09215903000164",
-                "total": 2698.92,
-                "notas": 8,
+                "total": 3055.29,
+                "notas": 9,
                 "outrosNomes": []
               },
               {
@@ -1626,8 +1605,8 @@
               {
                 "nome": "050 - QI 28 - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
                 "cnpjCpf": "00306597005085",
-                "total": 2165.07,
-                "notas": 9,
+                "total": 2471.27,
+                "notas": 10,
                 "outrosNomes": []
               },
               {
@@ -1798,8 +1777,8 @@
           },
           {
             "tipo": "TELEFONIA",
-            "valor": 22671.230000000032,
-            "notas": 104,
+            "valor": 25747.530000000042,
+            "notas": 110,
             "fornecedores": [
               {
                 "nome": "Vivo - Telefonica Brasil S.A.",
@@ -1809,12 +1788,22 @@
                 "outrosNomes": []
               },
               {
-                "nome": "Claro NXT Telecomunicações S.A",
+                "nome": "CLARO NXT TELECOMUNICACOES S/A",
                 "cnpjCpf": "66970229001805",
-                "total": 7076.550000000001,
-                "notas": 50,
+                "total": 7423.1500000000015,
+                "notas": 52,
                 "outrosNomes": [
+                  "Claro NXT Telecomunicações S.A",
                   "Claro S/A"
+                ]
+              },
+              {
+                "nome": "TELEFONICA BRASIL S.A.",
+                "cnpjCpf": "02558157000162",
+                "total": 4959.95,
+                "notas": 6,
+                "outrosNomes": [
+                  "Vivo - Telefonica Brasil S.A."
                 ]
               },
               {
@@ -1825,25 +1814,34 @@
                 "outrosNomes": []
               },
               {
-                "nome": "TELEFONICA BRASIL S.A.",
-                "cnpjCpf": "02558157000162",
-                "total": 2556,
-                "notas": 4,
-                "outrosNomes": [
-                  "Vivo - Telefonica Brasil S.A."
-                ]
-              },
-              {
                 "nome": "CLARO NXT TELECOMUNICACOES S/A",
                 "cnpjCpf": "66970229010472",
-                "total": 804.74,
-                "notas": 5,
+                "total": 1130.4899999999998,
+                "notas": 7,
                 "outrosNomes": [
                   "Claro NXT Telecomunicações S.A"
                 ]
               }
             ],
             "maiores": [
+              {
+                "id": "8160432",
+                "data": "2026-09-16",
+                "tipo": "TELEFONIA",
+                "valor": 1202,
+                "fornecedor": "TELEFONICA BRASIL S.A.",
+                "cnpjCpf": "02558157000162",
+                "documento": null
+              },
+              {
+                "id": "8160421",
+                "data": "2026-08-13",
+                "tipo": "TELEFONIA",
+                "valor": 1201.95,
+                "fornecedor": "TELEFONICA BRASIL S.A.",
+                "cnpjCpf": "02558157000162",
+                "documento": null
+              },
               {
                 "id": "8144173",
                 "data": "2026-07-15",
@@ -1868,24 +1866,6 @@
                 "tipo": "TELEFONIA",
                 "valor": 547,
                 "fornecedor": "TELEFONICA BRASIL S.A.",
-                "cnpjCpf": "02558157000162",
-                "documento": null
-              },
-              {
-                "id": "8083963",
-                "data": "2026-02-13",
-                "tipo": "TELEFONIA",
-                "valor": 522,
-                "fornecedor": "Vivo - Telefonica Brasil S.A.",
-                "cnpjCpf": "02558157000324",
-                "documento": null
-              },
-              {
-                "id": "8094797",
-                "data": "2026-04-15",
-                "tipo": "TELEFONIA",
-                "valor": 522,
-                "fornecedor": "Vivo - Telefonica Brasil S.A.",
                 "cnpjCpf": "02558157000162",
                 "documento": null
               }
@@ -2179,14 +2159,28 @@
           },
           {
             "competencia": "2026-07",
-            "valor": 58757.63
+            "valor": 59094.84
           },
           {
             "competencia": "2026-08",
-            "valor": 21063.109999999997
+            "valor": 25120.2
+          },
+          {
+            "competencia": "2026-09",
+            "valor": 7364.57
           }
         ],
         "fornecedores": [
+          {
+            "nome": "LATAM Airlines Brasil",
+            "cnpjCpf": "02012862000160",
+            "total": 414664.5400000003,
+            "notas": 372,
+            "outrosNomes": [
+              "TAM",
+              "Cia Aérea - TAM"
+            ]
+          },
           {
             "nome": "ATIVE ENGENHARIA LTDA",
             "cnpjCpf": "39407978000108",
@@ -2195,13 +2189,6 @@
             "outrosNomes": [
               "ATIVE ENGENHARIA"
             ]
-          },
-          {
-            "nome": "TAM",
-            "cnpjCpf": null,
-            "total": 294028.41000000015,
-            "notas": 269,
-            "outrosNomes": []
           },
           {
             "nome": "POSTO DE GASOLINA SAO MIGUEL LTDA  MATRIZ",
@@ -2223,13 +2210,6 @@
             ]
           },
           {
-            "nome": "LATAM Airlines Brasil",
-            "cnpjCpf": null,
-            "total": 120371.13,
-            "notas": 101,
-            "outrosNomes": []
-          },
-          {
             "nome": "POSTO IATE LTDA",
             "cnpjCpf": "27419142000144",
             "total": 117514.73000000001,
@@ -2239,16 +2219,19 @@
           {
             "nome": "SUPREMA MOBILIDADE LTDA",
             "cnpjCpf": "24894397000170",
-            "total": 82500,
-            "notas": 15,
+            "total": 88000,
+            "notas": 16,
             "outrosNomes": []
           },
           {
-            "nome": "GOL",
-            "cnpjCpf": null,
-            "total": 72930.2,
-            "notas": 72,
-            "outrosNomes": []
+            "nome": "Gol Linhas Aéreas",
+            "cnpjCpf": "07575651000159",
+            "total": 78706.65999999999,
+            "notas": 80,
+            "outrosNomes": [
+              "GOL",
+              "Cia Aérea - GOL"
+            ]
           },
           {
             "nome": "47.056.303 LUCAS MAGEVSKI BOLES",
@@ -2263,8 +2246,8 @@
           {
             "nome": "ROMEU EMERICK",
             "cnpjCpf": "24988138704",
-            "total": 60300.59,
-            "notas": 39,
+            "total": 62200.59,
+            "notas": 40,
             "outrosNomes": []
           },
           {
@@ -2280,11 +2263,18 @@
             "total": 55880,
             "notas": 11,
             "outrosNomes": []
+          },
+          {
+            "nome": "ARAUJO RENTACAR EIRELI EPP",
+            "cnpjCpf": "07134140000100",
+            "total": 45600,
+            "notas": 12,
+            "outrosNomes": []
           }
         ],
         "glosas": {
-          "quantidade": 267,
-          "valor": 19969.49000000003,
+          "quantidade": 272,
+          "valor": 20514.950000000033,
           "exemplos": [
             {
               "id": "7567919",
@@ -2461,8 +2451,8 @@
           }
         ],
         "comprovantes": {
-          "com": 708,
-          "total": 1419
+          "com": 713,
+          "total": 1430
         }
       },
       "proposicoes": {
@@ -2949,38 +2939,28 @@
             "notas": 354,
             "fornecedores": [
               {
-                "nome": "TAM",
-                "cnpjCpf": null,
-                "total": 235939.71000000002,
-                "notas": 237,
-                "outrosNomes": []
-              },
-              {
                 "nome": "LATAM Airlines Brasil",
-                "cnpjCpf": null,
-                "total": 83579.51000000001,
-                "notas": 84,
-                "outrosNomes": []
-              },
-              {
-                "nome": "GOL",
-                "cnpjCpf": null,
-                "total": 22722.42,
-                "notas": 19,
-                "outrosNomes": []
-              },
-              {
-                "nome": "AZUL",
-                "cnpjCpf": null,
-                "total": 11772.809999999998,
-                "notas": 13,
-                "outrosNomes": []
+                "cnpjCpf": "02012862000160",
+                "total": 319519.2200000002,
+                "notas": 321,
+                "outrosNomes": [
+                  "TAM"
+                ]
               },
               {
                 "nome": "Gol Linhas Aéreas",
-                "cnpjCpf": null,
-                "total": 750.97,
-                "notas": 1,
+                "cnpjCpf": "07575651000159",
+                "total": 23473.39,
+                "notas": 20,
+                "outrosNomes": [
+                  "GOL"
+                ]
+              },
+              {
+                "nome": "AZUL",
+                "cnpjCpf": "09296295000160",
+                "total": 11772.809999999998,
+                "notas": 13,
                 "outrosNomes": []
               }
             ],
@@ -2991,7 +2971,7 @@
                 "tipo": "PASSAGEM AÉREA - SIGEPA",
                 "valor": 3754.56,
                 "fornecedor": "TAM",
-                "cnpjCpf": null,
+                "cnpjCpf": "02012862000160",
                 "documento": null
               },
               {
@@ -3000,7 +2980,7 @@
                 "tipo": "PASSAGEM AÉREA - SIGEPA",
                 "valor": 3144.54,
                 "fornecedor": "LATAM Airlines Brasil",
-                "cnpjCpf": null,
+                "cnpjCpf": "02012862000160",
                 "documento": null
               },
               {
@@ -3009,7 +2989,7 @@
                 "tipo": "PASSAGEM AÉREA - SIGEPA",
                 "valor": 3126.02,
                 "fornecedor": "TAM",
-                "cnpjCpf": null,
+                "cnpjCpf": "02012862000160",
                 "documento": null
               },
               {
@@ -3018,7 +2998,7 @@
                 "tipo": "PASSAGEM AÉREA - SIGEPA",
                 "valor": 3023.84,
                 "fornecedor": "TAM",
-                "cnpjCpf": null,
+                "cnpjCpf": "02012862000160",
                 "documento": null
               },
               {
@@ -3027,7 +3007,7 @@
                 "tipo": "PASSAGEM AÉREA - SIGEPA",
                 "valor": 3020.04,
                 "fornecedor": "LATAM Airlines Brasil",
-                "cnpjCpf": null,
+                "cnpjCpf": "02012862000160",
                 "documento": null
               }
             ]
@@ -3638,6 +3618,16 @@
         ],
         "fornecedores": [
           {
+            "nome": "LATAM Airlines Brasil",
+            "cnpjCpf": "02012862000160",
+            "total": 320796.8300000002,
+            "notas": 322,
+            "outrosNomes": [
+              "TAM",
+              "Latam Linhas Aéreas S.A"
+            ]
+          },
+          {
             "nome": "JORNAL CANELA VERDE EIRELI",
             "cnpjCpf": "23191363000157",
             "total": 311350,
@@ -3652,13 +3642,6 @@
             "outrosNomes": [
               "GALWAN CONSTRUTORA INCORPORADORA LTDA"
             ]
-          },
-          {
-            "nome": "TAM",
-            "cnpjCpf": null,
-            "total": 235939.71000000002,
-            "notas": 237,
-            "outrosNomes": []
           },
           {
             "nome": "ARAUJO RENTACAR EIRELI EPP",
@@ -3679,13 +3662,6 @@
             "cnpjCpf": "48994427000189",
             "total": 99000,
             "notas": 12,
-            "outrosNomes": []
-          },
-          {
-            "nome": "LATAM Airlines Brasil",
-            "cnpjCpf": null,
-            "total": 83579.51000000001,
-            "notas": 84,
             "outrosNomes": []
           },
           {
@@ -3729,6 +3705,15 @@
             "total": 41892.7,
             "notas": 4,
             "outrosNomes": []
+          },
+          {
+            "nome": "CONDOMINIO OCEAN VILLE",
+            "cnpjCpf": "17487358000193",
+            "total": 39932.530000000006,
+            "notas": 33,
+            "outrosNomes": [
+              "GALWAN CONSTRUTORA INCORPORADORA LTDA"
+            ]
           }
         ],
         "glosas": {
@@ -4391,46 +4376,31 @@
             "notas": 258,
             "fornecedores": [
               {
-                "nome": "TAM",
-                "cnpjCpf": null,
-                "total": 173670.5299999999,
-                "notas": 120,
-                "outrosNomes": []
-              },
-              {
                 "nome": "LATAM Airlines Brasil",
-                "cnpjCpf": null,
-                "total": 121280.04,
-                "notas": 79,
-                "outrosNomes": []
-              },
-              {
-                "nome": "AZUL",
-                "cnpjCpf": null,
-                "total": 41941.49000000002,
-                "notas": 28,
-                "outrosNomes": []
-              },
-              {
-                "nome": "GOL",
-                "cnpjCpf": null,
-                "total": 21483.369999999995,
-                "notas": 17,
-                "outrosNomes": []
+                "cnpjCpf": "02012862000160",
+                "total": 294950.57000000007,
+                "notas": 199,
+                "outrosNomes": [
+                  "TAM"
+                ]
               },
               {
                 "nome": "Azul Linhas Aéreas",
-                "cnpjCpf": null,
-                "total": 16130.389999999998,
-                "notas": 12,
-                "outrosNomes": []
+                "cnpjCpf": "09296295000160",
+                "total": 58071.880000000005,
+                "notas": 40,
+                "outrosNomes": [
+                  "AZUL"
+                ]
               },
               {
                 "nome": "Gol Linhas Aéreas",
-                "cnpjCpf": null,
-                "total": 2929.99,
-                "notas": 2,
-                "outrosNomes": []
+                "cnpjCpf": "07575651000159",
+                "total": 24413.359999999993,
+                "notas": 19,
+                "outrosNomes": [
+                  "GOL"
+                ]
               }
             ],
             "maiores": [
@@ -4440,7 +4410,7 @@
                 "tipo": "PASSAGEM AÉREA - SIGEPA",
                 "valor": 3774.96,
                 "fornecedor": "LATAM Airlines Brasil",
-                "cnpjCpf": null,
+                "cnpjCpf": "02012862000160",
                 "documento": null
               },
               {
@@ -4449,7 +4419,7 @@
                 "tipo": "PASSAGEM AÉREA - SIGEPA",
                 "valor": 3327.14,
                 "fornecedor": "LATAM Airlines Brasil",
-                "cnpjCpf": null,
+                "cnpjCpf": "02012862000160",
                 "documento": null
               },
               {
@@ -4458,7 +4428,7 @@
                 "tipo": "PASSAGEM AÉREA - SIGEPA",
                 "valor": 3280.52,
                 "fornecedor": "TAM",
-                "cnpjCpf": null,
+                "cnpjCpf": "02012862000160",
                 "documento": null
               },
               {
@@ -4467,7 +4437,7 @@
                 "tipo": "PASSAGEM AÉREA - SIGEPA",
                 "valor": 3274.4,
                 "fornecedor": "LATAM Airlines Brasil",
-                "cnpjCpf": null,
+                "cnpjCpf": "02012862000160",
                 "documento": null
               },
               {
@@ -4476,7 +4446,7 @@
                 "tipo": "PASSAGEM AÉREA - SIGEPA",
                 "valor": 3156.9,
                 "fornecedor": "LATAM Airlines Brasil",
-                "cnpjCpf": null,
+                "cnpjCpf": "02012862000160",
                 "documento": null
               }
             ]
@@ -5305,17 +5275,20 @@
             ]
           },
           {
+            "nome": "LATAM Airlines Brasil",
+            "cnpjCpf": "02012862000160",
+            "total": 297091.25,
+            "notas": 200,
+            "outrosNomes": [
+              "TAM",
+              "Latam Linhas Aéreas S.A"
+            ]
+          },
+          {
             "nome": "AUTO POSTO ESMIG LTDA",
             "cnpjCpf": "27444595000120",
             "total": 185524.8200000001,
             "notas": 94,
-            "outrosNomes": []
-          },
-          {
-            "nome": "TAM",
-            "cnpjCpf": null,
-            "total": 173670.5299999999,
-            "notas": 120,
             "outrosNomes": []
           },
           {
@@ -5330,13 +5303,6 @@
             "cnpjCpf": "54456974000103",
             "total": 132200,
             "notas": 20,
-            "outrosNomes": []
-          },
-          {
-            "nome": "LATAM Airlines Brasil",
-            "cnpjCpf": null,
-            "total": 121280.04,
-            "notas": 79,
             "outrosNomes": []
           },
           {
@@ -5375,6 +5341,15 @@
             ]
           },
           {
+            "nome": "Azul Linhas Aéreas",
+            "cnpjCpf": "09296295000160",
+            "total": 58071.880000000005,
+            "notas": 40,
+            "outrosNomes": [
+              "AZUL"
+            ]
+          },
+          {
             "nome": "TELEFONICA BRASIL S.A.",
             "cnpjCpf": "02558157000162",
             "total": 51326.00999999999,
@@ -5401,10 +5376,10 @@
             ]
           },
           {
-            "nome": "AZUL",
-            "cnpjCpf": null,
-            "total": 41941.49000000002,
-            "notas": 28,
+            "nome": "STAR CITY MIDIA",
+            "cnpjCpf": "02933033000110",
+            "total": 37960,
+            "notas": 6,
             "outrosNomes": []
           }
         ],
@@ -6209,45 +6184,51 @@
             "notas": 228,
             "fornecedores": [
               {
-                "nome": "TAM",
-                "cnpjCpf": null,
-                "total": 147815.5199999999,
-                "notas": 124,
-                "outrosNomes": []
+                "nome": "LATAM Airlines Brasil",
+                "cnpjCpf": "02012862000160",
+                "total": 209882.38,
+                "notas": 166,
+                "outrosNomes": [
+                  "TAM"
+                ]
+              },
+              {
+                "nome": "Gol Linhas Aéreas",
+                "cnpjCpf": "07575651000159",
+                "total": 52111.909999999996,
+                "notas": 35,
+                "outrosNomes": [
+                  "GOL"
+                ]
+              },
+              {
+                "nome": "Azul Linhas Aéreas",
+                "cnpjCpf": "09296295000160",
+                "total": 24351.479999999992,
+                "notas": 19,
+                "outrosNomes": [
+                  "AZUL"
+                ]
               },
               {
                 "nome": "LATAM Airlines Brasil",
                 "cnpjCpf": null,
-                "total": 72603.86999999998,
-                "notas": 47,
-                "outrosNomes": []
-              },
-              {
-                "nome": "GOL",
-                "cnpjCpf": null,
-                "total": 36442.82,
-                "notas": 28,
-                "outrosNomes": []
-              },
-              {
-                "nome": "AZUL",
-                "cnpjCpf": null,
-                "total": 19581.789999999997,
-                "notas": 16,
-                "outrosNomes": []
-              },
-              {
-                "nome": "Gol Linhas Aéreas",
-                "cnpjCpf": null,
-                "total": 18144.72,
-                "notas": 8,
+                "total": 10537.01,
+                "notas": 5,
                 "outrosNomes": []
               },
               {
                 "nome": "Azul Linhas Aéreas",
                 "cnpjCpf": null,
-                "total": 7785.929999999999,
-                "notas": 5,
+                "total": 3016.24,
+                "notas": 2,
+                "outrosNomes": []
+              },
+              {
+                "nome": "Gol Linhas Aéreas",
+                "cnpjCpf": null,
+                "total": 2475.63,
+                "notas": 1,
                 "outrosNomes": []
               }
             ],
@@ -6267,7 +6248,7 @@
                 "tipo": "PASSAGEM AÉREA - SIGEPA",
                 "valor": 3038.83,
                 "fornecedor": "LATAM Airlines Brasil",
-                "cnpjCpf": null,
+                "cnpjCpf": "02012862000160",
                 "documento": null
               },
               {
@@ -6276,7 +6257,7 @@
                 "tipo": "PASSAGEM AÉREA - SIGEPA",
                 "valor": 3017.99,
                 "fornecedor": "LATAM Airlines Brasil",
-                "cnpjCpf": null,
+                "cnpjCpf": "02012862000160",
                 "documento": null
               },
               {
@@ -6285,7 +6266,7 @@
                 "tipo": "PASSAGEM AÉREA - SIGEPA",
                 "valor": 3011.74,
                 "fornecedor": "LATAM Airlines Brasil",
-                "cnpjCpf": null,
+                "cnpjCpf": "02012862000160",
                 "documento": null
               },
               {
@@ -6294,7 +6275,7 @@
                 "tipo": "PASSAGEM AÉREA - SIGEPA",
                 "valor": 2977.32,
                 "fornecedor": "LATAM Airlines Brasil",
-                "cnpjCpf": null,
+                "cnpjCpf": "02012862000160",
                 "documento": null
               }
             ]
@@ -7058,11 +7039,14 @@
             "outrosNomes": []
           },
           {
-            "nome": "TAM",
-            "cnpjCpf": null,
-            "total": 147815.5199999999,
-            "notas": 124,
-            "outrosNomes": []
+            "nome": "LATAM Airlines Brasil",
+            "cnpjCpf": "02012862000160",
+            "total": 213602.33000000002,
+            "notas": 168,
+            "outrosNomes": [
+              "TAM",
+              "Cia Aérea - TAM"
+            ]
           },
           {
             "nome": "15022024L&T Locações e Serviços LTDA",
@@ -7099,13 +7083,6 @@
             ]
           },
           {
-            "nome": "LATAM Airlines Brasil",
-            "cnpjCpf": null,
-            "total": 72603.86999999998,
-            "notas": 47,
-            "outrosNomes": []
-          },
-          {
             "nome": "42.149.199 LORENZO FRANCEZ NASCIMENTO",
             "cnpjCpf": "42149199000164",
             "total": 60000,
@@ -7118,6 +7095,15 @@
             "total": 53000,
             "notas": 7,
             "outrosNomes": []
+          },
+          {
+            "nome": "Gol Linhas Aéreas",
+            "cnpjCpf": "07575651000159",
+            "total": 52111.909999999996,
+            "notas": 35,
+            "outrosNomes": [
+              "GOL"
+            ]
           },
           {
             "nome": "60.249.066 CLAUDIA VALESKA PEREIRA DOS SANTOS",
@@ -7619,8 +7605,8 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/220526.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/220526",
       "despesas": {
-        "total": 1627025.4900000002,
-        "documentos": 1817,
+        "total": 1627425.4900000002,
+        "documentos": 1819,
         "porTipo": [
           {
             "tipo": "PASSAGEM AÉREA - SIGEPA",
@@ -7628,46 +7614,31 @@
             "notas": 381,
             "fornecedores": [
               {
-                "nome": "TAM",
-                "cnpjCpf": null,
-                "total": 200284.77000000002,
-                "notas": 207,
-                "outrosNomes": []
-              },
-              {
                 "nome": "LATAM Airlines Brasil",
-                "cnpjCpf": null,
-                "total": 137313.96999999997,
-                "notas": 98,
-                "outrosNomes": []
-              },
-              {
-                "nome": "GOL",
-                "cnpjCpf": null,
-                "total": 61906.489999999976,
-                "notas": 45,
-                "outrosNomes": []
-              },
-              {
-                "nome": "AZUL",
-                "cnpjCpf": null,
-                "total": 24653.900000000005,
-                "notas": 18,
-                "outrosNomes": []
+                "cnpjCpf": "02012862000160",
+                "total": 337598.7400000002,
+                "notas": 305,
+                "outrosNomes": [
+                  "TAM"
+                ]
               },
               {
                 "nome": "Gol Linhas Aéreas",
-                "cnpjCpf": null,
-                "total": 13074.829999999998,
-                "notas": 8,
-                "outrosNomes": []
+                "cnpjCpf": "07575651000159",
+                "total": 74981.31999999999,
+                "notas": 53,
+                "outrosNomes": [
+                  "GOL"
+                ]
               },
               {
                 "nome": "Azul Linhas Aéreas",
-                "cnpjCpf": null,
-                "total": 7593.38,
-                "notas": 5,
-                "outrosNomes": []
+                "cnpjCpf": "09296295000160",
+                "total": 32247.28,
+                "notas": 23,
+                "outrosNomes": [
+                  "AZUL"
+                ]
               }
             ],
             "maiores": [
@@ -7677,7 +7648,7 @@
                 "tipo": "PASSAGEM AÉREA - SIGEPA",
                 "valor": 3347.89,
                 "fornecedor": "LATAM Airlines Brasil",
-                "cnpjCpf": null,
+                "cnpjCpf": "02012862000160",
                 "documento": null
               },
               {
@@ -7686,7 +7657,7 @@
                 "tipo": "PASSAGEM AÉREA - SIGEPA",
                 "valor": 3347.89,
                 "fornecedor": "LATAM Airlines Brasil",
-                "cnpjCpf": null,
+                "cnpjCpf": "02012862000160",
                 "documento": null
               },
               {
@@ -7695,7 +7666,7 @@
                 "tipo": "PASSAGEM AÉREA - SIGEPA",
                 "valor": 3156.9,
                 "fornecedor": "LATAM Airlines Brasil",
-                "cnpjCpf": null,
+                "cnpjCpf": "02012862000160",
                 "documento": null
               },
               {
@@ -7704,7 +7675,7 @@
                 "tipo": "PASSAGEM AÉREA - SIGEPA",
                 "valor": 3124.17,
                 "fornecedor": "LATAM Airlines Brasil",
-                "cnpjCpf": null,
+                "cnpjCpf": "02012862000160",
                 "documento": null
               },
               {
@@ -7713,7 +7684,7 @@
                 "tipo": "PASSAGEM AÉREA - SIGEPA",
                 "valor": 3043.66,
                 "fornecedor": "LATAM Airlines Brasil",
-                "cnpjCpf": null,
+                "cnpjCpf": "02012862000160",
                 "documento": null
               }
             ]
@@ -7925,8 +7896,8 @@
           },
           {
             "tipo": "COMBUSTÍVEIS E LUBRIFICANTES.",
-            "valor": 135525.48,
-            "notas": 773,
+            "valor": 135925.48,
+            "notas": 775,
             "fornecedores": [
               {
                 "nome": "071 - LAGO NORTE - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
@@ -8705,10 +8676,20 @@
           },
           {
             "competencia": "2026-09",
-            "valor": 2777.14
+            "valor": 3177.14
           }
         ],
         "fornecedores": [
+          {
+            "nome": "LATAM Airlines Brasil",
+            "cnpjCpf": "02012862000160",
+            "total": 339388.4900000002,
+            "notas": 306,
+            "outrosNomes": [
+              "TAM",
+              "Cia Aérea - TAM"
+            ]
+          },
           {
             "nome": "NOVACAR LOCADORA DE VEICULOS LTDA",
             "cnpjCpf": "19374791000148",
@@ -8727,18 +8708,14 @@
             "outrosNomes": []
           },
           {
-            "nome": "TAM",
-            "cnpjCpf": null,
-            "total": 200284.77000000002,
-            "notas": 207,
-            "outrosNomes": []
-          },
-          {
-            "nome": "LATAM Airlines Brasil",
-            "cnpjCpf": null,
-            "total": 137313.96999999997,
-            "notas": 98,
-            "outrosNomes": []
+            "nome": "Gol Linhas Aéreas",
+            "cnpjCpf": "07575651000159",
+            "total": 76528.31999999999,
+            "notas": 54,
+            "outrosNomes": [
+              "GOL",
+              "Gol Linhas Aereas S.A."
+            ]
           },
           {
             "nome": "HECTOR ANTONIO VILCHEZ GUERRERO",
@@ -8754,13 +8731,6 @@
             "cnpjCpf": "53324140000181",
             "total": 68838.7,
             "notas": 11,
-            "outrosNomes": []
-          },
-          {
-            "nome": "GOL",
-            "cnpjCpf": null,
-            "total": 61906.489999999976,
-            "notas": 45,
             "outrosNomes": []
           },
           {
@@ -8783,6 +8753,15 @@
             "total": 56000,
             "notas": 7,
             "outrosNomes": []
+          },
+          {
+            "nome": "Azul Linhas Aéreas",
+            "cnpjCpf": "09296295000160",
+            "total": 32247.28,
+            "notas": 23,
+            "outrosNomes": [
+              "AZUL"
+            ]
           },
           {
             "nome": "1TUDO CELSO JOSÉ STEMIER",
@@ -8980,8 +8959,8 @@
           }
         ],
         "comprovantes": {
-          "com": 1324,
-          "total": 1817
+          "com": 1326,
+          "total": 1819
         }
       },
       "proposicoes": {
@@ -9281,8 +9260,8 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/178873.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/178873",
       "despesas": {
-        "total": 1426685.3399999903,
-        "documentos": 2416,
+        "total": 1426772.1199999903,
+        "documentos": 2420,
         "porTipo": [
           {
             "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
@@ -9714,32 +9693,22 @@
             "notas": 138,
             "fornecedores": [
               {
-                "nome": "TAM",
-                "cnpjCpf": null,
-                "total": 70362.58000000003,
-                "notas": 86,
-                "outrosNomes": []
-              },
-              {
                 "nome": "LATAM Airlines Brasil",
-                "cnpjCpf": null,
-                "total": 54320.62000000001,
-                "notas": 49,
-                "outrosNomes": []
-              },
-              {
-                "nome": "GOL",
-                "cnpjCpf": null,
-                "total": 3986.41,
-                "notas": 2,
-                "outrosNomes": []
+                "cnpjCpf": "02012862000160",
+                "total": 124683.19999999994,
+                "notas": 135,
+                "outrosNomes": [
+                  "TAM"
+                ]
               },
               {
                 "nome": "Gol Linhas Aéreas",
-                "cnpjCpf": null,
-                "total": 2372.52,
-                "notas": 1,
-                "outrosNomes": []
+                "cnpjCpf": "07575651000159",
+                "total": 6358.93,
+                "notas": 3,
+                "outrosNomes": [
+                  "GOL"
+                ]
               }
             ],
             "maiores": [
@@ -9749,7 +9718,7 @@
                 "tipo": "PASSAGEM AÉREA - SIGEPA",
                 "valor": 3348.36,
                 "fornecedor": "LATAM Airlines Brasil",
-                "cnpjCpf": null,
+                "cnpjCpf": "02012862000160",
                 "documento": null
               },
               {
@@ -9758,7 +9727,7 @@
                 "tipo": "PASSAGEM AÉREA - SIGEPA",
                 "valor": 3146.73,
                 "fornecedor": "LATAM Airlines Brasil",
-                "cnpjCpf": null,
+                "cnpjCpf": "02012862000160",
                 "documento": null
               },
               {
@@ -9767,7 +9736,7 @@
                 "tipo": "PASSAGEM AÉREA - SIGEPA",
                 "valor": 3146.73,
                 "fornecedor": "LATAM Airlines Brasil",
-                "cnpjCpf": null,
+                "cnpjCpf": "02012862000160",
                 "documento": null
               },
               {
@@ -9776,7 +9745,7 @@
                 "tipo": "PASSAGEM AÉREA - SIGEPA",
                 "valor": 2891.3,
                 "fornecedor": "LATAM Airlines Brasil",
-                "cnpjCpf": null,
+                "cnpjCpf": "02012862000160",
                 "documento": null
               },
               {
@@ -9785,7 +9754,7 @@
                 "tipo": "PASSAGEM AÉREA - SIGEPA",
                 "valor": 2844.52,
                 "fornecedor": "LATAM Airlines Brasil",
-                "cnpjCpf": null,
+                "cnpjCpf": "02012862000160",
                 "documento": null
               }
             ]
@@ -10064,8 +10033,8 @@
           },
           {
             "tipo": "SERVIÇO DE TÁXI, PEDÁGIO E ESTACIONAMENTO",
-            "valor": 12665.849999999975,
-            "notas": 770,
+            "valor": 12752.629999999976,
+            "notas": 774,
             "fornecedores": [
               {
                 "nome": "UBER DO BRASIL TECNOLOGIA LTDA.",
@@ -10084,8 +10053,8 @@
               {
                 "nome": "UBER DO BRASIL TECNOLOGIA LTDA.",
                 "cnpjCpf": "17895646005901",
-                "total": 678.36,
-                "notas": 31,
+                "total": 765.14,
+                "notas": 35,
                 "outrosNomes": [
                   "UBER"
                 ]
@@ -10357,11 +10326,11 @@
           },
           {
             "competencia": "2026-07",
-            "valor": 23486.26
+            "valor": 23526.149999999998
           },
           {
             "competencia": "2026-08",
-            "valor": 15459.699999999995
+            "valor": 15506.589999999995
           },
           {
             "competencia": "2026-09",
@@ -10384,6 +10353,16 @@
             "total": 205500,
             "notas": 14,
             "outrosNomes": []
+          },
+          {
+            "nome": "LATAM Airlines Brasil",
+            "cnpjCpf": "02012862000160",
+            "total": 148305.76999999993,
+            "notas": 159,
+            "outrosNomes": [
+              "Latam Linhas Aéreas S.A",
+              "TAM"
+            ]
           },
           {
             "nome": "MD SOLUCOES IMOBILIARIAS LTDA",
@@ -10418,13 +10397,6 @@
             "outrosNomes": []
           },
           {
-            "nome": "TAM",
-            "cnpjCpf": null,
-            "total": 70362.58000000003,
-            "notas": 86,
-            "outrosNomes": []
-          },
-          {
             "nome": "L B M INFO SERVICE INFORMATICA LTDA",
             "cnpjCpf": "11202373000161",
             "total": 68000,
@@ -10432,13 +10404,6 @@
             "outrosNomes": [
               "LBM INFO SERVICE LTDA-ME"
             ]
-          },
-          {
-            "nome": "LATAM Airlines Brasil",
-            "cnpjCpf": null,
-            "total": 54320.62000000001,
-            "notas": 49,
-            "outrosNomes": []
           },
           {
             "nome": "28.170.469 GABRIELA GONCALVES REZENDE BERNARDO",
@@ -10479,6 +10444,13 @@
             "outrosNomes": [
               "VD COMÉRCIO DE VEÍCULOS LTDA"
             ]
+          },
+          {
+            "nome": "GRAFICA EDITORA QUATRO IRMAOS LTDA - ME",
+            "cnpjCpf": "36356251000231",
+            "total": 30600,
+            "notas": 2,
+            "outrosNomes": []
           }
         ],
         "glosas": {
@@ -10660,8 +10632,8 @@
           }
         ],
         "comprovantes": {
-          "com": 2215,
-          "total": 2416
+          "com": 2219,
+          "total": 2420
         }
       },
       "proposicoes": {
@@ -11105,38 +11077,28 @@
             "notas": 333,
             "fornecedores": [
               {
-                "nome": "TAM",
-                "cnpjCpf": null,
-                "total": 193153.5200000001,
-                "notas": 179,
-                "outrosNomes": []
-              },
-              {
                 "nome": "LATAM Airlines Brasil",
-                "cnpjCpf": null,
-                "total": 136959.33,
-                "notas": 87,
-                "outrosNomes": []
-              },
-              {
-                "nome": "GOL",
-                "cnpjCpf": null,
-                "total": 70818.90000000001,
-                "notas": 59,
-                "outrosNomes": []
-              },
-              {
-                "nome": "AZUL",
-                "cnpjCpf": null,
-                "total": 9769.98,
-                "notas": 6,
-                "outrosNomes": []
+                "cnpjCpf": "02012862000160",
+                "total": 330112.8500000001,
+                "notas": 266,
+                "outrosNomes": [
+                  "TAM"
+                ]
               },
               {
                 "nome": "Gol Linhas Aéreas",
-                "cnpjCpf": null,
-                "total": 5217.08,
-                "notas": 2,
+                "cnpjCpf": "07575651000159",
+                "total": 76035.98,
+                "notas": 61,
+                "outrosNomes": [
+                  "GOL"
+                ]
+              },
+              {
+                "nome": "AZUL",
+                "cnpjCpf": "09296295000160",
+                "total": 9769.98,
+                "notas": 6,
                 "outrosNomes": []
               }
             ],
@@ -11147,7 +11109,7 @@
                 "tipo": "PASSAGEM AÉREA - SIGEPA",
                 "valor": 4888.55,
                 "fornecedor": "LATAM Airlines Brasil",
-                "cnpjCpf": null,
+                "cnpjCpf": "02012862000160",
                 "documento": null
               },
               {
@@ -11156,7 +11118,7 @@
                 "tipo": "PASSAGEM AÉREA - SIGEPA",
                 "valor": 4774.15,
                 "fornecedor": "LATAM Airlines Brasil",
-                "cnpjCpf": null,
+                "cnpjCpf": "02012862000160",
                 "documento": null
               },
               {
@@ -11165,7 +11127,7 @@
                 "tipo": "PASSAGEM AÉREA - SIGEPA",
                 "valor": 3454.08,
                 "fornecedor": "TAM",
-                "cnpjCpf": null,
+                "cnpjCpf": "02012862000160",
                 "documento": null
               },
               {
@@ -11174,7 +11136,7 @@
                 "tipo": "PASSAGEM AÉREA - SIGEPA",
                 "valor": 3369.11,
                 "fornecedor": "LATAM Airlines Brasil",
-                "cnpjCpf": null,
+                "cnpjCpf": "02012862000160",
                 "documento": null
               },
               {
@@ -11183,7 +11145,7 @@
                 "tipo": "PASSAGEM AÉREA - SIGEPA",
                 "valor": 3291.25,
                 "fornecedor": "GOL",
-                "cnpjCpf": null,
+                "cnpjCpf": "07575651000159",
                 "documento": null
               }
             ]
@@ -11999,6 +11961,15 @@
         ],
         "fornecedores": [
           {
+            "nome": "LATAM Airlines Brasil",
+            "cnpjCpf": "02012862000160",
+            "total": 330112.8500000001,
+            "notas": 266,
+            "outrosNomes": [
+              "TAM"
+            ]
+          },
+          {
             "nome": "Grafica e Editora Jep Ltda",
             "cnpjCpf": "27252147000125",
             "total": 280845,
@@ -12022,20 +11993,6 @@
             "outrosNomes": []
           },
           {
-            "nome": "TAM",
-            "cnpjCpf": null,
-            "total": 193153.5200000001,
-            "notas": 179,
-            "outrosNomes": []
-          },
-          {
-            "nome": "LATAM Airlines Brasil",
-            "cnpjCpf": null,
-            "total": 136959.33,
-            "notas": 87,
-            "outrosNomes": []
-          },
-          {
             "nome": "PRIVILEGE ADMINISTRACAO E NEGOCIOS IMOBILIARIOS LTDA",
             "cnpjCpf": "11368482000153",
             "total": 82901.42,
@@ -12054,11 +12011,14 @@
             ]
           },
           {
-            "nome": "GOL",
-            "cnpjCpf": null,
-            "total": 70818.90000000001,
-            "notas": 59,
-            "outrosNomes": []
+            "nome": "Gol Linhas Aéreas",
+            "cnpjCpf": "07575651000159",
+            "total": 77965.64,
+            "notas": 62,
+            "outrosNomes": [
+              "GOL",
+              "Gol Linhas Aereas S.A."
+            ]
           },
           {
             "nome": "LIBERTY CARTUCHOS LTDA",
@@ -12089,6 +12049,15 @@
             "total": 24500,
             "notas": 7,
             "outrosNomes": []
+          },
+          {
+            "nome": "DATAPEDIA TECNOLOGIA E SERVICOS LTDA",
+            "cnpjCpf": "23932207000108",
+            "total": 20000,
+            "notas": 2,
+            "outrosNomes": [
+              "DATAPEDIA TECNOLOGIA E SERVIÇOS LTDA - EPP"
+            ]
           }
         ],
         "glosas": {
@@ -12771,46 +12740,31 @@
             "notas": 236,
             "fornecedores": [
               {
-                "nome": "TAM",
-                "cnpjCpf": null,
-                "total": 114386.10999999991,
-                "notas": 114,
-                "outrosNomes": []
-              },
-              {
                 "nome": "LATAM Airlines Brasil",
-                "cnpjCpf": null,
-                "total": 80261.35999999997,
-                "notas": 55,
-                "outrosNomes": []
-              },
-              {
-                "nome": "GOL",
-                "cnpjCpf": null,
-                "total": 47972.65,
-                "notas": 33,
-                "outrosNomes": []
-              },
-              {
-                "nome": "AZUL",
-                "cnpjCpf": null,
-                "total": 35820.65,
-                "notas": 23,
-                "outrosNomes": []
+                "cnpjCpf": "02012862000160",
+                "total": 194647.4699999999,
+                "notas": 169,
+                "outrosNomes": [
+                  "TAM"
+                ]
               },
               {
                 "nome": "Gol Linhas Aéreas",
-                "cnpjCpf": null,
-                "total": 23457.730000000003,
-                "notas": 10,
-                "outrosNomes": []
+                "cnpjCpf": "07575651000159",
+                "total": 71430.38000000003,
+                "notas": 43,
+                "outrosNomes": [
+                  "GOL"
+                ]
               },
               {
                 "nome": "Azul Linhas Aéreas",
-                "cnpjCpf": null,
-                "total": 2593.2,
-                "notas": 1,
-                "outrosNomes": []
+                "cnpjCpf": "09296295000160",
+                "total": 38413.850000000006,
+                "notas": 24,
+                "outrosNomes": [
+                  "AZUL"
+                ]
               }
             ],
             "maiores": [
@@ -12820,7 +12774,7 @@
                 "tipo": "PASSAGEM AÉREA - SIGEPA",
                 "valor": 3906.69,
                 "fornecedor": "Gol Linhas Aéreas",
-                "cnpjCpf": null,
+                "cnpjCpf": "07575651000159",
                 "documento": null
               },
               {
@@ -12829,7 +12783,7 @@
                 "tipo": "PASSAGEM AÉREA - SIGEPA",
                 "valor": 3300.96,
                 "fornecedor": "LATAM Airlines Brasil",
-                "cnpjCpf": null,
+                "cnpjCpf": "02012862000160",
                 "documento": null
               },
               {
@@ -12838,7 +12792,7 @@
                 "tipo": "PASSAGEM AÉREA - SIGEPA",
                 "valor": 3256.97,
                 "fornecedor": "LATAM Airlines Brasil",
-                "cnpjCpf": null,
+                "cnpjCpf": "02012862000160",
                 "documento": null
               },
               {
@@ -12847,7 +12801,7 @@
                 "tipo": "PASSAGEM AÉREA - SIGEPA",
                 "valor": 3011.74,
                 "fornecedor": "LATAM Airlines Brasil",
-                "cnpjCpf": null,
+                "cnpjCpf": "02012862000160",
                 "documento": null
               },
               {
@@ -12856,7 +12810,7 @@
                 "tipo": "PASSAGEM AÉREA - SIGEPA",
                 "valor": 3010.82,
                 "fornecedor": "LATAM Airlines Brasil",
-                "cnpjCpf": null,
+                "cnpjCpf": "02012862000160",
                 "documento": null
               }
             ]
@@ -13428,6 +13382,15 @@
             ]
           },
           {
+            "nome": "LATAM Airlines Brasil",
+            "cnpjCpf": "02012862000160",
+            "total": 194647.4699999999,
+            "notas": 169,
+            "outrosNomes": [
+              "TAM"
+            ]
+          },
+          {
             "nome": "M A EMPREENDIMENTO IMOBILIARIOS LTDA",
             "cnpjCpf": "21153331000131",
             "total": 164707.2,
@@ -13453,13 +13416,6 @@
             "outrosNomes": []
           },
           {
-            "nome": "TAM",
-            "cnpjCpf": null,
-            "total": 114386.10999999991,
-            "notas": 114,
-            "outrosNomes": []
-          },
-          {
             "nome": "FLAVIO HIFNER SANTOS",
             "cnpjCpf": "58347776000162",
             "total": 102000,
@@ -13469,18 +13425,20 @@
             ]
           },
           {
-            "nome": "LATAM Airlines Brasil",
-            "cnpjCpf": null,
-            "total": 80261.35999999997,
-            "notas": 55,
-            "outrosNomes": []
-          },
-          {
             "nome": "WELLINGTON ABNER DA SILVA",
             "cnpjCpf": "56958976000126",
             "total": 79000,
             "notas": 19,
             "outrosNomes": []
+          },
+          {
+            "nome": "Gol Linhas Aéreas",
+            "cnpjCpf": "07575651000159",
+            "total": 71430.38000000003,
+            "notas": 43,
+            "outrosNomes": [
+              "GOL"
+            ]
           },
           {
             "nome": "RGM COMERCIO DE PETROLEO LTDA",
@@ -13500,11 +13458,13 @@
             ]
           },
           {
-            "nome": "GOL",
-            "cnpjCpf": null,
-            "total": 47972.65,
-            "notas": 33,
-            "outrosNomes": []
+            "nome": "Azul Linhas Aéreas",
+            "cnpjCpf": "09296295000160",
+            "total": 38413.850000000006,
+            "notas": 24,
+            "outrosNomes": [
+              "AZUL"
+            ]
           }
         ],
         "glosas": {
@@ -14400,46 +14360,31 @@
             "notas": 269,
             "fornecedores": [
               {
-                "nome": "TAM",
-                "cnpjCpf": null,
-                "total": 103008.21999999994,
-                "notas": 119,
-                "outrosNomes": []
-              },
-              {
                 "nome": "LATAM Airlines Brasil",
-                "cnpjCpf": null,
-                "total": 89079.4,
-                "notas": 94,
-                "outrosNomes": []
-              },
-              {
-                "nome": "AZUL",
-                "cnpjCpf": null,
-                "total": 30251.789999999994,
-                "notas": 24,
-                "outrosNomes": []
-              },
-              {
-                "nome": "GOL",
-                "cnpjCpf": null,
-                "total": 21731.43,
-                "notas": 25,
-                "outrosNomes": []
+                "cnpjCpf": "02012862000160",
+                "total": 192087.62000000014,
+                "notas": 213,
+                "outrosNomes": [
+                  "TAM"
+                ]
               },
               {
                 "nome": "Azul Linhas Aéreas",
-                "cnpjCpf": null,
-                "total": 4534.72,
-                "notas": 2,
-                "outrosNomes": []
+                "cnpjCpf": "09296295000160",
+                "total": 34786.509999999995,
+                "notas": 26,
+                "outrosNomes": [
+                  "AZUL"
+                ]
               },
               {
                 "nome": "Gol Linhas Aéreas",
-                "cnpjCpf": null,
-                "total": 3597.79,
-                "notas": 5,
-                "outrosNomes": []
+                "cnpjCpf": "07575651000159",
+                "total": 25329.219999999998,
+                "notas": 30,
+                "outrosNomes": [
+                  "GOL"
+                ]
               }
             ],
             "maiores": [
@@ -14449,7 +14394,7 @@
                 "tipo": "PASSAGEM AÉREA - SIGEPA",
                 "valor": 3750.23,
                 "fornecedor": "Azul Linhas Aéreas",
-                "cnpjCpf": null,
+                "cnpjCpf": "09296295000160",
                 "documento": null
               },
               {
@@ -14458,7 +14403,7 @@
                 "tipo": "PASSAGEM AÉREA - SIGEPA",
                 "valor": 3347.89,
                 "fornecedor": "LATAM Airlines Brasil",
-                "cnpjCpf": null,
+                "cnpjCpf": "02012862000160",
                 "documento": null
               },
               {
@@ -14467,7 +14412,7 @@
                 "tipo": "PASSAGEM AÉREA - SIGEPA",
                 "valor": 3110.89,
                 "fornecedor": "LATAM Airlines Brasil",
-                "cnpjCpf": null,
+                "cnpjCpf": "02012862000160",
                 "documento": null
               },
               {
@@ -14476,7 +14421,7 @@
                 "tipo": "PASSAGEM AÉREA - SIGEPA",
                 "valor": 2971.11,
                 "fornecedor": "AZUL",
-                "cnpjCpf": null,
+                "cnpjCpf": "09296295000160",
                 "documento": null
               },
               {
@@ -14485,7 +14430,7 @@
                 "tipo": "PASSAGEM AÉREA - SIGEPA",
                 "valor": 2971.11,
                 "fornecedor": "AZUL",
-                "cnpjCpf": null,
+                "cnpjCpf": "09296295000160",
                 "documento": null
               }
             ]
@@ -15134,6 +15079,16 @@
             ]
           },
           {
+            "nome": "LATAM Airlines Brasil",
+            "cnpjCpf": "02012862000160",
+            "total": 202915.45000000016,
+            "notas": 219,
+            "outrosNomes": [
+              "TAM",
+              "Cia Aérea - TAM"
+            ]
+          },
+          {
             "nome": "EXPERT'S CONSULTORIA E AVALIACOES LTDA",
             "cnpjCpf": "13882645000147",
             "total": 178150.20999999993,
@@ -15154,24 +15109,10 @@
             ]
           },
           {
-            "nome": "TAM",
-            "cnpjCpf": null,
-            "total": 103008.21999999994,
-            "notas": 119,
-            "outrosNomes": []
-          },
-          {
             "nome": "POSTO DE COMBUSTIVEIS GIRASSOL LTDA",
             "cnpjCpf": "27352004000195",
             "total": 93121.09000000001,
             "notas": 74,
-            "outrosNomes": []
-          },
-          {
-            "nome": "LATAM Airlines Brasil",
-            "cnpjCpf": null,
-            "total": 89079.4,
-            "notas": 94,
             "outrosNomes": []
           },
           {
@@ -15200,11 +15141,22 @@
             ]
           },
           {
-            "nome": "AZUL",
-            "cnpjCpf": null,
-            "total": 30251.789999999994,
-            "notas": 24,
-            "outrosNomes": []
+            "nome": "Azul Linhas Aéreas",
+            "cnpjCpf": "09296295000160",
+            "total": 34786.509999999995,
+            "notas": 26,
+            "outrosNomes": [
+              "AZUL"
+            ]
+          },
+          {
+            "nome": "VITORIA TECNOLOGIA DA INFORMACAO LTDA",
+            "cnpjCpf": "06069667000127",
+            "total": 27200,
+            "notas": 40,
+            "outrosNomes": [
+              "VITÓRIA TECNOLOGIA DA INFORMAÇÃO LTDA"
+            ]
           }
         ],
         "glosas": {

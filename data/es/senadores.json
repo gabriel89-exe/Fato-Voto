@@ -11,7 +11,7 @@
     2025,
     2026
   ],
-  "coletadoEm": "2026-09-29T15:53:32.498Z",
+  "coletadoEm": "2026-09-30T15:58:03.103Z",
   "senadores": [
     {
       "id": "senado-5953",
@@ -3410,6 +3410,16 @@
         "fim": "2031-01-31"
       },
       "materias": [
+        {
+          "id": "175891",
+          "identificacao": "RQS 699/2026",
+          "sigla": "RQS",
+          "numero": "699",
+          "ano": 2026,
+          "ementa": "Requer voto de aplauso ao Sr. Alex Demo, Pastor da Igreja Cristã Maranata, e demais pastores, membros e famílias, pela contribuição da Igreja Cristã Maranata à vida espiritual e comunitária de Linhares e de toda a região, especialmente pela criação do Dia Municipal da Igreja Cristã Maranata, celebrado em 30 de abril, em referência à data do primeiro culto.",
+          "data": "2026-09-30",
+          "autorPrincipal": true
+        },
         {
           "id": "175818",
           "identificacao": "INS 31/2026",
@@ -7944,7 +7954,7 @@
       "materiasPorTipo": [
         {
           "sigla": "RQS",
-          "total": 212
+          "total": 213
         },
         {
           "sigla": "REQ",
