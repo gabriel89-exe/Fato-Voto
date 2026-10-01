@@ -6,10 +6,10 @@
   },
   "uf": "ES",
   "legislatura": 57,
-  "coletadoEm": "2026-09-30T15:57:54.429Z",
+  "coletadoEm": "2026-10-01T16:29:05.465Z",
   "referencia": {
     "bancada": 10,
-    "medianaDespesas": 1905961.2350000027,
+    "medianaDespesas": 1913036.2350000027,
     "menor": 1426772.1199999903,
     "maior": 1994521.46
   },
@@ -1280,13 +1280,13 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/204355.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/204355",
       "despesas": {
-        "total": 1934966.2600000035,
-        "documentos": 1430,
+        "total": 1942085.2400000037,
+        "documentos": 1434,
         "porTipo": [
           {
             "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
-            "valor": 791765.14,
-            "notas": 438,
+            "valor": 793569.1200000001,
+            "notas": 441,
             "fornecedores": [
               {
                 "nome": "ATIVE ENGENHARIA LTDA",
@@ -1326,8 +1326,8 @@
               {
                 "nome": "CONDOMINIO DO EDIFICIO PETRO TOWER",
                 "cnpjCpf": "06788256000191",
-                "total": 58290.53000000004,
-                "notas": 106,
+                "total": 60094.510000000046,
+                "notas": 109,
                 "outrosNomes": []
               },
               {
@@ -1487,8 +1487,8 @@
           },
           {
             "tipo": "LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES",
-            "valor": 226685,
-            "notas": 46,
+            "valor": 232000,
+            "notas": 47,
             "fornecedores": [
               {
                 "nome": "SUPREMA MOBILIDADE LTDA",
@@ -1514,8 +1514,8 @@
               {
                 "nome": "VD COMERCIO DE VEICULOS LTDA",
                 "cnpjCpf": "39786983000179",
-                "total": 37205,
-                "notas": 7,
+                "total": 42520,
+                "notas": 8,
                 "outrosNomes": [
                   "VD COMÉRCIO DE VEÍCULOS LTDA"
                 ]
@@ -2163,11 +2163,11 @@
           },
           {
             "competencia": "2026-08",
-            "valor": 25120.2
+            "valor": 30435.200000000004
           },
           {
             "competencia": "2026-09",
-            "valor": 7364.57
+            "valor": 9168.55
           }
         ],
         "fornecedores": [
@@ -2253,8 +2253,8 @@
           {
             "nome": "CONDOMINIO DO EDIFICIO PETRO TOWER",
             "cnpjCpf": "06788256000191",
-            "total": 58290.53000000004,
-            "notas": 106,
+            "total": 60094.510000000046,
+            "notas": 109,
             "outrosNomes": []
           },
           {
@@ -2273,8 +2273,8 @@
           }
         ],
         "glosas": {
-          "quantidade": 272,
-          "valor": 20514.950000000033,
+          "quantidade": 275,
+          "valor": 20619.980000000032,
           "exemplos": [
             {
               "id": "7567919",
@@ -2451,8 +2451,8 @@
           }
         ],
         "comprovantes": {
-          "com": 713,
-          "total": 1430
+          "com": 717,
+          "total": 1434
         }
       },
       "proposicoes": {
@@ -5973,8 +5973,8 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/220529.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/220529",
       "despesas": {
-        "total": 1901718.8800000013,
-        "documentos": 1445,
+        "total": 1915868.8800000015,
+        "documentos": 1447,
         "porTipo": [
           {
             "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
@@ -6094,14 +6094,14 @@
           },
           {
             "tipo": "LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES",
-            "valor": 392181.32,
-            "notas": 59,
+            "valor": 403681.32,
+            "notas": 60,
             "fornecedores": [
               {
                 "nome": "CT LOCACOES SOLUCOES E SERVICOS LTDA",
                 "cnpjCpf": "54080873000180",
-                "total": 236891,
-                "notas": 32,
+                "total": 248391,
+                "notas": 33,
                 "outrosNomes": []
               },
               {
@@ -6141,6 +6141,15 @@
                 "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3616/2026/8151532.pdf"
               },
               {
+                "id": "8158323",
+                "data": "2026-09-19",
+                "tipo": "LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES",
+                "valor": 11500,
+                "fornecedor": "CT LOCACOES SOLUCOES E SERVICOS LTDA",
+                "cnpjCpf": "54080873000180",
+                "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3616/2026/8158323.pdf"
+              },
+              {
                 "id": "7975150",
                 "data": "2025-08-29",
                 "tipo": "LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES",
@@ -6166,15 +6175,6 @@
                 "fornecedor": "CT LOCACOES SOLUCOES E SERVICOS LTDA",
                 "cnpjCpf": "54080873000180",
                 "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3616/2025/7997246.pdf"
-              },
-              {
-                "id": "8017080",
-                "data": "2025-11-24",
-                "tipo": "LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES",
-                "valor": 8450,
-                "fornecedor": "CT LOCACOES SOLUCOES E SERVICOS LTDA",
-                "cnpjCpf": "54080873000180",
-                "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3616/2025/8017080.pdf"
               }
             ]
           },
@@ -6186,8 +6186,8 @@
               {
                 "nome": "LATAM Airlines Brasil",
                 "cnpjCpf": "02012862000160",
-                "total": 209882.38,
-                "notas": 166,
+                "total": 220419.39000000004,
+                "notas": 171,
                 "outrosNomes": [
                   "TAM"
                 ]
@@ -6195,8 +6195,8 @@
               {
                 "nome": "Gol Linhas Aéreas",
                 "cnpjCpf": "07575651000159",
-                "total": 52111.909999999996,
-                "notas": 35,
+                "total": 54587.54000000001,
+                "notas": 36,
                 "outrosNomes": [
                   "GOL"
                 ]
@@ -6204,32 +6204,11 @@
               {
                 "nome": "Azul Linhas Aéreas",
                 "cnpjCpf": "09296295000160",
-                "total": 24351.479999999992,
-                "notas": 19,
+                "total": 27367.719999999994,
+                "notas": 21,
                 "outrosNomes": [
                   "AZUL"
                 ]
-              },
-              {
-                "nome": "LATAM Airlines Brasil",
-                "cnpjCpf": null,
-                "total": 10537.01,
-                "notas": 5,
-                "outrosNomes": []
-              },
-              {
-                "nome": "Azul Linhas Aéreas",
-                "cnpjCpf": null,
-                "total": 3016.24,
-                "notas": 2,
-                "outrosNomes": []
-              },
-              {
-                "nome": "Gol Linhas Aéreas",
-                "cnpjCpf": null,
-                "total": 2475.63,
-                "notas": 1,
-                "outrosNomes": []
               }
             ],
             "maiores": [
@@ -6239,7 +6218,7 @@
                 "tipo": "PASSAGEM AÉREA - SIGEPA",
                 "valor": 3347.89,
                 "fornecedor": "LATAM Airlines Brasil",
-                "cnpjCpf": null,
+                "cnpjCpf": "02012862000160",
                 "documento": null
               },
               {
@@ -6282,14 +6261,14 @@
           },
           {
             "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
-            "valor": 190241.30999999988,
-            "notas": 174,
+            "valor": 192891.30999999988,
+            "notas": 175,
             "fornecedores": [
               {
                 "nome": "Emmanuel Roberto Vieira de Moraes",
                 "cnpjCpf": "67476465768",
-                "total": 104600,
-                "notas": 41,
+                "total": 107250,
+                "notas": 42,
                 "outrosNomes": []
               },
               {
@@ -7019,6 +6998,10 @@
           {
             "competencia": "2026-08",
             "valor": 17634.940000000002
+          },
+          {
+            "competencia": "2026-09",
+            "valor": 14150
           }
         ],
         "fornecedores": [
@@ -7034,15 +7017,15 @@
           {
             "nome": "CT LOCACOES SOLUCOES E SERVICOS LTDA",
             "cnpjCpf": "54080873000180",
-            "total": 236891,
-            "notas": 32,
+            "total": 248391,
+            "notas": 33,
             "outrosNomes": []
           },
           {
             "nome": "LATAM Airlines Brasil",
             "cnpjCpf": "02012862000160",
-            "total": 213602.33000000002,
-            "notas": 168,
+            "total": 224139.34000000003,
+            "notas": 173,
             "outrosNomes": [
               "TAM",
               "Cia Aérea - TAM"
@@ -7058,6 +7041,13 @@
             ]
           },
           {
+            "nome": "Emmanuel Roberto Vieira de Moraes",
+            "cnpjCpf": "67476465768",
+            "total": 107250,
+            "notas": 42,
+            "outrosNomes": []
+          },
+          {
             "nome": "ELIAS SOARES DA SILVA",
             "cnpjCpf": "47940099000175",
             "total": 105890,
@@ -7065,13 +7055,6 @@
             "outrosNomes": [
               "47.940.099 ELIAS SOARES DA SILVA"
             ]
-          },
-          {
-            "nome": "Emmanuel Roberto Vieira de Moraes",
-            "cnpjCpf": "67476465768",
-            "total": 104600,
-            "notas": 41,
-            "outrosNomes": []
           },
           {
             "nome": "11.650.083 EVANDRO DOMINGOS",
@@ -7090,20 +7073,20 @@
             "outrosNomes": []
           },
           {
+            "nome": "Gol Linhas Aéreas",
+            "cnpjCpf": "07575651000159",
+            "total": 54587.54000000001,
+            "notas": 36,
+            "outrosNomes": [
+              "GOL"
+            ]
+          },
+          {
             "nome": "NOTICIA DO CAPARAO COMUNICACOES LTDA - ME",
             "cnpjCpf": "15077603000169",
             "total": 53000,
             "notas": 7,
             "outrosNomes": []
-          },
-          {
-            "nome": "Gol Linhas Aéreas",
-            "cnpjCpf": "07575651000159",
-            "total": 52111.909999999996,
-            "notas": 35,
-            "outrosNomes": [
-              "GOL"
-            ]
           },
           {
             "nome": "60.249.066 CLAUDIA VALESKA PEREIRA DOS SANTOS",
@@ -7299,8 +7282,8 @@
           }
         ],
         "comprovantes": {
-          "com": 1142,
-          "total": 1445
+          "com": 1144,
+          "total": 1447
         }
       },
       "proposicoes": {

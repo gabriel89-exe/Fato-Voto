@@ -11,7 +11,7 @@
     2025,
     2026
   ],
-  "coletadoEm": "2026-09-30T15:58:03.103Z",
+  "coletadoEm": "2026-10-01T16:29:17.337Z",
   "senadores": [
     {
       "id": "senado-5953",
@@ -3419,6 +3419,16 @@
           "ementa": "Requer voto de aplauso ao Sr. Alex Demo, Pastor da Igreja Cristã Maranata, e demais pastores, membros e famílias, pela contribuição da Igreja Cristã Maranata à vida espiritual e comunitária de Linhares e de toda a região, especialmente pela criação do Dia Municipal da Igreja Cristã Maranata, celebrado em 30 de abril, em referência à data do primeiro culto.",
           "data": "2026-09-30",
           "autorPrincipal": true
+        },
+        {
+          "id": "175894",
+          "identificacao": "PET 56/2026",
+          "sigla": "PET",
+          "numero": "56",
+          "ano": 2026,
+          "ementa": "Oferece representação contra o Ministro do Supremo Tribunal Federal Alexandre de Moraes, com fundamento nos Arts. 39 e 41 da Lei nº 1.079/1950, observado o Art. 52, II, da CF.",
+          "data": "2026-09-30",
+          "autorPrincipal": false
         },
         {
           "id": "175818",
@@ -7973,16 +7983,16 @@
           "total": 11
         },
         {
+          "sigla": "PET",
+          "total": 7
+        },
+        {
           "sigla": "R.S",
           "total": 7
         },
         {
           "sigla": "PRS",
           "total": 7
-        },
-        {
-          "sigla": "PET",
-          "total": 6
         },
         {
           "sigla": "INS",

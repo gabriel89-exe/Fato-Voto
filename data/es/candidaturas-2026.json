@@ -9,7 +9,7 @@
     "idEleicao": "20322002026",
     "uf": "ES"
   },
-  "coletadoEm": "2026-09-30T15:56:29.507Z",
+  "coletadoEm": "2026-10-01T16:27:52.017Z",
   "total": 577,
   "candidaturas": [
     {
@@ -67541,8 +67541,58 @@
       "escolaridade": "Ensino Médio completo",
       "ocupacao": "Vereador",
       "naturalidade": "ES-CACHOEIRO DE ITAPEMIRIM",
-      "bens": [],
-      "totalBens": 0,
+      "bens": [
+        {
+          "ordem": 1,
+          "tipo": "Casa",
+          "descricao": "residencial, 52,70m2",
+          "valor": 80000,
+          "atualizadoEm": "2026-09-30"
+        },
+        {
+          "ordem": 2,
+          "tipo": "Veículo automotor terrestre: caminhão, automóvel, moto, etc.",
+          "descricao": "motocicleta Honda NXR 160",
+          "valor": 11990,
+          "atualizadoEm": "2026-09-30"
+        },
+        {
+          "ordem": 3,
+          "tipo": "Outros depósitos à vista e numerário",
+          "descricao": "saldo em conta capital, Sicred União RS/ES",
+          "valor": 412.98,
+          "atualizadoEm": "2026-09-30"
+        },
+        {
+          "ordem": 4,
+          "tipo": "Outros créditos e poupança vinculados",
+          "descricao": "saldo em conta poupança",
+          "valor": 41.92,
+          "atualizadoEm": "2026-09-30"
+        },
+        {
+          "ordem": 5,
+          "tipo": "Outros depósitos à vista e numerário",
+          "descricao": "saldo em conta corrente, CEF",
+          "valor": 17602.87,
+          "atualizadoEm": "2026-09-30"
+        },
+        {
+          "ordem": 6,
+          "tipo": "Outros depósitos à vista e numerário",
+          "descricao": "saldo em conta corrente, Sicredi União RS/ES",
+          "valor": 10319.56,
+          "atualizadoEm": "2026-09-30"
+        },
+        {
+          "ordem": 7,
+          "tipo": "Aplicação de renda fixa (CDB, RDB e outros)",
+          "descricao": "fundo de investimento FI CEF",
+          "valor": 13.16,
+          "atualizadoEm": "2026-09-30"
+        }
+      ],
+      "totalBens": 120380.49,
       "proposta": {
         "exigida": false,
         "documento": null
