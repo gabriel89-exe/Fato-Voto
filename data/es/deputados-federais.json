@@ -6,7 +6,7 @@
   },
   "uf": "ES",
   "legislatura": 57,
-  "coletadoEm": "2026-10-01T16:29:05.465Z",
+  "coletadoEm": "2026-10-02T15:51:01.091Z",
   "referencia": {
     "bancada": 10,
     "medianaDespesas": 1913036.2350000027,
@@ -1280,13 +1280,13 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/204355.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/204355",
       "despesas": {
-        "total": 1942085.2400000037,
-        "documentos": 1434,
+        "total": 1957912.5400000035,
+        "documentos": 1439,
         "porTipo": [
           {
             "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
-            "valor": 793569.1200000001,
-            "notas": 441,
+            "valor": 803634.12,
+            "notas": 444,
             "fornecedores": [
               {
                 "nome": "ATIVE ENGENHARIA LTDA",
@@ -1300,8 +1300,8 @@
               {
                 "nome": "SUPLYMAX COMERCIO E SERVICOS DE EQUIPAMENTOS LTDA",
                 "cnpjCpf": "40134537000169",
-                "total": 124235,
-                "notas": 38,
+                "total": 134300,
+                "notas": 41,
                 "outrosNomes": [
                   "Suplymax Suprimentos de Informática LTDA",
                   "SUPLYMAX SUPRIMENTOS DE INFORMATICA LTDA"
@@ -1571,14 +1571,14 @@
           },
           {
             "tipo": "COMBUSTÍVEIS E LUBRIFICANTES.",
-            "valor": 197573.16999999995,
-            "notas": 159,
+            "valor": 203335.46999999997,
+            "notas": 161,
             "fornecedores": [
               {
                 "nome": "POSTO IATE LTDA",
                 "cnpjCpf": "27419142000144",
-                "total": 117514.73000000001,
-                "notas": 37,
+                "total": 123277.03,
+                "notas": 39,
                 "outrosNomes": []
               },
               {
@@ -2159,15 +2159,15 @@
           },
           {
             "competencia": "2026-07",
-            "valor": 59094.84
+            "valor": 62449.84
           },
           {
             "competencia": "2026-08",
-            "valor": 30435.200000000004
+            "valor": 37378.31000000001
           },
           {
             "competencia": "2026-09",
-            "valor": 9168.55
+            "valor": 14697.74
           }
         ],
         "fornecedores": [
@@ -2202,8 +2202,8 @@
           {
             "nome": "SUPLYMAX COMERCIO E SERVICOS DE EQUIPAMENTOS LTDA",
             "cnpjCpf": "40134537000169",
-            "total": 124235,
-            "notas": 38,
+            "total": 134300,
+            "notas": 41,
             "outrosNomes": [
               "Suplymax Suprimentos de Informática LTDA",
               "SUPLYMAX SUPRIMENTOS DE INFORMATICA LTDA"
@@ -2212,8 +2212,8 @@
           {
             "nome": "POSTO IATE LTDA",
             "cnpjCpf": "27419142000144",
-            "total": 117514.73000000001,
-            "notas": 37,
+            "total": 123277.03,
+            "notas": 39,
             "outrosNomes": []
           },
           {
@@ -2273,8 +2273,8 @@
           }
         ],
         "glosas": {
-          "quantidade": 275,
-          "valor": 20619.980000000032,
+          "quantidade": 276,
+          "valor": 20716.890000000032,
           "exemplos": [
             {
               "id": "7567919",
@@ -2451,8 +2451,8 @@
           }
         ],
         "comprovantes": {
-          "com": 717,
-          "total": 1434
+          "com": 722,
+          "total": 1439
         }
       },
       "proposicoes": {
@@ -7588,8 +7588,8 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/220526.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/220526",
       "despesas": {
-        "total": 1627425.4900000002,
-        "documentos": 1819,
+        "total": 1633519.4299999997,
+        "documentos": 1822,
         "porTipo": [
           {
             "tipo": "PASSAGEM AÉREA - SIGEPA",
@@ -7989,14 +7989,14 @@
           },
           {
             "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
-            "valor": 125684.18999999993,
-            "notas": 108,
+            "valor": 131778.12999999998,
+            "notas": 111,
             "fornecedores": [
               {
                 "nome": "HECTOR ANTONIO VILCHEZ GUERRERO",
                 "cnpjCpf": "17555579000151",
-                "total": 74245.51999999999,
-                "notas": 32,
+                "total": 80339.45999999999,
+                "notas": 35,
                 "outrosNomes": [
                   "Guerrero imóveis"
                 ]
@@ -8659,7 +8659,7 @@
           },
           {
             "competencia": "2026-09",
-            "valor": 3177.14
+            "valor": 9271.08
           }
         ],
         "fornecedores": [
@@ -8691,6 +8691,15 @@
             "outrosNomes": []
           },
           {
+            "nome": "HECTOR ANTONIO VILCHEZ GUERRERO",
+            "cnpjCpf": "17555579000151",
+            "total": 80339.45999999999,
+            "notas": 35,
+            "outrosNomes": [
+              "Guerrero imóveis"
+            ]
+          },
+          {
             "nome": "Gol Linhas Aéreas",
             "cnpjCpf": "07575651000159",
             "total": 76528.31999999999,
@@ -8698,15 +8707,6 @@
             "outrosNomes": [
               "GOL",
               "Gol Linhas Aereas S.A."
-            ]
-          },
-          {
-            "nome": "HECTOR ANTONIO VILCHEZ GUERRERO",
-            "cnpjCpf": "17555579000151",
-            "total": 74245.51999999999,
-            "notas": 32,
-            "outrosNomes": [
-              "Guerrero imóveis"
             ]
           },
           {
@@ -8942,8 +8942,8 @@
           }
         ],
         "comprovantes": {
-          "com": 1326,
-          "total": 1819
+          "com": 1329,
+          "total": 1822
         }
       },
       "proposicoes": {

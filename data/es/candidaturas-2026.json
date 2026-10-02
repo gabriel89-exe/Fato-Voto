@@ -9,7 +9,7 @@
     "idEleicao": "20322002026",
     "uf": "ES"
   },
-  "coletadoEm": "2026-10-01T16:27:52.017Z",
+  "coletadoEm": "2026-10-02T15:49:35.419Z",
   "total": 577,
   "candidaturas": [
     {
@@ -2447,17 +2447,17 @@
         },
         {
           "ano": 2022,
-          "cargo": "Deputado Federal",
-          "partido": "PROS",
-          "uf": "SP",
-          "resultado": "Não eleito"
-        },
-        {
-          "ano": 2022,
           "cargo": "Presidente",
           "partido": "PROS",
           "uf": "BR",
           "resultado": "Concorrendo"
+        },
+        {
+          "ano": 2022,
+          "cargo": "Deputado Federal",
+          "partido": "PROS",
+          "uf": "SP",
+          "resultado": "Não eleito"
         }
       ],
       "primeiraCandidatura": false,
@@ -8101,17 +8101,17 @@
       "eleicoesAnteriores": [
         {
           "ano": 2022,
-          "cargo": "Deputado Estadual",
-          "partido": "REPUBLICANOS",
-          "uf": "ES",
-          "resultado": "Concorrendo"
-        },
-        {
-          "ano": 2022,
           "cargo": "Vice-governador",
           "partido": "SOLIDARIEDADE",
           "uf": "ES",
           "resultado": "Não eleito"
+        },
+        {
+          "ano": 2022,
+          "cargo": "Deputado Estadual",
+          "partido": "REPUBLICANOS",
+          "uf": "ES",
+          "resultado": "Concorrendo"
         }
       ],
       "primeiraCandidatura": false,
@@ -18989,17 +18989,17 @@
       "eleicoesAnteriores": [
         {
           "ano": 2024,
-          "cargo": "Vice-prefeito",
-          "partido": "PODE",
-          "uf": "56979",
-          "resultado": "Eleito"
-        },
-        {
-          "ano": 2024,
           "cargo": "Vereador",
           "partido": "PODE",
           "uf": "56979",
           "resultado": "Concorrendo"
+        },
+        {
+          "ano": 2024,
+          "cargo": "Vice-prefeito",
+          "partido": "PODE",
+          "uf": "56979",
+          "resultado": "Eleito"
         }
       ],
       "primeiraCandidatura": false,
@@ -33751,7 +33751,7 @@
         "nome": "REPUBLICANOS"
       },
       "coligacao": "REPUBLICANOS",
-      "situacaoRegistro": "Deferido com recurso",
+      "situacaoRegistro": "Indeferido em prazo recursal ou com recurso",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
       "disputaReeleicao": false,

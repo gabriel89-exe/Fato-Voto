@@ -6,13 +6,13 @@
   },
   "uf": "ES",
   "legislatura": 57,
-  "coletadoEm": "2026-10-01T16:31:56.451Z",
+  "coletadoEm": "2026-10-02T15:53:54.913Z",
   "criterio": {
     "orgao": "Plenário",
     "tipo": "Votações nominais",
     "quantidade": 20,
     "ordem": "As mais recentes primeiro",
-    "sondagens": 374
+    "sondagens": 381
   },
   "votacoes": [
     {
@@ -930,34 +930,38 @@
       ]
     },
     {
-      "id": "2610579-7",
-      "data": "2026-07-02",
-      "registradaEm": "2026-07-02T11:20:51",
-      "descricao": "Aprovado o Requerimento de Urgência (Art. 155 do RICD). Sim: 305; Não: 112; Abstenção: 1; Total: 418.",
+      "id": "2606189-10",
+      "data": "2026-07-01",
+      "registradaEm": "2026-07-01T18:34:21",
+      "descricao": "Aprovado o Requerimento de Urgência (Art. 155 do RICD). Sim: 279; Não: 162; Abstenção: 1; Total: 442.",
       "aprovada": true,
       "proposicao": {
-        "id": 2525620,
+        "id": 2486315,
         "sigla": "PL",
-        "numero": 2898,
+        "numero": 849,
         "ano": 2025,
-        "ementa": "Altera a Lei nº 9.605, de 12 de fevereiro de 1998, que \"dispõe sobre as infrações e sanções administrativas ao meio ambiente, estabelece o processo administrativo federal para apuração destas infrações, e dá outras providências\", para estabelecer regime especial de sanções para pequenos produtores rurais que produzam para subsistência.",
-        "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2525620"
+        "ementa": "Reduz a Área de Proteção Ambiental da Baleia Franca, no Estado de Santa Catarina.",
+        "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2486315"
       },
       "placar": [
         {
           "voto": "Sim",
-          "total": 305
+          "total": 279
         },
         {
           "voto": "Não",
-          "total": 112
+          "total": 162
         },
         {
           "voto": "Abstenção",
           "total": 1
+        },
+        {
+          "voto": "Artigo 17",
+          "total": 1
         }
       ],
-      "votantes": 418,
+      "votantes": 443,
       "votosDoEstado": [
         {
           "idExterno": 204356,
@@ -987,7 +991,7 @@
           "idExterno": 220529,
           "nome": "Gilson Daniel",
           "partido": "PODE",
-          "voto": "Sim"
+          "voto": "Não"
         },
         {
           "idExterno": 220526,
@@ -1005,6 +1009,108 @@
           "idExterno": 220527,
           "nome": "Jack Rocha",
           "partido": "PT",
+          "voto": "Não"
+        },
+        {
+          "idExterno": 220530,
+          "nome": "Messias Donato",
+          "partido": "UNIÃO",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 160517,
+          "nome": "Paulo Folletto",
+          "partido": "PSB",
+          "voto": "Não"
+        }
+      ]
+    },
+    {
+      "id": "2636281-8",
+      "data": "2026-07-01",
+      "registradaEm": "2026-07-01T18:06:36",
+      "descricao": "Aprovado o Requerimento de Urgência (Art. 155 do RICD). Sim: 293; Não: 158; Abstenção: 3; Total: 454.",
+      "aprovada": true,
+      "proposicao": {
+        "id": 2612930,
+        "sigla": "PL",
+        "numero": 896,
+        "ano": 2023,
+        "ementa": "Altera a Lei nº 7.716, de 5 de janeiro de 1989, e o Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), para dispor sobre crimes praticados em razão de misoginia.",
+        "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2612930"
+      },
+      "placar": [
+        {
+          "voto": "Sim",
+          "total": 293
+        },
+        {
+          "voto": "Não",
+          "total": 158
+        },
+        {
+          "voto": "Abstenção",
+          "total": 3
+        },
+        {
+          "voto": "Artigo 17",
+          "total": 1
+        }
+      ],
+      "votantes": 455,
+      "votosDoEstado": [
+        {
+          "idExterno": 204356,
+          "nome": "Amaro Neto",
+          "partido": "PP",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 204355,
+          "nome": "Da Vitoria",
+          "partido": "PP",
+          "voto": "Não"
+        },
+        {
+          "idExterno": 220528,
+          "nome": "Dr. Victor Linhalis",
+          "partido": "PSB",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 178871,
+          "nome": "Evair Vieira de Melo",
+          "partido": "REPUBLICANOS",
+          "voto": "Não"
+        },
+        {
+          "idExterno": 220529,
+          "nome": "Gilson Daniel",
+          "partido": "PODE",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 220526,
+          "nome": "Gilvan da Federal",
+          "partido": "PL",
+          "voto": "Não"
+        },
+        {
+          "idExterno": 178873,
+          "nome": "Helder Salomão",
+          "partido": "PT",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 220527,
+          "nome": "Jack Rocha",
+          "partido": "PT",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 220530,
+          "nome": "Messias Donato",
+          "partido": "UNIÃO",
           "voto": "Não"
         },
         {
@@ -1616,102 +1722,6 @@
           "nome": "Paulo Folletto",
           "partido": "PSB",
           "voto": "Não"
-        }
-      ]
-    },
-    {
-      "id": "2351506-122",
-      "data": "2026-05-28",
-      "registradaEm": "2026-05-28T17:21:17",
-      "descricao": "Aprovada, em segundo turno, a Proposta de Emenda à Constituição n° 5, de 2023. Sim: 368; Não: 96; Abstenção: 7; Total: 471.",
-      "aprovada": true,
-      "proposicao": {
-        "id": 2351506,
-        "sigla": "PEC",
-        "numero": 5,
-        "ano": 2023,
-        "ementa": "Acrescenta § 4º-A ao art. 150 da Constituição Federal, para dispor sobre a imunidade tributária de que tratam as suas alíneas “b” e “c” do inciso VI.",
-        "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2351506"
-      },
-      "placar": [
-        {
-          "voto": "Sim",
-          "total": 368
-        },
-        {
-          "voto": "Não",
-          "total": 96
-        },
-        {
-          "voto": "Abstenção",
-          "total": 7
-        },
-        {
-          "voto": "Artigo 17",
-          "total": 1
-        }
-      ],
-      "votantes": 472,
-      "votosDoEstado": [
-        {
-          "idExterno": 204356,
-          "nome": "Amaro Neto",
-          "partido": "PP",
-          "voto": "Sim"
-        },
-        {
-          "idExterno": 204355,
-          "nome": "Da Vitoria",
-          "partido": "PP",
-          "voto": "Sim"
-        },
-        {
-          "idExterno": 220528,
-          "nome": "Dr. Victor Linhalis",
-          "partido": "PSB",
-          "voto": "Sim"
-        },
-        {
-          "idExterno": 178871,
-          "nome": "Evair Vieira de Melo",
-          "partido": "REPUBLICANOS",
-          "voto": "Sim"
-        },
-        {
-          "idExterno": 220529,
-          "nome": "Gilson Daniel",
-          "partido": "PODE",
-          "voto": "Sim"
-        },
-        {
-          "idExterno": 220526,
-          "nome": "Gilvan da Federal",
-          "partido": "PL",
-          "voto": "Sim"
-        },
-        {
-          "idExterno": 178873,
-          "nome": "Helder Salomão",
-          "partido": "PT",
-          "voto": "Não"
-        },
-        {
-          "idExterno": 220527,
-          "nome": "Jack Rocha",
-          "partido": "PT",
-          "voto": "Não"
-        },
-        {
-          "idExterno": 220530,
-          "nome": "Messias Donato",
-          "partido": "UNIÃO",
-          "voto": "Sim"
-        },
-        {
-          "idExterno": 160517,
-          "nome": "Paulo Folletto",
-          "partido": "PSB",
-          "voto": "Abstenção"
         }
       ]
     }
