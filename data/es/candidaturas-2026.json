@@ -9,7 +9,7 @@
     "idEleicao": "20322002026",
     "uf": "ES"
   },
-  "coletadoEm": "2026-10-02T15:49:35.419Z",
+  "coletadoEm": "2026-10-03T14:20:33.602Z",
   "total": 577,
   "candidaturas": [
     {
@@ -1216,9 +1216,9 @@
         "nome": "PARTIDO RENOVADOR TRABALHISTA BRASILEIRO"
       },
       "coligacao": "PRTB",
-      "situacaoRegistro": "Pendente de julgamento",
+      "situacaoRegistro": "Renúncia",
       "situacaoCandidatura": "Consta da urna",
-      "apto": true,
+      "apto": false,
       "disputaReeleicao": false,
       "dataNascimento": "1977-10-23",
       "genero": "MASC.",
@@ -2447,17 +2447,17 @@
         },
         {
           "ano": 2022,
-          "cargo": "Presidente",
-          "partido": "PROS",
-          "uf": "BR",
-          "resultado": "Concorrendo"
-        },
-        {
-          "ano": 2022,
           "cargo": "Deputado Federal",
           "partido": "PROS",
           "uf": "SP",
           "resultado": "Não eleito"
+        },
+        {
+          "ano": 2022,
+          "cargo": "Presidente",
+          "partido": "PROS",
+          "uf": "BR",
+          "resultado": "Concorrendo"
         }
       ],
       "primeiraCandidatura": false,
@@ -8101,17 +8101,17 @@
       "eleicoesAnteriores": [
         {
           "ano": 2022,
-          "cargo": "Vice-governador",
-          "partido": "SOLIDARIEDADE",
-          "uf": "ES",
-          "resultado": "Não eleito"
-        },
-        {
-          "ano": 2022,
           "cargo": "Deputado Estadual",
           "partido": "REPUBLICANOS",
           "uf": "ES",
           "resultado": "Concorrendo"
+        },
+        {
+          "ano": 2022,
+          "cargo": "Vice-governador",
+          "partido": "SOLIDARIEDADE",
+          "uf": "ES",
+          "resultado": "Não eleito"
         }
       ],
       "primeiraCandidatura": false,
@@ -18989,17 +18989,17 @@
       "eleicoesAnteriores": [
         {
           "ano": 2024,
-          "cargo": "Vereador",
-          "partido": "PODE",
-          "uf": "56979",
-          "resultado": "Concorrendo"
-        },
-        {
-          "ano": 2024,
           "cargo": "Vice-prefeito",
           "partido": "PODE",
           "uf": "56979",
           "resultado": "Eleito"
+        },
+        {
+          "ano": 2024,
+          "cargo": "Vereador",
+          "partido": "PODE",
+          "uf": "56979",
+          "resultado": "Concorrendo"
         }
       ],
       "primeiraCandidatura": false,
@@ -26624,7 +26624,7 @@
         "nome": "PARTIDO LIBERAL"
       },
       "coligacao": "PL",
-      "situacaoRegistro": "Indeferido em prazo recursal ou com recurso",
+      "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
       "disputaReeleicao": false,
@@ -47197,9 +47197,9 @@
         "nome": "PARTIDO NOVO"
       },
       "coligacao": "NOVO",
-      "situacaoRegistro": "Indeferido em prazo recursal ou com recurso",
+      "situacaoRegistro": "Indeferido",
       "situacaoCandidatura": "Consta da urna",
-      "apto": true,
+      "apto": false,
       "disputaReeleicao": false,
       "dataNascimento": "1995-02-09",
       "genero": "MASC.",
