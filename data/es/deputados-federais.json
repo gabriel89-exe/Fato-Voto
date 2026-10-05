@@ -6,12 +6,12 @@
   },
   "uf": "ES",
   "legislatura": 57,
-  "coletadoEm": "2026-10-04T14:49:50.893Z",
+  "coletadoEm": "2026-10-05T18:29:30.331Z",
   "referencia": {
     "bancada": 10,
     "medianaDespesas": 1913036.2350000027,
     "menor": 1426772.1199999903,
-    "maior": 1994521.46
+    "maior": 1999321.46
   },
   "parlamentares": [
     {
@@ -4157,8 +4157,8 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/178871.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/178871",
       "despesas": {
-        "total": 1994521.46,
-        "documentos": 1606,
+        "total": 1999321.46,
+        "documentos": 1607,
         "porTipo": [
           {
             "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
@@ -4278,8 +4278,8 @@
           },
           {
             "tipo": "LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES",
-            "valor": 401983.67,
-            "notas": 83,
+            "valor": 406783.67,
+            "notas": 84,
             "fornecedores": [
               {
                 "nome": "AQUI CENTRO AUTOMOTIVO LTDA",
@@ -4293,8 +4293,8 @@
               {
                 "nome": "IZA CARLA SILVA SANTA BRIGIDA",
                 "cnpjCpf": "21891589000135",
-                "total": 77400,
-                "notas": 23,
+                "total": 82200,
+                "notas": 24,
                 "outrosNomes": [
                   "Iza Carla Silva Santa Brigida - ME",
                   "Iz009a Carla Silva Santa Brigida - ME"
@@ -5261,7 +5261,7 @@
           },
           {
             "competencia": "2026-09",
-            "valor": 616.11
+            "valor": 5416.11
           }
         ],
         "fornecedores": [
@@ -5315,8 +5315,8 @@
           {
             "nome": "IZA CARLA SILVA SANTA BRIGIDA",
             "cnpjCpf": "21891589000135",
-            "total": 77400,
-            "notas": 23,
+            "total": 82200,
+            "notas": 24,
             "outrosNomes": [
               "Iza Carla Silva Santa Brigida - ME",
               "Iz009a Carla Silva Santa Brigida - ME"
@@ -5562,8 +5562,8 @@
           }
         ],
         "comprovantes": {
-          "com": 1203,
-          "total": 1606
+          "com": 1204,
+          "total": 1607
         }
       },
       "proposicoes": {
