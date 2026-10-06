@@ -9,7 +9,7 @@
     "idEleicao": "20322002026",
     "uf": "ES"
   },
-  "coletadoEm": "2026-10-05T18:27:57.350Z",
+  "coletadoEm": "2026-10-06T15:57:52.634Z",
   "total": 577,
   "candidaturas": [
     {
@@ -48571,9 +48571,16 @@
           "descricao": "EMPRESA",
           "valor": 18000,
           "atualizadoEm": "2026-08-12"
+        },
+        {
+          "ordem": 2,
+          "tipo": "Terreno",
+          "descricao": "DOMINGOS MARTINS",
+          "valor": 80000,
+          "atualizadoEm": "2026-08-12"
         }
       ],
-      "totalBens": 18000,
+      "totalBens": 98000,
       "proposta": {
         "exigida": false,
         "documento": null
@@ -58765,8 +58772,16 @@
       "escolaridade": "Superior completo",
       "ocupacao": "Professor de Ensino Médio",
       "naturalidade": "BA-SALVADOR",
-      "bens": [],
-      "totalBens": 0,
+      "bens": [
+        {
+          "ordem": 1,
+          "tipo": "Veículo automotor terrestre: caminhão, automóvel, moto, etc.",
+          "descricao": "FORD KA SE 2019 HATCH 1.0",
+          "valor": 48000,
+          "atualizadoEm": "2026-08-13"
+        }
+      ],
+      "totalBens": 48000,
       "proposta": {
         "exigida": false,
         "documento": null

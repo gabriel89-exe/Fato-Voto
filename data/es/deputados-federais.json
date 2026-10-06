@@ -6,10 +6,10 @@
   },
   "uf": "ES",
   "legislatura": 57,
-  "coletadoEm": "2026-10-05T18:29:30.331Z",
+  "coletadoEm": "2026-10-06T15:59:14.819Z",
   "referencia": {
     "bancada": 10,
-    "medianaDespesas": 1913036.2350000027,
+    "medianaDespesas": 1922401.430000003,
     "menor": 1426772.1199999903,
     "maior": 1999321.46
   },
@@ -14010,8 +14010,8 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/160517.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/160517",
       "despesas": {
-        "total": 1910203.590000004,
-        "documentos": 1045,
+        "total": 1928933.9800000042,
+        "documentos": 1061,
         "porTipo": [
           {
             "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
@@ -14129,14 +14129,14 @@
           },
           {
             "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
-            "valor": 413186.25999999966,
-            "notas": 291,
+            "valor": 418238.99999999965,
+            "notas": 296,
             "fornecedores": [
               {
                 "nome": "EXPERT'S CONSULTORIA E AVALIACOES LTDA",
                 "cnpjCpf": "13882645000147",
-                "total": 178150.20999999993,
-                "notas": 42,
+                "total": 181750.2099999999,
+                "notas": 43,
                 "outrosNomes": [
                   "EXPERTS CONSULTORIA E AVALIAÇÕES EIRELI"
                 ]
@@ -14164,8 +14164,8 @@
               {
                 "nome": "EDP ESPIRITO SANTO DISTRIBUICAO DE ENERGIA S.A.",
                 "cnpjCpf": "28152650000171",
-                "total": 14763.540000000003,
-                "notas": 76,
+                "total": 15082.430000000004,
+                "notas": 78,
                 "outrosNomes": [
                   "EDP - ESPIRITO SANTO DISTRIBUICAO DE ENERGIA S.A.",
                   "0EDP ESPIRITO SANTO DISTRIBUICAO DE ENERGIA S.A."
@@ -14174,8 +14174,8 @@
               {
                 "nome": "CONDOMINIO DO EDIFICIO PETRO TOWER",
                 "cnpjCpf": "06788256000191",
-                "total": 13024.940000000002,
-                "notas": 24,
+                "total": 14158.790000000003,
+                "notas": 26,
                 "outrosNomes": []
               },
               {
@@ -14266,8 +14266,8 @@
           },
           {
             "tipo": "LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES",
-            "valor": 340965.7999999999,
-            "notas": 51,
+            "valor": 344965.7999999999,
+            "notas": 52,
             "fornecedores": [
               {
                 "nome": "ATIVA Rent a Car LTDA",
@@ -14282,8 +14282,8 @@
               {
                 "nome": "FEDERAL AUTOMARCAS LTDA",
                 "cnpjCpf": "36325116000148",
-                "total": 42500,
-                "notas": 12,
+                "total": 46500,
+                "notas": 13,
                 "outrosNomes": [
                   "REDE BRASIL"
                 ]
@@ -14420,14 +14420,14 @@
           },
           {
             "tipo": "COMBUSTÍVEIS E LUBRIFICANTES.",
-            "valor": 132956.12000000002,
-            "notas": 243,
+            "valor": 142503.86999999997,
+            "notas": 252,
             "fornecedores": [
               {
                 "nome": "POSTO DE COMBUSTIVEIS GIRASSOL LTDA",
                 "cnpjCpf": "27352004000195",
-                "total": 93121.09000000001,
-                "notas": 74,
+                "total": 101418.33000000002,
+                "notas": 78,
                 "outrosNomes": []
               },
               {
@@ -14454,6 +14454,13 @@
                 ]
               },
               {
+                "nome": "POSTO SHOPPING LTDA",
+                "cnpjCpf": "57212861000150",
+                "total": 3261.2999999999997,
+                "notas": 18,
+                "outrosNomes": []
+              },
+              {
                 "nome": "POSTO ARVOREDO LTDA.",
                 "cnpjCpf": "27066273000195",
                 "total": 3256.7799999999997,
@@ -14470,13 +14477,6 @@
                 "outrosNomes": []
               },
               {
-                "nome": "POSTO SHOPPING LTDA",
-                "cnpjCpf": "57212861000150",
-                "total": 2710.5899999999997,
-                "notas": 15,
-                "outrosNomes": []
-              },
-              {
                 "nome": "053 - G PARK - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
                 "cnpjCpf": "00306597005328",
                 "total": 1151.9199999999998,
@@ -14485,6 +14485,15 @@
               }
             ],
             "maiores": [
+              {
+                "id": "8160495",
+                "data": "2026-09-25",
+                "tipo": "COMBUSTÍVEIS E LUBRIFICANTES.",
+                "valor": 3729.78,
+                "fornecedor": "POSTO DE COMBUSTIVEIS GIRASSOL LTDA",
+                "cnpjCpf": "27352004000195",
+                "documento": "http://www.camara.leg.br/cota-parlamentar/nota-fiscal-eletronica?ideDocumentoFiscal=8160495"
+              },
               {
                 "id": "8078107",
                 "data": "2026-03-30",
@@ -14513,29 +14522,20 @@
                 "documento": "http://www.camara.leg.br/cota-parlamentar/nota-fiscal-eletronica?ideDocumentoFiscal=8095073"
               },
               {
-                "id": "7940711",
-                "data": "2025-06-30",
+                "id": "8156507",
+                "data": "2026-08-27",
                 "tipo": "COMBUSTÍVEIS E LUBRIFICANTES.",
-                "valor": 3100.91,
+                "valor": 3247.51,
                 "fornecedor": "POSTO DE COMBUSTIVEIS GIRASSOL LTDA",
                 "cnpjCpf": "27352004000195",
-                "documento": "http://www.camara.leg.br/cota-parlamentar/nota-fiscal-eletronica?ideDocumentoFiscal=7940711"
-              },
-              {
-                "id": "7825555",
-                "data": "2024-10-23",
-                "tipo": "COMBUSTÍVEIS E LUBRIFICANTES.",
-                "valor": 2928.83,
-                "fornecedor": "POSTO DE COMBUSTIVEIS GIRASSOL LTDA",
-                "cnpjCpf": "27352004000195",
-                "documento": "http://www.camara.leg.br/cota-parlamentar/nota-fiscal-eletronica?ideDocumentoFiscal=7825555"
+                "documento": "http://www.camara.leg.br/cota-parlamentar/nota-fiscal-eletronica?ideDocumentoFiscal=8156507"
               }
             ]
           },
           {
             "tipo": "TELEFONIA",
-            "valor": 21426.430000000008,
-            "notas": 62,
+            "valor": 21556.33000000001,
+            "notas": 63,
             "fornecedores": [
               {
                 "nome": "TELEFONICA BRASIL S.A.",
@@ -14560,8 +14560,8 @@
               {
                 "nome": "CLARO NXT TELECOMUNICACOES S/A",
                 "cnpjCpf": "66970229001805",
-                "total": 1149,
-                "notas": 10,
+                "total": 1278.9,
+                "notas": 11,
                 "outrosNomes": [
                   "CLARO  NXT TELECOMUNICAÇÕES  S.A",
                   "Claro NXT Telecomunicações S.A"
@@ -15027,11 +15027,15 @@
           },
           {
             "competencia": "2026-07",
-            "valor": 22469.829999999998
+            "valor": 22802.299999999996
           },
           {
             "competencia": "2026-08",
-            "valor": 11728.54
+            "valor": 21194.09
+          },
+          {
+            "competencia": "2026-09",
+            "valor": 8932.37
           }
         ],
         "fornecedores": [
@@ -15074,8 +15078,8 @@
           {
             "nome": "EXPERT'S CONSULTORIA E AVALIACOES LTDA",
             "cnpjCpf": "13882645000147",
-            "total": 178150.20999999993,
-            "notas": 42,
+            "total": 181750.2099999999,
+            "notas": 43,
             "outrosNomes": [
               "EXPERTS CONSULTORIA E AVALIAÇÕES EIRELI"
             ]
@@ -15094,15 +15098,15 @@
           {
             "nome": "POSTO DE COMBUSTIVEIS GIRASSOL LTDA",
             "cnpjCpf": "27352004000195",
-            "total": 93121.09000000001,
-            "notas": 74,
+            "total": 101418.33000000002,
+            "notas": 78,
             "outrosNomes": []
           },
           {
             "nome": "FEDERAL AUTOMARCAS LTDA",
             "cnpjCpf": "36325116000148",
-            "total": 42500,
-            "notas": 12,
+            "total": 46500,
+            "notas": 13,
             "outrosNomes": [
               "REDE BRASIL"
             ]
@@ -15143,8 +15147,8 @@
           }
         ],
         "glosas": {
-          "quantidade": 66,
-          "valor": 6547.519999999999,
+          "quantidade": 68,
+          "valor": 6605.159999999999,
           "exemplos": [
             {
               "id": "7748122",
@@ -15321,8 +15325,8 @@
           }
         ],
         "comprovantes": {
-          "com": 649,
-          "total": 1045
+          "com": 664,
+          "total": 1061
         }
       },
       "proposicoes": {
