@@ -6,12 +6,12 @@
   },
   "uf": "ES",
   "legislatura": 57,
-  "coletadoEm": "2026-10-06T15:59:14.819Z",
+  "coletadoEm": "2026-10-07T16:30:52.626Z",
   "referencia": {
     "bancada": 10,
-    "medianaDespesas": 1922401.430000003,
-    "menor": 1426772.1199999903,
-    "maior": 1999321.46
+    "medianaDespesas": 1924662.9800000028,
+    "menor": 1433162.1199999899,
+    "maior": 2003383.8299999998
   },
   "parlamentares": [
     {
@@ -35,8 +35,8 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/204356.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/204356",
       "despesas": {
-        "total": 1853135.660000002,
-        "documentos": 1038,
+        "total": 1855448.4400000018,
+        "documentos": 1044,
         "porTipo": [
           {
             "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
@@ -213,8 +213,8 @@
           },
           {
             "tipo": "PASSAGEM AÉREA - SIGEPA",
-            "valor": 249998.92999999973,
-            "notas": 276,
+            "valor": 251597.61999999973,
+            "notas": 277,
             "fornecedores": [
               {
                 "nome": "LATAM Airlines Brasil",
@@ -226,11 +226,13 @@
                 ]
               },
               {
-                "nome": "GOL",
+                "nome": "Gol Linhas Aéreas",
                 "cnpjCpf": "07575651000159",
-                "total": 24251.05,
-                "notas": 26,
-                "outrosNomes": []
+                "total": 25849.74,
+                "notas": 27,
+                "outrosNomes": [
+                  "GOL"
+                ]
               },
               {
                 "nome": "Azul Linhas Aéreas",
@@ -292,8 +294,8 @@
           },
           {
             "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
-            "valor": 143257.8,
-            "notas": 191,
+            "valor": 143471.46999999997,
+            "notas": 193,
             "fornecedores": [
               {
                 "nome": "APE VILA VELHA IMOBILIARIA E CONSTRUCOES LTDA",
@@ -317,8 +319,8 @@
               {
                 "nome": "EDP ESPIRITO SANTO DISTRIBUICAO DE ENERGIA S.A.",
                 "cnpjCpf": "28152650000171",
-                "total": 9702.5,
-                "notas": 65,
+                "total": 9916.17,
+                "notas": 67,
                 "outrosNomes": [
                   "0EDP ESPIRITO SANTO DISTRIBUICAO DE ENERGIA S.A."
                 ]
@@ -409,14 +411,14 @@
           },
           {
             "tipo": "COMBUSTÍVEIS E LUBRIFICANTES.",
-            "valor": 73825.47999999998,
-            "notas": 365,
+            "valor": 74325.89999999998,
+            "notas": 367,
             "fornecedores": [
               {
                 "nome": "POSTO CIBIEN DE COMBUSTIVEIS LTDA",
                 "cnpjCpf": "52408644000117",
-                "total": 11473.870000000003,
-                "notas": 40,
+                "total": 11804.070000000002,
+                "notas": 41,
                 "outrosNomes": [
                   "POSTO CIBIEN DE COMBUSTIVEIS LTDA."
                 ]
@@ -424,8 +426,8 @@
               {
                 "nome": "067 - PARANOA II - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
                 "cnpjCpf": "00306597006723",
-                "total": 8750.639999999998,
-                "notas": 47,
+                "total": 8920.859999999999,
+                "notas": 48,
                 "outrosNomes": [
                   "067 - PARANOA II - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA."
                 ]
@@ -699,11 +701,15 @@
           },
           {
             "competencia": "2026-08",
-            "valor": 14097.079999999998
+            "valor": 15695.77
           },
           {
             "competencia": "2026-09",
-            "valor": 4349.349999999999
+            "valor": 4733.24
+          },
+          {
+            "competencia": "2026-10",
+            "valor": 330.2
           }
         ],
         "fornecedores": [
@@ -785,11 +791,13 @@
             ]
           },
           {
-            "nome": "GOL",
+            "nome": "Gol Linhas Aéreas",
             "cnpjCpf": "07575651000159",
-            "total": 24251.05,
-            "notas": 26,
-            "outrosNomes": []
+            "total": 25849.74,
+            "notas": 27,
+            "outrosNomes": [
+              "GOL"
+            ]
           },
           {
             "nome": "América Locação",
@@ -989,8 +997,8 @@
           }
         ],
         "comprovantes": {
-          "com": 705,
-          "total": 1038
+          "com": 709,
+          "total": 1044
         }
       },
       "proposicoes": {
@@ -4157,8 +4165,8 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/178871.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/178871",
       "despesas": {
-        "total": 1999321.46,
-        "documentos": 1607,
+        "total": 2003383.8299999998,
+        "documentos": 1610,
         "porTipo": [
           {
             "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
@@ -4372,14 +4380,14 @@
           },
           {
             "tipo": "PASSAGEM AÉREA - SIGEPA",
-            "valor": 377435.80999999976,
-            "notas": 258,
+            "valor": 381498.1799999999,
+            "notas": 261,
             "fornecedores": [
               {
                 "nome": "LATAM Airlines Brasil",
                 "cnpjCpf": "02012862000160",
-                "total": 294950.57000000007,
-                "notas": 199,
+                "total": 297899.29000000004,
+                "notas": 201,
                 "outrosNomes": [
                   "TAM"
                 ]
@@ -4396,8 +4404,8 @@
               {
                 "nome": "Gol Linhas Aéreas",
                 "cnpjCpf": "07575651000159",
-                "total": 24413.359999999993,
-                "notas": 19,
+                "total": 25527.01,
+                "notas": 20,
                 "outrosNomes": [
                   "GOL"
                 ]
@@ -5257,7 +5265,7 @@
           },
           {
             "competencia": "2026-08",
-            "valor": 19323.29
+            "valor": 23385.660000000003
           },
           {
             "competencia": "2026-09",
@@ -5277,8 +5285,8 @@
           {
             "nome": "LATAM Airlines Brasil",
             "cnpjCpf": "02012862000160",
-            "total": 297091.25,
-            "notas": 200,
+            "total": 300039.97,
+            "notas": 202,
             "outrosNomes": [
               "TAM",
               "Latam Linhas Aéreas S.A"
@@ -5563,7 +5571,7 @@
         ],
         "comprovantes": {
           "com": 1204,
-          "total": 1607
+          "total": 1610
         }
       },
       "proposicoes": {
@@ -5973,8 +5981,8 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/220529.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/220529",
       "despesas": {
-        "total": 1915868.8800000015,
-        "documentos": 1447,
+        "total": 1918959.3800000018,
+        "documentos": 1449,
         "porTipo": [
           {
             "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
@@ -6180,14 +6188,14 @@
           },
           {
             "tipo": "PASSAGEM AÉREA - SIGEPA",
-            "valor": 302374.65000000026,
-            "notas": 228,
+            "valor": 305465.1500000004,
+            "notas": 229,
             "fornecedores": [
               {
                 "nome": "LATAM Airlines Brasil",
                 "cnpjCpf": "02012862000160",
-                "total": 220419.39000000004,
-                "notas": 171,
+                "total": 223509.89000000004,
+                "notas": 172,
                 "outrosNomes": [
                   "TAM"
                 ]
@@ -6222,6 +6230,15 @@
                 "documento": null
               },
               {
+                "id": "863EE92A-6DC1-416A-A70A-C8881956A5BD",
+                "data": "2026-08-09",
+                "tipo": "PASSAGEM AÉREA - SIGEPA",
+                "valor": 3090.5,
+                "fornecedor": "LATAM Airlines Brasil",
+                "cnpjCpf": "02012862000160",
+                "documento": null
+              },
+              {
                 "id": "6A8F045C-AD35-4ED3-92B8-66A757F8BD69",
                 "data": "2026-01-21",
                 "tipo": "PASSAGEM AÉREA - SIGEPA",
@@ -6244,15 +6261,6 @@
                 "data": "2025-10-28",
                 "tipo": "PASSAGEM AÉREA - SIGEPA",
                 "valor": 3011.74,
-                "fornecedor": "LATAM Airlines Brasil",
-                "cnpjCpf": "02012862000160",
-                "documento": null
-              },
-              {
-                "id": "F12CD50D-1284-4AA9-9B61-B0BD514BC3AA",
-                "data": "2026-01-13",
-                "tipo": "PASSAGEM AÉREA - SIGEPA",
-                "valor": 2977.32,
                 "fornecedor": "LATAM Airlines Brasil",
                 "cnpjCpf": "02012862000160",
                 "documento": null
@@ -6997,7 +7005,7 @@
           },
           {
             "competencia": "2026-08",
-            "valor": 17634.940000000002
+            "valor": 20725.440000000002
           },
           {
             "competencia": "2026-09",
@@ -7024,8 +7032,8 @@
           {
             "nome": "LATAM Airlines Brasil",
             "cnpjCpf": "02012862000160",
-            "total": 224139.34000000003,
-            "notas": 173,
+            "total": 227229.84000000003,
+            "notas": 174,
             "outrosNomes": [
               "TAM",
               "Cia Aérea - TAM"
@@ -7283,7 +7291,7 @@
         ],
         "comprovantes": {
           "com": 1144,
-          "total": 1447
+          "total": 1449
         }
       },
       "proposicoes": {
@@ -9243,8 +9251,8 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/178873.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/178873",
       "despesas": {
-        "total": 1426772.1199999903,
-        "documentos": 2420,
+        "total": 1433162.1199999899,
+        "documentos": 2423,
         "porTipo": [
           {
             "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
@@ -9484,8 +9492,8 @@
           },
           {
             "tipo": "LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES",
-            "valor": 259451.68,
-            "notas": 87,
+            "valor": 265841.68,
+            "notas": 88,
             "fornecedores": [
               {
                 "nome": "DELTA AUTOMOTORES LTDA",
@@ -9499,8 +9507,8 @@
               {
                 "nome": "VD COMERCIO DE VEICULOS LTDA",
                 "cnpjCpf": "39786983000179",
-                "total": 31950,
-                "notas": 5,
+                "total": 38340,
+                "notas": 6,
                 "outrosNomes": [
                   "VD COMÉRCIO DE VEÍCULOS LTDA"
                 ]
@@ -10317,7 +10325,7 @@
           },
           {
             "competencia": "2026-09",
-            "valor": 939.79
+            "valor": 7329.79
           }
         ],
         "fornecedores": [
@@ -10422,8 +10430,8 @@
           {
             "nome": "VD COMERCIO DE VEICULOS LTDA",
             "cnpjCpf": "39786983000179",
-            "total": 31950,
-            "notas": 5,
+            "total": 38340,
+            "notas": 6,
             "outrosNomes": [
               "VD COMÉRCIO DE VEÍCULOS LTDA"
             ]
@@ -10615,8 +10623,8 @@
           }
         ],
         "comprovantes": {
-          "com": 2219,
-          "total": 2420
+          "com": 2220,
+          "total": 2423
         }
       },
       "proposicoes": {
@@ -10941,8 +10949,8 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/220527.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/220527",
       "despesas": {
-        "total": 1846534.5499999998,
-        "documentos": 1542,
+        "total": 1851564.4599999997,
+        "documentos": 1546,
         "porTipo": [
           {
             "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
@@ -11056,14 +11064,14 @@
           },
           {
             "tipo": "PASSAGEM AÉREA - SIGEPA",
-            "valor": 415918.8099999999,
-            "notas": 333,
+            "valor": 420948.7199999999,
+            "notas": 336,
             "fornecedores": [
               {
                 "nome": "LATAM Airlines Brasil",
                 "cnpjCpf": "02012862000160",
-                "total": 330112.8500000001,
-                "notas": 266,
+                "total": 335142.76000000007,
+                "notas": 269,
                 "outrosNomes": [
                   "TAM"
                 ]
@@ -11935,7 +11943,7 @@
           },
           {
             "competencia": "2026-08",
-            "valor": 27655.400000000005
+            "valor": 32685.310000000005
           },
           {
             "competencia": "2026-09",
@@ -11946,8 +11954,8 @@
           {
             "nome": "LATAM Airlines Brasil",
             "cnpjCpf": "02012862000160",
-            "total": 330112.8500000001,
-            "notas": 266,
+            "total": 335142.76000000007,
+            "notas": 269,
             "outrosNomes": [
               "TAM"
             ]
@@ -12223,7 +12231,7 @@
         ],
         "comprovantes": {
           "com": 1170,
-          "total": 1542
+          "total": 1546
         }
       },
       "proposicoes": {
@@ -14010,8 +14018,8 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/160517.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/160517",
       "despesas": {
-        "total": 1928933.9800000042,
-        "documentos": 1061,
+        "total": 1930366.580000004,
+        "documentos": 1065,
         "porTipo": [
           {
             "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
@@ -14339,14 +14347,14 @@
           },
           {
             "tipo": "PASSAGEM AÉREA - SIGEPA",
-            "valor": 252203.35000000012,
-            "notas": 269,
+            "valor": 253635.95000000013,
+            "notas": 273,
             "fornecedores": [
               {
                 "nome": "LATAM Airlines Brasil",
                 "cnpjCpf": "02012862000160",
-                "total": 192087.62000000014,
-                "notas": 213,
+                "total": 193520.22000000012,
+                "notas": 217,
                 "outrosNomes": [
                   "TAM"
                 ]
@@ -15031,7 +15039,7 @@
           },
           {
             "competencia": "2026-08",
-            "valor": 21194.09
+            "valor": 22626.690000000002
           },
           {
             "competencia": "2026-09",
@@ -15068,8 +15076,8 @@
           {
             "nome": "LATAM Airlines Brasil",
             "cnpjCpf": "02012862000160",
-            "total": 202915.45000000016,
-            "notas": 219,
+            "total": 204348.05000000013,
+            "notas": 223,
             "outrosNomes": [
               "TAM",
               "Cia Aérea - TAM"
@@ -15326,7 +15334,7 @@
         ],
         "comprovantes": {
           "com": 664,
-          "total": 1061
+          "total": 1065
         }
       },
       "proposicoes": {

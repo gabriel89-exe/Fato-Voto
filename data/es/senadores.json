@@ -11,7 +11,7 @@
     2025,
     2026
   ],
-  "coletadoEm": "2026-10-06T15:59:23.732Z",
+  "coletadoEm": "2026-10-07T16:31:01.111Z",
   "senadores": [
     {
       "id": "senado-5953",
@@ -8033,6 +8033,16 @@
       },
       "materias": [
         {
+          "id": "175924",
+          "identificacao": "REQ 348/2026 - CDIR",
+          "sigla": "REQ",
+          "numero": "348",
+          "ano": 2026,
+          "ementa": "Requeiro, nos termos dos arts. 13 e 215, I, “b”, do Regimento Interno do Senado Federal, em face do que dispõe o art. 55, III, da Constituição Federal, licença para desempenhar missão política ou cultural de interesse parlamentar, sem ônus para o Senado Federal, no meu Estado, de 06/10/2026 a 08/10/2026.",
+          "data": "2026-10-07",
+          "autorPrincipal": true
+        },
+        {
           "id": "175798",
           "identificacao": "RQS 685/2026",
           "sigla": "RQS",
@@ -11084,7 +11094,7 @@
         },
         {
           "sigla": "REQ",
-          "total": 66
+          "total": 67
         },
         {
           "sigla": "PL",
