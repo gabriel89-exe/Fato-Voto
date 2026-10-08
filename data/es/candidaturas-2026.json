@@ -9,7 +9,7 @@
     "idEleicao": "20322002026",
     "uf": "ES"
   },
-  "coletadoEm": "2026-10-07T16:29:26.790Z",
+  "coletadoEm": "2026-10-08T16:28:46.266Z",
   "total": 577,
   "candidaturas": [
     {
@@ -2447,17 +2447,17 @@
         },
         {
           "ano": 2022,
-          "cargo": "Presidente",
-          "partido": "PROS",
-          "uf": "BR",
-          "resultado": "Concorrendo"
-        },
-        {
-          "ano": 2022,
           "cargo": "Deputado Federal",
           "partido": "PROS",
           "uf": "SP",
           "resultado": "Não eleito"
+        },
+        {
+          "ano": 2022,
+          "cargo": "Presidente",
+          "partido": "PROS",
+          "uf": "BR",
+          "resultado": "Concorrendo"
         }
       ],
       "primeiraCandidatura": false,
@@ -15787,7 +15787,7 @@
         "nome": "PARTIDO LIBERAL"
       },
       "coligacao": "PL",
-      "situacaoRegistro": "Pendente de julgamento",
+      "situacaoRegistro": "Deferido",
       "situacaoCandidatura": "Consta da urna",
       "apto": true,
       "disputaReeleicao": false,

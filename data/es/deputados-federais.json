@@ -6,7 +6,7 @@
   },
   "uf": "ES",
   "legislatura": 57,
-  "coletadoEm": "2026-10-07T16:30:52.626Z",
+  "coletadoEm": "2026-10-08T16:30:01.213Z",
   "referencia": {
     "bancada": 10,
     "medianaDespesas": 1924662.9800000028,
@@ -35,8 +35,8 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/204356.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/204356",
       "despesas": {
-        "total": 1855448.4400000018,
-        "documentos": 1044,
+        "total": 1859060.9800000018,
+        "documentos": 1047,
         "porTipo": [
           {
             "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
@@ -294,14 +294,14 @@
           },
           {
             "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
-            "valor": 143471.46999999997,
-            "notas": 193,
+            "valor": 147084.00999999995,
+            "notas": 196,
             "fornecedores": [
               {
                 "nome": "APE VILA VELHA IMOBILIARIA E CONSTRUCOES LTDA",
                 "cnpjCpf": "28926781000169",
-                "total": 100708.02000000002,
-                "notas": 39,
+                "total": 103531.56000000001,
+                "notas": 40,
                 "outrosNomes": [
                   "Apê Vila Velha Imobiliária e Construções",
                   "Apê Vila Velha Imobiliária e Construções.."
@@ -310,8 +310,8 @@
               {
                 "nome": "CONDOMINIO DO EDIFICIO ITAPARICA TOP BUSINESS",
                 "cnpjCpf": "27423181000115",
-                "total": 25909.320000000014,
-                "notas": 78,
+                "total": 26698.32000000001,
+                "notas": 80,
                 "outrosNomes": [
                   "Condominio do Edificio Itaparica Top Business"
                 ]
@@ -381,6 +381,15 @@
                 "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3270/2023/7541352.pdf"
               },
               {
+                "id": "8161978",
+                "data": "2026-09-30",
+                "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
+                "valor": 2823.54,
+                "fornecedor": "APE VILA VELHA IMOBILIARIA E CONSTRUCOES LTDA",
+                "cnpjCpf": "28926781000169",
+                "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3270/2026/8161978.pdf"
+              },
+              {
                 "id": "8099850",
                 "data": "2026-05-13",
                 "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
@@ -397,15 +406,6 @@
                 "fornecedor": "Apê Vila Velha Imobiliária e Construções",
                 "cnpjCpf": "28926781000169",
                 "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3270/2026/8115395.pdf"
-              },
-              {
-                "id": "8125780",
-                "data": "2026-06-30",
-                "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
-                "valor": 2820.54,
-                "fornecedor": "APE VILA VELHA IMOBILIARIA E CONSTRUCOES LTDA",
-                "cnpjCpf": "28926781000169",
-                "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3270/2026/8125780.pdf"
               }
             ]
           },
@@ -709,7 +709,7 @@
           },
           {
             "competencia": "2026-10",
-            "valor": 330.2
+            "valor": 3942.74
           }
         ],
         "fornecedores": [
@@ -760,8 +760,8 @@
           {
             "nome": "APE VILA VELHA IMOBILIARIA E CONSTRUCOES LTDA",
             "cnpjCpf": "28926781000169",
-            "total": 100708.02000000002,
-            "notas": 39,
+            "total": 103531.56000000001,
+            "notas": 40,
             "outrosNomes": [
               "Apê Vila Velha Imobiliária e Construções",
               "Apê Vila Velha Imobiliária e Construções.."
@@ -784,8 +784,8 @@
           {
             "nome": "CONDOMINIO DO EDIFICIO ITAPARICA TOP BUSINESS",
             "cnpjCpf": "27423181000115",
-            "total": 25909.320000000014,
-            "notas": 78,
+            "total": 26698.32000000001,
+            "notas": 80,
             "outrosNomes": [
               "Condominio do Edificio Itaparica Top Business"
             ]
@@ -819,8 +819,8 @@
           }
         ],
         "glosas": {
-          "quantidade": 151,
-          "valor": 8025.500000000003,
+          "quantidade": 153,
+          "valor": 8169.320000000002,
           "exemplos": [
             {
               "id": "7585825",
@@ -997,8 +997,8 @@
           }
         ],
         "comprovantes": {
-          "com": 709,
-          "total": 1044
+          "com": 712,
+          "total": 1047
         }
       },
       "proposicoes": {
@@ -5589,7 +5589,7 @@
           {
             "tipo": "Requerimento de Convocação de Ministro de Estado na Comissão (art. 50, CF)",
             "sigla": "REQ",
-            "total": 211
+            "total": 212
           },
           {
             "tipo": "Requerimento de Audiência Pública",
@@ -5797,11 +5797,6 @@
             "total": 2
           },
           {
-            "tipo": "Requerimento",
-            "sigla": "REQ",
-            "total": 2
-          },
-          {
             "tipo": "Recurso do Conselho de Ética que contraria norma constitucional ou regimental (Art. 13 ou 14, CEDP)",
             "sigla": "REC",
             "total": 2
@@ -5818,6 +5813,11 @@
           },
           {
             "tipo": "Requerimento de Constituição de Comissão Especial de Projeto",
+            "sigla": "REQ",
+            "total": 1
+          },
+          {
+            "tipo": "Requerimento",
             "sigla": "REQ",
             "total": 1
           },
@@ -5951,7 +5951,7 @@
           {
             "id": 2646128,
             "sigla": "REQ",
-            "tipo": "Requerimento",
+            "tipo": "Requerimento de Convocação de Ministro de Estado na Comissão (art. 50, CF)",
             "numero": 188,
             "ano": 2026,
             "ementa": "Requer a convocação do Ministro de Estado da Saúde para prestar esclarecimentos sobre denúncias de possível conflito de interesses envolvendo a gestão de projetos estratégicos do Complexo Econômico-Industrial da Saúde (CEIS), os critérios de destinação de recursos públicos bilionários e as medidas adotadas para assegurar a legalidade, a impessoalidade e a transparência na aplicação desses recursos.",
@@ -7596,8 +7596,8 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/220526.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/220526",
       "despesas": {
-        "total": 1633519.4299999997,
-        "documentos": 1822,
+        "total": 1633619.4299999997,
+        "documentos": 1823,
         "porTipo": [
           {
             "tipo": "PASSAGEM AÉREA - SIGEPA",
@@ -7887,8 +7887,8 @@
           },
           {
             "tipo": "COMBUSTÍVEIS E LUBRIFICANTES.",
-            "valor": 135925.48,
-            "notas": 775,
+            "valor": 136025.48,
+            "notas": 776,
             "fornecedores": [
               {
                 "nome": "071 - LAGO NORTE - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
@@ -8668,6 +8668,10 @@
           {
             "competencia": "2026-09",
             "valor": 9271.08
+          },
+          {
+            "competencia": "2026-10",
+            "valor": 100
           }
         ],
         "fornecedores": [
@@ -8950,8 +8954,8 @@
           }
         ],
         "comprovantes": {
-          "com": 1329,
-          "total": 1822
+          "com": 1330,
+          "total": 1823
         }
       },
       "proposicoes": {
@@ -12527,8 +12531,8 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/220530.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/220530",
       "despesas": {
-        "total": 1939907.169999999,
-        "documentos": 1277,
+        "total": 1948407.169999999,
+        "documentos": 1278,
         "porTipo": [
           {
             "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
@@ -12646,8 +12650,8 @@
           },
           {
             "tipo": "LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES",
-            "valor": 382341.54000000004,
-            "notas": 81,
+            "valor": 390841.54000000004,
+            "notas": 82,
             "fornecedores": [
               {
                 "nome": "Jean Pierre Silva dos Santos",
@@ -12670,8 +12674,8 @@
               {
                 "nome": "PANTANAL-VEICULOS LTDA",
                 "cnpjCpf": "07319323000191",
-                "total": 33565,
-                "notas": 8,
+                "total": 42065,
+                "notas": 9,
                 "outrosNomes": [
                   "PANTANAL VEÍCULOS LTDA"
                 ]
@@ -12697,6 +12701,15 @@
                 "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3631/2026/8152260.pdf"
               },
               {
+                "id": "8161771",
+                "data": "2026-09-30",
+                "tipo": "LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES",
+                "valor": 8500,
+                "fornecedor": "PANTANAL-VEICULOS LTDA",
+                "cnpjCpf": "07319323000191",
+                "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3631/2026/8161771.pdf"
+              },
+              {
                 "id": "8092570",
                 "data": "2026-05-05",
                 "tipo": "LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES",
@@ -12713,15 +12726,6 @@
                 "fornecedor": "DALETH VEICULOS LTDA EPP",
                 "cnpjCpf": "04515963000189",
                 "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3631/2026/8094006.pdf"
-              },
-              {
-                "id": "8109323",
-                "data": "2026-06-01",
-                "tipo": "LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES",
-                "valor": 7000,
-                "fornecedor": "DALETH VEICULOS LTDA EPP",
-                "cnpjCpf": "04515963000189",
-                "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3631/2026/8109323.pdf"
               }
             ]
           },
@@ -13352,7 +13356,7 @@
           },
           {
             "competencia": "2026-09",
-            "valor": 619
+            "valor": 9119
           }
         ],
         "fornecedores": [
@@ -13449,12 +13453,12 @@
             ]
           },
           {
-            "nome": "Azul Linhas Aéreas",
-            "cnpjCpf": "09296295000160",
-            "total": 38413.850000000006,
-            "notas": 24,
+            "nome": "PANTANAL-VEICULOS LTDA",
+            "cnpjCpf": "07319323000191",
+            "total": 42065,
+            "notas": 9,
             "outrosNomes": [
-              "AZUL"
+              "PANTANAL VEÍCULOS LTDA"
             ]
           }
         ],
@@ -13637,8 +13641,8 @@
           }
         ],
         "comprovantes": {
-          "com": 982,
-          "total": 1277
+          "com": 983,
+          "total": 1278
         }
       },
       "proposicoes": {
