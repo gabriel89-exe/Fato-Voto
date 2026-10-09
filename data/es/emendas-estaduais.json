@@ -11,11 +11,11 @@
     2025,
     2026
   ],
-  "coletadoEm": "2026-10-08T16:41:26.850Z",
+  "coletadoEm": "2026-10-09T16:28:56.757Z",
   "recorte": "Emendas ao Orçamento do Espírito Santo cujo autor individual é deputado estadual da legislatura atual da ALES (2023–2027) e candidato em 2026. A LOA de um ano é emendada no ano anterior: a de 2023 foi emendada pela legislatura anterior, e só aparece para quem já era deputado. Emenda de bancada e de comissão não tem autor individual e não entra. O casamento com a candidatura é por nome, com desistência em qualquer ambiguidade — os nomes que não casaram estão listados no dado.",
   "conferencia": {
     "aprovada": true,
-    "conferidoEm": "2026-10-08T16:41:26.782Z",
+    "conferidoEm": "2026-10-09T16:28:56.718Z",
     "provas": [
       "cada arquivo é baixado duas vezes, e os dois downloads têm de ser idênticos",
       "o valor previsto da emenda repete igual em todas as linhas dela",
@@ -28,7 +28,7 @@
     "bancada": 33,
     "medianaEmpenhado": 6257874.29,
     "menor": 644846.78,
-    "maior": 69898987.84
+    "maior": 69948698.94
   },
   "parlamentares": [
     {
@@ -43,7 +43,7 @@
         "valoresPublicados": true,
         "totais": {
           "previsto": 8700000,
-          "empenhado": 6975421.63,
+          "empenhado": 6985396.7299999995,
           "liquidado": 6256851.63,
           "pago": 5760970.87,
           "restosAPagar": 985880.76
@@ -70,7 +70,7 @@
           {
             "ano": 2026,
             "quantidade": 49,
-            "empenhado": 764637.5,
+            "empenhado": 774612.6,
             "pago": 572637.5
           }
         ],
@@ -83,8 +83,8 @@
           },
           {
             "nome": "ASSISTÊNCIA SOCIAL",
-            "quantidade": 58,
-            "empenhado": 1834200.91,
+            "quantidade": 59,
+            "empenhado": 1844176.01,
             "pago": 1814200.91
           },
           {
@@ -125,7 +125,7 @@
           },
           {
             "nome": "Não informada",
-            "quantidade": 46,
+            "quantidade": 45,
             "empenhado": 0,
             "pago": 0
           }
@@ -140,7 +140,7 @@
           {
             "nome": "Marechal Floriano",
             "quantidade": 10,
-            "empenhado": 1145495.04,
+            "empenhado": 1155470.1400000001,
             "pago": 1125495.04
           },
           {
@@ -316,7 +316,7 @@
           {
             "nome": "Individual com finalidade definida não impositiva",
             "quantidade": 148,
-            "empenhado": 6975421.63,
+            "empenhado": 6985396.7299999995,
             "pago": 5760970.87
           }
         ],
@@ -1215,7 +1215,7 @@
           "previsto": 7200000,
           "empenhado": 5228597.420000001,
           "liquidado": 5047454.34,
-          "pago": 4842561.59,
+          "pago": 4802562.97,
           "restosAPagar": 326620.75
         },
         "porAno": [
@@ -1235,7 +1235,7 @@
             "ano": 2026,
             "quantidade": 65,
             "empenhado": 1163519.22,
-            "pago": 1104116.23
+            "pago": 1064117.6099999999
           }
         ],
         "porFuncao": [
@@ -1285,7 +1285,7 @@
             "nome": "EDUCAÇÃO",
             "quantidade": 2,
             "empenhado": 49998.62,
-            "pago": 49998.62
+            "pago": 10000
           },
           {
             "nome": "GESTÃO AMBIENTAL",
@@ -1407,7 +1407,7 @@
             "nome": "Rio Novo do Sul",
             "quantidade": 2,
             "empenhado": 39998.62,
-            "pago": 39998.62
+            "pago": 0
           },
           {
             "nome": "São Mateus",
@@ -1517,7 +1517,7 @@
             "nome": "Individual com finalidade definida não impositiva",
             "quantidade": 182,
             "empenhado": 5228597.420000001,
-            "pago": 4842561.59
+            "pago": 4802562.97
           }
         ],
         "criterioDaLista": "as 10 de maior valor empenhado",
@@ -2425,7 +2425,7 @@
         "valoresPublicados": true,
         "totais": {
           "previsto": 7100000,
-          "empenhado": 5077953.67,
+          "empenhado": 5127953.67,
           "liquidado": 4488382.67,
           "pago": 4363712.67,
           "restosAPagar": 672108.4199999999
@@ -2446,7 +2446,7 @@
           {
             "ano": 2026,
             "quantidade": 78,
-            "empenhado": 1314945,
+            "empenhado": 1364945,
             "pago": 1314945
           }
         ],
@@ -2489,8 +2489,8 @@
           },
           {
             "nome": "GESTÃO AMBIENTAL",
-            "quantidade": 4,
-            "empenhado": 235000,
+            "quantidade": 5,
+            "empenhado": 285000,
             "pago": 235000
           },
           {
@@ -2519,7 +2519,7 @@
           },
           {
             "nome": "Não informada",
-            "quantidade": 61,
+            "quantidade": 60,
             "empenhado": 0,
             "pago": 0
           }
@@ -2596,6 +2596,12 @@
             "quantidade": 2,
             "empenhado": 64668.05,
             "pago": 19998.05
+          },
+          {
+            "nome": "Divino de São Lourenço",
+            "quantidade": 1,
+            "empenhado": 50000,
+            "pago": 0
           },
           {
             "nome": "Rio Novo do Sul",
@@ -2694,12 +2700,6 @@
             "pago": 0
           },
           {
-            "nome": "Divino de São Lourenço",
-            "quantidade": 1,
-            "empenhado": 0,
-            "pago": 0
-          },
-          {
             "nome": "Fundão",
             "quantidade": 1,
             "empenhado": 0,
@@ -2746,7 +2746,7 @@
           {
             "nome": "Individual com finalidade definida não impositiva",
             "quantidade": 186,
-            "empenhado": 5077953.67,
+            "empenhado": 5127953.67,
             "pago": 4363712.67
           }
         ],
@@ -8551,9 +8551,9 @@
         "valoresPublicados": true,
         "totais": {
           "previsto": 193094300,
-          "empenhado": 69898987.84,
-          "liquidado": 66380406.78,
-          "pago": 66380406.78,
+          "empenhado": 69948698.94,
+          "liquidado": 66380406.779999994,
+          "pago": 66380406.779999994,
           "restosAPagar": 1471025.8900000001
         },
         "porAno": [
@@ -8572,7 +8572,7 @@
           {
             "ano": 2026,
             "quantidade": 188,
-            "empenhado": 64062974.650000006,
+            "empenhado": 64112685.75000001,
             "pago": 62016556.529999994
           }
         ],
@@ -8615,8 +8615,8 @@
           },
           {
             "nome": "ASSISTÊNCIA SOCIAL",
-            "quantidade": 25,
-            "empenhado": 903177.89,
+            "quantidade": 26,
+            "empenhado": 952888.99,
             "pago": 903177.89
           },
           {
@@ -8639,7 +8639,7 @@
           },
           {
             "nome": "Não informada",
-            "quantidade": 82,
+            "quantidade": 81,
             "empenhado": 0,
             "pago": 0
           }
@@ -8874,6 +8874,12 @@
             "pago": 49969.52
           },
           {
+            "nome": "Marechal Floriano",
+            "quantidade": 1,
+            "empenhado": 49711.1,
+            "pago": 0
+          },
+          {
             "nome": "São Gabriel da Palha",
             "quantidade": 2,
             "empenhado": 40000,
@@ -8916,12 +8922,6 @@
             "pago": 0
           },
           {
-            "nome": "Marechal Floriano",
-            "quantidade": 1,
-            "empenhado": 0,
-            "pago": 0
-          },
-          {
             "nome": "Viana",
             "quantidade": 1,
             "empenhado": 0,
@@ -8932,8 +8932,8 @@
           {
             "nome": "Individual com finalidade definida não impositiva",
             "quantidade": 265,
-            "empenhado": 69898987.84,
-            "pago": 66380406.78
+            "empenhado": 69948698.94,
+            "pago": 66380406.779999994
           }
         ],
         "criterioDaLista": "as 10 de maior valor empenhado",
@@ -9287,7 +9287,7 @@
         "valoresPublicados": true,
         "totais": {
           "previsto": 8656950,
-          "empenhado": 7042912.699999999,
+          "empenhado": 7062912.699999999,
           "liquidado": 5800935.2700000005,
           "pago": 5652212.2700000005,
           "restosAPagar": 873713
@@ -9314,7 +9314,7 @@
           {
             "ano": 2026,
             "quantidade": 102,
-            "empenhado": 1658900.33,
+            "empenhado": 1678900.33,
             "pago": 1182213.0699999998
           }
         ],
@@ -9327,8 +9327,8 @@
           },
           {
             "nome": "ASSISTÊNCIA SOCIAL",
-            "quantidade": 105,
-            "empenhado": 2001445.0499999998,
+            "quantidade": 106,
+            "empenhado": 2021445.0499999998,
             "pago": 1876445.0499999998
           },
           {
@@ -9381,7 +9381,7 @@
           },
           {
             "nome": "Não informada",
-            "quantidade": 113,
+            "quantidade": 112,
             "empenhado": 0,
             "pago": 0
           }
@@ -9408,7 +9408,7 @@
           {
             "nome": "Colatina",
             "quantidade": 15,
-            "empenhado": 377300,
+            "empenhado": 397300,
             "pago": 347144.56
           },
           {
@@ -9752,7 +9752,7 @@
           {
             "nome": "Individual com finalidade definida não impositiva",
             "quantidade": 344,
-            "empenhado": 7042912.699999999,
+            "empenhado": 7062912.699999999,
             "pago": 5652212.2700000005
           }
         ],
@@ -9883,7 +9883,7 @@
         "valoresPublicados": true,
         "totais": {
           "previsto": 7200000,
-          "empenhado": 4357174.720000001,
+          "empenhado": 4377174.720000001,
           "liquidado": 4142580.580000001,
           "pago": 3737918.550000001,
           "restosAPagar": 604256.08
@@ -9904,15 +9904,15 @@
           {
             "ano": 2026,
             "quantidade": 153,
-            "empenhado": 526641.19,
+            "empenhado": 546641.19,
             "pago": 526641.19
           }
         ],
         "porFuncao": [
           {
             "nome": "ASSISTÊNCIA SOCIAL",
-            "quantidade": 152,
-            "empenhado": 2858211.8500000006,
+            "quantidade": 153,
+            "empenhado": 2878211.8500000006,
             "pago": 2328831.7800000003
           },
           {
@@ -9959,7 +9959,7 @@
           },
           {
             "nome": "Não informada",
-            "quantidade": 159,
+            "quantidade": 158,
             "empenhado": 0,
             "pago": 0
           }
@@ -10200,6 +10200,12 @@
             "pago": 35000
           },
           {
+            "nome": "Marechal Floriano",
+            "quantidade": 4,
+            "empenhado": 35000,
+            "pago": 15000
+          },
+          {
             "nome": "Pinheiros",
             "quantidade": 4,
             "empenhado": 35000,
@@ -10356,12 +10362,6 @@
             "pago": 15000
           },
           {
-            "nome": "Marechal Floriano",
-            "quantidade": 4,
-            "empenhado": 15000,
-            "pago": 15000
-          },
-          {
             "nome": "Muniz Freire",
             "quantidade": 2,
             "empenhado": 15000,
@@ -10444,7 +10444,7 @@
           {
             "nome": "Individual com finalidade definida não impositiva",
             "quantidade": 350,
-            "empenhado": 4357174.720000001,
+            "empenhado": 4377174.720000001,
             "pago": 3737918.550000001
           }
         ],

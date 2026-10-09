@@ -6,12 +6,12 @@
   },
   "uf": "ES",
   "legislatura": 57,
-  "coletadoEm": "2026-10-08T16:30:01.213Z",
+  "coletadoEm": "2026-10-09T16:15:16.040Z",
   "referencia": {
     "bancada": 10,
     "medianaDespesas": 1924662.9800000028,
     "menor": 1433162.1199999899,
-    "maior": 2003383.8299999998
+    "maior": 2003843.2199999997
   },
   "parlamentares": [
     {
@@ -4165,8 +4165,8 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/178871.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/178871",
       "despesas": {
-        "total": 2003383.8299999998,
-        "documentos": 1610,
+        "total": 2003843.2199999997,
+        "documentos": 1612,
         "porTipo": [
           {
             "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
@@ -4461,8 +4461,8 @@
           },
           {
             "tipo": "COMBUSTÍVEIS E LUBRIFICANTES.",
-            "valor": 250513.66000000006,
-            "notas": 521,
+            "valor": 250683.15000000008,
+            "notas": 522,
             "fornecedores": [
               {
                 "nome": "AUTO POSTO ESMIG LTDA",
@@ -4474,8 +4474,8 @@
               {
                 "nome": "AUTO POSTO CINCO ESTRELAS LTDA",
                 "cnpjCpf": "00692418000107",
-                "total": 10280.929999999998,
-                "notas": 58,
+                "total": 10450.419999999998,
+                "notas": 59,
                 "outrosNomes": []
               },
               {
@@ -4670,8 +4670,8 @@
           },
           {
             "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
-            "valor": 38899.4,
-            "notas": 80,
+            "valor": 39189.299999999996,
+            "notas": 81,
             "fornecedores": [
               {
                 "nome": "VITORIA TECNOLOGIA DA INFORMACAO LTDA",
@@ -4709,17 +4709,17 @@
                 ]
               },
               {
+                "nome": "S.A. ATACADISTA DE ALIMENTOS LTDA",
+                "cnpjCpf": "07738069000166",
+                "total": 979.2,
+                "notas": 4,
+                "outrosNomes": []
+              },
+              {
                 "nome": "Kalunga SA",
                 "cnpjCpf": "43283811005976",
                 "total": 767.95,
                 "notas": 6,
-                "outrosNomes": []
-              },
-              {
-                "nome": "S.A. ATACADISTA DE ALIMENTOS LTDA",
-                "cnpjCpf": "07738069000166",
-                "total": 689.3,
-                "notas": 3,
                 "outrosNomes": []
               },
               {
@@ -5270,6 +5270,10 @@
           {
             "competencia": "2026-09",
             "valor": 5416.11
+          },
+          {
+            "competencia": "2026-10",
+            "valor": 459.39
           }
         ],
         "fornecedores": [
@@ -5570,8 +5574,8 @@
           }
         ],
         "comprovantes": {
-          "com": 1204,
-          "total": 1610
+          "com": 1206,
+          "total": 1612
         }
       },
       "proposicoes": {
@@ -7596,8 +7600,8 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/220526.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/220526",
       "despesas": {
-        "total": 1633619.4299999997,
-        "documentos": 1823,
+        "total": 1642204.8499999999,
+        "documentos": 1830,
         "porTipo": [
           {
             "tipo": "PASSAGEM AÉREA - SIGEPA",
@@ -7789,14 +7793,14 @@
           },
           {
             "tipo": "LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES",
-            "valor": 357836.10000000003,
-            "notas": 92,
+            "valor": 365336.1000000001,
+            "notas": 93,
             "fornecedores": [
               {
                 "nome": "NOVACAR LOCADORA DE VEICULOS LTDA",
                 "cnpjCpf": "19374791000148",
-                "total": 324528.2,
-                "notas": 70,
+                "total": 332028.2,
+                "notas": 71,
                 "outrosNomes": [
                   "NOVACAR LOCADORA DE VEICULOS LTDA.",
                   "Novacar Locadora de Veículos Ltda"
@@ -7839,6 +7843,15 @@
             ],
             "maiores": [
               {
+                "id": "8162832",
+                "data": "2026-10-05",
+                "tipo": "LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES",
+                "valor": 7500,
+                "fornecedor": "NOVACAR LOCADORA DE VEICULOS LTDA",
+                "cnpjCpf": "19374791000148",
+                "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3650/2026/8162832.pdf"
+              },
+              {
                 "id": "7681677",
                 "data": "2024-02-02",
                 "tipo": "LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES",
@@ -7873,22 +7886,13 @@
                 "fornecedor": "Novacar Locadora de Veículos Ltda",
                 "cnpjCpf": "19374791000148",
                 "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3650/2024/7735374.pdf"
-              },
-              {
-                "id": "7752839",
-                "data": "2024-06-04",
-                "tipo": "LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES",
-                "valor": 7200,
-                "fornecedor": "Novacar Locadora de Veículos Ltda",
-                "cnpjCpf": "19374791000148",
-                "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3650/2024/7752839.pdf"
               }
             ]
           },
           {
             "tipo": "COMBUSTÍVEIS E LUBRIFICANTES.",
-            "valor": 136025.48,
-            "notas": 776,
+            "valor": 137110.90000000002,
+            "notas": 782,
             "fornecedores": [
               {
                 "nome": "071 - LAGO NORTE - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
@@ -8667,11 +8671,11 @@
           },
           {
             "competencia": "2026-09",
-            "valor": 9271.08
+            "valor": 16771.079999999998
           },
           {
             "competencia": "2026-10",
-            "valor": 100
+            "valor": 1185.4199999999998
           }
         ],
         "fornecedores": [
@@ -8688,8 +8692,8 @@
           {
             "nome": "NOVACAR LOCADORA DE VEICULOS LTDA",
             "cnpjCpf": "19374791000148",
-            "total": 324528.2,
-            "notas": 70,
+            "total": 332028.2,
+            "notas": 71,
             "outrosNomes": [
               "NOVACAR LOCADORA DE VEICULOS LTDA.",
               "Novacar Locadora de Veículos Ltda"
@@ -8954,8 +8958,8 @@
           }
         ],
         "comprovantes": {
-          "com": 1330,
-          "total": 1823
+          "com": 1337,
+          "total": 1830
         }
       },
       "proposicoes": {
