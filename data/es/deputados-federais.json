@@ -6,7 +6,7 @@
   },
   "uf": "ES",
   "legislatura": 57,
-  "coletadoEm": "2026-10-11T15:42:26.863Z",
+  "coletadoEm": "2026-10-12T19:06:02.398Z",
   "referencia": {
     "bancada": 10,
     "medianaDespesas": 1924662.9800000028,
@@ -35,8 +35,8 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/204356.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/204356",
       "despesas": {
-        "total": 1859060.9800000018,
-        "documentos": 1047,
+        "total": 1864560.9800000018,
+        "documentos": 1048,
         "porTipo": [
           {
             "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
@@ -125,14 +125,14 @@
           },
           {
             "tipo": "LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES",
-            "valor": 354056.42,
-            "notas": 71,
+            "valor": 359556.42,
+            "notas": 72,
             "fornecedores": [
               {
                 "nome": "PONTA LOCACAO DE VEICULOS LTDA",
                 "cnpjCpf": "42761872000112",
-                "total": 155250,
-                "notas": 27,
+                "total": 160750,
+                "notas": 28,
                 "outrosNomes": [
                   "PONTA LOCAÇÃO DE VEÍCULOS LTDA"
                 ]
@@ -705,7 +705,7 @@
           },
           {
             "competencia": "2026-09",
-            "valor": 4733.24
+            "valor": 10233.24
           },
           {
             "competencia": "2026-10",
@@ -742,8 +742,8 @@
           {
             "nome": "PONTA LOCACAO DE VEICULOS LTDA",
             "cnpjCpf": "42761872000112",
-            "total": 155250,
-            "notas": 27,
+            "total": 160750,
+            "notas": 28,
             "outrosNomes": [
               "PONTA LOCAÇÃO DE VEÍCULOS LTDA"
             ]
@@ -997,8 +997,8 @@
           }
         ],
         "comprovantes": {
-          "com": 712,
-          "total": 1047
+          "com": 713,
+          "total": 1048
         }
       },
       "proposicoes": {
@@ -7600,8 +7600,8 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/220526.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/220526",
       "despesas": {
-        "total": 1642204.8499999999,
-        "documentos": 1830,
+        "total": 1642464.8499999999,
+        "documentos": 1831,
         "porTipo": [
           {
             "tipo": "PASSAGEM AÉREA - SIGEPA",
@@ -8121,8 +8121,8 @@
           },
           {
             "tipo": "HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.",
-            "valor": 121027.18999999986,
-            "notas": 239,
+            "valor": 121287.18999999986,
+            "notas": 240,
             "fornecedores": [
               {
                 "nome": "FOUR TOWERS HOTELS LTDA",
@@ -8671,7 +8671,7 @@
           },
           {
             "competencia": "2026-09",
-            "valor": 16771.079999999998
+            "valor": 17031.079999999998
           },
           {
             "competencia": "2026-10",
@@ -8958,8 +8958,8 @@
           }
         ],
         "comprovantes": {
-          "com": 1337,
-          "total": 1830
+          "com": 1338,
+          "total": 1831
         }
       },
       "proposicoes": {
