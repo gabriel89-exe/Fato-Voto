@@ -6,7 +6,7 @@
   },
   "uf": "ES",
   "legislatura": 57,
-  "coletadoEm": "2026-10-12T19:06:02.398Z",
+  "coletadoEm": "2026-10-13T16:59:29.564Z",
   "referencia": {
     "bancada": 10,
     "medianaDespesas": 1924662.9800000028,
@@ -5663,7 +5663,7 @@
           {
             "tipo": "Requerimento de Urgência (Art. 155 do RICD)",
             "sigla": "REQ",
-            "total": 54
+            "total": 55
           },
           {
             "tipo": "Requerimento (Outros)",
@@ -5863,6 +5863,16 @@
         ],
         "recentes": [
           {
+            "id": 2647426,
+            "sigla": "REQ",
+            "tipo": "Requerimento de Urgência (Art. 155 do RICD)",
+            "numero": 4288,
+            "ano": 2026,
+            "ementa": "Requer\tregime\tde\turgência para apreciação do PL nº 3.716/2026.",
+            "apresentadaEm": "2026-10-13T13:21",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2647426"
+          },
+          {
             "id": 2646829,
             "sigla": "PL",
             "tipo": "Projeto de Lei",
@@ -5951,16 +5961,6 @@
             "ementa": "Institui mecanismos e estabelece condições para a renegociação de operações de crédito rural de mutuários cuja capacidade de pagamento seja prejudicada por efeitos adversos do fenômeno climático El Niño.",
             "apresentadaEm": "2026-08-20T17:13",
             "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2644300"
-          },
-          {
-            "id": 2646128,
-            "sigla": "REQ",
-            "tipo": "Requerimento de Convocação de Ministro de Estado na Comissão (art. 50, CF)",
-            "numero": 188,
-            "ano": 2026,
-            "ementa": "Requer a convocação do Ministro de Estado da Saúde para prestar esclarecimentos sobre denúncias de possível conflito de interesses envolvendo a gestão de projetos estratégicos do Complexo Econômico-Industrial da Saúde (CEIS), os critérios de destinação de recursos públicos bilionários e as medidas adotadas para assegurar a legalidade, a impessoalidade e a transparência na aplicação desses recursos.",
-            "apresentadaEm": "2026-08-14T13:23",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2646128"
           }
         ]
       }
