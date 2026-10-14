@@ -6,7 +6,7 @@
   },
   "uf": "ES",
   "legislatura": 57,
-  "coletadoEm": "2026-10-13T16:59:29.564Z",
+  "coletadoEm": "2026-10-14T14:33:22.634Z",
   "referencia": {
     "bancada": 10,
     "medianaDespesas": 1924662.9800000028,
@@ -5613,7 +5613,7 @@
           {
             "tipo": "Indicação",
             "sigla": "INC",
-            "total": 181
+            "total": 182
           },
           {
             "tipo": "Requerimento de Convocação de Ministro de Estado no Plenário (art. 50, CF)",
@@ -5863,6 +5863,16 @@
         ],
         "recentes": [
           {
+            "id": 2647488,
+            "sigla": "INC",
+            "tipo": "Indicação",
+            "numero": 1621,
+            "ano": 2026,
+            "ementa": "Requer o encaminhamento de Indicação à Procuradoria-Geral Eleitoral, sugerindo a instauração de procedimento para apurar as circunstâncias, as causas e eventuais responsabilidades pela falha na transmissão da propaganda eleitoral gratuita do candidato à Presidência da República Flávio Bolsonaro, ocorrida em 12 de outubro de 2026.",
+            "apresentadaEm": "2026-10-13T17:18",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2647488"
+          },
+          {
             "id": 2647426,
             "sigla": "REQ",
             "tipo": "Requerimento de Urgência (Art. 155 do RICD)",
@@ -5951,16 +5961,6 @@
             "ementa": "Requer informações ao Ministro de Estado dos Transportes acerca dos impactos da atual sistemática de emissão do Código Identificador da Operação de Transporte – CIOT – sobre Transportadores Autônomos de Cargas – TAC – e Empresas de Transporte Rodoviário de Cargas – ETC – de pequeno porte, bem como sobre eventual desestímulo à sua contratação.",
             "apresentadaEm": "2026-08-21T16:22",
             "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2644331"
-          },
-          {
-            "id": 2644300,
-            "sigla": "PL",
-            "tipo": "Projeto de Lei",
-            "numero": 5137,
-            "ano": 2026,
-            "ementa": "Institui mecanismos e estabelece condições para a renegociação de operações de crédito rural de mutuários cuja capacidade de pagamento seja prejudicada por efeitos adversos do fenômeno climático El Niño.",
-            "apresentadaEm": "2026-08-20T17:13",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2644300"
           }
         ]
       }

@@ -11,11 +11,11 @@
     2025,
     2026
   ],
-  "coletadoEm": "2026-10-13T17:11:04.892Z",
+  "coletadoEm": "2026-10-14T14:47:17.865Z",
   "recorte": "Emendas ao Orçamento do Espírito Santo cujo autor individual é deputado estadual da legislatura atual da ALES (2023–2027) e candidato em 2026. A LOA de um ano é emendada no ano anterior: a de 2023 foi emendada pela legislatura anterior, e só aparece para quem já era deputado. Emenda de bancada e de comissão não tem autor individual e não entra. O casamento com a candidatura é por nome, com desistência em qualquer ambiguidade — os nomes que não casaram estão listados no dado.",
   "conferencia": {
     "aprovada": true,
-    "conferidoEm": "2026-10-13T17:11:04.846Z",
+    "conferidoEm": "2026-10-14T14:47:17.809Z",
     "provas": [
       "cada arquivo é baixado duas vezes, e os dois downloads têm de ser idênticos",
       "o valor previsto da emenda repete igual em todas as linhas dela",
@@ -3622,8 +3622,8 @@
           {
             "ano": 2026,
             "quantidade": 48,
-            "empenhado": 2643376.72,
-            "pago": 2517921.15
+            "empenhado": 2643376.7199999997,
+            "pago": 2517921.1500000004
           }
         ],
         "porFuncao": [
@@ -3654,7 +3654,7 @@
           {
             "nome": "EDUCAÇÃO",
             "quantidade": 24,
-            "empenhado": 1105585.36,
+            "empenhado": 1105585.3600000003,
             "pago": 1085720.56
           },
           {
@@ -5026,8 +5026,8 @@
         "totais": {
           "previsto": 6870000,
           "empenhado": 5711959.760000001,
-          "liquidado": 5499664.99,
-          "pago": 5469664.99,
+          "liquidado": 5499664.990000001,
+          "pago": 5469664.990000001,
           "restosAPagar": 171939
         },
         "porAno": [
@@ -5245,7 +5245,7 @@
             "nome": "Individual com finalidade definida não impositiva",
             "quantidade": 77,
             "empenhado": 5711959.760000001,
-            "pago": 5469664.99
+            "pago": 5469664.990000001
           }
         ],
         "criterioDaLista": "as 10 de maior valor empenhado",
@@ -6012,7 +6012,7 @@
           {
             "nome": "ASSISTÊNCIA SOCIAL",
             "quantidade": 36,
-            "empenhado": 563246.9500000001,
+            "empenhado": 563246.95,
             "pago": 529976.37
           },
           {
@@ -8552,8 +8552,8 @@
         "totais": {
           "previsto": 193094300,
           "empenhado": 69948698.94,
-          "liquidado": 66734965.88,
-          "pago": 66685254.78,
+          "liquidado": 66734965.879999995,
+          "pago": 66685254.779999994,
           "restosAPagar": 1471025.8900000001
         },
         "porAno": [
@@ -8592,8 +8592,8 @@
           {
             "nome": "DESPORTO E LAZER",
             "quantidade": 50,
-            "empenhado": 11498243.15,
-            "pago": 10962694.95
+            "empenhado": 11498243.149999999,
+            "pago": 10962694.950000001
           },
           {
             "nome": "AGRICULTURA",
@@ -8933,7 +8933,7 @@
             "nome": "Individual com finalidade definida não impositiva",
             "quantidade": 265,
             "empenhado": 69948698.94,
-            "pago": 66685254.78
+            "pago": 66685254.779999994
           }
         ],
         "criterioDaLista": "as 10 de maior valor empenhado",
@@ -10598,8 +10598,8 @@
           {
             "nome": "ASSISTÊNCIA SOCIAL",
             "quantidade": 9,
-            "empenhado": 204557.97999999998,
-            "pago": 204557.97999999998
+            "empenhado": 204557.98,
+            "pago": 204557.98
           },
           {
             "nome": "DESPORTO E LAZER",
@@ -11802,7 +11802,7 @@
           {
             "ano": 2026,
             "quantidade": 22,
-            "empenhado": 1236783.1300000001,
+            "empenhado": 1236783.13,
             "pago": 1235795.49
           }
         ],
