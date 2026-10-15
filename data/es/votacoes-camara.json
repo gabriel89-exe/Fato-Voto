@@ -6,15 +6,267 @@
   },
   "uf": "ES",
   "legislatura": 57,
-  "coletadoEm": "2026-10-14T14:36:39.718Z",
+  "coletadoEm": "2026-10-15T14:17:34.544Z",
   "criterio": {
     "orgao": "Plenário",
     "tipo": "Votações nominais",
     "quantidade": 20,
     "ordem": "As mais recentes primeiro",
-    "sondagens": 400
+    "sondagens": 252
   },
   "votacoes": [
+    {
+      "id": "2236186-60",
+      "data": "2026-10-14",
+      "registradaEm": "2026-10-14T20:56:14",
+      "descricao": "Rejeitada a Subemenda Substitutiva ao Projeto de Lei Complementar nº 281, de 2019, adotada pelo relator da Comissão Especial. Sim: 252; Não: 176; Total: 428.",
+      "aprovada": false,
+      "proposicao": {
+        "id": 2236186,
+        "sigla": "PLP",
+        "numero": 281,
+        "ano": 2019,
+        "ementa": "Dispõe sobre os regimes de resolução das instituições autorizadas a funcionar pelo Banco Central do Brasil, pela Superintendência de Seguros Privados e pela Comissão de Valores Mobiliários.",
+        "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2236186"
+      },
+      "placar": [
+        {
+          "voto": "Sim",
+          "total": 252
+        },
+        {
+          "voto": "Não",
+          "total": 176
+        },
+        {
+          "voto": "Artigo 17",
+          "total": 1
+        }
+      ],
+      "votantes": 429,
+      "votosDoEstado": [
+        {
+          "idExterno": 204356,
+          "nome": "Amaro Neto",
+          "partido": "PP",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 220528,
+          "nome": "Dr. Victor Linhalis",
+          "partido": "PSB",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 178871,
+          "nome": "Evair Vieira de Melo",
+          "partido": "REPUBLICANOS",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 220529,
+          "nome": "Gilson Daniel",
+          "partido": "PODE",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 220526,
+          "nome": "Gilvan da Federal",
+          "partido": "PL",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 178873,
+          "nome": "Helder Salomão",
+          "partido": "PT",
+          "voto": "Não"
+        },
+        {
+          "idExterno": 220527,
+          "nome": "Jack Rocha",
+          "partido": "PT",
+          "voto": "Não"
+        },
+        {
+          "idExterno": 220530,
+          "nome": "Messias Donato",
+          "partido": "UNIÃO",
+          "voto": "Não"
+        },
+        {
+          "idExterno": 160517,
+          "nome": "Paulo Folletto",
+          "partido": "PSB",
+          "voto": "Não"
+        }
+      ]
+    },
+    {
+      "id": "2635476-36",
+      "data": "2026-10-14",
+      "registradaEm": "2026-10-14T19:42:50",
+      "descricao": "Aprovada a Subemenda Substitutiva Global ao Projeto de Lei Complementar nº 186, de 2026, adotada pelo relator da Comissão de Indústria, Comércio e Serviços, ressalvados os destaques. Sim: 461; Não: 4; Total: 465.",
+      "aprovada": true,
+      "proposicao": {
+        "id": 2635476,
+        "sigla": "PLP",
+        "numero": 186,
+        "ano": 2026,
+        "ementa": "Altera a Lei Complementar nº 123, de 14 de dezembro de 2006, para dispor sobre o limite de receita bruta anual e o número de empregados do Microempreendedor Individual.",
+        "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2635476"
+      },
+      "placar": [
+        {
+          "voto": "Sim",
+          "total": 461
+        },
+        {
+          "voto": "Não",
+          "total": 4
+        },
+        {
+          "voto": "Artigo 17",
+          "total": 1
+        }
+      ],
+      "votantes": 466,
+      "votosDoEstado": [
+        {
+          "idExterno": 204356,
+          "nome": "Amaro Neto",
+          "partido": "PP",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 204355,
+          "nome": "Da Vitoria",
+          "partido": "PP",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 220528,
+          "nome": "Dr. Victor Linhalis",
+          "partido": "PSB",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 178871,
+          "nome": "Evair Vieira de Melo",
+          "partido": "REPUBLICANOS",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 220529,
+          "nome": "Gilson Daniel",
+          "partido": "PODE",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 220526,
+          "nome": "Gilvan da Federal",
+          "partido": "PL",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 178873,
+          "nome": "Helder Salomão",
+          "partido": "PT",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 220527,
+          "nome": "Jack Rocha",
+          "partido": "PT",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 220530,
+          "nome": "Messias Donato",
+          "partido": "UNIÃO",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 160517,
+          "nome": "Paulo Folletto",
+          "partido": "PSB",
+          "voto": "Sim"
+        }
+      ]
+    },
+    {
+      "id": "2635476-23",
+      "data": "2026-10-14",
+      "registradaEm": "2026-10-14T17:20:23",
+      "descricao": "Rejeitado o Requerimento. Sim: 11; Não: 387; Total: 398.",
+      "aprovada": false,
+      "proposicao": {
+        "id": 2635476,
+        "sigla": "PLP",
+        "numero": 186,
+        "ano": 2026,
+        "ementa": "Altera a Lei Complementar nº 123, de 14 de dezembro de 2006, para dispor sobre o limite de receita bruta anual e o número de empregados do Microempreendedor Individual.",
+        "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2635476"
+      },
+      "placar": [
+        {
+          "voto": "Não",
+          "total": 387
+        },
+        {
+          "voto": "Sim",
+          "total": 11
+        },
+        {
+          "voto": "Artigo 17",
+          "total": 1
+        }
+      ],
+      "votantes": 399,
+      "votosDoEstado": [
+        {
+          "idExterno": 204356,
+          "nome": "Amaro Neto",
+          "partido": "PP",
+          "voto": "Não"
+        },
+        {
+          "idExterno": 220528,
+          "nome": "Dr. Victor Linhalis",
+          "partido": "PSB",
+          "voto": "Não"
+        },
+        {
+          "idExterno": 178871,
+          "nome": "Evair Vieira de Melo",
+          "partido": "REPUBLICANOS",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 220526,
+          "nome": "Gilvan da Federal",
+          "partido": "PL",
+          "voto": "Não"
+        },
+        {
+          "idExterno": 178873,
+          "nome": "Helder Salomão",
+          "partido": "PT",
+          "voto": "Não"
+        },
+        {
+          "idExterno": 220527,
+          "nome": "Jack Rocha",
+          "partido": "PT",
+          "voto": "Não"
+        },
+        {
+          "idExterno": 160517,
+          "nome": "Paulo Folletto",
+          "partido": "PSB",
+          "voto": "Não"
+        }
+      ]
+    },
     {
       "id": "2611313-31",
       "data": "2026-09-03",
@@ -670,6 +922,174 @@
       ]
     },
     {
+      "id": "2638483-34",
+      "data": "2026-07-14",
+      "registradaEm": "2026-07-14T18:50:14",
+      "descricao": "Rejeitada a Emenda de Plenário nº 2. Sim: 134; Não: 285; Abstenção: 2; Total: 421.",
+      "aprovada": false,
+      "proposicao": {
+        "id": 2638483,
+        "sigla": "PL",
+        "numero": 3085,
+        "ano": 2026,
+        "ementa": "Regulamenta o regime de relevância das questões de direito federal infraconstitucional para admissão dos recursos especiais no Superior Tribunal de Justiça e altera a Lei nº 13.105, de 16 de março de 2015 (Código de Processo Civil).",
+        "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2638483"
+      },
+      "placar": [
+        {
+          "voto": "Não",
+          "total": 285
+        },
+        {
+          "voto": "Sim",
+          "total": 134
+        },
+        {
+          "voto": "Abstenção",
+          "total": 2
+        },
+        {
+          "voto": "Artigo 17",
+          "total": 1
+        }
+      ],
+      "votantes": 422,
+      "votosDoEstado": [
+        {
+          "idExterno": 204356,
+          "nome": "Amaro Neto",
+          "partido": "PP",
+          "voto": "Não"
+        },
+        {
+          "idExterno": 220528,
+          "nome": "Dr. Victor Linhalis",
+          "partido": "PSB",
+          "voto": "Não"
+        },
+        {
+          "idExterno": 178871,
+          "nome": "Evair Vieira de Melo",
+          "partido": "REPUBLICANOS",
+          "voto": "Não"
+        },
+        {
+          "idExterno": 220529,
+          "nome": "Gilson Daniel",
+          "partido": "PODE",
+          "voto": "Não"
+        },
+        {
+          "idExterno": 220526,
+          "nome": "Gilvan da Federal",
+          "partido": "PL",
+          "voto": "Não"
+        },
+        {
+          "idExterno": 178873,
+          "nome": "Helder Salomão",
+          "partido": "PT",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 220527,
+          "nome": "Jack Rocha",
+          "partido": "PT",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 220530,
+          "nome": "Messias Donato",
+          "partido": "UNIÃO",
+          "voto": "Não"
+        },
+        {
+          "idExterno": 160517,
+          "nome": "Paulo Folletto",
+          "partido": "PSB",
+          "voto": "Sim"
+        }
+      ]
+    },
+    {
+      "id": "2637721-10",
+      "data": "2026-07-14",
+      "registradaEm": "2026-07-14T17:59:11",
+      "descricao": "Aprovado o Requerimento de Urgência (Art. 155 do RICD). Sim: 276; Não: 139; Abstenção: 1; Total: 416.",
+      "aprovada": true,
+      "proposicao": {
+        "id": 2612908,
+        "sigla": "PDL",
+        "numero": 171,
+        "ano": 2026,
+        "ementa": "Susta os efeitos do Decreto nº 12.887, de 23 de março de 2026, que Amplia a Estação Ecológica de Taiamã, localizada nos Municípios de Cáceres e Poconé, Estado de Mato Grosso.",
+        "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2612908"
+      },
+      "placar": [
+        {
+          "voto": "Sim",
+          "total": 276
+        },
+        {
+          "voto": "Não",
+          "total": 139
+        },
+        {
+          "voto": "Abstenção",
+          "total": 1
+        },
+        {
+          "voto": "Artigo 17",
+          "total": 1
+        }
+      ],
+      "votantes": 417,
+      "votosDoEstado": [
+        {
+          "idExterno": 204356,
+          "nome": "Amaro Neto",
+          "partido": "PP",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 220528,
+          "nome": "Dr. Victor Linhalis",
+          "partido": "PSB",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 178871,
+          "nome": "Evair Vieira de Melo",
+          "partido": "REPUBLICANOS",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 220526,
+          "nome": "Gilvan da Federal",
+          "partido": "PL",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 220527,
+          "nome": "Jack Rocha",
+          "partido": "PT",
+          "voto": "Não"
+        },
+        {
+          "idExterno": 220530,
+          "nome": "Messias Donato",
+          "partido": "UNIÃO",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 160517,
+          "nome": "Paulo Folletto",
+          "partido": "PSB",
+          "voto": "Não"
+        }
+      ]
+    },
+    {
       "id": "2606313-36",
       "data": "2026-07-07",
       "registradaEm": "2026-07-07T20:50:36",
@@ -1300,442 +1720,6 @@
           "nome": "Paulo Folletto",
           "partido": "PSB",
           "voto": "Sim"
-        }
-      ]
-    },
-    {
-      "id": "2382675-89",
-      "data": "2026-06-17",
-      "registradaEm": "2026-06-17T18:14:20",
-      "descricao": "Rejeitado o Requerimento. Sim: 117; Não: 250; Total: 367.",
-      "aprovada": false,
-      "proposicao": {
-        "id": 2382675,
-        "sigla": "PL",
-        "numero": 4133,
-        "ano": 2023,
-        "ementa": "Dispõe sobre diretrizes para a formulação da política industrial, tecnológica e de comércio exterior brasileira.",
-        "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2382675"
-      },
-      "placar": [
-        {
-          "voto": "Não",
-          "total": 250
-        },
-        {
-          "voto": "Sim",
-          "total": 117
-        },
-        {
-          "voto": "Artigo 17",
-          "total": 1
-        }
-      ],
-      "votantes": 368,
-      "votosDoEstado": [
-        {
-          "idExterno": 204356,
-          "nome": "Amaro Neto",
-          "partido": "PP",
-          "voto": "Não"
-        },
-        {
-          "idExterno": 204355,
-          "nome": "Da Vitoria",
-          "partido": "PP",
-          "voto": "Não"
-        },
-        {
-          "idExterno": 220528,
-          "nome": "Dr. Victor Linhalis",
-          "partido": "PSB",
-          "voto": "Não"
-        },
-        {
-          "idExterno": 220529,
-          "nome": "Gilson Daniel",
-          "partido": "PODE",
-          "voto": "Não"
-        },
-        {
-          "idExterno": 178873,
-          "nome": "Helder Salomão",
-          "partido": "PT",
-          "voto": "Não"
-        },
-        {
-          "idExterno": 220527,
-          "nome": "Jack Rocha",
-          "partido": "PT",
-          "voto": "Não"
-        },
-        {
-          "idExterno": 220530,
-          "nome": "Messias Donato",
-          "partido": "UNIÃO",
-          "voto": "Não"
-        },
-        {
-          "idExterno": 160517,
-          "nome": "Paulo Folletto",
-          "partido": "PSB",
-          "voto": "Não"
-        }
-      ]
-    },
-    {
-      "id": "947810-85",
-      "data": "2026-06-17",
-      "registradaEm": "2026-06-17T17:19:33",
-      "descricao": "Mantido o texto. Sim: 285; Não: 106; Abstenção: 1; Total: 392.",
-      "aprovada": false,
-      "proposicao": {
-        "id": 947810,
-        "sigla": "PL",
-        "numero": 424,
-        "ano": 2015,
-        "ementa": "Acrescenta o Inciso XXXII ao art. 24 da Lei nº 8.666, de 21 de junho de 1993, e altera o art. 3º da Lei nº 10.972, de 2 de dezembro de 2004, permitindo a dispensa de licitação para aquisição de hemoderivados pelo Sistema Único de Saúde - SUS.",
-        "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=947810"
-      },
-      "placar": [
-        {
-          "voto": "Sim",
-          "total": 285
-        },
-        {
-          "voto": "Não",
-          "total": 106
-        },
-        {
-          "voto": "Abstenção",
-          "total": 1
-        },
-        {
-          "voto": "Artigo 17",
-          "total": 1
-        }
-      ],
-      "votantes": 393,
-      "votosDoEstado": [
-        {
-          "idExterno": 204356,
-          "nome": "Amaro Neto",
-          "partido": "PP",
-          "voto": "Sim"
-        },
-        {
-          "idExterno": 204355,
-          "nome": "Da Vitoria",
-          "partido": "PP",
-          "voto": "Sim"
-        },
-        {
-          "idExterno": 220528,
-          "nome": "Dr. Victor Linhalis",
-          "partido": "PSB",
-          "voto": "Sim"
-        },
-        {
-          "idExterno": 178871,
-          "nome": "Evair Vieira de Melo",
-          "partido": "REPUBLICANOS",
-          "voto": "Não"
-        },
-        {
-          "idExterno": 220529,
-          "nome": "Gilson Daniel",
-          "partido": "PODE",
-          "voto": "Sim"
-        },
-        {
-          "idExterno": 178873,
-          "nome": "Helder Salomão",
-          "partido": "PT",
-          "voto": "Sim"
-        },
-        {
-          "idExterno": 220527,
-          "nome": "Jack Rocha",
-          "partido": "PT",
-          "voto": "Sim"
-        },
-        {
-          "idExterno": 220530,
-          "nome": "Messias Donato",
-          "partido": "UNIÃO",
-          "voto": "Não"
-        },
-        {
-          "idExterno": 160517,
-          "nome": "Paulo Folletto",
-          "partido": "PSB",
-          "voto": "Sim"
-        }
-      ]
-    },
-    {
-      "id": "2122125-115",
-      "data": "2026-06-16",
-      "registradaEm": "2026-06-16T20:08:44",
-      "descricao": "Aprovada a Subemenda Substitutiva ao Projeto de Lei Complementar nº 337, de 2017, adotada pelo relator da Comissão de Constituição e Justiça e de Cidadania. Sim: 417; Não: 19; Total: 436.",
-      "aprovada": true,
-      "proposicao": {
-        "id": 2122125,
-        "sigla": "PLP",
-        "numero": 337,
-        "ano": 2017,
-        "ementa": "Altera a Lei Complementar nº 73, de 10 de fevereiro de 1993, que institui a Lei Orgânica da Advocacia-Geral da União.",
-        "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2122125"
-      },
-      "placar": [
-        {
-          "voto": "Sim",
-          "total": 417
-        },
-        {
-          "voto": "Não",
-          "total": 19
-        },
-        {
-          "voto": "Artigo 17",
-          "total": 1
-        }
-      ],
-      "votantes": 437,
-      "votosDoEstado": [
-        {
-          "idExterno": 204356,
-          "nome": "Amaro Neto",
-          "partido": "PP",
-          "voto": "Sim"
-        },
-        {
-          "idExterno": 204355,
-          "nome": "Da Vitoria",
-          "partido": "PP",
-          "voto": "Sim"
-        },
-        {
-          "idExterno": 220528,
-          "nome": "Dr. Victor Linhalis",
-          "partido": "PSB",
-          "voto": "Sim"
-        },
-        {
-          "idExterno": 178871,
-          "nome": "Evair Vieira de Melo",
-          "partido": "REPUBLICANOS",
-          "voto": "Sim"
-        },
-        {
-          "idExterno": 220529,
-          "nome": "Gilson Daniel",
-          "partido": "PODE",
-          "voto": "Sim"
-        },
-        {
-          "idExterno": 178873,
-          "nome": "Helder Salomão",
-          "partido": "PT",
-          "voto": "Sim"
-        },
-        {
-          "idExterno": 220527,
-          "nome": "Jack Rocha",
-          "partido": "PT",
-          "voto": "Sim"
-        },
-        {
-          "idExterno": 160517,
-          "nome": "Paulo Folletto",
-          "partido": "PSB",
-          "voto": "Sim"
-        }
-      ]
-    },
-    {
-      "id": "2629954-8",
-      "data": "2026-06-03",
-      "registradaEm": "2026-06-03T12:10:37",
-      "descricao": "Aprovado o Requerimento de Urgência (Art. 155 do RICD). Sim: 311; Não: 135; Abstenção: 2; Total: 448.",
-      "aprovada": true,
-      "proposicao": {
-        "id": 2423263,
-        "sigla": "PL",
-        "numero": 957,
-        "ano": 2024,
-        "ementa": "Altera dispositivos do Decreto-Lei nº 227, de 28 de fevereiro de 1967, o Código de Mineração, da Lei nº 6.567, de 24 de setembro de 1978, e da Lei nº 7.805, de 18 de julho de 1989.",
-        "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2423263"
-      },
-      "placar": [
-        {
-          "voto": "Sim",
-          "total": 311
-        },
-        {
-          "voto": "Não",
-          "total": 135
-        },
-        {
-          "voto": "Obstrução",
-          "total": 7
-        },
-        {
-          "voto": "Abstenção",
-          "total": 2
-        }
-      ],
-      "votantes": 455,
-      "votosDoEstado": [
-        {
-          "idExterno": 204356,
-          "nome": "Amaro Neto",
-          "partido": "PP",
-          "voto": "Sim"
-        },
-        {
-          "idExterno": 204355,
-          "nome": "Da Vitoria",
-          "partido": "PP",
-          "voto": "Sim"
-        },
-        {
-          "idExterno": 220528,
-          "nome": "Dr. Victor Linhalis",
-          "partido": "PSB",
-          "voto": "Sim"
-        },
-        {
-          "idExterno": 178871,
-          "nome": "Evair Vieira de Melo",
-          "partido": "REPUBLICANOS",
-          "voto": "Sim"
-        },
-        {
-          "idExterno": 220529,
-          "nome": "Gilson Daniel",
-          "partido": "PODE",
-          "voto": "Não"
-        },
-        {
-          "idExterno": 178873,
-          "nome": "Helder Salomão",
-          "partido": "PT",
-          "voto": "Não"
-        },
-        {
-          "idExterno": 220527,
-          "nome": "Jack Rocha",
-          "partido": "PT",
-          "voto": "Não"
-        },
-        {
-          "idExterno": 220530,
-          "nome": "Messias Donato",
-          "partido": "UNIÃO",
-          "voto": "Sim"
-        },
-        {
-          "idExterno": 160517,
-          "nome": "Paulo Folletto",
-          "partido": "PSB",
-          "voto": "Não"
-        }
-      ]
-    },
-    {
-      "id": "2351506-122",
-      "data": "2026-05-28",
-      "registradaEm": "2026-05-28T17:21:17",
-      "descricao": "Aprovada, em segundo turno, a Proposta de Emenda à Constituição n° 5, de 2023. Sim: 368; Não: 96; Abstenção: 7; Total: 471.",
-      "aprovada": true,
-      "proposicao": {
-        "id": 2351506,
-        "sigla": "PEC",
-        "numero": 5,
-        "ano": 2023,
-        "ementa": "Acrescenta § 4º-A ao art. 150 da Constituição Federal, para dispor sobre a imunidade tributária de que tratam as suas alíneas “b” e “c” do inciso VI.",
-        "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2351506"
-      },
-      "placar": [
-        {
-          "voto": "Sim",
-          "total": 368
-        },
-        {
-          "voto": "Não",
-          "total": 96
-        },
-        {
-          "voto": "Abstenção",
-          "total": 7
-        },
-        {
-          "voto": "Artigo 17",
-          "total": 1
-        }
-      ],
-      "votantes": 472,
-      "votosDoEstado": [
-        {
-          "idExterno": 204356,
-          "nome": "Amaro Neto",
-          "partido": "PP",
-          "voto": "Sim"
-        },
-        {
-          "idExterno": 204355,
-          "nome": "Da Vitoria",
-          "partido": "PP",
-          "voto": "Sim"
-        },
-        {
-          "idExterno": 220528,
-          "nome": "Dr. Victor Linhalis",
-          "partido": "PSB",
-          "voto": "Sim"
-        },
-        {
-          "idExterno": 178871,
-          "nome": "Evair Vieira de Melo",
-          "partido": "REPUBLICANOS",
-          "voto": "Sim"
-        },
-        {
-          "idExterno": 220529,
-          "nome": "Gilson Daniel",
-          "partido": "PODE",
-          "voto": "Sim"
-        },
-        {
-          "idExterno": 220526,
-          "nome": "Gilvan da Federal",
-          "partido": "PL",
-          "voto": "Sim"
-        },
-        {
-          "idExterno": 178873,
-          "nome": "Helder Salomão",
-          "partido": "PT",
-          "voto": "Não"
-        },
-        {
-          "idExterno": 220527,
-          "nome": "Jack Rocha",
-          "partido": "PT",
-          "voto": "Não"
-        },
-        {
-          "idExterno": 220530,
-          "nome": "Messias Donato",
-          "partido": "UNIÃO",
-          "voto": "Sim"
-        },
-        {
-          "idExterno": 160517,
-          "nome": "Paulo Folletto",
-          "partido": "PSB",
-          "voto": "Abstenção"
         }
       ]
     }

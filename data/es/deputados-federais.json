@@ -6,12 +6,12 @@
   },
   "uf": "ES",
   "legislatura": 57,
-  "coletadoEm": "2026-10-14T14:33:22.634Z",
+  "coletadoEm": "2026-10-15T14:12:02.478Z",
   "referencia": {
     "bancada": 10,
-    "medianaDespesas": 1924662.9800000028,
-    "menor": 1433162.1199999899,
-    "maior": 2003843.2199999997
+    "medianaDespesas": 1925091.7900000028,
+    "menor": 1252421.96,
+    "maior": 2186076.870000002
   },
   "parlamentares": [
     {
@@ -35,36 +35,35 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/204356.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/204356",
       "despesas": {
-        "total": 1864560.9800000018,
-        "documentos": 1048,
+        "total": 1252421.96,
+        "documentos": 716,
         "porTipo": [
           {
             "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
-            "valor": 1031997.03,
-            "notas": 78,
+            "valor": 661597.03,
+            "notas": 46,
             "fornecedores": [
-              {
-                "nome": "T3 CONTEUDO DESIGN E ESTRATEGIA LTDA",
-                "cnpjCpf": "49164631000135",
-                "total": 503700,
-                "notas": 40,
-                "outrosNomes": [
-                  "TERCEIRA PONTE MIDIA E TECNOLOGIA LTDA",
-                  "TERCEIRA PONTE CONTEÚDO DESIGN E ESTRATÉGIA LTDA"
-                ]
-              },
               {
                 "nome": "KRTV COMUNICACOES",
                 "cnpjCpf": "11357877000150",
-                "total": 422797.03,
-                "notas": 28,
+                "total": 332797.03,
+                "notas": 20,
                 "outrosNomes": []
+              },
+              {
+                "nome": "T3 CONTEUDO DESIGN E ESTRATEGIA LTDA",
+                "cnpjCpf": "49164631000135",
+                "total": 253300,
+                "notas": 17,
+                "outrosNomes": [
+                  "TERCEIRA PONTE MIDIA E TECNOLOGIA LTDA"
+                ]
               },
               {
                 "nome": "AGENCIA LAB. PRODUÇÕES LTFA",
                 "cnpjCpf": "41928704000106",
-                "total": 99500,
-                "notas": 9,
+                "total": 69500,
+                "notas": 8,
                 "outrosNomes": []
               },
               {
@@ -77,24 +76,6 @@
             ],
             "maiores": [
               {
-                "id": "7531243",
-                "data": "2023-04-25",
-                "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
-                "valor": 34000,
-                "fornecedor": "TERCEIRA PONTE MIDIA E TECNOLOGIA LTDA",
-                "cnpjCpf": "49164631000135",
-                "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3270/2023/7531243.pdf"
-              },
-              {
-                "id": "7659857",
-                "data": "2023-12-21",
-                "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
-                "valor": 30000,
-                "fornecedor": "AGENCIA LAB. PRODUÇÕES LTFA",
-                "cnpjCpf": "41928704000106",
-                "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3270/2023/7659857.pdf"
-              },
-              {
                 "id": "7854474",
                 "data": "2025-01-02",
                 "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
@@ -104,15 +85,6 @@
                 "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3270/2025/7854474.pdf"
               },
               {
-                "id": "7702733",
-                "data": "2024-03-05",
-                "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
-                "valor": 20000,
-                "fornecedor": "KRTV COMUNICACOES",
-                "cnpjCpf": "11357877000150",
-                "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3270/2024/7702733.pdf"
-              },
-              {
                 "id": "7736421",
                 "data": "2024-05-02",
                 "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
@@ -120,19 +92,46 @@
                 "fornecedor": "KRTV COMUNICACOES",
                 "cnpjCpf": "11357877000150",
                 "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3270/2024/7736421.pdf"
+              },
+              {
+                "id": "7746373",
+                "data": "2024-06-03",
+                "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
+                "valor": 20000,
+                "fornecedor": "KRTV COMUNICACOES",
+                "cnpjCpf": "11357877000150",
+                "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3270/2024/7746373.pdf"
+              },
+              {
+                "id": "7774902",
+                "data": "2024-07-01",
+                "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
+                "valor": 20000,
+                "fornecedor": "KRTV COMUNICACOES",
+                "cnpjCpf": "11357877000150",
+                "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3270/2024/7774902.pdf"
+              },
+              {
+                "id": "7782766",
+                "data": "2024-08-01",
+                "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
+                "valor": 20000,
+                "fornecedor": "KRTV COMUNICACOES",
+                "cnpjCpf": "11357877000150",
+                "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3270/2024/7782766.pdf"
               }
             ]
           },
           {
             "tipo": "LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES",
-            "valor": 359556.42,
-            "notas": 72,
+            "valor": 270137.42,
+            "notas": 48,
             "fornecedores": [
               {
                 "nome": "PONTA LOCACAO DE VEICULOS LTDA",
                 "cnpjCpf": "42761872000112",
-                "total": 160750,
-                "notas": 28,
+                "total": 140500,
+                "notas": 23,
                 "outrosNomes": [
                   "PONTA LOCAÇÃO DE VEÍCULOS LTDA"
                 ]
@@ -140,8 +139,8 @@
               {
                 "nome": "AQUI CENTRO AUTOMOTIVO LTDA",
                 "cnpjCpf": "01991386000103",
-                "total": 145970.41999999998,
-                "notas": 27,
+                "total": 119970.42,
+                "notas": 22,
                 "outrosNomes": [
                   "AQUI CENTRO AUTOMOTIVO LTDA EPP4347"
                 ]
@@ -149,18 +148,16 @@
               {
                 "nome": "QUASAR LOCADORA DE VEICULOS EIRELI",
                 "cnpjCpf": "38024675000143",
-                "total": 31500,
-                "notas": 9,
+                "total": 7000,
+                "notas": 2,
                 "outrosNomes": []
               },
               {
                 "nome": "América Locação",
                 "cnpjCpf": "05493355000183",
-                "total": 21336,
-                "notas": 8,
-                "outrosNomes": [
-                  "AMERICA LOCACAO E SERVICOS LTDA"
-                ]
+                "total": 2667,
+                "notas": 1,
+                "outrosNomes": []
               }
             ],
             "maiores": [
@@ -213,14 +210,14 @@
           },
           {
             "tipo": "PASSAGEM AÉREA - SIGEPA",
-            "valor": 251597.61999999973,
-            "notas": 277,
+            "valor": 165089.64999999997,
+            "notas": 188,
             "fornecedores": [
               {
                 "nome": "LATAM Airlines Brasil",
                 "cnpjCpf": "02012862000160",
-                "total": 211551.6699999998,
-                "notas": 240,
+                "total": 145330.38999999998,
+                "notas": 171,
                 "outrosNomes": [
                   "TAM"
                 ]
@@ -228,8 +225,8 @@
               {
                 "nome": "Gol Linhas Aéreas",
                 "cnpjCpf": "07575651000159",
-                "total": 25849.74,
-                "notas": 27,
+                "total": 11083.070000000002,
+                "notas": 11,
                 "outrosNomes": [
                   "GOL"
                 ]
@@ -237,8 +234,8 @@
               {
                 "nome": "Azul Linhas Aéreas",
                 "cnpjCpf": "09296295000160",
-                "total": 14196.210000000001,
-                "notas": 10,
+                "total": 8676.19,
+                "notas": 6,
                 "outrosNomes": [
                   "AZUL"
                 ]
@@ -264,15 +261,6 @@
                 "documento": null
               },
               {
-                "id": "239057",
-                "data": "2024-03-31",
-                "tipo": "PASSAGEM AÉREA - SIGEPA",
-                "valor": 2976.21,
-                "fornecedor": "GOL",
-                "cnpjCpf": "07575651000159",
-                "documento": null
-              },
-              {
                 "id": "EF3B4D59-9D1E-45DC-B243-935D3BD29072",
                 "data": "2025-11-09",
                 "tipo": "PASSAGEM AÉREA - SIGEPA",
@@ -289,19 +277,28 @@
                 "fornecedor": "LATAM Airlines Brasil",
                 "cnpjCpf": "02012862000160",
                 "documento": null
+              },
+              {
+                "id": "337450",
+                "data": "2025-05-29",
+                "tipo": "PASSAGEM AÉREA - SIGEPA",
+                "valor": 2769.12,
+                "fornecedor": "TAM",
+                "cnpjCpf": "02012862000160",
+                "documento": null
               }
             ]
           },
           {
             "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
-            "valor": 147084.00999999995,
-            "notas": 196,
+            "valor": 101946.16999999997,
+            "notas": 129,
             "fornecedores": [
               {
                 "nome": "APE VILA VELHA IMOBILIARIA E CONSTRUCOES LTDA",
                 "cnpjCpf": "28926781000169",
-                "total": 103531.56000000001,
-                "notas": 40,
+                "total": 70427.28000000001,
+                "notas": 27,
                 "outrosNomes": [
                   "Apê Vila Velha Imobiliária e Construções",
                   "Apê Vila Velha Imobiliária e Construções.."
@@ -310,8 +307,8 @@
               {
                 "nome": "CONDOMINIO DO EDIFICIO ITAPARICA TOP BUSINESS",
                 "cnpjCpf": "27423181000115",
-                "total": 26698.32000000001,
-                "notas": 80,
+                "total": 19544.460000000003,
+                "notas": 54,
                 "outrosNomes": [
                   "Condominio do Edificio Itaparica Top Business"
                 ]
@@ -319,11 +316,9 @@
               {
                 "nome": "EDP ESPIRITO SANTO DISTRIBUICAO DE ENERGIA S.A.",
                 "cnpjCpf": "28152650000171",
-                "total": 9916.17,
-                "notas": 67,
-                "outrosNomes": [
-                  "0EDP ESPIRITO SANTO DISTRIBUICAO DE ENERGIA S.A."
-                ]
+                "total": 6520.4,
+                "notas": 44,
+                "outrosNomes": []
               },
               {
                 "nome": "ALIANCA ALUGUEIS DU LUCAS LTDA",
@@ -337,20 +332,6 @@
                 "cnpjCpf": "12132854000100",
                 "total": 1219.3,
                 "notas": 2,
-                "outrosNomes": []
-              },
-              {
-                "nome": "PORTO SEGURO COMPANHIA DE SEGUROS GERAIS",
-                "cnpjCpf": "61198164000160",
-                "total": 707.12,
-                "notas": 2,
-                "outrosNomes": []
-              },
-              {
-                "nome": "PREFEITUA MUNICIPAL DE VILA VELHA",
-                "cnpjCpf": "27165554000103",
-                "total": 576.81,
-                "notas": 1,
                 "outrosNomes": []
               },
               {
@@ -370,15 +351,6 @@
                 "fornecedor": "ALIANCA ALUGUEIS DU LUCAS LTDA",
                 "cnpjCpf": "09214409000185",
                 "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3270/2023/7494381.pdf"
-              },
-              {
-                "id": "7541352",
-                "data": "2023-04-05",
-                "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
-                "valor": 3534.96,
-                "fornecedor": "Apê Vila Velha Imobiliária e Construções",
-                "cnpjCpf": "28926781000169",
-                "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3270/2023/7541352.pdf"
               },
               {
                 "id": "8161978",
@@ -406,13 +378,22 @@
                 "fornecedor": "Apê Vila Velha Imobiliária e Construções",
                 "cnpjCpf": "28926781000169",
                 "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3270/2026/8115395.pdf"
+              },
+              {
+                "id": "8125780",
+                "data": "2026-06-30",
+                "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
+                "valor": 2820.54,
+                "fornecedor": "APE VILA VELHA IMOBILIARIA E CONSTRUCOES LTDA",
+                "cnpjCpf": "28926781000169",
+                "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3270/2026/8125780.pdf"
               }
             ]
           },
           {
             "tipo": "COMBUSTÍVEIS E LUBRIFICANTES.",
-            "valor": 74325.89999999998,
-            "notas": 367,
+            "valor": 53651.69,
+            "notas": 251,
             "fornecedores": [
               {
                 "nome": "POSTO CIBIEN DE COMBUSTIVEIS LTDA",
@@ -426,19 +407,10 @@
               {
                 "nome": "067 - PARANOA II - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
                 "cnpjCpf": "00306597006723",
-                "total": 8920.859999999999,
-                "notas": 48,
+                "total": 8912.98,
+                "notas": 47,
                 "outrosNomes": [
                   "067 - PARANOA II - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA."
-                ]
-              },
-              {
-                "nome": "AUTO POSTO CINCO ESTRELAS LTDA",
-                "cnpjCpf": "00692418000611",
-                "total": 6539.51,
-                "notas": 50,
-                "outrosNomes": [
-                  "AUTO POSTO CINCO ESTRELAS LTDA."
                 ]
               },
               {
@@ -456,17 +428,10 @@
                 "outrosNomes": []
               },
               {
-                "nome": "POSTO COSTA AZUL LTDA",
-                "cnpjCpf": "31772304000109",
-                "total": 3389.86,
-                "notas": 16,
-                "outrosNomes": []
-              },
-              {
                 "nome": "AUTO POSTO CONCORDE LTDA",
                 "cnpjCpf": "28868264000180",
-                "total": 3299.63,
-                "notas": 21,
+                "total": 2754.57,
+                "notas": 17,
                 "outrosNomes": []
               },
               {
@@ -474,6 +439,22 @@
                 "cnpjCpf": "37063328001309",
                 "total": 2655.42,
                 "notas": 15,
+                "outrosNomes": []
+              },
+              {
+                "nome": "AUTO POSTO CINCO ESTRELAS LTDA",
+                "cnpjCpf": "00692418002908",
+                "total": 2291.8,
+                "notas": 16,
+                "outrosNomes": [
+                  "ITAPOA"
+                ]
+              },
+              {
+                "nome": "AUTO POSTO CINCO ESTRELAS LTDA",
+                "cnpjCpf": "00692418000611",
+                "total": 1654.46,
+                "notas": 12,
                 "outrosNomes": []
               }
             ],
@@ -533,63 +514,15 @@
           },
           {
             "competencia": "2023-02",
-            "valor": 24672.270000000004
+            "valor": 12296.22
           },
           {
             "competencia": "2023-03",
-            "valor": 27309.829999999998
-          },
-          {
-            "competencia": "2023-04",
-            "valor": 63189.310000000005
-          },
-          {
-            "competencia": "2023-05",
-            "valor": 27925.349999999995
-          },
-          {
-            "competencia": "2023-06",
-            "valor": 27174.53
-          },
-          {
-            "competencia": "2023-07",
-            "valor": 34290.33
-          },
-          {
-            "competencia": "2023-08",
-            "valor": 34176.229999999996
-          },
-          {
-            "competencia": "2023-09",
-            "valor": 45922.73
-          },
-          {
-            "competencia": "2023-10",
-            "valor": 50857.619999999995
-          },
-          {
-            "competencia": "2023-11",
-            "valor": 51347.11
-          },
-          {
-            "competencia": "2023-12",
-            "valor": 77117.88
-          },
-          {
-            "competencia": "2024-01",
-            "valor": 36069.16
-          },
-          {
-            "competencia": "2024-02",
-            "valor": 50349.76999999999
-          },
-          {
-            "competencia": "2024-03",
-            "valor": 59758.549999999996
+            "valor": 6817
           },
           {
             "competencia": "2024-04",
-            "valor": 45603.67999999999
+            "valor": 23853.809999999998
           },
           {
             "competencia": "2024-05",
@@ -705,36 +638,35 @@
           },
           {
             "competencia": "2026-09",
-            "valor": 10233.24
+            "valor": 10471.54
           },
           {
             "competencia": "2026-10",
-            "valor": 3942.74
+            "valor": 4362.74
           }
         ],
         "fornecedores": [
           {
-            "nome": "T3 CONTEUDO DESIGN E ESTRATEGIA LTDA",
-            "cnpjCpf": "49164631000135",
-            "total": 503700,
-            "notas": 40,
-            "outrosNomes": [
-              "TERCEIRA PONTE MIDIA E TECNOLOGIA LTDA",
-              "TERCEIRA PONTE CONTEÚDO DESIGN E ESTRATÉGIA LTDA"
-            ]
-          },
-          {
             "nome": "KRTV COMUNICACOES",
             "cnpjCpf": "11357877000150",
-            "total": 422797.03,
-            "notas": 28,
+            "total": 332797.03,
+            "notas": 20,
             "outrosNomes": []
+          },
+          {
+            "nome": "T3 CONTEUDO DESIGN E ESTRATEGIA LTDA",
+            "cnpjCpf": "49164631000135",
+            "total": 253300,
+            "notas": 17,
+            "outrosNomes": [
+              "TERCEIRA PONTE MIDIA E TECNOLOGIA LTDA"
+            ]
           },
           {
             "nome": "LATAM Airlines Brasil",
             "cnpjCpf": "02012862000160",
-            "total": 211551.6699999998,
-            "notas": 240,
+            "total": 145330.38999999998,
+            "notas": 171,
             "outrosNomes": [
               "TAM"
             ]
@@ -742,8 +674,8 @@
           {
             "nome": "PONTA LOCACAO DE VEICULOS LTDA",
             "cnpjCpf": "42761872000112",
-            "total": 160750,
-            "notas": 28,
+            "total": 140500,
+            "notas": 23,
             "outrosNomes": [
               "PONTA LOCAÇÃO DE VEÍCULOS LTDA"
             ]
@@ -751,8 +683,8 @@
           {
             "nome": "AQUI CENTRO AUTOMOTIVO LTDA",
             "cnpjCpf": "01991386000103",
-            "total": 145970.41999999998,
-            "notas": 27,
+            "total": 119970.42,
+            "notas": 22,
             "outrosNomes": [
               "AQUI CENTRO AUTOMOTIVO LTDA EPP4347"
             ]
@@ -760,8 +692,8 @@
           {
             "nome": "APE VILA VELHA IMOBILIARIA E CONSTRUCOES LTDA",
             "cnpjCpf": "28926781000169",
-            "total": 103531.56000000001,
-            "notas": 40,
+            "total": 70427.28000000001,
+            "notas": 27,
             "outrosNomes": [
               "Apê Vila Velha Imobiliária e Construções",
               "Apê Vila Velha Imobiliária e Construções.."
@@ -770,98 +702,60 @@
           {
             "nome": "AGENCIA LAB. PRODUÇÕES LTFA",
             "cnpjCpf": "41928704000106",
-            "total": 99500,
-            "notas": 9,
-            "outrosNomes": []
-          },
-          {
-            "nome": "QUASAR LOCADORA DE VEICULOS EIRELI",
-            "cnpjCpf": "38024675000143",
-            "total": 31500,
-            "notas": 9,
+            "total": 69500,
+            "notas": 8,
             "outrosNomes": []
           },
           {
             "nome": "CONDOMINIO DO EDIFICIO ITAPARICA TOP BUSINESS",
             "cnpjCpf": "27423181000115",
-            "total": 26698.32000000001,
-            "notas": 80,
+            "total": 19544.460000000003,
+            "notas": 54,
             "outrosNomes": [
               "Condominio do Edificio Itaparica Top Business"
             ]
           },
           {
+            "nome": "POSTO CIBIEN DE COMBUSTIVEIS LTDA",
+            "cnpjCpf": "52408644000117",
+            "total": 11804.070000000002,
+            "notas": 41,
+            "outrosNomes": [
+              "POSTO CIBIEN DE COMBUSTIVEIS LTDA."
+            ]
+          },
+          {
             "nome": "Gol Linhas Aéreas",
             "cnpjCpf": "07575651000159",
-            "total": 25849.74,
-            "notas": 27,
+            "total": 11083.070000000002,
+            "notas": 11,
             "outrosNomes": [
               "GOL"
             ]
           },
           {
-            "nome": "América Locação",
-            "cnpjCpf": "05493355000183",
-            "total": 21336,
-            "notas": 8,
+            "nome": "067 - PARANOA II - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
+            "cnpjCpf": "00306597006723",
+            "total": 8912.98,
+            "notas": 47,
             "outrosNomes": [
-              "AMERICA LOCACAO E SERVICOS LTDA"
+              "067 - PARANOA II - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA."
             ]
           },
           {
             "nome": "Azul Linhas Aéreas",
             "cnpjCpf": "09296295000160",
-            "total": 14196.210000000001,
-            "notas": 10,
+            "total": 8676.19,
+            "notas": 6,
             "outrosNomes": [
               "AZUL"
             ]
           }
         ],
         "glosas": {
-          "quantidade": 153,
-          "valor": 8169.320000000002,
+          "quantidade": 108,
+          "valor": 3623.490000000001,
           "exemplos": [
-            {
-              "id": "7585825",
-              "data": "2023-07-28",
-              "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
-              "valor": 108.28,
-              "fornecedor": "Condominio do Edificio Itaparica Top Business",
-              "cnpjCpf": "27423181000115",
-              "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3270/2023/7585825.pdf",
-              "valorGlosa": 282.94
-            },
-            {
-              "id": "7570033",
-              "data": "2023-07-01",
-              "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
-              "valor": 109.64,
-              "fornecedor": "Condominio do Edificio Itaparica Top Business",
-              "cnpjCpf": "27423181000115",
-              "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3270/2023/7570033.pdf",
-              "valorGlosa": 282.94
-            },
-            {
-              "id": "7686616",
-              "data": "2024-01-26",
-              "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
-              "valor": 280.25,
-              "fornecedor": "Condominio do Edificio Itaparica Top Business",
-              "cnpjCpf": "27423181000115",
-              "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3270/2024/7686616.pdf",
-              "valorGlosa": 253.75
-            },
-            {
-              "id": "7686633",
-              "data": "2024-01-26",
-              "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
-              "valor": 267.2,
-              "fornecedor": "Condominio do Edificio Itaparica Top Business",
-              "cnpjCpf": "27423181000115",
-              "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3270/2024/7686633.pdf",
-              "valorGlosa": 253.75
-            },
             {
               "id": "7736349",
               "data": "2024-04-26",
@@ -873,56 +767,78 @@
               "valorGlosa": 222.84
             },
             {
-              "id": "7723351",
-              "data": "2024-03-26",
+              "id": "7736346",
+              "data": "2024-04-26",
               "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
-              "valor": 323.13,
+              "valor": 368.85,
               "fornecedor": "Condominio do Edificio Itaparica Top Business",
               "cnpjCpf": "27423181000115",
-              "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3270/2024/7723351.pdf",
-              "valorGlosa": 222.64
+              "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3270/2024/7736346.pdf",
+              "valorGlosa": 184.91
             },
             {
-              "id": "7723354",
-              "data": "2024-03-26",
+              "id": "8006728",
+              "data": "2025-10-02",
               "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
-              "valor": 305.49,
+              "valor": 385.37,
               "fornecedor": "Condominio do Edificio Itaparica Top Business",
               "cnpjCpf": "27423181000115",
-              "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3270/2024/7723354.pdf",
-              "valorGlosa": 222.64
+              "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3270/2025/8006728.pdf",
+              "valorGlosa": 112.36
             },
             {
-              "id": "7702712",
-              "data": "2024-02-27",
+              "id": "8006735",
+              "data": "2025-10-02",
               "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
-              "valor": 335.13,
+              "valor": 329.63,
               "fornecedor": "Condominio do Edificio Itaparica Top Business",
               "cnpjCpf": "27423181000115",
-              "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3270/2024/7702712.pdf",
-              "valorGlosa": 221.59
+              "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3270/2025/8006735.pdf",
+              "valorGlosa": 112.36
+            },
+            {
+              "id": "7775305",
+              "data": "2024-06-27",
+              "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
+              "valor": 332.79,
+              "fornecedor": "Condominio do Edificio Itaparica Top Business",
+              "cnpjCpf": "27423181000115",
+              "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3270/2024/7775305.pdf",
+              "valorGlosa": 102.84
+            },
+            {
+              "id": "7775307",
+              "data": "2024-06-27",
+              "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
+              "valor": 308.96,
+              "fornecedor": "Condominio do Edificio Itaparica Top Business",
+              "cnpjCpf": "27423181000115",
+              "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3270/2024/7775307.pdf",
+              "valorGlosa": 102.84
+            },
+            {
+              "id": "7760210",
+              "data": "2024-05-27",
+              "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
+              "valor": 337.02,
+              "fornecedor": "Condominio do Edificio Itaparica Top Business",
+              "cnpjCpf": "27423181000115",
+              "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3270/2024/7760210.pdf",
+              "valorGlosa": 102.84
+            },
+            {
+              "id": "7760212",
+              "data": "2024-05-27",
+              "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
+              "valor": 308.72,
+              "fornecedor": "Condominio do Edificio Itaparica Top Business",
+              "cnpjCpf": "27423181000115",
+              "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3270/2024/7760212.pdf",
+              "valorGlosa": 102.84
             }
           ]
         },
         "maiores": [
-          {
-            "id": "7531243",
-            "data": "2023-04-25",
-            "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
-            "valor": 34000,
-            "fornecedor": "TERCEIRA PONTE MIDIA E TECNOLOGIA LTDA",
-            "cnpjCpf": "49164631000135",
-            "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3270/2023/7531243.pdf"
-          },
-          {
-            "id": "7659857",
-            "data": "2023-12-21",
-            "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
-            "valor": 30000,
-            "fornecedor": "AGENCIA LAB. PRODUÇÕES LTFA",
-            "cnpjCpf": "41928704000106",
-            "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3270/2023/7659857.pdf"
-          },
           {
             "id": "7854474",
             "data": "2025-01-02",
@@ -931,15 +847,6 @@
             "fornecedor": "KRTV COMUNICACOES",
             "cnpjCpf": "11357877000150",
             "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3270/2025/7854474.pdf"
-          },
-          {
-            "id": "7702733",
-            "data": "2024-03-05",
-            "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
-            "valor": 20000,
-            "fornecedor": "KRTV COMUNICACOES",
-            "cnpjCpf": "11357877000150",
-            "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3270/2024/7702733.pdf"
           },
           {
             "id": "7736421",
@@ -994,11 +901,38 @@
             "fornecedor": "KRTV COMUNICACOES",
             "cnpjCpf": "11357877000150",
             "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3270/2024/7826572.pdf"
+          },
+          {
+            "id": "7878865",
+            "data": "2025-02-12",
+            "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
+            "valor": 20000,
+            "fornecedor": "KRTV COMUNICACOES",
+            "cnpjCpf": "11357877000150",
+            "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3270/2025/7878865.pdf"
+          },
+          {
+            "id": "7894780",
+            "data": "2025-04-01",
+            "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
+            "valor": 20000,
+            "fornecedor": "KRTV COMUNICACOES",
+            "cnpjCpf": "11357877000150",
+            "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3270/2025/7894780.pdf"
+          },
+          {
+            "id": "7990141",
+            "data": "2025-08-19",
+            "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
+            "valor": 20000,
+            "fornecedor": "KRTV COMUNICACOES",
+            "cnpjCpf": "11357877000150",
+            "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3270/2025/7990141.pdf"
           }
         ],
         "comprovantes": {
-          "com": 713,
-          "total": 1048
+          "com": 474,
+          "total": 716
         }
       },
       "proposicoes": {
@@ -1289,7 +1223,7 @@
       "paginaOficial": "https://www.camara.leg.br/deputados/204355",
       "despesas": {
         "total": 1957912.5400000035,
-        "documentos": 1439,
+        "documentos": 1440,
         "porTipo": [
           {
             "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
@@ -2460,7 +2394,7 @@
         ],
         "comprovantes": {
           "com": 722,
-          "total": 1439
+          "total": 1440
         }
       },
       "proposicoes": {
@@ -2711,13 +2645,13 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/220528.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/220528",
       "despesas": {
-        "total": 1978273.7499999986,
-        "documentos": 1014,
+        "total": 2186076.870000002,
+        "documentos": 1021,
         "porTipo": [
           {
             "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
-            "valor": 787764.67,
-            "notas": 114,
+            "valor": 846427.62,
+            "notas": 125,
             "fornecedores": [
               {
                 "nome": "JORNAL CANELA VERDE EIRELI",
@@ -2727,11 +2661,16 @@
                 "outrosNomes": []
               },
               {
-                "nome": "O ANJO PUBLICIDADE LTDA",
-                "cnpjCpf": "48994427000189",
-                "total": 99000,
-                "notas": 12,
-                "outrosNomes": []
+                "nome": "Facebook Serviços Online do Brasil Ltda.",
+                "cnpjCpf": "13347016000117",
+                "total": 84707.22000000002,
+                "notas": 35,
+                "outrosNomes": [
+                  "FACEBOOK SERVIÇOS ONLINE DO BRASIL LTDA",
+                  "Facebook Serviços Online do Brasil ltda",
+                  "Facebook Serviços Online do Brasil",
+                  "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA."
+                ]
               },
               {
                 "nome": "ES MARKETING E CONSULTORIA LDTA",
@@ -2743,36 +2682,31 @@
                 ]
               },
               {
-                "nome": "Facebook Serviços Online do Brasil Ltda.",
-                "cnpjCpf": "13347016000117",
-                "total": 67885.18000000001,
-                "notas": 32,
-                "outrosNomes": [
-                  "FACEBOOK SERVIÇOS ONLINE DO BRASIL LTDA",
-                  "Facebook Serviços Online do Brasil ltda",
-                  "Facebook Serviços Online do Brasil",
-                  "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA."
-                ]
-              },
-              {
                 "nome": "SPEED-UP LTDA",
                 "cnpjCpf": "50623932000169",
-                "total": 41892.7,
-                "notas": 4,
+                "total": 73785.4,
+                "notas": 7,
                 "outrosNomes": []
               },
               {
-                "nome": "ATOS COMUNICAÇÃO LTDA",
-                "cnpjCpf": "47340764000190",
-                "total": 35000,
-                "notas": 7,
+                "nome": "O ANJO PUBLICIDADE LTDA",
+                "cnpjCpf": "48994427000189",
+                "total": 73500,
+                "notas": 9,
+                "outrosNomes": []
+              },
+              {
+                "nome": "DV BUSINESS E CONSULTING MTDA ME",
+                "cnpjCpf": "33159543000105",
+                "total": 60000,
+                "notas": 6,
                 "outrosNomes": []
               },
               {
                 "nome": "HPS MIDIAS E PUBLICIDADE LTDA",
                 "cnpjCpf": "40675553000169",
-                "total": 34200,
-                "notas": 4,
+                "total": 37500,
+                "notas": 5,
                 "outrosNomes": []
               },
               {
@@ -2833,21 +2767,21 @@
           },
           {
             "tipo": "LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES",
-            "valor": 370976.6699999999,
-            "notas": 63,
+            "valor": 474093.20999999996,
+            "notas": 71,
             "fornecedores": [
               {
                 "nome": "ARAUJO RENTACAR EIRELI EPP",
                 "cnpjCpf": "07134140000100",
-                "total": 149166.48,
-                "notas": 14,
+                "total": 269583.02,
+                "notas": 25,
                 "outrosNomes": []
               },
               {
                 "nome": "SUPREMA MOBILIDADE LTDA",
                 "cnpjCpf": "24894397000170",
-                "total": 128700,
-                "notas": 19,
+                "total": 111400,
+                "notas": 16,
                 "outrosNomes": []
               },
               {
@@ -2922,6 +2856,15 @@
                 "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3611/2024/7711543.pdf"
               },
               {
+                "id": "7711543",
+                "data": "2024-04-01",
+                "tipo": "LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES",
+                "valor": 12500,
+                "fornecedor": "ARAUJO RENTACAR EIRELI EPP",
+                "cnpjCpf": "07134140000100",
+                "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3611/2024/7711543.pdf"
+              },
+              {
                 "id": "7730777",
                 "data": "2024-05-07",
                 "tipo": "LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES",
@@ -2929,28 +2872,121 @@
                 "fornecedor": "ARAUJO RENTACAR EIRELI EPP",
                 "cnpjCpf": "07134140000100",
                 "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3611/2024/7730777.pdf"
+              }
+            ]
+          },
+          {
+            "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
+            "valor": 408786.28000000014,
+            "notas": 139,
+            "fornecedores": [
+              {
+                "nome": "GALWAN CONSTRUTORA E INCORPORADORA LTDA",
+                "cnpjCpf": "31705692000105",
+                "total": 344750.68999999994,
+                "notas": 43,
+                "outrosNomes": [
+                  "GALWAN CONSTRUTORA INCORPORADORA LTDA"
+                ]
               },
               {
-                "id": "7747546",
-                "data": "2024-06-10",
-                "tipo": "LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES",
-                "valor": 12500,
-                "fornecedor": "ARAUJO RENTACAR EIRELI EPP",
-                "cnpjCpf": "07134140000100",
-                "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3611/2024/7747546.pdf"
+                "nome": "CONDOMINIO OCEAN VILLE",
+                "cnpjCpf": "17487358000193",
+                "total": 47107.02000000001,
+                "notas": 39,
+                "outrosNomes": [
+                  "GALWAN CONSTRUTORA INCORPORADORA LTDA"
+                ]
+              },
+              {
+                "nome": "EDP ESPIRITO SANTO DISTRIBUICAO DE ENERGIA S.A.",
+                "cnpjCpf": "28152650000171",
+                "total": 12259.679999999998,
+                "notas": 30,
+                "outrosNomes": [
+                  "EDP - ESPIRITO SANTO DISTRIBUICAO DE ENERGIA S.A."
+                ]
+              },
+              {
+                "nome": "ALGAR TELECOM S/A",
+                "cnpjCpf": "71208516017220",
+                "total": 2370.23,
+                "notas": 21,
+                "outrosNomes": []
+              },
+              {
+                "nome": "Kalunga SA",
+                "cnpjCpf": "43283811005976",
+                "total": 1783.6599999999999,
+                "notas": 5,
+                "outrosNomes": []
+              },
+              {
+                "nome": "ONE SUPRI LTDA ME",
+                "cnpjCpf": "60239033000110",
+                "total": 515,
+                "notas": 1,
+                "outrosNomes": []
+              }
+            ],
+            "maiores": [
+              {
+                "id": "8016789",
+                "data": "2025-11-24",
+                "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
+                "valor": 8726.31,
+                "fornecedor": "GALWAN CONSTRUTORA INCORPORADORA LTDA",
+                "cnpjCpf": "31705692000105",
+                "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3611/2025/8016789.pdf"
+              },
+              {
+                "id": "8030731",
+                "data": "2025-12-09",
+                "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
+                "valor": 8726.31,
+                "fornecedor": "GALWAN CONSTRUTORA INCORPORADORA LTDA",
+                "cnpjCpf": "31705692000105",
+                "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3611/2025/8030731.pdf"
+              },
+              {
+                "id": "8042923",
+                "data": "2026-01-21",
+                "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
+                "valor": 8726.31,
+                "fornecedor": "GALWAN CONSTRUTORA INCORPORADORA LTDA",
+                "cnpjCpf": "31705692000105",
+                "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3611/2026/8042923.pdf"
+              },
+              {
+                "id": "8054416",
+                "data": "2026-02-22",
+                "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
+                "valor": 8726.31,
+                "fornecedor": "GALWAN CONSTRUTORA INCORPORADORA LTDA",
+                "cnpjCpf": "31705692000105",
+                "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3611/2026/8054416.pdf"
+              },
+              {
+                "id": "8067339",
+                "data": "2026-02-20",
+                "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
+                "valor": 8726.31,
+                "fornecedor": "GALWAN CONSTRUTORA INCORPORADORA LTDA",
+                "cnpjCpf": "31705692000105",
+                "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3611/2026/8067339.pdf"
               }
             ]
           },
           {
             "tipo": "PASSAGEM AÉREA - SIGEPA",
-            "valor": 354765.4200000001,
-            "notas": 354,
+            "valor": 325104.91000000015,
+            "notas": 322,
             "fornecedores": [
               {
                 "nome": "LATAM Airlines Brasil",
                 "cnpjCpf": "02012862000160",
-                "total": 319519.2200000002,
-                "notas": 321,
+                "total": 289858.7100000002,
+                "notas": 289,
                 "outrosNomes": [
                   "TAM"
                 ]
@@ -2983,15 +3019,6 @@
                 "documento": null
               },
               {
-                "id": "F3CB947C-6FF1-49FF-A78B-CF8DCE2724FD",
-                "data": "2025-10-09",
-                "tipo": "PASSAGEM AÉREA - SIGEPA",
-                "valor": 3144.54,
-                "fornecedor": "LATAM Airlines Brasil",
-                "cnpjCpf": "02012862000160",
-                "documento": null
-              },
-              {
                 "id": "335537",
                 "data": "2025-05-22",
                 "tipo": "PASSAGEM AÉREA - SIGEPA",
@@ -3017,128 +3044,35 @@
                 "fornecedor": "LATAM Airlines Brasil",
                 "cnpjCpf": "02012862000160",
                 "documento": null
-              }
-            ]
-          },
-          {
-            "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
-            "valor": 352991.23000000016,
-            "notas": 112,
-            "fornecedores": [
-              {
-                "nome": "GALWAN CONSTRUTORA E INCORPORADORA LTDA",
-                "cnpjCpf": "31705692000105",
-                "total": 298929.62,
-                "notas": 37,
-                "outrosNomes": [
-                  "GALWAN CONSTRUTORA INCORPORADORA LTDA"
-                ]
               },
               {
-                "nome": "CONDOMINIO OCEAN VILLE",
-                "cnpjCpf": "17487358000193",
-                "total": 39932.530000000006,
-                "notas": 33,
-                "outrosNomes": [
-                  "GALWAN CONSTRUTORA INCORPORADORA LTDA"
-                ]
-              },
-              {
-                "nome": "EDP ESPIRITO SANTO DISTRIBUICAO DE ENERGIA S.A.",
-                "cnpjCpf": "28152650000171",
-                "total": 10666.429999999998,
-                "notas": 25,
-                "outrosNomes": [
-                  "EDP - ESPIRITO SANTO DISTRIBUICAO DE ENERGIA S.A."
-                ]
-              },
-              {
-                "nome": "Kalunga SA",
-                "cnpjCpf": "43283811005976",
-                "total": 1615.1599999999999,
-                "notas": 4,
-                "outrosNomes": []
-              },
-              {
-                "nome": "ALGAR TELECOM S/A",
-                "cnpjCpf": "71208516017220",
-                "total": 1332.4900000000002,
-                "notas": 12,
-                "outrosNomes": []
-              },
-              {
-                "nome": "ONE SUPRI LTDA ME",
-                "cnpjCpf": "60239033000110",
-                "total": 515,
-                "notas": 1,
-                "outrosNomes": []
-              }
-            ],
-            "maiores": [
-              {
-                "id": "7968463",
-                "data": "2025-08-13",
-                "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
-                "valor": 8726.31,
-                "fornecedor": "GALWAN CONSTRUTORA INCORPORADORA LTDA",
-                "cnpjCpf": "31705692000105",
-                "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3611/2025/7968463.pdf"
-              },
-              {
-                "id": "7985893",
-                "data": "2025-09-23",
-                "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
-                "valor": 8726.31,
-                "fornecedor": "GALWAN CONSTRUTORA INCORPORADORA LTDA",
-                "cnpjCpf": "31705692000105",
-                "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3611/2025/7985893.pdf"
-              },
-              {
-                "id": "8000550",
-                "data": "2025-10-15",
-                "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
-                "valor": 8726.31,
-                "fornecedor": "GALWAN CONSTRUTORA INCORPORADORA LTDA",
-                "cnpjCpf": "31705692000105",
-                "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3611/2025/8000550.pdf"
-              },
-              {
-                "id": "8016789",
-                "data": "2025-11-24",
-                "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
-                "valor": 8726.31,
-                "fornecedor": "GALWAN CONSTRUTORA INCORPORADORA LTDA",
-                "cnpjCpf": "31705692000105",
-                "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3611/2025/8016789.pdf"
-              },
-              {
-                "id": "8030731",
-                "data": "2025-12-09",
-                "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
-                "valor": 8726.31,
-                "fornecedor": "GALWAN CONSTRUTORA INCORPORADORA LTDA",
-                "cnpjCpf": "31705692000105",
-                "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3611/2025/8030731.pdf"
+                "id": "334614",
+                "data": "2025-05-19",
+                "tipo": "PASSAGEM AÉREA - SIGEPA",
+                "valor": 2960.02,
+                "fornecedor": "TAM",
+                "cnpjCpf": "02012862000160",
+                "documento": null
               }
             ]
           },
           {
             "tipo": "COMBUSTÍVEIS E LUBRIFICANTES.",
-            "valor": 92487.12000000002,
-            "notas": 133,
+            "valor": 113250.01999999999,
+            "notas": 144,
             "fornecedores": [
               {
                 "nome": "POSTO VILAVELHENSE LTDA",
                 "cnpjCpf": "43851561000107",
-                "total": 43591.630000000005,
-                "notas": 10,
+                "total": 59404.21000000001,
+                "notas": 13,
                 "outrosNomes": []
               },
               {
                 "nome": "POSTO DE COMBUSTIVEIS 206 LTDA",
                 "cnpjCpf": "40084269000118",
-                "total": 35052.46,
-                "notas": 63,
+                "total": 41689.94,
+                "notas": 77,
                 "outrosNomes": []
               },
               {
@@ -3156,22 +3090,6 @@
                 "outrosNomes": []
               },
               {
-                "nome": "AUTO SERVICO LORENCAO LTDA",
-                "cnpjCpf": "30544795000160",
-                "total": 670.14,
-                "notas": 2,
-                "outrosNomes": []
-              },
-              {
-                "nome": "POSTO MARCELA LIMITADA",
-                "cnpjCpf": "01503536000192",
-                "total": 643.76,
-                "notas": 3,
-                "outrosNomes": [
-                  "POSTO MARCELA"
-                ]
-              },
-              {
                 "nome": "ITAPARICA PETROLEO E COMERCIO LTDA",
                 "cnpjCpf": "01635041000117",
                 "total": 623.45,
@@ -3184,9 +3102,32 @@
                 "total": 528.22,
                 "notas": 2,
                 "outrosNomes": []
+              },
+              {
+                "nome": "POSTO ITAPARICA F1 LTDA",
+                "cnpjCpf": "36232085000180",
+                "total": 518.5799999999999,
+                "notas": 3,
+                "outrosNomes": []
+              },
+              {
+                "nome": "POSTO BELO",
+                "cnpjCpf": "42424137000113",
+                "total": 518.1700000000001,
+                "notas": 2,
+                "outrosNomes": []
               }
             ],
             "maiores": [
+              {
+                "id": "7796098",
+                "data": "2024-08-19",
+                "tipo": "COMBUSTÍVEIS E LUBRIFICANTES.",
+                "valor": 5670,
+                "fornecedor": "POSTO VILAVELHENSE LTDA",
+                "cnpjCpf": "43851561000107",
+                "documento": "http://www.camara.leg.br/cota-parlamentar/nota-fiscal-eletronica?ideDocumentoFiscal=7796098"
+              },
               {
                 "id": "7796098",
                 "data": "2024-08-19",
@@ -3206,6 +3147,15 @@
                 "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3611/2024/7725398.pdf"
               },
               {
+                "id": "7725398",
+                "data": "2024-04-25",
+                "tipo": "COMBUSTÍVEIS E LUBRIFICANTES.",
+                "valor": 5134.14,
+                "fornecedor": "POSTO VILAVELHENSE LTDA",
+                "cnpjCpf": "43851561000107",
+                "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3611/2024/7725398.pdf"
+              },
+              {
                 "id": "7704551",
                 "data": "2024-03-16",
                 "tipo": "COMBUSTÍVEIS E LUBRIFICANTES.",
@@ -3213,60 +3163,30 @@
                 "fornecedor": "POSTO VILAVELHENSE LTDA",
                 "cnpjCpf": "43851561000107",
                 "documento": "http://www.camara.leg.br/cota-parlamentar/nota-fiscal-eletronica?ideDocumentoFiscal=7704551"
-              },
-              {
-                "id": "7803712",
-                "data": "2024-09-18",
-                "tipo": "COMBUSTÍVEIS E LUBRIFICANTES.",
-                "valor": 5008.44,
-                "fornecedor": "POSTO VILAVELHENSE LTDA",
-                "cnpjCpf": "43851561000107",
-                "documento": "http://www.camara.leg.br/cota-parlamentar/nota-fiscal-eletronica?ideDocumentoFiscal=7803712"
-              },
-              {
-                "id": "7637858",
-                "data": "2023-10-31",
-                "tipo": "COMBUSTÍVEIS E LUBRIFICANTES.",
-                "valor": 4580.8,
-                "fornecedor": "POSTO VILAVELHENSE LTDA",
-                "cnpjCpf": "43851561000107",
-                "documento": "http://www.camara.leg.br/cota-parlamentar/nota-fiscal-eletronica?ideDocumentoFiscal=7637858"
               }
             ]
           },
           {
             "tipo": "TELEFONIA",
-            "valor": 10870.199999999993,
-            "notas": 29,
+            "valor": 12529.199999999993,
+            "notas": 34,
             "fornecedores": [
               {
                 "nome": "Vivo - Telefonica Brasil S.A.",
                 "cnpjCpf": "02558157000324",
-                "total": 9580.199999999995,
-                "notas": 26,
+                "total": 12099.199999999993,
+                "notas": 33,
                 "outrosNomes": []
               },
               {
-                "nome": "TELEFONICA BRASIL S.A.",
+                "nome": "TELEFÔNICA BRASIL S/A",
                 "cnpjCpf": "02558157000162",
-                "total": 1290,
-                "notas": 3,
-                "outrosNomes": [
-                  "Telefônica Brasil S.A. VIVO",
-                  "TELEFÔNICA BRASIL S/A"
-                ]
+                "total": 430,
+                "notas": 1,
+                "outrosNomes": []
               }
             ],
             "maiores": [
-              {
-                "id": "7975658",
-                "data": "2025-08-13",
-                "tipo": "TELEFONIA",
-                "valor": 502,
-                "fornecedor": "Vivo - Telefonica Brasil S.A.",
-                "cnpjCpf": "02558157000324",
-                "documento": null
-              },
               {
                 "id": "7955328",
                 "data": "2025-07-13",
@@ -3295,40 +3215,76 @@
                 "documento": null
               },
               {
-                "id": "7998984",
-                "data": "2025-09-17",
+                "id": "7906082",
+                "data": "2025-04-16",
                 "tipo": "TELEFONIA",
-                "valor": 430,
-                "fornecedor": "Telefônica Brasil S.A. VIVO",
-                "cnpjCpf": "02558157000162",
+                "valor": 426.21,
+                "fornecedor": "Vivo - Telefonica Brasil S.A.",
+                "cnpjCpf": "02558157000324",
                 "documento": null
+              },
+              {
+                "id": "7756911",
+                "data": "2024-05-14",
+                "tipo": "TELEFONIA",
+                "valor": 379.98,
+                "fornecedor": "Vivo - Telefonica Brasil S.A.",
+                "cnpjCpf": "02558157000324",
+                "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3611/2024/7756911.pdf"
+              }
+            ]
+          },
+          {
+            "tipo": "PASSAGEM AÉREA - REEMBOLSO",
+            "valor": 3393.63,
+            "notas": 2,
+            "fornecedores": [
+              {
+                "nome": "Gol Linhas Aereas S.A.",
+                "cnpjCpf": "07575651000159",
+                "total": 2116.02,
+                "notas": 1,
+                "outrosNomes": []
+              },
+              {
+                "nome": "Latam Linhas Aéreas S.A",
+                "cnpjCpf": "02012862000160",
+                "total": 1277.61,
+                "notas": 1,
+                "outrosNomes": []
+              }
+            ],
+            "maiores": [
+              {
+                "id": "7556655",
+                "data": "2023-06-08",
+                "tipo": "PASSAGEM AÉREA - REEMBOLSO",
+                "valor": 2116.02,
+                "fornecedor": "Gol Linhas Aereas S.A.",
+                "cnpjCpf": "07575651000159",
+                "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3611/2023/7556655.pdf"
+              },
+              {
+                "id": "7494459",
+                "data": "2023-02-03",
+                "tipo": "PASSAGEM AÉREA - REEMBOLSO",
+                "valor": 1277.61,
+                "fornecedor": "Latam Linhas Aéreas S.A",
+                "cnpjCpf": "02012862000160",
+                "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3611/2023/7494459.pdf"
               }
             ]
           },
           {
             "tipo": "HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.",
-            "valor": 5024.8099999999995,
-            "notas": 13,
+            "valor": 2492,
+            "notas": 7,
             "fornecedores": [
-              {
-                "nome": "AJAX HOTEIS S/A",
-                "cnpjCpf": "09643387000179",
-                "total": 1572.81,
-                "notas": 3,
-                "outrosNomes": []
-              },
               {
                 "nome": "Pratti Hoteis LTDA",
                 "cnpjCpf": "27167410000188",
                 "total": 1152,
                 "notas": 1,
-                "outrosNomes": []
-              },
-              {
-                "nome": "BHS HOTEIS LTDA EPP",
-                "cnpjCpf": "06943085000128",
-                "total": 960,
-                "notas": 3,
                 "outrosNomes": []
               },
               {
@@ -3371,33 +3327,6 @@
                 "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3611/2023/7581065.pdf"
               },
               {
-                "id": "7970013",
-                "data": "2025-08-23",
-                "tipo": "HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.",
-                "valor": 524.27,
-                "fornecedor": "AJAX HOTEIS S/A",
-                "cnpjCpf": "09643387000179",
-                "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3611/2025/7970013.pdf"
-              },
-              {
-                "id": "7974949",
-                "data": "2025-08-23",
-                "tipo": "HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.",
-                "valor": 524.27,
-                "fornecedor": "AJAX HOTEIS S/A",
-                "cnpjCpf": "09643387000179",
-                "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3611/2025/7974949.pdf"
-              },
-              {
-                "id": "7974952",
-                "data": "2025-08-23",
-                "tipo": "HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.",
-                "valor": 524.27,
-                "fornecedor": "AJAX HOTEIS S/A",
-                "cnpjCpf": "09643387000179",
-                "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3611/2025/7974952.pdf"
-              },
-              {
                 "id": "7935288",
                 "data": "2025-06-22",
                 "tipo": "HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.",
@@ -3405,47 +3334,33 @@
                 "fornecedor": "AGIL CALIMAN HOTEL LTDA - ME",
                 "cnpjCpf": "12651293000156",
                 "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3611/2025/7935288.pdf"
-              }
-            ]
-          },
-          {
-            "tipo": "PASSAGEM AÉREA - REEMBOLSO",
-            "valor": 3393.63,
-            "notas": 2,
-            "fornecedores": [
-              {
-                "nome": "Gol Linhas Aereas S.A.",
-                "cnpjCpf": "07575651000159",
-                "total": 2116.02,
-                "notas": 1,
-                "outrosNomes": []
               },
               {
-                "nome": "Latam Linhas Aéreas S.A",
-                "cnpjCpf": "02012862000160",
-                "total": 1277.61,
-                "notas": 1,
-                "outrosNomes": []
-              }
-            ],
-            "maiores": [
-              {
-                "id": "7556655",
-                "data": "2023-06-08",
-                "tipo": "PASSAGEM AÉREA - REEMBOLSO",
-                "valor": 2116.02,
-                "fornecedor": "Gol Linhas Aereas S.A.",
-                "cnpjCpf": "07575651000159",
-                "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3611/2023/7556655.pdf"
+                "id": "7935301",
+                "data": "2025-06-22",
+                "tipo": "HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.",
+                "valor": 390,
+                "fornecedor": "AGIL CALIMAN HOTEL LTDA - ME",
+                "cnpjCpf": "12651293000156",
+                "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3611/2025/7935301.pdf"
               },
               {
-                "id": "7494459",
-                "data": "2023-02-03",
-                "tipo": "PASSAGEM AÉREA - REEMBOLSO",
-                "valor": 1277.61,
-                "fornecedor": "Latam Linhas Aéreas S.A",
-                "cnpjCpf": "02012862000160",
-                "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3611/2023/7494459.pdf"
+                "id": "7929692",
+                "data": "2025-06-10",
+                "tipo": "HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.",
+                "valor": 207,
+                "fornecedor": "HOTEL D'LORENCI  LTDA",
+                "cnpjCpf": "05947921000180",
+                "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3611/2025/7929692.pdf"
+              },
+              {
+                "id": "7673011",
+                "data": "2023-11-20",
+                "tipo": "HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.",
+                "valor": 153,
+                "fornecedor": "Hotel Santa Maria LTDA",
+                "cnpjCpf": "38569869000124",
+                "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3611/2024/7673011.pdf"
               }
             ]
           }
@@ -3505,47 +3420,47 @@
           },
           {
             "competencia": "2024-03",
-            "valor": 56037.850000000006
+            "valor": 87491.90999999999
           },
           {
             "competencia": "2024-04",
-            "valor": 68276.58
+            "valor": 115091.27
           },
           {
             "competencia": "2024-05",
-            "valor": 42042.9
+            "valor": 77426.71
           },
           {
             "competencia": "2024-06",
-            "valor": 42905.41999999999
+            "valor": 70148.77
           },
           {
             "competencia": "2024-07",
-            "valor": 35552.899999999994
+            "valor": 62107.67999999999
           },
           {
             "competencia": "2024-08",
-            "valor": 43496.07000000001
+            "valor": 85204.28000000001
           },
           {
             "competencia": "2024-09",
-            "valor": 45375.770000000004
+            "valor": 85910.88
           },
           {
             "competencia": "2024-10",
-            "valor": 43479.80999999999
+            "valor": 77144.33999999998
           },
           {
             "competencia": "2024-11",
-            "valor": 32135.670000000002
+            "valor": 58779.34
           },
           {
             "competencia": "2024-12",
-            "valor": 58397.009999999995
+            "valor": 83364.51
           },
           {
             "competencia": "2025-01",
-            "valor": 13635.95
+            "valor": 15484.45
           },
           {
             "competencia": "2025-02",
@@ -3569,23 +3484,19 @@
           },
           {
             "competencia": "2025-07",
-            "valor": 46443.729999999996
-          },
-          {
-            "competencia": "2025-08",
-            "valor": 44805.63
+            "valor": 25642.68
           },
           {
             "competencia": "2025-09",
-            "valor": 50771.210000000014
+            "valor": 3500
           },
           {
             "competencia": "2025-10",
-            "valor": 40540.520000000004
+            "valor": 17710.23
           },
           {
             "competencia": "2025-11",
-            "valor": 39778.79
+            "valor": 37138.67
           },
           {
             "competencia": "2025-12",
@@ -3621,18 +3532,21 @@
           },
           {
             "competencia": "2026-08",
-            "valor": 18549.1
+            "valor": 19382.309999999998
+          },
+          {
+            "competencia": "2026-09",
+            "valor": 8500
           }
         ],
         "fornecedores": [
           {
-            "nome": "LATAM Airlines Brasil",
-            "cnpjCpf": "02012862000160",
-            "total": 320796.8300000002,
-            "notas": 322,
+            "nome": "GALWAN CONSTRUTORA E INCORPORADORA LTDA",
+            "cnpjCpf": "31705692000105",
+            "total": 344750.68999999994,
+            "notas": 43,
             "outrosNomes": [
-              "TAM",
-              "Latam Linhas Aéreas S.A"
+              "GALWAN CONSTRUTORA INCORPORADORA LTDA"
             ]
           },
           {
@@ -3643,34 +3557,40 @@
             "outrosNomes": []
           },
           {
-            "nome": "GALWAN CONSTRUTORA E INCORPORADORA LTDA",
-            "cnpjCpf": "31705692000105",
-            "total": 298929.62,
-            "notas": 37,
+            "nome": "LATAM Airlines Brasil",
+            "cnpjCpf": "02012862000160",
+            "total": 291136.3200000002,
+            "notas": 290,
             "outrosNomes": [
-              "GALWAN CONSTRUTORA INCORPORADORA LTDA"
+              "TAM",
+              "Latam Linhas Aéreas S.A"
             ]
           },
           {
             "nome": "ARAUJO RENTACAR EIRELI EPP",
             "cnpjCpf": "07134140000100",
-            "total": 149166.48,
-            "notas": 14,
+            "total": 269583.02,
+            "notas": 25,
             "outrosNomes": []
           },
           {
             "nome": "SUPREMA MOBILIDADE LTDA",
             "cnpjCpf": "24894397000170",
-            "total": 128700,
-            "notas": 19,
+            "total": 111400,
+            "notas": 16,
             "outrosNomes": []
           },
           {
-            "nome": "O ANJO PUBLICIDADE LTDA",
-            "cnpjCpf": "48994427000189",
-            "total": 99000,
-            "notas": 12,
-            "outrosNomes": []
+            "nome": "Facebook Serviços Online do Brasil Ltda.",
+            "cnpjCpf": "13347016000117",
+            "total": 84707.22000000002,
+            "notas": 35,
+            "outrosNomes": [
+              "FACEBOOK SERVIÇOS ONLINE DO BRASIL LTDA",
+              "Facebook Serviços Online do Brasil ltda",
+              "Facebook Serviços Online do Brasil",
+              "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA."
+            ]
           },
           {
             "nome": "ES MARKETING E CONSULTORIA LDTA",
@@ -3682,52 +3602,57 @@
             ]
           },
           {
-            "nome": "Facebook Serviços Online do Brasil Ltda.",
-            "cnpjCpf": "13347016000117",
-            "total": 67885.18000000001,
-            "notas": 32,
-            "outrosNomes": [
-              "FACEBOOK SERVIÇOS ONLINE DO BRASIL LTDA",
-              "Facebook Serviços Online do Brasil ltda",
-              "Facebook Serviços Online do Brasil",
-              "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA."
-            ]
+            "nome": "SPEED-UP LTDA",
+            "cnpjCpf": "50623932000169",
+            "total": 73785.4,
+            "notas": 7,
+            "outrosNomes": []
           },
           {
-            "nome": "LOCALIZA RENT A CAR SA",
-            "cnpjCpf": "16670085034130",
-            "total": 44609.219999999994,
-            "notas": 10,
+            "nome": "O ANJO PUBLICIDADE LTDA",
+            "cnpjCpf": "48994427000189",
+            "total": 73500,
+            "notas": 9,
+            "outrosNomes": []
+          },
+          {
+            "nome": "DV BUSINESS E CONSULTING MTDA ME",
+            "cnpjCpf": "33159543000105",
+            "total": 60000,
+            "notas": 6,
             "outrosNomes": []
           },
           {
             "nome": "POSTO VILAVELHENSE LTDA",
             "cnpjCpf": "43851561000107",
-            "total": 43591.630000000005,
-            "notas": 10,
-            "outrosNomes": []
-          },
-          {
-            "nome": "SPEED-UP LTDA",
-            "cnpjCpf": "50623932000169",
-            "total": 41892.7,
-            "notas": 4,
+            "total": 59404.21000000001,
+            "notas": 13,
             "outrosNomes": []
           },
           {
             "nome": "CONDOMINIO OCEAN VILLE",
             "cnpjCpf": "17487358000193",
-            "total": 39932.530000000006,
-            "notas": 33,
+            "total": 47107.02000000001,
+            "notas": 39,
             "outrosNomes": [
               "GALWAN CONSTRUTORA INCORPORADORA LTDA"
             ]
           }
         ],
         "glosas": {
-          "quantidade": 78,
-          "valor": 16631.07000000001,
+          "quantidade": 93,
+          "valor": 24683.37000000001,
           "exemplos": [
+            {
+              "id": "7859304",
+              "data": "2025-01-02",
+              "tipo": "LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES",
+              "valor": 213,
+              "fornecedor": "ARAUJO RENTACAR EIRELI EPP",
+              "cnpjCpf": "07134140000100",
+              "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3611/2025/7859304.pdf",
+              "valorGlosa": 7703.54
+            },
             {
               "id": "7859304",
               "data": "2025-01-02",
@@ -3797,16 +3722,6 @@
               "cnpjCpf": "16670085034130",
               "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3611/2023/7605422.pdf",
               "valorGlosa": 403.78
-            },
-            {
-              "id": "7654384",
-              "data": "2023-12-01",
-              "tipo": "COMBUSTÍVEIS E LUBRIFICANTES.",
-              "valor": 276.43,
-              "fornecedor": "ITAPARICA PETROLEO E COMERCIO LTDA",
-              "cnpjCpf": "01635041000117",
-              "documento": "http://www.camara.leg.br/cota-parlamentar/nota-fiscal-eletronica?ideDocumentoFiscal=7654384",
-              "valorGlosa": 374.9
             }
           ]
         },
@@ -3903,8 +3818,8 @@
           }
         ],
         "comprovantes": {
-          "com": 438,
-          "total": 1014
+          "com": 497,
+          "total": 1021
         }
       },
       "proposicoes": {
@@ -4165,8 +4080,8 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/178871.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/178871",
       "despesas": {
-        "total": 2003843.2199999997,
-        "documentos": 1612,
+        "total": 2004971.02,
+        "documentos": 1615,
         "porTipo": [
           {
             "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
@@ -4380,14 +4295,14 @@
           },
           {
             "tipo": "PASSAGEM AÉREA - SIGEPA",
-            "valor": 381498.1799999999,
-            "notas": 261,
+            "valor": 382625.97999999986,
+            "notas": 262,
             "fornecedores": [
               {
                 "nome": "LATAM Airlines Brasil",
                 "cnpjCpf": "02012862000160",
-                "total": 297899.29000000004,
-                "notas": 201,
+                "total": 299027.09,
+                "notas": 202,
                 "outrosNomes": [
                   "TAM"
                 ]
@@ -5269,7 +5184,7 @@
           },
           {
             "competencia": "2026-09",
-            "valor": 5416.11
+            "valor": 6543.91
           },
           {
             "competencia": "2026-10",
@@ -5289,8 +5204,8 @@
           {
             "nome": "LATAM Airlines Brasil",
             "cnpjCpf": "02012862000160",
-            "total": 300039.97,
-            "notas": 202,
+            "total": 301167.77,
+            "notas": 203,
             "outrosNomes": [
               "TAM",
               "Latam Linhas Aéreas S.A"
@@ -5575,7 +5490,7 @@
         ],
         "comprovantes": {
           "com": 1206,
-          "total": 1612
+          "total": 1615
         }
       },
       "proposicoes": {
@@ -5986,7 +5901,7 @@
       "paginaOficial": "https://www.camara.leg.br/deputados/220529",
       "despesas": {
         "total": 1918959.3800000018,
-        "documentos": 1449,
+        "documentos": 1450,
         "porTipo": [
           {
             "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
@@ -7295,7 +7210,7 @@
         ],
         "comprovantes": {
           "com": 1144,
-          "total": 1449
+          "total": 1450
         }
       },
       "proposicoes": {
@@ -7600,19 +7515,19 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/220526.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/220526",
       "despesas": {
-        "total": 1642464.8499999999,
-        "documentos": 1831,
+        "total": 1643776.68,
+        "documentos": 1833,
         "porTipo": [
           {
             "tipo": "PASSAGEM AÉREA - SIGEPA",
-            "valor": 444827.33999999997,
-            "notas": 381,
+            "valor": 446139.1699999999,
+            "notas": 382,
             "fornecedores": [
               {
                 "nome": "LATAM Airlines Brasil",
                 "cnpjCpf": "02012862000160",
-                "total": 337598.7400000002,
-                "notas": 305,
+                "total": 338910.5700000002,
+                "notas": 306,
                 "outrosNomes": [
                   "TAM"
                 ]
@@ -8671,7 +8586,7 @@
           },
           {
             "competencia": "2026-09",
-            "valor": 17031.079999999998
+            "valor": 18342.909999999996
           },
           {
             "competencia": "2026-10",
@@ -8682,8 +8597,8 @@
           {
             "nome": "LATAM Airlines Brasil",
             "cnpjCpf": "02012862000160",
-            "total": 339388.4900000002,
-            "notas": 306,
+            "total": 340700.3200000002,
+            "notas": 307,
             "outrosNomes": [
               "TAM",
               "Cia Aérea - TAM"
@@ -8959,7 +8874,7 @@
         ],
         "comprovantes": {
           "com": 1338,
-          "total": 1831
+          "total": 1833
         }
       },
       "proposicoes": {
@@ -9260,7 +9175,7 @@
       "paginaOficial": "https://www.camara.leg.br/deputados/178873",
       "despesas": {
         "total": 1433162.1199999899,
-        "documentos": 2423,
+        "documentos": 2424,
         "porTipo": [
           {
             "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
@@ -10631,8 +10546,8 @@
           }
         ],
         "comprovantes": {
-          "com": 2220,
-          "total": 2423
+          "com": 2221,
+          "total": 2424
         }
       },
       "proposicoes": {
@@ -10958,7 +10873,7 @@
       "paginaOficial": "https://www.camara.leg.br/deputados/220527",
       "despesas": {
         "total": 1851564.4599999997,
-        "documentos": 1546,
+        "documentos": 1552,
         "porTipo": [
           {
             "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
@@ -12239,7 +12154,7 @@
         ],
         "comprovantes": {
           "com": 1170,
-          "total": 1546
+          "total": 1552
         }
       },
       "proposicoes": {
@@ -14026,8 +13941,8 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/160517.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/160517",
       "despesas": {
-        "total": 1930366.580000004,
-        "documentos": 1065,
+        "total": 1931224.2000000041,
+        "documentos": 1069,
         "porTipo": [
           {
             "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
@@ -14355,14 +14270,14 @@
           },
           {
             "tipo": "PASSAGEM AÉREA - SIGEPA",
-            "valor": 253635.95000000013,
-            "notas": 273,
+            "valor": 254493.57000000015,
+            "notas": 274,
             "fornecedores": [
               {
                 "nome": "LATAM Airlines Brasil",
                 "cnpjCpf": "02012862000160",
-                "total": 193520.22000000012,
-                "notas": 217,
+                "total": 194377.84000000014,
+                "notas": 218,
                 "outrosNomes": [
                   "TAM"
                 ]
@@ -15047,7 +14962,7 @@
           },
           {
             "competencia": "2026-08",
-            "valor": 22626.690000000002
+            "valor": 23484.31
           },
           {
             "competencia": "2026-09",
@@ -15084,8 +14999,8 @@
           {
             "nome": "LATAM Airlines Brasil",
             "cnpjCpf": "02012862000160",
-            "total": 204348.05000000013,
-            "notas": 223,
+            "total": 205205.67000000016,
+            "notas": 224,
             "outrosNomes": [
               "TAM",
               "Cia Aérea - TAM"
@@ -15342,7 +15257,7 @@
         ],
         "comprovantes": {
           "com": 664,
-          "total": 1065
+          "total": 1069
         }
       },
       "proposicoes": {
