@@ -11,11 +11,11 @@
     2025,
     2026
   ],
-  "coletadoEm": "2026-10-15T14:25:09.909Z",
+  "coletadoEm": "2026-10-16T14:16:10.839Z",
   "recorte": "Emendas ao Orçamento do Espírito Santo cujo autor individual é deputado estadual da legislatura atual da ALES (2023–2027) e candidato em 2026. A LOA de um ano é emendada no ano anterior: a de 2023 foi emendada pela legislatura anterior, e só aparece para quem já era deputado. Emenda de bancada e de comissão não tem autor individual e não entra. O casamento com a candidatura é por nome, com desistência em qualquer ambiguidade — os nomes que não casaram estão listados no dado.",
   "conferencia": {
     "aprovada": true,
-    "conferidoEm": "2026-10-15T14:25:09.847Z",
+    "conferidoEm": "2026-10-16T14:16:10.791Z",
     "provas": [
       "cada arquivo é baixado duas vezes, e os dois downloads têm de ser idênticos",
       "o valor previsto da emenda repete igual em todas as linhas dela",
@@ -26,7 +26,7 @@
   },
   "referencia": {
     "bancada": 33,
-    "medianaEmpenhado": 6257874.29,
+    "medianaEmpenhado": 6257874.289999999,
     "menor": 644846.78,
     "maior": 69948698.94
   },
@@ -1648,7 +1648,7 @@
         "totais": {
           "previsto": 6800000,
           "empenhado": 5451216.01,
-          "liquidado": 4788905.45,
+          "liquidado": 4788905.449999999,
           "pago": 4728965.449999999,
           "restosAPagar": 172130
         },
@@ -3595,8 +3595,8 @@
         "valoresPublicados": true,
         "totais": {
           "previsto": 8700000,
-          "empenhado": 9473076.249999998,
-          "liquidado": 9074109.479999999,
+          "empenhado": 9473076.25,
+          "liquidado": 9074109.48,
           "pago": 9034110.43,
           "restosAPagar": 333375.05
         },
@@ -3623,7 +3623,7 @@
             "ano": 2026,
             "quantidade": 48,
             "empenhado": 2643376.72,
-            "pago": 2537785.95
+            "pago": 2537785.9499999997
           }
         ],
         "porFuncao": [
@@ -3940,7 +3940,7 @@
           {
             "nome": "Individual com finalidade definida não impositiva",
             "quantidade": 151,
-            "empenhado": 9473076.249999998,
+            "empenhado": 9473076.25,
             "pago": 9034110.43
           }
         ],
@@ -5053,7 +5053,7 @@
             "ano": 2026,
             "quantidade": 19,
             "empenhado": 2209960.9,
-            "pago": 2139960.51
+            "pago": 2139960.5100000002
           }
         ],
         "porFuncao": [
@@ -5375,7 +5375,7 @@
         "valoresPublicados": true,
         "totais": {
           "previsto": 8700000,
-          "empenhado": 6257874.29,
+          "empenhado": 6257874.289999999,
           "liquidado": 4810253.88,
           "pago": 4690253.88,
           "restosAPagar": 846494.95
@@ -5410,7 +5410,7 @@
           {
             "nome": "DESPORTO E LAZER",
             "quantidade": 30,
-            "empenhado": 2792608.53,
+            "empenhado": 2792608.5300000003,
             "pago": 2115060.92
           },
           {
@@ -5822,7 +5822,7 @@
           {
             "nome": "Individual com finalidade definida não impositiva",
             "quantidade": 178,
-            "empenhado": 6257874.29,
+            "empenhado": 6257874.289999999,
             "pago": 4690253.88
           }
         ],
@@ -6012,7 +6012,7 @@
           {
             "nome": "ASSISTÊNCIA SOCIAL",
             "quantidade": 36,
-            "empenhado": 563246.9500000001,
+            "empenhado": 563246.95,
             "pago": 529976.37
           },
           {
@@ -6563,7 +6563,7 @@
           "previsto": 7200000,
           "empenhado": 8230950.66,
           "liquidado": 8148421.319999999,
-          "pago": 8085632.92,
+          "pago": 8100632.92,
           "restosAPagar": 99996.4
         },
         "porAno": [
@@ -6583,7 +6583,7 @@
             "ano": 2026,
             "quantidade": 35,
             "empenhado": 2674996.37,
-            "pago": 2659992.75
+            "pago": 2674992.75
           }
         ],
         "porFuncao": [
@@ -6597,7 +6597,7 @@
             "nome": "CULTURA",
             "quantidade": 9,
             "empenhado": 1548061.25,
-            "pago": 1533061.25
+            "pago": 1548061.25
           },
           {
             "nome": "DESPORTO E LAZER",
@@ -6707,7 +6707,7 @@
             "nome": "Cachoeiro de Itapemirim",
             "quantidade": 3,
             "empenhado": 75000,
-            "pago": 30000
+            "pago": 45000
           },
           {
             "nome": "Afonso Cláudio",
@@ -6811,7 +6811,7 @@
             "nome": "Individual com finalidade definida não impositiva",
             "quantidade": 119,
             "empenhado": 8230950.66,
-            "pago": 8085632.92
+            "pago": 8100632.92
           }
         ],
         "criterioDaLista": "as 10 de maior valor empenhado",
@@ -6969,7 +6969,7 @@
             "ano": 2026,
             "quantidade": 50,
             "empenhado": 2271785,
-            "pago": 2006986.6400000001
+            "pago": 2006986.64
           }
         ],
         "porFuncao": [
@@ -9315,7 +9315,7 @@
             "ano": 2026,
             "quantidade": 102,
             "empenhado": 1678900.33,
-            "pago": 1202213.0700000003
+            "pago": 1202213.07
           }
         ],
         "porFuncao": [

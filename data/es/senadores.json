@@ -11,7 +11,7 @@
     2025,
     2026
   ],
-  "coletadoEm": "2026-10-14T14:33:42.883Z",
+  "coletadoEm": "2026-10-16T14:00:50.299Z",
   "senadores": [
     {
       "id": "senado-5953",
@@ -11133,6 +11133,38 @@
     }
   ],
   "votacoes": [
+    {
+      "id": "7108-1",
+      "data": "2026-10-15",
+      "materia": "PLP 186/2026",
+      "ementa": "Altera a Lei Complementar nº 123, de 14 de dezembro de 2006, para atualizar o limite de receita bruta anual e o número de empregados do Microempreendedor Individual (MEI), conceder remissão de créditos de titularidade da União de sua responsabilidade e dispor sobre a aplicação da medida.",
+      "descricao": "Votação nominal do Projeto de Lei Complementar nº 186, de 2026, nos termos do parecer.",
+      "resultado": "Aprovado",
+      "secreta": false,
+      "votosDoEstado": [
+        {
+          "idExterno": 5953,
+          "nome": "Fabiano Contarato",
+          "partido": "PT",
+          "registro": "Sim",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 631,
+          "nome": "Magno Malta",
+          "partido": "PL",
+          "registro": "Sim",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 5942,
+          "nome": "Marcos do Val",
+          "partido": "AVANTE",
+          "registro": "Sim",
+          "voto": "Sim"
+        }
+      ]
+    },
     {
       "id": "7105-2",
       "data": "2026-09-03",
