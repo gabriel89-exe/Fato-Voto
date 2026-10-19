@@ -9,7 +9,7 @@
     "idEleicao": "20322002026",
     "uf": "ES"
   },
-  "coletadoEm": "2026-10-18T13:18:43.973Z",
+  "coletadoEm": "2026-10-19T16:28:31.748Z",
   "total": 577,
   "candidaturas": [
     {
@@ -35755,17 +35755,17 @@
         },
         {
           "ano": 2004,
-          "cargo": "Vice-Prefeito",
-          "partido": "PTC",
-          "uf": "57096",
-          "resultado": "Concorrendo"
-        },
-        {
-          "ano": 2004,
           "cargo": "Prefeito",
           "partido": "PTC",
           "uf": "57096",
           "resultado": "Não eleito"
+        },
+        {
+          "ano": 2004,
+          "cargo": "Vice-Prefeito",
+          "partido": "PTC",
+          "uf": "57096",
+          "resultado": "Concorrendo"
         }
       ],
       "primeiraCandidatura": false,
@@ -63996,9 +63996,9 @@
         "nome": "MOVIMENTO DEMOCRÁTICO BRASILEIRO"
       },
       "coligacao": "MDB",
-      "situacaoRegistro": "Indeferido em prazo recursal ou com recurso",
+      "situacaoRegistro": "Indeferido",
       "situacaoCandidatura": "Consta da urna",
-      "apto": true,
+      "apto": false,
       "disputaReeleicao": false,
       "dataNascimento": "1949-01-08",
       "genero": "MASC.",
@@ -66851,14 +66851,14 @@
         },
         {
           "ano": 2004,
-          "cargo": "Vice-Prefeito",
+          "cargo": "Vereador",
           "partido": "PSB",
           "uf": "56812",
           "resultado": "Concorrendo"
         },
         {
           "ano": 2004,
-          "cargo": "Vereador",
+          "cargo": "Vice-Prefeito",
           "partido": "PSB",
           "uf": "56812",
           "resultado": "Concorrendo"

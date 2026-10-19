@@ -6,12 +6,12 @@
   },
   "uf": "ES",
   "legislatura": 57,
-  "coletadoEm": "2026-10-18T13:20:02.629Z",
+  "coletadoEm": "2026-10-19T16:30:04.811Z",
   "referencia": {
     "bancada": 10,
-    "medianaDespesas": 1925528.0900000029,
+    "medianaDespesas": 1926275.5300000026,
     "menor": 1433162.1199999899,
-    "maior": 2007480.46
+    "maior": 2007693.8599999999
   },
   "parlamentares": [
     {
@@ -1839,7 +1839,7 @@
                 "valor": 1202,
                 "fornecedor": "TELEFONICA BRASIL S.A.",
                 "cnpjCpf": "02558157000162",
-                "documento": null
+                "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3256/2026/8160432.pdf"
               },
               {
                 "id": "8160421",
@@ -1848,7 +1848,7 @@
                 "valor": 1201.95,
                 "fornecedor": "TELEFONICA BRASIL S.A.",
                 "cnpjCpf": "02558157000162",
-                "documento": null
+                "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3256/2026/8160421.pdf"
               },
               {
                 "id": "8144173",
@@ -1857,7 +1857,7 @@
                 "valor": 940,
                 "fornecedor": "TELEFONICA BRASIL S.A.",
                 "cnpjCpf": "02558157000162",
-                "documento": null
+                "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3256/2026/8144173.pdf"
               },
               {
                 "id": "8144119",
@@ -1866,7 +1866,7 @@
                 "valor": 547,
                 "fornecedor": "TELEFONICA BRASIL S.A.",
                 "cnpjCpf": "02558157000162",
-                "documento": null
+                "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3256/2026/8144119.pdf"
               },
               {
                 "id": "8144161",
@@ -1875,7 +1875,7 @@
                 "valor": 547,
                 "fornecedor": "TELEFONICA BRASIL S.A.",
                 "cnpjCpf": "02558157000162",
-                "documento": null
+                "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3256/2026/8144161.pdf"
               }
             ]
           },
@@ -2459,7 +2459,7 @@
           }
         ],
         "comprovantes": {
-          "com": 722,
+          "com": 817,
           "total": 1440
         }
       },
@@ -2712,7 +2712,7 @@
       "paginaOficial": "https://www.camara.leg.br/deputados/220528",
       "despesas": {
         "total": 1987606.9599999986,
-        "documentos": 1021,
+        "documentos": 1020,
         "porTipo": [
           {
             "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
@@ -3265,7 +3265,7 @@
                 "valor": 502,
                 "fornecedor": "Vivo - Telefonica Brasil S.A.",
                 "cnpjCpf": "02558157000324",
-                "documento": null
+                "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3611/2025/7975658.pdf"
               },
               {
                 "id": "7955328",
@@ -3274,7 +3274,7 @@
                 "valor": 442,
                 "fornecedor": "Vivo - Telefonica Brasil S.A.",
                 "cnpjCpf": "02558157000324",
-                "documento": null
+                "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3611/2025/7955328.pdf"
               },
               {
                 "id": "7921460",
@@ -3283,7 +3283,7 @@
                 "valor": 430,
                 "fornecedor": "Vivo - Telefonica Brasil S.A.",
                 "cnpjCpf": "02558157000324",
-                "documento": null
+                "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3611/2025/7921460.pdf"
               },
               {
                 "id": "7935373",
@@ -3292,7 +3292,7 @@
                 "valor": 430,
                 "fornecedor": "TELEFÔNICA BRASIL S/A",
                 "cnpjCpf": "02558157000162",
-                "documento": null
+                "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3611/2025/7935373.pdf"
               },
               {
                 "id": "7998984",
@@ -3301,7 +3301,7 @@
                 "valor": 430,
                 "fornecedor": "Telefônica Brasil S.A. VIVO",
                 "cnpjCpf": "02558157000162",
-                "documento": null
+                "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3611/2025/7998984.pdf"
               }
             ]
           },
@@ -3907,8 +3907,8 @@
           }
         ],
         "comprovantes": {
-          "com": 439,
-          "total": 1021
+          "com": 467,
+          "total": 1020
         }
       },
       "proposicoes": {
@@ -4169,7 +4169,7 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/178871.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/178871",
       "despesas": {
-        "total": 2007480.46,
+        "total": 2007693.8599999999,
         "documentos": 1616,
         "porTipo": [
           {
@@ -4465,8 +4465,8 @@
           },
           {
             "tipo": "COMBUSTÍVEIS E LUBRIFICANTES.",
-            "valor": 250683.15000000008,
-            "notas": 522,
+            "valor": 250896.55000000008,
+            "notas": 524,
             "fornecedores": [
               {
                 "nome": "AUTO POSTO ESMIG LTDA",
@@ -4478,8 +4478,8 @@
               {
                 "nome": "AUTO POSTO CINCO ESTRELAS LTDA",
                 "cnpjCpf": "00692418000107",
-                "total": 10450.419999999998,
-                "notas": 59,
+                "total": 10563.82,
+                "notas": 60,
                 "outrosNomes": []
               },
               {
@@ -4632,7 +4632,7 @@
                 "valor": 1506.69,
                 "fornecedor": "TELEFÔNICA BRASIL S.A",
                 "cnpjCpf": "02558157000162",
-                "documento": null
+                "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/2984/2023/7607700.pdf"
               },
               {
                 "id": "7639249",
@@ -4641,7 +4641,7 @@
                 "valor": 1479.56,
                 "fornecedor": "Telefônica Brasil S.A. VIVO",
                 "cnpjCpf": "02558157000162",
-                "documento": null
+                "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/2984/2023/7639249.pdf"
               },
               {
                 "id": "7655496",
@@ -4650,7 +4650,7 @@
                 "valor": 1479.56,
                 "fornecedor": "Vivo - Telefonica Brasil S.A",
                 "cnpjCpf": "02558157000162",
-                "documento": null
+                "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/2984/2023/7655496.pdf"
               },
               {
                 "id": "7806069",
@@ -4659,7 +4659,7 @@
                 "valor": 1479.56,
                 "fornecedor": "Telefonica Brasil S.A - VIVO",
                 "cnpjCpf": "02558157000162",
-                "documento": null
+                "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/2984/2024/7806069.pdf"
               },
               {
                 "id": "7813586",
@@ -4668,7 +4668,7 @@
                 "valor": 1467.66,
                 "fornecedor": "VIVO TELEFONIA BRASIL S/A",
                 "cnpjCpf": "02558157000162",
-                "documento": null
+                "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/2984/2024/7813586.pdf"
               }
             ]
           },
@@ -5288,7 +5288,7 @@
           },
           {
             "competencia": "2026-10",
-            "valor": 2968.8300000000004
+            "valor": 3182.23
           }
         ],
         "fornecedores": [
@@ -5422,7 +5422,7 @@
               "valor": 1192,
               "fornecedor": "Telefônica Brasil S.A. VIVO",
               "cnpjCpf": "02558157000162",
-              "documento": null,
+              "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/2984/2023/7623826.pdf",
               "valorGlosa": 315.42
             },
             {
@@ -5432,7 +5432,7 @@
               "valor": 1200,
               "fornecedor": "EVAIR VIEIRA DE MELO",
               "cnpjCpf": "02558157000162",
-              "documento": null,
+              "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/2984/2025/7912640.pdf",
               "valorGlosa": 287.58
             },
             {
@@ -5442,7 +5442,7 @@
               "valor": 1192,
               "fornecedor": "TELEFÔNICA BRASIL S/A - VIVO",
               "cnpjCpf": "02558157000162",
-              "documento": null,
+              "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/2984/2024/7786813.pdf",
               "valorGlosa": 287.56
             },
             {
@@ -5452,7 +5452,7 @@
               "valor": 1192,
               "fornecedor": "TELEFONICA BRASIL S.A. VIVO",
               "cnpjCpf": "02558157000162",
-              "documento": null,
+              "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/2984/2024/7767788.pdf",
               "valorGlosa": 287.56
             },
             {
@@ -5462,7 +5462,7 @@
               "valor": 1192,
               "fornecedor": "VIVO TELEFONIA BRASIL S/A",
               "cnpjCpf": "02558157000162",
-              "documento": null,
+              "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/2984/2024/7751520.pdf",
               "valorGlosa": 287.56
             },
             {
@@ -5472,7 +5472,7 @@
               "valor": 1202.83,
               "fornecedor": "Telefonica Brasil S A",
               "cnpjCpf": "02558157000162",
-              "documento": null,
+              "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/2984/2024/7731868.pdf",
               "valorGlosa": 287.56
             },
             {
@@ -5482,7 +5482,7 @@
               "valor": 1192,
               "fornecedor": "TELEFONICA BRASIL S.A.",
               "cnpjCpf": "02558157000162",
-              "documento": null,
+              "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/2984/2024/7715772.pdf",
               "valorGlosa": 287.56
             },
             {
@@ -5492,7 +5492,7 @@
               "valor": 1192,
               "fornecedor": "telefonica brasil s/a",
               "cnpjCpf": "02558157000162",
-              "documento": null,
+              "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/2984/2024/7684074.pdf",
               "valorGlosa": 287.56
             }
           ]
@@ -5590,7 +5590,7 @@
           }
         ],
         "comprovantes": {
-          "com": 1207,
+          "com": 1260,
           "total": 1616
         }
       },
@@ -5599,7 +5599,7 @@
           {
             "tipo": "Requerimento de Informação",
             "sigla": "RIC",
-            "total": 333
+            "total": 334
           },
           {
             "tipo": "Requerimento de Registro de Frente Parlamentar na Câmara dos Deputados",
@@ -5629,7 +5629,7 @@
           {
             "tipo": "Indicação",
             "sigla": "INC",
-            "total": 182
+            "total": 183
           },
           {
             "tipo": "Requerimento de Convocação de Ministro de Estado no Plenário (art. 50, CF)",
@@ -5639,7 +5639,7 @@
           {
             "tipo": "Solicitação de Informação ao TCU",
             "sigla": "SIT",
-            "total": 128
+            "total": 129
           },
           {
             "tipo": "Requerimento para envio de Indicação pela Comissão",
@@ -5879,6 +5879,36 @@
         ],
         "recentes": [
           {
+            "id": 2648333,
+            "sigla": "RIC",
+            "tipo": "Requerimento de Informação",
+            "numero": 2762,
+            "ano": 2026,
+            "ementa": "Solicita ao Ministro de Estado da Fazenda informações acerca das negociações entre a Caixa Econômica Federal e o Sport Club Corinthians Paulista destinadas à eventual quitação de dívida estimada em R$ 640 milhões, mediante cessão dos direitos de nomeação da Neo Química Arena e outras contrapartidas comerciais, bem como sobre concessões financeiras ao clube e eventual participação de autoridades do Poder Executivo Federal nas tratativas.",
+            "apresentadaEm": "2026-10-16T19:48",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2648333"
+          },
+          {
+            "id": 2648330,
+            "sigla": "SIT",
+            "tipo": "Solicitação de Informação ao TCU",
+            "numero": 53,
+            "ano": 2026,
+            "ementa": "Requer que sejam solicitadas ao Tribunal de Contas da União (TCU) informações acerca da legalidade, legitimidade, economicidade e regularidade das negociações entre a Caixa Econômica Federal e o Sport Club Corinthians Paulista destinadas à reestruturação ou eventual quitação de dívida estimada em R$ 640 milhões, mediante cessão de direitos de nomeação (naming rights) da Neo Química Arena e outras contrapartidas comerciais, bem como sobre a concessão de benefícios financeiros ao clube e a eventual interferência político-eleitoral na operação.",
+            "apresentadaEm": "2026-10-16T19:48",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2648330"
+          },
+          {
+            "id": 2648329,
+            "sigla": "INC",
+            "tipo": "Indicação",
+            "numero": 1627,
+            "ano": 2026,
+            "ementa": "Sugere à Controladoria-Geral da União a realização de auditoria destinada a examinar a regularidade das negociações entre a Caixa Econômica Federal e o Sport Club Corinthians Paulista para a\nreestruturação ou eventual quitação de dívida estimada em R$ 640 milhões, bem como a concessão de benefícios financeiros ao clube e a possível interferência político-eleitoral na operação.",
+            "apresentadaEm": "2026-10-16T19:48",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2648329"
+          },
+          {
             "id": 2647488,
             "sigla": "INC",
             "tipo": "Indicação",
@@ -5947,36 +5977,6 @@
             "ementa": "Requer a convocação do Ministro de Estado da Justiça e Segurança Pública, Sr. Wellington César Lima e Silva, para comparecer ao Plenário da Câmara dos Deputados, reunido em Comissão Geral, e o convite ao Diretor-Geral da Polícia Federal, Sr. Andrei Augusto Passos Rodrigues, e ao Diretor de Inteligência Policial da Polícia Federal, Sr. Leandro Almada da Costa, a fim de prestarem esclarecimentos acerca da elaboração, autoria, tramitação, difusão e utilização de relatório de inteligência atribuído à Polícia Federal e qualificado como apócrifo.",
             "apresentadaEm": "2026-09-09T17:50",
             "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2646302"
-          },
-          {
-            "id": 2646187,
-            "sigla": "REQ",
-            "tipo": "Requerimento de Inclusão ou Retirada de Assinatura em Proposição de Iniciativa Individual",
-            "numero": 4196,
-            "ano": 2026,
-            "ementa": "Requer a inclusão, como coautores do Projeto de Lei nº 5.281, de 2026, dos Deputados e das Deputadas signatários deste requerimento.",
-            "apresentadaEm": "2026-09-08T11:10",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2646187"
-          },
-          {
-            "id": 2644800,
-            "sigla": "PEC",
-            "tipo": "Proposta de Emenda à Constituição",
-            "numero": 16,
-            "ano": 2026,
-            "ementa": "Acrescenta os art. 68-A no Ato das Disposições Constitucionais Transitórias para ratificar os registros de imóveis rurais em faixa de fronteira concedidos pelos estados antes da promulgação desta Constituição Federal e dá outras providências.",
-            "apresentadaEm": "2026-08-28T15:16",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2644800"
-          },
-          {
-            "id": 2644331,
-            "sigla": "RIC",
-            "tipo": "Requerimento de Informação",
-            "numero": 2481,
-            "ano": 2026,
-            "ementa": "Requer informações ao Ministro de Estado dos Transportes acerca dos impactos da atual sistemática de emissão do Código Identificador da Operação de Transporte – CIOT – sobre Transportadores Autônomos de Cargas – TAC – e Empresas de Transporte Rodoviário de Cargas – ETC – de pequeno porte, bem como sobre eventual desestímulo à sua contratação.",
-            "apresentadaEm": "2026-08-21T16:22",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2644331"
           }
         ]
       }
@@ -7314,7 +7314,7 @@
           }
         ],
         "comprovantes": {
-          "com": 1145,
+          "com": 1146,
           "total": 1451
         }
       },
@@ -7621,7 +7621,7 @@
       "paginaOficial": "https://www.camara.leg.br/deputados/220526",
       "despesas": {
         "total": 1643776.68,
-        "documentos": 1833,
+        "documentos": 1832,
         "porTipo": [
           {
             "tipo": "PASSAGEM AÉREA - SIGEPA",
@@ -8979,7 +8979,7 @@
         ],
         "comprovantes": {
           "com": 1338,
-          "total": 1833
+          "total": 1832
         }
       },
       "proposicoes": {
@@ -9821,7 +9821,7 @@
                 "valor": 1340.37,
                 "fornecedor": "TELEFONICA BRASIL S.A.",
                 "cnpjCpf": "02558157000162",
-                "documento": null
+                "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/2894/2024/7670978.pdf"
               },
               {
                 "id": "7558837",
@@ -9830,7 +9830,7 @@
                 "valor": 1332,
                 "fornecedor": "Telefônica Brasil S.A. VIVO",
                 "cnpjCpf": "02558157000162",
-                "documento": null
+                "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/2894/2023/7558837.pdf"
               },
               {
                 "id": "7564091",
@@ -9839,7 +9839,7 @@
                 "valor": 1332,
                 "fornecedor": "Telefônica Brasil S.A. VIVO",
                 "cnpjCpf": "02558157000162",
-                "documento": null
+                "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/2894/2023/7564091.pdf"
               },
               {
                 "id": "7582479",
@@ -9848,7 +9848,7 @@
                 "valor": 1332,
                 "fornecedor": "Telefônica Brasil S.A. VIVO",
                 "cnpjCpf": "02558157000162",
-                "documento": null
+                "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/2894/2023/7582479.pdf"
               },
               {
                 "id": "7600653",
@@ -9857,7 +9857,7 @@
                 "valor": 1332,
                 "fornecedor": "Telefônica Brasil S.A. VIVO",
                 "cnpjCpf": "02558157000162",
-                "documento": null
+                "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/2894/2023/7600653.pdf"
               }
             ]
           },
@@ -10493,7 +10493,7 @@
               "valor": 1200,
               "fornecedor": "VIVO TELEFONIA BRASIL S/A",
               "cnpjCpf": "02558157000162",
-              "documento": null,
+              "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/2894/2025/7878174.pdf",
               "valorGlosa": 27.14
             },
             {
@@ -10651,7 +10651,7 @@
           }
         ],
         "comprovantes": {
-          "com": 2220,
+          "com": 2265,
           "total": 2424
         }
       },
@@ -10977,8 +10977,8 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/220527.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/220527",
       "despesas": {
-        "total": 1851751.6099999999,
-        "documentos": 1554,
+        "total": 1852171.2299999997,
+        "documentos": 1555,
         "porTipo": [
           {
             "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
@@ -11359,8 +11359,8 @@
           },
           {
             "tipo": "COMBUSTÍVEIS E LUBRIFICANTES.",
-            "valor": 102880.06999999989,
-            "notas": 658,
+            "valor": 103299.68999999989,
+            "notas": 660,
             "fornecedores": [
               {
                 "nome": "POSTO PIO XII - COMERCIO DE COMBUSTIVEIS LTDA",
@@ -11566,7 +11566,7 @@
                 "valor": 1020.6,
                 "fornecedor": "NEFTA GESTÃO TURISMO E NEGÓCIOS LTDA",
                 "cnpjCpf": "12851850000182",
-                "documento": null
+                "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3651/2024/7714942.pdf"
               },
               {
                 "id": "7612253",
@@ -11976,6 +11976,10 @@
           {
             "competencia": "2026-09",
             "valor": 13310.21
+          },
+          {
+            "competencia": "2026-10",
+            "valor": 419.62
           }
         ],
         "fornecedores": [
@@ -12258,8 +12262,8 @@
           }
         ],
         "comprovantes": {
-          "com": 1172,
-          "total": 1554
+          "com": 1175,
+          "total": 1555
         }
       },
       "proposicoes": {
@@ -13557,7 +13561,7 @@
               "valor": 225.81,
               "fornecedor": "0EDP ESPIRITO SANTO DISTRIBUICAO DE ENERGIA S.A.",
               "cnpjCpf": "28152650000171",
-              "documento": null,
+              "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3631/2023/7580282.pdf",
               "valorGlosa": 16.95
             },
             {
@@ -13665,7 +13669,7 @@
           }
         ],
         "comprovantes": {
-          "com": 983,
+          "com": 988,
           "total": 1278
         }
       },
@@ -14046,8 +14050,8 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/160517.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/160517",
       "despesas": {
-        "total": 1931775.2000000041,
-        "documentos": 1070,
+        "total": 1933270.0800000038,
+        "documentos": 1074,
         "porTipo": [
           {
             "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
@@ -14456,8 +14460,8 @@
           },
           {
             "tipo": "COMBUSTÍVEIS E LUBRIFICANTES.",
-            "valor": 142503.86999999997,
-            "notas": 252,
+            "valor": 143998.74999999997,
+            "notas": 256,
             "fornecedores": [
               {
                 "nome": "POSTO DE COMBUSTIVEIS GIRASSOL LTDA",
@@ -14490,6 +14494,13 @@
                 ]
               },
               {
+                "nome": "AUTO POSTO CONILON LTDA",
+                "cnpjCpf": "35991611000123",
+                "total": 3667.7900000000004,
+                "notas": 13,
+                "outrosNomes": []
+              },
+              {
                 "nome": "POSTO SHOPPING LTDA",
                 "cnpjCpf": "57212861000150",
                 "total": 3261.2999999999997,
@@ -14504,13 +14515,6 @@
                 "outrosNomes": [
                   "POSTO ARVOREDO LTDA"
                 ]
-              },
-              {
-                "nome": "AUTO POSTO CONILON LTDA",
-                "cnpjCpf": "35991611000123",
-                "total": 3042.78,
-                "notas": 11,
-                "outrosNomes": []
               },
               {
                 "nome": "053 - G PARK - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
@@ -14619,7 +14623,7 @@
                 "valor": 551,
                 "fornecedor": "TELEFONICA BRASIL S/A - VIVO",
                 "cnpjCpf": "02558157000162",
-                "documento": null
+                "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/2317/2026/8111947.pdf"
               },
               {
                 "id": "8146614",
@@ -14628,7 +14632,7 @@
                 "valor": 551,
                 "fornecedor": "TELEFONICA BRASIL S.A.",
                 "cnpjCpf": "02558157000162",
-                "documento": null
+                "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/2317/2026/8146614.pdf"
               },
               {
                 "id": "7912843",
@@ -14637,7 +14641,7 @@
                 "valor": 526,
                 "fornecedor": "VIVO TELEFONIA BRASIL S/A",
                 "cnpjCpf": "02558157000162",
-                "documento": null
+                "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/2317/2025/7912843.pdf"
               },
               {
                 "id": "7944264",
@@ -14646,7 +14650,7 @@
                 "valor": 526,
                 "fornecedor": "TELEFÔNICA BRASIL S/A - VIVO",
                 "cnpjCpf": "02558157000162",
-                "documento": null
+                "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/2317/2025/7944264.pdf"
               },
               {
                 "id": "7956060",
@@ -14655,7 +14659,7 @@
                 "valor": 526,
                 "fornecedor": "ANTONIO DA CRUZ FILGUEIRA NETO",
                 "cnpjCpf": "02558157000162",
-                "documento": null
+                "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/2317/2025/7956060.pdf"
               }
             ]
           },
@@ -15071,7 +15075,11 @@
           },
           {
             "competencia": "2026-09",
-            "valor": 8932.37
+            "valor": 9557.380000000001
+          },
+          {
+            "competencia": "2026-10",
+            "valor": 869.87
           }
         ],
         "fornecedores": [
@@ -15361,8 +15369,8 @@
           }
         ],
         "comprovantes": {
-          "com": 665,
-          "total": 1070
+          "com": 730,
+          "total": 1074
         }
       },
       "proposicoes": {
