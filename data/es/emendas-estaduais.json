@@ -11,11 +11,11 @@
     2025,
     2026
   ],
-  "coletadoEm": "2026-10-20T14:33:39.160Z",
+  "coletadoEm": "2026-10-21T14:45:57.402Z",
   "recorte": "Emendas ao Orçamento do Espírito Santo cujo autor individual é deputado estadual da legislatura atual da ALES (2023–2027) e candidato em 2026. A LOA de um ano é emendada no ano anterior: a de 2023 foi emendada pela legislatura anterior, e só aparece para quem já era deputado. Emenda de bancada e de comissão não tem autor individual e não entra. O casamento com a candidatura é por nome, com desistência em qualquer ambiguidade — os nomes que não casaram estão listados no dado.",
   "conferencia": {
     "aprovada": true,
-    "conferidoEm": "2026-10-20T14:33:39.099Z",
+    "conferidoEm": "2026-10-21T14:45:57.373Z",
     "provas": [
       "cada arquivo é baixado duas vezes, e os dois downloads têm de ser idênticos",
       "o valor previsto da emenda repete igual em todas as linhas dela",
@@ -2426,7 +2426,7 @@
         "totais": {
           "previsto": 7100000,
           "empenhado": 5127953.67,
-          "liquidado": 4488382.67,
+          "liquidado": 4538382.67,
           "pago": 4363712.67,
           "restosAPagar": 672108.4199999999
         },
@@ -5026,8 +5026,8 @@
         "totais": {
           "previsto": 6870000,
           "empenhado": 5711959.760000001,
-          "liquidado": 5499664.990000001,
-          "pago": 5469664.990000001,
+          "liquidado": 5499664.99,
+          "pago": 5469664.99,
           "restosAPagar": 171939
         },
         "porAno": [
@@ -5245,7 +5245,7 @@
             "nome": "Individual com finalidade definida não impositiva",
             "quantidade": 77,
             "empenhado": 5711959.760000001,
-            "pago": 5469664.990000001
+            "pago": 5469664.99
           }
         ],
         "criterioDaLista": "as 10 de maior valor empenhado",
@@ -6012,7 +6012,7 @@
           {
             "nome": "ASSISTÊNCIA SOCIAL",
             "quantidade": 36,
-            "empenhado": 563246.9500000001,
+            "empenhado": 563246.95,
             "pago": 529976.37
           },
           {
@@ -8552,8 +8552,8 @@
         "totais": {
           "previsto": 193094300,
           "empenhado": 69948698.94,
-          "liquidado": 66734965.879999995,
-          "pago": 66734965.879999995,
+          "liquidado": 66734965.88,
+          "pago": 66734965.88,
           "restosAPagar": 1471025.8900000001
         },
         "porAno": [
@@ -8933,7 +8933,7 @@
             "nome": "Individual com finalidade definida não impositiva",
             "quantidade": 265,
             "empenhado": 69948698.94,
-            "pago": 66734965.879999995
+            "pago": 66734965.88
           }
         ],
         "criterioDaLista": "as 10 de maior valor empenhado",

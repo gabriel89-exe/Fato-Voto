@@ -6,10 +6,10 @@
   },
   "uf": "ES",
   "legislatura": 57,
-  "coletadoEm": "2026-10-20T14:20:50.566Z",
+  "coletadoEm": "2026-10-21T14:32:58.616Z",
   "referencia": {
     "bancada": 10,
-    "medianaDespesas": 1929704.9200000027,
+    "medianaDespesas": 1930054.1700000027,
     "menor": 1433162.1199999899,
     "maior": 2007693.8599999999
   },
@@ -35,8 +35,8 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/204356.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/204356",
       "despesas": {
-        "total": 1865219.280000002,
-        "documentos": 1052,
+        "total": 1865510.090000002,
+        "documentos": 1053,
         "porTipo": [
           {
             "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
@@ -411,8 +411,8 @@
           },
           {
             "tipo": "COMBUSTÍVEIS E LUBRIFICANTES.",
-            "valor": 74984.19999999998,
-            "notas": 370,
+            "valor": 75275.00999999998,
+            "notas": 371,
             "fornecedores": [
               {
                 "nome": "POSTO CIBIEN DE COMBUSTIVEIS LTDA",
@@ -709,7 +709,7 @@
           },
           {
             "competencia": "2026-10",
-            "valor": 4362.74
+            "valor": 4653.55
           }
         ],
         "fornecedores": [
@@ -997,8 +997,8 @@
           }
         ],
         "comprovantes": {
-          "com": 716,
-          "total": 1052
+          "com": 717,
+          "total": 1053
         }
       },
       "proposicoes": {
@@ -5599,7 +5599,7 @@
           {
             "tipo": "Requerimento de Informação",
             "sigla": "RIC",
-            "total": 334
+            "total": 337
           },
           {
             "tipo": "Requerimento de Registro de Frente Parlamentar na Câmara dos Deputados",
@@ -5629,7 +5629,7 @@
           {
             "tipo": "Indicação",
             "sigla": "INC",
-            "total": 183
+            "total": 185
           },
           {
             "tipo": "Requerimento de Convocação de Ministro de Estado no Plenário (art. 50, CF)",
@@ -5639,7 +5639,7 @@
           {
             "tipo": "Solicitação de Informação ao TCU",
             "sigla": "SIT",
-            "total": 129
+            "total": 130
           },
           {
             "tipo": "Requerimento para envio de Indicação pela Comissão",
@@ -5879,6 +5879,66 @@
         ],
         "recentes": [
           {
+            "id": 2648607,
+            "sigla": "INC",
+            "tipo": "Indicação",
+            "numero": 1633,
+            "ano": 2026,
+            "ementa": "Sugere ao Ministro de Estado da Controladoria-Geral da União a instauração de procedimentos de auditoria, fiscalização e apuração administrativa relativos a possíveis irregularidades envolvendo a atuação da empresária Roberta Luchsinger, intermediários privados e agentes públicos federais, especialmente quanto à existência de conflitos de interesses, favorecimento\nindevido e utilização de relações pessoais para obtenção de vantagens perante a Administração Pública Federal.",
+            "apresentadaEm": "2026-10-20T20:31",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2648607"
+          },
+          {
+            "id": 2648598,
+            "sigla": "SIT",
+            "tipo": "Solicitação de Informação ao TCU",
+            "numero": 54,
+            "ano": 2026,
+            "ementa": "Solicita ao Tribunal de Contas da União (TCU) informações acerca da existência de auditorias, fiscalizações, representações e procedimentos de controle relacionados à atuação da empresária Roberta Luchsinger, de pessoas físicas e jurídicas a ela vinculadas e de possíveis intermediários de interesses privados perante órgãos e entidades da Administração Pública Federal, especialmente no âmbito do Instituto Nacional do Seguro Social (INSS), do Ministério da Saúde e do Departamento Nacional de Infraestrutura de Transportes (DNIT).",
+            "apresentadaEm": "2026-10-20T16:29",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2648598"
+          },
+          {
+            "id": 2648597,
+            "sigla": "RIC",
+            "tipo": "Requerimento de Informação",
+            "numero": 2786,
+            "ano": 2026,
+            "ementa": "Requer informações ao Ministro de Estado dos Transportes, ouvido o Departamento Nacional de Infraestrutura de Transportes (DNIT), acerca de contratos administrativos, pagamentos, reuniões institucionais e possíveis irregularidades envolvendo a Empresa Construtora Brasil (ECB), o grupo Mota-Engil, o empresário Amauri Rodrigues Pinha, empresas vinculadas a Eduardo José Barros Costa e eventuais relações com a empresária Roberta Luchsinger e Fábio Luís Lula da Silva.",
+            "apresentadaEm": "2026-10-20T16:29",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2648597"
+          },
+          {
+            "id": 2648593,
+            "sigla": "RIC",
+            "tipo": "Requerimento de Informação",
+            "numero": 2785,
+            "ano": 2026,
+            "ementa": "Requer informações ao Ministro de Estado da Educação acerca de reuniões, encontros, comunicações institucionais, procedimentos administrativos, contratos e eventuais situações de conflito de interesses envolvendo o Ministro Leonardo Osvaldo Barchini Rosa, a empresária Roberta Luchsinger, Fábio Luís Lula da Silva e pessoas físicas ou jurídicas a eles relacionadas, diante de notícias sobre encontros privados realizados durante o exercício de funções públicas no Ministério da Educação",
+            "apresentadaEm": "2026-10-20T16:29",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2648593"
+          },
+          {
+            "id": 2648589,
+            "sigla": "INC",
+            "tipo": "Indicação",
+            "numero": 1632,
+            "ano": 2026,
+            "ementa": "Sugere ao Procurador-Geral da República a instauração de procedimentos de auditoria, fiscalização e apuração administrativa relativos a possíveis irregularidades envolvendo a atuação da empresária Roberta Luchsinger, intermediários privados e agentes públicos federais, especialmente quanto à existência de conflitos de interesses, favorecimento indevido e utilização de relações pessoais para obtenção de vantagens perante a Administração Pública Federal.",
+            "apresentadaEm": "2026-10-20T16:29",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2648589"
+          },
+          {
+            "id": 2648520,
+            "sigla": "RIC",
+            "tipo": "Requerimento de Informação",
+            "numero": 2780,
+            "ano": 2026,
+            "ementa": "Solicita informações ao Sr. Ministro do Meio Ambiente e Mudança do Clima (MMA) sobre o passivo indenizatório oriundo da criação de Unidades de Conservação no âmbito do Instituto Chico Mendes da Biodiversidade (ICMBio) e seus respectivos Planos de Manejo.",
+            "apresentadaEm": "2026-10-20T14:07",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2648520"
+          },
+          {
             "id": 2648333,
             "sigla": "RIC",
             "tipo": "Requerimento de Informação",
@@ -5917,66 +5977,6 @@
             "ementa": "Requer o encaminhamento de Indicação à Procuradoria-Geral Eleitoral, sugerindo a instauração de procedimento para apurar as circunstâncias, as causas e eventuais responsabilidades pela falha na transmissão da propaganda eleitoral gratuita do candidato à Presidência da República Flávio Bolsonaro, ocorrida em 12 de outubro de 2026.",
             "apresentadaEm": "2026-10-13T17:18",
             "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2647488"
-          },
-          {
-            "id": 2647426,
-            "sigla": "REQ",
-            "tipo": "Requerimento de Urgência (Art. 155 do RICD)",
-            "numero": 4288,
-            "ano": 2026,
-            "ementa": "Requer\tregime\tde\turgência para apreciação do PL nº 3.716/2026.",
-            "apresentadaEm": "2026-10-13T13:21",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2647426"
-          },
-          {
-            "id": 2646829,
-            "sigla": "PL",
-            "tipo": "Projeto de Lei",
-            "numero": 5407,
-            "ano": 2026,
-            "ementa": "Institui a Política Nacional de Micromobilidade Elétrica.",
-            "apresentadaEm": "2026-09-18T18:06",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2646829"
-          },
-          {
-            "id": 2646828,
-            "sigla": "PL",
-            "tipo": "Projeto de Lei",
-            "numero": 5406,
-            "ano": 2026,
-            "ementa": "Altera a Lei nº 11.340, de 7 de agosto de 2006 (Lei Maria da Penha), para dispor sobre medidas que aprimorem a efetividade das políticas públicas já existentes, no que se refere ao combate à violência doméstica e familiar contra a mulher.",
-            "apresentadaEm": "2026-09-18T18:01",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2646828"
-          },
-          {
-            "id": 2646827,
-            "sigla": "PL",
-            "tipo": "Projeto de Lei",
-            "numero": 5405,
-            "ano": 2026,
-            "ementa": "Altera a Lei nº 7.678, de 8 de novembro de 1988, para ampliar os canais de comercialização do vinho produzido por agricultor familiar ou empreendedor familiar rural.",
-            "apresentadaEm": "2026-09-18T18:01",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2646827"
-          },
-          {
-            "id": 2646826,
-            "sigla": "PL",
-            "tipo": "Projeto de Lei",
-            "numero": 5404,
-            "ano": 2026,
-            "ementa": "Dispõe sobre a isenção do Imposto sobre Produtos Industrializados (IPI) incidente na aquisição de veículos automotores destinados ao exercício das atividades de feirante e vendedor ambulante.",
-            "apresentadaEm": "2026-09-18T18:01",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2646826"
-          },
-          {
-            "id": 2646302,
-            "sigla": "REQ",
-            "tipo": "Requerimento de Convocação de Ministro de Estado no Plenário (art. 50, CF)",
-            "numero": 4214,
-            "ano": 2026,
-            "ementa": "Requer a convocação do Ministro de Estado da Justiça e Segurança Pública, Sr. Wellington César Lima e Silva, para comparecer ao Plenário da Câmara dos Deputados, reunido em Comissão Geral, e o convite ao Diretor-Geral da Polícia Federal, Sr. Andrei Augusto Passos Rodrigues, e ao Diretor de Inteligência Policial da Polícia Federal, Sr. Leandro Almada da Costa, a fim de prestarem esclarecimentos acerca da elaboração, autoria, tramitação, difusão e utilização de relatório de inteligência atribuído à Polícia Federal e qualificado como apócrifo.",
-            "apresentadaEm": "2026-09-09T17:50",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2646302"
           }
         ]
       }
@@ -7620,8 +7620,8 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/220526.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/220526",
       "despesas": {
-        "total": 1644402.0599999998,
-        "documentos": 1838,
+        "total": 1644557.0599999998,
+        "documentos": 1839,
         "porTipo": [
           {
             "tipo": "PASSAGEM AÉREA - SIGEPA",
@@ -7911,8 +7911,8 @@
           },
           {
             "tipo": "COMBUSTÍVEIS E LUBRIFICANTES.",
-            "valor": 137736.28000000003,
-            "notas": 787,
+            "valor": 137891.28000000003,
+            "notas": 788,
             "fornecedores": [
               {
                 "nome": "071 - LAGO NORTE - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
@@ -8695,7 +8695,7 @@
           },
           {
             "competencia": "2026-10",
-            "valor": 1810.8
+            "valor": 1965.8
           }
         ],
         "fornecedores": [
@@ -8978,8 +8978,8 @@
           }
         ],
         "comprovantes": {
-          "com": 1343,
-          "total": 1838
+          "com": 1344,
+          "total": 1839
         }
       },
       "proposicoes": {
@@ -10977,8 +10977,8 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/220527.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/220527",
       "despesas": {
-        "total": 1856171.2299999997,
-        "documentos": 1557,
+        "total": 1862971.2299999997,
+        "documentos": 1558,
         "porTipo": [
           {
             "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
@@ -11171,8 +11171,8 @@
           },
           {
             "tipo": "LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES",
-            "valor": 347313,
-            "notas": 87,
+            "valor": 354113,
+            "notas": 88,
             "fornecedores": [
               {
                 "nome": "EVO LOCADORA DE VEICULOS LTDA.",
@@ -11186,8 +11186,8 @@
               {
                 "nome": "PANTANAL-VEICULOS LTDA",
                 "cnpjCpf": "07319323000191",
-                "total": 79600,
-                "notas": 18,
+                "total": 86400,
+                "notas": 19,
                 "outrosNomes": [
                   "PANTANAL VEÍCULOS LTDA"
                 ]
@@ -11231,13 +11231,13 @@
                 "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3651/2026/8157130.pdf"
               },
               {
-                "id": "7818277",
-                "data": "2024-10-11",
+                "id": "8162033",
+                "data": "2026-10-05",
                 "tipo": "LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES",
-                "valor": 5000,
-                "fornecedor": "EVO COMERCIO DE VEICULOS LTDA",
-                "cnpjCpf": "10234473000107",
-                "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3651/2024/7818277.pdf"
+                "valor": 6800,
+                "fornecedor": "PANTANAL-VEICULOS LTDA",
+                "cnpjCpf": "07319323000191",
+                "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3651/2026/8162033.pdf"
               }
             ]
           },
@@ -11975,7 +11975,7 @@
           },
           {
             "competencia": "2026-09",
-            "valor": 17310.21
+            "valor": 24110.21
           },
           {
             "competencia": "2026-10",
@@ -12016,21 +12016,21 @@
             "outrosNomes": []
           },
           {
+            "nome": "PANTANAL-VEICULOS LTDA",
+            "cnpjCpf": "07319323000191",
+            "total": 86400,
+            "notas": 19,
+            "outrosNomes": [
+              "PANTANAL VEÍCULOS LTDA"
+            ]
+          },
+          {
             "nome": "PRIVILEGE ADMINISTRACAO E NEGOCIOS IMOBILIARIOS LTDA",
             "cnpjCpf": "11368482000153",
             "total": 82901.42,
             "notas": 40,
             "outrosNomes": [
               "PRIVILEGE ADMINISTRAÇÃO E NEGÓCIOS IMOBILIÁRIOS LTDA"
-            ]
-          },
-          {
-            "nome": "PANTANAL-VEICULOS LTDA",
-            "cnpjCpf": "07319323000191",
-            "total": 79600,
-            "notas": 18,
-            "outrosNomes": [
-              "PANTANAL VEÍCULOS LTDA"
             ]
           },
           {
@@ -12262,8 +12262,8 @@
           }
         ],
         "comprovantes": {
-          "com": 1175,
-          "total": 1557
+          "com": 1176,
+          "total": 1558
         }
       },
       "proposicoes": {
@@ -14050,8 +14050,8 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/160517.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/160517",
       "despesas": {
-        "total": 1939755.3300000038,
-        "documentos": 1077,
+        "total": 1940453.8300000038,
+        "documentos": 1079,
         "porTipo": [
           {
             "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
@@ -14169,8 +14169,8 @@
           },
           {
             "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
-            "valor": 418789.99999999965,
-            "notas": 297,
+            "valor": 418937.49999999965,
+            "notas": 298,
             "fornecedores": [
               {
                 "nome": "EXPERT'S CONSULTORIA E AVALIACOES LTDA",
@@ -14204,8 +14204,8 @@
               {
                 "nome": "EDP ESPIRITO SANTO DISTRIBUICAO DE ENERGIA S.A.",
                 "cnpjCpf": "28152650000171",
-                "total": 15082.430000000004,
-                "notas": 78,
+                "total": 15229.930000000004,
+                "notas": 79,
                 "outrosNomes": [
                   "EDP - ESPIRITO SANTO DISTRIBUICAO DE ENERGIA S.A.",
                   "0EDP ESPIRITO SANTO DISTRIBUICAO DE ENERGIA S.A."
@@ -14574,14 +14574,14 @@
           },
           {
             "tipo": "TELEFONIA",
-            "valor": 21556.33000000001,
-            "notas": 63,
+            "valor": 22107.33000000001,
+            "notas": 64,
             "fornecedores": [
               {
                 "nome": "TELEFONICA BRASIL S.A.",
                 "cnpjCpf": "02558157000162",
-                "total": 19239.430000000004,
-                "notas": 50,
+                "total": 19790.430000000004,
+                "notas": 51,
                 "outrosNomes": [
                   "TELEFONICA BRASIL S/A - VIVO",
                   "TELEFÔNICA BRASIL S/A - VIVO",
@@ -14635,6 +14635,15 @@
                 "documento": null
               },
               {
+                "id": "8165353",
+                "data": "2026-09-27",
+                "tipo": "TELEFONIA",
+                "valor": 551,
+                "fornecedor": "TELEFONICA BRASIL S.A.",
+                "cnpjCpf": "02558157000162",
+                "documento": null
+              },
+              {
                 "id": "7912843",
                 "data": "2025-04-27",
                 "tipo": "TELEFONIA",
@@ -14649,15 +14658,6 @@
                 "tipo": "TELEFONIA",
                 "valor": 526,
                 "fornecedor": "TELEFÔNICA BRASIL S/A - VIVO",
-                "cnpjCpf": "02558157000162",
-                "documento": null
-              },
-              {
-                "id": "7956060",
-                "data": "2025-07-27",
-                "tipo": "TELEFONIA",
-                "valor": 526,
-                "fornecedor": "ANTONIO DA CRUZ FILGUEIRA NETO",
                 "cnpjCpf": "02558157000162",
                 "documento": null
               }
@@ -15075,7 +15075,7 @@
           },
           {
             "competencia": "2026-09",
-            "valor": 16042.630000000001
+            "valor": 16741.13
           },
           {
             "competencia": "2026-10",
@@ -15369,8 +15369,8 @@
           }
         ],
         "comprovantes": {
-          "com": 670,
-          "total": 1077
+          "com": 671,
+          "total": 1079
         }
       },
       "proposicoes": {

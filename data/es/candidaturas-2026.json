@@ -9,7 +9,7 @@
     "idEleicao": "20322002026",
     "uf": "ES"
   },
-  "coletadoEm": "2026-10-20T14:19:30.384Z",
+  "coletadoEm": "2026-10-21T14:30:31.269Z",
   "total": 577,
   "candidaturas": [
     {
@@ -18989,17 +18989,17 @@
       "eleicoesAnteriores": [
         {
           "ano": 2024,
-          "cargo": "Vice-prefeito",
-          "partido": "PODE",
-          "uf": "56979",
-          "resultado": "Eleito"
-        },
-        {
-          "ano": 2024,
           "cargo": "Vereador",
           "partido": "PODE",
           "uf": "56979",
           "resultado": "Concorrendo"
+        },
+        {
+          "ano": 2024,
+          "cargo": "Vice-prefeito",
+          "partido": "PODE",
+          "uf": "56979",
+          "resultado": "Eleito"
         }
       ],
       "primeiraCandidatura": false,
