@@ -11,11 +11,11 @@
     2025,
     2026
   ],
-  "coletadoEm": "2026-10-21T14:45:57.402Z",
+  "coletadoEm": "2026-10-22T14:49:41.131Z",
   "recorte": "Emendas ao Orçamento do Espírito Santo cujo autor individual é deputado estadual da legislatura atual da ALES (2023–2027) e candidato em 2026. A LOA de um ano é emendada no ano anterior: a de 2023 foi emendada pela legislatura anterior, e só aparece para quem já era deputado. Emenda de bancada e de comissão não tem autor individual e não entra. O casamento com a candidatura é por nome, com desistência em qualquer ambiguidade — os nomes que não casaram estão listados no dado.",
   "conferencia": {
     "aprovada": true,
-    "conferidoEm": "2026-10-21T14:45:57.373Z",
+    "conferidoEm": "2026-10-22T14:49:41.085Z",
     "provas": [
       "cada arquivo é baixado duas vezes, e os dois downloads têm de ser idênticos",
       "o valor previsto da emenda repete igual em todas as linhas dela",
@@ -28,7 +28,7 @@
     "bancada": 33,
     "medianaEmpenhado": 6257874.29,
     "menor": 644846.78,
-    "maior": 69948698.94
+    "maior": 69978698.94
   },
   "parlamentares": [
     {
@@ -2427,7 +2427,7 @@
           "previsto": 7100000,
           "empenhado": 5127953.67,
           "liquidado": 4538382.67,
-          "pago": 4363712.67,
+          "pago": 4413712.67,
           "restosAPagar": 672108.4199999999
         },
         "porAno": [
@@ -2447,7 +2447,7 @@
             "ano": 2026,
             "quantidade": 78,
             "empenhado": 1364945,
-            "pago": 1314945
+            "pago": 1364945
           }
         ],
         "porFuncao": [
@@ -2491,7 +2491,7 @@
             "nome": "GESTÃO AMBIENTAL",
             "quantidade": 5,
             "empenhado": 285000,
-            "pago": 235000
+            "pago": 285000
           },
           {
             "nome": "DESPORTO E LAZER",
@@ -2601,7 +2601,7 @@
             "nome": "Divino de São Lourenço",
             "quantidade": 1,
             "empenhado": 50000,
-            "pago": 0
+            "pago": 50000
           },
           {
             "nome": "Rio Novo do Sul",
@@ -2747,7 +2747,7 @@
             "nome": "Individual com finalidade definida não impositiva",
             "quantidade": 186,
             "empenhado": 5127953.67,
-            "pago": 4363712.67
+            "pago": 4413712.67
           }
         ],
         "criterioDaLista": "as 10 de maior valor empenhado",
@@ -5026,8 +5026,8 @@
         "totais": {
           "previsto": 6870000,
           "empenhado": 5711959.760000001,
-          "liquidado": 5499664.99,
-          "pago": 5469664.99,
+          "liquidado": 5499664.990000001,
+          "pago": 5469664.990000001,
           "restosAPagar": 171939
         },
         "porAno": [
@@ -5245,7 +5245,7 @@
             "nome": "Individual com finalidade definida não impositiva",
             "quantidade": 77,
             "empenhado": 5711959.760000001,
-            "pago": 5469664.99
+            "pago": 5469664.990000001
           }
         ],
         "criterioDaLista": "as 10 de maior valor empenhado",
@@ -6012,7 +6012,7 @@
           {
             "nome": "ASSISTÊNCIA SOCIAL",
             "quantidade": 36,
-            "empenhado": 563246.95,
+            "empenhado": 563246.9500000001,
             "pago": 529976.37
           },
           {
@@ -8551,9 +8551,9 @@
         "valoresPublicados": true,
         "totais": {
           "previsto": 193094300,
-          "empenhado": 69948698.94,
-          "liquidado": 66734965.88,
-          "pago": 66734965.88,
+          "empenhado": 69978698.94,
+          "liquidado": 66734965.879999995,
+          "pago": 66734965.879999995,
           "restosAPagar": 1471025.8900000001
         },
         "porAno": [
@@ -8572,7 +8572,7 @@
           {
             "ano": 2026,
             "quantidade": 188,
-            "empenhado": 64112685.75000001,
+            "empenhado": 64142685.75000001,
             "pago": 62371115.629999995
           }
         ],
@@ -8591,8 +8591,8 @@
           },
           {
             "nome": "DESPORTO E LAZER",
-            "quantidade": 50,
-            "empenhado": 11498243.15,
+            "quantidade": 51,
+            "empenhado": 11528243.15,
             "pago": 10962694.95
           },
           {
@@ -8639,7 +8639,7 @@
           },
           {
             "nome": "Não informada",
-            "quantidade": 81,
+            "quantidade": 80,
             "empenhado": 0,
             "pago": 0
           }
@@ -8666,7 +8666,7 @@
           {
             "nome": "Barra de São Francisco",
             "quantidade": 26,
-            "empenhado": 1945768,
+            "empenhado": 1975768,
             "pago": 1414855
           },
           {
@@ -8932,8 +8932,8 @@
           {
             "nome": "Individual com finalidade definida não impositiva",
             "quantidade": 265,
-            "empenhado": 69948698.94,
-            "pago": 66734965.88
+            "empenhado": 69978698.94,
+            "pago": 66734965.879999995
           }
         ],
         "criterioDaLista": "as 10 de maior valor empenhado",

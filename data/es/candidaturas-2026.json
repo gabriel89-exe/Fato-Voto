@@ -9,7 +9,7 @@
     "idEleicao": "20322002026",
     "uf": "ES"
   },
-  "coletadoEm": "2026-10-21T14:30:31.269Z",
+  "coletadoEm": "2026-10-22T14:32:10.302Z",
   "total": 577,
   "candidaturas": [
     {
@@ -2447,17 +2447,17 @@
         },
         {
           "ano": 2022,
-          "cargo": "Presidente",
-          "partido": "PROS",
-          "uf": "BR",
-          "resultado": "Concorrendo"
-        },
-        {
-          "ano": 2022,
           "cargo": "Deputado Federal",
           "partido": "PROS",
           "uf": "SP",
           "resultado": "Não eleito"
+        },
+        {
+          "ano": 2022,
+          "cargo": "Presidente",
+          "partido": "PROS",
+          "uf": "BR",
+          "resultado": "Concorrendo"
         }
       ],
       "primeiraCandidatura": false,
@@ -18989,17 +18989,17 @@
       "eleicoesAnteriores": [
         {
           "ano": 2024,
-          "cargo": "Vereador",
-          "partido": "PODE",
-          "uf": "56979",
-          "resultado": "Concorrendo"
-        },
-        {
-          "ano": 2024,
           "cargo": "Vice-prefeito",
           "partido": "PODE",
           "uf": "56979",
           "resultado": "Eleito"
+        },
+        {
+          "ano": 2024,
+          "cargo": "Vereador",
+          "partido": "PODE",
+          "uf": "56979",
+          "resultado": "Concorrendo"
         }
       ],
       "primeiraCandidatura": false,

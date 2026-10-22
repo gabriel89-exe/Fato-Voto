@@ -6,10 +6,10 @@
   },
   "uf": "ES",
   "legislatura": 57,
-  "coletadoEm": "2026-10-21T14:32:58.616Z",
+  "coletadoEm": "2026-10-22T14:33:29.330Z",
   "referencia": {
     "bancada": 10,
-    "medianaDespesas": 1930054.1700000027,
+    "medianaDespesas": 1936623.8000000026,
     "menor": 1433162.1199999899,
     "maior": 2007693.8599999999
   },
@@ -6001,8 +6001,8 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/220529.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/220529",
       "despesas": {
-        "total": 1919654.5100000016,
-        "documentos": 1453,
+        "total": 1931526.2600000016,
+        "documentos": 1457,
         "porTipo": [
           {
             "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
@@ -6122,14 +6122,14 @@
           },
           {
             "tipo": "LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES",
-            "valor": 403681.32,
-            "notas": 60,
+            "valor": 415181.32,
+            "notas": 61,
             "fornecedores": [
               {
                 "nome": "CT LOCACOES SOLUCOES E SERVICOS LTDA",
                 "cnpjCpf": "54080873000180",
-                "total": 248391,
-                "notas": 33,
+                "total": 259891,
+                "notas": 34,
                 "outrosNomes": []
               },
               {
@@ -6178,6 +6178,15 @@
                 "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3616/2026/8158323.pdf"
               },
               {
+                "id": "8167427",
+                "data": "2026-10-19",
+                "tipo": "LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES",
+                "valor": 11500,
+                "fornecedor": "CT LOCACOES SOLUCOES E SERVICOS LTDA",
+                "cnpjCpf": "54080873000180",
+                "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3616/2026/8167427.pdf"
+              },
+              {
                 "id": "7975150",
                 "data": "2025-08-29",
                 "tipo": "LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES",
@@ -6194,15 +6203,6 @@
                 "fornecedor": "CT LOCACOES SOLUCOES E SERVICOS LTDA",
                 "cnpjCpf": "54080873000180",
                 "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3616/2025/7983810.pdf"
-              },
-              {
-                "id": "7997246",
-                "data": "2025-10-14",
-                "tipo": "LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES",
-                "valor": 8450,
-                "fornecedor": "CT LOCACOES SOLUCOES E SERVICOS LTDA",
-                "cnpjCpf": "54080873000180",
-                "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3616/2025/7997246.pdf"
               }
             ]
           },
@@ -6407,8 +6407,8 @@
           },
           {
             "tipo": "COMBUSTÍVEIS E LUBRIFICANTES.",
-            "valor": 134720.29000000004,
-            "notas": 679,
+            "valor": 134987.40000000002,
+            "notas": 680,
             "fornecedores": [
               {
                 "nome": "063 - 311 SUL - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
@@ -6699,14 +6699,14 @@
           },
           {
             "tipo": "SERVIÇO DE TÁXI, PEDÁGIO E ESTACIONAMENTO",
-            "valor": 1484.7000000000005,
-            "notas": 45,
+            "valor": 1589.3400000000004,
+            "notas": 47,
             "fornecedores": [
               {
                 "nome": "UBER DO BRASIL TECNOLOGIA LTDA.",
                 "cnpjCpf": "17895646000187",
-                "total": 862.76,
-                "notas": 24,
+                "total": 967.3999999999999,
+                "notas": 26,
                 "outrosNomes": []
               },
               {
@@ -6720,6 +6720,15 @@
               }
             ],
             "maiores": [
+              {
+                "id": "8165988",
+                "data": "2026-10-08",
+                "tipo": "SERVIÇO DE TÁXI, PEDÁGIO E ESTACIONAMENTO",
+                "valor": 77.55,
+                "fornecedor": "UBER DO BRASIL TECNOLOGIA LTDA.",
+                "cnpjCpf": "17895646000187",
+                "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3616/2026/8165988.pdf"
+              },
               {
                 "id": "8113148",
                 "data": "2026-06-04",
@@ -6755,15 +6764,6 @@
                 "fornecedor": "UBER DO BRASIL TECNOLOGIA LTDA.",
                 "cnpjCpf": "17895646000187",
                 "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3616/2026/8100289.pdf"
-              },
-              {
-                "id": "7785892",
-                "data": "2024-08-07",
-                "tipo": "SERVIÇO DE TÁXI, PEDÁGIO E ESTACIONAMENTO",
-                "valor": 51.02,
-                "fornecedor": "Uber Do Brasil Tecnologia Ltda.",
-                "cnpjCpf": "17895646000934",
-                "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3616/2024/7785892.pdf"
               }
             ]
           },
@@ -7033,7 +7033,7 @@
           },
           {
             "competencia": "2026-10",
-            "valor": 695.13
+            "valor": 12566.880000000001
           }
         ],
         "fornecedores": [
@@ -7049,8 +7049,8 @@
           {
             "nome": "CT LOCACOES SOLUCOES E SERVICOS LTDA",
             "cnpjCpf": "54080873000180",
-            "total": 248391,
-            "notas": 33,
+            "total": 259891,
+            "notas": 34,
             "outrosNomes": []
           },
           {
@@ -7314,8 +7314,8 @@
           }
         ],
         "comprovantes": {
-          "com": 1147,
-          "total": 1453
+          "com": 1151,
+          "total": 1457
         }
       },
       "proposicoes": {
@@ -10977,8 +10977,8 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/220527.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/220527",
       "despesas": {
-        "total": 1862971.2299999997,
-        "documentos": 1558,
+        "total": 1869971.2299999997,
+        "documentos": 1560,
         "porTipo": [
           {
             "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
@@ -11243,8 +11243,8 @@
           },
           {
             "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
-            "valor": 247867.87000000008,
-            "notas": 213,
+            "valor": 254867.8700000001,
+            "notas": 215,
             "fornecedores": [
               {
                 "nome": "PRIVILEGE ADMINISTRACAO E NEGOCIOS IMOBILIARIOS LTDA",
@@ -11267,8 +11267,8 @@
               {
                 "nome": "VIRTU SOLUCOES TECNOLOGICAS LTDA",
                 "cnpjCpf": "65468277000199",
-                "total": 24500,
-                "notas": 7,
+                "total": 31500,
+                "notas": 9,
                 "outrosNomes": []
               },
               {
@@ -11971,11 +11971,11 @@
           },
           {
             "competencia": "2026-08",
-            "valor": 32685.310000000005
+            "valor": 36185.31
           },
           {
             "competencia": "2026-09",
-            "valor": 24110.21
+            "valor": 27610.21
           },
           {
             "competencia": "2026-10",
@@ -12069,8 +12069,8 @@
           {
             "nome": "VIRTU SOLUCOES TECNOLOGICAS LTDA",
             "cnpjCpf": "65468277000199",
-            "total": 24500,
-            "notas": 7,
+            "total": 31500,
+            "notas": 9,
             "outrosNomes": []
           },
           {
@@ -12262,8 +12262,8 @@
           }
         ],
         "comprovantes": {
-          "com": 1176,
-          "total": 1558
+          "com": 1178,
+          "total": 1560
         }
       },
       "proposicoes": {
@@ -12559,8 +12559,8 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/220530.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/220530",
       "despesas": {
-        "total": 1948407.169999999,
-        "documentos": 1278,
+        "total": 1952907.169999999,
+        "documentos": 1279,
         "porTipo": [
           {
             "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
@@ -12840,14 +12840,14 @@
           },
           {
             "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
-            "valor": 267748.5099999999,
-            "notas": 173,
+            "valor": 272248.5099999999,
+            "notas": 174,
             "fornecedores": [
               {
                 "nome": "M A EMPREENDIMENTO IMOBILIARIOS LTDA",
                 "cnpjCpf": "21153331000131",
-                "total": 164707.2,
-                "notas": 43,
+                "total": 169207.2,
+                "notas": 44,
                 "outrosNomes": [
                   "M A Empreendimento Imobiliarios"
                 ]
@@ -13384,7 +13384,7 @@
           },
           {
             "competencia": "2026-09",
-            "valor": 9119
+            "valor": 13619
           }
         ],
         "fornecedores": [
@@ -13416,8 +13416,8 @@
           {
             "nome": "M A EMPREENDIMENTO IMOBILIARIOS LTDA",
             "cnpjCpf": "21153331000131",
-            "total": 164707.2,
-            "notas": 43,
+            "total": 169207.2,
+            "notas": 44,
             "outrosNomes": [
               "M A Empreendimento Imobiliarios"
             ]
@@ -13669,8 +13669,8 @@
           }
         ],
         "comprovantes": {
-          "com": 983,
-          "total": 1278
+          "com": 984,
+          "total": 1279
         }
       },
       "proposicoes": {
@@ -14050,8 +14050,8 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/160517.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/160517",
       "despesas": {
-        "total": 1940453.8300000038,
-        "documentos": 1079,
+        "total": 1941721.3400000038,
+        "documentos": 1082,
         "porTipo": [
           {
             "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
@@ -14169,8 +14169,8 @@
           },
           {
             "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
-            "valor": 418937.49999999965,
-            "notas": 298,
+            "valor": 420063.10999999964,
+            "notas": 300,
             "fornecedores": [
               {
                 "nome": "EXPERT'S CONSULTORIA E AVALIACOES LTDA",
@@ -14202,6 +14202,13 @@
                 ]
               },
               {
+                "nome": "CONDOMINIO DO EDIFICIO PETRO TOWER",
+                "cnpjCpf": "06788256000191",
+                "total": 15284.400000000003,
+                "notas": 28,
+                "outrosNomes": []
+              },
+              {
                 "nome": "EDP ESPIRITO SANTO DISTRIBUICAO DE ENERGIA S.A.",
                 "cnpjCpf": "28152650000171",
                 "total": 15229.930000000004,
@@ -14210,13 +14217,6 @@
                   "EDP - ESPIRITO SANTO DISTRIBUICAO DE ENERGIA S.A.",
                   "0EDP ESPIRITO SANTO DISTRIBUICAO DE ENERGIA S.A."
                 ]
-              },
-              {
-                "nome": "CONDOMINIO DO EDIFICIO PETRO TOWER",
-                "cnpjCpf": "06788256000191",
-                "total": 14158.790000000003,
-                "notas": 26,
-                "outrosNomes": []
               },
               {
                 "nome": "EMPRESA LUZ E FORCA SANTA MARIA S A",
@@ -14574,8 +14574,8 @@
           },
           {
             "tipo": "TELEFONIA",
-            "valor": 22107.33000000001,
-            "notas": 64,
+            "valor": 22249.23000000001,
+            "notas": 65,
             "fornecedores": [
               {
                 "nome": "TELEFONICA BRASIL S.A.",
@@ -14600,8 +14600,8 @@
               {
                 "nome": "CLARO NXT TELECOMUNICACOES S/A",
                 "cnpjCpf": "66970229001805",
-                "total": 1278.9,
-                "notas": 11,
+                "total": 1420.8000000000002,
+                "notas": 12,
                 "outrosNomes": [
                   "CLARO  NXT TELECOMUNICAÇÕES  S.A",
                   "Claro NXT Telecomunicações S.A"
@@ -15075,11 +15075,11 @@
           },
           {
             "competencia": "2026-09",
-            "valor": 16741.13
+            "valor": 16883.03
           },
           {
             "competencia": "2026-10",
-            "valor": 869.87
+            "valor": 1995.48
           }
         ],
         "fornecedores": [
@@ -15191,8 +15191,8 @@
           }
         ],
         "glosas": {
-          "quantidade": 68,
-          "valor": 6605.159999999999,
+          "quantidade": 70,
+          "valor": 6662.799999999999,
           "exemplos": [
             {
               "id": "7748122",
@@ -15369,8 +15369,8 @@
           }
         ],
         "comprovantes": {
-          "com": 671,
-          "total": 1079
+          "com": 676,
+          "total": 1082
         }
       },
       "proposicoes": {
