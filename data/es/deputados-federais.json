@@ -6,10 +6,10 @@
   },
   "uf": "ES",
   "legislatura": 57,
-  "coletadoEm": "2026-10-22T14:33:29.330Z",
+  "coletadoEm": "2026-10-23T14:17:00.159Z",
   "referencia": {
     "bancada": 10,
-    "medianaDespesas": 1936623.8000000026,
+    "medianaDespesas": 1936814.0950000028,
     "menor": 1433162.1199999899,
     "maior": 2007693.8599999999
   },
@@ -5624,7 +5624,7 @@
           {
             "tipo": "Requerimento para envio de Requerimento de Informação pela Comissão",
             "sigla": "REQ",
-            "total": 192
+            "total": 193
           },
           {
             "tipo": "Indicação",
@@ -5644,7 +5644,7 @@
           {
             "tipo": "Requerimento para envio de Indicação pela Comissão",
             "sigla": "REQ",
-            "total": 123
+            "total": 125
           },
           {
             "tipo": "Requerimento de Sessão Solene",
@@ -5654,7 +5654,7 @@
           {
             "tipo": "Requerimento para envio de Solicitação de Informação ao TCU pela Comissão",
             "sigla": "REQ",
-            "total": 104
+            "total": 105
           },
           {
             "tipo": "Requerimento de Moção",
@@ -5889,6 +5889,46 @@
             "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2648607"
           },
           {
+            "id": 2648806,
+            "sigla": "REQ",
+            "tipo": "Requerimento para envio de Indicação pela Comissão",
+            "numero": 193,
+            "ano": 2026,
+            "ementa": "Requer o encaminhamento de Indicação ao Procurador-Geral da República, sugerindo a adoção de providências destinadas à apuração de possíveis ilícitos contra a Administração Pública Federal, especialmente quanto à atuação da empresária Roberta Luchsinger, de Fábio Luís Lula da Silva, de intermediários empresariais e de agentes públicos federais, diante de suspeitas relacionadas a contratos públicos, movimentações financeiras, tráfico de influência, corrupção e eventual favorecimento indevido.",
+            "apresentadaEm": "2026-10-20T17:18",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2648806"
+          },
+          {
+            "id": 2648805,
+            "sigla": "REQ",
+            "tipo": "Requerimento para envio de Solicitação de Informação ao TCU pela Comissão",
+            "numero": 192,
+            "ano": 2026,
+            "ementa": "Solicita ao Tribunal de Contas da União (TCU) informações acerca da existência de auditorias, fiscalizações, representações e procedimentos de controle relacionados à atuação da empresária Roberta Luchsinger, de pessoas físicas e jurídicas a ela vinculadas e de possíveis intermediários de interesses privados perante órgãos e entidades da Administração Pública Federal, especialmente no âmbito do Instituto Nacional do Seguro Social (INSS), do Ministério da Saúde e do Departamento Nacional de Infraestrutura de Transportes (DNIT).",
+            "apresentadaEm": "2026-10-20T16:29",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2648805"
+          },
+          {
+            "id": 2648804,
+            "sigla": "REQ",
+            "tipo": "Requerimento para envio de Indicação pela Comissão",
+            "numero": 191,
+            "ano": 2026,
+            "ementa": "Requer o envio de Indicação ao Ministro de Estado da Controladoria-Geral da União (CGU), sugerindo a instauração de procedimentos de auditoria, fiscalização e apuração administrativa destinados a investigar possíveis irregularidades, conflitos de interesses, tráfico de influência e favorecimento indevido envolvendo a empresária Roberta Luchsinger, pessoas físicas e jurídicas a ela vinculadas e agentes públicos federais, especialmente no âmbito do INSS, do Ministério da Saúde e do DNIT.",
+            "apresentadaEm": "2026-10-20T16:29",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2648804"
+          },
+          {
+            "id": 2648803,
+            "sigla": "REQ",
+            "tipo": "Requerimento para envio de Requerimento de Informação pela Comissão",
+            "numero": 190,
+            "ano": 2026,
+            "ementa": "Requer informações ao Ministro de Estado da Educação acerca de reuniões, encontros, comunicações institucionais, procedimentos administrativos, contratos e eventuais situações de conflito de interesses envolvendo o Ministro Leonardo Osvaldo Barchini Rosa, a empresária Roberta Luchsinger, Fábio Luís Lula da Silva e pessoas físicas ou jurídicas a eles relacionadas, diante de notícias sobre encontros privados realizados durante o exercício de funções públicas no Ministério da Educação",
+            "apresentadaEm": "2026-10-20T16:29",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2648803"
+          },
+          {
             "id": 2648598,
             "sigla": "SIT",
             "tipo": "Solicitação de Informação ao TCU",
@@ -5937,46 +5977,6 @@
             "ementa": "Solicita informações ao Sr. Ministro do Meio Ambiente e Mudança do Clima (MMA) sobre o passivo indenizatório oriundo da criação de Unidades de Conservação no âmbito do Instituto Chico Mendes da Biodiversidade (ICMBio) e seus respectivos Planos de Manejo.",
             "apresentadaEm": "2026-10-20T14:07",
             "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2648520"
-          },
-          {
-            "id": 2648333,
-            "sigla": "RIC",
-            "tipo": "Requerimento de Informação",
-            "numero": 2762,
-            "ano": 2026,
-            "ementa": "Solicita ao Ministro de Estado da Fazenda informações acerca das negociações entre a Caixa Econômica Federal e o Sport Club Corinthians Paulista destinadas à eventual quitação de dívida estimada em R$ 640 milhões, mediante cessão dos direitos de nomeação da Neo Química Arena e outras contrapartidas comerciais, bem como sobre concessões financeiras ao clube e eventual participação de autoridades do Poder Executivo Federal nas tratativas.",
-            "apresentadaEm": "2026-10-16T19:48",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2648333"
-          },
-          {
-            "id": 2648330,
-            "sigla": "SIT",
-            "tipo": "Solicitação de Informação ao TCU",
-            "numero": 53,
-            "ano": 2026,
-            "ementa": "Requer que sejam solicitadas ao Tribunal de Contas da União (TCU) informações acerca da legalidade, legitimidade, economicidade e regularidade das negociações entre a Caixa Econômica Federal e o Sport Club Corinthians Paulista destinadas à reestruturação ou eventual quitação de dívida estimada em R$ 640 milhões, mediante cessão de direitos de nomeação (naming rights) da Neo Química Arena e outras contrapartidas comerciais, bem como sobre a concessão de benefícios financeiros ao clube e a eventual interferência político-eleitoral na operação.",
-            "apresentadaEm": "2026-10-16T19:48",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2648330"
-          },
-          {
-            "id": 2648329,
-            "sigla": "INC",
-            "tipo": "Indicação",
-            "numero": 1627,
-            "ano": 2026,
-            "ementa": "Sugere à Controladoria-Geral da União a realização de auditoria destinada a examinar a regularidade das negociações entre a Caixa Econômica Federal e o Sport Club Corinthians Paulista para a\nreestruturação ou eventual quitação de dívida estimada em R$ 640 milhões, bem como a concessão de benefícios financeiros ao clube e a possível interferência político-eleitoral na operação.",
-            "apresentadaEm": "2026-10-16T19:48",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2648329"
-          },
-          {
-            "id": 2647488,
-            "sigla": "INC",
-            "tipo": "Indicação",
-            "numero": 1621,
-            "ano": 2026,
-            "ementa": "Requer o encaminhamento de Indicação à Procuradoria-Geral Eleitoral, sugerindo a instauração de procedimento para apurar as circunstâncias, as causas e eventuais responsabilidades pela falha na transmissão da propaganda eleitoral gratuita do candidato à Presidência da República Flávio Bolsonaro, ocorrida em 12 de outubro de 2026.",
-            "apresentadaEm": "2026-10-13T17:18",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2647488"
           }
         ]
       }
@@ -6001,8 +6001,8 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/220529.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/220529",
       "despesas": {
-        "total": 1931526.2600000016,
-        "documentos": 1457,
+        "total": 1931906.8500000017,
+        "documentos": 1459,
         "porTipo": [
           {
             "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
@@ -6407,8 +6407,8 @@
           },
           {
             "tipo": "COMBUSTÍVEIS E LUBRIFICANTES.",
-            "valor": 134987.40000000002,
-            "notas": 680,
+            "valor": 135367.99000000002,
+            "notas": 682,
             "fornecedores": [
               {
                 "nome": "063 - 311 SUL - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
@@ -6443,15 +6443,15 @@
               {
                 "nome": "POSTO NOSSA SENHORA RAINHA DOS ANJOS LTDA",
                 "cnpjCpf": "57214008000178",
-                "total": 3128.96,
-                "notas": 15,
+                "total": 3259.55,
+                "notas": 16,
                 "outrosNomes": []
               },
               {
                 "nome": "ALVINO PIANZOLI & IRMAO LTDA",
                 "cnpjCpf": "27656438000189",
-                "total": 2314.33,
-                "notas": 10,
+                "total": 2564.33,
+                "notas": 11,
                 "outrosNomes": []
               },
               {
@@ -7033,7 +7033,7 @@
           },
           {
             "competencia": "2026-10",
-            "valor": 12566.880000000001
+            "valor": 12947.470000000001
           }
         ],
         "fornecedores": [
@@ -7314,8 +7314,8 @@
           }
         ],
         "comprovantes": {
-          "com": 1151,
-          "total": 1457
+          "com": 1153,
+          "total": 1459
         }
       },
       "proposicoes": {
@@ -12559,8 +12559,8 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/220530.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/220530",
       "despesas": {
-        "total": 1952907.169999999,
-        "documentos": 1279,
+        "total": 1953526.1699999992,
+        "documentos": 1280,
         "porTipo": [
           {
             "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
@@ -12840,8 +12840,8 @@
           },
           {
             "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
-            "valor": 272248.5099999999,
-            "notas": 174,
+            "valor": 272867.5099999999,
+            "notas": 175,
             "fornecedores": [
               {
                 "nome": "M A EMPREENDIMENTO IMOBILIARIOS LTDA",
@@ -12890,6 +12890,13 @@
                 ]
               },
               {
+                "nome": "STARLINK BRAZIL SERVICOS DE INTERNET LTDA.",
+                "cnpjCpf": "40154884000153",
+                "total": 2476,
+                "notas": 4,
+                "outrosNomes": []
+              },
+              {
                 "nome": "VIVO S.A",
                 "cnpjCpf": "76535764001549",
                 "total": 2077.1800000000007,
@@ -12903,13 +12910,6 @@
                 "cnpjCpf": "01317245000100",
                 "total": 1877.8,
                 "notas": 1,
-                "outrosNomes": []
-              },
-              {
-                "nome": "STARLINK BRAZIL SERVICOS DE INTERNET LTDA.",
-                "cnpjCpf": "40154884000153",
-                "total": 1857,
-                "notas": 3,
                 "outrosNomes": []
               }
             ],
@@ -13385,6 +13385,10 @@
           {
             "competencia": "2026-09",
             "valor": 13619
+          },
+          {
+            "competencia": "2026-10",
+            "valor": 619
           }
         ],
         "fornecedores": [
@@ -13669,8 +13673,8 @@
           }
         ],
         "comprovantes": {
-          "com": 984,
-          "total": 1279
+          "com": 985,
+          "total": 1280
         }
       },
       "proposicoes": {
@@ -15369,7 +15373,7 @@
           }
         ],
         "comprovantes": {
-          "com": 676,
+          "com": 673,
           "total": 1082
         }
       },

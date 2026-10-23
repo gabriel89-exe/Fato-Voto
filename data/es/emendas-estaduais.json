@@ -11,11 +11,11 @@
     2025,
     2026
   ],
-  "coletadoEm": "2026-10-22T14:49:41.131Z",
+  "coletadoEm": "2026-10-23T14:28:23.877Z",
   "recorte": "Emendas ao Orçamento do Espírito Santo cujo autor individual é deputado estadual da legislatura atual da ALES (2023–2027) e candidato em 2026. A LOA de um ano é emendada no ano anterior: a de 2023 foi emendada pela legislatura anterior, e só aparece para quem já era deputado. Emenda de bancada e de comissão não tem autor individual e não entra. O casamento com a candidatura é por nome, com desistência em qualquer ambiguidade — os nomes que não casaram estão listados no dado.",
   "conferencia": {
     "aprovada": true,
-    "conferidoEm": "2026-10-22T14:49:41.085Z",
+    "conferidoEm": "2026-10-23T14:28:23.822Z",
     "provas": [
       "cada arquivo é baixado duas vezes, e os dois downloads têm de ser idênticos",
       "o valor previsto da emenda repete igual em todas as linhas dela",
@@ -26,7 +26,7 @@
   },
   "referencia": {
     "bancada": 33,
-    "medianaEmpenhado": 6257874.29,
+    "medianaEmpenhado": 6257874.289999999,
     "menor": 644846.78,
     "maior": 69978698.94
   },
@@ -1648,8 +1648,8 @@
         "totais": {
           "previsto": 6800000,
           "empenhado": 5451216.01,
-          "liquidado": 4788905.45,
-          "pago": 4728965.45,
+          "liquidado": 4888905.449999999,
+          "pago": 4828965.449999999,
           "restosAPagar": 172130
         },
         "porAno": [
@@ -1669,7 +1669,7 @@
             "ano": 2026,
             "quantidade": 18,
             "empenhado": 2130000,
-            "pago": 1579996.46
+            "pago": 1679996.46
           }
         ],
         "porFuncao": [
@@ -1677,7 +1677,7 @@
             "nome": "DESPORTO E LAZER",
             "quantidade": 20,
             "empenhado": 2399940,
-            "pago": 1789879.44
+            "pago": 1889879.44
           },
           {
             "nome": "ASSISTÊNCIA SOCIAL",
@@ -1745,7 +1745,7 @@
             "nome": "Cariacica",
             "quantidade": 4,
             "empenhado": 330000,
-            "pago": 230000
+            "pago": 330000
           },
           {
             "nome": "Linhares",
@@ -1867,7 +1867,7 @@
             "nome": "Individual com finalidade definida não impositiva",
             "quantidade": 72,
             "empenhado": 5451216.01,
-            "pago": 4728965.45
+            "pago": 4828965.449999999
           }
         ],
         "criterioDaLista": "as 10 de maior valor empenhado",
@@ -2877,7 +2877,7 @@
         "valoresPublicados": true,
         "totais": {
           "previsto": 8700000,
-          "empenhado": 4545525.94,
+          "empenhado": 4545525.9399999995,
           "liquidado": 4245280.540000001,
           "pago": 4215280.540000001,
           "restosAPagar": 136643.57
@@ -2969,7 +2969,7 @@
             "nome": "Vitória",
             "quantidade": 38,
             "empenhado": 674917.7,
-            "pago": 644915.87
+            "pago": 644915.8699999999
           },
           {
             "nome": "Colatina",
@@ -3048,7 +3048,7 @@
           {
             "nome": "Individual com finalidade definida não impositiva",
             "quantidade": 105,
-            "empenhado": 4545525.94,
+            "empenhado": 4545525.9399999995,
             "pago": 4215280.540000001
           }
         ],
@@ -3181,7 +3181,7 @@
           "previsto": 7200000,
           "empenhado": 1594253.5499999998,
           "liquidado": 1475217.9199999997,
-          "pago": 1365217.9199999997,
+          "pago": 1365217.92,
           "restosAPagar": 229000
         },
         "porAno": [
@@ -3215,7 +3215,7 @@
             "nome": "ASSISTÊNCIA SOCIAL",
             "quantidade": 11,
             "empenhado": 429991,
-            "pago": 329990.99999999994
+            "pago": 329991
           },
           {
             "nome": "DESPORTO E LAZER",
@@ -3465,7 +3465,7 @@
             "nome": "Individual com finalidade definida não impositiva",
             "quantidade": 151,
             "empenhado": 1594253.5499999998,
-            "pago": 1365217.9199999997
+            "pago": 1365217.92
           }
         ],
         "criterioDaLista": "as 10 de maior valor empenhado",
@@ -3595,9 +3595,9 @@
         "valoresPublicados": true,
         "totais": {
           "previsto": 8700000,
-          "empenhado": 9473076.249999998,
-          "liquidado": 9074109.479999999,
-          "pago": 9034110.43,
+          "empenhado": 9473076.25,
+          "liquidado": 9074109.48,
+          "pago": 9034110.430000002,
           "restosAPagar": 333375.05
         },
         "porAno": [
@@ -3622,8 +3622,8 @@
           {
             "ano": 2026,
             "quantidade": 48,
-            "empenhado": 2643376.72,
-            "pago": 2537785.95
+            "empenhado": 2643376.7199999997,
+            "pago": 2537785.9499999997
           }
         ],
         "porFuncao": [
@@ -3940,8 +3940,8 @@
           {
             "nome": "Individual com finalidade definida não impositiva",
             "quantidade": 151,
-            "empenhado": 9473076.249999998,
-            "pago": 9034110.43
+            "empenhado": 9473076.25,
+            "pago": 9034110.430000002
           }
         ],
         "criterioDaLista": "as 10 de maior valor empenhado",
@@ -5026,8 +5026,8 @@
         "totais": {
           "previsto": 6870000,
           "empenhado": 5711959.760000001,
-          "liquidado": 5499664.990000001,
-          "pago": 5469664.990000001,
+          "liquidado": 5499664.99,
+          "pago": 5469664.99,
           "restosAPagar": 171939
         },
         "porAno": [
@@ -5061,7 +5061,7 @@
             "nome": "DESPORTO E LAZER",
             "quantidade": 20,
             "empenhado": 2806414.9,
-            "pago": 2776059.1300000004
+            "pago": 2776059.13
           },
           {
             "nome": "COMÉRCIO E SERVIÇOS",
@@ -5245,7 +5245,7 @@
             "nome": "Individual com finalidade definida não impositiva",
             "quantidade": 77,
             "empenhado": 5711959.760000001,
-            "pago": 5469664.990000001
+            "pago": 5469664.99
           }
         ],
         "criterioDaLista": "as 10 de maior valor empenhado",
@@ -5375,9 +5375,9 @@
         "valoresPublicados": true,
         "totais": {
           "previsto": 8700000,
-          "empenhado": 6257874.29,
-          "liquidado": 4810253.88,
-          "pago": 4690253.88,
+          "empenhado": 6257874.289999999,
+          "liquidado": 4850253.88,
+          "pago": 4730253.88,
           "restosAPagar": 846494.95
         },
         "porAno": [
@@ -5403,15 +5403,15 @@
             "ano": 2026,
             "quantidade": 26,
             "empenhado": 2377162.38,
-            "pago": 1656045.6099999999
+            "pago": 1696045.6099999999
           }
         ],
         "porFuncao": [
           {
             "nome": "DESPORTO E LAZER",
             "quantidade": 30,
-            "empenhado": 2792608.5300000003,
-            "pago": 2115060.92
+            "empenhado": 2792608.53,
+            "pago": 2155060.92
           },
           {
             "nome": "SAÚDE",
@@ -5599,7 +5599,7 @@
             "nome": "Cariacica",
             "quantidade": 3,
             "empenhado": 69789.09,
-            "pago": 29789.09
+            "pago": 69789.09
           },
           {
             "nome": "Mimoso do Sul",
@@ -5822,8 +5822,8 @@
           {
             "nome": "Individual com finalidade definida não impositiva",
             "quantidade": 178,
-            "empenhado": 6257874.29,
-            "pago": 4690253.88
+            "empenhado": 6257874.289999999,
+            "pago": 4730253.88
           }
         ],
         "criterioDaLista": "as 10 de maior valor empenhado",
@@ -6012,7 +6012,7 @@
           {
             "nome": "ASSISTÊNCIA SOCIAL",
             "quantidade": 36,
-            "empenhado": 563246.9500000001,
+            "empenhado": 563246.95,
             "pago": 529976.37
           },
           {
@@ -7791,7 +7791,7 @@
             "nome": "AGRICULTURA",
             "quantidade": 22,
             "empenhado": 1947608.16,
-            "pago": 1088847.16
+            "pago": 1088847.1600000001
           },
           {
             "nome": "COMÉRCIO E SERVIÇOS",
@@ -8572,7 +8572,7 @@
           {
             "ano": 2026,
             "quantidade": 188,
-            "empenhado": 64142685.75000001,
+            "empenhado": 64142685.75,
             "pago": 62371115.629999995
           }
         ],
@@ -8592,7 +8592,7 @@
           {
             "nome": "DESPORTO E LAZER",
             "quantidade": 51,
-            "empenhado": 11528243.15,
+            "empenhado": 11528243.149999999,
             "pago": 10962694.95
           },
           {
@@ -8649,7 +8649,7 @@
             "nome": "Região ESTADO",
             "quantidade": 13,
             "empenhado": 37675333.6,
-            "pago": 37145928.37
+            "pago": 37145928.370000005
           },
           {
             "nome": "Vitória",
@@ -9002,7 +9002,7 @@
             "objeto": "APOIO FINANCEIRO à FEDERAÇÃO DE FUTEBOL DO ESTADO DO ESPÍRITO SANTO. - FEDERACAO DE FUTEBOL DO ESTADO DO ESPIRITO SANTO (FES) (27.248.939/0001-26)",
             "previsto": 2500000,
             "empenhado": 1226559.6,
-            "pago": 992698.59
+            "pago": 992698.5900000001
           },
           {
             "numero": "2026 / R1608",
@@ -9314,8 +9314,8 @@
           {
             "ano": 2026,
             "quantidade": 102,
-            "empenhado": 1678900.33,
-            "pago": 1202213.0699999998
+            "empenhado": 1678900.3300000003,
+            "pago": 1202213.07
           }
         ],
         "porFuncao": [
@@ -10575,7 +10575,7 @@
         "valoresPublicados": true,
         "totais": {
           "previsto": 3000000,
-          "empenhado": 1073317.98,
+          "empenhado": 1093183.99,
           "liquidado": 923748.76,
           "pago": 923748.76,
           "restosAPagar": 0
@@ -10584,7 +10584,7 @@
           {
             "ano": 2026,
             "quantidade": 80,
-            "empenhado": 1073317.98,
+            "empenhado": 1093183.99,
             "pago": 923748.76
           }
         ],
@@ -10620,8 +10620,14 @@
             "pago": 0
           },
           {
+            "nome": "EDUCAÇÃO",
+            "quantidade": 1,
+            "empenhado": 19866.01,
+            "pago": 0
+          },
+          {
             "nome": "Não informada",
-            "quantidade": 58,
+            "quantidade": 57,
             "empenhado": 0,
             "pago": 0
           }
@@ -10670,6 +10676,12 @@
             "pago": 45000
           },
           {
+            "nome": "Castelo",
+            "quantidade": 2,
+            "empenhado": 39866.009999999995,
+            "pago": 20000
+          },
+          {
             "nome": "São Mateus",
             "quantidade": 2,
             "empenhado": 35000,
@@ -10690,12 +10702,6 @@
           {
             "nome": "Águia Branca",
             "quantidade": 1,
-            "empenhado": 20000,
-            "pago": 20000
-          },
-          {
-            "nome": "Castelo",
-            "quantidade": 2,
             "empenhado": 20000,
             "pago": 20000
           },
@@ -10812,7 +10818,7 @@
           {
             "nome": "Individual com finalidade definida não impositiva",
             "quantidade": 80,
-            "empenhado": 1073317.98,
+            "empenhado": 1093183.99,
             "pago": 923748.76
           }
         ],

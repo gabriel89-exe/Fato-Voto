@@ -11,7 +11,7 @@
     2025,
     2026
   ],
-  "coletadoEm": "2026-10-22T14:35:29.241Z",
+  "coletadoEm": "2026-10-23T14:17:17.273Z",
   "senadores": [
     {
       "id": "senado-5953",
@@ -3410,6 +3410,16 @@
         "fim": "2031-01-31"
       },
       "materias": [
+        {
+          "id": "176035",
+          "identificacao": "REQ 133/2026 - CDH",
+          "sigla": "REQ",
+          "numero": "133",
+          "ano": 2026,
+          "ementa": "Requer a realização de Audiência Pública, com a participação da Dra. Tatiana Coelho Sampaio (UFRJ), da Sra. Daniela Marreco Cerqueira (Anvisa), de representantes do Ministério da Saúde, do Conselho Federal de Medicina (CFM), da Academia Nacional de Medicina (ANM) e do Laboratório Cristália, e do Sr. Tiba Camargos, para debater as restrições impostas pela Anvisa ao uso compassivo da polilaminina e seus impactos sobre o direito à saúde de pacientes com lesão medular grave.",
+          "data": "2026-10-22",
+          "autorPrincipal": true
+        },
         {
           "id": "175891",
           "identificacao": "RQS 699/2026",
@@ -7968,7 +7978,7 @@
         },
         {
           "sigla": "REQ",
-          "total": 81
+          "total": 82
         },
         {
           "sigla": "PEC",

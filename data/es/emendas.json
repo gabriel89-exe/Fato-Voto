@@ -11,11 +11,11 @@
     2025,
     2026
   ],
-  "coletadoEm": "2026-10-22T14:47:54.551Z",
+  "coletadoEm": "2026-10-23T14:27:12.515Z",
   "recorte": "Emendas cujo autor é o próprio parlamentar, nos anos da legislatura 57. Emendas de bancada estadual e de comissão não têm autor individual e não entram aqui.",
   "conferencia": {
     "aprovada": true,
-    "conferidoEm": "2026-10-22T14:47:54.533Z",
+    "conferidoEm": "2026-10-23T14:27:12.492Z",
     "provas": [
       "o valor vem da consulta por código da emenda, não da consulta por nome",
       "cada emenda é lida duas vezes, e as duas leituras têm de concordar",
@@ -28,12 +28,12 @@
     "Deputado Federal": {
       "bancada": 10,
       "medianaEmpenhado": 113699349.93,
-      "menor": 97583801.19,
-      "maior": 147278764.45999998
+      "menor": 97583801.39,
+      "maior": 147435605.15
     },
     "Senador": {
       "bancada": 3,
-      "medianaEmpenhado": 252602869.24,
+      "medianaEmpenhado": 253667576.07999998,
       "menor": 197931574.72,
       "maior": 270029619.49
     }
@@ -48,10 +48,10 @@
       "ambiguidadeDeHomonimo": null,
       "foraDoPeriodo": 23,
       "emendas": {
-        "quantidade": 22,
+        "quantidade": 23,
         "valoresPublicados": true,
         "totais": {
-          "empenhado": 145438462.97,
+          "empenhado": 147435605.15,
           "liquidado": 115044946.43,
           "pago": 115044946.43,
           "restosInscritos": 7320177.04,
@@ -79,8 +79,8 @@
           },
           {
             "ano": 2026,
-            "quantidade": 8,
-            "empenhado": 38187595.97,
+            "quantidade": 9,
+            "empenhado": 40184738.15,
             "pago": 25203456.28
           }
         ],
@@ -108,6 +108,12 @@
             "quantidade": 2,
             "empenhado": 3958418,
             "pago": 1200000
+          },
+          {
+            "nome": "Educação",
+            "quantidade": 1,
+            "empenhado": 1997142.18,
+            "pago": 0
           },
           {
             "nome": "Assistência social",
@@ -142,6 +148,12 @@
             "pago": 0
           },
           {
+            "nome": "GUARAPARI - ES",
+            "quantidade": 1,
+            "empenhado": 1997142.18,
+            "pago": 0
+          },
+          {
             "nome": "ICONHA - ES",
             "quantidade": 1,
             "empenhado": 1000000,
@@ -163,8 +175,8 @@
         "porTipo": [
           {
             "nome": "Emenda Individual - Transferências com Finalidade Definida",
-            "quantidade": 17,
-            "empenhado": 104862136.85,
+            "quantidade": 18,
+            "empenhado": 106859279.03,
             "pago": 78757644
           },
           {
@@ -1965,7 +1977,7 @@
         "quantidade": 37,
         "valoresPublicados": true,
         "totais": {
-          "empenhado": 97583801.19,
+          "empenhado": 97583801.39,
           "liquidado": 49690612.89,
           "pago": 49690612.89,
           "restosInscritos": 26686890.130000003,
@@ -1988,7 +2000,7 @@
           {
             "ano": 2026,
             "quantidade": 9,
-            "empenhado": 30079583,
+            "empenhado": 30079583.2,
             "pago": 19516903.12
           }
         ],
@@ -2014,7 +2026,7 @@
           {
             "nome": "Organização agrária",
             "quantidade": 2,
-            "empenhado": 4249903,
+            "empenhado": 4249903.2,
             "pago": 599903.2
           },
           {
@@ -2076,7 +2088,7 @@
           {
             "nome": "ESPÍRITO SANTO (UF)",
             "quantidade": 16,
-            "empenhado": 29289905.05,
+            "empenhado": 29289905.25,
             "pago": 5350751.97
           },
           {
@@ -2090,7 +2102,7 @@
           {
             "nome": "Emenda Individual - Transferências com Finalidade Definida",
             "quantidade": 34,
-            "empenhado": 79726716.19,
+            "empenhado": 79726716.39,
             "pago": 33602207.97
           },
           {
@@ -2769,12 +2781,12 @@
         "quantidade": 70,
         "valoresPublicados": true,
         "totais": {
-          "empenhado": 252602869.24,
+          "empenhado": 253667576.07999998,
           "liquidado": 164786927.94,
           "pago": 164782082.3,
-          "restosInscritos": 72240902.72,
+          "restosInscritos": 72242214.72,
           "restosCancelados": 3168251.3299999996,
-          "restosPagos": 40214411.160000004
+          "restosPagos": 40213099.160000004
         },
         "porAno": [
           {
@@ -2798,7 +2810,7 @@
           {
             "ano": 2026,
             "quantidade": 16,
-            "empenhado": 59115377.65,
+            "empenhado": 60180084.49,
             "pago": 50920641.5
           }
         ],
@@ -2818,7 +2830,7 @@
           {
             "nome": "Educação",
             "quantidade": 6,
-            "empenhado": 15624602.16,
+            "empenhado": 16689309,
             "pago": 0
           },
           {
@@ -2903,8 +2915,8 @@
         "porLocalidade": [
           {
             "nome": "MÚLTIPLO",
-            "quantidade": 41,
-            "empenhado": 230031631.29,
+            "quantidade": 42,
+            "empenhado": 231136338.13,
             "pago": 156720053.37
           },
           {
@@ -2936,19 +2948,13 @@
             "quantidade": 1,
             "empenhado": 200000,
             "pago": 0
-          },
-          {
-            "nome": "ITAGUAÇU - ES",
-            "quantidade": 1,
-            "empenhado": 40000,
-            "pago": 0
           }
         ],
         "porTipo": [
           {
             "nome": "Emenda Individual - Transferências com Finalidade Definida",
             "quantidade": 70,
-            "empenhado": 252602869.24,
+            "empenhado": 253667576.07999998,
             "pago": 164782082.3
           }
         ],
