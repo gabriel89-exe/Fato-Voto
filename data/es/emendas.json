@@ -11,11 +11,11 @@
     2025,
     2026
   ],
-  "coletadoEm": "2026-10-23T14:27:12.515Z",
+  "coletadoEm": "2026-10-24T13:31:18.843Z",
   "recorte": "Emendas cujo autor é o próprio parlamentar, nos anos da legislatura 57. Emendas de bancada estadual e de comissão não têm autor individual e não entram aqui.",
   "conferencia": {
     "aprovada": true,
-    "conferidoEm": "2026-10-23T14:27:12.492Z",
+    "conferidoEm": "2026-10-24T13:31:18.819Z",
     "provas": [
       "o valor vem da consulta por código da emenda, não da consulta por nome",
       "cada emenda é lida duas vezes, e as duas leituras têm de concordar",
@@ -28,7 +28,7 @@
     "Deputado Federal": {
       "bancada": 10,
       "medianaEmpenhado": 113699349.93,
-      "menor": 97583801.39,
+      "menor": 97779801.39,
       "maior": 147435605.15
     },
     "Senador": {
@@ -333,8 +333,8 @@
         "quantidade": 29,
         "valoresPublicados": true,
         "totais": {
-          "empenhado": 136130691.57999998,
-          "liquidado": 117001334.88000001,
+          "empenhado": 136620691.57999998,
+          "liquidado": 117007812.88000001,
           "pago": 116396263.58,
           "restosInscritos": 8717070.68,
           "restosCancelados": 0,
@@ -362,7 +362,7 @@
           {
             "ano": 2026,
             "quantidade": 7,
-            "empenhado": 35479183.58,
+            "empenhado": 35969183.58,
             "pago": 26849258.58
           }
         ],
@@ -400,7 +400,7 @@
           {
             "nome": "Desporto e lazer",
             "quantidade": 4,
-            "empenhado": 1896985.6,
+            "empenhado": 2386985.6,
             "pago": 320985.6
           },
           {
@@ -438,7 +438,7 @@
           {
             "nome": "ESPÍRITO SANTO (UF)",
             "quantidade": 10,
-            "empenhado": 9319983.58,
+            "empenhado": 9809983.58,
             "pago": 1852024.1
           },
           {
@@ -464,7 +464,7 @@
           {
             "nome": "Emenda Individual - Transferências com Finalidade Definida",
             "quantidade": 25,
-            "empenhado": 100609515.58,
+            "empenhado": 101099515.58,
             "pago": 82129415.1
           },
           {
@@ -1977,7 +1977,7 @@
         "quantidade": 37,
         "valoresPublicados": true,
         "totais": {
-          "empenhado": 97583801.39,
+          "empenhado": 97779801.39,
           "liquidado": 49690612.89,
           "pago": 49690612.89,
           "restosInscritos": 26686890.130000003,
@@ -2000,7 +2000,7 @@
           {
             "ano": 2026,
             "quantidade": 9,
-            "empenhado": 30079583.2,
+            "empenhado": 30275583.2,
             "pago": 19516903.12
           }
         ],
@@ -2050,7 +2050,7 @@
           {
             "nome": "Desporto e lazer",
             "quantidade": 2,
-            "empenhado": 2084869.07,
+            "empenhado": 2280869.0700000003,
             "pago": 200928
           },
           {
@@ -2088,7 +2088,7 @@
           {
             "nome": "ESPÍRITO SANTO (UF)",
             "quantidade": 16,
-            "empenhado": 29289905.25,
+            "empenhado": 29485905.25,
             "pago": 5350751.97
           },
           {
@@ -2102,7 +2102,7 @@
           {
             "nome": "Emenda Individual - Transferências com Finalidade Definida",
             "quantidade": 34,
-            "empenhado": 79726716.39,
+            "empenhado": 79922716.39,
             "pago": 33602207.97
           },
           {
