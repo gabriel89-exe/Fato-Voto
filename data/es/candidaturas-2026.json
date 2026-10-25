@@ -9,7 +9,7 @@
     "idEleicao": "20322002026",
     "uf": "ES"
   },
-  "coletadoEm": "2026-10-24T13:20:35.625Z",
+  "coletadoEm": "2026-10-25T13:43:44.453Z",
   "total": 577,
   "candidaturas": [
     {
@@ -33761,8 +33761,23 @@
       "escolaridade": "Superior completo",
       "ocupacao": "Outros",
       "naturalidade": "ES-VITÓRIA",
-      "bens": [],
-      "totalBens": 0,
+      "bens": [
+        {
+          "ordem": 1,
+          "tipo": "Aplicação de renda fixa (CDB, RDB e outros)",
+          "descricao": "COTAS DE FUNDO DE INVESTIMENTO",
+          "valor": 1154.16,
+          "atualizadoEm": "2026-08-12"
+        },
+        {
+          "ordem": 2,
+          "tipo": "Veículo automotor terrestre: caminhão, automóvel, moto, etc.",
+          "descricao": "CARRO",
+          "valor": 83444,
+          "atualizadoEm": "2026-08-12"
+        }
+      ],
+      "totalBens": 84598.16,
       "proposta": {
         "exigida": false,
         "documento": null
