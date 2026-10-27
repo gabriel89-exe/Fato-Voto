@@ -6,7 +6,7 @@
   },
   "uf": "ES",
   "legislatura": 57,
-  "coletadoEm": "2026-10-26T16:10:03.913Z",
+  "coletadoEm": "2026-10-27T15:23:41.262Z",
   "referencia": {
     "bancada": 10,
     "medianaDespesas": 1936814.0950000028,
@@ -5664,7 +5664,7 @@
           {
             "tipo": "Emenda na Comissão",
             "sigla": "EMC",
-            "total": 70
+            "total": 71
           },
           {
             "tipo": "Projeto de Decreto Legislativo de Sustação de Atos Normativos do Poder Executivo",
@@ -10977,8 +10977,8 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/220527.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/220527",
       "despesas": {
-        "total": 1869971.2299999997,
-        "documentos": 1560,
+        "total": 1870603.2399999995,
+        "documentos": 1564,
         "porTipo": [
           {
             "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
@@ -11243,8 +11243,8 @@
           },
           {
             "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
-            "valor": 254867.8700000001,
-            "notas": 215,
+            "valor": 254927.8500000001,
+            "notas": 216,
             "fornecedores": [
               {
                 "nome": "PRIVILEGE ADMINISTRACAO E NEGOCIOS IMOBILIARIOS LTDA",
@@ -11359,8 +11359,8 @@
           },
           {
             "tipo": "COMBUSTÍVEIS E LUBRIFICANTES.",
-            "valor": 103299.68999999989,
-            "notas": 660,
+            "valor": 103871.7199999999,
+            "notas": 663,
             "fornecedores": [
               {
                 "nome": "POSTO PIO XII - COMERCIO DE COMBUSTIVEIS LTDA",
@@ -11979,7 +11979,7 @@
           },
           {
             "competencia": "2026-10",
-            "valor": 419.62
+            "valor": 1051.63
           }
         ],
         "fornecedores": [
@@ -12262,8 +12262,8 @@
           }
         ],
         "comprovantes": {
-          "com": 1178,
-          "total": 1560
+          "com": 1182,
+          "total": 1564
         }
       },
       "proposicoes": {
