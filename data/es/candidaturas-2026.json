@@ -9,7 +9,7 @@
     "idEleicao": "20322002026",
     "uf": "ES"
   },
-  "coletadoEm": "2026-10-27T15:22:12.532Z",
+  "coletadoEm": "2026-10-28T16:02:26.493Z",
   "total": 577,
   "candidaturas": [
     {
@@ -33751,9 +33751,9 @@
         "nome": "REPUBLICANOS"
       },
       "coligacao": "REPUBLICANOS",
-      "situacaoRegistro": "Indeferido",
+      "situacaoRegistro": "Indeferido em prazo recursal ou com recurso",
       "situacaoCandidatura": "Consta da urna",
-      "apto": false,
+      "apto": true,
       "disputaReeleicao": false,
       "dataNascimento": "1982-02-18",
       "genero": "MASC.",
@@ -35890,14 +35890,56 @@
       "naturalidade": "ES-VITÓRIA",
       "bens": [
         {
+          "ordem": 1,
+          "tipo": "Dinheiro em espécie - moeda nacional",
+          "descricao": "DINHEIRO EM ESPECIE",
+          "valor": 10000,
+          "atualizadoEm": "2026-08-12"
+        },
+        {
+          "ordem": 2,
+          "tipo": "Outras participações societárias",
+          "descricao": "SÓCIO DE EMPRESA HMJ SERVICOS MEDICOS",
+          "valor": 78000,
+          "atualizadoEm": "2026-08-12"
+        },
+        {
           "ordem": 3,
           "tipo": "Outros bens imóveis",
           "descricao": "UNIDADE EM HOTEL",
           "valor": 209800,
           "atualizadoEm": "2026-08-12"
+        },
+        {
+          "ordem": 4,
+          "tipo": "Veículo automotor terrestre: caminhão, automóvel, moto, etc.",
+          "descricao": "VEICULO BMW",
+          "valor": 190000,
+          "atualizadoEm": "2026-08-12"
+        },
+        {
+          "ordem": 5,
+          "tipo": "Apartamento",
+          "descricao": "APARTAMENTO EM PRAIA DE ITAPARICA",
+          "valor": 1500000,
+          "atualizadoEm": "2026-08-12"
+        },
+        {
+          "ordem": 6,
+          "tipo": "Terreno",
+          "descricao": "TERRENO RURAL EM ITAPEMIRIM",
+          "valor": 88000,
+          "atualizadoEm": "2026-08-12"
+        },
+        {
+          "ordem": 7,
+          "tipo": "Terreno",
+          "descricao": "TERRENO EM ITAPEMIRIM",
+          "valor": 143000,
+          "atualizadoEm": "2026-08-12"
         }
       ],
-      "totalBens": 209800,
+      "totalBens": 2218800,
       "proposta": {
         "exigida": false,
         "documento": null
@@ -36036,10 +36078,73 @@
       "naturalidade": "ES-VITÓRIA",
       "bens": [
         {
+          "ordem": 1,
+          "tipo": "Apartamento",
+          "descricao": "APARTAMENTO EM VITORIA",
+          "valor": 400000,
+          "atualizadoEm": "2026-08-12"
+        },
+        {
+          "ordem": 2,
+          "tipo": "Apartamento",
+          "descricao": "APARTAMENTO EM VITORIA",
+          "valor": 430000,
+          "atualizadoEm": "2026-08-12"
+        },
+        {
+          "ordem": 3,
+          "tipo": "Apartamento",
+          "descricao": "50% APARTAMENTO EM VITORIA",
+          "valor": 380000,
+          "atualizadoEm": "2026-08-12"
+        },
+        {
+          "ordem": 4,
+          "tipo": "Outras participações societárias",
+          "descricao": "PARTICIPAÇÃO NA EMPRESA ZVDJJ",
+          "valor": 21000,
+          "atualizadoEm": "2026-08-12"
+        },
+        {
+          "ordem": 5,
+          "tipo": "Outras participações societárias",
+          "descricao": "PARTICIPAÇÃO NA EMPRESA SM IMAGENS",
+          "valor": 25000,
+          "atualizadoEm": "2026-08-12"
+        },
+        {
+          "ordem": 6,
+          "tipo": "Apartamento",
+          "descricao": "APARTAMENTO EM VITORIA",
+          "valor": 275000,
+          "atualizadoEm": "2026-08-12"
+        },
+        {
+          "ordem": 7,
+          "tipo": "Veículo automotor terrestre: caminhão, automóvel, moto, etc.",
+          "descricao": "CAMINHONETE",
+          "valor": 242000,
+          "atualizadoEm": "2026-08-12"
+        },
+        {
+          "ordem": 8,
+          "tipo": "Caderneta de poupança",
+          "descricao": "POUPANÇA",
+          "valor": 10000,
+          "atualizadoEm": "2026-08-12"
+        },
+        {
           "ordem": 9,
           "tipo": "Outras aplicações e Investimentos",
           "descricao": "ACÕES, FUNDOS, TESOURO DIREITO NACIONAL",
           "valor": 7500000,
+          "atualizadoEm": "2026-08-12"
+        },
+        {
+          "ordem": 10,
+          "tipo": "Outras participações societárias",
+          "descricao": "PARTICIPAÇÃO  NA HOLDING CONSULTORIA",
+          "valor": 20000,
           "atualizadoEm": "2026-08-12"
         },
         {
@@ -36048,9 +36153,37 @@
           "descricao": "PARTICIPAÇÃO NA EMPRESA VDZ",
           "valor": 10000,
           "atualizadoEm": "2026-08-12"
+        },
+        {
+          "ordem": 12,
+          "tipo": "Casa",
+          "descricao": "33% CASA EM VITORIA",
+          "valor": 300000,
+          "atualizadoEm": "2026-08-12"
+        },
+        {
+          "ordem": 13,
+          "tipo": "Outras participações societárias",
+          "descricao": "COOPERATIVA UNIMED NOROESTE",
+          "valor": 83000,
+          "atualizadoEm": "2026-08-12"
+        },
+        {
+          "ordem": 14,
+          "tipo": "Dinheiro em espécie - moeda estrangeira",
+          "descricao": "dinheiro em espécie",
+          "valor": 400000,
+          "atualizadoEm": "2026-08-29"
+        },
+        {
+          "ordem": 15,
+          "tipo": "Veículo automotor terrestre: caminhão, automóvel, moto, etc.",
+          "descricao": "GWM Haval H6",
+          "valor": 159000,
+          "atualizadoEm": "2026-08-29"
         }
       ],
-      "totalBens": 7510000,
+      "totalBens": 10255000,
       "proposta": {
         "exigida": false,
         "documento": null
@@ -36145,8 +36278,37 @@
       "escolaridade": "Superior completo",
       "ocupacao": "Servidor Público Federal",
       "naturalidade": "ES-MANTENÓPOLIS",
-      "bens": [],
-      "totalBens": 0,
+      "bens": [
+        {
+          "ordem": 1,
+          "tipo": "Casa",
+          "descricao": "CASA",
+          "valor": 500000,
+          "atualizadoEm": "2026-07-24"
+        },
+        {
+          "ordem": 2,
+          "tipo": "Construção",
+          "descricao": "CONSTRUÇÃO",
+          "valor": 200000,
+          "atualizadoEm": "2026-07-24"
+        },
+        {
+          "ordem": 3,
+          "tipo": "Casa",
+          "descricao": "CASA",
+          "valor": 200000,
+          "atualizadoEm": "2026-07-24"
+        },
+        {
+          "ordem": 4,
+          "tipo": "Veículo automotor terrestre: caminhão, automóvel, moto, etc.",
+          "descricao": "VEÍCULO AUTOMOTOR TERRESTRE: CAMINHÃO, AUTOMÓVEL, MOTO, ETC.",
+          "valor": 35000,
+          "atualizadoEm": "2026-07-24"
+        }
+      ],
+      "totalBens": 935000,
       "proposta": {
         "exigida": false,
         "documento": null
@@ -36227,9 +36389,51 @@
           "descricao": "SALA OU CONJUNTO",
           "valor": 30000,
           "atualizadoEm": "2026-07-24"
+        },
+        {
+          "ordem": 2,
+          "tipo": "Casa",
+          "descricao": "RESIDÊNCIA EM VILA VALÉRIO",
+          "valor": 120000,
+          "atualizadoEm": "2026-07-24"
+        },
+        {
+          "ordem": 3,
+          "tipo": "Outros bens imóveis",
+          "descricao": "03 LOTES URBANOS EM VILA VALÉRIO",
+          "valor": 310000,
+          "atualizadoEm": "2026-07-24"
+        },
+        {
+          "ordem": 4,
+          "tipo": "Terreno",
+          "descricao": "RURAL EM VILA VALERIO",
+          "valor": 90000,
+          "atualizadoEm": "2026-07-24"
+        },
+        {
+          "ordem": 5,
+          "tipo": "Casa",
+          "descricao": "50% RESIDÊNCIA EM SÃO GABRIEL DA PALHA",
+          "valor": 70000,
+          "atualizadoEm": "2026-07-24"
+        },
+        {
+          "ordem": 6,
+          "tipo": "Veículo automotor terrestre: caminhão, automóvel, moto, etc.",
+          "descricao": "VEÍCULO AUTOMOTOR TERRESTRE: CAMINHÃO, AUTOMÓVEL, MOTO, ETC.",
+          "valor": 140000,
+          "atualizadoEm": "2026-07-24"
+        },
+        {
+          "ordem": 7,
+          "tipo": "Apartamento",
+          "descricao": "APARTAMENTO NA PLANTA - LINHARES",
+          "valor": 1000000,
+          "atualizadoEm": "2026-07-24"
         }
       ],
-      "totalBens": 30000,
+      "totalBens": 1760000,
       "proposta": {
         "exigida": false,
         "documento": null
@@ -36325,8 +36529,30 @@
       "escolaridade": "Superior completo",
       "ocupacao": "Médica/Médico",
       "naturalidade": "RJ-RIO DE JANEIRO",
-      "bens": [],
-      "totalBens": 0,
+      "bens": [
+        {
+          "ordem": 1,
+          "tipo": "Veículo automotor terrestre: caminhão, automóvel, moto, etc.",
+          "descricao": "MOTOCICLETA",
+          "valor": 11000,
+          "atualizadoEm": "2026-08-05"
+        },
+        {
+          "ordem": 2,
+          "tipo": "Veículo automotor terrestre: caminhão, automóvel, moto, etc.",
+          "descricao": "MOTOCICLETA",
+          "valor": 7000,
+          "atualizadoEm": "2026-08-05"
+        },
+        {
+          "ordem": 3,
+          "tipo": "Veículo automotor terrestre: caminhão, automóvel, moto, etc.",
+          "descricao": "MOTOCICLETA",
+          "valor": 17000,
+          "atualizadoEm": "2026-08-05"
+        }
+      ],
+      "totalBens": 35000,
       "proposta": {
         "exigida": false,
         "documento": null
@@ -36424,14 +36650,35 @@
       "naturalidade": "ES-CARIACICA",
       "bens": [
         {
+          "ordem": 1,
+          "tipo": "Quotas ou quinhões de capital",
+          "descricao": "QUOTAS DA UNIMED VITÓRIA",
+          "valor": 183731.44,
+          "atualizadoEm": "2026-08-12"
+        },
+        {
           "ordem": 2,
           "tipo": "Veículo automotor terrestre: caminhão, automóvel, moto, etc.",
           "descricao": "VEÍCULO FINANCIADO HYUNDAI CRETA COMFORT",
           "valor": 114040.93,
           "atualizadoEm": "2026-08-12"
+        },
+        {
+          "ordem": 3,
+          "tipo": "Aplicação de renda fixa (CDB, RDB e outros)",
+          "descricao": "SALDO EM CONTA CORRENTE NU PAGAMENTOS",
+          "valor": 8816.22,
+          "atualizadoEm": "2026-08-12"
+        },
+        {
+          "ordem": 4,
+          "tipo": "Aplicação de renda fixa (CDB, RDB e outros)",
+          "descricao": "SALDO EM CONTA CORRETNTE BANESTES",
+          "valor": 218516.67,
+          "atualizadoEm": "2026-08-12"
         }
       ],
-      "totalBens": 114040.93,
+      "totalBens": 525105.26,
       "proposta": {
         "exigida": false,
         "documento": null
@@ -36519,8 +36766,37 @@
       "escolaridade": "Superior completo",
       "ocupacao": "Médica/Médico",
       "naturalidade": "ES-CONCEIÇÃO DO CASTELO",
-      "bens": [],
-      "totalBens": 0,
+      "bens": [
+        {
+          "ordem": 1,
+          "tipo": "Terreno",
+          "descricao": "Lote localizado em Conceição do Castelo/ES",
+          "valor": 40000,
+          "atualizadoEm": "2026-09-12"
+        },
+        {
+          "ordem": 2,
+          "tipo": "Veículo automotor terrestre: caminhão, automóvel, moto, etc.",
+          "descricao": "VW Saveiro, ano 1986",
+          "valor": 7000,
+          "atualizadoEm": "2026-09-12"
+        },
+        {
+          "ordem": 3,
+          "tipo": "Outros bens imóveis",
+          "descricao": "Consultório médico em Conceição do Castelo/ES",
+          "valor": 30000,
+          "atualizadoEm": "2026-09-12"
+        },
+        {
+          "ordem": 4,
+          "tipo": "Caderneta de poupança",
+          "descricao": "Poupança junto ao Banco do Brasil",
+          "valor": 0.19,
+          "atualizadoEm": "2026-09-12"
+        }
+      ],
+      "totalBens": 77000.19,
       "proposta": {
         "exigida": false,
         "documento": null
@@ -36612,14 +36888,91 @@
       "naturalidade": "ES-CONCEIÇÃO DA BARRA",
       "bens": [
         {
+          "ordem": 1,
+          "tipo": "Terreno",
+          "descricao": "ÁREA RURAL DE 14 HA, DENOMINADA SÍTIO PAMPULHA, NO MUNICÍPIO DE MUCURI/BA.",
+          "valor": 45000,
+          "atualizadoEm": "2026-08-12"
+        },
+        {
+          "ordem": 2,
+          "tipo": "Terreno",
+          "descricao": "ÁREA RURAL DE 19 HA, DENOMINADA SÍTIO PAMPULHA, NO MUNICÍPIO DE MUCURI/BA.",
+          "valor": 46000,
+          "atualizadoEm": "2026-08-12"
+        },
+        {
+          "ordem": 3,
+          "tipo": "Casa",
+          "descricao": "CASA RESIDENCIAL EM COPROPRIEDADE COM POLIANA MARIA NUNES DA SILVA, ADQUIRIDA  EM 2016",
+          "valor": 598168.19,
+          "atualizadoEm": "2026-08-12"
+        },
+        {
+          "ordem": 4,
+          "tipo": "Caderneta de poupança",
+          "descricao": "POUPANÇA OURO NO BANCO DO BRASIL.",
+          "valor": 2608.22,
+          "atualizadoEm": "2026-08-12"
+        },
+        {
           "ordem": 5,
           "tipo": "Veículo automotor terrestre: caminhão, automóvel, moto, etc.",
           "descricao": "AUTOMÓVEL TOYOTA ETIOS SD XLS 1.5 AT, ANO/MODELO 2017/2018.",
           "valor": 44900,
           "atualizadoEm": "2026-08-12"
+        },
+        {
+          "ordem": 6,
+          "tipo": "Veículo automotor terrestre: caminhão, automóvel, moto, etc.",
+          "descricao": "MOTOCICLETA KAWASAKI NINJA 400, ANO/MODELO 2022/2022.",
+          "valor": 45143.54,
+          "atualizadoEm": "2026-08-12"
+        },
+        {
+          "ordem": 7,
+          "tipo": "Veículo automotor terrestre: caminhão, automóvel, moto, etc.",
+          "descricao": "AUTOMÓVEL KIA CERATO FF SX4 ATNB, ANO/MODELO 2017/2018.",
+          "valor": 67000,
+          "atualizadoEm": "2026-08-12"
+        },
+        {
+          "ordem": 8,
+          "tipo": "Veículo automotor terrestre: caminhão, automóvel, moto, etc.",
+          "descricao": "AUTOMÓVEL HYUNDAI HB20 COMFORT PLUS 1.0, ANO/MODELO 2014/2015.",
+          "valor": 39946.37,
+          "atualizadoEm": "2026-08-12"
+        },
+        {
+          "ordem": 9,
+          "tipo": "Terreno",
+          "descricao": "ÁREA RURAL DE 16,01 HA, DENOMINADA SÍTIO UNIÃO, NO MUNICÍPIO DE PEDRO  CANÁRIO/ES.",
+          "valor": 44987,
+          "atualizadoEm": "2026-08-12"
+        },
+        {
+          "ordem": 10,
+          "tipo": "Veículo automotor terrestre: caminhão, automóvel, moto, etc.",
+          "descricao": "CAMINHONETE VOLKSWAGEN AMAROK, ANO/MODELO 2013/2014.",
+          "valor": 162562.32,
+          "atualizadoEm": "2026-08-12"
+        },
+        {
+          "ordem": 11,
+          "tipo": "Outros bens imóveis",
+          "descricao": "CLÍNICA LAURELL, EM COPROPRIEDADE COM POLIANA MARIA NUNES DA SILVA, INAUGURADA  EM MAIO DE 2024.",
+          "valor": 800000,
+          "atualizadoEm": "2026-08-12"
+        },
+        {
+          "ordem": 12,
+          "tipo": "Depósito bancário em conta corrente no País",
+          "descricao": "CONTA CAPITAL NO SICREDI.",
+          "valor": 28.11,
+          "atualizadoEm": "2026-08-12"
         }
       ],
-      "totalBens": 44900,
+      "totalBens": 1896343.75,
       "proposta": {
         "exigida": false,
         "documento": null
@@ -36786,14 +37139,35 @@
       "naturalidade": "MG-JUIZ DE FORA",
       "bens": [
         {
+          "ordem": 1,
+          "tipo": "Veículo automotor terrestre: caminhão, automóvel, moto, etc.",
+          "descricao": "VEÍCULO AUTOMOTOR TERRESTRE: AUDI 2018",
+          "valor": 54000,
+          "atualizadoEm": "2026-07-24"
+        },
+        {
           "ordem": 2,
           "tipo": "Bem relacionado com o exercício da atividade autônoma",
           "descricao": "BEM RELACIONADO COM O EXERCÍCIO DA ATIVIDADE MÉDICA",
           "valor": 13300,
           "atualizadoEm": "2026-07-24"
+        },
+        {
+          "ordem": 3,
+          "tipo": "Apartamento",
+          "descricao": "APARTAMENTO VILA VELHA",
+          "valor": 639000,
+          "atualizadoEm": "2026-07-24"
+        },
+        {
+          "ordem": 4,
+          "tipo": "Bem relacionado com o exercício da atividade autônoma",
+          "descricao": "BEM RELACIONADO COM O EXERCÍCIO DA ATIVIDADE MÉDICA",
+          "valor": 59230,
+          "atualizadoEm": "2026-07-24"
         }
       ],
-      "totalBens": 13300,
+      "totalBens": 765530,
       "proposta": {
         "exigida": false,
         "documento": null
@@ -36876,14 +37250,56 @@
           "atualizadoEm": "2026-08-12"
         },
         {
+          "ordem": 2,
+          "tipo": "OUTROS BENS E DIREITOS",
+          "descricao": "50% EMPREENDIMENTOS TURISTICOS PONTOES CAPIXABA",
+          "valor": 175000,
+          "atualizadoEm": "2026-08-12"
+        },
+        {
           "ordem": 3,
           "tipo": "Dinheiro em espécie - moeda nacional",
           "descricao": "DINHEIRO EM ESPÉCIE",
           "valor": 300000,
           "atualizadoEm": "2026-08-12"
+        },
+        {
+          "ordem": 4,
+          "tipo": "Construção",
+          "descricao": "50% IMÓVEL RURAL",
+          "valor": 125000,
+          "atualizadoEm": "2026-08-12"
+        },
+        {
+          "ordem": 5,
+          "tipo": "Apartamento",
+          "descricao": "11,11% CONDOMINIO",
+          "valor": 21000,
+          "atualizadoEm": "2026-08-12"
+        },
+        {
+          "ordem": 6,
+          "tipo": "Construção",
+          "descricao": "SITIO JULIA",
+          "valor": 406345.46,
+          "atualizadoEm": "2026-08-12"
+        },
+        {
+          "ordem": 7,
+          "tipo": "OUTROS BENS E DIREITOS",
+          "descricao": "50% CERVEJARIA PONTOES CAPIXABA",
+          "valor": 50000,
+          "atualizadoEm": "2026-08-12"
+        },
+        {
+          "ordem": 8,
+          "tipo": "Construção",
+          "descricao": "SITIO DA JULIA",
+          "valor": 10000,
+          "atualizadoEm": "2026-08-12"
         }
       ],
-      "totalBens": 670000,
+      "totalBens": 1457345.46,
       "proposta": {
         "exigida": false,
         "documento": null
@@ -37030,9 +37446,16 @@
           "descricao": "3,07315346 MUSD ¿ MELI DÓLAR, MANTIDOS POR INTERMÉDIO DO MERCADO LIVRE.",
           "valor": 85.25,
           "atualizadoEm": "2026-08-12"
+        },
+        {
+          "ordem": 4,
+          "tipo": "Depósito bancário em conta corrente no País",
+          "descricao": "SALDO EM CONTA CORRENTE BANCÁRIA NA CAIXA ECONÔMICA FEDERAL",
+          "valor": 6.17,
+          "atualizadoEm": "2026-08-12"
         }
       ],
-      "totalBens": 274610.25,
+      "totalBens": 274616.42,
       "proposta": {
         "exigida": false,
         "documento": null
@@ -37411,6 +37834,13 @@
       "naturalidade": "ES-SÃO GABRIEL DA PALHA",
       "bens": [
         {
+          "ordem": 1,
+          "tipo": "Outras participações societárias",
+          "descricao": "PARTICIPACAO NO CAPITAL SOCIAL DA COOPERATIVA AGRARIA DOS CAFEICULTORES DE SAO GABRIEL - COOABRIEL.",
+          "valor": 2732.85,
+          "atualizadoEm": "2026-08-12"
+        },
+        {
           "ordem": 2,
           "tipo": "Outras participações societárias",
           "descricao": "PARTICIPACAO NO CAPITAL SOCIAL DA COOPERTIVA DE CREDITO NORTE DO ESPIRITO SANTO - SICOOB",
@@ -37474,6 +37904,20 @@
           "atualizadoEm": "2026-08-12"
         },
         {
+          "ordem": 11,
+          "tipo": "Veículo automotor terrestre: caminhão, automóvel, moto, etc.",
+          "descricao": "MOTOCICLETA YAMAHA RX80, GASOLINA, ANO 1981",
+          "valor": 5000,
+          "atualizadoEm": "2026-08-12"
+        },
+        {
+          "ordem": 12,
+          "tipo": "Outros bens imóveis",
+          "descricao": "IMOVEL URBANO EM TEOFILO OTINO/MG",
+          "valor": 45000,
+          "atualizadoEm": "2026-08-12"
+        },
+        {
           "ordem": 13,
           "tipo": "Crédito decorrente de empréstimo",
           "descricao": "CREDITO DECORRENTE DE EMPRESTIMO",
@@ -37488,6 +37932,20 @@
           "atualizadoEm": "2026-08-12"
         },
         {
+          "ordem": 15,
+          "tipo": "Aplicação de renda fixa (CDB, RDB e outros)",
+          "descricao": "FUNDO DE INVESTIMENTO RENDA FIXA - BANESTES",
+          "valor": 3228.2,
+          "atualizadoEm": "2026-08-12"
+        },
+        {
+          "ordem": 16,
+          "tipo": "Outros bens imóveis",
+          "descricao": "AQUISIÇÃO DE IMÓVEL RURAL (FAZENDA/SÍTIO/CHÁCARA)",
+          "valor": 27960,
+          "atualizadoEm": "2026-08-12"
+        },
+        {
           "ordem": 17,
           "tipo": "Outros bens imóveis",
           "descricao": "IMOVEL URBANO EM ITAPOÃ, SALVADOR/BA",
@@ -37495,10 +37953,38 @@
           "atualizadoEm": "2026-08-12"
         },
         {
+          "ordem": 18,
+          "tipo": "Outros bens imóveis",
+          "descricao": "AQUISIÇÃO DE 50% DE IMÓVEL RURAL (FAZENDA/SÍTIO/CHÁCARA)",
+          "valor": 51705,
+          "atualizadoEm": "2026-08-12"
+        },
+        {
+          "ordem": 19,
+          "tipo": "Terreno",
+          "descricao": "PROPRIEDADE RURAL DENOMINADA RANCHO GUARANI",
+          "valor": 20000,
+          "atualizadoEm": "2026-08-12"
+        },
+        {
+          "ordem": 20,
+          "tipo": "Terreno",
+          "descricao": "PROPRIEDADE RURAL DENOMINADO SITIO MANGAGA SITUADO NO CORREGO CINCO DE JUNHO EM SAO ROQUE DA TERRA ROXA EM VILA FARTURA - SAO GABRIEL DA PALHAES",
+          "valor": 15000,
+          "atualizadoEm": "2026-08-12"
+        },
+        {
           "ordem": 21,
           "tipo": "Outras participações societárias",
           "descricao": "ACOES DO GRUPO AUTOCAR S/A CNPJ 16.661.258/0001-79, ADQUIRIDAS EM 04/07/2007",
           "valor": 50000,
+          "atualizadoEm": "2026-08-12"
+        },
+        {
+          "ordem": 22,
+          "tipo": "Crédito decorrente de empréstimo",
+          "descricao": "CREDITO DECORRENTE DE EMPRESTIMO",
+          "valor": 850000,
           "atualizadoEm": "2026-08-12"
         },
         {
@@ -37544,6 +38030,13 @@
           "atualizadoEm": "2026-08-12"
         },
         {
+          "ordem": 29,
+          "tipo": "Terreno",
+          "descricao": "PROPRIEDADE RURAL LEGITIMADO SITUADO NO CORREGO CINCO DE JUNHO EM SAO ROQUE DA TERRA ROXA EM SAO GABRIEL DA PALHA-ES",
+          "valor": 20000,
+          "atualizadoEm": "2026-08-12"
+        },
+        {
           "ordem": 30,
           "tipo": "Veículo automotor terrestre: caminhão, automóvel, moto, etc.",
           "descricao": "MOTOCICLETA SHINERAY XY 150-8",
@@ -37555,6 +38048,13 @@
           "tipo": "Quotas ou quinhões de capital",
           "descricao": "QUOTAS DO CAPITAL SOCIAL DA EMPRESA MOTO CIDADE",
           "valor": 1386000,
+          "atualizadoEm": "2026-08-12"
+        },
+        {
+          "ordem": 32,
+          "tipo": "Veículo automotor terrestre: caminhão, automóvel, moto, etc.",
+          "descricao": "MOTOCICLETA SHINERAY XY 150-8",
+          "valor": 19513.76,
           "atualizadoEm": "2026-08-12"
         },
         {
@@ -37572,7 +38072,7 @@
           "atualizadoEm": "2026-08-12"
         }
       ],
-      "totalBens": 21467240.47,
+      "totalBens": 22527380.28,
       "proposta": {
         "exigida": false,
         "documento": null
@@ -37662,6 +38162,13 @@
       "naturalidade": "ES-VITÓRIA",
       "bens": [
         {
+          "ordem": 1,
+          "tipo": "Outros bens móveis",
+          "descricao": "VEICULO - MODELO SIENA",
+          "valor": 23000,
+          "atualizadoEm": "2026-08-12"
+        },
+        {
           "ordem": 2,
           "tipo": "Casa",
           "descricao": "CASA - LINHARES",
@@ -37669,7 +38176,7 @@
           "atualizadoEm": "2026-08-12"
         }
       ],
-      "totalBens": 300000,
+      "totalBens": 323000,
       "proposta": {
         "exigida": false,
         "documento": null
@@ -37870,8 +38377,16 @@
       "escolaridade": "Ensino Fundamental incompleto",
       "ocupacao": "Música/Músico",
       "naturalidade": "ES-ITAPEMIRIM",
-      "bens": [],
-      "totalBens": 0,
+      "bens": [
+        {
+          "ordem": 1,
+          "tipo": "Veículo automotor terrestre: caminhão, automóvel, moto, etc.",
+          "descricao": "CROSFOX 2005 1.6",
+          "valor": 27179,
+          "atualizadoEm": "2026-08-12"
+        }
+      ],
+      "totalBens": 27179,
       "proposta": {
         "exigida": false,
         "documento": null
@@ -38316,8 +38831,23 @@
       "escolaridade": "Superior completo",
       "ocupacao": "Terapeuta",
       "naturalidade": "ES-VITÓRIA",
-      "bens": [],
-      "totalBens": 0,
+      "bens": [
+        {
+          "ordem": 1,
+          "tipo": "Depósito bancário em conta corrente no País",
+          "descricao": "SALDO CONTA CORRENTE",
+          "valor": 527.13,
+          "atualizadoEm": "2026-08-12"
+        },
+        {
+          "ordem": 2,
+          "tipo": "Aplicação de renda fixa (CDB, RDB e outros)",
+          "descricao": "SALDO APLICAÇÃO RDB",
+          "valor": 13277.73,
+          "atualizadoEm": "2026-08-12"
+        }
+      ],
+      "totalBens": 13804.859999999999,
       "proposta": {
         "exigida": false,
         "documento": null
@@ -38606,9 +39136,16 @@
           "descricao": "CHERY",
           "valor": 25000,
           "atualizadoEm": "2026-08-12"
+        },
+        {
+          "ordem": 2,
+          "tipo": "Veículo automotor terrestre: caminhão, automóvel, moto, etc.",
+          "descricao": "SAVEIRO",
+          "valor": 22000,
+          "atualizadoEm": "2026-08-12"
         }
       ],
-      "totalBens": 25000,
+      "totalBens": 47000,
       "proposta": {
         "exigida": false,
         "documento": null
@@ -39054,8 +39591,16 @@
       "escolaridade": "Ensino Médio completo",
       "ocupacao": "Outros",
       "naturalidade": "ES-CACHOEIRO DE ITAPEMIRIM",
-      "bens": [],
-      "totalBens": 0,
+      "bens": [
+        {
+          "ordem": 1,
+          "tipo": "Apartamento",
+          "descricao": "APARTAMENTO NO BAIRRO CORONEL BORGES EM CACHOEIRO",
+          "valor": 200000,
+          "atualizadoEm": "2026-07-24"
+        }
+      ],
+      "totalBens": 200000,
       "proposta": {
         "exigida": false,
         "documento": null
@@ -40017,6 +40562,13 @@
       "naturalidade": "ES-VITÓRIA",
       "bens": [
         {
+          "ordem": 1,
+          "tipo": "Quotas ou quinhões de capital",
+          "descricao": "Quotas de capital social, Banco Sicoob (CNPJ 32.430.233/0001-10)",
+          "valor": 4506.74,
+          "atualizadoEm": "2026-08-26"
+        },
+        {
           "ordem": 2,
           "tipo": "Caderneta de poupança",
           "descricao": "Caderneta de poupança, Banestes S/A (CNPJ 28.127.603/0001-78)",
@@ -40066,7 +40618,7 @@
           "atualizadoEm": "2026-08-26"
         }
       ],
-      "totalBens": 165320.81,
+      "totalBens": 169827.55,
       "proposta": {
         "exigida": false,
         "documento": null
@@ -40367,6 +40919,13 @@
           "atualizadoEm": "2026-08-03"
         },
         {
+          "ordem": 6,
+          "tipo": "Depósito bancário em conta corrente no País",
+          "descricao": "XP INVESTIMENTOS CCTVM SA",
+          "valor": 3669.23,
+          "atualizadoEm": "2026-08-03"
+        },
+        {
           "ordem": 7,
           "tipo": "Terreno",
           "descricao": "LOTE EM PRAIA DOS CASTELHANOS",
@@ -40378,6 +40937,13 @@
           "tipo": "Outros bens imóveis",
           "descricao": "PROPRIEDADE CORRESPONDENTE A 50% (CINQUENTA POR CENTO) DE UM IMOVEL EM PRAIA DOS CASTELHANOS",
           "valor": 190000,
+          "atualizadoEm": "2026-08-03"
+        },
+        {
+          "ordem": 9,
+          "tipo": "Veículo automotor terrestre: caminhão, automóvel, moto, etc.",
+          "descricao": "BYD SONG PLUS",
+          "valor": 228800,
           "atualizadoEm": "2026-08-03"
         },
         {
@@ -40393,9 +40959,23 @@
           "descricao": "APARTAMENTO EM ENSEADA DO SUA, VITORIA -ES",
           "valor": 228915,
           "atualizadoEm": "2026-08-03"
+        },
+        {
+          "ordem": 12,
+          "tipo": "Depósito bancário em conta corrente no País",
+          "descricao": "DINHEIRO EM CONTA CORRENTE NO WISE",
+          "valor": 1.76,
+          "atualizadoEm": "2026-08-03"
+        },
+        {
+          "ordem": 13,
+          "tipo": "Apartamento",
+          "descricao": "APARTAMENTO EM PRAIA DOS CASTALHANOS, ANCHIETA - ES",
+          "valor": 200000,
+          "atualizadoEm": "2026-08-03"
         }
       ],
-      "totalBens": 741709.5,
+      "totalBens": 1174180.49,
       "proposta": {
         "exigida": false,
         "documento": null
@@ -49566,9 +50146,9 @@
         "nome": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA"
       },
       "coligacao": "FEDERAÇÃO PSDB CIDADANIA(45-PSDB/23-CIDADANIA)",
-      "situacaoRegistro": "Indeferido em prazo recursal ou com recurso",
+      "situacaoRegistro": "Indeferido",
       "situacaoCandidatura": "Consta da urna",
-      "apto": true,
+      "apto": false,
       "disputaReeleicao": false,
       "dataNascimento": "1956-12-13",
       "genero": "MASC.",

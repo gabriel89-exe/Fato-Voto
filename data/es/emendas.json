@@ -11,11 +11,11 @@
     2025,
     2026
   ],
-  "coletadoEm": "2026-10-27T15:39:43.576Z",
+  "coletadoEm": "2026-10-28T16:14:03.129Z",
   "recorte": "Emendas cujo autor é o próprio parlamentar, nos anos da legislatura 57. Emendas de bancada estadual e de comissão não têm autor individual e não entram aqui.",
   "conferencia": {
     "aprovada": true,
-    "conferidoEm": "2026-10-27T15:39:43.551Z",
+    "conferidoEm": "2026-10-28T16:14:03.105Z",
     "provas": [
       "o valor vem da consulta por código da emenda, não da consulta por nome",
       "cada emenda é lida duas vezes, e as duas leituras têm de concordar",
@@ -28,7 +28,7 @@
     "Deputado Federal": {
       "bancada": 10,
       "medianaEmpenhado": 113699349.93,
-      "menor": 97779801.39,
+      "menor": 97879801.39,
       "maior": 147435605.15
     },
     "Senador": {
@@ -1977,7 +1977,7 @@
         "quantidade": 37,
         "valoresPublicados": true,
         "totais": {
-          "empenhado": 97779801.39,
+          "empenhado": 97879801.39,
           "liquidado": 49690612.89,
           "pago": 49690612.89,
           "restosInscritos": 26686890.130000003,
@@ -2000,7 +2000,7 @@
           {
             "ano": 2026,
             "quantidade": 9,
-            "empenhado": 30275583.2,
+            "empenhado": 30375583.2,
             "pago": 19516903.12
           }
         ],
@@ -2020,7 +2020,7 @@
           {
             "nome": "Assistência social",
             "quantidade": 3,
-            "empenhado": 5600000,
+            "empenhado": 5700000,
             "pago": 5000000
           },
           {
@@ -2082,7 +2082,7 @@
           {
             "nome": "MÚLTIPLO",
             "quantidade": 18,
-            "empenhado": 62893896.14,
+            "empenhado": 62993896.14,
             "pago": 44139860.92
           },
           {
@@ -2102,7 +2102,7 @@
           {
             "nome": "Emenda Individual - Transferências com Finalidade Definida",
             "quantidade": 34,
-            "empenhado": 79922716.39,
+            "empenhado": 80022716.39,
             "pago": 33602207.97
           },
           {

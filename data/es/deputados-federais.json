@@ -6,10 +6,10 @@
   },
   "uf": "ES",
   "legislatura": 57,
-  "coletadoEm": "2026-10-27T15:23:41.262Z",
+  "coletadoEm": "2026-10-28T16:04:14.613Z",
   "referencia": {
     "bancada": 10,
-    "medianaDespesas": 1936814.0950000028,
+    "medianaDespesas": 1936856.7700000028,
     "menor": 1433162.1199999899,
     "maior": 2007693.8599999999
   },
@@ -7461,6 +7461,11 @@
             "total": 2
           },
           {
+            "tipo": "Recurso contra apreciação conclusiva de comissão (Art. 58, § 1º c/c art. 132, § 2º, RICD)",
+            "sigla": "REC",
+            "total": 2
+          },
+          {
             "tipo": "Requerimento de Inclusão ou Retirada de Assinatura em Proposição de Iniciativa Coletiva Obrigatória",
             "sigla": "REQ",
             "total": 2
@@ -7481,11 +7486,6 @@
             "total": 1
           },
           {
-            "tipo": "Recurso contra apreciação conclusiva de comissão (Art. 58, § 1º c/c art. 132, § 2º, RICD)",
-            "sigla": "REC",
-            "total": 1
-          },
-          {
             "tipo": "Indicação de Líder de Partido ou Bloco Parlamentar",
             "sigla": "DOC",
             "total": 1
@@ -7497,6 +7497,16 @@
           }
         ],
         "recentes": [
+          {
+            "id": 2649030,
+            "sigla": "REC",
+            "tipo": "Recurso contra apreciação conclusiva de comissão (Art. 58, § 1º c/c art. 132, § 2º, RICD)",
+            "numero": 19,
+            "ano": 2026,
+            "ementa": "Recurso contra a apreciação conclusiva do Projeto de Lei nº 3757/2020, que dispõe sobre a atividade de operação logística, sobre a emissão de títulos por empresas de armazéns gerais e dá outras providências.",
+            "apresentadaEm": "2026-10-27T16:04",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649030"
+          },
           {
             "id": 2644734,
             "sigla": "REQ",
@@ -7586,16 +7596,6 @@
             "ementa": "Institui o Sistema Nacional de Proteção Animal e Rede de Apoio (SINAPRA), e dá outras providências.",
             "apresentadaEm": "2026-05-25T13:01",
             "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2627420"
-          },
-          {
-            "id": 2627061,
-            "sigla": "REQ",
-            "tipo": "Requerimento para realização ou participação em Seminário, Visita Técnica ou outro Evento",
-            "numero": 31,
-            "ano": 2026,
-            "ementa": "Requer a realização de Mesa - Redonda, no âmbito desta Comissão de Integração Nacional e Desenvolvimento Regional, para discutir a atual situação da Ferrovia Leopoldina, especialmente no que se refere às tratativas necessárias para a entrega desta ferrovia ao Estado do Espírito Santo, bem como às possibilidades de reutilização da infraestrutura ferroviária para promoção do desenvolvimento regional sustentável, do turismo, da cultura e da valorização do patrimônio histórico ferroviário.",
-            "apresentadaEm": "2026-05-21T16:56",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2627061"
           }
         ]
       }
@@ -7620,8 +7620,8 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/220526.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/220526",
       "despesas": {
-        "total": 1646771.8399999999,
-        "documentos": 1840,
+        "total": 1647798.99,
+        "documentos": 1842,
         "porTipo": [
           {
             "tipo": "PASSAGEM AÉREA - SIGEPA",
@@ -7911,8 +7911,8 @@
           },
           {
             "tipo": "COMBUSTÍVEIS E LUBRIFICANTES.",
-            "valor": 137891.28000000003,
-            "notas": 788,
+            "valor": 137991.28000000003,
+            "notas": 789,
             "fornecedores": [
               {
                 "nome": "071 - LAGO NORTE - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
@@ -8141,8 +8141,8 @@
           },
           {
             "tipo": "HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.",
-            "valor": 121287.18999999986,
-            "notas": 240,
+            "valor": 122214.33999999987,
+            "notas": 241,
             "fornecedores": [
               {
                 "nome": "FOUR TOWERS HOTELS LTDA",
@@ -8189,20 +8189,20 @@
                 "outrosNomes": []
               },
               {
+                "nome": "HOTELARIA PRAIA COMPRIDA LTDA",
+                "cnpjCpf": "08805504000190",
+                "total": 2312.65,
+                "notas": 3,
+                "outrosNomes": [
+                  "HOTELARIA PRAIA COMPRIDA LTDA-ME"
+                ]
+              },
+              {
                 "nome": "BRASILIA EMPREENDIMENTOS SERVICOS E PARTICIPACOES LTDA B HOTEL",
                 "cnpjCpf": "00687681000108",
                 "total": 2184.29,
                 "notas": 1,
                 "outrosNomes": []
-              },
-              {
-                "nome": "HOTEL MONTANHEZ MARQUARDT LTDA - ME",
-                "cnpjCpf": "27571876000144",
-                "total": 1970,
-                "notas": 6,
-                "outrosNomes": [
-                  "POMMERHAUS HOTEL"
-                ]
               }
             ],
             "maiores": [
@@ -8695,7 +8695,7 @@
           },
           {
             "competencia": "2026-10",
-            "valor": 4180.580000000001
+            "valor": 5207.7300000000005
           }
         ],
         "fornecedores": [
@@ -8978,8 +8978,8 @@
           }
         ],
         "comprovantes": {
-          "com": 1345,
-          "total": 1840
+          "com": 1347,
+          "total": 1842
         }
       },
       "proposicoes": {
@@ -10675,7 +10675,7 @@
           {
             "tipo": "Projeto de Lei",
             "sigla": "PL",
-            "total": 62
+            "total": 63
           },
           {
             "tipo": "Requerimento de Redistribuição",
@@ -12286,7 +12286,7 @@
           {
             "tipo": "Projeto de Lei",
             "sigla": "PL",
-            "total": 34
+            "total": 35
           },
           {
             "tipo": "Requerimento de Urgência (Art. 155 do RICD)",
@@ -14054,8 +14054,8 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/160517.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/160517",
       "despesas": {
-        "total": 1941721.3400000038,
-        "documentos": 1082,
+        "total": 1941806.690000004,
+        "documentos": 1083,
         "porTipo": [
           {
             "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
@@ -14173,8 +14173,8 @@
           },
           {
             "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
-            "valor": 420063.10999999964,
-            "notas": 300,
+            "valor": 420148.4599999997,
+            "notas": 301,
             "fornecedores": [
               {
                 "nome": "EXPERT'S CONSULTORIA E AVALIACOES LTDA",
@@ -14206,21 +14206,21 @@
                 ]
               },
               {
+                "nome": "EDP ESPIRITO SANTO DISTRIBUICAO DE ENERGIA S.A.",
+                "cnpjCpf": "28152650000171",
+                "total": 15315.280000000002,
+                "notas": 80,
+                "outrosNomes": [
+                  "EDP - ESPIRITO SANTO DISTRIBUICAO DE ENERGIA S.A.",
+                  "0EDP ESPIRITO SANTO DISTRIBUICAO DE ENERGIA S.A."
+                ]
+              },
+              {
                 "nome": "CONDOMINIO DO EDIFICIO PETRO TOWER",
                 "cnpjCpf": "06788256000191",
                 "total": 15284.400000000003,
                 "notas": 28,
                 "outrosNomes": []
-              },
-              {
-                "nome": "EDP ESPIRITO SANTO DISTRIBUICAO DE ENERGIA S.A.",
-                "cnpjCpf": "28152650000171",
-                "total": 15229.930000000004,
-                "notas": 79,
-                "outrosNomes": [
-                  "EDP - ESPIRITO SANTO DISTRIBUICAO DE ENERGIA S.A.",
-                  "0EDP ESPIRITO SANTO DISTRIBUICAO DE ENERGIA S.A."
-                ]
               },
               {
                 "nome": "EMPRESA LUZ E FORCA SANTA MARIA S A",
@@ -15079,7 +15079,7 @@
           },
           {
             "competencia": "2026-09",
-            "valor": 16883.03
+            "valor": 16968.38
           },
           {
             "competencia": "2026-10",
@@ -15373,8 +15373,8 @@
           }
         ],
         "comprovantes": {
-          "com": 673,
-          "total": 1082
+          "com": 674,
+          "total": 1083
         }
       },
       "proposicoes": {
@@ -15397,7 +15397,7 @@
           {
             "tipo": "Projeto de Lei",
             "sigla": "PL",
-            "total": 21
+            "total": 22
           },
           {
             "tipo": "Proposta de Emenda à Constituição",
@@ -15602,6 +15602,16 @@
             "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2630553"
           },
           {
+            "id": 2625893,
+            "sigla": "PL",
+            "tipo": "Projeto de Lei",
+            "numero": 2478,
+            "ano": 2026,
+            "ementa": "Altera a Lei nº 14.790, de 29 de dezembro de 2023, para dispor sobre a proteção da saúde mental, do consumidor e da economia familiar no ambiente de apostas de quota fixa e jogos online, com ênfase na prevenção e redução de danos, e dá outras providências.",
+            "apresentadaEm": "2026-05-19T17:06",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2625893"
+          },
+          {
             "id": 2613880,
             "sigla": "REQ",
             "tipo": "Requerimento de Moção",
@@ -15610,16 +15620,6 @@
             "ementa": "Requer Moção de Louvor pela destacada trajetória profissional, acadêmica e humanitária do Sr. André Canali Pereira, em reconhecimento à sua relevante contribuição à fisioterapia, à promoção da saúde e à dignidade da pessoa idosa no Estado do Espírito Santo.",
             "apresentadaEm": "2026-04-07T16:20",
             "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2613880"
-          },
-          {
-            "id": 2604857,
-            "sigla": "REQ",
-            "tipo": "Requerimento de Registro de Frente Parlamentar na Câmara dos Deputados",
-            "numero": 1132,
-            "ano": 2026,
-            "ementa": "Requer a instalação da Frente Parlamentar Mista em apoio à Integração União Europeia – Mercosul.",
-            "apresentadaEm": "2026-02-25T18:05",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2604857"
           }
         ]
       }
