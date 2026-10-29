@@ -39,7 +39,7 @@ jobs:
       # v5: as v4 rodam em Node 20, descontinuado nos runners.
       - uses: actions/checkout@v5
 
-      - uses: actions/setup-node@v5
+      - uses: actions/setup-node@v7
         with:
           node-version: 24
           cache: npm
