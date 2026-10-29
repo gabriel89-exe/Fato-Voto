@@ -6,12 +6,12 @@
   },
   "uf": "ES",
   "legislatura": 57,
-  "coletadoEm": "2026-10-28T16:04:14.613Z",
+  "coletadoEm": "2026-10-29T16:09:43.502Z",
   "referencia": {
     "bancada": 10,
-    "medianaDespesas": 1936856.7700000028,
-    "menor": 1433162.1199999899,
-    "maior": 2007693.8599999999
+    "medianaDespesas": 1940106.225000003,
+    "menor": 1433351.8599999899,
+    "maior": 2007793.8599999999
   },
   "parlamentares": [
     {
@@ -1288,13 +1288,13 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/204355.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/204355",
       "despesas": {
-        "total": 1957912.5400000035,
-        "documentos": 1440,
+        "total": 1961952.0800000033,
+        "documentos": 1442,
         "porTipo": [
           {
             "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
-            "valor": 803634.12,
-            "notas": 444,
+            "valor": 806634.12,
+            "notas": 445,
             "fornecedores": [
               {
                 "nome": "ATIVE ENGENHARIA LTDA",
@@ -1318,8 +1318,8 @@
               {
                 "nome": "POSTO DE GASOLINA SAO MIGUEL LTDA",
                 "cnpjCpf": "27279876000175",
-                "total": 91000,
-                "notas": 39,
+                "total": 94000,
+                "notas": 40,
                 "outrosNomes": [
                   "POSTO DE GASOLINA SAO MIGUEL LTDA  MATRIZ"
                 ]
@@ -1579,8 +1579,8 @@
           },
           {
             "tipo": "COMBUSTÍVEIS E LUBRIFICANTES.",
-            "valor": 203335.46999999997,
-            "notas": 161,
+            "valor": 204375.00999999995,
+            "notas": 162,
             "fornecedores": [
               {
                 "nome": "POSTO IATE LTDA",
@@ -1592,8 +1592,8 @@
               {
                 "nome": "POSTO DE GASOLINA SAO MIGUEL LTDA  MATRIZ",
                 "cnpjCpf": "27279876000175",
-                "total": 56584.06999999999,
-                "notas": 34,
+                "total": 57623.609999999986,
+                "notas": 35,
                 "outrosNomes": []
               },
               {
@@ -2171,7 +2171,7 @@
           },
           {
             "competencia": "2026-08",
-            "valor": 37378.31000000001
+            "valor": 41417.850000000006
           },
           {
             "competencia": "2026-09",
@@ -2201,8 +2201,8 @@
           {
             "nome": "POSTO DE GASOLINA SAO MIGUEL LTDA  MATRIZ",
             "cnpjCpf": "27279876000175",
-            "total": 147584.07,
-            "notas": 73,
+            "total": 151623.61000000002,
+            "notas": 75,
             "outrosNomes": [
               "POSTO DE GASOLINA SAO MIGUEL LTDA"
             ]
@@ -2459,8 +2459,8 @@
           }
         ],
         "comprovantes": {
-          "com": 722,
-          "total": 1440
+          "com": 724,
+          "total": 1442
         }
       },
       "proposicoes": {
@@ -2711,8 +2711,8 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/220528.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/220528",
       "despesas": {
-        "total": 1987606.9599999986,
-        "documentos": 1021,
+        "total": 2006905.9499999988,
+        "documentos": 1024,
         "porTipo": [
           {
             "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
@@ -2942,6 +2942,108 @@
             ]
           },
           {
+            "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
+            "valor": 372290.22000000015,
+            "notas": 115,
+            "fornecedores": [
+              {
+                "nome": "GALWAN CONSTRUTORA E INCORPORADORA LTDA",
+                "cnpjCpf": "31705692000105",
+                "total": 316936.8,
+                "notas": 39,
+                "outrosNomes": [
+                  "GALWAN CONSTRUTORA INCORPORADORA LTDA"
+                ]
+              },
+              {
+                "nome": "CONDOMINIO OCEAN VILLE",
+                "cnpjCpf": "17487358000193",
+                "total": 41224.340000000004,
+                "notas": 34,
+                "outrosNomes": [
+                  "GALWAN CONSTRUTORA INCORPORADORA LTDA"
+                ]
+              },
+              {
+                "nome": "EDP ESPIRITO SANTO DISTRIBUICAO DE ENERGIA S.A.",
+                "cnpjCpf": "28152650000171",
+                "total": 10666.429999999998,
+                "notas": 25,
+                "outrosNomes": [
+                  "EDP - ESPIRITO SANTO DISTRIBUICAO DE ENERGIA S.A."
+                ]
+              },
+              {
+                "nome": "Kalunga SA",
+                "cnpjCpf": "43283811005976",
+                "total": 1615.1599999999999,
+                "notas": 4,
+                "outrosNomes": []
+              },
+              {
+                "nome": "ALGAR TELECOM S/A",
+                "cnpjCpf": "71208516017220",
+                "total": 1332.4900000000002,
+                "notas": 12,
+                "outrosNomes": []
+              },
+              {
+                "nome": "ONE SUPRI LTDA ME",
+                "cnpjCpf": "60239033000110",
+                "total": 515,
+                "notas": 1,
+                "outrosNomes": []
+              }
+            ],
+            "maiores": [
+              {
+                "id": "8167702",
+                "data": "2026-09-30",
+                "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
+                "valor": 9003.59,
+                "fornecedor": "GALWAN CONSTRUTORA E INCORPORADORA LTDA",
+                "cnpjCpf": "31705692000105",
+                "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3611/2026/8167702.pdf"
+              },
+              {
+                "id": "8167705",
+                "data": "2026-10-21",
+                "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
+                "valor": 9003.59,
+                "fornecedor": "GALWAN CONSTRUTORA E INCORPORADORA LTDA",
+                "cnpjCpf": "31705692000105",
+                "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3611/2026/8167705.pdf"
+              },
+              {
+                "id": "7968463",
+                "data": "2025-08-13",
+                "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
+                "valor": 8726.31,
+                "fornecedor": "GALWAN CONSTRUTORA INCORPORADORA LTDA",
+                "cnpjCpf": "31705692000105",
+                "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3611/2025/7968463.pdf"
+              },
+              {
+                "id": "7985893",
+                "data": "2025-09-23",
+                "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
+                "valor": 8726.31,
+                "fornecedor": "GALWAN CONSTRUTORA INCORPORADORA LTDA",
+                "cnpjCpf": "31705692000105",
+                "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3611/2025/7985893.pdf"
+              },
+              {
+                "id": "8000550",
+                "data": "2025-10-15",
+                "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
+                "valor": 8726.31,
+                "fornecedor": "GALWAN CONSTRUTORA INCORPORADORA LTDA",
+                "cnpjCpf": "31705692000105",
+                "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3611/2025/8000550.pdf"
+              }
+            ]
+          },
+          {
             "tipo": "PASSAGEM AÉREA - SIGEPA",
             "valor": 355598.6300000001,
             "notas": 355,
@@ -3017,108 +3119,6 @@
                 "fornecedor": "LATAM Airlines Brasil",
                 "cnpjCpf": "02012862000160",
                 "documento": null
-              }
-            ]
-          },
-          {
-            "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
-            "valor": 352991.23000000016,
-            "notas": 112,
-            "fornecedores": [
-              {
-                "nome": "GALWAN CONSTRUTORA E INCORPORADORA LTDA",
-                "cnpjCpf": "31705692000105",
-                "total": 298929.62,
-                "notas": 37,
-                "outrosNomes": [
-                  "GALWAN CONSTRUTORA INCORPORADORA LTDA"
-                ]
-              },
-              {
-                "nome": "CONDOMINIO OCEAN VILLE",
-                "cnpjCpf": "17487358000193",
-                "total": 39932.530000000006,
-                "notas": 33,
-                "outrosNomes": [
-                  "GALWAN CONSTRUTORA INCORPORADORA LTDA"
-                ]
-              },
-              {
-                "nome": "EDP ESPIRITO SANTO DISTRIBUICAO DE ENERGIA S.A.",
-                "cnpjCpf": "28152650000171",
-                "total": 10666.429999999998,
-                "notas": 25,
-                "outrosNomes": [
-                  "EDP - ESPIRITO SANTO DISTRIBUICAO DE ENERGIA S.A."
-                ]
-              },
-              {
-                "nome": "Kalunga SA",
-                "cnpjCpf": "43283811005976",
-                "total": 1615.1599999999999,
-                "notas": 4,
-                "outrosNomes": []
-              },
-              {
-                "nome": "ALGAR TELECOM S/A",
-                "cnpjCpf": "71208516017220",
-                "total": 1332.4900000000002,
-                "notas": 12,
-                "outrosNomes": []
-              },
-              {
-                "nome": "ONE SUPRI LTDA ME",
-                "cnpjCpf": "60239033000110",
-                "total": 515,
-                "notas": 1,
-                "outrosNomes": []
-              }
-            ],
-            "maiores": [
-              {
-                "id": "7968463",
-                "data": "2025-08-13",
-                "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
-                "valor": 8726.31,
-                "fornecedor": "GALWAN CONSTRUTORA INCORPORADORA LTDA",
-                "cnpjCpf": "31705692000105",
-                "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3611/2025/7968463.pdf"
-              },
-              {
-                "id": "7985893",
-                "data": "2025-09-23",
-                "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
-                "valor": 8726.31,
-                "fornecedor": "GALWAN CONSTRUTORA INCORPORADORA LTDA",
-                "cnpjCpf": "31705692000105",
-                "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3611/2025/7985893.pdf"
-              },
-              {
-                "id": "8000550",
-                "data": "2025-10-15",
-                "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
-                "valor": 8726.31,
-                "fornecedor": "GALWAN CONSTRUTORA INCORPORADORA LTDA",
-                "cnpjCpf": "31705692000105",
-                "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3611/2025/8000550.pdf"
-              },
-              {
-                "id": "8016789",
-                "data": "2025-11-24",
-                "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
-                "valor": 8726.31,
-                "fornecedor": "GALWAN CONSTRUTORA INCORPORADORA LTDA",
-                "cnpjCpf": "31705692000105",
-                "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3611/2025/8016789.pdf"
-              },
-              {
-                "id": "8030731",
-                "data": "2025-12-09",
-                "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
-                "valor": 8726.31,
-                "fornecedor": "GALWAN CONSTRUTORA INCORPORADORA LTDA",
-                "cnpjCpf": "31705692000105",
-                "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3611/2025/8030731.pdf"
               }
             ]
           },
@@ -3625,7 +3625,11 @@
           },
           {
             "competencia": "2026-09",
-            "valor": 8500
+            "valor": 17503.59
+          },
+          {
+            "competencia": "2026-10",
+            "valor": 10295.4
           }
         ],
         "fornecedores": [
@@ -3640,20 +3644,20 @@
             ]
           },
           {
+            "nome": "GALWAN CONSTRUTORA E INCORPORADORA LTDA",
+            "cnpjCpf": "31705692000105",
+            "total": 316936.8,
+            "notas": 39,
+            "outrosNomes": [
+              "GALWAN CONSTRUTORA INCORPORADORA LTDA"
+            ]
+          },
+          {
             "nome": "JORNAL CANELA VERDE EIRELI",
             "cnpjCpf": "23191363000157",
             "total": 311350,
             "notas": 6,
             "outrosNomes": []
-          },
-          {
-            "nome": "GALWAN CONSTRUTORA E INCORPORADORA LTDA",
-            "cnpjCpf": "31705692000105",
-            "total": 298929.62,
-            "notas": 37,
-            "outrosNomes": [
-              "GALWAN CONSTRUTORA INCORPORADORA LTDA"
-            ]
           },
           {
             "nome": "ARAUJO RENTACAR EIRELI EPP",
@@ -3721,16 +3725,16 @@
           {
             "nome": "CONDOMINIO OCEAN VILLE",
             "cnpjCpf": "17487358000193",
-            "total": 39932.530000000006,
-            "notas": 33,
+            "total": 41224.340000000004,
+            "notas": 34,
             "outrosNomes": [
               "GALWAN CONSTRUTORA INCORPORADORA LTDA"
             ]
           }
         ],
         "glosas": {
-          "quantidade": 78,
-          "valor": 16631.07000000001,
+          "quantidade": 79,
+          "valor": 16710.01000000001,
           "exemplos": [
             {
               "id": "7859304",
@@ -3907,8 +3911,8 @@
           }
         ],
         "comprovantes": {
-          "com": 439,
-          "total": 1021
+          "com": 442,
+          "total": 1024
         }
       },
       "proposicoes": {
@@ -4169,8 +4173,8 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/178871.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/178871",
       "despesas": {
-        "total": 2007693.8599999999,
-        "documentos": 1618,
+        "total": 2007793.8599999999,
+        "documentos": 1619,
         "porTipo": [
           {
             "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
@@ -4465,8 +4469,8 @@
           },
           {
             "tipo": "COMBUSTÍVEIS E LUBRIFICANTES.",
-            "valor": 250896.55000000008,
-            "notas": 524,
+            "valor": 250996.55000000008,
+            "notas": 525,
             "fornecedores": [
               {
                 "nome": "AUTO POSTO ESMIG LTDA",
@@ -4492,8 +4496,8 @@
               {
                 "nome": "Posto de Combustiveis Garantia Ltda",
                 "cnpjCpf": "72578438000243",
-                "total": 4263.48,
-                "notas": 36,
+                "total": 4363.48,
+                "notas": 37,
                 "outrosNomes": []
               },
               {
@@ -5288,7 +5292,7 @@
           },
           {
             "competencia": "2026-10",
-            "valor": 3182.23
+            "valor": 3282.23
           }
         ],
         "fornecedores": [
@@ -5590,8 +5594,8 @@
           }
         ],
         "comprovantes": {
-          "com": 1209,
-          "total": 1618
+          "com": 1210,
+          "total": 1619
         }
       },
       "proposicoes": {
@@ -5619,7 +5623,7 @@
           {
             "tipo": "Projeto de Lei",
             "sigla": "PL",
-            "total": 205
+            "total": 206
           },
           {
             "tipo": "Requerimento para envio de Requerimento de Informação pela Comissão",
@@ -5639,7 +5643,7 @@
           {
             "tipo": "Solicitação de Informação ao TCU",
             "sigla": "SIT",
-            "total": 130
+            "total": 131
           },
           {
             "tipo": "Requerimento para envio de Indicação pela Comissão",
@@ -5879,6 +5883,16 @@
         ],
         "recentes": [
           {
+            "id": 2649386,
+            "sigla": "SIT",
+            "tipo": "Solicitação de Informação ao TCU",
+            "numero": 55,
+            "ano": 2026,
+            "ementa": "Requer informações ao Tribunal de Contas da União (TCU) acerca da fiscalização dos contratos, da execução e da qualidade das obras e dos serviços de manutenção, conservação e recuperação da Rodovia BR-262, no trecho compreendido no Estado do Espírito Santo, bem como sobre a realização de auditoria e vistoria técnica presencial.",
+            "apresentadaEm": "2026-10-28T17:22",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649386"
+          },
+          {
             "id": 2648607,
             "sigla": "INC",
             "tipo": "Indicação",
@@ -5967,16 +5981,6 @@
             "ementa": "Sugere ao Procurador-Geral da República a instauração de procedimentos de auditoria, fiscalização e apuração administrativa relativos a possíveis irregularidades envolvendo a atuação da empresária Roberta Luchsinger, intermediários privados e agentes públicos federais, especialmente quanto à existência de conflitos de interesses, favorecimento indevido e utilização de relações pessoais para obtenção de vantagens perante a Administração Pública Federal.",
             "apresentadaEm": "2026-10-20T16:29",
             "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2648589"
-          },
-          {
-            "id": 2648520,
-            "sigla": "RIC",
-            "tipo": "Requerimento de Informação",
-            "numero": 2780,
-            "ano": 2026,
-            "ementa": "Solicita informações ao Sr. Ministro do Meio Ambiente e Mudança do Clima (MMA) sobre o passivo indenizatório oriundo da criação de Unidades de Conservação no âmbito do Instituto Chico Mendes da Biodiversidade (ICMBio) e seus respectivos Planos de Manejo.",
-            "apresentadaEm": "2026-10-20T14:07",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2648520"
           }
         ]
       }
@@ -6001,8 +6005,8 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/220529.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/220529",
       "despesas": {
-        "total": 1931906.8500000017,
-        "documentos": 1459,
+        "total": 1934805.7600000019,
+        "documentos": 1461,
         "porTipo": [
           {
             "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
@@ -6289,14 +6293,14 @@
           },
           {
             "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
-            "valor": 192891.30999999988,
-            "notas": 175,
+            "valor": 195541.3099999999,
+            "notas": 176,
             "fornecedores": [
               {
                 "nome": "Emmanuel Roberto Vieira de Moraes",
                 "cnpjCpf": "67476465768",
-                "total": 107250,
-                "notas": 42,
+                "total": 109900,
+                "notas": 43,
                 "outrosNomes": []
               },
               {
@@ -6407,8 +6411,8 @@
           },
           {
             "tipo": "COMBUSTÍVEIS E LUBRIFICANTES.",
-            "valor": 135367.99000000002,
-            "notas": 682,
+            "valor": 135616.90000000002,
+            "notas": 683,
             "fornecedores": [
               {
                 "nome": "063 - 311 SUL - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
@@ -7033,7 +7037,7 @@
           },
           {
             "competencia": "2026-10",
-            "valor": 12947.470000000001
+            "valor": 15846.380000000001
           }
         ],
         "fornecedores": [
@@ -7075,8 +7079,8 @@
           {
             "nome": "Emmanuel Roberto Vieira de Moraes",
             "cnpjCpf": "67476465768",
-            "total": 107250,
-            "notas": 42,
+            "total": 109900,
+            "notas": 43,
             "outrosNomes": []
           },
           {
@@ -7314,8 +7318,8 @@
           }
         ],
         "comprovantes": {
-          "com": 1153,
-          "total": 1459
+          "com": 1155,
+          "total": 1461
         }
       },
       "proposicoes": {
@@ -7620,8 +7624,8 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/220526.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/220526",
       "despesas": {
-        "total": 1647798.99,
-        "documentos": 1842,
+        "total": 1652205.99,
+        "documentos": 1844,
         "porTipo": [
           {
             "tipo": "PASSAGEM AÉREA - SIGEPA",
@@ -8021,14 +8025,14 @@
           },
           {
             "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
-            "valor": 133992.90999999992,
-            "notas": 112,
+            "valor": 136992.90999999992,
+            "notas": 113,
             "fornecedores": [
               {
                 "nome": "HECTOR ANTONIO VILCHEZ GUERRERO",
                 "cnpjCpf": "17555579000151",
-                "total": 82554.23999999999,
-                "notas": 36,
+                "total": 85554.23999999999,
+                "notas": 37,
                 "outrosNomes": [
                   "Guerrero imóveis"
                 ]
@@ -8141,8 +8145,8 @@
           },
           {
             "tipo": "HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.",
-            "valor": 122214.33999999987,
-            "notas": 241,
+            "valor": 123621.33999999987,
+            "notas": 242,
             "fornecedores": [
               {
                 "nome": "FOUR TOWERS HOTELS LTDA",
@@ -8182,11 +8186,13 @@
                 "outrosNomes": []
               },
               {
-                "nome": "EASY HOTEL CACHOEIRO",
+                "nome": "R & S PRODUTOS E SERVICOS IMOBILIARIOS LTDA",
                 "cnpjCpf": "39808246000120",
-                "total": 2542.05,
-                "notas": 7,
-                "outrosNomes": []
+                "total": 3949.0500000000006,
+                "notas": 8,
+                "outrosNomes": [
+                  "EASY HOTEL CACHOEIRO"
+                ]
               },
               {
                 "nome": "HOTELARIA PRAIA COMPRIDA LTDA",
@@ -8695,7 +8701,7 @@
           },
           {
             "competencia": "2026-10",
-            "valor": 5207.7300000000005
+            "valor": 9614.73
           }
         ],
         "fornecedores": [
@@ -8729,8 +8735,8 @@
           {
             "nome": "HECTOR ANTONIO VILCHEZ GUERRERO",
             "cnpjCpf": "17555579000151",
-            "total": 82554.23999999999,
-            "notas": 36,
+            "total": 85554.23999999999,
+            "notas": 37,
             "outrosNomes": [
               "Guerrero imóveis"
             ]
@@ -8978,8 +8984,8 @@
           }
         ],
         "comprovantes": {
-          "com": 1347,
-          "total": 1842
+          "com": 1349,
+          "total": 1844
         }
       },
       "proposicoes": {
@@ -9279,8 +9285,8 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/178873.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/178873",
       "despesas": {
-        "total": 1433162.1199999899,
-        "documentos": 2424,
+        "total": 1433351.8599999899,
+        "documentos": 2425,
         "porTipo": [
           {
             "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
@@ -9592,8 +9598,8 @@
           },
           {
             "tipo": "COMBUSTÍVEIS E LUBRIFICANTES.",
-            "valor": 143432.8999999999,
-            "notas": 773,
+            "valor": 143622.63999999987,
+            "notas": 774,
             "fornecedores": [
               {
                 "nome": "POSTO CAMPO GRANDE LTDA",
@@ -9614,8 +9620,8 @@
               {
                 "nome": "AUTO SHOPPING DERIVADOS DE PETROLEO LTDA",
                 "cnpjCpf": "37063328001309",
-                "total": 10170.67,
-                "notas": 45,
+                "total": 10360.41,
+                "notas": 46,
                 "outrosNomes": [
                   "AUTO SHOPPING DERIVADOS DE PETROLEO LTDA."
                 ]
@@ -10354,6 +10360,10 @@
           {
             "competencia": "2026-09",
             "valor": 7329.79
+          },
+          {
+            "competencia": "2026-10",
+            "valor": 189.74
           }
         ],
         "fornecedores": [
@@ -10651,8 +10661,8 @@
           }
         ],
         "comprovantes": {
-          "com": 2220,
-          "total": 2424
+          "com": 2221,
+          "total": 2425
         }
       },
       "proposicoes": {
@@ -10675,7 +10685,7 @@
           {
             "tipo": "Projeto de Lei",
             "sigla": "PL",
-            "total": 63
+            "total": 64
           },
           {
             "tipo": "Requerimento de Redistribuição",
@@ -10855,6 +10865,16 @@
         ],
         "recentes": [
           {
+            "id": 2649499,
+            "sigla": "PL",
+            "tipo": "Projeto de Lei",
+            "numero": 5689,
+            "ano": 2026,
+            "ementa": "Acrescenta o art. 203-A ao Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), para tipificar a discriminação por voto ou convicção política no trabalho e na atividade econômica, e altera o art. 1º da Lei nº 9.029, de 13 de abril de 1995, para incluir o voto e a convicção política entre os motivos de discriminação vedados nas relações de trabalho.",
+            "apresentadaEm": "2026-10-29T09:52",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649499"
+          },
+          {
             "id": 2645040,
             "sigla": "REQ",
             "tipo": "Requerimento de Inclusão ou Retirada de Assinatura em Proposição de Iniciativa Individual",
@@ -10943,16 +10963,6 @@
             "ementa": "Requer a remessa do PL 572/22 à comissão subsequente pelo esgotamento do prazo para apreciação pela Comissão de Desenvolvimento Econômico.",
             "apresentadaEm": "2026-06-16T19:31",
             "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2632868"
-          },
-          {
-            "id": 2631190,
-            "sigla": "PEC",
-            "tipo": "Proposta de Emenda à Constituição",
-            "numero": 13,
-            "ano": 2026,
-            "ementa": "Altera o art. 9º da Emenda Constitucional nº 132, de 20 de dezembro de 2023, para permitir a concessão de créditos do Imposto sobre Bens e Serviços através de fomento indireto a doadores e patrocinadores de projetos culturais e esportivos.",
-            "apresentadaEm": "2026-06-10T12:08",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2631190"
           }
         ]
       }
@@ -10977,8 +10987,8 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/220527.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/220527",
       "despesas": {
-        "total": 1870603.2399999995,
-        "documentos": 1564,
+        "total": 1873496.2399999995,
+        "documentos": 1569,
         "porTipo": [
           {
             "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
@@ -11243,14 +11253,14 @@
           },
           {
             "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
-            "valor": 254927.8500000001,
-            "notas": 216,
+            "valor": 257820.8500000001,
+            "notas": 221,
             "fornecedores": [
               {
                 "nome": "PRIVILEGE ADMINISTRACAO E NEGOCIOS IMOBILIARIOS LTDA",
                 "cnpjCpf": "11368482000153",
-                "total": 82901.42,
-                "notas": 40,
+                "total": 85001.42,
+                "notas": 41,
                 "outrosNomes": [
                   "PRIVILEGE ADMINISTRAÇÃO E NEGÓCIOS IMOBILIÁRIOS LTDA"
                 ]
@@ -11281,17 +11291,17 @@
                 ]
               },
               {
+                "nome": "EDP ESPIRITO SANTO DISTRIBUICAO DE ENERGIA S.A.",
+                "cnpjCpf": "28152650000171",
+                "total": 14390.05,
+                "notas": 61,
+                "outrosNomes": []
+              },
+              {
                 "nome": "NEVES E FERREIRA TECNOLOGIA LTDA",
                 "cnpjCpf": "35748629000107",
                 "total": 14280,
                 "notas": 12,
-                "outrosNomes": []
-              },
-              {
-                "nome": "EDP ESPIRITO SANTO DISTRIBUICAO DE ENERGIA S.A.",
-                "cnpjCpf": "28152650000171",
-                "total": 13597.05,
-                "notas": 57,
                 "outrosNomes": []
               },
               {
@@ -11975,11 +11985,11 @@
           },
           {
             "competencia": "2026-09",
-            "valor": 27610.21
+            "valor": 27913.190000000002
           },
           {
             "competencia": "2026-10",
-            "valor": 1051.63
+            "valor": 3641.6499999999996
           }
         ],
         "fornecedores": [
@@ -12027,8 +12037,8 @@
           {
             "nome": "PRIVILEGE ADMINISTRACAO E NEGOCIOS IMOBILIARIOS LTDA",
             "cnpjCpf": "11368482000153",
-            "total": 82901.42,
-            "notas": 40,
+            "total": 85001.42,
+            "notas": 41,
             "outrosNomes": [
               "PRIVILEGE ADMINISTRAÇÃO E NEGÓCIOS IMOBILIÁRIOS LTDA"
             ]
@@ -12084,8 +12094,8 @@
           }
         ],
         "glosas": {
-          "quantidade": 60,
-          "valor": 893.3999999999996,
+          "quantidade": 64,
+          "valor": 906.8999999999995,
           "exemplos": [
             {
               "id": "8115095",
@@ -12262,8 +12272,8 @@
           }
         ],
         "comprovantes": {
-          "com": 1182,
-          "total": 1564
+          "com": 1187,
+          "total": 1569
         }
       },
       "proposicoes": {
@@ -12286,7 +12296,7 @@
           {
             "tipo": "Projeto de Lei",
             "sigla": "PL",
-            "total": 35
+            "total": 36
           },
           {
             "tipo": "Requerimento de Urgência (Art. 155 do RICD)",
@@ -12436,6 +12446,16 @@
         ],
         "recentes": [
           {
+            "id": 2649499,
+            "sigla": "PL",
+            "tipo": "Projeto de Lei",
+            "numero": 5689,
+            "ano": 2026,
+            "ementa": "Acrescenta o art. 203-A ao Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), para tipificar a discriminação por voto ou convicção política no trabalho e na atividade econômica, e altera o art. 1º da Lei nº 9.029, de 13 de abril de 1995, para incluir o voto e a convicção política entre os motivos de discriminação vedados nas relações de trabalho.",
+            "apresentadaEm": "2026-10-29T09:52",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649499"
+          },
+          {
             "id": 2645040,
             "sigla": "REQ",
             "tipo": "Requerimento de Inclusão ou Retirada de Assinatura em Proposição de Iniciativa Individual",
@@ -12524,16 +12544,6 @@
             "ementa": "Altera o art. 9º da Emenda Constitucional nº 132, de 20 de dezembro de 2023, para permitir a concessão de créditos do Imposto sobre Bens e Serviços através de fomento indireto a doadores e patrocinadores de projetos culturais e esportivos.",
             "apresentadaEm": "2026-06-10T12:08",
             "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2631190"
-          },
-          {
-            "id": 2629602,
-            "sigla": "REQ",
-            "tipo": "Requerimento de Quebra de Interstício para Inclusão de Matéria na Ordem do Dia",
-            "numero": 3266,
-            "ano": 2026,
-            "ementa": "Requer dispensa de interstício para a inclusão da Redação Final ao Projeto de Lei nº 3.801, de 2004, na Ordem do Dia de sessão plenária.",
-            "apresentadaEm": "2026-06-02T09:44",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2629602"
           }
         ]
       }
@@ -12559,13 +12569,13 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/220530.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/220530",
       "despesas": {
-        "total": 1953526.1699999992,
-        "documentos": 1280,
+        "total": 1968026.1699999992,
+        "documentos": 1282,
         "porTipo": [
           {
             "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
-            "valor": 868928.9700000001,
-            "notas": 149,
+            "valor": 878928.9700000001,
+            "notas": 150,
             "fornecedores": [
               {
                 "nome": "O ANJO PUBLICIDADE LTDA",
@@ -12591,11 +12601,13 @@
                 ]
               },
               {
-                "nome": "WELLINGTON ABNER DA SILVA",
+                "nome": "56.958.976 WELLINGTON ABNER DA SILVA",
                 "cnpjCpf": "56958976000126",
-                "total": 79000,
-                "notas": 19,
-                "outrosNomes": []
+                "total": 89000,
+                "notas": 20,
+                "outrosNomes": [
+                  "WELLINGTON ABNER DA SILVA"
+                ]
               },
               {
                 "nome": "CONECTA SOLUCOES LTDA",
@@ -12840,14 +12852,14 @@
           },
           {
             "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
-            "valor": 272867.5099999999,
-            "notas": 175,
+            "valor": 277367.5099999999,
+            "notas": 176,
             "fornecedores": [
               {
                 "nome": "M A EMPREENDIMENTO IMOBILIARIOS LTDA",
                 "cnpjCpf": "21153331000131",
-                "total": 169207.2,
-                "notas": 44,
+                "total": 173707.2,
+                "notas": 45,
                 "outrosNomes": [
                   "M A Empreendimento Imobiliarios"
                 ]
@@ -13388,7 +13400,7 @@
           },
           {
             "competencia": "2026-10",
-            "valor": 619
+            "valor": 15119
           }
         ],
         "fornecedores": [
@@ -13420,8 +13432,8 @@
           {
             "nome": "M A EMPREENDIMENTO IMOBILIARIOS LTDA",
             "cnpjCpf": "21153331000131",
-            "total": 169207.2,
-            "notas": 44,
+            "total": 173707.2,
+            "notas": 45,
             "outrosNomes": [
               "M A Empreendimento Imobiliarios"
             ]
@@ -13452,11 +13464,13 @@
             ]
           },
           {
-            "nome": "WELLINGTON ABNER DA SILVA",
+            "nome": "56.958.976 WELLINGTON ABNER DA SILVA",
             "cnpjCpf": "56958976000126",
-            "total": 79000,
-            "notas": 19,
-            "outrosNomes": []
+            "total": 89000,
+            "notas": 20,
+            "outrosNomes": [
+              "WELLINGTON ABNER DA SILVA"
+            ]
           },
           {
             "nome": "Gol Linhas Aéreas",
@@ -13673,8 +13687,8 @@
           }
         ],
         "comprovantes": {
-          "com": 985,
-          "total": 1280
+          "com": 987,
+          "total": 1282
         }
       },
       "proposicoes": {
@@ -14054,8 +14068,8 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/160517.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/160517",
       "despesas": {
-        "total": 1941806.690000004,
-        "documentos": 1083,
+        "total": 1945406.6900000037,
+        "documentos": 1084,
         "porTipo": [
           {
             "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
@@ -14173,14 +14187,14 @@
           },
           {
             "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
-            "valor": 420148.4599999997,
-            "notas": 301,
+            "valor": 423748.4599999996,
+            "notas": 302,
             "fornecedores": [
               {
                 "nome": "EXPERT'S CONSULTORIA E AVALIACOES LTDA",
                 "cnpjCpf": "13882645000147",
-                "total": 181750.2099999999,
-                "notas": 43,
+                "total": 185350.2099999999,
+                "notas": 44,
                 "outrosNomes": [
                   "EXPERTS CONSULTORIA E AVALIAÇÕES EIRELI"
                 ]
@@ -15083,7 +15097,7 @@
           },
           {
             "competencia": "2026-10",
-            "valor": 1995.48
+            "valor": 5595.48
           }
         ],
         "fornecedores": [
@@ -15126,8 +15140,8 @@
           {
             "nome": "EXPERT'S CONSULTORIA E AVALIACOES LTDA",
             "cnpjCpf": "13882645000147",
-            "total": 181750.2099999999,
-            "notas": 43,
+            "total": 185350.2099999999,
+            "notas": 44,
             "outrosNomes": [
               "EXPERTS CONSULTORIA E AVALIAÇÕES EIRELI"
             ]
@@ -15373,8 +15387,8 @@
           }
         ],
         "comprovantes": {
-          "com": 674,
-          "total": 1083
+          "com": 675,
+          "total": 1084
         }
       },
       "proposicoes": {

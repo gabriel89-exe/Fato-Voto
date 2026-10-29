@@ -9,7 +9,7 @@
     "idEleicao": "20322002026",
     "uf": "ES"
   },
-  "coletadoEm": "2026-10-28T16:02:26.493Z",
+  "coletadoEm": "2026-10-29T16:08:18.217Z",
   "total": 577,
   "candidaturas": [
     {
@@ -2447,17 +2447,17 @@
         },
         {
           "ano": 2022,
-          "cargo": "Deputado Federal",
-          "partido": "PROS",
-          "uf": "SP",
-          "resultado": "Não eleito"
-        },
-        {
-          "ano": 2022,
           "cargo": "Presidente",
           "partido": "PROS",
           "uf": "BR",
           "resultado": "Concorrendo"
+        },
+        {
+          "ano": 2022,
+          "cargo": "Deputado Federal",
+          "partido": "PROS",
+          "uf": "SP",
+          "resultado": "Não eleito"
         }
       ],
       "primeiraCandidatura": false,
@@ -35755,17 +35755,17 @@
         },
         {
           "ano": 2004,
-          "cargo": "Vice-Prefeito",
-          "partido": "PTC",
-          "uf": "57096",
-          "resultado": "Concorrendo"
-        },
-        {
-          "ano": 2004,
           "cargo": "Prefeito",
           "partido": "PTC",
           "uf": "57096",
           "resultado": "Não eleito"
+        },
+        {
+          "ano": 2004,
+          "cargo": "Vice-Prefeito",
+          "partido": "PTC",
+          "uf": "57096",
+          "resultado": "Concorrendo"
         }
       ],
       "primeiraCandidatura": false,
@@ -66851,14 +66851,14 @@
         },
         {
           "ano": 2004,
-          "cargo": "Vice-Prefeito",
+          "cargo": "Vereador",
           "partido": "PSB",
           "uf": "56812",
           "resultado": "Concorrendo"
         },
         {
           "ano": 2004,
-          "cargo": "Vereador",
+          "cargo": "Vice-Prefeito",
           "partido": "PSB",
           "uf": "56812",
           "resultado": "Concorrendo"
