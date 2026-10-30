@@ -11,11 +11,11 @@
     2025,
     2026
   ],
-  "coletadoEm": "2026-10-29T16:21:53.009Z",
+  "coletadoEm": "2026-10-30T16:15:48.898Z",
   "recorte": "Emendas cujo autor é o próprio parlamentar, nos anos da legislatura 57. Emendas de bancada estadual e de comissão não têm autor individual e não entram aqui.",
   "conferencia": {
     "aprovada": true,
-    "conferidoEm": "2026-10-29T16:21:52.985Z",
+    "conferidoEm": "2026-10-30T16:15:48.879Z",
     "provas": [
       "o valor vem da consulta por código da emenda, não da consulta por nome",
       "cada emenda é lida duas vezes, e as duas leituras têm de concordar",
@@ -333,7 +333,7 @@
         "quantidade": 29,
         "valoresPublicados": true,
         "totais": {
-          "empenhado": 136620691.57999998,
+          "empenhado": 137543025.35,
           "liquidado": 117007812.88000001,
           "pago": 116396263.58,
           "restosInscritos": 8717070.68,
@@ -362,7 +362,7 @@
           {
             "ano": 2026,
             "quantidade": 7,
-            "empenhado": 35969183.58,
+            "empenhado": 36891517.35,
             "pago": 26849258.58
           }
         ],
@@ -380,6 +380,12 @@
             "pago": 34266848.480000004
           },
           {
+            "nome": "Segurança pública",
+            "quantidade": 1,
+            "empenhado": 3996091.25,
+            "pago": 931038.5
+          },
+          {
             "nome": "Agricultura",
             "quantidade": 1,
             "empenhado": 3811750,
@@ -390,12 +396,6 @@
             "quantidade": 2,
             "empenhado": 3199300,
             "pago": 699300
-          },
-          {
-            "nome": "Segurança pública",
-            "quantidade": 1,
-            "empenhado": 3073757.48,
-            "pago": 931038.5
           },
           {
             "nome": "Desporto e lazer",
@@ -438,7 +438,7 @@
           {
             "nome": "ESPÍRITO SANTO (UF)",
             "quantidade": 10,
-            "empenhado": 9809983.58,
+            "empenhado": 10732317.35,
             "pago": 1852024.1
           },
           {
@@ -464,7 +464,7 @@
           {
             "nome": "Emenda Individual - Transferências com Finalidade Definida",
             "quantidade": 25,
-            "empenhado": 101099515.58,
+            "empenhado": 102021849.35,
             "pago": 82129415.1
           },
           {

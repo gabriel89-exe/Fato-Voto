@@ -11,7 +11,7 @@
     2025,
     2026
   ],
-  "coletadoEm": "2026-10-29T16:09:56.641Z",
+  "coletadoEm": "2026-10-30T16:03:45.888Z",
   "senadores": [
     {
       "id": "senado-5953",
@@ -3410,6 +3410,16 @@
         "fim": "2031-01-31"
       },
       "materias": [
+        {
+          "id": "176149",
+          "identificacao": "RQS 734/2026",
+          "sigla": "RQS",
+          "numero": "734",
+          "ano": 2026,
+          "ementa": "Requer voto de pesar pelo falecimento da Sra. Vanessa Magalhães Fernandes, 41 anos, de sua filha Anna Liz Magalhães Fernandes Silva, 7 anos, e do Sr. Ulisses Maximiano Jesus de Souza, 43 anos, ocorrido em 26 de outubro de 2026, em decorrência de acidente automobilístico registrado no km 36 da Rodovia do Sol, na região de Setiba, município de Guarapari, Estado do Espírito Santo.",
+          "data": "2026-10-29",
+          "autorPrincipal": true
+        },
         {
           "id": "176035",
           "identificacao": "REQ 133/2026 - CDH",
@@ -7974,7 +7984,7 @@
       "materiasPorTipo": [
         {
           "sigla": "RQS",
-          "total": 213
+          "total": 214
         },
         {
           "sigla": "REQ",
