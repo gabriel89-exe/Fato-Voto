@@ -9,7 +9,7 @@
     "idEleicao": "20322002026",
     "uf": "ES"
   },
-  "coletadoEm": "2026-10-30T15:57:20.929Z",
+  "coletadoEm": "2026-10-31T15:20:12.566Z",
   "total": 577,
   "candidaturas": [
     {
@@ -35755,17 +35755,17 @@
         },
         {
           "ano": 2004,
-          "cargo": "Prefeito",
-          "partido": "PTC",
-          "uf": "57096",
-          "resultado": "Não eleito"
-        },
-        {
-          "ano": 2004,
           "cargo": "Vice-Prefeito",
           "partido": "PTC",
           "uf": "57096",
           "resultado": "Concorrendo"
+        },
+        {
+          "ano": 2004,
+          "cargo": "Prefeito",
+          "partido": "PTC",
+          "uf": "57096",
+          "resultado": "Não eleito"
         }
       ],
       "primeiraCandidatura": false,
