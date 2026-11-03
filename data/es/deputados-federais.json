@@ -6,11 +6,11 @@
   },
   "uf": "ES",
   "legislatura": 57,
-  "coletadoEm": "2026-10-29T16:09:43.502Z",
+  "coletadoEm": "2026-11-03T17:05:04.300Z",
   "referencia": {
     "bancada": 10,
-    "medianaDespesas": 1940106.225000003,
-    "menor": 1433351.8599999899,
+    "medianaDespesas": 1941946.225000003,
+    "menor": 1440053.8599999896,
     "maior": 2007793.8599999999
   },
   "parlamentares": [
@@ -1288,19 +1288,19 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/204355.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/204355",
       "despesas": {
-        "total": 1961952.0800000033,
-        "documentos": 1442,
+        "total": 1972810.3500000034,
+        "documentos": 1447,
         "porTipo": [
           {
             "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
-            "valor": 806634.12,
-            "notas": 445,
+            "valor": 817492.3899999999,
+            "notas": 450,
             "fornecedores": [
               {
                 "nome": "ATIVE ENGENHARIA LTDA",
                 "cnpjCpf": "39407978000108",
-                "total": 353858.7699999999,
-                "notas": 44,
+                "total": 363858.7699999999,
+                "notas": 45,
                 "outrosNomes": [
                   "ATIVE ENGENHARIA"
                 ]
@@ -1341,8 +1341,8 @@
               {
                 "nome": "EDP ESPIRITO SANTO DISTRIBUICAO DE ENERGIA S.A.",
                 "cnpjCpf": "28152650000171",
-                "total": 31112.999999999993,
-                "notas": 88,
+                "total": 31971.269999999993,
+                "notas": 92,
                 "outrosNomes": [
                   "0EDP ESPIRITO SANTO DISTRIBUICAO DE ENERGIA S.A."
                 ]
@@ -2171,11 +2171,11 @@
           },
           {
             "competencia": "2026-08",
-            "valor": 41417.850000000006
+            "valor": 41863.97000000001
           },
           {
             "competencia": "2026-09",
-            "valor": 14697.74
+            "valor": 25109.89
           }
         ],
         "fornecedores": [
@@ -2192,8 +2192,8 @@
           {
             "nome": "ATIVE ENGENHARIA LTDA",
             "cnpjCpf": "39407978000108",
-            "total": 353858.7699999999,
-            "notas": 44,
+            "total": 363858.7699999999,
+            "notas": 45,
             "outrosNomes": [
               "ATIVE ENGENHARIA"
             ]
@@ -2281,8 +2281,8 @@
           }
         ],
         "glosas": {
-          "quantidade": 276,
-          "valor": 20716.890000000032,
+          "quantidade": 280,
+          "valor": 20731.87000000003,
           "exemplos": [
             {
               "id": "7567919",
@@ -2440,6 +2440,15 @@
             "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3256/2026/8159544.pdf"
           },
           {
+            "id": "8169364",
+            "data": "2026-10-27",
+            "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
+            "valor": 10000,
+            "fornecedor": "ATIVE ENGENHARIA LTDA",
+            "cnpjCpf": "39407978000108",
+            "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3256/2026/8169364.pdf"
+          },
+          {
             "id": "7958545",
             "data": "2025-07-11",
             "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
@@ -2447,20 +2456,11 @@
             "fornecedor": "ATIVE ENGENHARIA",
             "cnpjCpf": "39407978000108",
             "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3256/2025/7958545.pdf"
-          },
-          {
-            "id": "8013320",
-            "data": "2025-10-21",
-            "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
-            "valor": 8421.47,
-            "fornecedor": "ATIVE ENGENHARIA",
-            "cnpjCpf": "39407978000108",
-            "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3256/2025/8013320.pdf"
           }
         ],
         "comprovantes": {
-          "com": 724,
-          "total": 1442
+          "com": 729,
+          "total": 1447
         }
       },
       "proposicoes": {
@@ -4003,6 +4003,11 @@
             "total": 2
           },
           {
+            "tipo": "Projeto de Lei Complementar",
+            "sigla": "PLP",
+            "total": 2
+          },
+          {
             "tipo": "Recurso contra apreciação conclusiva de comissão (Art. 58, § 1º c/c art. 132, § 2º, RICD)",
             "sigla": "REC",
             "total": 1
@@ -4020,11 +4025,6 @@
           {
             "tipo": "Requerimento de Urgência (Art. 154, II, do RICD)",
             "sigla": "REQ",
-            "total": 1
-          },
-          {
-            "tipo": "Projeto de Lei Complementar",
-            "sigla": "PLP",
             "total": 1
           },
           {
@@ -4049,6 +4049,16 @@
           }
         ],
         "recentes": [
+          {
+            "id": 2649648,
+            "sigla": "PLP",
+            "tipo": "Projeto de Lei Complementar",
+            "numero": 278,
+            "ano": 2026,
+            "ementa": "Altera a Lei Complementar nº 64, de 18 de maio de 1990 (Lei de Inelegibilidades), para incluir, entre as causas de inelegibilidade decorrentes de condenação criminal, a lesão corporal praticada contra a mulher por razões da condição do sexo feminino.",
+            "apresentadaEm": "2026-10-30T10:01",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649648"
+          },
           {
             "id": 2643199,
             "sigla": "PL",
@@ -4138,16 +4148,6 @@
             "ementa": "Requer o registro, no âmbito da Câmara dos Deputados, da Frente Parlamentar “Frente Parlamentar em Defesa da Ética na Saúde Suplementar”.",
             "apresentadaEm": "2025-11-06T17:23",
             "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2582496"
-          },
-          {
-            "id": 2582199,
-            "sigla": "REQ",
-            "tipo": "Requerimento de Registro de Frente Parlamentar na Câmara dos Deputados",
-            "numero": 4700,
-            "ano": 2025,
-            "ementa": "Requer o registro da Frente Parlamentar Mista de Telecomunicações e Soluções Digitais.",
-            "apresentadaEm": "2025-11-05T18:25",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2582199"
           }
         ]
       }
@@ -5658,7 +5658,7 @@
           {
             "tipo": "Requerimento para envio de Solicitação de Informação ao TCU pela Comissão",
             "sigla": "REQ",
-            "total": 105
+            "total": 106
           },
           {
             "tipo": "Requerimento de Moção",
@@ -5883,6 +5883,16 @@
         ],
         "recentes": [
           {
+            "id": 2649759,
+            "sigla": "REQ",
+            "tipo": "Requerimento para envio de Solicitação de Informação ao TCU pela Comissão",
+            "numero": 195,
+            "ano": 2026,
+            "ementa": "Requer informações ao Tribunal de Contas da União (TCU) acerca da fiscalização dos contratos, da execução e da qualidade das obras e dos serviços de manutenção, conservação e recuperação da Rodovia BR-262, no trecho compreendido no Estado do Espírito Santo, bem como sobre a realização de auditoria e vistoria técnica presencial.",
+            "apresentadaEm": "2026-10-28T17:22",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649759"
+          },
+          {
             "id": 2649386,
             "sigla": "SIT",
             "tipo": "Solicitação de Informação ao TCU",
@@ -5971,16 +5981,6 @@
             "ementa": "Requer informações ao Ministro de Estado da Educação acerca de reuniões, encontros, comunicações institucionais, procedimentos administrativos, contratos e eventuais situações de conflito de interesses envolvendo o Ministro Leonardo Osvaldo Barchini Rosa, a empresária Roberta Luchsinger, Fábio Luís Lula da Silva e pessoas físicas ou jurídicas a eles relacionadas, diante de notícias sobre encontros privados realizados durante o exercício de funções públicas no Ministério da Educação",
             "apresentadaEm": "2026-10-20T16:29",
             "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2648593"
-          },
-          {
-            "id": 2648589,
-            "sigla": "INC",
-            "tipo": "Indicação",
-            "numero": 1632,
-            "ano": 2026,
-            "ementa": "Sugere ao Procurador-Geral da República a instauração de procedimentos de auditoria, fiscalização e apuração administrativa relativos a possíveis irregularidades envolvendo a atuação da empresária Roberta Luchsinger, intermediários privados e agentes públicos federais, especialmente quanto à existência de conflitos de interesses, favorecimento indevido e utilização de relações pessoais para obtenção de vantagens perante a Administração Pública Federal.",
-            "apresentadaEm": "2026-10-20T16:29",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2648589"
           }
         ]
       }
@@ -6005,13 +6005,13 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/220529.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/220529",
       "despesas": {
-        "total": 1934805.7600000019,
-        "documentos": 1461,
+        "total": 1937805.760000002,
+        "documentos": 1462,
         "porTipo": [
           {
             "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
-            "valor": 851190,
-            "notas": 132,
+            "valor": 854190,
+            "notas": 133,
             "fornecedores": [
               {
                 "nome": "AGORA ES COMUNICAÇÃO E PESQUISA LTDA",
@@ -6034,8 +6034,8 @@
               {
                 "nome": "11.650.083 EVANDRO DOMINGOS",
                 "cnpjCpf": "11650083000180",
-                "total": 84000,
-                "notas": 28,
+                "total": 87000,
+                "notas": 29,
                 "outrosNomes": [
                   "EVANDRO DOMINGOS"
                 ]
@@ -7037,7 +7037,7 @@
           },
           {
             "competencia": "2026-10",
-            "valor": 15846.380000000001
+            "valor": 18846.38
           }
         ],
         "fornecedores": [
@@ -7095,8 +7095,8 @@
           {
             "nome": "11.650.083 EVANDRO DOMINGOS",
             "cnpjCpf": "11650083000180",
-            "total": 84000,
-            "notas": 28,
+            "total": 87000,
+            "notas": 29,
             "outrosNomes": [
               "EVANDRO DOMINGOS"
             ]
@@ -7318,8 +7318,8 @@
           }
         ],
         "comprovantes": {
-          "com": 1155,
-          "total": 1461
+          "com": 1156,
+          "total": 1462
         }
       },
       "proposicoes": {
@@ -7624,8 +7624,8 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/220526.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/220526",
       "despesas": {
-        "total": 1652205.99,
-        "documentos": 1844,
+        "total": 1653305.99,
+        "documentos": 1847,
         "porTipo": [
           {
             "tipo": "PASSAGEM AÉREA - SIGEPA",
@@ -7915,8 +7915,8 @@
           },
           {
             "tipo": "COMBUSTÍVEIS E LUBRIFICANTES.",
-            "valor": 137991.28000000003,
-            "notas": 789,
+            "valor": 138191.28000000003,
+            "notas": 791,
             "fornecedores": [
               {
                 "nome": "071 - LAGO NORTE - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
@@ -8145,8 +8145,8 @@
           },
           {
             "tipo": "HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.",
-            "valor": 123621.33999999987,
-            "notas": 242,
+            "valor": 124521.33999999987,
+            "notas": 243,
             "fornecedores": [
               {
                 "nome": "FOUR TOWERS HOTELS LTDA",
@@ -8689,7 +8689,7 @@
           },
           {
             "competencia": "2026-07",
-            "valor": 45656.65000000001
+            "valor": 46556.65000000001
           },
           {
             "competencia": "2026-08",
@@ -8701,7 +8701,7 @@
           },
           {
             "competencia": "2026-10",
-            "valor": 9614.73
+            "valor": 9814.73
           }
         ],
         "fornecedores": [
@@ -8984,8 +8984,8 @@
           }
         ],
         "comprovantes": {
-          "com": 1349,
-          "total": 1844
+          "com": 1352,
+          "total": 1847
         }
       },
       "proposicoes": {
@@ -9285,8 +9285,8 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/178873.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/178873",
       "despesas": {
-        "total": 1433351.8599999899,
-        "documentos": 2425,
+        "total": 1440053.8599999896,
+        "documentos": 2428,
         "porTipo": [
           {
             "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
@@ -9402,14 +9402,14 @@
           },
           {
             "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
-            "valor": 297803.71999999956,
-            "notas": 278,
+            "valor": 304355.7199999996,
+            "notas": 280,
             "fornecedores": [
               {
                 "nome": "MD SOLUCOES IMOBILIARIAS LTDA",
                 "cnpjCpf": "31106238000120",
-                "total": 128508,
-                "notas": 43,
+                "total": 135060,
+                "notas": 45,
                 "outrosNomes": [
                   "MD Soluções Imoliliárias"
                 ]
@@ -9598,8 +9598,8 @@
           },
           {
             "tipo": "COMBUSTÍVEIS E LUBRIFICANTES.",
-            "valor": 143622.63999999987,
-            "notas": 774,
+            "valor": 143772.63999999987,
+            "notas": 775,
             "fornecedores": [
               {
                 "nome": "POSTO CAMPO GRANDE LTDA",
@@ -10355,15 +10355,15 @@
           },
           {
             "competencia": "2026-08",
-            "valor": 15506.589999999995
+            "valor": 18782.589999999993
           },
           {
             "competencia": "2026-09",
-            "valor": 7329.79
+            "valor": 10605.79
           },
           {
             "competencia": "2026-10",
-            "valor": 189.74
+            "valor": 339.74
           }
         ],
         "fornecedores": [
@@ -10396,8 +10396,8 @@
           {
             "nome": "MD SOLUCOES IMOBILIARIAS LTDA",
             "cnpjCpf": "31106238000120",
-            "total": 128508,
-            "notas": 43,
+            "total": 135060,
+            "notas": 45,
             "outrosNomes": [
               "MD Soluções Imoliliárias"
             ]
@@ -10661,8 +10661,8 @@
           }
         ],
         "comprovantes": {
-          "com": 2221,
-          "total": 2425
+          "com": 2224,
+          "total": 2428
         }
       },
       "proposicoes": {
@@ -10987,8 +10987,8 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/220527.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/220527",
       "despesas": {
-        "total": 1873496.2399999995,
-        "documentos": 1569,
+        "total": 1873956.2399999995,
+        "documentos": 1570,
         "porTipo": [
           {
             "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
@@ -11481,8 +11481,8 @@
           },
           {
             "tipo": "HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.",
-            "valor": 36842.729999999996,
-            "notas": 47,
+            "valor": 37302.729999999996,
+            "notas": 48,
             "fornecedores": [
               {
                 "nome": "VILA GALE BRASIL - ATIVIDADES HOTELEIRAS LTDA",
@@ -11989,7 +11989,7 @@
           },
           {
             "competencia": "2026-10",
-            "valor": 3641.6499999999996
+            "valor": 4101.65
           }
         ],
         "fornecedores": [
@@ -12272,8 +12272,8 @@
           }
         ],
         "comprovantes": {
-          "com": 1187,
-          "total": 1569
+          "com": 1188,
+          "total": 1570
         }
       },
       "proposicoes": {
@@ -13696,7 +13696,7 @@
           {
             "tipo": "Requerimento de Informação",
             "sigla": "RIC",
-            "total": 270
+            "total": 271
           },
           {
             "tipo": "Requerimento de Registro de Frente Parlamentar na Câmara dos Deputados",
@@ -13946,6 +13946,16 @@
         ],
         "recentes": [
           {
+            "id": 2649731,
+            "sigla": "RIC",
+            "tipo": "Requerimento de Informação",
+            "numero": 2862,
+            "ano": 2026,
+            "ementa": "Requer informações ao Senhor Ministro de Estado da Justiça e Segurança Pública sobre a reclassificação do programa “Record Kids – Desenhos Bíblicos” e sobre a possível aplicação seletiva de critérios de classificação indicativa a conteúdos religiosos.",
+            "apresentadaEm": "2026-11-03T12:47",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649731"
+          },
+          {
             "id": 2648834,
             "sigla": "PL",
             "tipo": "Projeto de Lei",
@@ -14034,16 +14044,6 @@
             "ementa": "Altera a Lei nº 10.883, de 16 de junho de 2004, para dispor sobre a caracterização da Carreira de Auditor Fiscal Agropecuário como essencial à promoção da defesa nacional e da segurança pública.",
             "apresentadaEm": "2026-09-08T10:54",
             "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2646185"
-          },
-          {
-            "id": 2645565,
-            "sigla": "REQ",
-            "tipo": "Requerimento de Inclusão de Matéria na Ordem do Dia",
-            "numero": 4174,
-            "ano": 2026,
-            "ementa": "Requer a inclusão na Ordem do Dia do Plenário para votação imediata da PEC nº 333 de 2017, que Altera os arts. 5º, 37, 96, 102, 105, 108 e 125 da Constituição Federal para extinguir o foro especial por prerrogativa de função no caso dos crimes comuns, e revoga o inciso X do art. 29 e o § 1º do art. 53 da Constituição Federal.",
-            "apresentadaEm": "2026-09-02T14:33",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2645565"
           }
         ]
       }
@@ -14068,8 +14068,8 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/160517.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/160517",
       "despesas": {
-        "total": 1945406.6900000037,
-        "documentos": 1084,
+        "total": 1946086.6900000037,
+        "documentos": 1085,
         "porTipo": [
           {
             "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
@@ -14187,8 +14187,8 @@
           },
           {
             "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
-            "valor": 423748.4599999996,
-            "notas": 302,
+            "valor": 424428.4599999996,
+            "notas": 303,
             "fornecedores": [
               {
                 "nome": "EXPERT'S CONSULTORIA E AVALIACOES LTDA",
@@ -14213,8 +14213,8 @@
               {
                 "nome": "VITORIA TECNOLOGIA DA INFORMACAO LTDA",
                 "cnpjCpf": "06069667000127",
-                "total": 27200,
-                "notas": 40,
+                "total": 27880,
+                "notas": 41,
                 "outrosNomes": [
                   "VITÓRIA TECNOLOGIA DA INFORMAÇÃO LTDA"
                 ]
@@ -15093,7 +15093,7 @@
           },
           {
             "competencia": "2026-09",
-            "valor": 16968.38
+            "valor": 17648.379999999997
           },
           {
             "competencia": "2026-10",
@@ -15201,8 +15201,8 @@
           {
             "nome": "VITORIA TECNOLOGIA DA INFORMACAO LTDA",
             "cnpjCpf": "06069667000127",
-            "total": 27200,
-            "notas": 40,
+            "total": 27880,
+            "notas": 41,
             "outrosNomes": [
               "VITÓRIA TECNOLOGIA DA INFORMAÇÃO LTDA"
             ]
@@ -15387,8 +15387,8 @@
           }
         ],
         "comprovantes": {
-          "com": 675,
-          "total": 1084
+          "com": 676,
+          "total": 1085
         }
       },
       "proposicoes": {
@@ -15459,6 +15459,11 @@
             "total": 2
           },
           {
+            "tipo": "Projeto de Lei Complementar",
+            "sigla": "PLP",
+            "total": 2
+          },
+          {
             "tipo": "Requerimento de Inclusão de Matéria na Ordem do Dia",
             "sigla": "REQ",
             "total": 2
@@ -15486,11 +15491,6 @@
           {
             "tipo": "Requerimento de Constituição de Comissão Externa",
             "sigla": "REQ",
-            "total": 1
-          },
-          {
-            "tipo": "Projeto de Lei Complementar",
-            "sigla": "PLP",
             "total": 1
           },
           {
@@ -15535,6 +15535,16 @@
           }
         ],
         "recentes": [
+          {
+            "id": 2649648,
+            "sigla": "PLP",
+            "tipo": "Projeto de Lei Complementar",
+            "numero": 278,
+            "ano": 2026,
+            "ementa": "Altera a Lei Complementar nº 64, de 18 de maio de 1990 (Lei de Inelegibilidades), para incluir, entre as causas de inelegibilidade decorrentes de condenação criminal, a lesão corporal praticada contra a mulher por razões da condição do sexo feminino.",
+            "apresentadaEm": "2026-10-30T10:01",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649648"
+          },
           {
             "id": 2648405,
             "sigla": "PL",
@@ -15624,16 +15634,6 @@
             "ementa": "Altera a Lei nº 14.790, de 29 de dezembro de 2023, para dispor sobre a proteção da saúde mental, do consumidor e da economia familiar no ambiente de apostas de quota fixa e jogos online, com ênfase na prevenção e redução de danos, e dá outras providências.",
             "apresentadaEm": "2026-05-19T17:06",
             "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2625893"
-          },
-          {
-            "id": 2613880,
-            "sigla": "REQ",
-            "tipo": "Requerimento de Moção",
-            "numero": 1927,
-            "ano": 2026,
-            "ementa": "Requer Moção de Louvor pela destacada trajetória profissional, acadêmica e humanitária do Sr. André Canali Pereira, em reconhecimento à sua relevante contribuição à fisioterapia, à promoção da saúde e à dignidade da pessoa idosa no Estado do Espírito Santo.",
-            "apresentadaEm": "2026-04-07T16:20",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2613880"
           }
         ]
       }
