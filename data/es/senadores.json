@@ -11,7 +11,7 @@
     2025,
     2026
   ],
-  "coletadoEm": "2026-11-03T17:05:10.428Z",
+  "coletadoEm": "2026-11-04T17:23:01.305Z",
   "senadores": [
     {
       "id": "senado-5953",
@@ -28,6 +28,26 @@
         "fim": "2027-01-31"
       },
       "materias": [
+        {
+          "id": "176163",
+          "identificacao": "REQ 374/2026 - CDIR",
+          "sigla": "REQ",
+          "numero": "374",
+          "ano": 2026,
+          "ementa": "Requer licença para desempenhar missão oficial, a fim de participar da 31ª Conferência das Partes da Convenção-Quadro das Nações Unidas sobre Mudança do Clima (COP31), em Antália, Turquia.",
+          "data": "2026-11-03",
+          "autorPrincipal": true
+        },
+        {
+          "id": "176179",
+          "identificacao": "PEC 20/2026",
+          "sigla": "PEC",
+          "numero": "20",
+          "ano": 2026,
+          "ementa": "Dá nova redação ao art. 228 da Constituição Federal para alterar a maioridade penal.",
+          "data": "2026-11-03",
+          "autorPrincipal": false
+        },
         {
           "id": "175350",
           "identificacao": "RQS 566/2026",
@@ -3366,7 +3386,7 @@
         },
         {
           "sigla": "REQ",
-          "total": 72
+          "total": 73
         },
         {
           "sigla": "PL",
@@ -3374,7 +3394,7 @@
         },
         {
           "sigla": "PEC",
-          "total": 25
+          "total": 26
         },
         {
           "sigla": "R.S",
@@ -3410,6 +3430,36 @@
         "fim": "2031-01-31"
       },
       "materias": [
+        {
+          "id": "176168",
+          "identificacao": "RQS 738/2026",
+          "sigla": "RQS",
+          "numero": "738",
+          "ano": 2026,
+          "ementa": "Requer voto de repúdio à Câmara dos Deputados, pela conduta inadmissível, arbitrária e profundamente atentatória à liberdade de imprensa praticada por agentes da Polícia Legislativa da Câmara dos Deputados contra a jornalista Déborah Sena.",
+          "data": "2026-11-03",
+          "autorPrincipal": true
+        },
+        {
+          "id": "176176",
+          "identificacao": "RQS 743/2026",
+          "sigla": "RQS",
+          "numero": "743",
+          "ano": 2026,
+          "ementa": "Requer voto de pesar pelo falecimento do Sr. Juracy Lemos.",
+          "data": "2026-11-03",
+          "autorPrincipal": true
+        },
+        {
+          "id": "176178",
+          "identificacao": "PEC 19/2026",
+          "sigla": "PEC",
+          "numero": "19",
+          "ano": 2026,
+          "ementa": "Dá nova redação ao art. 228 da Constituição Federal para alterar a maioridade penal.",
+          "data": "2026-11-03",
+          "autorPrincipal": false
+        },
         {
           "id": "176149",
           "identificacao": "RQS 734/2026",
@@ -7984,7 +8034,7 @@
       "materiasPorTipo": [
         {
           "sigla": "RQS",
-          "total": 214
+          "total": 216
         },
         {
           "sigla": "REQ",
@@ -7992,7 +8042,7 @@
         },
         {
           "sigla": "PEC",
-          "total": 62
+          "total": 63
         },
         {
           "sigla": "PL",
@@ -8052,6 +8102,16 @@
         "fim": "2027-01-31"
       },
       "materias": [
+        {
+          "id": "176178",
+          "identificacao": "PEC 19/2026",
+          "sigla": "PEC",
+          "numero": "19",
+          "ano": 2026,
+          "ementa": "Dá nova redação ao art. 228 da Constituição Federal para alterar a maioridade penal.",
+          "data": "2026-11-03",
+          "autorPrincipal": false
+        },
         {
           "id": "175924",
           "identificacao": "REQ 348/2026 - CDIR",
@@ -11110,7 +11170,7 @@
         },
         {
           "sigla": "PEC",
-          "total": 68
+          "total": 69
         },
         {
           "sigla": "REQ",
@@ -11153,6 +11213,134 @@
     }
   ],
   "votacoes": [
+    {
+      "id": "7109-1",
+      "data": "2026-11-03",
+      "materia": "PEC 18/2025",
+      "ementa": "Altera os arts. 5º, 15, 22, 23, 24, 40, 49, 84, 103-B, 130-A e 144 da Constituição Federal e o art.76 do Ato das Disposições Constitucionais Transitórias; acrescenta os arts. 144-A e 144-B à Constituição Federal e os arts. 139, 140 e 141 ao Ato das Disposições Constitucionais Transitórias; e dá outras providências.",
+      "descricao": "Votação nominal dos Requerimentos nºs 741 e 742, de 2026, do Relator, para que as Emendas nºs 84 e 87 passem a constituir proposições em separado.",
+      "resultado": "Aprovado",
+      "secreta": false,
+      "votosDoEstado": [
+        {
+          "idExterno": 5953,
+          "nome": "Fabiano Contarato",
+          "partido": "PT",
+          "registro": "Sim",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 631,
+          "nome": "Magno Malta",
+          "partido": "PL",
+          "registro": "P-NRV",
+          "voto": "P-NRV"
+        },
+        {
+          "idExterno": 5942,
+          "nome": "Marcos do Val",
+          "partido": "AVANTE",
+          "registro": "Não",
+          "voto": "Não"
+        }
+      ]
+    },
+    {
+      "id": "7110-2",
+      "data": "2026-11-03",
+      "materia": "PEC 18/2025",
+      "ementa": "Altera os arts. 5º, 15, 22, 23, 24, 40, 49, 84, 103-B, 130-A e 144 da Constituição Federal e o art.76 do Ato das Disposições Constitucionais Transitórias; acrescenta os arts. 144-A e 144-B à Constituição Federal e os arts. 139, 140 e 141 ao Ato das Disposições Constitucionais Transitórias; e dá outras providências.",
+      "descricao": "Votação nominal da Proposta de Emenda à Constituição nº 18, de 2025, nos termos dos pareceres, ressalvado o destaque (1º Turno).",
+      "resultado": "Aprovado",
+      "secreta": false,
+      "votosDoEstado": [
+        {
+          "idExterno": 5953,
+          "nome": "Fabiano Contarato",
+          "partido": "PT",
+          "registro": "Sim",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 631,
+          "nome": "Magno Malta",
+          "partido": "PL",
+          "registro": "P-NRV",
+          "voto": "P-NRV"
+        },
+        {
+          "idExterno": 5942,
+          "nome": "Marcos do Val",
+          "partido": "AVANTE",
+          "registro": "P-NRV",
+          "voto": "P-NRV"
+        }
+      ]
+    },
+    {
+      "id": "7111-3",
+      "data": "2026-11-03",
+      "materia": "PEC 18/2025",
+      "ementa": "Altera os arts. 5º, 15, 22, 23, 24, 40, 49, 84, 103-B, 130-A e 144 da Constituição Federal e o art.76 do Ato das Disposições Constitucionais Transitórias; acrescenta os arts. 144-A e 144-B à Constituição Federal e os arts. 139, 140 e 141 ao Ato das Disposições Constitucionais Transitórias; e dá outras providências.",
+      "descricao": "Votação nominal da Emenda nº 85 à Proposta de Emenda à Constituição nº 18, de 2025, nos termos do acordo de Plenário.",
+      "resultado": "Aprovado",
+      "secreta": false,
+      "votosDoEstado": [
+        {
+          "idExterno": 5953,
+          "nome": "Fabiano Contarato",
+          "partido": "PT",
+          "registro": "Sim",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 631,
+          "nome": "Magno Malta",
+          "partido": "PL",
+          "registro": "Sim",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 5942,
+          "nome": "Marcos do Val",
+          "partido": "AVANTE",
+          "registro": "P-NRV",
+          "voto": "P-NRV"
+        }
+      ]
+    },
+    {
+      "id": "7112-4",
+      "data": "2026-11-03",
+      "materia": "PEC 18/2025",
+      "ementa": "Altera os arts. 5º, 15, 22, 23, 24, 40, 49, 84, 103-B, 130-A e 144 da Constituição Federal e o art.76 do Ato das Disposições Constitucionais Transitórias; acrescenta os arts. 144-A e 144-B à Constituição Federal e os arts. 139, 140 e 141 ao Ato das Disposições Constitucionais Transitórias; e dá outras providências.",
+      "descricao": "Votação nominal da Proposta de Emenda à Constituição nº 18, de 2025, nos termos do parecer da Comissão Diretora (2º Turno).",
+      "resultado": "Aprovado",
+      "secreta": false,
+      "votosDoEstado": [
+        {
+          "idExterno": 5953,
+          "nome": "Fabiano Contarato",
+          "partido": "PT",
+          "registro": "Sim",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 631,
+          "nome": "Magno Malta",
+          "partido": "PL",
+          "registro": "Sim",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 5942,
+          "nome": "Marcos do Val",
+          "partido": "AVANTE",
+          "registro": "Sim",
+          "voto": "Sim"
+        }
+      ]
+    },
     {
       "id": "7108-1",
       "data": "2026-10-15",

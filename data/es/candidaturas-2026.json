@@ -9,7 +9,7 @@
     "idEleicao": "20322002026",
     "uf": "ES"
   },
-  "coletadoEm": "2026-11-03T17:03:24.303Z",
+  "coletadoEm": "2026-11-04T17:15:53.142Z",
   "total": 577,
   "candidaturas": [
     {
@@ -47800,9 +47800,9 @@
         "nome": "PARTIDO NOVO"
       },
       "coligacao": "NOVO",
-      "situacaoRegistro": "Indeferido em prazo recursal ou com recurso",
+      "situacaoRegistro": "Indeferido",
       "situacaoCandidatura": "Consta da urna",
-      "apto": true,
+      "apto": false,
       "disputaReeleicao": false,
       "dataNascimento": "1972-03-14",
       "genero": "MASC.",
