@@ -9,7 +9,7 @@
     "idEleicao": "20322002026",
     "uf": "ES"
   },
-  "coletadoEm": "2026-11-04T17:15:53.142Z",
+  "coletadoEm": "2026-11-05T17:27:25.468Z",
   "total": 577,
   "candidaturas": [
     {
@@ -28090,91 +28090,14 @@
       "naturalidade": "ES-SÃO GABRIEL DA PALHA",
       "bens": [
         {
-          "ordem": 1,
-          "tipo": "Depósito bancário em conta corrente no País",
-          "descricao": "DINHEIRO EM BANCOS E EM PODER DO DECLARANTE.",
-          "valor": 1450000,
-          "atualizadoEm": "2026-08-03"
-        },
-        {
-          "ordem": 2,
-          "tipo": "Terreno",
-          "descricao": "LOTE DE TERRA EM AGUIA BRANCA",
-          "valor": 5000,
-          "atualizadoEm": "2026-08-03"
-        },
-        {
-          "ordem": 3,
-          "tipo": "Veículo automotor terrestre: caminhão, automóvel, moto, etc.",
-          "descricao": "CAMINHONETE DODGE RAM",
-          "valor": 310000,
-          "atualizadoEm": "2026-08-03"
-        },
-        {
-          "ordem": 4,
-          "tipo": "Fundos: Ações, Mútuos de Privatização, Invest. Empresas Emergentes, Invest.Participação e Invest. Índice Mercado",
-          "descricao": "BB AUTOMATICO ESTILO",
-          "valor": 636.53,
-          "atualizadoEm": "2026-08-03"
-        },
-        {
-          "ordem": 5,
-          "tipo": "Depósito bancário em conta corrente no País",
-          "descricao": "CONTA CORRENTE SICOOB",
-          "valor": 53758.34,
-          "atualizadoEm": "2026-08-03"
-        },
-        {
-          "ordem": 6,
-          "tipo": "Depósito bancário em conta corrente no País",
-          "descricao": "CONTA CORRENTE BANESTES",
-          "valor": 0.01,
-          "atualizadoEm": "2026-08-03"
-        },
-        {
-          "ordem": 7,
-          "tipo": "Depósito bancário em conta corrente no País",
-          "descricao": "POUPANCA BANCO COOPERATIVO DO BRASIL",
-          "valor": 22216.57,
-          "atualizadoEm": "2026-08-03"
-        },
-        {
           "ordem": 8,
           "tipo": "Quotas ou quinhões de capital",
           "descricao": "CAPITAL INTEGRALIZADO NA COOPERATIVA DE CRÉDITO NORTE DO ESPÍRITO SANTO",
           "valor": 182713.02,
           "atualizadoEm": "2026-08-03"
-        },
-        {
-          "ordem": 9,
-          "tipo": "Depósito bancário em conta corrente no País",
-          "descricao": "POUPANCA NO BANESTES",
-          "valor": 3239.83,
-          "atualizadoEm": "2026-08-03"
-        },
-        {
-          "ordem": 10,
-          "tipo": "Aplicação de renda fixa (CDB, RDB e outros)",
-          "descricao": "APLICAÇÃO SICOOB",
-          "valor": 10.06,
-          "atualizadoEm": "2026-08-03"
-        },
-        {
-          "ordem": 11,
-          "tipo": "Depósito bancário em conta corrente no País",
-          "descricao": "CONTA CAPITAL COOABRIEL",
-          "valor": 38757.2,
-          "atualizadoEm": "2026-08-03"
-        },
-        {
-          "ordem": 12,
-          "tipo": "Quotas ou quinhões de capital",
-          "descricao": "PARTICIPAÇÃO SOCIETARIA HOTEL E RESTAURANTE GRANITO LTDA ME",
-          "valor": 5000,
-          "atualizadoEm": "2026-08-03"
         }
       ],
-      "totalBens": 2071331.56,
+      "totalBens": 182713.02,
       "proposta": {
         "exigida": false,
         "documento": null
@@ -28451,37 +28374,8 @@
       "escolaridade": "Superior completo",
       "ocupacao": "Outros",
       "naturalidade": "ES-VILA VELHA",
-      "bens": [
-        {
-          "ordem": 1,
-          "tipo": "Apartamento",
-          "descricao": "50% DE APARTAMENTO  PRAIA DE ITAPARICA",
-          "valor": 450000,
-          "atualizadoEm": "2026-08-12"
-        },
-        {
-          "ordem": 2,
-          "tipo": "Terreno",
-          "descricao": "50% DE TERRENO  DOMINGOS MARTINS",
-          "valor": 425000,
-          "atualizadoEm": "2026-08-12"
-        },
-        {
-          "ordem": 3,
-          "tipo": "VGBL - Vida Gerador de Benefício Livre",
-          "descricao": "PREVIDÊNCIA PRIVADA  CAIXA ECONÔMICA FEDERAL",
-          "valor": 4251.7,
-          "atualizadoEm": "2026-08-12"
-        },
-        {
-          "ordem": 4,
-          "tipo": "Dinheiro em espécie - moeda nacional",
-          "descricao": "VALOR EM MOEDA CORRENTE",
-          "valor": 80000,
-          "atualizadoEm": "2026-08-12"
-        }
-      ],
-      "totalBens": 959251.7,
+      "bens": [],
+      "totalBens": 0,
       "proposta": {
         "exigida": false,
         "documento": null
@@ -28758,28 +28652,14 @@
       "naturalidade": "SP-GUARATINGUETÁ",
       "bens": [
         {
-          "ordem": 1,
-          "tipo": "Aplicação de renda fixa (CDB, RDB e outros)",
-          "descricao": "APLICAÇÃO EM CDB CAIXA ECONOMICA FEDERAL",
-          "valor": 90000,
-          "atualizadoEm": "2026-08-03"
-        },
-        {
           "ordem": 2,
           "tipo": "Apartamento",
           "descricao": "APARTAMENTO NO CONDOMINIO PLANO CEM",
           "valor": 520000,
           "atualizadoEm": "2026-08-03"
-        },
-        {
-          "ordem": 3,
-          "tipo": "Veículo automotor terrestre: caminhão, automóvel, moto, etc.",
-          "descricao": "TIGGO 7 2025",
-          "valor": 130000,
-          "atualizadoEm": "2026-08-03"
         }
       ],
-      "totalBens": 740000,
+      "totalBens": 520000,
       "proposta": {
         "exigida": false,
         "documento": null
@@ -28867,16 +28747,8 @@
       "escolaridade": "Superior completo",
       "ocupacao": "Deputada/Deputado",
       "naturalidade": "ES-VITÓRIA",
-      "bens": [
-        {
-          "ordem": 1,
-          "tipo": "Apartamento",
-          "descricao": "APARTAMENTO RESIDENCIAL FINANCIADO",
-          "valor": 850000,
-          "atualizadoEm": "2026-08-12"
-        }
-      ],
-      "totalBens": 850000,
+      "bens": [],
+      "totalBens": 0,
       "proposta": {
         "exigida": false,
         "documento": null
@@ -28993,37 +28865,8 @@
       "escolaridade": "Superior completo",
       "ocupacao": "Policial militar",
       "naturalidade": "ES-VILA VELHA",
-      "bens": [
-        {
-          "ordem": 1,
-          "tipo": "Dinheiro em espécie - moeda nacional",
-          "descricao": "DINHEIRO",
-          "valor": 19000,
-          "atualizadoEm": "2026-08-12"
-        },
-        {
-          "ordem": 2,
-          "tipo": "Veículo automotor terrestre: caminhão, automóvel, moto, etc.",
-          "descricao": "MOTO YAMAHA",
-          "valor": 50000,
-          "atualizadoEm": "2026-08-12"
-        },
-        {
-          "ordem": 3,
-          "tipo": "Caderneta de poupança",
-          "descricao": "POUPANÇA",
-          "valor": 10000,
-          "atualizadoEm": "2026-08-12"
-        },
-        {
-          "ordem": 4,
-          "tipo": "Depósito bancário em conta corrente no País",
-          "descricao": "CONTA CORRENTE",
-          "valor": 20000,
-          "atualizadoEm": "2026-08-12"
-        }
-      ],
-      "totalBens": 99000,
+      "bens": [],
+      "totalBens": 0,
       "proposta": {
         "exigida": false,
         "documento": null
@@ -29432,13 +29275,6 @@
           "atualizadoEm": "2026-08-03"
         },
         {
-          "ordem": 4,
-          "tipo": "Outros bens móveis",
-          "descricao": "1 IMÓVEL RURAL NA PRAIA DE URUSSUQUARA EM SAO MATEUS ES",
-          "valor": 250000,
-          "atualizadoEm": "2026-08-03"
-        },
-        {
           "ordem": 5,
           "tipo": "Veículo automotor terrestre: caminhão, automóvel, moto, etc.",
           "descricao": "1 CARRO CHEVROLET ONIX ANO 2019",
@@ -29446,7 +29282,7 @@
           "atualizadoEm": "2026-08-03"
         }
       ],
-      "totalBens": 1079000,
+      "totalBens": 829000,
       "proposta": {
         "exigida": false,
         "documento": null

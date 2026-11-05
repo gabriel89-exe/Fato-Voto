@@ -6,12 +6,12 @@
   },
   "uf": "ES",
   "legislatura": 57,
-  "coletadoEm": "2026-11-03T17:05:04.300Z",
+  "coletadoEm": "2026-11-05T17:29:17.701Z",
   "referencia": {
     "bancada": 10,
-    "medianaDespesas": 1941946.225000003,
-    "menor": 1440053.8599999896,
-    "maior": 2007793.8599999999
+    "medianaDespesas": 1942640.3650000028,
+    "menor": 1440691.8599999899,
+    "maior": 2008043.8599999999
   },
   "parlamentares": [
     {
@@ -35,8 +35,8 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/204356.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/204356",
       "despesas": {
-        "total": 1865510.090000002,
-        "documentos": 1053,
+        "total": 1866608.9000000018,
+        "documentos": 1058,
         "porTipo": [
           {
             "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
@@ -411,14 +411,14 @@
           },
           {
             "tipo": "COMBUSTÍVEIS E LUBRIFICANTES.",
-            "valor": 75275.00999999998,
-            "notas": 371,
+            "valor": 76373.82,
+            "notas": 376,
             "fornecedores": [
               {
                 "nome": "POSTO CIBIEN DE COMBUSTIVEIS LTDA",
                 "cnpjCpf": "52408644000117",
-                "total": 11804.070000000002,
-                "notas": 41,
+                "total": 12112.880000000003,
+                "notas": 42,
                 "outrosNomes": [
                   "POSTO CIBIEN DE COMBUSTIVEIS LTDA."
                 ]
@@ -709,7 +709,7 @@
           },
           {
             "competencia": "2026-10",
-            "valor": 4653.55
+            "valor": 5752.36
           }
         ],
         "fornecedores": [
@@ -997,8 +997,8 @@
           }
         ],
         "comprovantes": {
-          "com": 717,
-          "total": 1053
+          "com": 722,
+          "total": 1058
         }
       },
       "proposicoes": {
@@ -1288,13 +1288,13 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/204355.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/204355",
       "despesas": {
-        "total": 1972810.3500000034,
-        "documentos": 1447,
+        "total": 1976241.2800000035,
+        "documentos": 1453,
         "porTipo": [
           {
             "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
-            "valor": 817492.3899999999,
-            "notas": 450,
+            "valor": 820923.32,
+            "notas": 456,
             "fornecedores": [
               {
                 "nome": "ATIVE ENGENHARIA LTDA",
@@ -1334,15 +1334,15 @@
               {
                 "nome": "CONDOMINIO DO EDIFICIO PETRO TOWER",
                 "cnpjCpf": "06788256000191",
-                "total": 60094.510000000046,
-                "notas": 109,
+                "total": 61859.750000000044,
+                "notas": 112,
                 "outrosNomes": []
               },
               {
                 "nome": "EDP ESPIRITO SANTO DISTRIBUICAO DE ENERGIA S.A.",
                 "cnpjCpf": "28152650000171",
-                "total": 31971.269999999993,
-                "notas": 92,
+                "total": 33636.959999999985,
+                "notas": 95,
                 "outrosNomes": [
                   "0EDP ESPIRITO SANTO DISTRIBUICAO DE ENERGIA S.A."
                 ]
@@ -2167,15 +2167,19 @@
           },
           {
             "competencia": "2026-07",
-            "valor": 62449.84
+            "valor": 62549.42
           },
           {
             "competencia": "2026-08",
-            "valor": 41863.97000000001
+            "valor": 42667.13000000001
           },
           {
             "competencia": "2026-09",
-            "valor": 25109.89
+            "valor": 25872.84
+          },
+          {
+            "competencia": "2026-10",
+            "valor": 1765.2400000000002
           }
         ],
         "fornecedores": [
@@ -2261,8 +2265,8 @@
           {
             "nome": "CONDOMINIO DO EDIFICIO PETRO TOWER",
             "cnpjCpf": "06788256000191",
-            "total": 60094.510000000046,
-            "notas": 109,
+            "total": 61859.750000000044,
+            "notas": 112,
             "outrosNomes": []
           },
           {
@@ -2281,8 +2285,8 @@
           }
         ],
         "glosas": {
-          "quantidade": 280,
-          "valor": 20731.87000000003,
+          "quantidade": 286,
+          "valor": 20853.000000000033,
           "exemplos": [
             {
               "id": "7567919",
@@ -2459,8 +2463,8 @@
           }
         ],
         "comprovantes": {
-          "com": 729,
-          "total": 1447
+          "com": 735,
+          "total": 1453
         }
       },
       "proposicoes": {
@@ -4173,8 +4177,8 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/178871.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/178871",
       "despesas": {
-        "total": 2007793.8599999999,
-        "documentos": 1619,
+        "total": 2008043.8599999999,
+        "documentos": 1621,
         "porTipo": [
           {
             "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
@@ -4469,8 +4473,8 @@
           },
           {
             "tipo": "COMBUSTÍVEIS E LUBRIFICANTES.",
-            "valor": 250996.55000000008,
-            "notas": 525,
+            "valor": 251246.55000000008,
+            "notas": 527,
             "fornecedores": [
               {
                 "nome": "AUTO POSTO ESMIG LTDA",
@@ -4496,8 +4500,8 @@
               {
                 "nome": "Posto de Combustiveis Garantia Ltda",
                 "cnpjCpf": "72578438000243",
-                "total": 4363.48,
-                "notas": 37,
+                "total": 4463.48,
+                "notas": 38,
                 "outrosNomes": []
               },
               {
@@ -5292,7 +5296,7 @@
           },
           {
             "competencia": "2026-10",
-            "valor": 3282.23
+            "valor": 3532.23
           }
         ],
         "fornecedores": [
@@ -5594,8 +5598,8 @@
           }
         ],
         "comprovantes": {
-          "com": 1210,
-          "total": 1619
+          "com": 1212,
+          "total": 1621
         }
       },
       "proposicoes": {
@@ -5801,6 +5805,11 @@
             "total": 3
           },
           {
+            "tipo": "Projeto de Decreto Legislativo",
+            "sigla": "PDL",
+            "total": 3
+          },
+          {
             "tipo": "Requerimento de Retirada de Proposição de Iniciativa Coletiva",
             "sigla": "REQ",
             "total": 3
@@ -5808,11 +5817,6 @@
           {
             "tipo": "Recurso contra devolução de proposição (Art. 137, § 2º, RICD)",
             "sigla": "REC",
-            "total": 2
-          },
-          {
-            "tipo": "Projeto de Decreto Legislativo",
-            "sigla": "PDL",
             "total": 2
           },
           {
@@ -5882,6 +5886,16 @@
           }
         ],
         "recentes": [
+          {
+            "id": 2650107,
+            "sigla": "PDL",
+            "tipo": "Projeto de Decreto Legislativo",
+            "numero": 1030,
+            "ano": 2026,
+            "ementa": "Susta os efeitos da Portaria CGPCIND/DSPRAD/SEDIGI nº 2.272, de 28 de outubro de 2026, do Ministério da Justiça e Segurança Pública, que atribui classificação indicativa de não recomendado para menores de doze anos ao programa televisivo “Record Kids – Desenhos Bíblicos”.",
+            "apresentadaEm": "2026-11-03T18:56",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2650107"
+          },
           {
             "id": 2649759,
             "sigla": "REQ",
@@ -5971,16 +5985,6 @@
             "ementa": "Requer informações ao Ministro de Estado dos Transportes, ouvido o Departamento Nacional de Infraestrutura de Transportes (DNIT), acerca de contratos administrativos, pagamentos, reuniões institucionais e possíveis irregularidades envolvendo a Empresa Construtora Brasil (ECB), o grupo Mota-Engil, o empresário Amauri Rodrigues Pinha, empresas vinculadas a Eduardo José Barros Costa e eventuais relações com a empresária Roberta Luchsinger e Fábio Luís Lula da Silva.",
             "apresentadaEm": "2026-10-20T16:29",
             "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2648597"
-          },
-          {
-            "id": 2648593,
-            "sigla": "RIC",
-            "tipo": "Requerimento de Informação",
-            "numero": 2785,
-            "ano": 2026,
-            "ementa": "Requer informações ao Ministro de Estado da Educação acerca de reuniões, encontros, comunicações institucionais, procedimentos administrativos, contratos e eventuais situações de conflito de interesses envolvendo o Ministro Leonardo Osvaldo Barchini Rosa, a empresária Roberta Luchsinger, Fábio Luís Lula da Silva e pessoas físicas ou jurídicas a eles relacionadas, diante de notícias sobre encontros privados realizados durante o exercício de funções públicas no Ministério da Educação",
-            "apresentadaEm": "2026-10-20T16:29",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2648593"
           }
         ]
       }
@@ -6005,8 +6009,8 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/220529.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/220529",
       "despesas": {
-        "total": 1937805.760000002,
-        "documentos": 1462,
+        "total": 1939194.040000002,
+        "documentos": 1468,
         "porTipo": [
           {
             "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
@@ -6293,8 +6297,8 @@
           },
           {
             "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
-            "valor": 195541.3099999999,
-            "notas": 176,
+            "valor": 195728.2099999999,
+            "notas": 178,
             "fornecedores": [
               {
                 "nome": "Emmanuel Roberto Vieira de Moraes",
@@ -6340,8 +6344,8 @@
               {
                 "nome": "EDP ESPIRITO SANTO DISTRIBUICAO DE ENERGIA S.A.",
                 "cnpjCpf": "28152650000171",
-                "total": 2807.6500000000005,
-                "notas": 26,
+                "total": 2938.6800000000003,
+                "notas": 27,
                 "outrosNomes": [
                   "0EDP ESPIRITO SANTO DISTRIBUICAO DE ENERGIA S.A."
                 ]
@@ -6411,8 +6415,8 @@
           },
           {
             "tipo": "COMBUSTÍVEIS E LUBRIFICANTES.",
-            "valor": 135616.90000000002,
-            "notas": 683,
+            "valor": 136818.28000000003,
+            "notas": 687,
             "fornecedores": [
               {
                 "nome": "063 - 311 SUL - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
@@ -7033,11 +7037,11 @@
           },
           {
             "competencia": "2026-09",
-            "valor": 14150
+            "valor": 14336.9
           },
           {
             "competencia": "2026-10",
-            "valor": 18846.38
+            "valor": 20047.759999999995
           }
         ],
         "fornecedores": [
@@ -7140,8 +7144,8 @@
           }
         ],
         "glosas": {
-          "quantidade": 71,
-          "valor": 4174.749999999997,
+          "quantidade": 72,
+          "valor": 4176.879999999997,
           "exemplos": [
             {
               "id": "7889549",
@@ -7318,8 +7322,8 @@
           }
         ],
         "comprovantes": {
-          "com": 1156,
-          "total": 1462
+          "com": 1162,
+          "total": 1468
         }
       },
       "proposicoes": {
@@ -7347,7 +7351,7 @@
           {
             "tipo": "Projeto de Lei",
             "sigla": "PL",
-            "total": 55
+            "total": 59
           },
           {
             "tipo": "Proposta de Emenda à Constituição",
@@ -7502,6 +7506,46 @@
         ],
         "recentes": [
           {
+            "id": 2650853,
+            "sigla": "PL",
+            "tipo": "Projeto de Lei",
+            "numero": 5763,
+            "ano": 2026,
+            "ementa": "Altera a Lei nº 15.202, de 11 de setembro de 2025, para autorizar a criação da Carteira Nacional dos Profissionais da Educação (CNPE), e dá outras providências.",
+            "apresentadaEm": "2026-11-04T16:23",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2650853"
+          },
+          {
+            "id": 2650845,
+            "sigla": "PL",
+            "tipo": "Projeto de Lei",
+            "numero": 5762,
+            "ano": 2026,
+            "ementa": "Altera a Lei nº 9.250, de 26 de dezembro de 1995, e a Lei nº 9.532, de 10 de dezembro de 1997, para permitir a dedução das contribuições associativas e sindicais destinadas a entidades representativas de trabalhadores, de servidores públicos e de empregados públicos na determinação da base de cálculo do Imposto sobre a Renda das Pessoas Físicas.",
+            "apresentadaEm": "2026-11-04T16:23",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2650845"
+          },
+          {
+            "id": 2650404,
+            "sigla": "PL",
+            "tipo": "Projeto de Lei",
+            "numero": 5748,
+            "ano": 2026,
+            "ementa": "Institui o Programa Nacional de Transição Protegida para o Trabalho e o Empreendedorismo — Emprego Sem Medo, estabelece proteção temporária do Programa Bolsa Família para as famílias em processo de inclusão produtiva, cria incentivo condicionado à contratação adicional de trabalhadores e dispõe sobre qualificação, fiscalização, avaliação e responsabilidade fiscal.",
+            "apresentadaEm": "2026-11-04T10:24",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2650404"
+          },
+          {
+            "id": 2649800,
+            "sigla": "PL",
+            "tipo": "Projeto de Lei",
+            "numero": 5731,
+            "ano": 2026,
+            "ementa": "Altera a legislação eleitoral para instituir o voto distrital misto para a eleição de representantes da Câmara dos Deputados, Assembleias Legislativas, Câmara Legislativa e das Câmaras Municipais dos Municípios com mais de duzentos mil eleitores.",
+            "apresentadaEm": "2026-11-03T14:29",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649800"
+          },
+          {
             "id": 2649030,
             "sigla": "REC",
             "tipo": "Recurso contra apreciação conclusiva de comissão (Art. 58, § 1º c/c art. 132, § 2º, RICD)",
@@ -7560,46 +7604,6 @@
             "ementa": "Altera a Lei nº 9.503, de 23 de setembro de 1997, que institui o Código de Trânsito Brasileiro, para instituir o Registro Nacional de Bicicletas Elétricas – RENABE e estabelecer a obrigatoriedade de identificação das bicicletas elétricas.",
             "apresentadaEm": "2026-07-01T17:13",
             "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2636461"
-          },
-          {
-            "id": 2631662,
-            "sigla": "RIC",
-            "tipo": "Requerimento de Informação",
-            "numero": 1779,
-            "ano": 2026,
-            "ementa": "Solicita informações ao Sr. Ministro de Estado dos Transportes, com a interveniência da Agência Nacional de Transportes Terrestres – ANTT, acerca dos recursos do Programa de Recursos para Preservação da Memória Ferroviária – RPMF, bem como dos projetos em análise e em execução no âmbito do programa.",
-            "apresentadaEm": "2026-06-10T18:53",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2631662"
-          },
-          {
-            "id": 2631190,
-            "sigla": "PEC",
-            "tipo": "Proposta de Emenda à Constituição",
-            "numero": 13,
-            "ano": 2026,
-            "ementa": "Altera o art. 9º da Emenda Constitucional nº 132, de 20 de dezembro de 2023, para permitir a concessão de créditos do Imposto sobre Bens e Serviços através de fomento indireto a doadores e patrocinadores de projetos culturais e esportivos.",
-            "apresentadaEm": "2026-06-10T12:08",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2631190"
-          },
-          {
-            "id": 2628114,
-            "sigla": "REQ",
-            "tipo": "Requerimento de Inclusão de Matéria na Ordem do Dia",
-            "numero": 3210,
-            "ano": 2026,
-            "ementa": "Solicita a realização de esforço concentrado com a inclusão na pauta do Plenário da Câmara dos Deputados das proposições que tratam da Gestão do Risco e Desastres e Cooperação Humanitária, Proteção e Defesa Civil, diante dos riscos associados ao fenômeno climático El Niño 2026/2027.",
-            "apresentadaEm": "2026-05-27T10:00",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2628114"
-          },
-          {
-            "id": 2627420,
-            "sigla": "PL",
-            "tipo": "Projeto de Lei",
-            "numero": 2575,
-            "ano": 2026,
-            "ementa": "Institui o Sistema Nacional de Proteção Animal e Rede de Apoio (SINAPRA), e dá outras providências.",
-            "apresentadaEm": "2026-05-25T13:01",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2627420"
           }
         ]
       }
@@ -7624,8 +7628,8 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/220526.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/220526",
       "despesas": {
-        "total": 1653305.99,
-        "documentos": 1847,
+        "total": 1664851.38,
+        "documentos": 1854,
         "porTipo": [
           {
             "tipo": "PASSAGEM AÉREA - SIGEPA",
@@ -7817,14 +7821,14 @@
           },
           {
             "tipo": "LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES",
-            "valor": 365336.1000000001,
-            "notas": 93,
+            "valor": 375336.1000000001,
+            "notas": 94,
             "fornecedores": [
               {
                 "nome": "NOVACAR LOCADORA DE VEICULOS LTDA",
                 "cnpjCpf": "19374791000148",
-                "total": 332028.2,
-                "notas": 71,
+                "total": 342028.2,
+                "notas": 72,
                 "outrosNomes": [
                   "NOVACAR LOCADORA DE VEICULOS LTDA.",
                   "Novacar Locadora de Veículos Ltda"
@@ -7867,6 +7871,15 @@
             ],
             "maiores": [
               {
+                "id": "8167133",
+                "data": "2026-10-05",
+                "tipo": "LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES",
+                "valor": 10000,
+                "fornecedor": "NOVACAR LOCADORA DE VEICULOS LTDA",
+                "cnpjCpf": "19374791000148",
+                "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3650/2026/8167133.pdf"
+              },
+              {
                 "id": "8162832",
                 "data": "2026-10-05",
                 "tipo": "LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES",
@@ -7901,22 +7914,13 @@
                 "fornecedor": "Novacar Locadora de Veículos Ltda",
                 "cnpjCpf": "19374791000148",
                 "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3650/2024/7719175.pdf"
-              },
-              {
-                "id": "7735374",
-                "data": "2024-05-09",
-                "tipo": "LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES",
-                "valor": 7200,
-                "fornecedor": "Novacar Locadora de Veículos Ltda",
-                "cnpjCpf": "19374791000148",
-                "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3650/2024/7735374.pdf"
               }
             ]
           },
           {
             "tipo": "COMBUSTÍVEIS E LUBRIFICANTES.",
-            "valor": 138191.28000000003,
-            "notas": 791,
+            "valor": 138868.67,
+            "notas": 795,
             "fornecedores": [
               {
                 "nome": "071 - LAGO NORTE - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
@@ -8145,8 +8149,8 @@
           },
           {
             "tipo": "HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.",
-            "valor": 124521.33999999987,
-            "notas": 243,
+            "valor": 125389.33999999988,
+            "notas": 245,
             "fornecedores": [
               {
                 "nome": "FOUR TOWERS HOTELS LTDA",
@@ -8701,10 +8705,24 @@
           },
           {
             "competencia": "2026-10",
-            "valor": 9814.73
+            "valor": 21163.120000000003
+          },
+          {
+            "competencia": "2026-11",
+            "valor": 197
           }
         ],
         "fornecedores": [
+          {
+            "nome": "NOVACAR LOCADORA DE VEICULOS LTDA",
+            "cnpjCpf": "19374791000148",
+            "total": 342028.2,
+            "notas": 72,
+            "outrosNomes": [
+              "NOVACAR LOCADORA DE VEICULOS LTDA.",
+              "Novacar Locadora de Veículos Ltda"
+            ]
+          },
           {
             "nome": "LATAM Airlines Brasil",
             "cnpjCpf": "02012862000160",
@@ -8713,16 +8731,6 @@
             "outrosNomes": [
               "TAM",
               "Cia Aérea - TAM"
-            ]
-          },
-          {
-            "nome": "NOVACAR LOCADORA DE VEICULOS LTDA",
-            "cnpjCpf": "19374791000148",
-            "total": 332028.2,
-            "notas": 71,
-            "outrosNomes": [
-              "NOVACAR LOCADORA DE VEICULOS LTDA.",
-              "Novacar Locadora de Veículos Ltda"
             ]
           },
           {
@@ -8984,8 +8992,8 @@
           }
         ],
         "comprovantes": {
-          "com": 1352,
-          "total": 1847
+          "com": 1359,
+          "total": 1854
         }
       },
       "proposicoes": {
@@ -9285,8 +9293,8 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/178873.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/178873",
       "despesas": {
-        "total": 1440053.8599999896,
-        "documentos": 2428,
+        "total": 1440691.8599999899,
+        "documentos": 2430,
         "porTipo": [
           {
             "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
@@ -9786,8 +9794,8 @@
           },
           {
             "tipo": "TELEFONIA",
-            "valor": 52218.530000000006,
-            "notas": 45,
+            "valor": 52344.43000000001,
+            "notas": 46,
             "fornecedores": [
               {
                 "nome": "TELEFONICA BRASIL S.A.",
@@ -9812,11 +9820,13 @@
                 ]
               },
               {
-                "nome": "Nextel Telecomunicações ltda",
+                "nome": "CLARO NXT TELECOMUNICACOES S/A",
                 "cnpjCpf": "66970229010472",
-                "total": 321.78,
-                "notas": 3,
-                "outrosNomes": []
+                "total": 447.68,
+                "notas": 4,
+                "outrosNomes": [
+                  "Nextel Telecomunicações ltda"
+                ]
               }
             ],
             "maiores": [
@@ -9983,15 +9993,17 @@
           },
           {
             "tipo": "PASSAGEM AÉREA - REEMBOLSO",
-            "valor": 29566.41999999999,
-            "notas": 28,
+            "valor": 30078.519999999997,
+            "notas": 29,
             "fornecedores": [
               {
-                "nome": "Latam Linhas Aéreas S.A",
+                "nome": "TAM LINHAS AEREAS S/A.",
                 "cnpjCpf": "02012862000160",
-                "total": 23622.569999999992,
-                "notas": 24,
-                "outrosNomes": []
+                "total": 24134.66999999999,
+                "notas": 25,
+                "outrosNomes": [
+                  "Latam Linhas Aéreas S.A"
+                ]
               },
               {
                 "nome": "Azul Linhas Aéreas Inteligentes S.A",
@@ -10359,11 +10371,11 @@
           },
           {
             "competencia": "2026-09",
-            "valor": 10605.79
+            "valor": 10731.69
           },
           {
             "competencia": "2026-10",
-            "valor": 339.74
+            "valor": 851.84
           }
         ],
         "fornecedores": [
@@ -10384,11 +10396,12 @@
             "outrosNomes": []
           },
           {
-            "nome": "LATAM Airlines Brasil",
+            "nome": "TAM LINHAS AEREAS S/A.",
             "cnpjCpf": "02012862000160",
-            "total": 148305.76999999993,
-            "notas": 159,
+            "total": 148817.8699999999,
+            "notas": 160,
             "outrosNomes": [
+              "LATAM Airlines Brasil",
               "Latam Linhas Aéreas S.A",
               "TAM"
             ]
@@ -10661,8 +10674,8 @@
           }
         ],
         "comprovantes": {
-          "com": 2224,
-          "total": 2428
+          "com": 2225,
+          "total": 2430
         }
       },
       "proposicoes": {
@@ -10987,8 +11000,8 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/220527.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/220527",
       "despesas": {
-        "total": 1873956.2399999995,
-        "documentos": 1570,
+        "total": 1876161.2399999998,
+        "documentos": 1571,
         "porTipo": [
           {
             "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
@@ -11253,8 +11266,8 @@
           },
           {
             "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
-            "valor": 257820.8500000001,
-            "notas": 221,
+            "valor": 260025.85000000012,
+            "notas": 222,
             "fornecedores": [
               {
                 "nome": "PRIVILEGE ADMINISTRACAO E NEGOCIOS IMOBILIARIOS LTDA",
@@ -11268,8 +11281,8 @@
               {
                 "nome": "LIBERTY CARTUCHOS LTDA",
                 "cnpjCpf": "03817452000159",
-                "total": 70180,
-                "notas": 38,
+                "total": 72385,
+                "notas": 39,
                 "outrosNomes": [
                   "Liberty Cartuchos LTDA"
                 ]
@@ -11989,7 +12002,7 @@
           },
           {
             "competencia": "2026-10",
-            "valor": 4101.65
+            "valor": 6306.65
           }
         ],
         "fornecedores": [
@@ -12056,8 +12069,8 @@
           {
             "nome": "LIBERTY CARTUCHOS LTDA",
             "cnpjCpf": "03817452000159",
-            "total": 70180,
-            "notas": 38,
+            "total": 72385,
+            "notas": 39,
             "outrosNomes": [
               "Liberty Cartuchos LTDA"
             ]
@@ -12272,8 +12285,8 @@
           }
         ],
         "comprovantes": {
-          "com": 1188,
-          "total": 1570
+          "com": 1189,
+          "total": 1571
         }
       },
       "proposicoes": {
@@ -12291,7 +12304,7 @@
           {
             "tipo": "Emenda na Comissão",
             "sigla": "EMC",
-            "total": 50
+            "total": 51
           },
           {
             "tipo": "Projeto de Lei",
@@ -12306,7 +12319,7 @@
           {
             "tipo": "Requerimento de Moção",
             "sigla": "REQ",
-            "total": 17
+            "total": 18
           },
           {
             "tipo": "Requerimento de Audiência Pública",
@@ -12446,6 +12459,16 @@
         ],
         "recentes": [
           {
+            "id": 2649821,
+            "sigla": "REQ",
+            "tipo": "Requerimento de Moção",
+            "numero": 19,
+            "ano": 2026,
+            "ementa": "Requer aprovação de Moção de Aplauso pela atuação do Ministério Público do Trabalho, da Justiça do Trabalho e do Ministério do Trabalho e Emprego frente à prática ilícita de assédio eleitoral contra trabalhadoras e trabalhadores no processo eleitoral de 2026, inclusive após a proclamação do resultado das eleições.",
+            "apresentadaEm": "2026-11-03T10:24",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649821"
+          },
+          {
             "id": 2649499,
             "sigla": "PL",
             "tipo": "Projeto de Lei",
@@ -12534,16 +12557,6 @@
             "ementa": "Estabelece o marco legal do Registro Nacional de Beneficiários Finais, dispõe sobre a integração, atualização, verificação, interoperabilidade e acesso às informações relativas aos beneficiários finais de pessoas jurídicas e estruturas legais, e fortalece os mecanismos de prevenção à lavagem de dinheiro, corrupção, evasão fiscal, ocultação patrimonial e infiltração da criminaliza organizada na economia formal.",
             "apresentadaEm": "2026-07-06T13:23",
             "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2637237"
-          },
-          {
-            "id": 2631190,
-            "sigla": "PEC",
-            "tipo": "Proposta de Emenda à Constituição",
-            "numero": 13,
-            "ano": 2026,
-            "ementa": "Altera o art. 9º da Emenda Constitucional nº 132, de 20 de dezembro de 2023, para permitir a concessão de créditos do Imposto sobre Bens e Serviços através de fomento indireto a doadores e patrocinadores de projetos culturais e esportivos.",
-            "apresentadaEm": "2026-06-10T12:08",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2631190"
           }
         ]
       }
@@ -13696,7 +13709,7 @@
           {
             "tipo": "Requerimento de Informação",
             "sigla": "RIC",
-            "total": 271
+            "total": 272
           },
           {
             "tipo": "Requerimento de Registro de Frente Parlamentar na Câmara dos Deputados",
@@ -13884,6 +13897,11 @@
             "total": 2
           },
           {
+            "tipo": "Projeto de Decreto Legislativo",
+            "sigla": "PDL",
+            "total": 2
+          },
+          {
             "tipo": "Requerimento de Retirada de Proposição de Iniciativa Coletiva",
             "sigla": "REQ",
             "total": 1
@@ -13934,17 +13952,32 @@
             "total": 1
           },
           {
-            "tipo": "Projeto de Decreto Legislativo",
-            "sigla": "PDL",
-            "total": 1
-          },
-          {
             "tipo": "Requerimento para envio de Indicação pela Comissão",
             "sigla": "REQ",
             "total": 1
           }
         ],
         "recentes": [
+          {
+            "id": 2651193,
+            "sigla": "RIC",
+            "tipo": "Requerimento de Informação",
+            "numero": 2905,
+            "ano": 2026,
+            "ementa": "Requer informações ao Ministro Chefe da Casa Civil da Presidência da República sobre a imposição de sigilo e a recusa de acesso, via Lei de Acesso à Informação (LAI), aos estudos e pareceres jurídicos que embasaram as medidas do pacote eleitoreiro de impacto econômico e regulatório lançado no período eleitoral de 2026.",
+            "apresentadaEm": "2026-11-05T14:18",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2651193"
+          },
+          {
+            "id": 2649978,
+            "sigla": "PDL",
+            "tipo": "Projeto de Decreto Legislativo",
+            "numero": 1026,
+            "ano": 2026,
+            "ementa": "Susta os efeitos da Portaria nº 2.272, de 28 de outubro de 2026, do Ministério da Justiça e Segurança Pública, que alterou a classificação indicativa do programa \"Record Kids – Desenhos Bíblicos\".",
+            "apresentadaEm": "2026-11-03T15:46",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649978"
+          },
           {
             "id": 2649731,
             "sigla": "RIC",
@@ -14024,26 +14057,6 @@
             "ementa": "Altera a Lei nº 8.906, de 4 de julho de 1994, para dispor sobre a assistência prestada pelas Caixas de Assistência dos Advogados.",
             "apresentadaEm": "2026-09-14T13:52",
             "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2646404"
-          },
-          {
-            "id": 2646186,
-            "sigla": "PLP",
-            "tipo": "Projeto de Lei Complementar",
-            "numero": 249,
-            "ano": 2026,
-            "ementa": "Autoriza as Unidades da Federação a legislar sobre a disponibilização em seus territórios de gasolina sem adição de etanol anidro e sobre gasolina com adição de dez porcento de etanol anidro.",
-            "apresentadaEm": "2026-09-08T10:58",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2646186"
-          },
-          {
-            "id": 2646185,
-            "sigla": "PL",
-            "tipo": "Projeto de Lei",
-            "numero": 5305,
-            "ano": 2026,
-            "ementa": "Altera a Lei nº 10.883, de 16 de junho de 2004, para dispor sobre a caracterização da Carreira de Auditor Fiscal Agropecuário como essencial à promoção da defesa nacional e da segurança pública.",
-            "apresentadaEm": "2026-09-08T10:54",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2646185"
           }
         ]
       }

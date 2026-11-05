@@ -11,7 +11,7 @@
     2025,
     2026
   ],
-  "coletadoEm": "2026-11-04T17:23:01.305Z",
+  "coletadoEm": "2026-11-05T17:29:30.869Z",
   "senadores": [
     {
       "id": "senado-5953",
@@ -4226,7 +4226,7 @@
           "sigla": "PL",
           "numero": "153",
           "ano": 2026,
-          "ementa": "Altera a Lei nº 9.610, de 19 de fevereiro de 1998, para dispor sobre a destinação de créditos retidos pelo Escritório Central de Arrecadação e Distribuição – ECAD, referentes à execução pública de obras em domínio público ou sem identificação de titular, para entidades culturais sem fins lucrativos voltadas à preservação do patrimônio musical nacional.",
+          "ementa": "Altera a Lei nº 9.610, de 19 de fevereiro de 1998, para dispor sobre a destinação de créditos retidos pelo Escritório Central de Arrecadação e Distribuição - ECAD, referentes à execução pública de obras em domínio público ou sem identificação de titular, para entidades culturais sem fins lucrativos voltadas à preservação do patrimônio musical nacional.",
           "data": "2026-02-03",
           "autorPrincipal": true
         },
@@ -8103,6 +8103,16 @@
       },
       "materias": [
         {
+          "id": "176207",
+          "identificacao": "REQ 382/2026 - CDIR",
+          "sigla": "REQ",
+          "numero": "382",
+          "ano": 2026,
+          "ementa": "Requer licença para desempenhar missão oficial, a fim de participar de visita técnica ao Departamento de Polícia e Unidade de Armas Táticas Especiais, bem como do 33º Fórum Parlamentar de Inteligência e Segurança, em Beaumont e Washington DC, Estados Unidos da América.",
+          "data": "2026-11-05",
+          "autorPrincipal": true
+        },
+        {
           "id": "176178",
           "identificacao": "PEC 19/2026",
           "sigla": "PEC",
@@ -11174,7 +11184,7 @@
         },
         {
           "sigla": "REQ",
-          "total": 67
+          "total": 68
         },
         {
           "sigla": "PL",
