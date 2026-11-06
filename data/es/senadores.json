@@ -11,7 +11,7 @@
     2025,
     2026
   ],
-  "coletadoEm": "2026-11-05T17:29:30.869Z",
+  "coletadoEm": "2026-11-06T16:48:06.809Z",
   "senadores": [
     {
       "id": "senado-5953",
@@ -3430,6 +3430,16 @@
         "fim": "2031-01-31"
       },
       "materias": [
+        {
+          "id": "176230",
+          "identificacao": "RQS 749/2026",
+          "sigla": "RQS",
+          "numero": "749",
+          "ano": 2026,
+          "ementa": "Requer a realização de Sessão Especial destinada a homenagear o navegador e escritor Amyr Klink.",
+          "data": "2026-11-05",
+          "autorPrincipal": false
+        },
         {
           "id": "176168",
           "identificacao": "RQS 738/2026",
@@ -8034,7 +8044,7 @@
       "materiasPorTipo": [
         {
           "sigla": "RQS",
-          "total": 216
+          "total": 217
         },
         {
           "sigla": "REQ",

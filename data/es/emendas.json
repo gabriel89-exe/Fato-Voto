@@ -11,11 +11,11 @@
     2025,
     2026
   ],
-  "coletadoEm": "2026-11-05T17:48:02.422Z",
+  "coletadoEm": "2026-11-06T17:04:26.746Z",
   "recorte": "Emendas cujo autor é o próprio parlamentar, nos anos da legislatura 57. Emendas de bancada estadual e de comissão não têm autor individual e não entram aqui.",
   "conferencia": {
     "aprovada": true,
-    "conferidoEm": "2026-11-05T17:48:02.408Z",
+    "conferidoEm": "2026-11-06T17:04:26.722Z",
     "provas": [
       "o valor vem da consulta por código da emenda, não da consulta por nome",
       "cada emenda é lida duas vezes, e as duas leituras têm de concordar",
@@ -28,7 +28,7 @@
     "Deputado Federal": {
       "bancada": 10,
       "medianaEmpenhado": 114049349.93,
-      "menor": 97879801.39,
+      "menor": 97979801.39,
       "maior": 147435605.15
     },
     "Senador": {
@@ -1143,7 +1143,7 @@
         "quantidade": 31,
         "valoresPublicados": true,
         "totais": {
-          "empenhado": 111256027.42,
+          "empenhado": 112134933.42,
           "liquidado": 80369046.81,
           "pago": 80369046.81,
           "restosInscritos": 12085349.06,
@@ -1166,7 +1166,7 @@
           {
             "ano": 2026,
             "quantidade": 11,
-            "empenhado": 37334977.4,
+            "empenhado": 38213883.4,
             "pago": 18611950.79
           }
         ],
@@ -1174,7 +1174,7 @@
           {
             "nome": "Saúde",
             "quantidade": 12,
-            "empenhado": 57630968,
+            "empenhado": 58509874,
             "pago": 41948056
           },
           {
@@ -1236,7 +1236,7 @@
           {
             "nome": "MÚLTIPLO",
             "quantidade": 20,
-            "empenhado": 101910239.14,
+            "empenhado": 102789145.14,
             "pago": 80003103.39
           },
           {
@@ -1256,7 +1256,7 @@
           {
             "nome": "Emenda Individual - Transferências com Finalidade Definida",
             "quantidade": 28,
-            "empenhado": 75326756.28,
+            "empenhado": 76205662.28,
             "pago": 47913999.42
           },
           {
@@ -1977,7 +1977,7 @@
         "quantidade": 37,
         "valoresPublicados": true,
         "totais": {
-          "empenhado": 97879801.39,
+          "empenhado": 97979801.39,
           "liquidado": 49690612.89,
           "pago": 49690612.89,
           "restosInscritos": 26679645.84,
@@ -2000,7 +2000,7 @@
           {
             "ano": 2026,
             "quantidade": 9,
-            "empenhado": 30375583.2,
+            "empenhado": 30475583.2,
             "pago": 19516903.12
           }
         ],
@@ -2020,7 +2020,7 @@
           {
             "nome": "Assistência social",
             "quantidade": 3,
-            "empenhado": 5700000,
+            "empenhado": 5800000,
             "pago": 5000000
           },
           {
@@ -2082,7 +2082,7 @@
           {
             "nome": "MÚLTIPLO",
             "quantidade": 18,
-            "empenhado": 62993896.14,
+            "empenhado": 63093896.14,
             "pago": 44139860.92
           },
           {
@@ -2102,7 +2102,7 @@
           {
             "nome": "Emenda Individual - Transferências com Finalidade Definida",
             "quantidade": 34,
-            "empenhado": 80022716.39,
+            "empenhado": 80122716.39,
             "pago": 33602207.97
           },
           {
