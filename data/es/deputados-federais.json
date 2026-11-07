@@ -6,12 +6,12 @@
   },
   "uf": "ES",
   "legislatura": 57,
-  "coletadoEm": "2026-11-05T17:29:17.701Z",
+  "coletadoEm": "2026-11-07T15:41:26.355Z",
   "referencia": {
     "bancada": 10,
-    "medianaDespesas": 1942640.3650000028,
-    "menor": 1440691.8599999899,
-    "maior": 2008043.8599999999
+    "medianaDespesas": 1942768.8800000027,
+    "menor": 1442391.8599999899,
+    "maior": 2008984.77
   },
   "parlamentares": [
     {
@@ -2715,8 +2715,8 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/220528.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/220528",
       "despesas": {
-        "total": 2006905.9499999988,
-        "documentos": 1024,
+        "total": 2007604.4999999988,
+        "documentos": 1027,
         "porTipo": [
           {
             "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
@@ -2947,8 +2947,8 @@
           },
           {
             "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
-            "valor": 372290.22000000015,
-            "notas": 115,
+            "valor": 372988.77000000014,
+            "notas": 118,
             "fornecedores": [
               {
                 "nome": "GALWAN CONSTRUTORA E INCORPORADORA LTDA",
@@ -2971,8 +2971,8 @@
               {
                 "nome": "EDP ESPIRITO SANTO DISTRIBUICAO DE ENERGIA S.A.",
                 "cnpjCpf": "28152650000171",
-                "total": 10666.429999999998,
-                "notas": 25,
+                "total": 11364.979999999998,
+                "notas": 28,
                 "outrosNomes": [
                   "EDP - ESPIRITO SANTO DISTRIBUICAO DE ENERGIA S.A."
                 ]
@@ -3625,15 +3625,15 @@
           },
           {
             "competencia": "2026-08",
-            "valor": 19382.309999999998
+            "valor": 19843.489999999998
           },
           {
             "competencia": "2026-09",
-            "valor": 17503.59
+            "valor": 17609.55
           },
           {
             "competencia": "2026-10",
-            "valor": 10295.4
+            "valor": 10426.81
           }
         ],
         "fornecedores": [
@@ -3737,8 +3737,8 @@
           }
         ],
         "glosas": {
-          "quantidade": 79,
-          "valor": 16710.01000000001,
+          "quantidade": 82,
+          "valor": 16736.390000000007,
           "exemplos": [
             {
               "id": "7859304",
@@ -3915,8 +3915,8 @@
           }
         ],
         "comprovantes": {
-          "com": 442,
-          "total": 1024
+          "com": 445,
+          "total": 1027
         }
       },
       "proposicoes": {
@@ -4177,8 +4177,8 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/178871.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/178871",
       "despesas": {
-        "total": 2008043.8599999999,
-        "documentos": 1621,
+        "total": 2008984.77,
+        "documentos": 1622,
         "porTipo": [
           {
             "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
@@ -4473,14 +4473,14 @@
           },
           {
             "tipo": "COMBUSTÍVEIS E LUBRIFICANTES.",
-            "valor": 251246.55000000008,
-            "notas": 527,
+            "valor": 252187.46000000008,
+            "notas": 528,
             "fornecedores": [
               {
                 "nome": "AUTO POSTO ESMIG LTDA",
                 "cnpjCpf": "27444595000120",
-                "total": 185524.8200000001,
-                "notas": 94,
+                "total": 186465.73000000007,
+                "notas": 95,
                 "outrosNomes": []
               },
               {
@@ -5296,7 +5296,7 @@
           },
           {
             "competencia": "2026-10",
-            "valor": 3532.23
+            "valor": 4473.139999999999
           }
         ],
         "fornecedores": [
@@ -5323,8 +5323,8 @@
           {
             "nome": "AUTO POSTO ESMIG LTDA",
             "cnpjCpf": "27444595000120",
-            "total": 185524.8200000001,
-            "notas": 94,
+            "total": 186465.73000000007,
+            "notas": 95,
             "outrosNomes": []
           },
           {
@@ -5598,8 +5598,8 @@
           }
         ],
         "comprovantes": {
-          "com": 1212,
-          "total": 1621
+          "com": 1213,
+          "total": 1622
         }
       },
       "proposicoes": {
@@ -6009,8 +6009,8 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/220529.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/220529",
       "despesas": {
-        "total": 1939194.040000002,
-        "documentos": 1468,
+        "total": 1939451.070000002,
+        "documentos": 1469,
         "porTipo": [
           {
             "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
@@ -6415,8 +6415,8 @@
           },
           {
             "tipo": "COMBUSTÍVEIS E LUBRIFICANTES.",
-            "valor": 136818.28000000003,
-            "notas": 687,
+            "valor": 137075.31000000003,
+            "notas": 688,
             "fornecedores": [
               {
                 "nome": "063 - 311 SUL - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
@@ -7042,6 +7042,10 @@
           {
             "competencia": "2026-10",
             "valor": 20047.759999999995
+          },
+          {
+            "competencia": "2026-11",
+            "valor": 257.03
           }
         ],
         "fornecedores": [
@@ -7322,8 +7326,8 @@
           }
         ],
         "comprovantes": {
-          "com": 1162,
-          "total": 1468
+          "com": 1163,
+          "total": 1469
         }
       },
       "proposicoes": {
@@ -7628,8 +7632,8 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/220526.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/220526",
       "despesas": {
-        "total": 1664851.38,
-        "documentos": 1854,
+        "total": 1665370.38,
+        "documentos": 1856,
         "porTipo": [
           {
             "tipo": "PASSAGEM AÉREA - SIGEPA",
@@ -7919,8 +7923,8 @@
           },
           {
             "tipo": "COMBUSTÍVEIS E LUBRIFICANTES.",
-            "valor": 138868.67,
-            "notas": 795,
+            "valor": 139018.67,
+            "notas": 796,
             "fornecedores": [
               {
                 "nome": "071 - LAGO NORTE - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
@@ -7932,8 +7936,8 @@
               {
                 "nome": "CEU 070 COMBUSTIVEIS LTDA",
                 "cnpjCpf": "00976256000139",
-                "total": 9562.439999999999,
-                "notas": 74,
+                "total": 9712.439999999999,
+                "notas": 75,
                 "outrosNomes": []
               },
               {
@@ -8149,8 +8153,8 @@
           },
           {
             "tipo": "HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.",
-            "valor": 125389.33999999988,
-            "notas": 245,
+            "valor": 125758.33999999988,
+            "notas": 246,
             "fornecedores": [
               {
                 "nome": "FOUR TOWERS HOTELS LTDA",
@@ -8705,11 +8709,11 @@
           },
           {
             "competencia": "2026-10",
-            "valor": 21163.120000000003
+            "valor": 21532.120000000003
           },
           {
             "competencia": "2026-11",
-            "valor": 197
+            "valor": 347
           }
         ],
         "fornecedores": [
@@ -8992,8 +8996,8 @@
           }
         ],
         "comprovantes": {
-          "com": 1359,
-          "total": 1854
+          "com": 1361,
+          "total": 1856
         }
       },
       "proposicoes": {
@@ -9293,8 +9297,8 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/178873.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/178873",
       "despesas": {
-        "total": 1440691.8599999899,
-        "documentos": 2430,
+        "total": 1442391.8599999899,
+        "documentos": 2431,
         "porTipo": [
           {
             "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
@@ -9410,8 +9414,8 @@
           },
           {
             "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
-            "valor": 304355.7199999996,
-            "notas": 280,
+            "valor": 306055.7199999996,
+            "notas": 281,
             "fornecedores": [
               {
                 "nome": "MD SOLUCOES IMOBILIARIAS LTDA",
@@ -9432,8 +9436,8 @@
               {
                 "nome": "L B M INFO SERVICE INFORMATICA LTDA",
                 "cnpjCpf": "11202373000161",
-                "total": 68000,
-                "notas": 40,
+                "total": 69700,
+                "notas": 41,
                 "outrosNomes": [
                   "LBM INFO SERVICE LTDA-ME"
                 ]
@@ -10371,7 +10375,7 @@
           },
           {
             "competencia": "2026-09",
-            "valor": 10731.69
+            "valor": 12431.69
           },
           {
             "competencia": "2026-10",
@@ -10441,8 +10445,8 @@
           {
             "nome": "L B M INFO SERVICE INFORMATICA LTDA",
             "cnpjCpf": "11202373000161",
-            "total": 68000,
-            "notas": 40,
+            "total": 69700,
+            "notas": 41,
             "outrosNomes": [
               "LBM INFO SERVICE LTDA-ME"
             ]
@@ -10674,8 +10678,8 @@
           }
         ],
         "comprovantes": {
-          "com": 2225,
-          "total": 2430
+          "com": 2226,
+          "total": 2431
         }
       },
       "proposicoes": {
@@ -12582,8 +12586,8 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/220530.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/220530",
       "despesas": {
-        "total": 1968026.1699999992,
-        "documentos": 1282,
+        "total": 1976526.1699999992,
+        "documentos": 1283,
         "porTipo": [
           {
             "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
@@ -12703,8 +12707,8 @@
           },
           {
             "tipo": "LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES",
-            "valor": 390841.54000000004,
-            "notas": 82,
+            "valor": 399341.54000000004,
+            "notas": 83,
             "fornecedores": [
               {
                 "nome": "Jean Pierre Silva dos Santos",
@@ -12727,8 +12731,8 @@
               {
                 "nome": "PANTANAL-VEICULOS LTDA",
                 "cnpjCpf": "07319323000191",
-                "total": 42065,
-                "notas": 9,
+                "total": 50565,
+                "notas": 10,
                 "outrosNomes": [
                   "PANTANAL VEÍCULOS LTDA"
                 ]
@@ -12763,6 +12767,15 @@
                 "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3631/2026/8161771.pdf"
               },
               {
+                "id": "8170907",
+                "data": "2026-10-28",
+                "tipo": "LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES",
+                "valor": 8500,
+                "fornecedor": "PANTANAL-VEICULOS LTDA",
+                "cnpjCpf": "07319323000191",
+                "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3631/2026/8170907.pdf"
+              },
+              {
                 "id": "8092570",
                 "data": "2026-05-05",
                 "tipo": "LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES",
@@ -12770,15 +12783,6 @@
                 "fornecedor": "DALETH VEICULOS LTDA EPP",
                 "cnpjCpf": "04515963000189",
                 "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3631/2026/8092570.pdf"
-              },
-              {
-                "id": "8094006",
-                "data": "2026-05-06",
-                "tipo": "LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES",
-                "valor": 7000,
-                "fornecedor": "DALETH VEICULOS LTDA EPP",
-                "cnpjCpf": "04515963000189",
-                "documento": "https://www.camara.leg.br/cota-parlamentar/documentos/publ/3631/2026/8094006.pdf"
               }
             ]
           },
@@ -13413,7 +13417,7 @@
           },
           {
             "competencia": "2026-10",
-            "valor": 15119
+            "valor": 23619
           }
         ],
         "fornecedores": [
@@ -13502,6 +13506,15 @@
             "outrosNomes": []
           },
           {
+            "nome": "PANTANAL-VEICULOS LTDA",
+            "cnpjCpf": "07319323000191",
+            "total": 50565,
+            "notas": 10,
+            "outrosNomes": [
+              "PANTANAL VEÍCULOS LTDA"
+            ]
+          },
+          {
             "nome": "SOARES REFRIGERACAO",
             "cnpjCpf": "31774366000141",
             "total": 49938,
@@ -13509,15 +13522,6 @@
             "outrosNomes": [
               "31.774.366 CRISLEY JOSE SOARES DA CRUZ",
               "CRISLEY JOSE SOARES DA CRUZ 05742141785"
-            ]
-          },
-          {
-            "nome": "PANTANAL-VEICULOS LTDA",
-            "cnpjCpf": "07319323000191",
-            "total": 42065,
-            "notas": 9,
-            "outrosNomes": [
-              "PANTANAL VEÍCULOS LTDA"
             ]
           }
         ],
@@ -13700,8 +13704,8 @@
           }
         ],
         "comprovantes": {
-          "com": 987,
-          "total": 1282
+          "com": 988,
+          "total": 1283
         }
       },
       "proposicoes": {
