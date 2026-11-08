@@ -9,7 +9,7 @@
     "idEleicao": "20322002026",
     "uf": "ES"
   },
-  "coletadoEm": "2026-11-07T15:39:58.085Z",
+  "coletadoEm": "2026-11-08T15:58:55.298Z",
   "total": 577,
   "candidaturas": [
     {
@@ -18989,17 +18989,17 @@
       "eleicoesAnteriores": [
         {
           "ano": 2024,
-          "cargo": "Vice-prefeito",
-          "partido": "PODE",
-          "uf": "56979",
-          "resultado": "Eleito"
-        },
-        {
-          "ano": 2024,
           "cargo": "Vereador",
           "partido": "PODE",
           "uf": "56979",
           "resultado": "Concorrendo"
+        },
+        {
+          "ano": 2024,
+          "cargo": "Vice-prefeito",
+          "partido": "PODE",
+          "uf": "56979",
+          "resultado": "Eleito"
         }
       ],
       "primeiraCandidatura": false,
@@ -35755,17 +35755,17 @@
         },
         {
           "ano": 2004,
-          "cargo": "Vice-Prefeito",
-          "partido": "PTC",
-          "uf": "57096",
-          "resultado": "Concorrendo"
-        },
-        {
-          "ano": 2004,
           "cargo": "Prefeito",
           "partido": "PTC",
           "uf": "57096",
           "resultado": "Não eleito"
+        },
+        {
+          "ano": 2004,
+          "cargo": "Vice-Prefeito",
+          "partido": "PTC",
+          "uf": "57096",
+          "resultado": "Concorrendo"
         }
       ],
       "primeiraCandidatura": false,
