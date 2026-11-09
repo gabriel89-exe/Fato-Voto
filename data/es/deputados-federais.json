@@ -6,12 +6,12 @@
   },
   "uf": "ES",
   "legislatura": 57,
-  "coletadoEm": "2026-11-08T16:00:22.266Z",
+  "coletadoEm": "2026-11-09T19:54:11.158Z",
   "referencia": {
     "bancada": 10,
-    "medianaDespesas": 1942768.8800000027,
-    "menor": 1442391.8599999899,
-    "maior": 2008984.77
+    "medianaDespesas": 1944838.4400000027,
+    "menor": 1448781.8599999903,
+    "maior": 2009172.77
   },
   "parlamentares": [
     {
@@ -4177,8 +4177,8 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/178871.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/178871",
       "despesas": {
-        "total": 2008984.77,
-        "documentos": 1622,
+        "total": 2009172.77,
+        "documentos": 1624,
         "porTipo": [
           {
             "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
@@ -4392,14 +4392,14 @@
           },
           {
             "tipo": "PASSAGEM AÉREA - SIGEPA",
-            "valor": 382625.97999999986,
-            "notas": 262,
+            "valor": 382813.97999999986,
+            "notas": 264,
             "fornecedores": [
               {
                 "nome": "LATAM Airlines Brasil",
                 "cnpjCpf": "02012862000160",
-                "total": 299027.09,
-                "notas": 202,
+                "total": 299215.08999999997,
+                "notas": 204,
                 "outrosNomes": [
                   "TAM"
                 ]
@@ -5280,7 +5280,7 @@
           },
           {
             "competencia": "2026-06",
-            "valor": 37248.189999999995
+            "valor": 37436.189999999995
           },
           {
             "competencia": "2026-07",
@@ -5312,8 +5312,8 @@
           {
             "nome": "TAM LINHAS AEREAS S/A.",
             "cnpjCpf": "02012862000160",
-            "total": 303677.20999999996,
-            "notas": 204,
+            "total": 303865.20999999996,
+            "notas": 206,
             "outrosNomes": [
               "LATAM Airlines Brasil",
               "TAM",
@@ -5599,7 +5599,7 @@
         ],
         "comprovantes": {
           "com": 1213,
-          "total": 1622
+          "total": 1624
         }
       },
       "proposicoes": {
@@ -5672,7 +5672,7 @@
           {
             "tipo": "Emenda na Comissão",
             "sigla": "EMC",
-            "total": 71
+            "total": 72
           },
           {
             "tipo": "Projeto de Decreto Legislativo de Sustação de Atos Normativos do Poder Executivo",
@@ -6009,8 +6009,8 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/220529.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/220529",
       "despesas": {
-        "total": 1939451.070000002,
-        "documentos": 1469,
+        "total": 1939589.990000002,
+        "documentos": 1471,
         "porTipo": [
           {
             "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
@@ -6297,8 +6297,8 @@
           },
           {
             "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
-            "valor": 195728.2099999999,
-            "notas": 178,
+            "valor": 195848.10999999987,
+            "notas": 179,
             "fornecedores": [
               {
                 "nome": "Emmanuel Roberto Vieira de Moraes",
@@ -6360,8 +6360,8 @@
               {
                 "nome": "MICRON INTERNET LTDA",
                 "cnpjCpf": "07911265000190",
-                "total": 1643.2200000000003,
-                "notas": 14,
+                "total": 1763.1200000000003,
+                "notas": 15,
                 "outrosNomes": []
               }
             ],
@@ -6707,14 +6707,14 @@
           },
           {
             "tipo": "SERVIÇO DE TÁXI, PEDÁGIO E ESTACIONAMENTO",
-            "valor": 1589.3400000000004,
-            "notas": 47,
+            "valor": 1608.3600000000004,
+            "notas": 48,
             "fornecedores": [
               {
                 "nome": "UBER DO BRASIL TECNOLOGIA LTDA.",
                 "cnpjCpf": "17895646000187",
-                "total": 967.3999999999999,
-                "notas": 26,
+                "total": 986.4199999999998,
+                "notas": 27,
                 "outrosNomes": []
               },
               {
@@ -7033,7 +7033,7 @@
           },
           {
             "competencia": "2026-08",
-            "valor": 20725.440000000002
+            "valor": 20845.340000000004
           },
           {
             "competencia": "2026-09",
@@ -7045,7 +7045,7 @@
           },
           {
             "competencia": "2026-11",
-            "valor": 257.03
+            "valor": 276.04999999999995
           }
         ],
         "fornecedores": [
@@ -7148,8 +7148,8 @@
           }
         ],
         "glosas": {
-          "quantidade": 72,
-          "valor": 4176.879999999997,
+          "quantidade": 73,
+          "valor": 4179.989999999997,
           "exemplos": [
             {
               "id": "7889549",
@@ -7326,8 +7326,8 @@
           }
         ],
         "comprovantes": {
-          "com": 1163,
-          "total": 1469
+          "com": 1165,
+          "total": 1471
         }
       },
       "proposicoes": {
@@ -9297,8 +9297,8 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/178873.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/178873",
       "despesas": {
-        "total": 1442391.8599999899,
-        "documentos": 2431,
+        "total": 1448781.8599999903,
+        "documentos": 2432,
         "porTipo": [
           {
             "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
@@ -9538,8 +9538,8 @@
           },
           {
             "tipo": "LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES",
-            "valor": 265841.68,
-            "notas": 88,
+            "valor": 272231.68,
+            "notas": 89,
             "fornecedores": [
               {
                 "nome": "DELTA AUTOMOTORES LTDA",
@@ -9553,8 +9553,8 @@
               {
                 "nome": "VD COMERCIO DE VEICULOS LTDA",
                 "cnpjCpf": "39786983000179",
-                "total": 38340,
-                "notas": 6,
+                "total": 44730,
+                "notas": 7,
                 "outrosNomes": [
                   "VD COMÉRCIO DE VEÍCULOS LTDA"
                 ]
@@ -10379,7 +10379,7 @@
           },
           {
             "competencia": "2026-10",
-            "valor": 851.84
+            "valor": 7241.84
           }
         ],
         "fornecedores": [
@@ -10485,8 +10485,8 @@
           {
             "nome": "VD COMERCIO DE VEICULOS LTDA",
             "cnpjCpf": "39786983000179",
-            "total": 38340,
-            "notas": 6,
+            "total": 44730,
+            "notas": 7,
             "outrosNomes": [
               "VD COMÉRCIO DE VEÍCULOS LTDA"
             ]
@@ -10678,8 +10678,8 @@
           }
         ],
         "comprovantes": {
-          "com": 2226,
-          "total": 2431
+          "com": 2227,
+          "total": 2432
         }
       },
       "proposicoes": {
@@ -11004,8 +11004,8 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/220527.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/220527",
       "despesas": {
-        "total": 1876161.2399999998,
-        "documentos": 1571,
+        "total": 1876745.2,
+        "documentos": 1575,
         "porTipo": [
           {
             "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
@@ -11386,14 +11386,14 @@
           },
           {
             "tipo": "COMBUSTÍVEIS E LUBRIFICANTES.",
-            "valor": 103871.7199999999,
-            "notas": 663,
+            "valor": 104455.67999999989,
+            "notas": 667,
             "fornecedores": [
               {
                 "nome": "POSTO PIO XII - COMERCIO DE COMBUSTIVEIS LTDA",
                 "cnpjCpf": "07371930000109",
-                "total": 15902.25,
-                "notas": 99,
+                "total": 16186.25,
+                "notas": 102,
                 "outrosNomes": []
               },
               {
@@ -12006,7 +12006,11 @@
           },
           {
             "competencia": "2026-10",
-            "valor": 6306.65
+            "valor": 6490.65
+          },
+          {
+            "competencia": "2026-11",
+            "valor": 399.96
           }
         ],
         "fornecedores": [
@@ -12289,8 +12293,8 @@
           }
         ],
         "comprovantes": {
-          "com": 1189,
-          "total": 1571
+          "com": 1193,
+          "total": 1575
         }
       },
       "proposicoes": {
@@ -13733,7 +13737,7 @@
           {
             "tipo": "Requerimento de Moção",
             "sigla": "REQ",
-            "total": 97
+            "total": 98
           },
           {
             "tipo": "Indicação",
@@ -13963,6 +13967,16 @@
         ],
         "recentes": [
           {
+            "id": 2651413,
+            "sigla": "REQ",
+            "tipo": "Requerimento de Moção",
+            "numero": 4402,
+            "ano": 2026,
+            "ementa": "Requer a aprovação de MOÇÃO DE REPÚDIO ao Presidente da República, Luiz Inácio Lula da Silva, em razão de declaração insensível e inoportuna sobre o cenário político de Santa Catarina, proferida em meio à grave situação de calamidade enfrentada pela população catarinense em decorrência de tornados e temporais que provocaram mortes, destruição e deixaram milhares de pessoas desabrigadas e desalojadas.",
+            "apresentadaEm": "2026-11-09T12:40",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2651413"
+          },
+          {
             "id": 2651193,
             "sigla": "RIC",
             "tipo": "Requerimento de Informação",
@@ -14051,16 +14065,6 @@
             "ementa": "Dispõe sobre a emissão de credenciais multilíngues para pessoas com deficiência e autoriza o Poder Executivo a celebrar instrumentos de cooperação internacional para reconhecimento recíproco de documentos brasileiros de acessibilidade.",
             "apresentadaEm": "2026-09-14T13:59",
             "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2646405"
-          },
-          {
-            "id": 2646404,
-            "sigla": "PL",
-            "tipo": "Projeto de Lei",
-            "numero": 5364,
-            "ano": 2026,
-            "ementa": "Altera a Lei nº 8.906, de 4 de julho de 1994, para dispor sobre a assistência prestada pelas Caixas de Assistência dos Advogados.",
-            "apresentadaEm": "2026-09-14T13:52",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2646404"
           }
         ]
       }
@@ -14085,8 +14089,8 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/160517.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/160517",
       "despesas": {
-        "total": 1946086.6900000037,
-        "documentos": 1085,
+        "total": 1950086.8900000036,
+        "documentos": 1089,
         "porTipo": [
           {
             "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
@@ -14204,8 +14208,8 @@
           },
           {
             "tipo": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
-            "valor": 424428.4599999996,
-            "notas": 303,
+            "valor": 425108.4599999996,
+            "notas": 304,
             "fornecedores": [
               {
                 "nome": "EXPERT'S CONSULTORIA E AVALIACOES LTDA",
@@ -14230,8 +14234,8 @@
               {
                 "nome": "VITORIA TECNOLOGIA DA INFORMACAO LTDA",
                 "cnpjCpf": "06069667000127",
-                "total": 27880,
-                "notas": 41,
+                "total": 28560,
+                "notas": 42,
                 "outrosNomes": [
                   "VITÓRIA TECNOLOGIA DA INFORMAÇÃO LTDA"
                 ]
@@ -14495,14 +14499,14 @@
           },
           {
             "tipo": "COMBUSTÍVEIS E LUBRIFICANTES.",
-            "valor": 143998.74999999997,
-            "notas": 256,
+            "valor": 147318.94999999998,
+            "notas": 259,
             "fornecedores": [
               {
                 "nome": "POSTO DE COMBUSTIVEIS GIRASSOL LTDA",
                 "cnpjCpf": "27352004000195",
-                "total": 101418.33000000002,
-                "notas": 78,
+                "total": 104261.54000000001,
+                "notas": 80,
                 "outrosNomes": []
               },
               {
@@ -15106,15 +15110,15 @@
           },
           {
             "competencia": "2026-08",
-            "valor": 24035.310000000005
+            "valor": 24715.310000000005
           },
           {
             "competencia": "2026-09",
-            "valor": 17648.379999999997
+            "valor": 18513.059999999998
           },
           {
             "competencia": "2026-10",
-            "valor": 5595.48
+            "valor": 8051
           }
         ],
         "fornecedores": [
@@ -15177,8 +15181,8 @@
           {
             "nome": "POSTO DE COMBUSTIVEIS GIRASSOL LTDA",
             "cnpjCpf": "27352004000195",
-            "total": 101418.33000000002,
-            "notas": 78,
+            "total": 104261.54000000001,
+            "notas": 80,
             "outrosNomes": []
           },
           {
@@ -15218,16 +15222,16 @@
           {
             "nome": "VITORIA TECNOLOGIA DA INFORMACAO LTDA",
             "cnpjCpf": "06069667000127",
-            "total": 27880,
-            "notas": 41,
+            "total": 28560,
+            "notas": 42,
             "outrosNomes": [
               "VITÓRIA TECNOLOGIA DA INFORMAÇÃO LTDA"
             ]
           }
         ],
         "glosas": {
-          "quantidade": 70,
-          "valor": 6662.799999999999,
+          "quantidade": 71,
+          "valor": 6668.129999999999,
           "exemplos": [
             {
               "id": "7748122",
@@ -15404,8 +15408,8 @@
           }
         ],
         "comprovantes": {
-          "com": 676,
-          "total": 1085
+          "com": 680,
+          "total": 1089
         }
       },
       "proposicoes": {
