@@ -9,7 +9,7 @@
     "idEleicao": "20322002026",
     "uf": "ES"
   },
-  "coletadoEm": "2026-11-09T19:49:31.423Z",
+  "coletadoEm": "2026-11-10T17:02:35.329Z",
   "total": 577,
   "candidaturas": [
     {
@@ -52258,9 +52258,9 @@
         "nome": "PODEMOS"
       },
       "coligacao": "PODE",
-      "situacaoRegistro": "Deferido com recurso",
+      "situacaoRegistro": "Indeferido",
       "situacaoCandidatura": "Consta da urna",
-      "apto": true,
+      "apto": false,
       "disputaReeleicao": false,
       "dataNascimento": "1984-10-28",
       "genero": "FEM.",

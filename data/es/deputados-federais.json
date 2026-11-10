@@ -6,10 +6,10 @@
   },
   "uf": "ES",
   "legislatura": 57,
-  "coletadoEm": "2026-11-09T19:54:11.158Z",
+  "coletadoEm": "2026-11-10T17:12:55.375Z",
   "referencia": {
     "bancada": 10,
-    "medianaDespesas": 1944838.4400000027,
+    "medianaDespesas": 1945081.7000000027,
     "menor": 1448781.8599999903,
     "maior": 2009172.77
   },
@@ -5665,14 +5665,14 @@
             "total": 106
           },
           {
+            "tipo": "Emenda na Comissão",
+            "sigla": "EMC",
+            "total": 74
+          },
+          {
             "tipo": "Requerimento de Moção",
             "sigla": "REQ",
             "total": 73
-          },
-          {
-            "tipo": "Emenda na Comissão",
-            "sigla": "EMC",
-            "total": 72
           },
           {
             "tipo": "Projeto de Decreto Legislativo de Sustação de Atos Normativos do Poder Executivo",
@@ -5887,6 +5887,26 @@
         ],
         "recentes": [
           {
+            "id": 2651932,
+            "sigla": "EMC",
+            "tipo": "Emenda na Comissão",
+            "numero": 54,
+            "ano": 2026,
+            "ementa": "Estabelece alíquotas e normas complementares aplicáveis ao Imposto Seletivo para o ano-calendário de 2027, em Regime de Implementação Gradual",
+            "apresentadaEm": "2026-11-10T00:00",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2651932"
+          },
+          {
+            "id": 2651931,
+            "sigla": "EMC",
+            "tipo": "Emenda na Comissão",
+            "numero": 53,
+            "ano": 2026,
+            "ementa": "Estabelece alíquotas e normas complementares aplicáveis ao Imposto Seletivo para o ano-calendário de 2027, em Regime de Implementação Gradual",
+            "apresentadaEm": "2026-11-10T00:00",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2651931"
+          },
+          {
             "id": 2650107,
             "sigla": "PDL",
             "tipo": "Projeto de Decreto Legislativo",
@@ -5965,26 +5985,6 @@
             "ementa": "Requer informações ao Ministro de Estado da Educação acerca de reuniões, encontros, comunicações institucionais, procedimentos administrativos, contratos e eventuais situações de conflito de interesses envolvendo o Ministro Leonardo Osvaldo Barchini Rosa, a empresária Roberta Luchsinger, Fábio Luís Lula da Silva e pessoas físicas ou jurídicas a eles relacionadas, diante de notícias sobre encontros privados realizados durante o exercício de funções públicas no Ministério da Educação",
             "apresentadaEm": "2026-10-20T16:29",
             "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2648803"
-          },
-          {
-            "id": 2648598,
-            "sigla": "SIT",
-            "tipo": "Solicitação de Informação ao TCU",
-            "numero": 54,
-            "ano": 2026,
-            "ementa": "Solicita ao Tribunal de Contas da União (TCU) informações acerca da existência de auditorias, fiscalizações, representações e procedimentos de controle relacionados à atuação da empresária Roberta Luchsinger, de pessoas físicas e jurídicas a ela vinculadas e de possíveis intermediários de interesses privados perante órgãos e entidades da Administração Pública Federal, especialmente no âmbito do Instituto Nacional do Seguro Social (INSS), do Ministério da Saúde e do Departamento Nacional de Infraestrutura de Transportes (DNIT).",
-            "apresentadaEm": "2026-10-20T16:29",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2648598"
-          },
-          {
-            "id": 2648597,
-            "sigla": "RIC",
-            "tipo": "Requerimento de Informação",
-            "numero": 2786,
-            "ano": 2026,
-            "ementa": "Requer informações ao Ministro de Estado dos Transportes, ouvido o Departamento Nacional de Infraestrutura de Transportes (DNIT), acerca de contratos administrativos, pagamentos, reuniões institucionais e possíveis irregularidades envolvendo a Empresa Construtora Brasil (ECB), o grupo Mota-Engil, o empresário Amauri Rodrigues Pinha, empresas vinculadas a Eduardo José Barros Costa e eventuais relações com a empresária Roberta Luchsinger e Fábio Luís Lula da Silva.",
-            "apresentadaEm": "2026-10-20T16:29",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2648597"
           }
         ]
       }
@@ -6009,8 +6009,8 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/220529.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/220529",
       "despesas": {
-        "total": 1939589.990000002,
-        "documentos": 1471,
+        "total": 1940076.5100000019,
+        "documentos": 1475,
         "porTipo": [
           {
             "tipo": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.",
@@ -6527,8 +6527,8 @@
           },
           {
             "tipo": "HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.",
-            "valor": 20151.310000000005,
-            "notas": 54,
+            "valor": 20532.33,
+            "notas": 55,
             "fornecedores": [
               {
                 "nome": "UP HOTEL PRAIA DO CANTO LTDA",
@@ -6707,14 +6707,14 @@
           },
           {
             "tipo": "SERVIÇO DE TÁXI, PEDÁGIO E ESTACIONAMENTO",
-            "valor": 1608.3600000000004,
-            "notas": 48,
+            "valor": 1713.8600000000001,
+            "notas": 51,
             "fornecedores": [
               {
                 "nome": "UBER DO BRASIL TECNOLOGIA LTDA.",
                 "cnpjCpf": "17895646000187",
-                "total": 986.4199999999998,
-                "notas": 27,
+                "total": 1051.9199999999998,
+                "notas": 29,
                 "outrosNomes": []
               },
               {
@@ -6725,6 +6725,13 @@
                 "outrosNomes": [
                   "UBER DO BRASIL TECNOLOGIA LTDA."
                 ]
+              },
+              {
+                "nome": "MACNA HOTEIS SPE 02 LTDA",
+                "cnpjCpf": "44288979000110",
+                "total": 40,
+                "notas": 1,
+                "outrosNomes": []
               }
             ],
             "maiores": [
@@ -7041,7 +7048,7 @@
           },
           {
             "competencia": "2026-10",
-            "valor": 20047.759999999995
+            "valor": 20534.28
           },
           {
             "competencia": "2026-11",
@@ -7326,8 +7333,8 @@
           }
         ],
         "comprovantes": {
-          "com": 1165,
-          "total": 1471
+          "com": 1169,
+          "total": 1475
         }
       },
       "proposicoes": {
@@ -7632,8 +7639,8 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/220526.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/220526",
       "despesas": {
-        "total": 1665370.38,
-        "documentos": 1856,
+        "total": 1665581.07,
+        "documentos": 1857,
         "porTipo": [
           {
             "tipo": "PASSAGEM AÉREA - SIGEPA",
@@ -7923,8 +7930,8 @@
           },
           {
             "tipo": "COMBUSTÍVEIS E LUBRIFICANTES.",
-            "valor": 139018.67,
-            "notas": 796,
+            "valor": 139229.36000000002,
+            "notas": 797,
             "fornecedores": [
               {
                 "nome": "071 - LAGO NORTE - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
@@ -8713,7 +8720,7 @@
           },
           {
             "competencia": "2026-11",
-            "valor": 347
+            "valor": 557.69
           }
         ],
         "fornecedores": [
@@ -8996,8 +9003,8 @@
           }
         ],
         "comprovantes": {
-          "com": 1361,
-          "total": 1856
+          "com": 1362,
+          "total": 1857
         }
       },
       "proposicoes": {
@@ -10745,14 +10752,14 @@
             "total": 6
           },
           {
-            "tipo": "Requerimento para realização ou participação em Seminário, Visita Técnica ou outro Evento",
-            "sigla": "REQ",
+            "tipo": "Projeto de Lei Complementar",
+            "sigla": "PLP",
             "total": 6
           },
           {
-            "tipo": "Projeto de Lei Complementar",
-            "sigla": "PLP",
-            "total": 5
+            "tipo": "Requerimento para realização ou participação em Seminário, Visita Técnica ou outro Evento",
+            "sigla": "REQ",
+            "total": 6
           },
           {
             "tipo": "Requerimento de Quebra de Interstício para Inclusão de Matéria na Ordem do Dia",
@@ -10922,6 +10929,16 @@
             "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2643776"
           },
           {
+            "id": 2651984,
+            "sigla": "PLP",
+            "tipo": "Projeto de Lei Complementar",
+            "numero": 290,
+            "ano": 2026,
+            "ementa": "Determina que as despesas de capital e parcela das despesas custeadas com receitas próprias de autarquias federais não sejam alcançadas pelo mecanismo de limitação de empenho e movimentação financeira previsto na LRF, e não sejam incluídas na base de cálculo e nos limites estabelecidos no Novo Arcabouço Fiscal para as despesas primárias do Governo Federal.",
+            "apresentadaEm": "2026-08-12T17:56",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2651984"
+          },
+          {
             "id": 2643283,
             "sigla": "PL",
             "tipo": "Projeto de Lei",
@@ -10970,16 +10987,6 @@
             "ementa": "Altera a Medida Provisória nº 2.228-1, de 6 de setembro de 2001, para dispor sobre exigências adicionais no cumprimento da obrigatoriedade de exibição comercial de obras cinematográficas brasileiras.",
             "apresentadaEm": "2026-06-17T19:01",
             "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2633954"
-          },
-          {
-            "id": 2632868,
-            "sigla": "REQ",
-            "tipo": "Requerimento de Redistribuição",
-            "numero": 3545,
-            "ano": 2026,
-            "ementa": "Requer a remessa do PL 572/22 à comissão subsequente pelo esgotamento do prazo para apreciação pela Comissão de Desenvolvimento Econômico.",
-            "apresentadaEm": "2026-06-16T19:31",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2632868"
           }
         ]
       }
@@ -12370,13 +12377,13 @@
             "total": 5
           },
           {
-            "tipo": "Requerimento para realização ou participação em Seminário, Visita Técnica ou outro Evento",
-            "sigla": "REQ",
-            "total": 4
-          },
-          {
             "tipo": "Projeto de Lei Complementar",
             "sigla": "PLP",
+            "total": 5
+          },
+          {
+            "tipo": "Requerimento para realização ou participação em Seminário, Visita Técnica ou outro Evento",
+            "sigla": "REQ",
             "total": 4
           },
           {
@@ -12507,6 +12514,16 @@
             "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2643776"
           },
           {
+            "id": 2651984,
+            "sigla": "PLP",
+            "tipo": "Projeto de Lei Complementar",
+            "numero": 290,
+            "ano": 2026,
+            "ementa": "Determina que as despesas de capital e parcela das despesas custeadas com receitas próprias de autarquias federais não sejam alcançadas pelo mecanismo de limitação de empenho e movimentação financeira previsto na LRF, e não sejam incluídas na base de cálculo e nos limites estabelecidos no Novo Arcabouço Fiscal para as despesas primárias do Governo Federal.",
+            "apresentadaEm": "2026-08-12T17:56",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2651984"
+          },
+          {
             "id": 2643283,
             "sigla": "PL",
             "tipo": "Projeto de Lei",
@@ -12555,16 +12572,6 @@
             "ementa": "Requer a aprovação de Moção de Censura e Repúdio às manifestações públicas que atacam o voto feminino, relativizam o sufrágio universal e desqualificam a participação política das mulheres.",
             "apresentadaEm": "2026-07-07T18:19",
             "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2637801"
-          },
-          {
-            "id": 2637237,
-            "sigla": "PL",
-            "tipo": "Projeto de Lei",
-            "numero": 3479,
-            "ano": 2026,
-            "ementa": "Estabelece o marco legal do Registro Nacional de Beneficiários Finais, dispõe sobre a integração, atualização, verificação, interoperabilidade e acesso às informações relativas aos beneficiários finais de pessoas jurídicas e estruturas legais, e fortalece os mecanismos de prevenção à lavagem de dinheiro, corrupção, evasão fiscal, ocultação patrimonial e infiltração da criminaliza organizada na economia formal.",
-            "apresentadaEm": "2026-07-06T13:23",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2637237"
           }
         ]
       }

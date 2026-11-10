@@ -11,7 +11,7 @@
     2025,
     2026
   ],
-  "coletadoEm": "2026-11-09T19:54:17.399Z",
+  "coletadoEm": "2026-11-10T17:13:04.233Z",
   "senadores": [
     {
       "id": "senado-5953",
@@ -3431,6 +3431,16 @@
       },
       "materias": [
         {
+          "id": "176256",
+          "identificacao": "RQS 751/2026",
+          "sigla": "RQS",
+          "numero": "751",
+          "ano": 2026,
+          "ementa": "Requer a realização de Sessão Especial destinada a celebrar o Dia Internacional e Nacional da Síndrome de Down.",
+          "data": "2026-11-09",
+          "autorPrincipal": false
+        },
+        {
           "id": "176230",
           "identificacao": "RQS 749/2026",
           "sigla": "RQS",
@@ -3866,7 +3876,7 @@
           "sigla": "PL",
           "numero": "2264",
           "ano": 2026,
-          "ementa": "Altera o art. 2º da Lei nº 6.088, de 16 de julho de 1974, para incluir a bacia hidrográfica do Rio Doce e os municípios por ela abrangidos na área de atuação da Companhia de Desenvolvimento dos Vales do São Francisco e do Parnaíba – Codevasf, com vistas à recuperação ambiental e ao desenvolvimento regional sustentável.",
+          "ementa": "Altera o art. 2º da Lei nº 6.088, de 16 de julho de 1974, para incluir a bacia hidrográfica do Rio Doce e os municípios por ela abrangidos na área de atuação da Companhia de Desenvolvimento dos Vales do São Francisco e do Parnaíba - Codevasf, com vistas à recuperação ambiental e ao desenvolvimento regional sustentável.",
           "data": "2026-05-07",
           "autorPrincipal": true
         },
@@ -8044,7 +8054,7 @@
       "materiasPorTipo": [
         {
           "sigla": "RQS",
-          "total": 217
+          "total": 218
         },
         {
           "sigla": "REQ",
