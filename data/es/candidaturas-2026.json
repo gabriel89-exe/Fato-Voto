@@ -9,7 +9,7 @@
     "idEleicao": "20322002026",
     "uf": "ES"
   },
-  "coletadoEm": "2026-11-10T17:02:35.329Z",
+  "coletadoEm": "2026-11-13T17:12:57.266Z",
   "total": 577,
   "candidaturas": [
     {
@@ -23226,9 +23226,16 @@
           "descricao": "SALDO EM CONTA CORRENTE BANESTES",
           "valor": 3953.58,
           "atualizadoEm": "2026-08-12"
+        },
+        {
+          "ordem": 5,
+          "tipo": "Dinheiro em espécie - moeda nacional",
+          "descricao": "dinheiro em especie, moeda nacional, em poder do declarante",
+          "valor": 30000,
+          "atualizadoEm": "2026-11-12"
         }
       ],
-      "totalBens": 463179.87,
+      "totalBens": 493179.87,
       "proposta": {
         "exigida": false,
         "documento": null

@@ -11,11 +11,11 @@
     2025,
     2026
   ],
-  "coletadoEm": "2026-11-10T17:29:26.557Z",
+  "coletadoEm": "2026-11-13T17:24:13.341Z",
   "recorte": "Emendas cujo autor é o próprio parlamentar, nos anos da legislatura 57. Emendas de bancada estadual e de comissão não têm autor individual e não entram aqui.",
   "conferencia": {
     "aprovada": true,
-    "conferidoEm": "2026-11-10T17:29:26.533Z",
+    "conferidoEm": "2026-11-13T17:24:13.325Z",
     "provas": [
       "o valor vem da consulta por código da emenda, não da consulta por nome",
       "cada emenda é lida duas vezes, e as duas leituras têm de concordar",
@@ -27,14 +27,14 @@
   "referencias": {
     "Deputado Federal": {
       "bancada": 10,
-      "medianaEmpenhado": 114049349.93,
-      "menor": 97979801.39,
+      "medianaEmpenhado": 114573347.93,
+      "menor": 98840343.39,
       "maior": 147435605.15
     },
     "Senador": {
       "bancada": 3,
-      "medianaEmpenhado": 254257176.07999998,
-      "menor": 197931574.72,
+      "medianaEmpenhado": 254958335.07999998,
+      "menor": 198133074.72,
       "maior": 270029619.49
     }
   },
@@ -52,11 +52,11 @@
         "valoresPublicados": true,
         "totais": {
           "empenhado": 147435605.15,
-          "liquidado": 115044946.43,
-          "pago": 115044946.43,
-          "restosInscritos": 7320177.04,
+          "liquidado": 119233712.12,
+          "pago": 119233712.12,
+          "restosInscritos": 7315177.04,
           "restosCancelados": 1555.92,
-          "restosPagos": 16339643.89
+          "restosPagos": 16344643.89
         },
         "porAno": [
           {
@@ -81,7 +81,7 @@
             "ano": 2026,
             "quantidade": 9,
             "empenhado": 40184738.15,
-            "pago": 25203456.28
+            "pago": 29392221.97
           }
         ],
         "porFuncao": [
@@ -95,7 +95,7 @@
             "nome": "Encargos especiais",
             "quantidade": 5,
             "empenhado": 40576326.12,
-            "pago": 36287302.43
+            "pago": 40476068.12
           },
           {
             "nome": "Desporto e lazer",
@@ -133,7 +133,7 @@
             "nome": "MÚLTIPLO",
             "quantidade": 11,
             "empenhado": 115762436.12,
-            "pago": 107715320.43
+            "pago": 111904086.12
           },
           {
             "nome": "ESPÍRITO SANTO (UF)",
@@ -183,7 +183,7 @@
             "nome": "Emenda Individual - Transferências Especiais",
             "quantidade": 5,
             "empenhado": 40576326.12,
-            "pago": 36287302.43
+            "pago": 40476068.12
           }
         ],
         "criterioDaLista": "as 10 de maior valor empenhado",
@@ -301,8 +301,8 @@
             "funcao": "Encargos especiais",
             "subfuncao": "Outras transferências",
             "empenhado": 7036048.97,
-            "liquidado": 2847283.28,
-            "pago": 2847283.28,
+            "liquidado": 7036048.97,
+            "pago": 7036048.97,
             "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202639120007"
           },
           {
@@ -333,9 +333,9 @@
         "quantidade": 29,
         "valoresPublicados": true,
         "totais": {
-          "empenhado": 137543025.35,
-          "liquidado": 117007812.88000001,
-          "pago": 116396263.58,
+          "empenhado": 137547404.35,
+          "liquidado": 118152150.4,
+          "pago": 117291851.1,
           "restosInscritos": 8717070.68,
           "restosCancelados": 0,
           "restosPagos": 7408132.32
@@ -362,22 +362,22 @@
           {
             "ano": 2026,
             "quantidade": 7,
-            "empenhado": 36891517.35,
-            "pago": 26849258.58
+            "empenhado": 36895896.35,
+            "pago": 27744846.1
           }
         ],
         "porFuncao": [
           {
             "nome": "Saúde",
             "quantidade": 10,
-            "empenhado": 85078482,
+            "empenhado": 85082861,
             "pago": 77737041
           },
           {
             "nome": "Encargos especiais",
             "quantidade": 4,
             "empenhado": 35521176,
-            "pago": 34266848.480000004
+            "pago": 35162436
           },
           {
             "nome": "Segurança pública",
@@ -432,8 +432,8 @@
           {
             "nome": "MÚLTIPLO",
             "quantidade": 15,
-            "empenhado": 125611408,
-            "pago": 113744939.48
+            "empenhado": 125615787,
+            "pago": 114640527
           },
           {
             "nome": "ESPÍRITO SANTO (UF)",
@@ -464,14 +464,14 @@
           {
             "nome": "Emenda Individual - Transferências com Finalidade Definida",
             "quantidade": 25,
-            "empenhado": 102021849.35,
+            "empenhado": 102026228.35,
             "pago": 82129415.1
           },
           {
             "nome": "Emenda Individual - Transferências Especiais",
             "quantidade": 4,
             "empenhado": 35521176,
-            "pago": 34266848.480000004
+            "pago": 35162436
           }
         ],
         "criterioDaLista": "as 10 de maior valor empenhado",
@@ -498,8 +498,8 @@
             "funcao": "Encargos especiais",
             "subfuncao": "Outras transferências",
             "empenhado": 13731000,
-            "liquidado": 12586662.48,
-            "pago": 12586662.48,
+            "liquidado": 13731000,
+            "pago": 13482250,
             "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202639480006"
           },
           {
@@ -622,8 +622,8 @@
         "valoresPublicados": true,
         "totais": {
           "empenhado": 114753210.42,
-          "liquidado": 93561740.56,
-          "pago": 93561740.56,
+          "liquidado": 100509549.10000001,
+          "pago": 100509549.10000001,
           "restosInscritos": 8712000.17,
           "restosCancelados": 393.2,
           "restosPagos": 5868551.91
@@ -645,7 +645,7 @@
             "ano": 2026,
             "quantidade": 5,
             "empenhado": 40106640,
-            "pago": 28258831.46
+            "pago": 35206640
           }
         ],
         "porFuncao": [
@@ -653,13 +653,13 @@
             "nome": "Saúde",
             "quantidade": 11,
             "empenhado": 57824851,
-            "pago": 49389058
+            "pago": 54389058
           },
           {
             "nome": "Encargos especiais",
             "quantidade": 3,
             "empenhado": 43253775.15,
-            "pago": 41159587.61
+            "pago": 43107396.15
           },
           {
             "nome": "Desporto e lazer",
@@ -697,13 +697,13 @@
             "nome": "MÚLTIPLO",
             "quantidade": 13,
             "empenhado": 91067471.50999999,
-            "pago": 80113285.61
+            "pago": 82061094.15
           },
           {
             "nome": "ESPÍRITO SANTO (UF)",
             "quantidade": 7,
             "empenhado": 16467841.91,
-            "pago": 6948454.95
+            "pago": 11948454.95
           },
           {
             "nome": "VILA VELHA - ES",
@@ -717,13 +717,13 @@
             "nome": "Emenda Individual - Transferências com Finalidade Definida",
             "quantidade": 19,
             "empenhado": 71499435.27,
-            "pago": 52402152.95
+            "pago": 57402152.95
           },
           {
             "nome": "Emenda Individual - Transferências Especiais",
             "quantidade": 3,
             "empenhado": 43253775.15,
-            "pago": 41159587.61
+            "pago": 43107396.15
           }
         ],
         "criterioDaLista": "as 10 de maior valor empenhado",
@@ -776,8 +776,8 @@
             "funcao": "Encargos especiais",
             "subfuncao": "Outras transferências",
             "empenhado": 13930000,
-            "liquidado": 11982191.46,
-            "pago": 11982191.46,
+            "liquidado": 13930000,
+            "pago": 13930000,
             "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202643620001"
           },
           {
@@ -854,8 +854,8 @@
             "funcao": "Saúde",
             "subfuncao": "Assistência hospitalar e ambulatorial",
             "empenhado": 5000000,
-            "liquidado": 0,
-            "pago": 0,
+            "liquidado": 5000000,
+            "pago": 5000000,
             "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202643620003"
           }
         ]
@@ -874,8 +874,8 @@
         "valoresPublicados": true,
         "totais": {
           "empenhado": 147278764.45999998,
-          "liquidado": 129007715.29,
-          "pago": 129007715.29,
+          "liquidado": 134656360.07,
+          "pago": 132666360.07000001,
           "restosInscritos": 4931322.78,
           "restosCancelados": 0,
           "restosPagos": 4720000
@@ -903,7 +903,7 @@
             "ano": 2026,
             "quantidade": 6,
             "empenhado": 40172876.99,
-            "pago": 27898228.21
+            "pago": 31556872.990000002
           }
         ],
         "porFuncao": [
@@ -917,7 +917,7 @@
             "nome": "Encargos especiais",
             "quantidade": 8,
             "empenhado": 56528539.07000001,
-            "pago": 50738516.29000001
+            "pago": 54397161.07000001
           },
           {
             "nome": "Assistência social",
@@ -955,7 +955,7 @@
             "nome": "MÚLTIPLO",
             "quantidade": 23,
             "empenhado": 144623842.07,
-            "pago": 127707715.29
+            "pago": 131366360.07000001
           },
           {
             "nome": "ESPÍRITO SANTO (UF)",
@@ -993,7 +993,7 @@
             "nome": "Emenda Individual - Transferências Especiais",
             "quantidade": 8,
             "empenhado": 56528539.07000001,
-            "pago": 50738516.29000001
+            "pago": 54397161.07000001
           }
         ],
         "criterioDaLista": "as 10 de maior valor empenhado",
@@ -1046,8 +1046,8 @@
             "funcao": "Encargos especiais",
             "subfuncao": "Outras transferências",
             "empenhado": 11293250,
-            "liquidado": 5644605.22,
-            "pago": 5644605.22,
+            "liquidado": 11293250,
+            "pago": 9303250,
             "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202630930005"
           },
           {
@@ -1143,9 +1143,9 @@
         "quantidade": 31,
         "valoresPublicados": true,
         "totais": {
-          "empenhado": 112134933.42,
-          "liquidado": 80369046.81,
-          "pago": 80369046.81,
+          "empenhado": 113243635.42,
+          "liquidado": 83699799.42,
+          "pago": 83699799.42,
           "restosInscritos": 12085349.06,
           "restosCancelados": 367090.39,
           "restosPagos": 8188722.34
@@ -1166,22 +1166,22 @@
           {
             "ano": 2026,
             "quantidade": 11,
-            "empenhado": 38213883.4,
-            "pago": 18611950.79
+            "empenhado": 39322585.4,
+            "pago": 21942703.4
           }
         ],
         "porFuncao": [
           {
             "nome": "Saúde",
             "quantidade": 12,
-            "empenhado": 58509874,
+            "empenhado": 59618576,
             "pago": 41948056
           },
           {
             "nome": "Encargos especiais",
             "quantidade": 3,
             "empenhado": 35929271.14,
-            "pago": 32455047.39
+            "pago": 35785800
           },
           {
             "nome": "Assistência social",
@@ -1236,8 +1236,8 @@
           {
             "nome": "MÚLTIPLO",
             "quantidade": 20,
-            "empenhado": 102789145.14,
-            "pago": 80003103.39
+            "empenhado": 103897847.14,
+            "pago": 83333856
           },
           {
             "nome": "ESPÍRITO SANTO (UF)",
@@ -1256,14 +1256,14 @@
           {
             "nome": "Emenda Individual - Transferências com Finalidade Definida",
             "quantidade": 28,
-            "empenhado": 76205662.28,
+            "empenhado": 77314364.28,
             "pago": 47913999.42
           },
           {
             "nome": "Emenda Individual - Transferências Especiais",
             "quantidade": 3,
             "empenhado": 35929271.14,
-            "pago": 32455047.39
+            "pago": 35785800
           }
         ],
         "criterioDaLista": "as 10 de maior valor empenhado",
@@ -1290,9 +1290,22 @@
             "funcao": "Encargos especiais",
             "subfuncao": "Outras transferências",
             "empenhado": 12079300,
-            "liquidado": 8748547.39,
-            "pago": 8748547.39,
+            "liquidado": 12079300,
+            "pago": 12079300,
             "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202643830005"
+          },
+          {
+            "codigo": "202643830003",
+            "ano": 2026,
+            "numero": "0003",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Saúde",
+            "subfuncao": "Atenção básica",
+            "empenhado": 10528468,
+            "liquidado": 6490392,
+            "pago": 6490392,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202643830003"
           },
           {
             "codigo": "202443830001",
@@ -1332,19 +1345,6 @@
             "liquidado": 9500000,
             "pago": 9500000,
             "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202443830005"
-          },
-          {
-            "codigo": "202643830003",
-            "ano": 2026,
-            "numero": "0003",
-            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
-            "localidade": "MÚLTIPLO",
-            "funcao": "Saúde",
-            "subfuncao": "Atenção básica",
-            "empenhado": 9419766,
-            "liquidado": 6490392,
-            "pago": 6490392,
-            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202643830003"
           },
           {
             "codigo": "202543830002",
@@ -1414,8 +1414,8 @@
         "valoresPublicados": true,
         "totais": {
           "empenhado": 103180207.83,
-          "liquidado": 66984796.86,
-          "pago": 66981602.78,
+          "liquidado": 73315174.63,
+          "pago": 73311980.55,
           "restosInscritos": 13525591.2,
           "restosCancelados": 74260.08,
           "restosPagos": 13357440.57
@@ -1437,7 +1437,7 @@
             "ano": 2026,
             "quantidade": 3,
             "empenhado": 35375757,
-            "pago": 17843372.23
+            "pago": 24173750
           }
         ],
         "porFuncao": [
@@ -1451,7 +1451,7 @@
             "nome": "Encargos especiais",
             "quantidade": 4,
             "empenhado": 29580724.25,
-            "pago": 23174637.48
+            "pago": 29505015.25
           },
           {
             "nome": "Desporto e lazer",
@@ -1489,7 +1489,7 @@
             "nome": "MÚLTIPLO",
             "quantidade": 14,
             "empenhado": 90250411.47,
-            "pago": 58475429.78
+            "pago": 64805807.55
           },
           {
             "nome": "ESPÍRITO SANTO (UF)",
@@ -1521,7 +1521,7 @@
             "nome": "Emenda Individual - Transferências Especiais",
             "quantidade": 4,
             "empenhado": 29580724.25,
-            "pago": 23174637.48
+            "pago": 29505015.25
           }
         ],
         "criterioDaLista": "as 10 de maior valor empenhado",
@@ -1535,8 +1535,8 @@
             "funcao": "Encargos especiais",
             "subfuncao": "Outras transferências",
             "empenhado": 15173750,
-            "liquidado": 8843372.23,
-            "pago": 8843372.23,
+            "liquidado": 15173750,
+            "pago": 15173750,
             "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202643840003"
           },
           {
@@ -1671,12 +1671,12 @@
         "quantidade": 85,
         "valoresPublicados": true,
         "totais": {
-          "empenhado": 142182569.55,
-          "liquidado": 109437461.64,
-          "pago": 108504678.39999999,
-          "restosInscritos": 12080507.18,
+          "empenhado": 143235743.55,
+          "liquidado": 114353193.84,
+          "pago": 113120410.6,
+          "restosInscritos": 11889875.82,
           "restosCancelados": 732032.04,
-          "restosPagos": 19004958.27
+          "restosPagos": 19195589.63
         },
         "porAno": [
           {
@@ -1700,22 +1700,22 @@
           {
             "ano": 2026,
             "quantidade": 20,
-            "empenhado": 35584638.53,
-            "pago": 25074491.400000002
+            "empenhado": 36637812.53,
+            "pago": 29690223.6
           }
         ],
         "porFuncao": [
           {
             "nome": "Saúde",
             "quantidade": 26,
-            "empenhado": 70473736.25999999,
-            "pago": 52829758
+            "empenhado": 71526910.25999999,
+            "pago": 53096658
           },
           {
             "nome": "Encargos especiais",
             "quantidade": 5,
             "empenhado": 40923045,
-            "pago": 36690712.8
+            "pago": 40839545
           },
           {
             "nome": "Assistência social",
@@ -1733,7 +1733,7 @@
             "nome": "Cultura",
             "quantidade": 6,
             "empenhado": 3911906,
-            "pago": 2157302
+            "pago": 2357302
           },
           {
             "nome": "Organização agrária",
@@ -1794,14 +1794,14 @@
           {
             "nome": "MÚLTIPLO",
             "quantidade": 24,
-            "empenhado": 115189296,
-            "pago": 99057232.8
+            "empenhado": 116042470,
+            "pago": 103472965
           },
           {
             "nome": "Nacional",
             "quantidade": 27,
-            "empenhado": 13358042.07,
-            "pago": 4901515
+            "empenhado": 13558042.07,
+            "pago": 5101515
           },
           {
             "nome": "ESPÍRITO SANTO (UF)",
@@ -1820,14 +1820,14 @@
           {
             "nome": "Emenda Individual - Transferências com Finalidade Definida",
             "quantidade": 80,
-            "empenhado": 101259524.55,
-            "pago": 71813965.6
+            "empenhado": 102312698.55,
+            "pago": 72280865.6
           },
           {
             "nome": "Emenda Individual - Transferências Especiais",
             "quantidade": 5,
             "empenhado": 40923045,
-            "pago": 36690712.8
+            "pago": 40839545
           }
         ],
         "criterioDaLista": "as 10 de maior valor empenhado",
@@ -1841,8 +1841,8 @@
             "funcao": "Encargos especiais",
             "subfuncao": "Outras transferências",
             "empenhado": 11064400,
-            "liquidado": 6915567.8,
-            "pago": 6915567.8,
+            "liquidado": 11064400,
+            "pago": 11064400,
             "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202633120023"
           },
           {
@@ -1977,9 +1977,9 @@
         "quantidade": 37,
         "valoresPublicados": true,
         "totais": {
-          "empenhado": 97979801.39,
-          "liquidado": 49690612.89,
-          "pago": 49690612.89,
+          "empenhado": 98840343.39,
+          "liquidado": 51669292.97,
+          "pago": 51419292.97,
           "restosInscritos": 26679645.84,
           "restosCancelados": 0,
           "restosPagos": 28803418.32
@@ -2000,27 +2000,27 @@
           {
             "ano": 2026,
             "quantidade": 9,
-            "empenhado": 30475583.2,
-            "pago": 19516903.12
+            "empenhado": 31336125.2,
+            "pago": 21245583.2
           }
         ],
         "porFuncao": [
           {
             "nome": "Saúde",
             "quantidade": 11,
-            "empenhado": 52406337,
+            "empenhado": 53066879,
             "pago": 24451456
           },
           {
             "nome": "Encargos especiais",
             "quantidade": 3,
             "empenhado": 17857085,
-            "pago": 16088404.92
+            "pago": 17817085
           },
           {
             "nome": "Assistência social",
             "quantidade": 3,
-            "empenhado": 5800000,
+            "empenhado": 6000000,
             "pago": 5000000
           },
           {
@@ -2082,8 +2082,8 @@
           {
             "nome": "MÚLTIPLO",
             "quantidade": 18,
-            "empenhado": 63093896.14,
-            "pago": 44139860.92
+            "empenhado": 63954438.14,
+            "pago": 45868541
           },
           {
             "nome": "ESPÍRITO SANTO (UF)",
@@ -2102,14 +2102,14 @@
           {
             "nome": "Emenda Individual - Transferências com Finalidade Definida",
             "quantidade": 34,
-            "empenhado": 80122716.39,
+            "empenhado": 80983258.39,
             "pago": 33602207.97
           },
           {
             "nome": "Emenda Individual - Transferências Especiais",
             "quantidade": 3,
             "empenhado": 17857085,
-            "pago": 16088404.92
+            "pago": 17817085
           }
         ],
         "criterioDaLista": "as 10 de maior valor empenhado",
@@ -2122,7 +2122,7 @@
             "localidade": "MÚLTIPLO",
             "funcao": "Saúde",
             "subfuncao": "Assistência hospitalar e ambulatorial",
-            "empenhado": 13215252,
+            "empenhado": 13875794,
             "liquidado": 12715252,
             "pago": 12715252,
             "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202643970005"
@@ -2201,8 +2201,8 @@
             "funcao": "Encargos especiais",
             "subfuncao": "Outras transferências",
             "empenhado": 4079500,
-            "liquidado": 2350819.92,
-            "pago": 2350819.92,
+            "liquidado": 4079500,
+            "pago": 4079500,
             "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202643970007"
           },
           {
@@ -2259,12 +2259,12 @@
         "quantidade": 25,
         "valoresPublicados": true,
         "totais": {
-          "empenhado": 113345489.44,
-          "liquidado": 80980400.22,
-          "pago": 80980130.22,
-          "restosInscritos": 6164744.53,
+          "empenhado": 114393485.44,
+          "liquidado": 84608193.63,
+          "pago": 84607923.63,
+          "restosInscritos": 6154744.53,
           "restosCancelados": 0,
-          "restosPagos": 5529484.6899999995
+          "restosPagos": 5539484.6899999995
         },
         "porAno": [
           {
@@ -2282,22 +2282,22 @@
           {
             "ano": 2026,
             "quantidade": 10,
-            "empenhado": 38202633.45,
-            "pago": 15531662.45
+            "empenhado": 39250629.45,
+            "pago": 19159455.86
           }
         ],
         "porFuncao": [
           {
             "nome": "Saúde",
             "quantidade": 12,
-            "empenhado": 57343690,
+            "empenhado": 58391686,
             "pago": 39630042
           },
           {
             "nome": "Encargos especiais",
             "quantidade": 3,
             "empenhado": 37747750,
-            "pago": 34034456.59
+            "pago": 37662250
           },
           {
             "nome": "Desporto e lazer",
@@ -2340,8 +2340,8 @@
           {
             "nome": "MÚLTIPLO",
             "quantidade": 12,
-            "empenhado": 64870221.99,
-            "pago": 41180115.36
+            "empenhado": 65918217.99,
+            "pago": 44807908.769999996
           },
           {
             "nome": "CARIACICA - ES",
@@ -2360,14 +2360,14 @@
           {
             "nome": "Emenda Individual - Transferências com Finalidade Definida",
             "quantidade": 22,
-            "empenhado": 75597739.44,
+            "empenhado": 76645735.44,
             "pago": 46945673.63
           },
           {
             "nome": "Emenda Individual - Transferências Especiais",
             "quantidade": 3,
             "empenhado": 37747750,
-            "pago": 34034456.59
+            "pago": 37662250
           }
         ],
         "criterioDaLista": "as 10 de maior valor empenhado",
@@ -2420,8 +2420,8 @@
             "funcao": "Encargos especiais",
             "subfuncao": "Outras transferências",
             "empenhado": 10397750,
-            "liquidado": 6769956.59,
-            "pago": 6769956.59,
+            "liquidado": 10397750,
+            "pago": 10397750,
             "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202644330010"
           },
           {
@@ -2477,6 +2477,19 @@
             "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202444330002"
           },
           {
+            "codigo": "202644330004",
+            "ano": 2026,
+            "numero": "0004",
+            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
+            "localidade": "MÚLTIPLO",
+            "funcao": "Saúde",
+            "subfuncao": "Atenção básica",
+            "empenhado": 4542898,
+            "liquidado": 524964,
+            "pago": 524964,
+            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202644330004"
+          },
+          {
             "codigo": "202644330001",
             "ano": 2026,
             "numero": "0001",
@@ -2488,19 +2501,6 @@
             "liquidado": 3702007,
             "pago": 3702007,
             "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202644330001"
-          },
-          {
-            "codigo": "202644330004",
-            "ano": 2026,
-            "numero": "0004",
-            "tipo": "Emenda Individual - Transferências com Finalidade Definida",
-            "localidade": "MÚLTIPLO",
-            "funcao": "Saúde",
-            "subfuncao": "Atenção básica",
-            "empenhado": 3494902,
-            "liquidado": 524964,
-            "pago": 524964,
-            "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202644330004"
           }
         ]
       }
@@ -2518,8 +2518,8 @@
         "valoresPublicados": true,
         "totais": {
           "empenhado": 111507081.11,
-          "liquidado": 103385313.97,
-          "pago": 103385313.97,
+          "liquidado": 106460912.15,
+          "pago": 106460912.15,
           "restosInscritos": 3966877,
           "restosCancelados": 0,
           "restosPagos": 2047118
@@ -2541,7 +2541,7 @@
             "ano": 2026,
             "quantidade": 7,
             "empenhado": 37459769.96,
-            "pago": 33399879.82
+            "pago": 36475478
           }
         ],
         "porFuncao": [
@@ -2549,13 +2549,13 @@
             "nome": "Saúde",
             "quantidade": 12,
             "empenhado": 60888305,
-            "pago": 58636216
+            "pago": 58936187
           },
           {
             "nome": "Encargos especiais",
             "quantidade": 3,
             "empenhado": 43799484.15,
-            "pago": 40914097.97
+            "pago": 43689725.15
           },
           {
             "nome": "Assistência social",
@@ -2599,7 +2599,7 @@
             "nome": "MÚLTIPLO",
             "quantidade": 15,
             "empenhado": 107607110.11,
-            "pago": 100785313.97
+            "pago": 103560941.15
           },
           {
             "nome": "ESPÍRITO SANTO (UF)",
@@ -2617,7 +2617,7 @@
             "nome": "DOMINGOS MARTINS - ES",
             "quantidade": 1,
             "empenhado": 299971,
-            "pago": 0
+            "pago": 299971
           }
         ],
         "porTipo": [
@@ -2625,13 +2625,13 @@
             "nome": "Emenda Individual - Transferências com Finalidade Definida",
             "quantidade": 20,
             "empenhado": 67707596.96000001,
-            "pago": 62471216
+            "pago": 62771187
           },
           {
             "nome": "Emenda Individual - Transferências Especiais",
             "quantidade": 3,
             "empenhado": 43799484.15,
-            "pago": 40914097.97
+            "pago": 43689725.15
           }
         ],
         "criterioDaLista": "as 10 de maior valor empenhado",
@@ -2658,8 +2658,8 @@
             "funcao": "Encargos especiais",
             "subfuncao": "Outras transferências",
             "empenhado": 15223500,
-            "liquidado": 12447872.82,
-            "pago": 12447872.82,
+            "liquidado": 15223500,
+            "pago": 15223500,
             "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202627740006"
           },
           {
@@ -2781,12 +2781,12 @@
         "quantidade": 71,
         "valoresPublicados": true,
         "totais": {
-          "empenhado": 254257176.07999998,
-          "liquidado": 164786927.94,
-          "pago": 164782082.3,
-          "restosInscritos": 72242214.72,
-          "restosCancelados": 3168251.3299999996,
-          "restosPagos": 40213099.160000004
+          "empenhado": 254958335.07999998,
+          "liquidado": 167205038.45,
+          "pago": 165503440.3,
+          "restosInscritos": 68605652.72,
+          "restosCancelados": 3169563.3299999996,
+          "restosPagos": 43848349.160000004
         },
         "porAno": [
           {
@@ -2810,16 +2810,16 @@
           {
             "ano": 2026,
             "quantidade": 17,
-            "empenhado": 60769684.49,
-            "pago": 50920641.5
+            "empenhado": 61470843.49,
+            "pago": 51641999.5
           }
         ],
         "porFuncao": [
           {
             "nome": "Saúde",
             "quantidade": 16,
-            "empenhado": 135654446.2,
-            "pago": 119783861
+            "empenhado": 136160805.2,
+            "pago": 120505219
           },
           {
             "nome": "Assistência social",
@@ -2890,7 +2890,7 @@
           {
             "nome": "Gestão ambiental",
             "quantidade": 4,
-            "empenhado": 1689600,
+            "empenhado": 1884400,
             "pago": 0
           },
           {
@@ -2916,8 +2916,8 @@
           {
             "nome": "MÚLTIPLO",
             "quantidade": 44,
-            "empenhado": 233225938.13,
-            "pago": 157770053.37
+            "empenhado": 233927097.13,
+            "pago": 158491411.37
           },
           {
             "nome": "ESPÍRITO SANTO (UF)",
@@ -2954,8 +2954,8 @@
           {
             "nome": "Emenda Individual - Transferências com Finalidade Definida",
             "quantidade": 71,
-            "empenhado": 254257176.07999998,
-            "pago": 164782082.3
+            "empenhado": 254958335.07999998,
+            "pago": 165503440.3
           }
         ],
         "criterioDaLista": "as 10 de maior valor empenhado",
@@ -2994,9 +2994,9 @@
             "localidade": "MÚLTIPLO",
             "funcao": "Saúde",
             "subfuncao": "Assistência hospitalar e ambulatorial",
-            "empenhado": 19743000,
-            "liquidado": 19021642,
-            "pago": 19021642,
+            "empenhado": 19853000,
+            "liquidado": 19743000,
+            "pago": 19743000,
             "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202641800007"
           },
           {
@@ -3021,7 +3021,7 @@
             "funcao": "Assistência social",
             "subfuncao": "SERVICOS SOCIOASSISTENCIAIS",
             "empenhado": 11000000,
-            "liquidado": 10430000,
+            "liquidado": 11000000,
             "pago": 10430000,
             "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202641800005"
           },
@@ -3059,7 +3059,7 @@
             "localidade": "MÚLTIPLO",
             "funcao": "Saúde",
             "subfuncao": "Atenção básica",
-            "empenhado": 9193430,
+            "empenhado": 9383430,
             "liquidado": 9193430,
             "pago": 9193430,
             "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202641800013"
@@ -3102,15 +3102,15 @@
       "ambiguidadeDeHomonimo": null,
       "foraDoPeriodo": 78,
       "emendas": {
-        "quantidade": 34,
+        "quantidade": 35,
         "valoresPublicados": true,
         "totais": {
-          "empenhado": 197931574.72,
-          "liquidado": 128926752.74,
-          "pago": 128767877.13,
-          "restosInscritos": 24444290.26,
+          "empenhado": 198133074.72,
+          "liquidado": 135719733.61,
+          "pago": 135463469,
+          "restosInscritos": 24256290.26,
           "restosCancelados": 348381,
-          "restosPagos": 29825205.74
+          "restosPagos": 30013205.74
         },
         "porAno": [
           {
@@ -3127,23 +3127,23 @@
           },
           {
             "ano": 2026,
-            "quantidade": 11,
-            "empenhado": 63966840.72,
-            "pago": 30860842.130000003
+            "quantidade": 12,
+            "empenhado": 64168340.72,
+            "pago": 37556434
           }
         ],
         "porFuncao": [
           {
             "nome": "Saúde",
             "quantidade": 13,
-            "empenhado": 102717930,
+            "empenhado": 102917930,
             "pago": 67853227
           },
           {
             "nome": "Encargos especiais",
             "quantidade": 3,
             "empenhado": 56286850,
-            "pago": 49403258.13
+            "pago": 56098850
           },
           {
             "nome": "Comércio e serviços",
@@ -3168,14 +3168,20 @@
             "quantidade": 4,
             "empenhado": 3175545.7199999997,
             "pago": 500000
+          },
+          {
+            "nome": "Defesa nacional",
+            "quantidade": 1,
+            "empenhado": 1500,
+            "pago": 0
           }
         ],
         "porLocalidade": [
           {
             "nome": "MÚLTIPLO",
             "quantidade": 16,
-            "empenhado": 154707548,
-            "pago": 123856485.13
+            "empenhado": 154907548,
+            "pago": 130552077
           },
           {
             "nome": "ESPÍRITO SANTO (UF)",
@@ -3185,8 +3191,8 @@
           },
           {
             "nome": "Nacional",
-            "quantidade": 6,
-            "empenhado": 3433513.7199999997,
+            "quantidade": 7,
+            "empenhado": 3435013.7199999997,
             "pago": 500000
           },
           {
@@ -3199,15 +3205,15 @@
         "porTipo": [
           {
             "nome": "Emenda Individual - Transferências com Finalidade Definida",
-            "quantidade": 31,
-            "empenhado": 141644724.72,
+            "quantidade": 32,
+            "empenhado": 141846224.72,
             "pago": 79364619
           },
           {
             "nome": "Emenda Individual - Transferências Especiais",
             "quantidade": 3,
             "empenhado": 56286850,
-            "pago": 49403258.13
+            "pago": 56098850
           }
         ],
         "criterioDaLista": "as 10 de maior valor empenhado",
@@ -3247,8 +3253,8 @@
             "funcao": "Encargos especiais",
             "subfuncao": "Outras transferências",
             "empenhado": 17114000,
-            "liquidado": 10418408.13,
-            "pago": 10418408.13,
+            "liquidado": 17114000,
+            "pago": 17114000,
             "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202620290010"
           },
           {
@@ -3259,7 +3265,7 @@
             "localidade": "MÚLTIPLO",
             "funcao": "Saúde",
             "subfuncao": "Atenção básica",
-            "empenhado": 13800000,
+            "empenhado": 14000000,
             "liquidado": 11600000,
             "pago": 11600000,
             "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202620290002"
@@ -3358,8 +3364,8 @@
         "valoresPublicados": true,
         "totais": {
           "empenhado": 270029619.49,
-          "liquidado": 160616170.73,
-          "pago": 159396150.04999998,
+          "liquidado": 172789974.13,
+          "pago": 171569953.45,
           "restosInscritos": 59196812.599999994,
           "restosCancelados": 919660.9400000001,
           "restosPagos": 47292496.56
@@ -3387,7 +3393,7 @@
             "ano": 2026,
             "quantidade": 4,
             "empenhado": 73273109,
-            "pago": 45899305.6
+            "pago": 58073109
           }
         ],
         "porFuncao": [
@@ -3407,7 +3413,7 @@
             "nome": "Encargos especiais",
             "quantidade": 3,
             "empenhado": 38413214.85,
-            "pago": 26142014.45
+            "pago": 38315817.85
           },
           {
             "nome": "Educação",
@@ -3451,7 +3457,7 @@
             "nome": "MÚLTIPLO",
             "quantidade": 17,
             "empenhado": 199322331.61,
-            "pago": 136663086.9
+            "pago": 148836890.3
           },
           {
             "nome": "ESPÍRITO SANTO (UF)",
@@ -3495,7 +3501,7 @@
             "nome": "Emenda Individual - Transferências Especiais",
             "quantidade": 3,
             "empenhado": 38413214.85,
-            "pago": 26142014.45
+            "pago": 38315817.85
           }
         ],
         "criterioDaLista": "as 10 de maior valor empenhado",
@@ -3509,8 +3515,8 @@
             "funcao": "Encargos especiais",
             "subfuncao": "Outras transferências",
             "empenhado": 25173500,
-            "liquidado": 12999696.6,
-            "pago": 12999696.6,
+            "liquidado": 25173500,
+            "pago": 25173500,
             "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202692040001"
           },
           {

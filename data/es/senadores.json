@@ -11,7 +11,7 @@
     2025,
     2026
   ],
-  "coletadoEm": "2026-11-10T17:13:04.233Z",
+  "coletadoEm": "2026-11-13T17:14:16.136Z",
   "senadores": [
     {
       "id": "senado-5953",
@@ -3430,6 +3430,86 @@
         "fim": "2031-01-31"
       },
       "materias": [
+        {
+          "id": "176369",
+          "identificacao": "PL 5843/2026",
+          "sigla": "PL",
+          "numero": "5843",
+          "ano": 2026,
+          "ementa": "Institui a Política de Incentivo à Inclusão Profissional das Pessoas com Deficiência na Administração Pública Federal e estabelece diretrizes para a ampliação das oportunidades de trabalho e valorização profissional.",
+          "data": "2026-11-13",
+          "autorPrincipal": true
+        },
+        {
+          "id": "176304",
+          "identificacao": "PEC 23/2026",
+          "sigla": "PEC",
+          "numero": "23",
+          "ano": 2026,
+          "ementa": "Altera o inciso V do art. 52 da Constituição Federal, para ampliar a competência do Senado Federal quanto à autorização de operações internas e externas de natureza financeira.",
+          "data": "2026-11-11",
+          "autorPrincipal": false
+        },
+        {
+          "id": "176307",
+          "identificacao": "REQ 16/2026 - CSP",
+          "sigla": "REQ",
+          "numero": "16",
+          "ano": 2026,
+          "ementa": "Requer, nos termos do art. 58, § 2°, V, da Constituição Federal, que seja convidado o Senhor Andrei Augusto Passos Rodrigues, Diretor-Geral da Polícia Federal, a comparecer a esta Comissão, a fim de prestar esclarecimentos acerca do afastamento dos Delegados de Polícia Federal Daniel Mostardeiro Cola, Coordenador-Geral de Repressão à Corrupção, Crimes Financeiros e Lavagem de Dinheiro, e Wedson Cajé Lopes, substituto eventual da referida Coordenação-Geral.",
+          "data": "2026-11-11",
+          "autorPrincipal": true
+        },
+        {
+          "id": "176309",
+          "identificacao": "RQS 760/2026",
+          "sigla": "RQS",
+          "numero": "760",
+          "ano": 2026,
+          "ementa": "Requer voto de aplauso aos Delegados da Polícia Federal Daniel Mostardeiro Cola, Coordenador-Geral de Repressão à Corrupção, Crimes Financeiros e Lavagem de Dinheiro, e Wedson Cajé Lopes, substituto eventual da referida Coordenação-Geral, em reconhecimento aos relevantes serviços prestados ao País e à dedicação demonstrada no exercício de suas funções institucionais.",
+          "data": "2026-11-11",
+          "autorPrincipal": true
+        },
+        {
+          "id": "176329",
+          "identificacao": "RQS 768/2026",
+          "sigla": "RQS",
+          "numero": "768",
+          "ano": 2026,
+          "ementa": "Requer a declaração como não escrito do artigo 12 do Projeto de Lei de Conversão nº 16, de 2026, por tratar de matéria estranha à Medida Provisória nº 1.376, de 2026.",
+          "data": "2026-11-11",
+          "autorPrincipal": true
+        },
+        {
+          "id": "176330",
+          "identificacao": "RQS 769/2026",
+          "sigla": "RQS",
+          "numero": "769",
+          "ano": 2026,
+          "ementa": "Requer a declaração como não escrito do artigo 12 do Projeto de Lei de Conversão nº 16, de 2026, por tratar de matéria estranha à Medida Provisória nº 1.376, de 2026.",
+          "data": "2026-11-11",
+          "autorPrincipal": false
+        },
+        {
+          "id": "176283",
+          "identificacao": "RQS 755/2026",
+          "sigla": "RQS",
+          "numero": "755",
+          "ano": 2026,
+          "ementa": "Requer voto de repúdio à Diretoria de Avaliação da Educação Básica (Daeb), do Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira (Inep), pela inclusão de questões no Exame Nacional do Ensino Médio (Enem) 2026, aplicado em 08 de novembro de 2026, por conter e difundir conteúdo que reproduz construção histórica profundamente misógina, incompatível com os princípios constitucionais que regem a República Federativa do Brasil.",
+          "data": "2026-11-10",
+          "autorPrincipal": true
+        },
+        {
+          "id": "176291",
+          "identificacao": "RQS 756/2026",
+          "sigla": "RQS",
+          "numero": "756",
+          "ano": 2026,
+          "ementa": "Requer voto de repúdio ao Sr. Luiz Inácio Lula da Silva, Presidente da República, por declarações proferidas sobre o Estado de Santa Catarina, em 5 de novembro de 2026, em meio à grave situação enfrentada pela população catarinense em decorrência de tornados e temporais.",
+          "data": "2026-11-10",
+          "autorPrincipal": false
+        },
         {
           "id": "176256",
           "identificacao": "RQS 751/2026",
@@ -8054,19 +8134,19 @@
       "materiasPorTipo": [
         {
           "sigla": "RQS",
-          "total": 218
+          "total": 223
         },
         {
           "sigla": "REQ",
-          "total": 82
+          "total": 83
         },
         {
           "sigla": "PEC",
-          "total": 63
+          "total": 64
         },
         {
           "sigla": "PL",
-          "total": 59
+          "total": 60
         },
         {
           "sigla": "PDL",
@@ -8123,12 +8203,22 @@
       },
       "materias": [
         {
+          "id": "176304",
+          "identificacao": "PEC 23/2026",
+          "sigla": "PEC",
+          "numero": "23",
+          "ano": 2026,
+          "ementa": "Altera o inciso V do art. 52 da Constituição Federal, para ampliar a competência do Senado Federal quanto à autorização de operações internas e externas de natureza financeira.",
+          "data": "2026-11-11",
+          "autorPrincipal": false
+        },
+        {
           "id": "176207",
           "identificacao": "REQ 382/2026 - CDIR",
           "sigla": "REQ",
           "numero": "382",
           "ano": 2026,
-          "ementa": "Requer licença para desempenhar missão oficial, a fim de participar de visita técnica ao Departamento de Polícia e Unidade de Armas Táticas Especiais, bem como do 33º Fórum Parlamentar de Inteligência e Segurança, em Beaumont e Washington DC, Estados Unidos da América.",
+          "ementa": "Requer licença para desempenhar missão oficial, a fim de participar de visita técnica ao Departamento de Polícia e Unidade de Armas Táticas Especiais, bem como do 33º Fórum Parlamentar de Inteligência e Segurança, em Beaumont e Washington DC, nos Estados Unidos da América.",
           "data": "2026-11-05",
           "autorPrincipal": true
         },
@@ -11200,7 +11290,7 @@
         },
         {
           "sigla": "PEC",
-          "total": 69
+          "total": 70
         },
         {
           "sigla": "REQ",
@@ -11243,6 +11333,134 @@
     }
   ],
   "votacoes": [
+    {
+      "id": "7115-1",
+      "data": "2026-11-12",
+      "materia": "PLP 299/2026",
+      "ementa": "Altera a Lei Complementar nº 200, de 30 de agosto de 2023, para conferir ao Poder Executivo federal novos instrumentos de gestão com vistas a garantir a estabilidade macroeconômica do País e criar as condições adequadas ao crescimento socioeconômico; e dá outras providências.",
+      "descricao": "Votação nominal do Requerimento n° 770, de 2026, de Líderes.",
+      "resultado": "Aprovado",
+      "secreta": false,
+      "votosDoEstado": [
+        {
+          "idExterno": 5953,
+          "nome": "Fabiano Contarato",
+          "partido": "PT",
+          "registro": "Sim",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 631,
+          "nome": "Magno Malta",
+          "partido": "PL",
+          "registro": "Não",
+          "voto": "Não"
+        },
+        {
+          "idExterno": 5942,
+          "nome": "Marcos do Val",
+          "partido": "AVANTE",
+          "registro": "Não",
+          "voto": "Não"
+        }
+      ]
+    },
+    {
+      "id": "7116-2",
+      "data": "2026-11-12",
+      "materia": "PLP 299/2026",
+      "ementa": "Altera a Lei Complementar nº 200, de 30 de agosto de 2023, para conferir ao Poder Executivo federal novos instrumentos de gestão com vistas a garantir a estabilidade macroeconômica do País e criar as condições adequadas ao crescimento socioeconômico; e dá outras providências.",
+      "descricao": "Votação nominal da Emenda nº 75 (Substitutivo) ao PLP nº 299/2026, nos termos do parecer, ressalvados os destaques.",
+      "resultado": "Aprovado",
+      "secreta": false,
+      "votosDoEstado": [
+        {
+          "idExterno": 5953,
+          "nome": "Fabiano Contarato",
+          "partido": "PT",
+          "registro": "Sim",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 631,
+          "nome": "Magno Malta",
+          "partido": "PL",
+          "registro": "Não",
+          "voto": "Não"
+        },
+        {
+          "idExterno": 5942,
+          "nome": "Marcos do Val",
+          "partido": "AVANTE",
+          "registro": "Não",
+          "voto": "Não"
+        }
+      ]
+    },
+    {
+      "id": "7114-1",
+      "data": "2026-11-11",
+      "materia": "PLP 230/2025",
+      "ementa": "Altera a Lei Complementar nº 101, de 4 de maio de 2000 (Lei de Responsabilidade Fiscal), para vedar a limitação de empenho e movimentação financeira das despesas relativas ao Fundo de Universalização dos Serviços de Telecomunicações (Fust), e a Lei nº 9.998, de 17 de agosto de 2000, para os fins que especifica.",
+      "descricao": "Votação nominal do Projeto de Lei Complementar nº 230, de 2025, nos termos do parecer.",
+      "resultado": "Aprovado",
+      "secreta": false,
+      "votosDoEstado": [
+        {
+          "idExterno": 5953,
+          "nome": "Fabiano Contarato",
+          "partido": "PT",
+          "registro": "MIS",
+          "voto": "MIS"
+        },
+        {
+          "idExterno": 631,
+          "nome": "Magno Malta",
+          "partido": "PL",
+          "registro": "Sim",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 5942,
+          "nome": "Marcos do Val",
+          "partido": "AVANTE",
+          "registro": "Sim",
+          "voto": "Sim"
+        }
+      ]
+    },
+    {
+      "id": "7113-1",
+      "data": "2026-11-10",
+      "materia": "PLP 109/2025",
+      "ementa": "Dispõe sobre o acesso da Agência Nacional do Petróleo, Gás Natural e Biocombustíveis (ANP) às informações fiscais dos agentes regulados para fins de fiscalização e regulação do setor, nos termos do § 1º do art. 145 da Constituição Federal.",
+      "descricao": "Votação nominal do Projeto de Lei Complementar nº 109, de 2025, nos termos dos pareceres.",
+      "resultado": "Aprovado",
+      "secreta": false,
+      "votosDoEstado": [
+        {
+          "idExterno": 5953,
+          "nome": "Fabiano Contarato",
+          "partido": "PT",
+          "registro": "MIS",
+          "voto": "MIS"
+        },
+        {
+          "idExterno": 631,
+          "nome": "Magno Malta",
+          "partido": "PL",
+          "registro": "Sim",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 5942,
+          "nome": "Marcos do Val",
+          "partido": "AVANTE",
+          "registro": "Sim",
+          "voto": "Sim"
+        }
+      ]
+    },
     {
       "id": "7109-1",
       "data": "2026-11-03",
