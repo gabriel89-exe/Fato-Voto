@@ -6,7 +6,7 @@
   },
   "uf": "ES",
   "legislatura": 57,
-  "coletadoEm": "2026-11-13T17:14:08.958Z",
+  "coletadoEm": "2026-11-14T15:50:38.154Z",
   "referencia": {
     "bancada": 10,
     "medianaDespesas": 352764.5400000001,
@@ -3028,7 +3028,7 @@
           {
             "tipo": "Requerimento para envio de Solicitação de Informação ao TCU pela Comissão",
             "sigla": "REQ",
-            "total": 106
+            "total": 107
           },
           {
             "tipo": "Emenda na Comissão",
@@ -3058,7 +3058,7 @@
           {
             "tipo": "Requerimento (Outros)",
             "sigla": "REQ",
-            "total": 49
+            "total": 50
           },
           {
             "tipo": "Proposta de Emenda à Constituição",
@@ -3253,6 +3253,26 @@
         ],
         "recentes": [
           {
+            "id": 2653942,
+            "sigla": "REQ",
+            "tipo": "Requerimento (Outros)",
+            "numero": 206,
+            "ano": 2026,
+            "ementa": "Requer a realização de auditoria pelo Tribunal de Contas da União (TCU) para apurar possíveis irregularidades na destinação de R$ 851.539.890,97 do Fundo de Defesa da Economia Cafeeira (Funcafé), promovida pelas Portarias STN/MF nº 1.260/2026 e nº 1.464/2026, bem como seus impactos sobre o financiamento da cafeicultura brasileira e o Plano Safra 2026/2027.",
+            "apresentadaEm": "2026-11-12T18:04",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2653942"
+          },
+          {
+            "id": 2653941,
+            "sigla": "REQ",
+            "tipo": "Requerimento para envio de Solicitação de Informação ao TCU pela Comissão",
+            "numero": 205,
+            "ano": 2026,
+            "ementa": "Requer ao Tribunal de Contas da União (TCU) informações acerca da fiscalização, das providências adotadas e da apuração de possíveis irregularidades na destinação de R$ 851.539.890,97 do Fundo de Defesa da Economia Cafeeira (Funcafé), promovida pelas Portarias STN/MF nº 1.260/2026 e nº 1.464/2026, bem como dos impactos sobre a política cafeeira nacional e o Plano Safra 2026/2027.",
+            "apresentadaEm": "2026-11-12T18:04",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2653941"
+          },
+          {
             "id": 2653495,
             "sigla": "SIT",
             "tipo": "Solicitação de Informação ao TCU",
@@ -3331,26 +3351,6 @@
             "ementa": "Sugere ao Ministro de Estado da Controladoria-Geral da União a instauração de procedimentos de auditoria, fiscalização e apuração administrativa relativos a possíveis irregularidades envolvendo a atuação da empresária Roberta Luchsinger, intermediários privados e agentes públicos federais, especialmente quanto à existência de conflitos de interesses, favorecimento\nindevido e utilização de relações pessoais para obtenção de vantagens perante a Administração Pública Federal.",
             "apresentadaEm": "2026-10-20T20:31",
             "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2648607"
-          },
-          {
-            "id": 2648806,
-            "sigla": "REQ",
-            "tipo": "Requerimento para envio de Indicação pela Comissão",
-            "numero": 193,
-            "ano": 2026,
-            "ementa": "Requer o encaminhamento de Indicação ao Procurador-Geral da República, sugerindo a adoção de providências destinadas à apuração de possíveis ilícitos contra a Administração Pública Federal, especialmente quanto à atuação da empresária Roberta Luchsinger, de Fábio Luís Lula da Silva, de intermediários empresariais e de agentes públicos federais, diante de suspeitas relacionadas a contratos públicos, movimentações financeiras, tráfico de influência, corrupção e eventual favorecimento indevido.",
-            "apresentadaEm": "2026-10-20T17:18",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2648806"
-          },
-          {
-            "id": 2648805,
-            "sigla": "REQ",
-            "tipo": "Requerimento para envio de Solicitação de Informação ao TCU pela Comissão",
-            "numero": 192,
-            "ano": 2026,
-            "ementa": "Solicita ao Tribunal de Contas da União (TCU) informações acerca da existência de auditorias, fiscalizações, representações e procedimentos de controle relacionados à atuação da empresária Roberta Luchsinger, de pessoas físicas e jurídicas a ela vinculadas e de possíveis intermediários de interesses privados perante órgãos e entidades da Administração Pública Federal, especialmente no âmbito do Instituto Nacional do Seguro Social (INSS), do Ministério da Saúde e do Departamento Nacional de Infraestrutura de Transportes (DNIT).",
-            "apresentadaEm": "2026-10-20T16:29",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2648805"
           }
         ]
       }
@@ -3882,7 +3882,7 @@
           {
             "tipo": "Requerimento de Voto de regozijo ou louvor",
             "sigla": "REQ",
-            "total": 1554
+            "total": 1555
           },
           {
             "tipo": "Requerimento de Registro de Frente Parlamentar na Câmara dos Deputados",
@@ -4057,6 +4057,16 @@
         ],
         "recentes": [
           {
+            "id": 2653938,
+            "sigla": "REQ",
+            "tipo": "Requerimento de Voto de regozijo ou louvor",
+            "numero": 4451,
+            "ano": 2026,
+            "ementa": "Requer o registro nos anais desta Casa da Moção de Aplauso e Louvor ao atleta capixaba VITOR DUTRA, pela conquista da medalha de bronze na Copa do Mundo de Futebol PC 2026, em Atlanta, nos Estados Unidos, e por sua trajetória de superação e representatividade no esporte paralímpico brasileiro.",
+            "apresentadaEm": "2026-11-13T16:50",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2653938"
+          },
+          {
             "id": 2650853,
             "sigla": "PL",
             "tipo": "Projeto de Lei",
@@ -4145,16 +4155,6 @@
             "ementa": "Dispõe sobre a prescrição, a dispensação, a comercialização, a administração, a publicidade e o controle de medicamentos anticoncepcionais hormonais de uso veterinário destinados a cadelas e gatas, e dá outras providências.",
             "apresentadaEm": "2026-07-01T17:14",
             "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2636462"
-          },
-          {
-            "id": 2636461,
-            "sigla": "PL",
-            "tipo": "Projeto de Lei",
-            "numero": 3415,
-            "ano": 2026,
-            "ementa": "Altera a Lei nº 9.503, de 23 de setembro de 1997, que institui o Código de Trânsito Brasileiro, para instituir o Registro Nacional de Bicicletas Elétricas – RENABE e estabelecer a obrigatoriedade de identificação das bicicletas elétricas.",
-            "apresentadaEm": "2026-07-01T17:13",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2636461"
           }
         ]
       }
@@ -5574,7 +5574,7 @@
           {
             "tipo": "Projeto de Lei",
             "sigla": "PL",
-            "total": 64
+            "total": 68
           },
           {
             "tipo": "Requerimento de Redistribuição",
@@ -5754,6 +5754,46 @@
         ],
         "recentes": [
           {
+            "id": 2653947,
+            "sigla": "PL",
+            "tipo": "Projeto de Lei",
+            "numero": 5855,
+            "ano": 2026,
+            "ementa": "Altera a Lei nº 9.249, de 26 de dezembro de 1995, para elevar a alíquota do Imposto de Renda Retido na Fonte incidente sobre os juros sobre o capital próprio.",
+            "apresentadaEm": "2026-11-13T18:29",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2653947"
+          },
+          {
+            "id": 2653946,
+            "sigla": "PL",
+            "tipo": "Projeto de Lei",
+            "numero": 5854,
+            "ano": 2026,
+            "ementa": "Dispõe sobre a incidência do Imposto sobre a Renda das Pessoas Físicas sobre lucros e dividendos distribuídos por pessoas jurídicas, altera as Leis nº 9.249, de 26 de dezembro de 1995, e nº 9.250, de 26 de dezembro de 1995, e dá outras providências.",
+            "apresentadaEm": "2026-11-13T18:29",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2653946"
+          },
+          {
+            "id": 2653945,
+            "sigla": "PL",
+            "tipo": "Projeto de Lei",
+            "numero": 5853,
+            "ano": 2026,
+            "ementa": "Dispõe sobre a incidência do Imposto de Renda Retido na Fonte sobre os rendimentos de títulos e valores mobiliários.",
+            "apresentadaEm": "2026-11-13T18:29",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2653945"
+          },
+          {
+            "id": 2653944,
+            "sigla": "PL",
+            "tipo": "Projeto de Lei",
+            "numero": 5852,
+            "ano": 2026,
+            "ementa": "Institui o Imposto sobre Grandes  Fortunas, previsto no art. 153, inciso VII, da Constituição Federal.",
+            "apresentadaEm": "2026-11-13T18:29",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2653944"
+          },
+          {
             "id": 2649499,
             "sigla": "PL",
             "tipo": "Projeto de Lei",
@@ -5812,46 +5852,6 @@
             "ementa": "Determina que as despesas de capital e parcela das despesas custeadas com receitas próprias de autarquias federais não sejam alcançadas pelo mecanismo de limitação de empenho e movimentação financeira previsto na LRF, e não sejam incluídas na base de cálculo e nos limites estabelecidos no Novo Arcabouço Fiscal para as despesas primárias do Governo Federal.",
             "apresentadaEm": "2026-08-12T17:56",
             "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2643283"
-          },
-          {
-            "id": 2641582,
-            "sigla": "PL",
-            "tipo": "Projeto de Lei",
-            "numero": 4784,
-            "ano": 2026,
-            "ementa": "Dispõe sobre a criação e o funcionamento de Cooperativas Solidárias, visando a promoção social da cidadania, da organização coletiva mutualista e dos direitos fundamentais de vida digna, conforme especifica.",
-            "apresentadaEm": "2026-07-24T09:47",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641582"
-          },
-          {
-            "id": 2637237,
-            "sigla": "PL",
-            "tipo": "Projeto de Lei",
-            "numero": 3479,
-            "ano": 2026,
-            "ementa": "Estabelece o marco legal do Registro Nacional de Beneficiários Finais, dispõe sobre a integração, atualização, verificação, interoperabilidade e acesso às informações relativas aos beneficiários finais de pessoas jurídicas e estruturas legais, e fortalece os mecanismos de prevenção à lavagem de dinheiro, corrupção, evasão fiscal, ocultação patrimonial e infiltração da criminaliza organizada na economia formal.",
-            "apresentadaEm": "2026-07-06T13:23",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2637237"
-          },
-          {
-            "id": 2633955,
-            "sigla": "PL",
-            "tipo": "Projeto de Lei",
-            "numero": 3197,
-            "ano": 2026,
-            "ementa": "Acrescenta o art. 81-A à Lei n° 13.146, de 6 de julho de 2015 (Estatuto da Pessoa com Deficiência), para determinar o registro, em boletim de ocorrência, da motivação do fato pela condição de pessoa com deficiência da vítima.",
-            "apresentadaEm": "2026-06-17T19:02",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2633955"
-          },
-          {
-            "id": 2633954,
-            "sigla": "PL",
-            "tipo": "Projeto de Lei",
-            "numero": 3196,
-            "ano": 2026,
-            "ementa": "Altera a Medida Provisória nº 2.228-1, de 6 de setembro de 2001, para dispor sobre exigências adicionais no cumprimento da obrigatoriedade de exibição comercial de obras cinematográficas brasileiras.",
-            "apresentadaEm": "2026-06-17T19:01",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2633954"
           }
         ]
       }
@@ -6435,7 +6435,7 @@
           {
             "tipo": "Projeto de Lei",
             "sigla": "PL",
-            "total": 36
+            "total": 40
           },
           {
             "tipo": "Requerimento de Urgência (Art. 155 do RICD)",
@@ -6585,6 +6585,46 @@
         ],
         "recentes": [
           {
+            "id": 2653947,
+            "sigla": "PL",
+            "tipo": "Projeto de Lei",
+            "numero": 5855,
+            "ano": 2026,
+            "ementa": "Altera a Lei nº 9.249, de 26 de dezembro de 1995, para elevar a alíquota do Imposto de Renda Retido na Fonte incidente sobre os juros sobre o capital próprio.",
+            "apresentadaEm": "2026-11-13T18:29",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2653947"
+          },
+          {
+            "id": 2653946,
+            "sigla": "PL",
+            "tipo": "Projeto de Lei",
+            "numero": 5854,
+            "ano": 2026,
+            "ementa": "Dispõe sobre a incidência do Imposto sobre a Renda das Pessoas Físicas sobre lucros e dividendos distribuídos por pessoas jurídicas, altera as Leis nº 9.249, de 26 de dezembro de 1995, e nº 9.250, de 26 de dezembro de 1995, e dá outras providências.",
+            "apresentadaEm": "2026-11-13T18:29",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2653946"
+          },
+          {
+            "id": 2653945,
+            "sigla": "PL",
+            "tipo": "Projeto de Lei",
+            "numero": 5853,
+            "ano": 2026,
+            "ementa": "Dispõe sobre a incidência do Imposto de Renda Retido na Fonte sobre os rendimentos de títulos e valores mobiliários.",
+            "apresentadaEm": "2026-11-13T18:29",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2653945"
+          },
+          {
+            "id": 2653944,
+            "sigla": "PL",
+            "tipo": "Projeto de Lei",
+            "numero": 5852,
+            "ano": 2026,
+            "ementa": "Institui o Imposto sobre Grandes  Fortunas, previsto no art. 153, inciso VII, da Constituição Federal.",
+            "apresentadaEm": "2026-11-13T18:29",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2653944"
+          },
+          {
             "id": 2649821,
             "sigla": "REQ",
             "tipo": "Requerimento de Moção",
@@ -6643,46 +6683,6 @@
             "ementa": "Determina que as despesas de capital e parcela das despesas custeadas com receitas próprias de autarquias federais não sejam alcançadas pelo mecanismo de limitação de empenho e movimentação financeira previsto na LRF, e não sejam incluídas na base de cálculo e nos limites estabelecidos no Novo Arcabouço Fiscal para as despesas primárias do Governo Federal.",
             "apresentadaEm": "2026-08-12T17:56",
             "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2643283"
-          },
-          {
-            "id": 2642712,
-            "sigla": "REQ",
-            "tipo": "Requerimento de Apensação",
-            "numero": 4015,
-            "ano": 2026,
-            "ementa": "Requer o apensamento da Proposta de Emenda à Constituição nº 6, de 2024, à Proposta de Emenda à Constituição nº 555, de 2006.",
-            "apresentadaEm": "2026-08-11T16:21",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2642712"
-          },
-          {
-            "id": 2642711,
-            "sigla": "REQ",
-            "tipo": "Requerimento de Inclusão de Matéria na Ordem do Dia",
-            "numero": 4014,
-            "ano": 2026,
-            "ementa": "Requer a inclusão na ordem do dia do Recurso contra apreciação conclusiva de comissão nº 1/2026 ao Projeto de Lei nº 2.812, de 2022, que revoga a Lei nº 12.318, de 26 de agosto de 2010 - Lei de Alienação Parental.",
-            "apresentadaEm": "2026-08-11T16:17",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2642711"
-          },
-          {
-            "id": 2639472,
-            "sigla": "REQ",
-            "tipo": "Requerimento (Outros)",
-            "numero": 57,
-            "ano": 2026,
-            "ementa": "Requer a apresentação de Emenda de Plenário ao Projeto de Lei nº 896, de 2023.",
-            "apresentadaEm": "2026-07-14T14:48",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2639472"
-          },
-          {
-            "id": 2637801,
-            "sigla": "REQ",
-            "tipo": "Requerimento de Moção",
-            "numero": 3802,
-            "ano": 2026,
-            "ementa": "Requer a aprovação de Moção de Censura e Repúdio às manifestações públicas que atacam o voto feminino, relativizam o sufrágio universal e desqualificam a participação política das mulheres.",
-            "apresentadaEm": "2026-07-07T18:19",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2637801"
           }
         ]
       }
