@@ -6,7 +6,7 @@
   },
   "uf": "ES",
   "legislatura": 57,
-  "coletadoEm": "2026-11-15T16:22:46.153Z",
+  "coletadoEm": "2026-11-16T19:38:13.376Z",
   "referencia": {
     "bancada": 10,
     "medianaDespesas": 352764.5400000001,
@@ -36,7 +36,7 @@
       "paginaOficial": "https://www.camara.leg.br/deputados/204356",
       "despesas": {
         "total": 261304.33999999973,
-        "documentos": 1121,
+        "documentos": 1122,
         "porTipo": [
           {
             "tipo": "PASSAGEM AÉREA - SIGEPA",
@@ -570,8 +570,8 @@
           }
         ],
         "comprovantes": {
-          "com": 724,
-          "total": 1121
+          "com": 725,
+          "total": 1122
         }
       },
       "proposicoes": {
@@ -1633,7 +1633,7 @@
       "paginaOficial": "https://www.camara.leg.br/deputados/220528",
       "despesas": {
         "total": 439478.6300000001,
-        "documentos": 1099,
+        "documentos": 1100,
         "porTipo": [
           {
             "tipo": "PASSAGEM AÉREA - SIGEPA",
@@ -2167,8 +2167,8 @@
           }
         ],
         "comprovantes": {
-          "com": 445,
-          "total": 1099
+          "com": 446,
+          "total": 1100
         }
       },
       "proposicoes": {
@@ -2973,7 +2973,7 @@
           {
             "tipo": "Requerimento de Informação",
             "sigla": "RIC",
-            "total": 337
+            "total": 338
           },
           {
             "tipo": "Requerimento de Registro de Frente Parlamentar na Câmara dos Deputados",
@@ -2988,7 +2988,7 @@
           {
             "tipo": "Requerimento de Audiência Pública",
             "sigla": "REQ",
-            "total": 208
+            "total": 209
           },
           {
             "tipo": "Projeto de Lei",
@@ -3003,7 +3003,7 @@
           {
             "tipo": "Indicação",
             "sigla": "INC",
-            "total": 185
+            "total": 186
           },
           {
             "tipo": "Requerimento de Convocação de Ministro de Estado no Plenário (art. 50, CF)",
@@ -3013,7 +3013,7 @@
           {
             "tipo": "Solicitação de Informação ao TCU",
             "sigla": "SIT",
-            "total": 132
+            "total": 133
           },
           {
             "tipo": "Requerimento para envio de Indicação pela Comissão",
@@ -3028,7 +3028,7 @@
           {
             "tipo": "Requerimento para envio de Solicitação de Informação ao TCU pela Comissão",
             "sigla": "REQ",
-            "total": 107
+            "total": 108
           },
           {
             "tipo": "Emenda na Comissão",
@@ -3038,7 +3038,7 @@
           {
             "tipo": "Requerimento de Moção",
             "sigla": "REQ",
-            "total": 73
+            "total": 74
           },
           {
             "tipo": "Projeto de Decreto Legislativo de Sustação de Atos Normativos do Poder Executivo",
@@ -3253,6 +3253,66 @@
         ],
         "recentes": [
           {
+            "id": 2654225,
+            "sigla": "SIT",
+            "tipo": "Solicitação de Informação ao TCU",
+            "numero": 57,
+            "ano": 2026,
+            "ementa": "Requer informações ao Tribunal de Contas da União (TCU) acerca da existência de fiscalizações, auditorias, inspeções e procedimentos de controle relacionados à concessão de financiamentos rurais lastreados em imóveis fictícios, registros fundiários irregulares, garantias fraudulentas ou informações inconsistentes no Cadastro Ambiental Rural (CAR), bem como sobre eventuais prejuízos aos recursos públicos e a responsabilização dos agentes envolvidos.",
+            "apresentadaEm": "2026-11-16T16:32",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2654225"
+          },
+          {
+            "id": 2654210,
+            "sigla": "RIC",
+            "tipo": "Requerimento de Informação",
+            "numero": 2994,
+            "ano": 2026,
+            "ementa": "Requer informações ao Ministro de Estado da Fazenda acerca de possíveis irregularidades na concessão de financiamentos rurais mediante utilização de imóveis fictícios, registros fundiários fraudulentos, cadastros vinculados a CPFs inválidos e garantias imobiliárias inconsistentes, bem como sobre a atuação das instituições financeiras públicas federais, os responsáveis pela aprovação e liberação dos créditos, os mecanismos de fiscalização e os eventuais prejuízos aos recursos públicos.",
+            "apresentadaEm": "2026-11-16T16:16",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2654210"
+          },
+          {
+            "id": 2654209,
+            "sigla": "INC",
+            "tipo": "Indicação",
+            "numero": 1709,
+            "ano": 2026,
+            "ementa": "Sugere à Procuradoria-Geral da República a adoção de providências para apuração de possíveis organizações criminosas, corrupção de agentes públicos e fraudes na concessão de crédito rural mediante utilização de imóveis fictícios, registros fundiários fraudulentos e garantias irregulares, incluindo a investigação da eventual participação de dirigentes e empregados de instituições financeiras e a avaliação de medidas cautelares de afastamento de funções, prisão preventiva e bloqueio patrimonial dos responsáveis.",
+            "apresentadaEm": "2026-11-16T16:08",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2654209"
+          },
+          {
+            "id": 2653961,
+            "sigla": "REQ",
+            "tipo": "Requerimento de Audiência Pública",
+            "numero": 113,
+            "ano": 2026,
+            "ementa": "Requer a realização de audiência pública, com a participação da Presidente do Banco do Brasil, Sra. Tarciana Medeiros, para prestar esclarecimentos sobre as declarações da direção da instituição acerca da inadimplência dos produtores rurais, seus impactos nos resultados financeiros do banco e as perspectivas para o financiamento da atividade agropecuária brasileira.",
+            "apresentadaEm": "2026-11-13T16:24",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2653961"
+          },
+          {
+            "id": 2653960,
+            "sigla": "REQ",
+            "tipo": "Requerimento de Moção",
+            "numero": 112,
+            "ano": 2026,
+            "ementa": "Requer a aprovação de Moção de Repúdio às declarações da Presidente do Banco do Brasil, Sra. Tarciana Medeiros, que atribuíram a determinados produtores rurais a prática deliberada de inadimplência, desconsiderando a grave crise econômica e financeira enfrentada pelo setor agropecuário brasileiro.",
+            "apresentadaEm": "2026-11-13T16:24",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2653960"
+          },
+          {
+            "id": 2653964,
+            "sigla": "REQ",
+            "tipo": "Requerimento para envio de Solicitação de Informação ao TCU pela Comissão",
+            "numero": 114,
+            "ano": 2026,
+            "ementa": "Requer ao Tribunal de Contas da União (TCU) informações acerca da fiscalização, das providências adotadas e da apuração de possíveis irregularidades na destinação de R$ 851.539.890,97 do Fundo de Defesa da Economia Cafeeira (Funcafé), promovida pelas Portarias STN/MF nº 1.260/2026 e nº 1.464/2026, bem como dos impactos sobre a política cafeeira nacional e o Plano Safra 2026/2027.",
+            "apresentadaEm": "2026-11-12T18:04",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2653964"
+          },
+          {
             "id": 2653942,
             "sigla": "REQ",
             "tipo": "Requerimento (Outros)",
@@ -3291,66 +3351,6 @@
             "ementa": "Estabelece alíquotas e normas complementares aplicáveis ao Imposto Seletivo para o ano-calendário de 2027, em Regime de Implementação Gradual",
             "apresentadaEm": "2026-11-10T00:00",
             "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2652489"
-          },
-          {
-            "id": 2651932,
-            "sigla": "EMC",
-            "tipo": "Emenda na Comissão",
-            "numero": 54,
-            "ano": 2026,
-            "ementa": "Estabelece alíquotas e normas complementares aplicáveis ao Imposto Seletivo para o ano-calendário de 2027, em Regime de Implementação Gradual",
-            "apresentadaEm": "2026-11-10T00:00",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2651932"
-          },
-          {
-            "id": 2651931,
-            "sigla": "EMC",
-            "tipo": "Emenda na Comissão",
-            "numero": 53,
-            "ano": 2026,
-            "ementa": "Estabelece alíquotas e normas complementares aplicáveis ao Imposto Seletivo para o ano-calendário de 2027, em Regime de Implementação Gradual",
-            "apresentadaEm": "2026-11-10T00:00",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2651931"
-          },
-          {
-            "id": 2650107,
-            "sigla": "PDL",
-            "tipo": "Projeto de Decreto Legislativo",
-            "numero": 1030,
-            "ano": 2026,
-            "ementa": "Susta os efeitos da Portaria CGPCIND/DSPRAD/SEDIGI nº 2.272, de 28 de outubro de 2026, do Ministério da Justiça e Segurança Pública, que atribui classificação indicativa de não recomendado para menores de doze anos ao programa televisivo “Record Kids – Desenhos Bíblicos”.",
-            "apresentadaEm": "2026-11-03T18:56",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2650107"
-          },
-          {
-            "id": 2649759,
-            "sigla": "REQ",
-            "tipo": "Requerimento para envio de Solicitação de Informação ao TCU pela Comissão",
-            "numero": 195,
-            "ano": 2026,
-            "ementa": "Requer informações ao Tribunal de Contas da União (TCU) acerca da fiscalização dos contratos, da execução e da qualidade das obras e dos serviços de manutenção, conservação e recuperação da Rodovia BR-262, no trecho compreendido no Estado do Espírito Santo, bem como sobre a realização de auditoria e vistoria técnica presencial.",
-            "apresentadaEm": "2026-10-28T17:22",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649759"
-          },
-          {
-            "id": 2649386,
-            "sigla": "SIT",
-            "tipo": "Solicitação de Informação ao TCU",
-            "numero": 55,
-            "ano": 2026,
-            "ementa": "Requer informações ao Tribunal de Contas da União (TCU) acerca da fiscalização dos contratos, da execução e da qualidade das obras e dos serviços de manutenção, conservação e recuperação da Rodovia BR-262, no trecho compreendido no Estado do Espírito Santo, bem como sobre a realização de auditoria e vistoria técnica presencial.",
-            "apresentadaEm": "2026-10-28T17:22",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649386"
-          },
-          {
-            "id": 2648607,
-            "sigla": "INC",
-            "tipo": "Indicação",
-            "numero": 1633,
-            "ano": 2026,
-            "ementa": "Sugere ao Ministro de Estado da Controladoria-Geral da União a instauração de procedimentos de auditoria, fiscalização e apuração administrativa relativos a possíveis irregularidades envolvendo a atuação da empresária Roberta Luchsinger, intermediários privados e agentes públicos federais, especialmente quanto à existência de conflitos de interesses, favorecimento\nindevido e utilização de relações pessoais para obtenção de vantagens perante a Administração Pública Federal.",
-            "apresentadaEm": "2026-10-20T20:31",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2648607"
           }
         ]
       }
@@ -4180,7 +4180,7 @@
       "paginaOficial": "https://www.camara.leg.br/deputados/220526",
       "despesas": {
         "total": 554864.73,
-        "documentos": 1955,
+        "documentos": 1957,
         "porTipo": [
           {
             "tipo": "PASSAGEM AÉREA - SIGEPA",
@@ -4732,8 +4732,8 @@
           }
         ],
         "comprovantes": {
-          "com": 1368,
-          "total": 1955
+          "com": 1370,
+          "total": 1957
         }
       },
       "proposicoes": {
@@ -7160,7 +7160,7 @@
           {
             "tipo": "Requerimento de Informação",
             "sigla": "RIC",
-            "total": 272
+            "total": 273
           },
           {
             "tipo": "Requerimento de Registro de Frente Parlamentar na Câmara dos Deputados",
@@ -7180,7 +7180,7 @@
           {
             "tipo": "Requerimento de Moção",
             "sigla": "REQ",
-            "total": 98
+            "total": 99
           },
           {
             "tipo": "Indicação",
@@ -7410,6 +7410,26 @@
         ],
         "recentes": [
           {
+            "id": 2654164,
+            "sigla": "RIC",
+            "tipo": "Requerimento de Informação",
+            "numero": 2993,
+            "ano": 2026,
+            "ementa": "Requer informações ao Excelentíssimo Senhor Ministro de Estado da Saúde sobre o cenário epidemiológico da Mpox no Brasil, tendo em vista o aumento de casos no País e os alertas estaduais, a disponibilidade de estoques de vacinas e antivirais e o apoio técnico aos entes federados.",
+            "apresentadaEm": "2026-11-16T13:55",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2654164"
+          },
+          {
+            "id": 2654128,
+            "sigla": "REQ",
+            "tipo": "Requerimento de Moção",
+            "numero": 4454,
+            "ano": 2026,
+            "ementa": "Requer a aprovação de Moção de Aplausos e Louvor em reconhecimento à startup capixaba Symbios, incubada na Universidade Federal do Espírito Santo (UFES), ao pesquisador Eduardo Antônio Fragoso Dias e a toda a equipe de desenvolvedores, pela classificação como finalista na categoria de robótica da Feira Internacional do Setor de Saúde MEDICA Start-up Competition 2026, em Düsseldorf, na Alemanha, pelo desenvolvimento tecnológico do robô M-Flex, voltado à reabilitação motora de pacientes pós-AVC.",
+            "apresentadaEm": "2026-11-16T13:20",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2654128"
+          },
+          {
             "id": 2651413,
             "sigla": "REQ",
             "tipo": "Requerimento de Moção",
@@ -7488,26 +7508,6 @@
             "ementa": "Sugere ao Ministério das Relações Exteriores a adoção de providências diplomáticas e acordos de reciprocidade internacional para o reconhecimento de credenciais brasileiras de pessoas com deficiência, cartões de estacionamento prioritário, identificações com tecnologia verificável e proteção consular a viajantes e residentes no exterior.",
             "apresentadaEm": "2026-09-16T15:19",
             "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2646502"
-          },
-          {
-            "id": 2646501,
-            "sigla": "INC",
-            "tipo": "Indicação",
-            "numero": 1590,
-            "ano": 2026,
-            "ementa": "Sugere ao Poder Executivo a adoção de medidas para possibilitar a oferta facultativa de gasolina E0 e E10 e a realização de estudos sobre os efeitos de diferentes teores de etanol anidro na durabilidade dos componentes dos veículos automotores.",
-            "apresentadaEm": "2026-09-16T15:09",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2646501"
-          },
-          {
-            "id": 2646405,
-            "sigla": "PL",
-            "tipo": "Projeto de Lei",
-            "numero": 5365,
-            "ano": 2026,
-            "ementa": "Dispõe sobre a emissão de credenciais multilíngues para pessoas com deficiência e autoriza o Poder Executivo a celebrar instrumentos de cooperação internacional para reconhecimento recíproco de documentos brasileiros de acessibilidade.",
-            "apresentadaEm": "2026-09-14T13:59",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2646405"
           }
         ]
       }
