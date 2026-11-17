@@ -6,12 +6,12 @@
   },
   "uf": "ES",
   "legislatura": 57,
-  "coletadoEm": "2026-11-16T19:38:13.376Z",
+  "coletadoEm": "2026-11-17T18:36:30.274Z",
   "referencia": {
     "bancada": 10,
-    "medianaDespesas": 352764.5400000001,
-    "menor": 238351.97999999995,
-    "maior": 554864.73
+    "medianaDespesas": 353099.0400000001,
+    "menor": 241496.51999999996,
+    "maior": 558611.73
   },
   "parlamentares": [
     {
@@ -35,8 +35,8 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/204356.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/204356",
       "despesas": {
-        "total": 261304.33999999973,
-        "documentos": 1122,
+        "total": 261951.33999999973,
+        "documentos": 1125,
         "porTipo": [
           {
             "tipo": "PASSAGEM AÉREA - SIGEPA",
@@ -121,14 +121,14 @@
           },
           {
             "tipo": "COMPLEMENTAÇÃO DO AUXÍLIO-MORADIA",
-            "valor": 9706.720000000001,
-            "notas": 29,
+            "valor": 10353.720000000001,
+            "notas": 30,
             "fornecedores": [
               {
                 "nome": "COMPLEMENTAÇÃO DO AUXÍLIO-MORADIA",
                 "cnpjCpf": "00530352000159",
-                "total": 9706.720000000001,
-                "notas": 29,
+                "total": 10353.720000000001,
+                "notas": 30,
                 "outrosNomes": []
               }
             ],
@@ -353,6 +353,10 @@
           {
             "competencia": "2026-09",
             "valor": 647
+          },
+          {
+            "competencia": "2026-10",
+            "valor": 647
           }
         ],
         "fornecedores": [
@@ -386,8 +390,8 @@
           {
             "nome": "COMPLEMENTAÇÃO DO AUXÍLIO-MORADIA",
             "cnpjCpf": "00530352000159",
-            "total": 9706.720000000001,
-            "notas": 29,
+            "total": 10353.720000000001,
+            "notas": 30,
             "outrosNomes": []
           }
         ],
@@ -570,8 +574,8 @@
           }
         ],
         "comprovantes": {
-          "com": 725,
-          "total": 1122
+          "com": 727,
+          "total": 1125
         }
       },
       "proposicoes": {
@@ -1632,8 +1636,8 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/220528.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/220528",
       "despesas": {
-        "total": 439478.6300000001,
-        "documentos": 1100,
+        "total": 443225.6300000001,
+        "documentos": 1101,
         "porTipo": [
           {
             "tipo": "PASSAGEM AÉREA - SIGEPA",
@@ -1716,14 +1720,14 @@
           },
           {
             "tipo": "COMPLEMENTAÇÃO DO AUXÍLIO-MORADIA",
-            "valor": 83880,
-            "notas": 40,
+            "valor": 87627,
+            "notas": 41,
             "fornecedores": [
               {
                 "nome": "COMPLEMENTAÇÃO DO AUXÍLIO-MORADIA",
                 "cnpjCpf": "00530352000159",
-                "total": 83880,
-                "notas": 40,
+                "total": 87627,
+                "notas": 41,
                 "outrosNomes": []
               }
             ],
@@ -1952,6 +1956,10 @@
           {
             "competencia": "2026-09",
             "valor": 3747
+          },
+          {
+            "competencia": "2026-10",
+            "valor": 3747
           }
         ],
         "fornecedores": [
@@ -1967,8 +1975,8 @@
           {
             "nome": "COMPLEMENTAÇÃO DO AUXÍLIO-MORADIA",
             "cnpjCpf": "00530352000159",
-            "total": 83880,
-            "notas": 40,
+            "total": 87627,
+            "notas": 41,
             "outrosNomes": []
           },
           {
@@ -2168,7 +2176,7 @@
         ],
         "comprovantes": {
           "com": 446,
-          "total": 1100
+          "total": 1101
         }
       },
       "proposicoes": {
@@ -2429,8 +2437,8 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/178871.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/178871",
       "despesas": {
-        "total": 396343.97999999986,
-        "documentos": 1684,
+        "total": 397012.97999999986,
+        "documentos": 1685,
         "porTipo": [
           {
             "tipo": "PASSAGEM AÉREA - SIGEPA",
@@ -2515,14 +2523,14 @@
           },
           {
             "tipo": "COMPLEMENTAÇÃO DO AUXÍLIO-MORADIA",
-            "valor": 13530,
-            "notas": 26,
+            "valor": 14199,
+            "notas": 27,
             "fornecedores": [
               {
                 "nome": "COMPLEMENTAÇÃO DO AUXÍLIO-MORADIA",
                 "cnpjCpf": "00530352000159",
-                "total": 13530,
-                "notas": 26,
+                "total": 14199,
+                "notas": 27,
                 "outrosNomes": []
               }
             ],
@@ -2747,6 +2755,10 @@
           {
             "competencia": "2026-09",
             "valor": 1796.8
+          },
+          {
+            "competencia": "2026-10",
+            "valor": 669
           }
         ],
         "fornecedores": [
@@ -2780,8 +2792,8 @@
           {
             "nome": "COMPLEMENTAÇÃO DO AUXÍLIO-MORADIA",
             "cnpjCpf": "00530352000159",
-            "total": 13530,
-            "notas": 26,
+            "total": 14199,
+            "notas": 27,
             "outrosNomes": []
           }
         ],
@@ -2965,7 +2977,7 @@
         ],
         "comprovantes": {
           "com": 1216,
-          "total": 1684
+          "total": 1685
         }
       },
       "proposicoes": {
@@ -2983,7 +2995,7 @@
           {
             "tipo": "Requerimento de Convocação de Ministro de Estado na Comissão (art. 50, CF)",
             "sigla": "REQ",
-            "total": 212
+            "total": 213
           },
           {
             "tipo": "Requerimento de Audiência Pública",
@@ -3008,7 +3020,7 @@
           {
             "tipo": "Requerimento de Convocação de Ministro de Estado no Plenário (art. 50, CF)",
             "sigla": "REQ",
-            "total": 161
+            "total": 163
           },
           {
             "tipo": "Solicitação de Informação ao TCU",
@@ -3018,7 +3030,7 @@
           {
             "tipo": "Requerimento para envio de Indicação pela Comissão",
             "sigla": "REQ",
-            "total": 125
+            "total": 126
           },
           {
             "tipo": "Requerimento de Sessão Solene",
@@ -3058,7 +3070,7 @@
           {
             "tipo": "Requerimento (Outros)",
             "sigla": "REQ",
-            "total": 50
+            "total": 51
           },
           {
             "tipo": "Proposta de Emenda à Constituição",
@@ -3068,7 +3080,7 @@
           {
             "tipo": "Sugestão de Emenda à LDO - Comissões",
             "sigla": "SLD",
-            "total": 26
+            "total": 29
           },
           {
             "tipo": "Processo Interno",
@@ -3253,6 +3265,66 @@
         ],
         "recentes": [
           {
+            "id": 2654328,
+            "sigla": "REQ",
+            "tipo": "Requerimento de Convocação de Ministro de Estado na Comissão (art. 50, CF)",
+            "numero": 385,
+            "ano": 2026,
+            "ementa": "Requer a convocação do Ministro de Estado da Fazenda para prestar esclarecimentos acerca das denúncias de fraudes na concessão de financiamentos rurais mediante utilização de imóveis fictícios e registros fundiários fraudulentos, dos indícios de possível atuação de organizações criminosas e participação de agentes públicos e privados, bem como das falhas nos mecanismos de fiscalização, prevenção e combate à corrupção no âmbito das instituições financeiras públicas federais.",
+            "apresentadaEm": "2026-11-16T20:46",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2654328"
+          },
+          {
+            "id": 2654326,
+            "sigla": "REQ",
+            "tipo": "Requerimento de Convocação de Ministro de Estado no Plenário (art. 50, CF)",
+            "numero": 4473,
+            "ano": 2026,
+            "ementa": "Requer a convocação do Ministro de Estado da Fazenda para prestar esclarecimentos acerca das denúncias de fraudes na concessão de financiamentos rurais mediante utilização de imóveis fictícios e registros fundiários fraudulentos, dos indícios de possível atuação de organizações criminosas e participação de agentes públicos e privados, bem como das falhas nos mecanismos de fiscalização, prevenção e combate à corrupção no âmbito das instituições financeiras públicas federais.",
+            "apresentadaEm": "2026-11-16T20:46",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2654326"
+          },
+          {
+            "id": 2654325,
+            "sigla": "REQ",
+            "tipo": "Requerimento de Convocação de Ministro de Estado no Plenário (art. 50, CF)",
+            "numero": 4472,
+            "ano": 2026,
+            "ementa": "Requer a convocação do Ministro de Estado da Agricultura e Pecuária, para prestar esclarecimentos acerca das denúncias de fraudes na concessão de crédito rural mediante utilização de imóveis fictícios e registros fundiários fraudulentos, dos indícios de possível atuação de organizações criminosas e corrupção de agentes públicos, bem como das medidas de fiscalização, prevenção de irregularidades e proteção dos recursos destinados às políticas de financiamento agropecuário.",
+            "apresentadaEm": "2026-11-16T20:46",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2654325"
+          },
+          {
+            "id": 2654313,
+            "sigla": "SLD",
+            "tipo": "Sugestão de Emenda à LDO - Comissões",
+            "numero": 10,
+            "ano": 2026,
+            "ementa": "Requer a inclusão de meta para Ampliar as ações de PD & I em parceria com agentes dos ecossistemas de inovação nacionais e internacionais para o enfrentamento dos desafios de futuro dos setores agropecuário, agroindustrial e florestal.. Programa: 2303 (Pesquisa e Inovação Agropecuária), Objetivo Específico: 0038. Acréscimos: 500\".",
+            "apresentadaEm": "2026-11-16T17:38",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2654313"
+          },
+          {
+            "id": 2654309,
+            "sigla": "SLD",
+            "tipo": "Sugestão de Emenda à LDO - Comissões",
+            "numero": 9,
+            "ano": 2026,
+            "ementa": "Requer a inclusão de meta para Adquirir alimentos da agricultura familiar, ampliando a participação, com equidade de gênero, dos grupos prioritários definidos na legislação do PAA, como fornecedores dos alimentos que abastecem as ações e equipamentos de Segurança Alimentar e Nutricional. Programa: 5133 (Segurança Alimentar e Nutricional e Combate à Fome), Objetivo Específico: 0374. Acréscimos: 70.",
+            "apresentadaEm": "2026-11-16T17:38",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2654309"
+          },
+          {
+            "id": 2654302,
+            "sigla": "SLD",
+            "tipo": "Sugestão de Emenda à LDO - Comissões",
+            "numero": 8,
+            "ano": 2026,
+            "ementa": "Requer a inclusão de meta para Ampliar o acesso do produtor rural aos instrumentos de mitigação de riscos climáticos. Programa: 1144 (Agropecuária Sustentável), Objetivo Específico: 0007. Acréscimos: 80000\".",
+            "apresentadaEm": "2026-11-16T17:38",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2654302"
+          },
+          {
             "id": 2654225,
             "sigla": "SIT",
             "tipo": "Solicitação de Informação ao TCU",
@@ -3273,6 +3345,16 @@
             "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2654210"
           },
           {
+            "id": 2654324,
+            "sigla": "REQ",
+            "tipo": "Requerimento para envio de Indicação pela Comissão",
+            "numero": 384,
+            "ano": 2026,
+            "ementa": "Requer o encaminhamento de Indicação à Procuradoria-Geral da República para sugerir a adoção de providências destinadas à apuração de possíveis organizações criminosas, corrupção de agentes públicos, fraudes fundiárias e irregularidades na concessão de financiamentos rurais, inclusive quanto à eventual participação de dirigentes e empregados de instituições financeiras, bem como à avaliação de medidas cautelares, responsabilização dos envolvidos e recuperação dos recursos desviados.",
+            "apresentadaEm": "2026-11-16T16:08",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2654324"
+          },
+          {
             "id": 2654209,
             "sigla": "INC",
             "tipo": "Indicação",
@@ -3281,76 +3363,6 @@
             "ementa": "Sugere à Procuradoria-Geral da República a adoção de providências para apuração de possíveis organizações criminosas, corrupção de agentes públicos e fraudes na concessão de crédito rural mediante utilização de imóveis fictícios, registros fundiários fraudulentos e garantias irregulares, incluindo a investigação da eventual participação de dirigentes e empregados de instituições financeiras e a avaliação de medidas cautelares de afastamento de funções, prisão preventiva e bloqueio patrimonial dos responsáveis.",
             "apresentadaEm": "2026-11-16T16:08",
             "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2654209"
-          },
-          {
-            "id": 2653961,
-            "sigla": "REQ",
-            "tipo": "Requerimento de Audiência Pública",
-            "numero": 113,
-            "ano": 2026,
-            "ementa": "Requer a realização de audiência pública, com a participação da Presidente do Banco do Brasil, Sra. Tarciana Medeiros, para prestar esclarecimentos sobre as declarações da direção da instituição acerca da inadimplência dos produtores rurais, seus impactos nos resultados financeiros do banco e as perspectivas para o financiamento da atividade agropecuária brasileira.",
-            "apresentadaEm": "2026-11-13T16:24",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2653961"
-          },
-          {
-            "id": 2653960,
-            "sigla": "REQ",
-            "tipo": "Requerimento de Moção",
-            "numero": 112,
-            "ano": 2026,
-            "ementa": "Requer a aprovação de Moção de Repúdio às declarações da Presidente do Banco do Brasil, Sra. Tarciana Medeiros, que atribuíram a determinados produtores rurais a prática deliberada de inadimplência, desconsiderando a grave crise econômica e financeira enfrentada pelo setor agropecuário brasileiro.",
-            "apresentadaEm": "2026-11-13T16:24",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2653960"
-          },
-          {
-            "id": 2653964,
-            "sigla": "REQ",
-            "tipo": "Requerimento para envio de Solicitação de Informação ao TCU pela Comissão",
-            "numero": 114,
-            "ano": 2026,
-            "ementa": "Requer ao Tribunal de Contas da União (TCU) informações acerca da fiscalização, das providências adotadas e da apuração de possíveis irregularidades na destinação de R$ 851.539.890,97 do Fundo de Defesa da Economia Cafeeira (Funcafé), promovida pelas Portarias STN/MF nº 1.260/2026 e nº 1.464/2026, bem como dos impactos sobre a política cafeeira nacional e o Plano Safra 2026/2027.",
-            "apresentadaEm": "2026-11-12T18:04",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2653964"
-          },
-          {
-            "id": 2653942,
-            "sigla": "REQ",
-            "tipo": "Requerimento (Outros)",
-            "numero": 206,
-            "ano": 2026,
-            "ementa": "Requer a realização de auditoria pelo Tribunal de Contas da União (TCU) para apurar possíveis irregularidades na destinação de R$ 851.539.890,97 do Fundo de Defesa da Economia Cafeeira (Funcafé), promovida pelas Portarias STN/MF nº 1.260/2026 e nº 1.464/2026, bem como seus impactos sobre o financiamento da cafeicultura brasileira e o Plano Safra 2026/2027.",
-            "apresentadaEm": "2026-11-12T18:04",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2653942"
-          },
-          {
-            "id": 2653941,
-            "sigla": "REQ",
-            "tipo": "Requerimento para envio de Solicitação de Informação ao TCU pela Comissão",
-            "numero": 205,
-            "ano": 2026,
-            "ementa": "Requer ao Tribunal de Contas da União (TCU) informações acerca da fiscalização, das providências adotadas e da apuração de possíveis irregularidades na destinação de R$ 851.539.890,97 do Fundo de Defesa da Economia Cafeeira (Funcafé), promovida pelas Portarias STN/MF nº 1.260/2026 e nº 1.464/2026, bem como dos impactos sobre a política cafeeira nacional e o Plano Safra 2026/2027.",
-            "apresentadaEm": "2026-11-12T18:04",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2653941"
-          },
-          {
-            "id": 2653495,
-            "sigla": "SIT",
-            "tipo": "Solicitação de Informação ao TCU",
-            "numero": 56,
-            "ano": 2026,
-            "ementa": "Requer ao Tribunal de Contas da União (TCU) informações acerca da fiscalização, das providências adotadas e da apuração de possíveis irregularidades na destinação de R$ 851.539.890,97 do Fundo de Defesa da Economia Cafeeira (Funcafé), promovida pelas Portarias STN/MF nº 1.260/2026 e nº 1.464/2026, bem como dos impactos sobre a política cafeeira nacional e o Plano Safra 2026/2027.",
-            "apresentadaEm": "2026-11-12T18:04",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2653495"
-          },
-          {
-            "id": 2652489,
-            "sigla": "EMC",
-            "tipo": "Emenda na Comissão",
-            "numero": 144,
-            "ano": 2026,
-            "ementa": "Estabelece alíquotas e normas complementares aplicáveis ao Imposto Seletivo para o ano-calendário de 2027, em Regime de Implementação Gradual",
-            "apresentadaEm": "2026-11-10T00:00",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2652489"
           }
         ]
       }
@@ -3376,7 +3388,7 @@
       "paginaOficial": "https://www.camara.leg.br/deputados/220529",
       "despesas": {
         "total": 309185.1000000003,
-        "documentos": 1523,
+        "documentos": 1524,
         "porTipo": [
           {
             "tipo": "PASSAGEM AÉREA - SIGEPA",
@@ -3874,7 +3886,7 @@
         ],
         "comprovantes": {
           "com": 1169,
-          "total": 1523
+          "total": 1524
         }
       },
       "proposicoes": {
@@ -4179,8 +4191,8 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/220526.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/220526",
       "despesas": {
-        "total": 554864.73,
-        "documentos": 1957,
+        "total": 558611.73,
+        "documentos": 1958,
         "porTipo": [
           {
             "tipo": "PASSAGEM AÉREA - SIGEPA",
@@ -4265,14 +4277,14 @@
           },
           {
             "tipo": "COMPLEMENTAÇÃO DO AUXÍLIO-MORADIA",
-            "valor": 106935.81,
-            "notas": 40,
+            "valor": 110682.81,
+            "notas": 41,
             "fornecedores": [
               {
                 "nome": "COMPLEMENTAÇÃO DO AUXÍLIO-MORADIA",
                 "cnpjCpf": "00530352000159",
-                "total": 106935.81,
-                "notas": 40,
+                "total": 110682.81,
+                "notas": 41,
                 "outrosNomes": []
               }
             ],
@@ -4514,6 +4526,10 @@
           {
             "competencia": "2026-09",
             "valor": 5058.83
+          },
+          {
+            "competencia": "2026-10",
+            "valor": 3747
           }
         ],
         "fornecedores": [
@@ -4530,8 +4546,8 @@
           {
             "nome": "COMPLEMENTAÇÃO DO AUXÍLIO-MORADIA",
             "cnpjCpf": "00530352000159",
-            "total": 106935.81,
-            "notas": 40,
+            "total": 110682.81,
+            "notas": 41,
             "outrosNomes": []
           },
           {
@@ -4704,6 +4720,15 @@
             "documento": null
           },
           {
+            "id": "5650",
+            "data": null,
+            "tipo": "COMPLEMENTAÇÃO DO AUXÍLIO-MORADIA",
+            "valor": 3747,
+            "fornecedor": "COMPLEMENTAÇÃO DO AUXÍLIO-MORADIA",
+            "cnpjCpf": "00530352000159",
+            "documento": null
+          },
+          {
             "id": "FC132317-B3EB-422A-B65B-492463C72C43",
             "data": "2026-04-15",
             "tipo": "PASSAGEM AÉREA - SIGEPA",
@@ -4720,20 +4745,11 @@
             "fornecedor": "LATAM Airlines Brasil",
             "cnpjCpf": "02012862000160",
             "documento": null
-          },
-          {
-            "id": "5CB857AF-E0F7-466C-8EF4-AA1D8A4185E0",
-            "data": "2026-03-24",
-            "tipo": "PASSAGEM AÉREA - SIGEPA",
-            "valor": 3156.9,
-            "fornecedor": "LATAM Airlines Brasil",
-            "cnpjCpf": "02012862000160",
-            "documento": null
           }
         ],
         "comprovantes": {
           "com": 1370,
-          "total": 1957
+          "total": 1958
         }
       },
       "proposicoes": {
@@ -5033,8 +5049,8 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/178873.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/178873",
       "despesas": {
-        "total": 238351.97999999995,
-        "documentos": 2524,
+        "total": 241496.51999999996,
+        "documentos": 2532,
         "porTipo": [
           {
             "tipo": "PASSAGEM AÉREA - SIGEPA",
@@ -5110,14 +5126,14 @@
           },
           {
             "tipo": "COMPLEMENTAÇÃO DO AUXÍLIO-MORADIA",
-            "valor": 107309.84999999996,
-            "notas": 41,
+            "valor": 110454.38999999996,
+            "notas": 42,
             "fornecedores": [
               {
                 "nome": "COMPLEMENTAÇÃO DO AUXÍLIO-MORADIA",
                 "cnpjCpf": "00530352000159",
-                "total": 107309.84999999996,
-                "notas": 41,
+                "total": 110454.38999999996,
+                "notas": 42,
                 "outrosNomes": []
               }
             ],
@@ -5342,6 +5358,10 @@
           {
             "competencia": "2026-09",
             "valor": 3144.54
+          },
+          {
+            "competencia": "2026-10",
+            "valor": 3144.54
           }
         ],
         "fornecedores": [
@@ -5357,8 +5377,8 @@
           {
             "nome": "COMPLEMENTAÇÃO DO AUXÍLIO-MORADIA",
             "cnpjCpf": "00530352000159",
-            "total": 107309.84999999996,
-            "notas": 41,
+            "total": 110454.38999999996,
+            "notas": 42,
             "outrosNomes": []
           },
           {
@@ -5531,6 +5551,15 @@
             "documento": null
           },
           {
+            "id": "5678",
+            "data": null,
+            "tipo": "COMPLEMENTAÇÃO DO AUXÍLIO-MORADIA",
+            "valor": 3144.54,
+            "fornecedor": "COMPLEMENTAÇÃO DO AUXÍLIO-MORADIA",
+            "cnpjCpf": "00530352000159",
+            "documento": null
+          },
+          {
             "id": "5293",
             "data": null,
             "tipo": "COMPLEMENTAÇÃO DO AUXÍLIO-MORADIA",
@@ -5538,20 +5567,11 @@
             "fornecedor": "COMPLEMENTAÇÃO DO AUXÍLIO-MORADIA",
             "cnpjCpf": "00530352000159",
             "documento": null
-          },
-          {
-            "id": "4582",
-            "data": null,
-            "tipo": "COMPLEMENTAÇÃO DO AUXÍLIO-MORADIA",
-            "valor": 2904.28,
-            "fornecedor": "COMPLEMENTAÇÃO DO AUXÍLIO-MORADIA",
-            "cnpjCpf": "00530352000159",
-            "documento": null
           }
         ],
         "comprovantes": {
-          "com": 2246,
-          "total": 2524
+          "com": 2253,
+          "total": 2532
         }
       },
       "proposicoes": {
@@ -5607,6 +5627,11 @@
             "total": 8
           },
           {
+            "tipo": "Projeto de Lei Complementar",
+            "sigla": "PLP",
+            "total": 7
+          },
+          {
             "tipo": "Processo Interno",
             "sigla": "PROC",
             "total": 7
@@ -5614,11 +5639,6 @@
           {
             "tipo": "Sugestão de Emenda ao Orçamento - Comissões",
             "sigla": "SOR",
-            "total": 6
-          },
-          {
-            "tipo": "Projeto de Lei Complementar",
-            "sigla": "PLP",
             "total": 6
           },
           {
@@ -5754,6 +5774,16 @@
         ],
         "recentes": [
           {
+            "id": 2654382,
+            "sigla": "PLP",
+            "tipo": "Projeto de Lei Complementar",
+            "numero": 307,
+            "ano": 2026,
+            "ementa": "Institui o Imposto sobre Grandes  Fortunas, previsto no art. 153, inciso VII, da Constituição Federal.",
+            "apresentadaEm": "2026-11-17T10:55",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2654382"
+          },
+          {
             "id": 2653947,
             "sigla": "PL",
             "tipo": "Projeto de Lei",
@@ -5842,16 +5872,6 @@
             "ementa": "Determina que as despesas de capital e parcela das despesas custeadas com receitas próprias de autarquias federais não sejam alcançadas pelo mecanismo de limitação de empenho e movimentação financeira previsto na LRF, e não sejam incluídas na base de cálculo e nos limites estabelecidos no Novo Arcabouço Fiscal para as despesas primárias do Governo Federal.",
             "apresentadaEm": "2026-08-12T17:56",
             "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2651984"
-          },
-          {
-            "id": 2643283,
-            "sigla": "PL",
-            "tipo": "Projeto de Lei",
-            "numero": 5042,
-            "ano": 2026,
-            "ementa": "Determina que as despesas de capital e parcela das despesas custeadas com receitas próprias de autarquias federais não sejam alcançadas pelo mecanismo de limitação de empenho e movimentação financeira previsto na LRF, e não sejam incluídas na base de cálculo e nos limites estabelecidos no Novo Arcabouço Fiscal para as despesas primárias do Governo Federal.",
-            "apresentadaEm": "2026-08-12T17:56",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2643283"
           }
         ]
       }
@@ -5876,8 +5896,8 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/220527.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/220527",
       "despesas": {
-        "total": 505175.7199999999,
-        "documentos": 1682,
+        "total": 507822.7199999999,
+        "documentos": 1683,
         "porTipo": [
           {
             "tipo": "PASSAGEM AÉREA - SIGEPA",
@@ -5960,14 +5980,14 @@
           },
           {
             "tipo": "COMPLEMENTAÇÃO DO AUXÍLIO-MORADIA",
-            "valor": 84227,
-            "notas": 41,
+            "valor": 86874,
+            "notas": 42,
             "fornecedores": [
               {
                 "nome": "COMPLEMENTAÇÃO DO AUXÍLIO-MORADIA",
                 "cnpjCpf": "00530352000159",
-                "total": 84227,
-                "notas": 41,
+                "total": 86874,
+                "notas": 42,
                 "outrosNomes": []
               }
             ],
@@ -6196,6 +6216,10 @@
           {
             "competencia": "2026-09",
             "valor": 2647
+          },
+          {
+            "competencia": "2026-10",
+            "valor": 2647
           }
         ],
         "fornecedores": [
@@ -6211,8 +6235,8 @@
           {
             "nome": "COMPLEMENTAÇÃO DO AUXÍLIO-MORADIA",
             "cnpjCpf": "00530352000159",
-            "total": 84227,
-            "notas": 41,
+            "total": 86874,
+            "notas": 42,
             "outrosNomes": []
           },
           {
@@ -6412,7 +6436,7 @@
         ],
         "comprovantes": {
           "com": 1196,
-          "total": 1682
+          "total": 1683
         }
       },
       "proposicoes": {
@@ -6436,6 +6460,11 @@
             "tipo": "Projeto de Lei",
             "sigla": "PL",
             "total": 40
+          },
+          {
+            "tipo": "Sugestão de Emenda à LDO - Comissões",
+            "sigla": "SLD",
+            "total": 27
           },
           {
             "tipo": "Requerimento de Urgência (Art. 155 do RICD)",
@@ -6463,11 +6492,6 @@
             "total": 12
           },
           {
-            "tipo": "Sugestão de Emenda à LDO - Comissões",
-            "sigla": "SLD",
-            "total": 9
-          },
-          {
             "tipo": "Requerimento de Inclusão ou Retirada de Assinatura em Proposição de Iniciativa Individual",
             "sigla": "REQ",
             "total": 8
@@ -6475,7 +6499,7 @@
           {
             "tipo": "Sugestão de Emenda ao Orçamento - Comissões",
             "sigla": "SOR",
-            "total": 7
+            "total": 8
           },
           {
             "tipo": "Requerimento de Instituição de CPI",
@@ -6483,13 +6507,13 @@
             "total": 7
           },
           {
-            "tipo": "Requerimento de Quebra de Interstício para Inclusão de Matéria na Ordem do Dia",
-            "sigla": "REQ",
-            "total": 5
-          },
-          {
             "tipo": "Projeto de Lei Complementar",
             "sigla": "PLP",
+            "total": 6
+          },
+          {
+            "tipo": "Requerimento de Quebra de Interstício para Inclusão de Matéria na Ordem do Dia",
+            "sigla": "REQ",
             "total": 5
           },
           {
@@ -6585,104 +6609,104 @@
         ],
         "recentes": [
           {
-            "id": 2653947,
-            "sigla": "PL",
-            "tipo": "Projeto de Lei",
-            "numero": 5855,
-            "ano": 2026,
-            "ementa": "Altera a Lei nº 9.249, de 26 de dezembro de 1995, para elevar a alíquota do Imposto de Renda Retido na Fonte incidente sobre os juros sobre o capital próprio.",
-            "apresentadaEm": "2026-11-13T18:29",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2653947"
-          },
-          {
-            "id": 2653946,
-            "sigla": "PL",
-            "tipo": "Projeto de Lei",
-            "numero": 5854,
-            "ano": 2026,
-            "ementa": "Dispõe sobre a incidência do Imposto sobre a Renda das Pessoas Físicas sobre lucros e dividendos distribuídos por pessoas jurídicas, altera as Leis nº 9.249, de 26 de dezembro de 1995, e nº 9.250, de 26 de dezembro de 1995, e dá outras providências.",
-            "apresentadaEm": "2026-11-13T18:29",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2653946"
-          },
-          {
-            "id": 2653945,
-            "sigla": "PL",
-            "tipo": "Projeto de Lei",
-            "numero": 5853,
-            "ano": 2026,
-            "ementa": "Dispõe sobre a incidência do Imposto de Renda Retido na Fonte sobre os rendimentos de títulos e valores mobiliários.",
-            "apresentadaEm": "2026-11-13T18:29",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2653945"
-          },
-          {
-            "id": 2653944,
-            "sigla": "PL",
-            "tipo": "Projeto de Lei",
-            "numero": 5852,
-            "ano": 2026,
-            "ementa": "Institui o Imposto sobre Grandes  Fortunas, previsto no art. 153, inciso VII, da Constituição Federal.",
-            "apresentadaEm": "2026-11-13T18:29",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2653944"
-          },
-          {
-            "id": 2649821,
-            "sigla": "REQ",
-            "tipo": "Requerimento de Moção",
-            "numero": 19,
-            "ano": 2026,
-            "ementa": "Requer aprovação de Moção de Aplauso pela atuação do Ministério Público do Trabalho, da Justiça do Trabalho e do Ministério do Trabalho e Emprego frente à prática ilícita de assédio eleitoral contra trabalhadoras e trabalhadores no processo eleitoral de 2026, inclusive após a proclamação do resultado das eleições.",
-            "apresentadaEm": "2026-11-03T10:24",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649821"
-          },
-          {
-            "id": 2649499,
-            "sigla": "PL",
-            "tipo": "Projeto de Lei",
-            "numero": 5689,
-            "ano": 2026,
-            "ementa": "Acrescenta o art. 203-A ao Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), para tipificar a discriminação por voto ou convicção política no trabalho e na atividade econômica, e altera o art. 1º da Lei nº 9.029, de 13 de abril de 1995, para incluir o voto e a convicção política entre os motivos de discriminação vedados nas relações de trabalho.",
-            "apresentadaEm": "2026-10-29T09:52",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649499"
-          },
-          {
-            "id": 2645040,
-            "sigla": "REQ",
-            "tipo": "Requerimento de Inclusão ou Retirada de Assinatura em Proposição de Iniciativa Individual",
-            "numero": 4152,
-            "ano": 2026,
-            "ementa": "Requer a inclusão de coautoria ao Projeto de Lei nº 2.478, de 2026.",
-            "apresentadaEm": "2026-08-31T20:01",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2645040"
-          },
-          {
-            "id": 2643776,
-            "sigla": "PL",
-            "tipo": "Projeto de Lei",
-            "numero": 5076,
-            "ano": 2026,
-            "ementa": "Institui a Lei de Proteção da Soberania Econômica Nacional contra a Aplicação Extraterritorial de Medidas Estrangeiras, dispõe sobre a proteção das pessoas submetidas à jurisdição brasileira contra medidas coercitivas unilaterais incompatíveis com o ordenamento jurídico nacional, e dá outras providências.",
-            "apresentadaEm": "2026-08-14T10:28",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2643776"
-          },
-          {
-            "id": 2651984,
+            "id": 2654382,
             "sigla": "PLP",
             "tipo": "Projeto de Lei Complementar",
-            "numero": 290,
+            "numero": 307,
             "ano": 2026,
-            "ementa": "Determina que as despesas de capital e parcela das despesas custeadas com receitas próprias de autarquias federais não sejam alcançadas pelo mecanismo de limitação de empenho e movimentação financeira previsto na LRF, e não sejam incluídas na base de cálculo e nos limites estabelecidos no Novo Arcabouço Fiscal para as despesas primárias do Governo Federal.",
-            "apresentadaEm": "2026-08-12T17:56",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2651984"
+            "ementa": "Institui o Imposto sobre Grandes  Fortunas, previsto no art. 153, inciso VII, da Constituição Federal.",
+            "apresentadaEm": "2026-11-17T10:55",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2654382"
           },
           {
-            "id": 2643283,
-            "sigla": "PL",
-            "tipo": "Projeto de Lei",
-            "numero": 5042,
+            "id": 2654390,
+            "sigla": "SLD",
+            "tipo": "Sugestão de Emenda à LDO - Comissões",
+            "numero": 14,
             "ano": 2026,
-            "ementa": "Determina que as despesas de capital e parcela das despesas custeadas com receitas próprias de autarquias federais não sejam alcançadas pelo mecanismo de limitação de empenho e movimentação financeira previsto na LRF, e não sejam incluídas na base de cálculo e nos limites estabelecidos no Novo Arcabouço Fiscal para as despesas primárias do Governo Federal.",
-            "apresentadaEm": "2026-08-12T17:56",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2643283"
+            "ementa": "Requer adição de texto ao Corpo da Lei, Cap IV, Seção X, Subseção IV, Art 82, § 7",
+            "apresentadaEm": "2026-11-16T23:59",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2654390"
+          },
+          {
+            "id": 2654389,
+            "sigla": "SLD",
+            "tipo": "Sugestão de Emenda à LDO - Comissões",
+            "numero": 13,
+            "ano": 2026,
+            "ementa": "Requer adição ao texto do Corpo da Lei, Cap IV, Seção X, Subseção V, Art 83, § 5",
+            "apresentadaEm": "2026-11-16T23:57",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2654389"
+          },
+          {
+            "id": 2654388,
+            "sigla": "SLD",
+            "tipo": "Sugestão de Emenda à LDO - Comissões",
+            "numero": 12,
+            "ano": 2026,
+            "ementa": "Requer adição de texto ao Anexo III, Seção II, Inciso IV",
+            "apresentadaEm": "2026-11-16T23:53",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2654388"
+          },
+          {
+            "id": 2654387,
+            "sigla": "SLD",
+            "tipo": "Sugestão de Emenda à LDO - Comissões",
+            "numero": 11,
+            "ano": 2026,
+            "ementa": "Requer adição do Artigo 25-B  ao Corpo da Lei, Cap IV, Seção I",
+            "apresentadaEm": "2026-11-16T23:44",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2654387"
+          },
+          {
+            "id": 2654383,
+            "sigla": "SLD",
+            "tipo": "Sugestão de Emenda à LDO - Comissões",
+            "numero": 10,
+            "ano": 2026,
+            "ementa": "Requer adição de texto ao Corpo da Lei, Cap IV, Seção X, Subseção IV, Art 82, § 7",
+            "apresentadaEm": "2026-11-16T23:41",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2654383"
+          },
+          {
+            "id": 2654369,
+            "sigla": "SLD",
+            "tipo": "Sugestão de Emenda à LDO - Comissões",
+            "numero": 9,
+            "ano": 2026,
+            "ementa": "Requer adição de texto ao Corpo da Lei, Cap XI, Seção II, Art 168.",
+            "apresentadaEm": "2026-11-16T23:34",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2654369"
+          },
+          {
+            "id": 2654367,
+            "sigla": "SLD",
+            "tipo": "Sugestão de Emenda à LDO - Comissões",
+            "numero": 8,
+            "ano": 2026,
+            "ementa": "Requer adição ao Corpo da Lei, Cap VIII, Art 132, Inciso VII, Alínea c.",
+            "apresentadaEm": "2026-11-16T22:17",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2654367"
+          },
+          {
+            "id": 2654366,
+            "sigla": "SLD",
+            "tipo": "Sugestão de Emenda à LDO - Comissões",
+            "numero": 7,
+            "ano": 2026,
+            "ementa": "Requer adição de texto ao Corpo da Lei, Cap XI, Seção II, Art 167, Inciso III",
+            "apresentadaEm": "2026-11-16T22:15",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2654366"
+          },
+          {
+            "id": 2654365,
+            "sigla": "SLD",
+            "tipo": "Sugestão de Emenda à LDO - Comissões",
+            "numero": 6,
+            "ano": 2026,
+            "ementa": "Requer adição de texto ao Corpo da Lei, Cap XI, Seção I, Art 159, § 1, Inciso I, Alínea t",
+            "apresentadaEm": "2026-11-16T22:13",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2654365"
           }
         ]
       }
@@ -7533,7 +7557,7 @@
       "paginaOficial": "https://www.camara.leg.br/deputados/160517",
       "despesas": {
         "total": 267806.65000000014,
-        "documentos": 1121,
+        "documentos": 1123,
         "porTipo": [
           {
             "tipo": "PASSAGEM AÉREA - SIGEPA",
@@ -8053,8 +8077,8 @@
           }
         ],
         "comprovantes": {
-          "com": 681,
-          "total": 1121
+          "com": 683,
+          "total": 1123
         }
       },
       "proposicoes": {
