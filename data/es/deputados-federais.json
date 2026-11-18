@@ -6,7 +6,7 @@
   },
   "uf": "ES",
   "legislatura": 57,
-  "coletadoEm": "2026-11-17T18:36:30.274Z",
+  "coletadoEm": "2026-11-18T18:06:20.453Z",
   "referencia": {
     "bancada": 10,
     "medianaDespesas": 353099.0400000001,
@@ -3000,7 +3000,7 @@
           {
             "tipo": "Requerimento de Audiência Pública",
             "sigla": "REQ",
-            "total": 209
+            "total": 210
           },
           {
             "tipo": "Projeto de Lei",
@@ -3025,7 +3025,7 @@
           {
             "tipo": "Solicitação de Informação ao TCU",
             "sigla": "SIT",
-            "total": 133
+            "total": 134
           },
           {
             "tipo": "Requerimento para envio de Indicação pela Comissão",
@@ -3073,14 +3073,14 @@
             "total": 51
           },
           {
+            "tipo": "Sugestão de Emenda à LDO - Comissões",
+            "sigla": "SLD",
+            "total": 38
+          },
+          {
             "tipo": "Proposta de Emenda à Constituição",
             "sigla": "PEC",
             "total": 32
-          },
-          {
-            "tipo": "Sugestão de Emenda à LDO - Comissões",
-            "sigla": "SLD",
-            "total": 29
           },
           {
             "tipo": "Processo Interno",
@@ -3265,104 +3265,104 @@
         ],
         "recentes": [
           {
-            "id": 2654328,
-            "sigla": "REQ",
-            "tipo": "Requerimento de Convocação de Ministro de Estado na Comissão (art. 50, CF)",
-            "numero": 385,
+            "id": 2654865,
+            "sigla": "SLD",
+            "tipo": "Sugestão de Emenda à LDO - Comissões",
+            "numero": 12,
             "ano": 2026,
-            "ementa": "Requer a convocação do Ministro de Estado da Fazenda para prestar esclarecimentos acerca das denúncias de fraudes na concessão de financiamentos rurais mediante utilização de imóveis fictícios e registros fundiários fraudulentos, dos indícios de possível atuação de organizações criminosas e participação de agentes públicos e privados, bem como das falhas nos mecanismos de fiscalização, prevenção e combate à corrupção no âmbito das instituições financeiras públicas federais.",
-            "apresentadaEm": "2026-11-16T20:46",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2654328"
+            "ementa": "REFERÊNCIA: CORPO DA LEI, CAP IV, SEÇÃO X, SUBSEÇÃO II, ART 77 – INCLUIR O PARÁGRAFO: “§ __. A EXECUÇÃO FINANCEIRA DAS PROGRAMAÇÕES ORÇAMENTÁRIAS INCLUÍDAS OU ACRESCIDAS POR EMENDAS PARLAMENTARES DESTINADAS A AÇÕES E SERVIÇOS PÚBLICOS DE SAÚDE DEVERÁ ASSEGURAR A LIBERAÇÃO DE, NO MÍNIMO, 65% (SESSENTA E CINCO POR CENTO) DOS RECURSOS PREVISTOS PARA O EXERCÍCIO ATÉ 30 DE JUNHO DE 2027, ESPECIALMENTE AQUELES DESTINADOS AOS FUNDOS MUNICIPAIS DE SAÚDE, OBSERVADOS OS REQUISITOS LEGAIS E TÉCNICOS NECESSÁRIOS À TRANSFERÊNCIA, CABENDO AOS ÓRGÃOS RESPONSÁVEIS ADEQUAR SEUS CRONOGRAMAS DE DESEMBOLSO PARA O CUMPRIMENTO DO DISPOSTO NESTE PARÁGRAFO.”",
+            "apresentadaEm": "2026-11-17T19:14",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2654865"
           },
           {
-            "id": 2654326,
-            "sigla": "REQ",
-            "tipo": "Requerimento de Convocação de Ministro de Estado no Plenário (art. 50, CF)",
-            "numero": 4473,
+            "id": 2654858,
+            "sigla": "SLD",
+            "tipo": "Sugestão de Emenda à LDO - Comissões",
+            "numero": 11,
             "ano": 2026,
-            "ementa": "Requer a convocação do Ministro de Estado da Fazenda para prestar esclarecimentos acerca das denúncias de fraudes na concessão de financiamentos rurais mediante utilização de imóveis fictícios e registros fundiários fraudulentos, dos indícios de possível atuação de organizações criminosas e participação de agentes públicos e privados, bem como das falhas nos mecanismos de fiscalização, prevenção e combate à corrupção no âmbito das instituições financeiras públicas federais.",
-            "apresentadaEm": "2026-11-16T20:46",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2654326"
+            "ementa": "REFERÊNCIA: CORPO DA LEI, CAP IV, SEÇÃO X, SUBSEÇÃO I, ART 70 – INCLUIR O ARTIGO: “ART. __. NO EXERCÍCIO FINANCEIRO DE 2027, O PODER EXECUTIVO FEDERAL PODERÁ PROMOVER A AMPLIAÇÃO DOS LIMITES FINANCEIROS DESTINADOS AO CUSTEIO DA ATENÇÃO PRIMÁRIA À SAÚDE – APS E DA MÉDIA E ALTA COMPLEXIDADE AMBULATORIAL E HOSPITALAR – MAC, EM FAVOR DOS ESTADOS, DO DISTRITO FEDERAL E DOS MUNICÍPIOS, OBSERVADA A DISPONIBILIDADE ORÇAMENTÁRIA E FINANCEIRA. § 1º A AMPLIAÇÃO DE QUE TRATA O CAPUT PODERÁ CONSIDERAR A DEMANDA REPRIMIDA POR CONSULTAS, EXAMES, PROCEDIMENTOS, CIRURGIAS ELETIVAS, INTERNAÇÕES E DEMAIS SERVIÇOS ASSISTENCIAIS, BEM COMO O CRESCIMENTO POPULACIONAL, A CAPACIDADE INSTALADA E A NECESSIDADE DE MANUTENÇÃO E EXPANSÃO DOS SERVIÇOS DE SAÚDE. § 2º OS RECURSOS PODERÃO CONTEMPLAR SERVIÇOS EXECUTADOS POR ESTABELECIMENTOS PÚBLICOS E ENTIDADES PRIVADAS SEM FINS LUCRATIVOS INTEGRANTES DA REDE COMPLEMENTAR DO SISTEMA ÚNICO DE SAÚDE – SUS, MEDIANTE OS RESPECTIVOS FUNDOS DE SAÚDE E INSTRUMENTOS LEGAIS APLICÁVEIS. § 3º O MINISTÉRIO DA SAÚDE ADOTARÁ PROCEDIMENTOS SIMPLIFICADOS PARA ANÁLISE, HABILITAÇÃO E APROVAÇÃO DOS PEDIDOS DE AMPLIAÇÃO DOS LIMITES FINANCEIROS, PRIORIZANDO A UTILIZAÇÃO DE INFORMAÇÕES JÁ DISPONÍVEIS NOS SISTEMAS OFICIAIS DO SUS E DISPENSANDO A REAPRESENTAÇÃO DE DOCUMENTOS E INFORMAÇÕES ANTERIORMENTE FORNECIDOS À ADMINISTRAÇÃO PÚBLICA FEDERAL. § 4º A ANÁLISE DOS PEDIDOS DEVERÁ OBSERVAR CRITÉRIOS OBJETIVOS, TRANSPARENTES E PROPORCIONAIS À NATUREZA DA SOLICITAÇÃO, EVITANDO EXIGÊNCIAS ADMINISTRATIVAS DESNECESSÁRIAS QUE RETARDEM A DISPONIBILIZAÇÃO DOS RECURSOS. § 5º A SIMPLIFICAÇÃO DOS PROCEDIMENTOS NÃO AFASTARÁ AS EXIGÊNCIAS LEGAIS DE CONTROLE, FISCALIZAÇÃO, TRANSPARÊNCIA, PRESTAÇÃO DE CONTAS E COMPROVAÇÃO DA EFETIVA PRESTAÇÃO DOS SERVIÇOS DE SAÚDE.”",
+            "apresentadaEm": "2026-11-17T19:13",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2654858"
           },
           {
-            "id": 2654325,
-            "sigla": "REQ",
-            "tipo": "Requerimento de Convocação de Ministro de Estado no Plenário (art. 50, CF)",
-            "numero": 4472,
-            "ano": 2026,
-            "ementa": "Requer a convocação do Ministro de Estado da Agricultura e Pecuária, para prestar esclarecimentos acerca das denúncias de fraudes na concessão de crédito rural mediante utilização de imóveis fictícios e registros fundiários fraudulentos, dos indícios de possível atuação de organizações criminosas e corrupção de agentes públicos, bem como das medidas de fiscalização, prevenção de irregularidades e proteção dos recursos destinados às políticas de financiamento agropecuário.",
-            "apresentadaEm": "2026-11-16T20:46",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2654325"
-          },
-          {
-            "id": 2654313,
+            "id": 2654853,
             "sigla": "SLD",
             "tipo": "Sugestão de Emenda à LDO - Comissões",
             "numero": 10,
             "ano": 2026,
-            "ementa": "Requer a inclusão de meta para Ampliar as ações de PD & I em parceria com agentes dos ecossistemas de inovação nacionais e internacionais para o enfrentamento dos desafios de futuro dos setores agropecuário, agroindustrial e florestal.. Programa: 2303 (Pesquisa e Inovação Agropecuária), Objetivo Específico: 0038. Acréscimos: 500\".",
-            "apresentadaEm": "2026-11-16T17:38",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2654313"
+            "ementa": "REFERÊNCIA: CORPO DA LEI, CAP V, SEÇÃO III, ART 104, § 7, INCISO II - MODIFICAR O INCISO II: “II - FICA VEDADA QUALQUER DEDUÇÃO DO VALOR DESTINADO AO BENEFICIÁRIO NAS TRANSFERÊNCIAS ESPECIAIS DE QUE TRATA O ART. 166-A, INCISO I, DA CONSTITUIÇÃO FEDERAL, PARA CUSTEIO DE DESPESAS ADMINISTRATIVAS, OPERACIONAIS, DE ACOMPANHAMENTO OU DE FISCALIZAÇÃO, DEVENDO TAIS DESPESAS SER SUPORTADAS POR DOTAÇÕES ORÇAMENTÁRIAS PRÓPRIAS DOS ÓRGÃOS OU ENTIDADES RESPONSÁVEIS, SEM PREJUÍZO DAS ATIVIDADES DE CONTROLE LEGALMENTE EXIGIDAS.”",
+            "apresentadaEm": "2026-11-17T19:11",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2654853"
           },
           {
-            "id": 2654309,
+            "id": 2654851,
             "sigla": "SLD",
             "tipo": "Sugestão de Emenda à LDO - Comissões",
             "numero": 9,
             "ano": 2026,
-            "ementa": "Requer a inclusão de meta para Adquirir alimentos da agricultura familiar, ampliando a participação, com equidade de gênero, dos grupos prioritários definidos na legislação do PAA, como fornecedores dos alimentos que abastecem as ações e equipamentos de Segurança Alimentar e Nutricional. Programa: 5133 (Segurança Alimentar e Nutricional e Combate à Fome), Objetivo Específico: 0374. Acréscimos: 70.",
-            "apresentadaEm": "2026-11-16T17:38",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2654309"
+            "ementa": "REFERÊNCIA: CORPO DA LEI, CAP IV, SEÇÃO X, SUBSEÇÃO II, ART 77 - INCLUIR O PARÁGRAFO: “PARÁGRAFO ÚNICO. OS RECURSOS FINANCEIROS DESTINADOS ÀS PROGRAMAÇÕES ORÇAMENTÁRIAS INCLUÍDAS OU ACRESCIDAS POR EMENDAS PARLAMENTARES DEVERÃO SER LIBERADOS NO PRAZO MÁXIMO DE TRINTA DIAS, CONTADO DA DATA EM QUE AS RESPECTIVAS DESPESAS ESTIVEREM DEVIDAMENTE LIQUIDADAS E APTAS PARA PAGAMENTO, APÓS O CUMPRIMENTO DE TODAS AS EXIGÊNCIAS LEGAIS, TÉCNICAS E ADMINISTRATIVAS APLICÁVEIS, RESSALVADAS AS RESTRIÇÕES LEGAIS À EXECUÇÃO FINANCEIRA E AS DETERMINAÇÕES JUDICIAIS, DEVIDAMENTE FUNDAMENTADAS.”",
+            "apresentadaEm": "2026-11-17T19:10",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2654851"
           },
           {
-            "id": 2654302,
+            "id": 2654850,
             "sigla": "SLD",
             "tipo": "Sugestão de Emenda à LDO - Comissões",
             "numero": 8,
             "ano": 2026,
-            "ementa": "Requer a inclusão de meta para Ampliar o acesso do produtor rural aos instrumentos de mitigação de riscos climáticos. Programa: 1144 (Agropecuária Sustentável), Objetivo Específico: 0007. Acréscimos: 80000\".",
-            "apresentadaEm": "2026-11-16T17:38",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2654302"
+            "ementa": "REFERÊNCIA: CORPO DA LEI, CAP V, SEÇÃO I, SUBSEÇÃO IV, ART 88, INCISO II, ALÍNEA C – INCLUIR A ALÍNEA “D) REALIZAÇÃO DE OBRAS, REFORMAS, AMPLIAÇÕES, ADAPTAÇÕES E MELHORIAS NAS INSTALAÇÕES FÍSICAS DE ENTIDADES PRIVADAS SEM FINS LUCRATIVOS QUE PRESTEM SERVIÇOS DE INTERESSE PÚBLICO NAS ÁREAS DE ASSISTÊNCIA SOCIAL E EDUCAÇÃO, DESDE QUE DIRETAMENTE VINCULADAS ÀS SUAS FINALIDADES INSTITUCIONAIS, OBSERVADAS AS EXIGÊNCIAS LEGAIS APLICÁVEIS”.",
+            "apresentadaEm": "2026-11-17T19:08",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2654850"
           },
           {
-            "id": 2654225,
+            "id": 2654849,
+            "sigla": "SLD",
+            "tipo": "Sugestão de Emenda à LDO - Comissões",
+            "numero": 7,
+            "ano": 2026,
+            "ementa": "REFERÊNCIA: CORPO DA LEI, CAP V, SEÇÃO II, SUBSEÇÃO I, ART 90, § 5 – INCLUIR O PARÁGRAFO: “§ 6º A EMISSÃO DE NOTA DE EMPENHO, A REALIZAÇÃO DAS TRANSFERÊNCIAS DE RECURSOS E A ASSINATURA DOS INSTRUMENTOS A QUE SE REFERE O CAPUT, BEM COMO A DOAÇÃO DE BENS, MATERIAIS E INSUMOS, NÃO DEPENDERÃO DA SITUAÇÃO DE ADIMPLÊNCIA DO MUNICÍPIO DE ATÉ SESSENTA E CINCO MIL HABITANTES”.",
+            "apresentadaEm": "2026-11-17T19:06",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2654849"
+          },
+          {
+            "id": 2654836,
+            "sigla": "SLD",
+            "tipo": "Sugestão de Emenda à LDO - Comissões",
+            "numero": 4,
+            "ano": 2026,
+            "ementa": "CRIAR UM AMBIENTE ORIENTADO PARA A ATRAÇÃO DE INVESTIMENTOS EM PESQUISA, PRODUÇÃO E TRANSFORMAÇÃO MINERAL: PROGRAMA 3102 – OBJETIVO ESPECÍFICO 0045 – TIPO DE ALTERAÇÃO: INCLUSÃO 1.",
+            "apresentadaEm": "2026-11-17T18:55",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2654836"
+          },
+          {
+            "id": 2654831,
+            "sigla": "SLD",
+            "tipo": "Sugestão de Emenda à LDO - Comissões",
+            "numero": 2,
+            "ano": 2026,
+            "ementa": "AUMENTAR A SEGURANÇA DA MINERAÇÃO PARA A SOCIEDADE BRASILEIRA: PROGRAMA 3102 – OBJETIVO ESPECÍFICO 0040 – TIPO DE ALTERAÇÃO: INCLUSÃO – 30.",
+            "apresentadaEm": "2026-11-17T18:48",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2654831"
+          },
+          {
+            "id": 2654830,
+            "sigla": "SLD",
+            "tipo": "Sugestão de Emenda à LDO - Comissões",
+            "numero": 1,
+            "ano": 2026,
+            "ementa": "AUMENTAR AS ATIVIDADES DE EXPLORAÇÃO E PRODUÇÃO DE PETRÓLEO E GÁS NATURAL: PROGRAMA 3103 – OBJETIVO ESPECÍFICO 0031 – TIPO DE ALTERAÇÃO: INCLUSÃO – 40.",
+            "apresentadaEm": "2026-11-17T18:41",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2654830"
+          },
+          {
+            "id": 2654796,
             "sigla": "SIT",
             "tipo": "Solicitação de Informação ao TCU",
-            "numero": 57,
+            "numero": 59,
             "ano": 2026,
-            "ementa": "Requer informações ao Tribunal de Contas da União (TCU) acerca da existência de fiscalizações, auditorias, inspeções e procedimentos de controle relacionados à concessão de financiamentos rurais lastreados em imóveis fictícios, registros fundiários irregulares, garantias fraudulentas ou informações inconsistentes no Cadastro Ambiental Rural (CAR), bem como sobre eventuais prejuízos aos recursos públicos e a responsabilização dos agentes envolvidos.",
-            "apresentadaEm": "2026-11-16T16:32",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2654225"
-          },
-          {
-            "id": 2654210,
-            "sigla": "RIC",
-            "tipo": "Requerimento de Informação",
-            "numero": 2994,
-            "ano": 2026,
-            "ementa": "Requer informações ao Ministro de Estado da Fazenda acerca de possíveis irregularidades na concessão de financiamentos rurais mediante utilização de imóveis fictícios, registros fundiários fraudulentos, cadastros vinculados a CPFs inválidos e garantias imobiliárias inconsistentes, bem como sobre a atuação das instituições financeiras públicas federais, os responsáveis pela aprovação e liberação dos créditos, os mecanismos de fiscalização e os eventuais prejuízos aos recursos públicos.",
-            "apresentadaEm": "2026-11-16T16:16",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2654210"
-          },
-          {
-            "id": 2654324,
-            "sigla": "REQ",
-            "tipo": "Requerimento para envio de Indicação pela Comissão",
-            "numero": 384,
-            "ano": 2026,
-            "ementa": "Requer o encaminhamento de Indicação à Procuradoria-Geral da República para sugerir a adoção de providências destinadas à apuração de possíveis organizações criminosas, corrupção de agentes públicos, fraudes fundiárias e irregularidades na concessão de financiamentos rurais, inclusive quanto à eventual participação de dirigentes e empregados de instituições financeiras, bem como à avaliação de medidas cautelares, responsabilização dos envolvidos e recuperação dos recursos desviados.",
-            "apresentadaEm": "2026-11-16T16:08",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2654324"
-          },
-          {
-            "id": 2654209,
-            "sigla": "INC",
-            "tipo": "Indicação",
-            "numero": 1709,
-            "ano": 2026,
-            "ementa": "Sugere à Procuradoria-Geral da República a adoção de providências para apuração de possíveis organizações criminosas, corrupção de agentes públicos e fraudes na concessão de crédito rural mediante utilização de imóveis fictícios, registros fundiários fraudulentos e garantias irregulares, incluindo a investigação da eventual participação de dirigentes e empregados de instituições financeiras e a avaliação de medidas cautelares de afastamento de funções, prisão preventiva e bloqueio patrimonial dos responsáveis.",
-            "apresentadaEm": "2026-11-16T16:08",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2654209"
+            "ementa": "Requer ao Tribunal de Contas da União (TCU) informações sobre as fiscalizações, auditorias, inspeções e demais procedimentos de controle externo relacionados à situação econômico-financeira, à gestão administrativa, ao endividamento e à governança da Empresa Brasileira de Correios e Telégrafos (ECT), diante do prejuízo líquido acumulado de R$ 7,48 bilhões nos nove primeiros meses de 2026, bem como sobre eventuais irregularidades identificadas na aplicação de recursos públicos, na contratação de serviços, nas operações de crédito e na atuação de seus administradores.",
+            "apresentadaEm": "2026-11-17T17:12",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2654796"
           }
         ]
       }
@@ -4192,7 +4192,7 @@
       "paginaOficial": "https://www.camara.leg.br/deputados/220526",
       "despesas": {
         "total": 558611.73,
-        "documentos": 1958,
+        "documentos": 1959,
         "porTipo": [
           {
             "tipo": "PASSAGEM AÉREA - SIGEPA",
@@ -4748,8 +4748,8 @@
           }
         ],
         "comprovantes": {
-          "com": 1370,
-          "total": 1958
+          "com": 1371,
+          "total": 1959
         }
       },
       "proposicoes": {
@@ -5050,7 +5050,7 @@
       "paginaOficial": "https://www.camara.leg.br/deputados/178873",
       "despesas": {
         "total": 241496.51999999996,
-        "documentos": 2532,
+        "documentos": 2534,
         "porTipo": [
           {
             "tipo": "PASSAGEM AÉREA - SIGEPA",
@@ -5570,8 +5570,8 @@
           }
         ],
         "comprovantes": {
-          "com": 2253,
-          "total": 2532
+          "com": 2254,
+          "total": 2534
         }
       },
       "proposicoes": {
@@ -5594,7 +5594,7 @@
           {
             "tipo": "Projeto de Lei",
             "sigla": "PL",
-            "total": 68
+            "total": 69
           },
           {
             "tipo": "Requerimento de Redistribuição",
@@ -5774,6 +5774,16 @@
         ],
         "recentes": [
           {
+            "id": 2654838,
+            "sigla": "PL",
+            "tipo": "Projeto de Lei",
+            "numero": 5889,
+            "ano": 2026,
+            "ementa": "Dispõe sobre a incidência do Imposto sobre a Renda das Pessoas Físicas sobre lucros e dividendos distribuídos por pessoas jurídicas, altera as Leis nº 9.249, de 26 de dezembro de 1995, e nº 9.250, de 26 de dezembro de 1995, e dá outras providências.",
+            "apresentadaEm": "2026-11-17T18:44",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2654838"
+          },
+          {
             "id": 2654382,
             "sigla": "PLP",
             "tipo": "Projeto de Lei Complementar",
@@ -5862,16 +5872,6 @@
             "ementa": "Institui a Lei de Proteção da Soberania Econômica Nacional contra a Aplicação Extraterritorial de Medidas Estrangeiras, dispõe sobre a proteção das pessoas submetidas à jurisdição brasileira contra medidas coercitivas unilaterais incompatíveis com o ordenamento jurídico nacional, e dá outras providências.",
             "apresentadaEm": "2026-08-14T10:28",
             "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2643776"
-          },
-          {
-            "id": 2651984,
-            "sigla": "PLP",
-            "tipo": "Projeto de Lei Complementar",
-            "numero": 290,
-            "ano": 2026,
-            "ementa": "Determina que as despesas de capital e parcela das despesas custeadas com receitas próprias de autarquias federais não sejam alcançadas pelo mecanismo de limitação de empenho e movimentação financeira previsto na LRF, e não sejam incluídas na base de cálculo e nos limites estabelecidos no Novo Arcabouço Fiscal para as despesas primárias do Governo Federal.",
-            "apresentadaEm": "2026-08-12T17:56",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2651984"
           }
         ]
       }
@@ -5897,7 +5897,7 @@
       "paginaOficial": "https://www.camara.leg.br/deputados/220527",
       "despesas": {
         "total": 507822.7199999999,
-        "documentos": 1683,
+        "documentos": 1689,
         "porTipo": [
           {
             "tipo": "PASSAGEM AÉREA - SIGEPA",
@@ -6435,8 +6435,8 @@
           }
         ],
         "comprovantes": {
-          "com": 1196,
-          "total": 1683
+          "com": 1202,
+          "total": 1689
         }
       },
       "proposicoes": {
@@ -6459,7 +6459,7 @@
           {
             "tipo": "Projeto de Lei",
             "sigla": "PL",
-            "total": 40
+            "total": 41
           },
           {
             "tipo": "Sugestão de Emenda à LDO - Comissões",
@@ -6609,6 +6609,16 @@
         ],
         "recentes": [
           {
+            "id": 2654838,
+            "sigla": "PL",
+            "tipo": "Projeto de Lei",
+            "numero": 5889,
+            "ano": 2026,
+            "ementa": "Dispõe sobre a incidência do Imposto sobre a Renda das Pessoas Físicas sobre lucros e dividendos distribuídos por pessoas jurídicas, altera as Leis nº 9.249, de 26 de dezembro de 1995, e nº 9.250, de 26 de dezembro de 1995, e dá outras providências.",
+            "apresentadaEm": "2026-11-17T18:44",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2654838"
+          },
+          {
             "id": 2654382,
             "sigla": "PLP",
             "tipo": "Projeto de Lei Complementar",
@@ -6697,16 +6707,6 @@
             "ementa": "Requer adição de texto ao Corpo da Lei, Cap XI, Seção II, Art 167, Inciso III",
             "apresentadaEm": "2026-11-16T22:15",
             "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2654366"
-          },
-          {
-            "id": 2654365,
-            "sigla": "SLD",
-            "tipo": "Sugestão de Emenda à LDO - Comissões",
-            "numero": 6,
-            "ano": 2026,
-            "ementa": "Requer adição de texto ao Corpo da Lei, Cap XI, Seção I, Art 159, § 1, Inciso I, Alínea t",
-            "apresentadaEm": "2026-11-16T22:13",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2654365"
           }
         ]
       }
@@ -7557,7 +7557,7 @@
       "paginaOficial": "https://www.camara.leg.br/deputados/160517",
       "despesas": {
         "total": 267806.65000000014,
-        "documentos": 1123,
+        "documentos": 1129,
         "porTipo": [
           {
             "tipo": "PASSAGEM AÉREA - SIGEPA",
@@ -8077,8 +8077,8 @@
           }
         ],
         "comprovantes": {
-          "com": 683,
-          "total": 1123
+          "com": 687,
+          "total": 1129
         }
       },
       "proposicoes": {
