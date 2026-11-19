@@ -11,7 +11,7 @@
     2025,
     2026
   ],
-  "coletadoEm": "2026-11-18T18:07:09.431Z",
+  "coletadoEm": "2026-11-19T18:19:58.005Z",
   "senadores": [
     {
       "id": "senado-5953",
@@ -28,6 +28,16 @@
         "fim": "2027-01-31"
       },
       "materias": [
+        {
+          "id": "176505",
+          "identificacao": "RQS 794/2026",
+          "sigla": "RQS",
+          "numero": "794",
+          "ano": 2026,
+          "ementa": "Requer a realização de Sessão Especial destinada a homenagear a trajetória de vida e de luta do Senador Paulo Paim.",
+          "data": "2026-11-18",
+          "autorPrincipal": false
+        },
         {
           "id": "176163",
           "identificacao": "REQ 374/2026 - CDIR",
@@ -3382,7 +3392,7 @@
       "materiasPorTipo": [
         {
           "sigla": "RQS",
-          "total": 175
+          "total": 176
         },
         {
           "sigla": "REQ",
@@ -3430,6 +3440,16 @@
         "fim": "2031-01-31"
       },
       "materias": [
+        {
+          "id": "176489",
+          "identificacao": "PEC 24/2026",
+          "sigla": "PEC",
+          "numero": "24",
+          "ano": 2026,
+          "ementa": "Altera o inciso I, alínea b, do art. 102 e insere a alínea j no inciso I do art. 105 da Constituição Federal de 1988.",
+          "data": "2026-11-18",
+          "autorPrincipal": false
+        },
         {
           "id": "176369",
           "identificacao": "PL 5843/2026",
@@ -8142,7 +8162,7 @@
         },
         {
           "sigla": "PEC",
-          "total": 64
+          "total": 65
         },
         {
           "sigla": "PL",
@@ -8202,6 +8222,16 @@
         "fim": "2027-01-31"
       },
       "materias": [
+        {
+          "id": "176489",
+          "identificacao": "PEC 24/2026",
+          "sigla": "PEC",
+          "numero": "24",
+          "ano": 2026,
+          "ementa": "Altera o inciso I, alínea b, do art. 102 e insere a alínea j no inciso I do art. 105 da Constituição Federal de 1988.",
+          "data": "2026-11-18",
+          "autorPrincipal": false
+        },
         {
           "id": "176304",
           "identificacao": "PEC 23/2026",
@@ -11290,7 +11320,7 @@
         },
         {
           "sigla": "PEC",
-          "total": 70
+          "total": 71
         },
         {
           "sigla": "REQ",
@@ -11333,6 +11363,134 @@
     }
   ],
   "votacoes": [
+    {
+      "id": "7117-1",
+      "data": "2026-11-18",
+      "materia": "PLP 299/2026",
+      "ementa": "Altera a Lei Complementar nº 200, de 30 de agosto de 2023, para conferir ao Poder Executivo federal novos instrumentos de gestão com vistas a garantir a estabilidade macroeconômica do País e criar as condições adequadas ao crescimento socioeconômico; e dá outras providências.",
+      "descricao": "Votação nominal da Emenda nº 40 ao Projeto de Lei Complementar nº 299, de 2026, destacada.",
+      "resultado": "Rejeitado",
+      "secreta": false,
+      "votosDoEstado": [
+        {
+          "idExterno": 5953,
+          "nome": "Fabiano Contarato",
+          "partido": "PT",
+          "registro": "Não",
+          "voto": "Não"
+        },
+        {
+          "idExterno": 631,
+          "nome": "Magno Malta",
+          "partido": "PL",
+          "registro": "Sim",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 5942,
+          "nome": "Marcos do Val",
+          "partido": "AVANTE",
+          "registro": "Sim",
+          "voto": "Sim"
+        }
+      ]
+    },
+    {
+      "id": "7118-2",
+      "data": "2026-11-18",
+      "materia": "PLP 299/2026",
+      "ementa": "Altera a Lei Complementar nº 200, de 30 de agosto de 2023, para conferir ao Poder Executivo federal novos instrumentos de gestão com vistas a garantir a estabilidade macroeconômica do País e criar as condições adequadas ao crescimento socioeconômico; e dá outras providências.",
+      "descricao": "Votação nominal do Art. 6º do Substitutivo ao Projeto de Lei Complementar nº 299, de 2026, destacado.",
+      "resultado": "Aprovado",
+      "secreta": false,
+      "votosDoEstado": [
+        {
+          "idExterno": 5953,
+          "nome": "Fabiano Contarato",
+          "partido": "PT",
+          "registro": "Sim",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 631,
+          "nome": "Magno Malta",
+          "partido": "PL",
+          "registro": "Não",
+          "voto": "Não"
+        },
+        {
+          "idExterno": 5942,
+          "nome": "Marcos do Val",
+          "partido": "AVANTE",
+          "registro": "Não",
+          "voto": "Não"
+        }
+      ]
+    },
+    {
+      "id": "7119-3",
+      "data": "2026-11-18",
+      "materia": "PLP 299/2026",
+      "ementa": "Altera a Lei Complementar nº 200, de 30 de agosto de 2023, para conferir ao Poder Executivo federal novos instrumentos de gestão com vistas a garantir a estabilidade macroeconômica do País e criar as condições adequadas ao crescimento socioeconômico; e dá outras providências.",
+      "descricao": "Votação nominal do Art. 6º-F da Lei Complementar nº 200, de 2023, constante do art. 1º do Substitutivo ao PLP nº 299/2026, destacado.",
+      "resultado": "Aprovado",
+      "secreta": false,
+      "votosDoEstado": [
+        {
+          "idExterno": 5953,
+          "nome": "Fabiano Contarato",
+          "partido": "PT",
+          "registro": "Sim",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 631,
+          "nome": "Magno Malta",
+          "partido": "PL",
+          "registro": "Não",
+          "voto": "Não"
+        },
+        {
+          "idExterno": 5942,
+          "nome": "Marcos do Val",
+          "partido": "AVANTE",
+          "registro": "Não",
+          "voto": "Não"
+        }
+      ]
+    },
+    {
+      "id": "7120-4",
+      "data": "2026-11-18",
+      "materia": "PLP 299/2026",
+      "ementa": "Altera a Lei Complementar nº 200, de 30 de agosto de 2023, para conferir ao Poder Executivo federal novos instrumentos de gestão com vistas a garantir a estabilidade macroeconômica do País e criar as condições adequadas ao crescimento socioeconômico; e dá outras providências.",
+      "descricao": "Votação nominal das Emendas, subemenda e adequações redacionais do Relator, em turno suplementar, nos termos do parecer.",
+      "resultado": "Aprovado",
+      "secreta": false,
+      "votosDoEstado": [
+        {
+          "idExterno": 5953,
+          "nome": "Fabiano Contarato",
+          "partido": "PT",
+          "registro": "Sim",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 631,
+          "nome": "Magno Malta",
+          "partido": "PL",
+          "registro": "Não",
+          "voto": "Não"
+        },
+        {
+          "idExterno": 5942,
+          "nome": "Marcos do Val",
+          "partido": "AVANTE",
+          "registro": "Sim",
+          "voto": "Sim"
+        }
+      ]
+    },
     {
       "id": "7115-1",
       "data": "2026-11-12",
