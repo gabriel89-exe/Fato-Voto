@@ -11,7 +11,7 @@
     2025,
     2026
   ],
-  "coletadoEm": "2026-11-19T18:19:58.005Z",
+  "coletadoEm": "2026-11-20T17:49:34.024Z",
   "senadores": [
     {
       "id": "senado-5953",
@@ -3440,6 +3440,26 @@
         "fim": "2031-01-31"
       },
       "materias": [
+        {
+          "id": "176515",
+          "identificacao": "RQS 796/2026",
+          "sigla": "RQS",
+          "numero": "796",
+          "ano": 2026,
+          "ementa": "Requer voto de pesar pelo falecimento da Sra. Augusta Leontina Dallapiccola.",
+          "data": "2026-11-19",
+          "autorPrincipal": true
+        },
+        {
+          "id": "176519",
+          "identificacao": "REQ 17/2026 - CSP",
+          "sigla": "REQ",
+          "numero": "17",
+          "ano": 2026,
+          "ementa": "Requer, nos termos do art. 58, § 2°, V, da Constituição Federal, que sejam convidados os Senhores Daniel Nogueira Cola e Wedson de Oliveira Cajé, Delegados da Polícia Federal, a comparecerem a esta Comissão, a fim de prestarem esclarecimentos acerca de seus afastamentos das funções exercidas na Coordenação-Geral de Repressão à Corrupção, Crimes Financeiros e Lavagem de Dinheiro da Polícia Federal.",
+          "data": "2026-11-19",
+          "autorPrincipal": true
+        },
         {
           "id": "176489",
           "identificacao": "PEC 24/2026",
@@ -8154,11 +8174,11 @@
       "materiasPorTipo": [
         {
           "sigla": "RQS",
-          "total": 223
+          "total": 224
         },
         {
           "sigla": "REQ",
-          "total": 83
+          "total": 84
         },
         {
           "sigla": "PEC",

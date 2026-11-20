@@ -6,10 +6,10 @@
   },
   "uf": "ES",
   "legislatura": 57,
-  "coletadoEm": "2026-11-18T18:06:20.453Z",
+  "coletadoEm": "2026-11-20T17:49:26.186Z",
   "referencia": {
     "bancada": 10,
-    "medianaDespesas": 353099.0400000001,
+    "medianaDespesas": 355835.92000000016,
     "menor": 241496.51999999996,
     "maior": 558611.73
   },
@@ -36,7 +36,7 @@
       "paginaOficial": "https://www.camara.leg.br/deputados/204356",
       "despesas": {
         "total": 261951.33999999973,
-        "documentos": 1125,
+        "documentos": 1127,
         "porTipo": [
           {
             "tipo": "PASSAGEM AÉREA - SIGEPA",
@@ -574,8 +574,8 @@
           }
         ],
         "comprovantes": {
-          "com": 727,
-          "total": 1125
+          "com": 729,
+          "total": 1127
         }
       },
       "proposicoes": {
@@ -866,7 +866,7 @@
       "paginaOficial": "https://www.camara.leg.br/deputados/204355",
       "despesas": {
         "total": 524272.62,
-        "documentos": 1527,
+        "documentos": 1528,
         "porTipo": [
           {
             "tipo": "PASSAGEM AÉREA - SIGEPA",
@@ -1385,7 +1385,7 @@
         ],
         "comprovantes": {
           "com": 734,
-          "total": 1527
+          "total": 1528
         }
       },
       "proposicoes": {
@@ -2437,13 +2437,13 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/178871.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/178871",
       "despesas": {
-        "total": 397012.97999999986,
-        "documentos": 1685,
+        "total": 402486.73999999993,
+        "documentos": 1691,
         "porTipo": [
           {
             "tipo": "PASSAGEM AÉREA - SIGEPA",
-            "valor": 382813.97999999986,
-            "notas": 264,
+            "valor": 388287.73999999993,
+            "notas": 267,
             "fornecedores": [
               {
                 "nome": "LATAM Airlines Brasil",
@@ -2466,8 +2466,8 @@
               {
                 "nome": "Gol Linhas Aéreas",
                 "cnpjCpf": "07575651000159",
-                "total": 25527.01,
-                "notas": 20,
+                "total": 31000.769999999997,
+                "notas": 23,
                 "outrosNomes": [
                   "GOL"
                 ]
@@ -2758,7 +2758,7 @@
           },
           {
             "competencia": "2026-10",
-            "valor": 669
+            "valor": 6142.76
           }
         ],
         "fornecedores": [
@@ -2783,8 +2783,8 @@
           {
             "nome": "Gol Linhas Aéreas",
             "cnpjCpf": "07575651000159",
-            "total": 25527.01,
-            "notas": 20,
+            "total": 31000.769999999997,
+            "notas": 23,
             "outrosNomes": [
               "GOL"
             ]
@@ -2976,8 +2976,8 @@
           }
         ],
         "comprovantes": {
-          "com": 1216,
-          "total": 1685
+          "com": 1218,
+          "total": 1691
         }
       },
       "proposicoes": {
@@ -2995,7 +2995,7 @@
           {
             "tipo": "Requerimento de Convocação de Ministro de Estado na Comissão (art. 50, CF)",
             "sigla": "REQ",
-            "total": 213
+            "total": 214
           },
           {
             "tipo": "Requerimento de Audiência Pública",
@@ -3265,6 +3265,16 @@
         ],
         "recentes": [
           {
+            "id": 2655474,
+            "sigla": "REQ",
+            "tipo": "Requerimento de Convocação de Ministro de Estado na Comissão (art. 50, CF)",
+            "numero": 118,
+            "ano": 2026,
+            "ementa": "Requer a convocação do Ministro de Estado da Fazenda, Dario Carnevalli Durigan, para prestar esclarecimentos acerca das denúncias de fraudes na concessão de financiamentos rurais mediante utilização de imóveis fictícios e registros fundiários fraudulentos, dos indícios de possível atuação de organizações criminosas e participação de agentes públicos e privados, bem como das falhas nos mecanismos de fiscalização, prevenção e combate à corrupção no âmbito das instituições financeiras públicas federais.",
+            "apresentadaEm": "2026-11-18T16:51",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655474"
+          },
+          {
             "id": 2654865,
             "sigla": "SLD",
             "tipo": "Sugestão de Emenda à LDO - Comissões",
@@ -3353,16 +3363,6 @@
             "ementa": "AUMENTAR AS ATIVIDADES DE EXPLORAÇÃO E PRODUÇÃO DE PETRÓLEO E GÁS NATURAL: PROGRAMA 3103 – OBJETIVO ESPECÍFICO 0031 – TIPO DE ALTERAÇÃO: INCLUSÃO – 40.",
             "apresentadaEm": "2026-11-17T18:41",
             "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2654830"
-          },
-          {
-            "id": 2654796,
-            "sigla": "SIT",
-            "tipo": "Solicitação de Informação ao TCU",
-            "numero": 59,
-            "ano": 2026,
-            "ementa": "Requer ao Tribunal de Contas da União (TCU) informações sobre as fiscalizações, auditorias, inspeções e demais procedimentos de controle externo relacionados à situação econômico-financeira, à gestão administrativa, ao endividamento e à governança da Empresa Brasileira de Correios e Telégrafos (ECT), diante do prejuízo líquido acumulado de R$ 7,48 bilhões nos nove primeiros meses de 2026, bem como sobre eventuais irregularidades identificadas na aplicação de recursos públicos, na contratação de serviços, nas operações de crédito e na atuação de seus administradores.",
-            "apresentadaEm": "2026-11-17T17:12",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2654796"
           }
         ]
       }
@@ -3388,7 +3388,7 @@
       "paginaOficial": "https://www.camara.leg.br/deputados/220529",
       "despesas": {
         "total": 309185.1000000003,
-        "documentos": 1524,
+        "documentos": 1525,
         "porTipo": [
           {
             "tipo": "PASSAGEM AÉREA - SIGEPA",
@@ -3885,8 +3885,8 @@
           }
         ],
         "comprovantes": {
-          "com": 1169,
-          "total": 1524
+          "com": 1170,
+          "total": 1525
         }
       },
       "proposicoes": {
@@ -4192,7 +4192,7 @@
       "paginaOficial": "https://www.camara.leg.br/deputados/220526",
       "despesas": {
         "total": 558611.73,
-        "documentos": 1959,
+        "documentos": 1961,
         "porTipo": [
           {
             "tipo": "PASSAGEM AÉREA - SIGEPA",
@@ -4748,8 +4748,8 @@
           }
         ],
         "comprovantes": {
-          "com": 1371,
-          "total": 1959
+          "com": 1373,
+          "total": 1961
         }
       },
       "proposicoes": {
@@ -5050,7 +5050,7 @@
       "paginaOficial": "https://www.camara.leg.br/deputados/178873",
       "despesas": {
         "total": 241496.51999999996,
-        "documentos": 2534,
+        "documentos": 2538,
         "porTipo": [
           {
             "tipo": "PASSAGEM AÉREA - SIGEPA",
@@ -5570,8 +5570,8 @@
           }
         ],
         "comprovantes": {
-          "com": 2254,
-          "total": 2534
+          "com": 2258,
+          "total": 2538
         }
       },
       "proposicoes": {
@@ -5647,12 +5647,12 @@
             "total": 6
           },
           {
-            "tipo": "Requerimento de Quebra de Interstício para Inclusão de Matéria na Ordem do Dia",
+            "tipo": "Requerimento de Urgência (Art. 155 do RICD)",
             "sigla": "REQ",
-            "total": 4
+            "total": 5
           },
           {
-            "tipo": "Requerimento de Urgência (Art. 155 do RICD)",
+            "tipo": "Requerimento de Quebra de Interstício para Inclusão de Matéria na Ordem do Dia",
             "sigla": "REQ",
             "total": 4
           },
@@ -5668,6 +5668,11 @@
           },
           {
             "tipo": "Requerimento de Moção",
+            "sigla": "REQ",
+            "total": 3
+          },
+          {
+            "tipo": "Requerimento de Retirada de Proposição de Iniciativa Coletiva",
             "sigla": "REQ",
             "total": 3
           },
@@ -5747,11 +5752,6 @@
             "total": 1
           },
           {
-            "tipo": "Requerimento de Retirada de Proposição de Iniciativa Coletiva",
-            "sigla": "REQ",
-            "total": 1
-          },
-          {
             "tipo": "Votação Nominal do Requerimento Procedimental Genérico",
             "sigla": "RPDR",
             "total": 1
@@ -5773,6 +5773,36 @@
           }
         ],
         "recentes": [
+          {
+            "id": 2655554,
+            "sigla": "REQ",
+            "tipo": "Requerimento de Retirada de Proposição de Iniciativa Coletiva",
+            "numero": 4496,
+            "ano": 2026,
+            "ementa": "Dispõe sobre a incidência do Imposto sobre a Renda das Pessoas Físicas sobre lucros e dividendos distribuídos por pessoas jurídicas, altera as Leis nº 9.249, de 26 de dezembro de 1995, e nº 9.250, de 26 de dezembro de 1995, e dá outras providências.",
+            "apresentadaEm": "2026-11-19T12:55",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655554"
+          },
+          {
+            "id": 2655546,
+            "sigla": "REQ",
+            "tipo": "Requerimento de Retirada de Proposição de Iniciativa Coletiva",
+            "numero": 4495,
+            "ano": 2026,
+            "ementa": "Requeiro, nos termos do Artigo 104 do Regimento Interno, a retirada de tramitação do PL 5889/2026",
+            "apresentadaEm": "2026-11-19T12:31",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655546"
+          },
+          {
+            "id": 2655538,
+            "sigla": "REQ",
+            "tipo": "Requerimento de Urgência (Art. 155 do RICD)",
+            "numero": 4494,
+            "ano": 2026,
+            "ementa": "Requer urgência para a apreciação do PL nº 2.623 de 2023.",
+            "apresentadaEm": "2026-11-19T11:22",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655538"
+          },
           {
             "id": 2654838,
             "sigla": "PL",
@@ -5842,36 +5872,6 @@
             "ementa": "Acrescenta o art. 203-A ao Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), para tipificar a discriminação por voto ou convicção política no trabalho e na atividade econômica, e altera o art. 1º da Lei nº 9.029, de 13 de abril de 1995, para incluir o voto e a convicção política entre os motivos de discriminação vedados nas relações de trabalho.",
             "apresentadaEm": "2026-10-29T09:52",
             "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649499"
-          },
-          {
-            "id": 2645040,
-            "sigla": "REQ",
-            "tipo": "Requerimento de Inclusão ou Retirada de Assinatura em Proposição de Iniciativa Individual",
-            "numero": 4152,
-            "ano": 2026,
-            "ementa": "Requer a inclusão de coautoria ao Projeto de Lei nº 2.478, de 2026.",
-            "apresentadaEm": "2026-08-31T20:01",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2645040"
-          },
-          {
-            "id": 2644734,
-            "sigla": "REQ",
-            "tipo": "Requerimento de Registro de Frente Parlamentar na Câmara dos Deputados",
-            "numero": 4125,
-            "ano": 2026,
-            "ementa": "Requer a criação da Frente Parlamentar Mista pela Integração Continental e Desenvolvimento Sul-Americano",
-            "apresentadaEm": "2026-08-27T15:19",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2644734"
-          },
-          {
-            "id": 2643776,
-            "sigla": "PL",
-            "tipo": "Projeto de Lei",
-            "numero": 5076,
-            "ano": 2026,
-            "ementa": "Institui a Lei de Proteção da Soberania Econômica Nacional contra a Aplicação Extraterritorial de Medidas Estrangeiras, dispõe sobre a proteção das pessoas submetidas à jurisdição brasileira contra medidas coercitivas unilaterais incompatíveis com o ordenamento jurídico nacional, e dá outras providências.",
-            "apresentadaEm": "2026-08-14T10:28",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2643776"
           }
         ]
       }
@@ -6557,6 +6557,11 @@
             "total": 2
           },
           {
+            "tipo": "Requerimento de Retirada de Proposição de Iniciativa Coletiva",
+            "sigla": "REQ",
+            "total": 2
+          },
+          {
             "tipo": "Adesão a Bloco Parlamentar",
             "sigla": "DOC",
             "total": 1
@@ -6608,6 +6613,26 @@
           }
         ],
         "recentes": [
+          {
+            "id": 2655554,
+            "sigla": "REQ",
+            "tipo": "Requerimento de Retirada de Proposição de Iniciativa Coletiva",
+            "numero": 4496,
+            "ano": 2026,
+            "ementa": "Dispõe sobre a incidência do Imposto sobre a Renda das Pessoas Físicas sobre lucros e dividendos distribuídos por pessoas jurídicas, altera as Leis nº 9.249, de 26 de dezembro de 1995, e nº 9.250, de 26 de dezembro de 1995, e dá outras providências.",
+            "apresentadaEm": "2026-11-19T12:55",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655554"
+          },
+          {
+            "id": 2655546,
+            "sigla": "REQ",
+            "tipo": "Requerimento de Retirada de Proposição de Iniciativa Coletiva",
+            "numero": 4495,
+            "ano": 2026,
+            "ementa": "Requeiro, nos termos do Artigo 104 do Regimento Interno, a retirada de tramitação do PL 5889/2026",
+            "apresentadaEm": "2026-11-19T12:31",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655546"
+          },
           {
             "id": 2654838,
             "sigla": "PL",
@@ -6687,26 +6712,6 @@
             "ementa": "Requer adição de texto ao Corpo da Lei, Cap XI, Seção II, Art 168.",
             "apresentadaEm": "2026-11-16T23:34",
             "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2654369"
-          },
-          {
-            "id": 2654367,
-            "sigla": "SLD",
-            "tipo": "Sugestão de Emenda à LDO - Comissões",
-            "numero": 8,
-            "ano": 2026,
-            "ementa": "Requer adição ao Corpo da Lei, Cap VIII, Art 132, Inciso VII, Alínea c.",
-            "apresentadaEm": "2026-11-16T22:17",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2654367"
-          },
-          {
-            "id": 2654366,
-            "sigla": "SLD",
-            "tipo": "Sugestão de Emenda à LDO - Comissões",
-            "numero": 7,
-            "ano": 2026,
-            "ementa": "Requer adição de texto ao Corpo da Lei, Cap XI, Seção II, Art 167, Inciso III",
-            "apresentadaEm": "2026-11-16T22:15",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2654366"
           }
         ]
       }
@@ -7557,7 +7562,7 @@
       "paginaOficial": "https://www.camara.leg.br/deputados/160517",
       "despesas": {
         "total": 267806.65000000014,
-        "documentos": 1129,
+        "documentos": 1132,
         "porTipo": [
           {
             "tipo": "PASSAGEM AÉREA - SIGEPA",
@@ -7899,8 +7904,8 @@
           }
         ],
         "glosas": {
-          "quantidade": 71,
-          "valor": 6668.129999999999,
+          "quantidade": 73,
+          "valor": 6725.7699999999995,
           "exemplos": [
             {
               "id": "7748122",
@@ -8077,8 +8082,8 @@
           }
         ],
         "comprovantes": {
-          "com": 687,
-          "total": 1129
+          "com": 690,
+          "total": 1132
         }
       },
       "proposicoes": {
