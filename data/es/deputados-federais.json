@@ -6,7 +6,7 @@
   },
   "uf": "ES",
   "legislatura": 57,
-  "coletadoEm": "2026-11-22T17:10:45.817Z",
+  "coletadoEm": "2026-11-23T21:25:40.350Z",
   "referencia": {
     "bancada": 10,
     "medianaDespesas": 355835.92000000016,
@@ -3010,7 +3010,7 @@
           {
             "tipo": "Requerimento para envio de Requerimento de Informação pela Comissão",
             "sigla": "REQ",
-            "total": 193
+            "total": 195
           },
           {
             "tipo": "Indicação",
@@ -3030,7 +3030,7 @@
           {
             "tipo": "Requerimento para envio de Indicação pela Comissão",
             "sigla": "REQ",
-            "total": 126
+            "total": 127
           },
           {
             "tipo": "Requerimento de Sessão Solene",
@@ -3040,7 +3040,7 @@
           {
             "tipo": "Requerimento para envio de Solicitação de Informação ao TCU pela Comissão",
             "sigla": "REQ",
-            "total": 108
+            "total": 110
           },
           {
             "tipo": "Emenda na Comissão",
@@ -3265,6 +3265,26 @@
         ],
         "recentes": [
           {
+            "id": 2658835,
+            "sigla": "REQ",
+            "tipo": "Requerimento para envio de Solicitação de Informação ao TCU pela Comissão",
+            "numero": 399,
+            "ano": 2026,
+            "ementa": "Requer informações ao Tribunal de Contas da União (TCU) acerca das denúncias de fraudes na concessão de financiamentos rurais mediante utilização de imóveis fictícios e registros fundiários fraudulentos, dos indícios de possível atuação de organizações criminosas e participação de agentes públicos e privados, bem como das falhas nos mecanismos de fiscalização, prevenção e combate à corrupção no âmbito das instituições financeiras públicas federais.",
+            "apresentadaEm": "2026-11-23T13:38",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2658835"
+          },
+          {
+            "id": 2656765,
+            "sigla": "REQ",
+            "tipo": "Requerimento para envio de Requerimento de Informação pela Comissão",
+            "numero": 398,
+            "ano": 2026,
+            "ementa": "Requer informações ao Ministro de Estado da Fazenda acerca das denúncias de fraudes na concessão de financiamentos rurais mediante utilização de imóveis fictícios e registros fundiários fraudulentos, dos indícios de possível atuação de organizações criminosas e participação de agentes públicos e privados, bem como das falhas nos mecanismos de fiscalização, prevenção e combate à corrupção no âmbito das instituições financeiras públicas federais",
+            "apresentadaEm": "2026-11-23T11:14",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2656765"
+          },
+          {
             "id": 2655474,
             "sigla": "REQ",
             "tipo": "Requerimento de Convocação de Ministro de Estado na Comissão (art. 50, CF)",
@@ -3343,26 +3363,6 @@
             "ementa": "CRIAR UM AMBIENTE ORIENTADO PARA A ATRAÇÃO DE INVESTIMENTOS EM PESQUISA, PRODUÇÃO E TRANSFORMAÇÃO MINERAL: PROGRAMA 3102 – OBJETIVO ESPECÍFICO 0045 – TIPO DE ALTERAÇÃO: INCLUSÃO 1.",
             "apresentadaEm": "2026-11-17T18:55",
             "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2654836"
-          },
-          {
-            "id": 2654831,
-            "sigla": "SLD",
-            "tipo": "Sugestão de Emenda à LDO - Comissões",
-            "numero": 2,
-            "ano": 2026,
-            "ementa": "AUMENTAR A SEGURANÇA DA MINERAÇÃO PARA A SOCIEDADE BRASILEIRA: PROGRAMA 3102 – OBJETIVO ESPECÍFICO 0040 – TIPO DE ALTERAÇÃO: INCLUSÃO – 30.",
-            "apresentadaEm": "2026-11-17T18:48",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2654831"
-          },
-          {
-            "id": 2654830,
-            "sigla": "SLD",
-            "tipo": "Sugestão de Emenda à LDO - Comissões",
-            "numero": 1,
-            "ano": 2026,
-            "ementa": "AUMENTAR AS ATIVIDADES DE EXPLORAÇÃO E PRODUÇÃO DE PETRÓLEO E GÁS NATURAL: PROGRAMA 3103 – OBJETIVO ESPECÍFICO 0031 – TIPO DE ALTERAÇÃO: INCLUSÃO – 40.",
-            "apresentadaEm": "2026-11-17T18:41",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2654830"
           }
         ]
       }
@@ -5629,7 +5629,7 @@
           {
             "tipo": "Projeto de Lei Complementar",
             "sigla": "PLP",
-            "total": 7
+            "total": 8
           },
           {
             "tipo": "Processo Interno",
@@ -5774,6 +5774,16 @@
         ],
         "recentes": [
           {
+            "id": 2657784,
+            "sigla": "PLP",
+            "tipo": "Projeto de Lei Complementar",
+            "numero": 316,
+            "ano": 2026,
+            "ementa": "Altera a Lei Complementar nº 200, de 30 de agosto de 2023, e a Lei Complementar nº 101, de 4 de maio de 2000, para excluir as despesas das Universidades Públicas Federais e dos Institutos Federais de Educação, Ciência e Tecnologia dos limites de despesas primárias e das metas de resultado primário do Regime Fiscal Sustentável, bem como vedar o contingenciamento, o bloqueio e a limitação de empenho e movimentação financeira dessas despesas.",
+            "apresentadaEm": "2026-11-23T14:18",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2657784"
+          },
+          {
             "id": 2655554,
             "sigla": "REQ",
             "tipo": "Requerimento de Retirada de Proposição de Iniciativa Coletiva",
@@ -5862,16 +5872,6 @@
             "ementa": "Institui o Imposto sobre Grandes  Fortunas, previsto no art. 153, inciso VII, da Constituição Federal.",
             "apresentadaEm": "2026-11-13T18:29",
             "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2653944"
-          },
-          {
-            "id": 2649499,
-            "sigla": "PL",
-            "tipo": "Projeto de Lei",
-            "numero": 5689,
-            "ano": 2026,
-            "ementa": "Acrescenta o art. 203-A ao Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), para tipificar a discriminação por voto ou convicção política no trabalho e na atividade econômica, e altera o art. 1º da Lei nº 9.029, de 13 de abril de 1995, para incluir o voto e a convicção política entre os motivos de discriminação vedados nas relações de trabalho.",
-            "apresentadaEm": "2026-10-29T09:52",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649499"
           }
         ]
       }
