@@ -6,15 +6,995 @@
   },
   "uf": "ES",
   "legislatura": 57,
-  "coletadoEm": "2026-11-23T21:29:34.697Z",
+  "coletadoEm": "2026-11-24T20:15:32.312Z",
   "criterio": {
     "orgao": "Plenário",
     "tipo": "Votações nominais",
     "quantidade": 20,
     "ordem": "As mais recentes primeiro",
-    "sondagens": 500
+    "sondagens": 451
   },
   "votacoes": [
+    {
+      "id": "2655570-60",
+      "data": "2026-11-23",
+      "registradaEm": "2026-11-24T00:35:14",
+      "descricao": "Mantido o texto. Sim: 319; Não: 127; Abstenção: 1; Total: 447.",
+      "aprovada": false,
+      "proposicao": {
+        "id": 2655570,
+        "sigla": "PLP",
+        "numero": 299,
+        "ano": 2026,
+        "ementa": "Altera a Lei Complementar nº?200, de 30 de agosto de 2023, a Lei Complementar nº?176, de 29 de dezembro de 2020, a Lei Complementar nº?235, de 27 de agosto de 2026, a Lei Complementar nº?224, de 26 de dezembro de 2025, a Lei nº?11.540, de 12 de novembro de 2007, e a Lei nº?9.796, de 5 de maio de 1999, para conferir ao Poder Executivo federal novos instrumentos de gestão, com vistas a garantir a estabilidade macroeconômica do País e criar as condições adequadas ao desenvolvimento socioeconômico; e dá outras providências.",
+        "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655570"
+      },
+      "placar": [
+        {
+          "voto": "Sim",
+          "total": 319
+        },
+        {
+          "voto": "Não",
+          "total": 127
+        },
+        {
+          "voto": "Obstrução",
+          "total": 7
+        },
+        {
+          "voto": "Abstenção",
+          "total": 1
+        },
+        {
+          "voto": "Artigo 17",
+          "total": 1
+        }
+      ],
+      "votantes": 455,
+      "votosDoEstado": [
+        {
+          "idExterno": 204356,
+          "nome": "Amaro Neto",
+          "partido": "PP",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 204355,
+          "nome": "Da Vitoria",
+          "partido": "PP",
+          "voto": "Não"
+        },
+        {
+          "idExterno": 220528,
+          "nome": "Dr. Victor Linhalis",
+          "partido": "PSB",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 178871,
+          "nome": "Evair Vieira de Melo",
+          "partido": "REPUBLICANOS",
+          "voto": "Não"
+        },
+        {
+          "idExterno": 220529,
+          "nome": "Gilson Daniel",
+          "partido": "PODE",
+          "voto": "Não"
+        },
+        {
+          "idExterno": 220526,
+          "nome": "Gilvan da Federal",
+          "partido": "PL",
+          "voto": "Não"
+        },
+        {
+          "idExterno": 178873,
+          "nome": "Helder Salomão",
+          "partido": "PT",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 220527,
+          "nome": "Jack Rocha",
+          "partido": "PT",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 220530,
+          "nome": "Messias Donato",
+          "partido": "UNIÃO",
+          "voto": "Não"
+        },
+        {
+          "idExterno": 160517,
+          "nome": "Paulo Folletto",
+          "partido": "PSB",
+          "voto": "Sim"
+        }
+      ]
+    },
+    {
+      "id": "2655570-57",
+      "data": "2026-11-23",
+      "registradaEm": "2026-11-24T00:12:26",
+      "descricao": "Mantido o texto. Sim: 310; Não: 132; Total: 442.",
+      "aprovada": false,
+      "proposicao": {
+        "id": 2655570,
+        "sigla": "PLP",
+        "numero": 299,
+        "ano": 2026,
+        "ementa": "Altera a Lei Complementar nº?200, de 30 de agosto de 2023, a Lei Complementar nº?176, de 29 de dezembro de 2020, a Lei Complementar nº?235, de 27 de agosto de 2026, a Lei Complementar nº?224, de 26 de dezembro de 2025, a Lei nº?11.540, de 12 de novembro de 2007, e a Lei nº?9.796, de 5 de maio de 1999, para conferir ao Poder Executivo federal novos instrumentos de gestão, com vistas a garantir a estabilidade macroeconômica do País e criar as condições adequadas ao desenvolvimento socioeconômico; e dá outras providências.",
+        "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655570"
+      },
+      "placar": [
+        {
+          "voto": "Sim",
+          "total": 310
+        },
+        {
+          "voto": "Não",
+          "total": 132
+        },
+        {
+          "voto": "Obstrução",
+          "total": 6
+        },
+        {
+          "voto": "Artigo 17",
+          "total": 1
+        }
+      ],
+      "votantes": 449,
+      "votosDoEstado": [
+        {
+          "idExterno": 204356,
+          "nome": "Amaro Neto",
+          "partido": "PP",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 204355,
+          "nome": "Da Vitoria",
+          "partido": "PP",
+          "voto": "Não"
+        },
+        {
+          "idExterno": 220528,
+          "nome": "Dr. Victor Linhalis",
+          "partido": "PSB",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 178871,
+          "nome": "Evair Vieira de Melo",
+          "partido": "REPUBLICANOS",
+          "voto": "Não"
+        },
+        {
+          "idExterno": 220529,
+          "nome": "Gilson Daniel",
+          "partido": "PODE",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 220526,
+          "nome": "Gilvan da Federal",
+          "partido": "PL",
+          "voto": "Não"
+        },
+        {
+          "idExterno": 178873,
+          "nome": "Helder Salomão",
+          "partido": "PT",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 220527,
+          "nome": "Jack Rocha",
+          "partido": "PT",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 220530,
+          "nome": "Messias Donato",
+          "partido": "UNIÃO",
+          "voto": "Não"
+        },
+        {
+          "idExterno": 160517,
+          "nome": "Paulo Folletto",
+          "partido": "PSB",
+          "voto": "Sim"
+        }
+      ]
+    },
+    {
+      "id": "2655570-53",
+      "data": "2026-11-23",
+      "registradaEm": "2026-11-23T23:54:54",
+      "descricao": "Mantido o texto. Sim: 333; Não: 138; Abstenção: 1; Total: 472.",
+      "aprovada": false,
+      "proposicao": {
+        "id": 2655570,
+        "sigla": "PLP",
+        "numero": 299,
+        "ano": 2026,
+        "ementa": "Altera a Lei Complementar nº?200, de 30 de agosto de 2023, a Lei Complementar nº?176, de 29 de dezembro de 2020, a Lei Complementar nº?235, de 27 de agosto de 2026, a Lei Complementar nº?224, de 26 de dezembro de 2025, a Lei nº?11.540, de 12 de novembro de 2007, e a Lei nº?9.796, de 5 de maio de 1999, para conferir ao Poder Executivo federal novos instrumentos de gestão, com vistas a garantir a estabilidade macroeconômica do País e criar as condições adequadas ao desenvolvimento socioeconômico; e dá outras providências.",
+        "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655570"
+      },
+      "placar": [
+        {
+          "voto": "Sim",
+          "total": 333
+        },
+        {
+          "voto": "Não",
+          "total": 138
+        },
+        {
+          "voto": "Abstenção",
+          "total": 1
+        },
+        {
+          "voto": "Artigo 17",
+          "total": 1
+        }
+      ],
+      "votantes": 473,
+      "votosDoEstado": [
+        {
+          "idExterno": 204356,
+          "nome": "Amaro Neto",
+          "partido": "PP",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 204355,
+          "nome": "Da Vitoria",
+          "partido": "PP",
+          "voto": "Não"
+        },
+        {
+          "idExterno": 220528,
+          "nome": "Dr. Victor Linhalis",
+          "partido": "PSB",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 178871,
+          "nome": "Evair Vieira de Melo",
+          "partido": "REPUBLICANOS",
+          "voto": "Não"
+        },
+        {
+          "idExterno": 220529,
+          "nome": "Gilson Daniel",
+          "partido": "PODE",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 220526,
+          "nome": "Gilvan da Federal",
+          "partido": "PL",
+          "voto": "Não"
+        },
+        {
+          "idExterno": 178873,
+          "nome": "Helder Salomão",
+          "partido": "PT",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 220527,
+          "nome": "Jack Rocha",
+          "partido": "PT",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 220530,
+          "nome": "Messias Donato",
+          "partido": "UNIÃO",
+          "voto": "Não"
+        },
+        {
+          "idExterno": 160517,
+          "nome": "Paulo Folletto",
+          "partido": "PSB",
+          "voto": "Sim"
+        }
+      ]
+    },
+    {
+      "id": "2655570-50",
+      "data": "2026-11-23",
+      "registradaEm": "2026-11-23T23:26:45",
+      "descricao": "Rejeitada a Emenda de Plenário nº 38. Sim: 172; Não: 282; Abstenção: 2; Total: 456.",
+      "aprovada": false,
+      "proposicao": {
+        "id": 2655570,
+        "sigla": "PLP",
+        "numero": 299,
+        "ano": 2026,
+        "ementa": "Altera a Lei Complementar nº?200, de 30 de agosto de 2023, a Lei Complementar nº?176, de 29 de dezembro de 2020, a Lei Complementar nº?235, de 27 de agosto de 2026, a Lei Complementar nº?224, de 26 de dezembro de 2025, a Lei nº?11.540, de 12 de novembro de 2007, e a Lei nº?9.796, de 5 de maio de 1999, para conferir ao Poder Executivo federal novos instrumentos de gestão, com vistas a garantir a estabilidade macroeconômica do País e criar as condições adequadas ao desenvolvimento socioeconômico; e dá outras providências.",
+        "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655570"
+      },
+      "placar": [
+        {
+          "voto": "Não",
+          "total": 282
+        },
+        {
+          "voto": "Sim",
+          "total": 172
+        },
+        {
+          "voto": "Obstrução",
+          "total": 4
+        },
+        {
+          "voto": "Abstenção",
+          "total": 2
+        },
+        {
+          "voto": "Artigo 17",
+          "total": 1
+        }
+      ],
+      "votantes": 461,
+      "votosDoEstado": [
+        {
+          "idExterno": 204356,
+          "nome": "Amaro Neto",
+          "partido": "PP",
+          "voto": "Não"
+        },
+        {
+          "idExterno": 204355,
+          "nome": "Da Vitoria",
+          "partido": "PP",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 220528,
+          "nome": "Dr. Victor Linhalis",
+          "partido": "PSB",
+          "voto": "Não"
+        },
+        {
+          "idExterno": 178871,
+          "nome": "Evair Vieira de Melo",
+          "partido": "REPUBLICANOS",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 220529,
+          "nome": "Gilson Daniel",
+          "partido": "PODE",
+          "voto": "Não"
+        },
+        {
+          "idExterno": 220526,
+          "nome": "Gilvan da Federal",
+          "partido": "PL",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 178873,
+          "nome": "Helder Salomão",
+          "partido": "PT",
+          "voto": "Não"
+        },
+        {
+          "idExterno": 220527,
+          "nome": "Jack Rocha",
+          "partido": "PT",
+          "voto": "Não"
+        },
+        {
+          "idExterno": 220530,
+          "nome": "Messias Donato",
+          "partido": "UNIÃO",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 160517,
+          "nome": "Paulo Folletto",
+          "partido": "PSB",
+          "voto": "Não"
+        }
+      ]
+    },
+    {
+      "id": "2655570-47",
+      "data": "2026-11-23",
+      "registradaEm": "2026-11-23T23:13:43",
+      "descricao": "Rejeitada a Emenda de Plenário nº 23. Sim: 146; Não: 315; Abstenção: 1; Total: 462.",
+      "aprovada": false,
+      "proposicao": {
+        "id": 2655570,
+        "sigla": "PLP",
+        "numero": 299,
+        "ano": 2026,
+        "ementa": "Altera a Lei Complementar nº?200, de 30 de agosto de 2023, a Lei Complementar nº?176, de 29 de dezembro de 2020, a Lei Complementar nº?235, de 27 de agosto de 2026, a Lei Complementar nº?224, de 26 de dezembro de 2025, a Lei nº?11.540, de 12 de novembro de 2007, e a Lei nº?9.796, de 5 de maio de 1999, para conferir ao Poder Executivo federal novos instrumentos de gestão, com vistas a garantir a estabilidade macroeconômica do País e criar as condições adequadas ao desenvolvimento socioeconômico; e dá outras providências.",
+        "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655570"
+      },
+      "placar": [
+        {
+          "voto": "Não",
+          "total": 315
+        },
+        {
+          "voto": "Sim",
+          "total": 146
+        },
+        {
+          "voto": "Obstrução",
+          "total": 6
+        },
+        {
+          "voto": "Abstenção",
+          "total": 1
+        },
+        {
+          "voto": "Artigo 17",
+          "total": 1
+        }
+      ],
+      "votantes": 469,
+      "votosDoEstado": [
+        {
+          "idExterno": 204356,
+          "nome": "Amaro Neto",
+          "partido": "PP",
+          "voto": "Não"
+        },
+        {
+          "idExterno": 204355,
+          "nome": "Da Vitoria",
+          "partido": "PP",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 220528,
+          "nome": "Dr. Victor Linhalis",
+          "partido": "PSB",
+          "voto": "Não"
+        },
+        {
+          "idExterno": 178871,
+          "nome": "Evair Vieira de Melo",
+          "partido": "REPUBLICANOS",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 220529,
+          "nome": "Gilson Daniel",
+          "partido": "PODE",
+          "voto": "Não"
+        },
+        {
+          "idExterno": 220526,
+          "nome": "Gilvan da Federal",
+          "partido": "PL",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 178873,
+          "nome": "Helder Salomão",
+          "partido": "PT",
+          "voto": "Não"
+        },
+        {
+          "idExterno": 220527,
+          "nome": "Jack Rocha",
+          "partido": "PT",
+          "voto": "Não"
+        },
+        {
+          "idExterno": 220530,
+          "nome": "Messias Donato",
+          "partido": "UNIÃO",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 160517,
+          "nome": "Paulo Folletto",
+          "partido": "PSB",
+          "voto": "Não"
+        }
+      ]
+    },
+    {
+      "id": "2655570-44",
+      "data": "2026-11-23",
+      "registradaEm": "2026-11-23T23:01:03",
+      "descricao": "Mantido o texto. Sim: 413; Não: 29; Total: 442.",
+      "aprovada": false,
+      "proposicao": {
+        "id": 2655570,
+        "sigla": "PLP",
+        "numero": 299,
+        "ano": 2026,
+        "ementa": "Altera a Lei Complementar nº?200, de 30 de agosto de 2023, a Lei Complementar nº?176, de 29 de dezembro de 2020, a Lei Complementar nº?235, de 27 de agosto de 2026, a Lei Complementar nº?224, de 26 de dezembro de 2025, a Lei nº?11.540, de 12 de novembro de 2007, e a Lei nº?9.796, de 5 de maio de 1999, para conferir ao Poder Executivo federal novos instrumentos de gestão, com vistas a garantir a estabilidade macroeconômica do País e criar as condições adequadas ao desenvolvimento socioeconômico; e dá outras providências.",
+        "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655570"
+      },
+      "placar": [
+        {
+          "voto": "Sim",
+          "total": 413
+        },
+        {
+          "voto": "Não",
+          "total": 29
+        },
+        {
+          "voto": "Artigo 17",
+          "total": 1
+        }
+      ],
+      "votantes": 443,
+      "votosDoEstado": [
+        {
+          "idExterno": 204356,
+          "nome": "Amaro Neto",
+          "partido": "PP",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 204355,
+          "nome": "Da Vitoria",
+          "partido": "PP",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 220528,
+          "nome": "Dr. Victor Linhalis",
+          "partido": "PSB",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 178871,
+          "nome": "Evair Vieira de Melo",
+          "partido": "REPUBLICANOS",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 220529,
+          "nome": "Gilson Daniel",
+          "partido": "PODE",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 220526,
+          "nome": "Gilvan da Federal",
+          "partido": "PL",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 178873,
+          "nome": "Helder Salomão",
+          "partido": "PT",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 220527,
+          "nome": "Jack Rocha",
+          "partido": "PT",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 220530,
+          "nome": "Messias Donato",
+          "partido": "UNIÃO",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 160517,
+          "nome": "Paulo Folletto",
+          "partido": "PSB",
+          "voto": "Sim"
+        }
+      ]
+    },
+    {
+      "id": "2655570-41",
+      "data": "2026-11-23",
+      "registradaEm": "2026-11-23T22:44:11",
+      "descricao": "Rejeitadas as Emendas de Plenário. Sim: 129; Não: 319; Abstenção: 4; Total: 452.",
+      "aprovada": false,
+      "proposicao": {
+        "id": 2655570,
+        "sigla": "PLP",
+        "numero": 299,
+        "ano": 2026,
+        "ementa": "Altera a Lei Complementar nº?200, de 30 de agosto de 2023, a Lei Complementar nº?176, de 29 de dezembro de 2020, a Lei Complementar nº?235, de 27 de agosto de 2026, a Lei Complementar nº?224, de 26 de dezembro de 2025, a Lei nº?11.540, de 12 de novembro de 2007, e a Lei nº?9.796, de 5 de maio de 1999, para conferir ao Poder Executivo federal novos instrumentos de gestão, com vistas a garantir a estabilidade macroeconômica do País e criar as condições adequadas ao desenvolvimento socioeconômico; e dá outras providências.",
+        "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655570"
+      },
+      "placar": [
+        {
+          "voto": "Não",
+          "total": 319
+        },
+        {
+          "voto": "Sim",
+          "total": 129
+        },
+        {
+          "voto": "Obstrução",
+          "total": 9
+        },
+        {
+          "voto": "Abstenção",
+          "total": 4
+        },
+        {
+          "voto": "Artigo 17",
+          "total": 1
+        }
+      ],
+      "votantes": 462,
+      "votosDoEstado": [
+        {
+          "idExterno": 204356,
+          "nome": "Amaro Neto",
+          "partido": "PP",
+          "voto": "Não"
+        },
+        {
+          "idExterno": 204355,
+          "nome": "Da Vitoria",
+          "partido": "PP",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 220528,
+          "nome": "Dr. Victor Linhalis",
+          "partido": "PSB",
+          "voto": "Não"
+        },
+        {
+          "idExterno": 178871,
+          "nome": "Evair Vieira de Melo",
+          "partido": "REPUBLICANOS",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 220529,
+          "nome": "Gilson Daniel",
+          "partido": "PODE",
+          "voto": "Não"
+        },
+        {
+          "idExterno": 220526,
+          "nome": "Gilvan da Federal",
+          "partido": "PL",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 178873,
+          "nome": "Helder Salomão",
+          "partido": "PT",
+          "voto": "Não"
+        },
+        {
+          "idExterno": 220527,
+          "nome": "Jack Rocha",
+          "partido": "PT",
+          "voto": "Não"
+        },
+        {
+          "idExterno": 220530,
+          "nome": "Messias Donato",
+          "partido": "UNIÃO",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 160517,
+          "nome": "Paulo Folletto",
+          "partido": "PSB",
+          "voto": "Não"
+        }
+      ]
+    },
+    {
+      "id": "2655570-39",
+      "data": "2026-11-23",
+      "registradaEm": "2026-11-23T22:33:44",
+      "descricao": "Aprovado o Projeto de Lei Complementar nº 299, de 2026, ressalvados os destaques. Sim: 353; Não: 128; Abstenção: 5; Total: 486.",
+      "aprovada": true,
+      "proposicao": {
+        "id": 2655570,
+        "sigla": "PLP",
+        "numero": 299,
+        "ano": 2026,
+        "ementa": "Altera a Lei Complementar nº?200, de 30 de agosto de 2023, a Lei Complementar nº?176, de 29 de dezembro de 2020, a Lei Complementar nº?235, de 27 de agosto de 2026, a Lei Complementar nº?224, de 26 de dezembro de 2025, a Lei nº?11.540, de 12 de novembro de 2007, e a Lei nº?9.796, de 5 de maio de 1999, para conferir ao Poder Executivo federal novos instrumentos de gestão, com vistas a garantir a estabilidade macroeconômica do País e criar as condições adequadas ao desenvolvimento socioeconômico; e dá outras providências.",
+        "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655570"
+      },
+      "placar": [
+        {
+          "voto": "Sim",
+          "total": 353
+        },
+        {
+          "voto": "Não",
+          "total": 128
+        },
+        {
+          "voto": "Obstrução",
+          "total": 10
+        },
+        {
+          "voto": "Abstenção",
+          "total": 5
+        },
+        {
+          "voto": "Artigo 17",
+          "total": 1
+        }
+      ],
+      "votantes": 497,
+      "votosDoEstado": [
+        {
+          "idExterno": 204356,
+          "nome": "Amaro Neto",
+          "partido": "PP",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 204355,
+          "nome": "Da Vitoria",
+          "partido": "PP",
+          "voto": "Não"
+        },
+        {
+          "idExterno": 220528,
+          "nome": "Dr. Victor Linhalis",
+          "partido": "PSB",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 178871,
+          "nome": "Evair Vieira de Melo",
+          "partido": "REPUBLICANOS",
+          "voto": "Não"
+        },
+        {
+          "idExterno": 220529,
+          "nome": "Gilson Daniel",
+          "partido": "PODE",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 220526,
+          "nome": "Gilvan da Federal",
+          "partido": "PL",
+          "voto": "Não"
+        },
+        {
+          "idExterno": 178873,
+          "nome": "Helder Salomão",
+          "partido": "PT",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 220527,
+          "nome": "Jack Rocha",
+          "partido": "PT",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 220530,
+          "nome": "Messias Donato",
+          "partido": "UNIÃO",
+          "voto": "Não"
+        },
+        {
+          "idExterno": 160517,
+          "nome": "Paulo Folletto",
+          "partido": "PSB",
+          "voto": "Sim"
+        }
+      ]
+    },
+    {
+      "id": "2655570-30",
+      "data": "2026-11-23",
+      "registradaEm": "2026-11-23T20:43:37",
+      "descricao": "Rejeitado o Requerimento. Sim: 127; Não: 347; Abstenção: 7; Total: 481.",
+      "aprovada": false,
+      "proposicao": {
+        "id": 2655570,
+        "sigla": "PLP",
+        "numero": 299,
+        "ano": 2026,
+        "ementa": "Altera a Lei Complementar nº?200, de 30 de agosto de 2023, a Lei Complementar nº?176, de 29 de dezembro de 2020, a Lei Complementar nº?235, de 27 de agosto de 2026, a Lei Complementar nº?224, de 26 de dezembro de 2025, a Lei nº?11.540, de 12 de novembro de 2007, e a Lei nº?9.796, de 5 de maio de 1999, para conferir ao Poder Executivo federal novos instrumentos de gestão, com vistas a garantir a estabilidade macroeconômica do País e criar as condições adequadas ao desenvolvimento socioeconômico; e dá outras providências.",
+        "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655570"
+      },
+      "placar": [
+        {
+          "voto": "Não",
+          "total": 347
+        },
+        {
+          "voto": "Sim",
+          "total": 127
+        },
+        {
+          "voto": "Abstenção",
+          "total": 7
+        },
+        {
+          "voto": "Artigo 17",
+          "total": 1
+        }
+      ],
+      "votantes": 482,
+      "votosDoEstado": [
+        {
+          "idExterno": 204356,
+          "nome": "Amaro Neto",
+          "partido": "PP",
+          "voto": "Não"
+        },
+        {
+          "idExterno": 204355,
+          "nome": "Da Vitoria",
+          "partido": "PP",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 220528,
+          "nome": "Dr. Victor Linhalis",
+          "partido": "PSB",
+          "voto": "Não"
+        },
+        {
+          "idExterno": 178871,
+          "nome": "Evair Vieira de Melo",
+          "partido": "REPUBLICANOS",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 220529,
+          "nome": "Gilson Daniel",
+          "partido": "PODE",
+          "voto": "Não"
+        },
+        {
+          "idExterno": 220526,
+          "nome": "Gilvan da Federal",
+          "partido": "PL",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 178873,
+          "nome": "Helder Salomão",
+          "partido": "PT",
+          "voto": "Não"
+        },
+        {
+          "idExterno": 220527,
+          "nome": "Jack Rocha",
+          "partido": "PT",
+          "voto": "Não"
+        },
+        {
+          "idExterno": 220530,
+          "nome": "Messias Donato",
+          "partido": "UNIÃO",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 160517,
+          "nome": "Paulo Folletto",
+          "partido": "PSB",
+          "voto": "Não"
+        }
+      ]
+    },
+    {
+      "id": "2655708-8",
+      "data": "2026-11-23",
+      "registradaEm": "2026-11-23T19:45:46",
+      "descricao": "Aprovado o Requerimento de Urgência (Art. 155 do RICD). Sim: 318; Não: 135; Abstenção: 6; Total: 459.",
+      "aprovada": true,
+      "proposicao": {
+        "id": 2655570,
+        "sigla": "PLP",
+        "numero": 299,
+        "ano": 2026,
+        "ementa": "Altera a Lei Complementar nº?200, de 30 de agosto de 2023, a Lei Complementar nº?176, de 29 de dezembro de 2020, a Lei Complementar nº?235, de 27 de agosto de 2026, a Lei Complementar nº?224, de 26 de dezembro de 2025, a Lei nº?11.540, de 12 de novembro de 2007, e a Lei nº?9.796, de 5 de maio de 1999, para conferir ao Poder Executivo federal novos instrumentos de gestão, com vistas a garantir a estabilidade macroeconômica do País e criar as condições adequadas ao desenvolvimento socioeconômico; e dá outras providências.",
+        "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655570"
+      },
+      "placar": [
+        {
+          "voto": "Sim",
+          "total": 318
+        },
+        {
+          "voto": "Não",
+          "total": 135
+        },
+        {
+          "voto": "Obstrução",
+          "total": 8
+        },
+        {
+          "voto": "Abstenção",
+          "total": 6
+        },
+        {
+          "voto": "Artigo 17",
+          "total": 1
+        }
+      ],
+      "votantes": 468,
+      "votosDoEstado": [
+        {
+          "idExterno": 204356,
+          "nome": "Amaro Neto",
+          "partido": "PP",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 204355,
+          "nome": "Da Vitoria",
+          "partido": "PP",
+          "voto": "Não"
+        },
+        {
+          "idExterno": 220528,
+          "nome": "Dr. Victor Linhalis",
+          "partido": "PSB",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 178871,
+          "nome": "Evair Vieira de Melo",
+          "partido": "REPUBLICANOS",
+          "voto": "Não"
+        },
+        {
+          "idExterno": 220529,
+          "nome": "Gilson Daniel",
+          "partido": "PODE",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 220526,
+          "nome": "Gilvan da Federal",
+          "partido": "PL",
+          "voto": "Não"
+        },
+        {
+          "idExterno": 178873,
+          "nome": "Helder Salomão",
+          "partido": "PT",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 220527,
+          "nome": "Jack Rocha",
+          "partido": "PT",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 220530,
+          "nome": "Messias Donato",
+          "partido": "UNIÃO",
+          "voto": "Não"
+        },
+        {
+          "idExterno": 160517,
+          "nome": "Paulo Folletto",
+          "partido": "PSB",
+          "voto": "Sim"
+        }
+      ]
+    },
     {
       "id": "2236186-60",
       "data": "2026-10-14",
@@ -834,90 +1814,6 @@
           "nome": "Paulo Folletto",
           "partido": "PSB",
           "voto": "Não"
-        }
-      ]
-    },
-    {
-      "id": "2618177-71",
-      "data": "2026-08-12",
-      "registradaEm": "2026-08-12T17:49:46",
-      "descricao": "Aprovado o Substitutivo Reformulado ao Projeto de Lei Complementar nº 114, de 2026, adotado pela relatora da Comissão de Minas e Energia, ressalvado o destaque. Sim: 318; Não: 113; Abstenção: 1; Total: 432.",
-      "aprovada": true,
-      "proposicao": {
-        "id": 2618177,
-        "sigla": "PLP",
-        "numero": 114,
-        "ano": 2026,
-        "ementa": "Dispõe sobre regras para renúncias de receita com o objetivo de mitigar os impactos econômicos causados pelo choque no mercado internacional de energia decorrente do conflito no Oriente Médio.",
-        "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2618177"
-      },
-      "placar": [
-        {
-          "voto": "Sim",
-          "total": 318
-        },
-        {
-          "voto": "Não",
-          "total": 113
-        },
-        {
-          "voto": "Abstenção",
-          "total": 1
-        },
-        {
-          "voto": "Artigo 17",
-          "total": 1
-        }
-      ],
-      "votantes": 433,
-      "votosDoEstado": [
-        {
-          "idExterno": 204356,
-          "nome": "Amaro Neto",
-          "partido": "PP",
-          "voto": "Sim"
-        },
-        {
-          "idExterno": 204355,
-          "nome": "Da Vitoria",
-          "partido": "PP",
-          "voto": "Sim"
-        },
-        {
-          "idExterno": 220528,
-          "nome": "Dr. Victor Linhalis",
-          "partido": "PSB",
-          "voto": "Sim"
-        },
-        {
-          "idExterno": 220526,
-          "nome": "Gilvan da Federal",
-          "partido": "PL",
-          "voto": "Não"
-        },
-        {
-          "idExterno": 178873,
-          "nome": "Helder Salomão",
-          "partido": "PT",
-          "voto": "Sim"
-        },
-        {
-          "idExterno": 220527,
-          "nome": "Jack Rocha",
-          "partido": "PT",
-          "voto": "Sim"
-        },
-        {
-          "idExterno": 220530,
-          "nome": "Messias Donato",
-          "partido": "UNIÃO",
-          "voto": "Sim"
-        },
-        {
-          "idExterno": 160517,
-          "nome": "Paulo Folletto",
-          "partido": "PSB",
-          "voto": "Sim"
         }
       ]
     }
