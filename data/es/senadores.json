@@ -11,7 +11,7 @@
     2025,
     2026
   ],
-  "coletadoEm": "2026-11-24T20:11:59.012Z",
+  "coletadoEm": "2026-11-25T19:17:35.355Z",
   "senadores": [
     {
       "id": "senado-5953",
@@ -3440,6 +3440,16 @@
         "fim": "2031-01-31"
       },
       "materias": [
+        {
+          "id": "176542",
+          "identificacao": "RQS 803/2026",
+          "sigla": "RQS",
+          "numero": "803",
+          "ano": 2026,
+          "ementa": "Requer voto de pesar pelo falecimento do Sr. Antônio Cézar Nunes Nemer.",
+          "data": "2026-11-24",
+          "autorPrincipal": true
+        },
         {
           "id": "176515",
           "identificacao": "RQS 796/2026",
@@ -8174,7 +8184,7 @@
       "materiasPorTipo": [
         {
           "sigla": "RQS",
-          "total": 224
+          "total": 225
         },
         {
           "sigla": "REQ",

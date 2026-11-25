@@ -6,15 +6,111 @@
   },
   "uf": "ES",
   "legislatura": 57,
-  "coletadoEm": "2026-11-24T20:15:32.312Z",
+  "coletadoEm": "2026-11-25T19:20:24.230Z",
   "criterio": {
     "orgao": "Plenário",
     "tipo": "Votações nominais",
     "quantidade": 20,
     "ordem": "As mais recentes primeiro",
-    "sondagens": 451
+    "sondagens": 457
   },
   "votacoes": [
+    {
+      "id": "2332174-59",
+      "data": "2026-11-24",
+      "registradaEm": "2026-11-24T17:52:28",
+      "descricao": "Aprovado o Substitutivo ao Projeto de Lei nº 1.969, de 2022, da Comissão de Direitos Humanos, Minorias e Igualdade Racial. Sim: 292; Não: 147; Abstenção: 2; Total: 441.",
+      "aprovada": true,
+      "proposicao": {
+        "id": 2332174,
+        "sigla": "PL",
+        "numero": 1969,
+        "ano": 2022,
+        "ementa": "Reconhece a responsabilidade do Estado pelo desaparecimento forçado das 11 vítimas de Acari e estabelece Medidas de Reparação e Não-Repetição para vítimas e familiares da Chacina de Acari.",
+        "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2332174"
+      },
+      "placar": [
+        {
+          "voto": "Sim",
+          "total": 292
+        },
+        {
+          "voto": "Não",
+          "total": 147
+        },
+        {
+          "voto": "Abstenção",
+          "total": 2
+        },
+        {
+          "voto": "Artigo 17",
+          "total": 1
+        }
+      ],
+      "votantes": 442,
+      "votosDoEstado": [
+        {
+          "idExterno": 204356,
+          "nome": "Amaro Neto",
+          "partido": "PP",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 204355,
+          "nome": "Da Vitoria",
+          "partido": "PP",
+          "voto": "Não"
+        },
+        {
+          "idExterno": 220528,
+          "nome": "Dr. Victor Linhalis",
+          "partido": "PSB",
+          "voto": "Não"
+        },
+        {
+          "idExterno": 178871,
+          "nome": "Evair Vieira de Melo",
+          "partido": "REPUBLICANOS",
+          "voto": "Não"
+        },
+        {
+          "idExterno": 220529,
+          "nome": "Gilson Daniel",
+          "partido": "PODE",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 220526,
+          "nome": "Gilvan da Federal",
+          "partido": "PL",
+          "voto": "Não"
+        },
+        {
+          "idExterno": 178873,
+          "nome": "Helder Salomão",
+          "partido": "PT",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 220527,
+          "nome": "Jack Rocha",
+          "partido": "PT",
+          "voto": "Sim"
+        },
+        {
+          "idExterno": 220530,
+          "nome": "Messias Donato",
+          "partido": "UNIÃO",
+          "voto": "Não"
+        },
+        {
+          "idExterno": 160517,
+          "nome": "Paulo Folletto",
+          "partido": "PSB",
+          "voto": "Sim"
+        }
+      ]
+    },
     {
       "id": "2655570-60",
       "data": "2026-11-23",
@@ -1717,96 +1813,6 @@
           "idExterno": 220527,
           "nome": "Jack Rocha",
           "partido": "PT",
-          "voto": "Não"
-        },
-        {
-          "idExterno": 160517,
-          "nome": "Paulo Folletto",
-          "partido": "PSB",
-          "voto": "Não"
-        }
-      ]
-    },
-    {
-      "id": "2618177-73",
-      "data": "2026-08-12",
-      "registradaEm": "2026-08-12T17:58:49",
-      "descricao": "Rejeitadas as Emendas de Plenário. Sim: 108; Não: 275; Abstenção: 1; Total: 384.",
-      "aprovada": false,
-      "proposicao": {
-        "id": 2618177,
-        "sigla": "PLP",
-        "numero": 114,
-        "ano": 2026,
-        "ementa": "Dispõe sobre regras para renúncias de receita com o objetivo de mitigar os impactos econômicos causados pelo choque no mercado internacional de energia decorrente do conflito no Oriente Médio.",
-        "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2618177"
-      },
-      "placar": [
-        {
-          "voto": "Não",
-          "total": 275
-        },
-        {
-          "voto": "Sim",
-          "total": 108
-        },
-        {
-          "voto": "Abstenção",
-          "total": 1
-        },
-        {
-          "voto": "Artigo 17",
-          "total": 1
-        }
-      ],
-      "votantes": 385,
-      "votosDoEstado": [
-        {
-          "idExterno": 204356,
-          "nome": "Amaro Neto",
-          "partido": "PP",
-          "voto": "Não"
-        },
-        {
-          "idExterno": 220528,
-          "nome": "Dr. Victor Linhalis",
-          "partido": "PSB",
-          "voto": "Não"
-        },
-        {
-          "idExterno": 178871,
-          "nome": "Evair Vieira de Melo",
-          "partido": "REPUBLICANOS",
-          "voto": "Sim"
-        },
-        {
-          "idExterno": 220529,
-          "nome": "Gilson Daniel",
-          "partido": "PODE",
-          "voto": "Não"
-        },
-        {
-          "idExterno": 220526,
-          "nome": "Gilvan da Federal",
-          "partido": "PL",
-          "voto": "Sim"
-        },
-        {
-          "idExterno": 178873,
-          "nome": "Helder Salomão",
-          "partido": "PT",
-          "voto": "Não"
-        },
-        {
-          "idExterno": 220527,
-          "nome": "Jack Rocha",
-          "partido": "PT",
-          "voto": "Não"
-        },
-        {
-          "idExterno": 220530,
-          "nome": "Messias Donato",
-          "partido": "UNIÃO",
           "voto": "Não"
         },
         {
