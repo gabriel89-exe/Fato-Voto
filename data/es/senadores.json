@@ -11,7 +11,7 @@
     2025,
     2026
   ],
-  "coletadoEm": "2026-11-25T19:17:35.355Z",
+  "coletadoEm": "2026-11-26T19:02:40.601Z",
   "senadores": [
     {
       "id": "senado-5953",
@@ -28,6 +28,26 @@
         "fim": "2027-01-31"
       },
       "materias": [
+        {
+          "id": "176604",
+          "identificacao": "REQ 423/2026 - CDIR",
+          "sigla": "REQ",
+          "numero": "423",
+          "ano": 2026,
+          "ementa": "Requer licença para desempenhar missão oficial, a fim de participar do Fórum Acordo\nMercosul-UE: Oportunidades e Desafios, em Lisboa, Portugal.",
+          "data": "2026-11-25",
+          "autorPrincipal": true
+        },
+        {
+          "id": "176606",
+          "identificacao": "REQ 48/2026 - CCJ",
+          "sigla": "REQ",
+          "numero": "48",
+          "ano": 2026,
+          "ementa": "Requer a realização de audiência pública para debater a constitucionalidade da terceirização de atividades nos estabelecimentos penais e seus impactos sobre as atribuições da Polícia Penal e as responsabilidades do Estado.",
+          "data": "2026-11-25",
+          "autorPrincipal": true
+        },
         {
           "id": "176505",
           "identificacao": "RQS 794/2026",
@@ -3396,7 +3416,7 @@
         },
         {
           "sigla": "REQ",
-          "total": 73
+          "total": 75
         },
         {
           "sigla": "PL",

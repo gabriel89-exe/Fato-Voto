@@ -6,7 +6,7 @@
   },
   "uf": "ES",
   "legislatura": 57,
-  "coletadoEm": "2026-11-25T19:17:28.638Z",
+  "coletadoEm": "2026-11-26T19:02:09.536Z",
   "referencia": {
     "bancada": 10,
     "medianaDespesas": 359209.0650000002,
@@ -36,7 +36,7 @@
       "paginaOficial": "https://www.camara.leg.br/deputados/204356",
       "despesas": {
         "total": 263588.1799999997,
-        "documentos": 1135,
+        "documentos": 1138,
         "porTipo": [
           {
             "tipo": "PASSAGEM AÉREA - SIGEPA",
@@ -396,8 +396,8 @@
           }
         ],
         "glosas": {
-          "quantidade": 153,
-          "valor": 8168.7800000000025,
+          "quantidade": 155,
+          "valor": 8312.600000000004,
           "exemplos": [
             {
               "id": "7585825",
@@ -574,8 +574,8 @@
           }
         ],
         "comprovantes": {
-          "com": 736,
-          "total": 1135
+          "com": 739,
+          "total": 1138
         }
       },
       "proposicoes": {
@@ -1641,7 +1641,7 @@
       "paginaOficial": "https://www.camara.leg.br/deputados/220528",
       "despesas": {
         "total": 444744.1800000001,
-        "documentos": 1103,
+        "documentos": 1104,
         "porTipo": [
           {
             "tipo": "PASSAGEM AÉREA - SIGEPA",
@@ -2001,8 +2001,8 @@
           }
         ],
         "glosas": {
-          "quantidade": 82,
-          "valor": 16736.390000000007,
+          "quantidade": 83,
+          "valor": 16740.690000000006,
           "exemplos": [
             {
               "id": "7859304",
@@ -2179,8 +2179,8 @@
           }
         ],
         "comprovantes": {
-          "com": 446,
-          "total": 1103
+          "com": 447,
+          "total": 1104
         }
       },
       "proposicoes": {
@@ -3034,7 +3034,7 @@
           {
             "tipo": "Requerimento para envio de Indicação pela Comissão",
             "sigla": "REQ",
-            "total": 127
+            "total": 128
           },
           {
             "tipo": "Requerimento de Sessão Solene",
@@ -3044,7 +3044,7 @@
           {
             "tipo": "Requerimento para envio de Solicitação de Informação ao TCU pela Comissão",
             "sigla": "REQ",
-            "total": 110
+            "total": 112
           },
           {
             "tipo": "Emenda na Comissão",
@@ -4196,7 +4196,7 @@
       "paginaOficial": "https://www.camara.leg.br/deputados/220526",
       "despesas": {
         "total": 567740.3499999999,
-        "documentos": 1964,
+        "documentos": 1967,
         "porTipo": [
           {
             "tipo": "PASSAGEM AÉREA - SIGEPA",
@@ -4752,8 +4752,8 @@
           }
         ],
         "comprovantes": {
-          "com": 1373,
-          "total": 1964
+          "com": 1376,
+          "total": 1967
         }
       },
       "proposicoes": {
@@ -5901,7 +5901,7 @@
       "paginaOficial": "https://www.camara.leg.br/deputados/220527",
       "despesas": {
         "total": 507822.71999999986,
-        "documentos": 1693,
+        "documentos": 1698,
         "porTipo": [
           {
             "tipo": "PASSAGEM AÉREA - SIGEPA",
@@ -6439,8 +6439,8 @@
           }
         ],
         "comprovantes": {
-          "com": 1204,
-          "total": 1693
+          "com": 1209,
+          "total": 1698
         }
       },
       "proposicoes": {
@@ -6742,7 +6742,7 @@
       "paginaOficial": "https://www.camara.leg.br/deputados/220530",
       "despesas": {
         "total": 304491.7000000001,
-        "documentos": 1315,
+        "documentos": 1316,
         "porTipo": [
           {
             "tipo": "PASSAGEM AÉREA - SIGEPA",
@@ -7184,8 +7184,8 @@
           }
         ],
         "comprovantes": {
-          "com": 988,
-          "total": 1315
+          "com": 989,
+          "total": 1316
         }
       },
       "proposicoes": {
