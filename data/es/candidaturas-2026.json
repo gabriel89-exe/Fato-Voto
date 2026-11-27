@@ -9,7 +9,7 @@
     "idEleicao": "20322002026",
     "uf": "ES"
   },
-  "coletadoEm": "2026-11-26T19:00:33.696Z",
+  "coletadoEm": "2026-11-27T18:59:26.321Z",
   "total": 577,
   "candidaturas": [
     {
@@ -1193,7 +1193,7 @@
           "cargo": "Vice-Governador",
           "partido": "PSTU",
           "uf": "MA",
-          "resultado": "Concorrendo"
+          "resultado": "Não eleito"
         }
       ],
       "primeiraCandidatura": false,
@@ -4798,7 +4798,7 @@
           "cargo": "Senador",
           "partido": "PR",
           "uf": "ES",
-          "resultado": "Concorrendo"
+          "resultado": "Suplente"
         }
       ],
       "primeiraCandidatura": false,
@@ -6057,7 +6057,7 @@
           "cargo": "Deputado Estadual",
           "partido": "PSDB",
           "uf": "ES",
-          "resultado": "Concorrendo"
+          "resultado": "Média"
         },
         {
           "ano": 2008,
@@ -8757,7 +8757,7 @@
           "cargo": "Deputado Federal",
           "partido": "PSB",
           "uf": "ES",
-          "resultado": "Concorrendo"
+          "resultado": "Média"
         },
         {
           "ano": 2006,
@@ -11443,7 +11443,7 @@
           "cargo": "Deputado Estadual",
           "partido": "PSB",
           "uf": "ES",
-          "resultado": "Concorrendo"
+          "resultado": "Suplente"
         },
         {
           "ano": 2012,
@@ -11457,7 +11457,7 @@
           "cargo": "Deputado Estadual",
           "partido": "PSB",
           "uf": "ES",
-          "resultado": "Concorrendo"
+          "resultado": "Eleito"
         },
         {
           "ano": 2008,
@@ -13159,7 +13159,7 @@
           "cargo": "Deputado Estadual",
           "partido": "PV",
           "uf": "ES",
-          "resultado": "Concorrendo"
+          "resultado": "Média"
         },
         {
           "ano": 2008,
@@ -16806,7 +16806,7 @@
           "cargo": "Vice-prefeito",
           "partido": "PDT",
           "uf": "56065",
-          "resultado": "Concorrendo"
+          "resultado": "Suplente"
         },
         {
           "ano": 2012,
@@ -24612,7 +24612,7 @@
           "cargo": "Deputado Estadual",
           "partido": "PSDB",
           "uf": "ES",
-          "resultado": "Concorrendo"
+          "resultado": "Não eleito"
         },
         {
           "ano": 2008,
@@ -26469,7 +26469,7 @@
           "cargo": "Vereador",
           "partido": "PP",
           "uf": "57118",
-          "resultado": "Concorrendo"
+          "resultado": "Suplente"
         },
         {
           "ano": 2014,
@@ -26490,7 +26490,7 @@
           "cargo": "Deputado Estadual",
           "partido": "PP",
           "uf": "ES",
-          "resultado": "Concorrendo"
+          "resultado": "Não eleito"
         },
         {
           "ano": 2008,
@@ -29543,7 +29543,7 @@
           "cargo": "Deputado Estadual",
           "partido": "PDT",
           "uf": "ES",
-          "resultado": "Concorrendo"
+          "resultado": "Eleito"
         },
         {
           "ano": 2008,
@@ -30947,7 +30947,7 @@
           "cargo": "Deputado Federal",
           "partido": "PT do B",
           "uf": "ES",
-          "resultado": "Concorrendo"
+          "resultado": "Suplente"
         },
         {
           "ano": 2008,
@@ -46133,7 +46133,7 @@
           "cargo": "Deputado Federal",
           "partido": "PTB",
           "uf": "ES",
-          "resultado": "Concorrendo"
+          "resultado": "Média"
         },
         {
           "ano": 2008,
@@ -55854,7 +55854,7 @@
           "cargo": "Deputado Estadual",
           "partido": "PRB",
           "uf": "ES",
-          "resultado": "Concorrendo"
+          "resultado": "Suplente"
         },
         {
           "ano": 2014,

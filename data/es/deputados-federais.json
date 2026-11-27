@@ -6,7 +6,7 @@
   },
   "uf": "ES",
   "legislatura": 57,
-  "coletadoEm": "2026-11-26T19:02:09.536Z",
+  "coletadoEm": "2026-11-27T19:00:57.334Z",
   "referencia": {
     "bancada": 10,
     "medianaDespesas": 359209.0650000002,
@@ -865,19 +865,19 @@
       "urlFotoOficial": "https://www.camara.leg.br/internet/deputado/bandep/204355.jpg",
       "paginaOficial": "https://www.camara.leg.br/deputados/204355",
       "despesas": {
-        "total": 541566.7999999999,
+        "total": 541079.7399999999,
         "documentos": 1551,
         "porTipo": [
           {
             "tipo": "PASSAGEM AÉREA - SIGEPA",
-            "valor": 541251.7999999999,
-            "notas": 504,
+            "valor": 540764.7399999999,
+            "notas": 503,
             "fornecedores": [
               {
                 "nome": "LATAM Airlines Brasil",
                 "cnpjCpf": "02012862000160",
-                "total": 431693.7200000002,
-                "notas": 392,
+                "total": 431206.66000000015,
+                "notas": 391,
                 "outrosNomes": [
                   "TAM"
                 ]
@@ -1175,15 +1175,15 @@
           },
           {
             "competencia": "2026-09",
-            "valor": 14744.480000000001
+            "valor": 14257.420000000002
           }
         ],
         "fornecedores": [
           {
             "nome": "LATAM Airlines Brasil",
             "cnpjCpf": "02012862000160",
-            "total": 431958.7200000002,
-            "notas": 394,
+            "total": 431471.66000000015,
+            "notas": 393,
             "outrosNomes": [
               "TAM",
               "Cia Aérea - TAM"
@@ -1388,7 +1388,7 @@
           }
         ],
         "comprovantes": {
-          "com": 734,
+          "com": 735,
           "total": 1551
         }
       },
@@ -2442,7 +2442,7 @@
       "paginaOficial": "https://www.camara.leg.br/deputados/178871",
       "despesas": {
         "total": 405395.32,
-        "documentos": 1699,
+        "documentos": 1703,
         "porTipo": [
           {
             "tipo": "PASSAGEM AÉREA - SIGEPA",
@@ -2980,8 +2980,8 @@
           }
         ],
         "comprovantes": {
-          "com": 1222,
-          "total": 1699
+          "com": 1226,
+          "total": 1703
         }
       },
       "proposicoes": {
@@ -3054,7 +3054,7 @@
           {
             "tipo": "Requerimento de Moção",
             "sigla": "REQ",
-            "total": 74
+            "total": 75
           },
           {
             "tipo": "Projeto de Decreto Legislativo de Sustação de Atos Normativos do Poder Executivo",
@@ -3074,7 +3074,7 @@
           {
             "tipo": "Requerimento (Outros)",
             "sigla": "REQ",
-            "total": 51
+            "total": 52
           },
           {
             "tipo": "Sugestão de Emenda à LDO - Comissões",
@@ -3269,6 +3269,26 @@
         ],
         "recentes": [
           {
+            "id": 2660358,
+            "sigla": "REQ",
+            "tipo": "Requerimento de Moção",
+            "numero": 4562,
+            "ano": 2026,
+            "ementa": "Requer a aprovação de Moção de Repúdio às declarações do Presidente da República Francesa, Emmanuel Macron, que qualificou a carne brasileira como “dopada”, desqualificando a produção agropecuária nacional e comprometendo a imagem do Brasil no mercado internacional.",
+            "apresentadaEm": "2026-11-26T16:23",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2660358"
+          },
+          {
+            "id": 2660365,
+            "sigla": "REQ",
+            "tipo": "Requerimento (Outros)",
+            "numero": 129,
+            "ano": 2026,
+            "ementa": "Requer a aprovação de Moção de Repúdio às declarações do Presidente da República Francesa, Emmanuel Macron, que qualificou a carne brasileira como “dopada”, desqualificando a produção agropecuária nacional e comprometendo a imagem do Brasil no mercado internacional.",
+            "apresentadaEm": "2026-11-26T15:32",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2660365"
+          },
+          {
             "id": 2659227,
             "sigla": "REQ",
             "tipo": "Requerimento de Convocação de Ministro de Estado na Comissão (art. 50, CF)",
@@ -3347,26 +3367,6 @@
             "ementa": "REFERÊNCIA: CORPO DA LEI, CAP IV, SEÇÃO X, SUBSEÇÃO II, ART 77 - INCLUIR O PARÁGRAFO: “PARÁGRAFO ÚNICO. OS RECURSOS FINANCEIROS DESTINADOS ÀS PROGRAMAÇÕES ORÇAMENTÁRIAS INCLUÍDAS OU ACRESCIDAS POR EMENDAS PARLAMENTARES DEVERÃO SER LIBERADOS NO PRAZO MÁXIMO DE TRINTA DIAS, CONTADO DA DATA EM QUE AS RESPECTIVAS DESPESAS ESTIVEREM DEVIDAMENTE LIQUIDADAS E APTAS PARA PAGAMENTO, APÓS O CUMPRIMENTO DE TODAS AS EXIGÊNCIAS LEGAIS, TÉCNICAS E ADMINISTRATIVAS APLICÁVEIS, RESSALVADAS AS RESTRIÇÕES LEGAIS À EXECUÇÃO FINANCEIRA E AS DETERMINAÇÕES JUDICIAIS, DEVIDAMENTE FUNDAMENTADAS.”",
             "apresentadaEm": "2026-11-17T19:10",
             "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2654851"
-          },
-          {
-            "id": 2654850,
-            "sigla": "SLD",
-            "tipo": "Sugestão de Emenda à LDO - Comissões",
-            "numero": 8,
-            "ano": 2026,
-            "ementa": "REFERÊNCIA: CORPO DA LEI, CAP V, SEÇÃO I, SUBSEÇÃO IV, ART 88, INCISO II, ALÍNEA C – INCLUIR A ALÍNEA “D) REALIZAÇÃO DE OBRAS, REFORMAS, AMPLIAÇÕES, ADAPTAÇÕES E MELHORIAS NAS INSTALAÇÕES FÍSICAS DE ENTIDADES PRIVADAS SEM FINS LUCRATIVOS QUE PRESTEM SERVIÇOS DE INTERESSE PÚBLICO NAS ÁREAS DE ASSISTÊNCIA SOCIAL E EDUCAÇÃO, DESDE QUE DIRETAMENTE VINCULADAS ÀS SUAS FINALIDADES INSTITUCIONAIS, OBSERVADAS AS EXIGÊNCIAS LEGAIS APLICÁVEIS”.",
-            "apresentadaEm": "2026-11-17T19:08",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2654850"
-          },
-          {
-            "id": 2654849,
-            "sigla": "SLD",
-            "tipo": "Sugestão de Emenda à LDO - Comissões",
-            "numero": 7,
-            "ano": 2026,
-            "ementa": "REFERÊNCIA: CORPO DA LEI, CAP V, SEÇÃO II, SUBSEÇÃO I, ART 90, § 5 – INCLUIR O PARÁGRAFO: “§ 6º A EMISSÃO DE NOTA DE EMPENHO, A REALIZAÇÃO DAS TRANSFERÊNCIAS DE RECURSOS E A ASSINATURA DOS INSTRUMENTOS A QUE SE REFERE O CAPUT, BEM COMO A DOAÇÃO DE BENS, MATERIAIS E INSUMOS, NÃO DEPENDERÃO DA SITUAÇÃO DE ADIMPLÊNCIA DO MUNICÍPIO DE ATÉ SESSENTA E CINCO MIL HABITANTES”.",
-            "apresentadaEm": "2026-11-17T19:06",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2654849"
           }
         ]
       }
@@ -4196,7 +4196,7 @@
       "paginaOficial": "https://www.camara.leg.br/deputados/220526",
       "despesas": {
         "total": 567740.3499999999,
-        "documentos": 1967,
+        "documentos": 1968,
         "porTipo": [
           {
             "tipo": "PASSAGEM AÉREA - SIGEPA",
@@ -4752,8 +4752,8 @@
           }
         ],
         "comprovantes": {
-          "com": 1376,
-          "total": 1967
+          "com": 1377,
+          "total": 1968
         }
       },
       "proposicoes": {
@@ -5598,7 +5598,7 @@
           {
             "tipo": "Projeto de Lei",
             "sigla": "PL",
-            "total": 69
+            "total": 70
           },
           {
             "tipo": "Requerimento de Redistribuição",
@@ -5778,6 +5778,16 @@
         ],
         "recentes": [
           {
+            "id": 2660404,
+            "sigla": "PL",
+            "tipo": "Projeto de Lei",
+            "numero": 5995,
+            "ano": 2026,
+            "ementa": "Institui a Política Nacional de Combate à Discriminação e à Estigmatização de Povos e Comunidades em Contextos Internacionais e dá outras providências.",
+            "apresentadaEm": "2026-11-27T11:02",
+            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2660404"
+          },
+          {
             "id": 2657784,
             "sigla": "PLP",
             "tipo": "Projeto de Lei Complementar",
@@ -5866,16 +5876,6 @@
             "ementa": "Dispõe sobre a incidência do Imposto de Renda Retido na Fonte sobre os rendimentos de títulos e valores mobiliários.",
             "apresentadaEm": "2026-11-13T18:29",
             "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2653945"
-          },
-          {
-            "id": 2653944,
-            "sigla": "PL",
-            "tipo": "Projeto de Lei",
-            "numero": 5852,
-            "ano": 2026,
-            "ementa": "Institui o Imposto sobre Grandes  Fortunas, previsto no art. 153, inciso VII, da Constituição Federal.",
-            "apresentadaEm": "2026-11-13T18:29",
-            "paginaOficial": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2653944"
           }
         ]
       }

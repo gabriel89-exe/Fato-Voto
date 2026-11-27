@@ -11,11 +11,11 @@
     2025,
     2026
   ],
-  "coletadoEm": "2026-11-26T19:16:03.294Z",
+  "coletadoEm": "2026-11-27T19:14:54.901Z",
   "recorte": "Emendas cujo autor é o próprio parlamentar, nos anos da legislatura 57. Emendas de bancada estadual e de comissão não têm autor individual e não entram aqui.",
   "conferencia": {
     "aprovada": true,
-    "conferidoEm": "2026-11-26T19:16:03.270Z",
+    "conferidoEm": "2026-11-27T19:14:54.878Z",
     "provas": [
       "o valor vem da consulta por código da emenda, não da consulta por nome",
       "cada emenda é lida duas vezes, e as duas leituras têm de concordar",
@@ -28,12 +28,12 @@
     "Deputado Federal": {
       "bancada": 10,
       "medianaEmpenhado": 114799525.93,
-      "menor": 98840343.39,
+      "menor": 99190343.39,
       "maior": 147435605.15
     },
     "Senador": {
       "bancada": 3,
-      "medianaEmpenhado": 255945333.07999998,
+      "medianaEmpenhado": 256096126.07999998,
       "menor": 198124894.72,
       "maior": 270029619.49
     }
@@ -335,7 +335,7 @@
         "totais": {
           "empenhado": 139047404.35,
           "liquidado": 118175341.9,
-          "pago": 117540601.1,
+          "pago": 117704184,
           "restosInscritos": 8717070.68,
           "restosCancelados": 0,
           "restosPagos": 7408132.32
@@ -363,7 +363,7 @@
             "ano": 2026,
             "quantidade": 7,
             "empenhado": 38395896.35,
-            "pago": 27993596.1
+            "pago": 28157179
           }
         ],
         "porFuncao": [
@@ -383,7 +383,7 @@
             "nome": "Segurança pública",
             "quantidade": 1,
             "empenhado": 3996091.25,
-            "pago": 931038.5
+            "pago": 1094621.4
           },
           {
             "nome": "Agricultura",
@@ -439,7 +439,7 @@
             "nome": "ESPÍRITO SANTO (UF)",
             "quantidade": 10,
             "empenhado": 10732317.35,
-            "pago": 1852024.1
+            "pago": 2015607
           },
           {
             "nome": "JERÔNIMO MONTEIRO - ES",
@@ -465,7 +465,7 @@
             "nome": "Emenda Individual - Transferências com Finalidade Definida",
             "quantidade": 25,
             "empenhado": 103526228.35,
-            "pago": 82129415.1
+            "pago": 82292998
           },
           {
             "nome": "Emenda Individual - Transferências Especiais",
@@ -622,8 +622,8 @@
         "valoresPublicados": true,
         "totais": {
           "empenhado": 114753210.42,
-          "liquidado": 100509549.10000001,
-          "pago": 100509549.10000001,
+          "liquidado": 101391549.10000001,
+          "pago": 100901549.10000001,
           "restosInscritos": 8692758.37,
           "restosCancelados": 393.2,
           "restosPagos": 5887793.71
@@ -645,7 +645,7 @@
             "ano": 2026,
             "quantidade": 5,
             "empenhado": 40106640,
-            "pago": 35206640
+            "pago": 35598640
           }
         ],
         "porFuncao": [
@@ -665,7 +665,7 @@
             "nome": "Desporto e lazer",
             "quantidade": 4,
             "empenhado": 9924638.36,
-            "pago": 264638.24
+            "pago": 656638.24
           },
           {
             "nome": "Agricultura",
@@ -697,7 +697,7 @@
             "nome": "MÚLTIPLO",
             "quantidade": 13,
             "empenhado": 91067471.50999999,
-            "pago": 82061094.15
+            "pago": 82453094.15
           },
           {
             "nome": "ESPÍRITO SANTO (UF)",
@@ -717,7 +717,7 @@
             "nome": "Emenda Individual - Transferências com Finalidade Definida",
             "quantidade": 19,
             "empenhado": 71499435.27,
-            "pago": 57402152.95
+            "pago": 57794152.95
           },
           {
             "nome": "Emenda Individual - Transferências Especiais",
@@ -876,9 +876,9 @@
           "empenhado": 147278764.45999998,
           "liquidado": 134656360.07,
           "pago": 134656360.07,
-          "restosInscritos": 4927486.72,
+          "restosInscritos": 4888909.78,
           "restosCancelados": 0,
-          "restosPagos": 4723836.0600000005
+          "restosPagos": 4762413
         },
         "porAno": [
           {
@@ -1143,7 +1143,7 @@
         "quantidade": 31,
         "valoresPublicados": true,
         "totais": {
-          "empenhado": 113264729.42,
+          "empenhado": 113333732.42,
           "liquidado": 83699799.42,
           "pago": 83699799.42,
           "restosInscritos": 12085349.06,
@@ -1166,7 +1166,7 @@
           {
             "ano": 2026,
             "quantidade": 11,
-            "empenhado": 39343679.4,
+            "empenhado": 39412682.4,
             "pago": 21942703.4
           }
         ],
@@ -1174,7 +1174,7 @@
           {
             "nome": "Saúde",
             "quantidade": 12,
-            "empenhado": 59639670,
+            "empenhado": 59708673,
             "pago": 41948056
           },
           {
@@ -1236,7 +1236,7 @@
           {
             "nome": "MÚLTIPLO",
             "quantidade": 20,
-            "empenhado": 103918941.14,
+            "empenhado": 103987944.14,
             "pago": 83333856
           },
           {
@@ -1256,7 +1256,7 @@
           {
             "nome": "Emenda Individual - Transferências com Finalidade Definida",
             "quantidade": 28,
-            "empenhado": 77335458.28,
+            "empenhado": 77404461.28,
             "pago": 47913999.42
           },
           {
@@ -1302,7 +1302,7 @@
             "localidade": "MÚLTIPLO",
             "funcao": "Saúde",
             "subfuncao": "Atenção básica",
-            "empenhado": 10528468,
+            "empenhado": 10597471,
             "liquidado": 6490392,
             "pago": 6490392,
             "paginaOficial": "https://portaldatransparencia.gov.br/emendas/detalhe?codigoEmenda=202643830003"
@@ -1672,8 +1672,8 @@
         "valoresPublicados": true,
         "totais": {
           "empenhado": 143237627.55,
-          "liquidado": 115054193.84,
-          "pago": 113727352.84,
+          "liquidado": 115907367.84,
+          "pago": 114655526.84,
           "restosInscritos": 11852213.479999999,
           "restosCancelados": 732032.04,
           "restosPagos": 19233251.97
@@ -1701,7 +1701,7 @@
             "ano": 2026,
             "quantidade": 20,
             "empenhado": 36639696.53,
-            "pago": 30297165.84
+            "pago": 31225339.84
           }
         ],
         "porFuncao": [
@@ -1709,7 +1709,7 @@
             "nome": "Saúde",
             "quantidade": 26,
             "empenhado": 71528794.25999999,
-            "pago": 53103600.24
+            "pago": 54031774.24
           },
           {
             "nome": "Encargos especiais",
@@ -1795,13 +1795,13 @@
             "nome": "MÚLTIPLO",
             "quantidade": 24,
             "empenhado": 116044354,
-            "pago": 103779907.24000001
+            "pago": 104633081.24000001
           },
           {
             "nome": "Nacional",
             "quantidade": 27,
             "empenhado": 13558042.07,
-            "pago": 5101515
+            "pago": 5176515
           },
           {
             "nome": "ESPÍRITO SANTO (UF)",
@@ -1821,7 +1821,7 @@
             "nome": "Emenda Individual - Transferências com Finalidade Definida",
             "quantidade": 80,
             "empenhado": 102314582.55,
-            "pago": 72887807.84
+            "pago": 73815981.84
           },
           {
             "nome": "Emenda Individual - Transferências Especiais",
@@ -1977,9 +1977,9 @@
         "quantidade": 37,
         "valoresPublicados": true,
         "totais": {
-          "empenhado": 98840343.39,
-          "liquidado": 52269292.97,
-          "pago": 51769292.97,
+          "empenhado": 99190343.39,
+          "liquidado": 52961292.97,
+          "pago": 51965292.97,
           "restosInscritos": 26624663.049999997,
           "restosCancelados": 0,
           "restosPagos": 28858401.11
@@ -2000,8 +2000,8 @@
           {
             "ano": 2026,
             "quantidade": 9,
-            "empenhado": 31336125.2,
-            "pago": 21595583.2
+            "empenhado": 31686125.2,
+            "pago": 21791583.2
           }
         ],
         "porFuncao": [
@@ -2020,7 +2020,7 @@
           {
             "nome": "Assistência social",
             "quantidade": 3,
-            "empenhado": 6000000,
+            "empenhado": 6200000,
             "pago": 5250000
           },
           {
@@ -2038,7 +2038,7 @@
           {
             "nome": "Cultura",
             "quantidade": 3,
-            "empenhado": 3700000,
+            "empenhado": 3850000,
             "pago": 800000
           },
           {
@@ -2051,7 +2051,7 @@
             "nome": "Desporto e lazer",
             "quantidade": 2,
             "empenhado": 2280869.0700000003,
-            "pago": 200928
+            "pago": 396928
           },
           {
             "nome": "Administração",
@@ -2082,14 +2082,14 @@
           {
             "nome": "MÚLTIPLO",
             "quantidade": 18,
-            "empenhado": 63954438.14,
+            "empenhado": 64304438.14,
             "pago": 46218541
           },
           {
             "nome": "ESPÍRITO SANTO (UF)",
             "quantidade": 16,
             "empenhado": 29485905.25,
-            "pago": 5350751.97
+            "pago": 5546751.97
           },
           {
             "nome": "Nacional",
@@ -2102,8 +2102,8 @@
           {
             "nome": "Emenda Individual - Transferências com Finalidade Definida",
             "quantidade": 34,
-            "empenhado": 80983258.39,
-            "pago": 33952207.97
+            "empenhado": 81333258.39,
+            "pago": 34148207.97
           },
           {
             "nome": "Emenda Individual - Transferências Especiais",
@@ -2781,12 +2781,12 @@
         "quantidade": 71,
         "valoresPublicados": true,
         "totais": {
-          "empenhado": 255945333.07999998,
-          "liquidado": 166811940.6,
-          "pago": 166073440.3,
-          "restosInscritos": 68021447.72,
+          "empenhado": 256096126.07999998,
+          "liquidado": 167018299.6,
+          "pago": 166987080.8,
+          "restosInscritos": 66383264.38,
           "restosCancelados": 3169563.3299999996,
-          "restosPagos": 44432554.160000004
+          "restosPagos": 46070737.5
         },
         "porAno": [
           {
@@ -2810,16 +2810,16 @@
           {
             "ano": 2026,
             "quantidade": 17,
-            "empenhado": 62457841.49,
-            "pago": 52211999.5
+            "empenhado": 62608634.49,
+            "pago": 53125640
           }
         ],
         "porFuncao": [
           {
             "nome": "Saúde",
             "quantidade": 16,
-            "empenhado": 136721803.2,
-            "pago": 120505219
+            "empenhado": 136872596.2,
+            "pago": 120711578
           },
           {
             "nome": "Assistência social",
@@ -2843,7 +2843,7 @@
             "nome": "Cultura",
             "quantidade": 4,
             "empenhado": 8663169,
-            "pago": 1753500
+            "pago": 1853500
           },
           {
             "nome": "Urbanismo",
@@ -2867,13 +2867,13 @@
             "nome": "Agricultura",
             "quantidade": 3,
             "empenhado": 6184977.65,
-            "pago": 3633379.5
+            "pago": 4140661
           },
           {
             "nome": "Direitos da cidadania",
             "quantidade": 9,
             "empenhado": 5100000,
-            "pago": 2000000
+            "pago": 2100000
           },
           {
             "nome": "Comércio e serviços",
@@ -2916,14 +2916,14 @@
           {
             "nome": "MÚLTIPLO",
             "quantidade": 45,
-            "empenhado": 235414095.13,
-            "pago": 159561411.37
+            "empenhado": 235564888.13,
+            "pago": 159767770.37
           },
           {
             "nome": "ESPÍRITO SANTO (UF)",
             "quantidade": 21,
             "empenhado": 18331264.21,
-            "pago": 6275208.24
+            "pago": 6982489.74
           },
           {
             "nome": "SÃO DOMINGOS DO NORTE - ES",
@@ -2954,8 +2954,8 @@
           {
             "nome": "Emenda Individual - Transferências com Finalidade Definida",
             "quantidade": 71,
-            "empenhado": 255945333.07999998,
-            "pago": 166073440.3
+            "empenhado": 256096126.07999998,
+            "pago": 166987080.8
           }
         ],
         "criterioDaLista": "as 10 de maior valor empenhado",

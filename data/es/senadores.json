@@ -11,7 +11,7 @@
     2025,
     2026
   ],
-  "coletadoEm": "2026-11-26T19:02:40.601Z",
+  "coletadoEm": "2026-11-27T19:01:06.526Z",
   "senadores": [
     {
       "id": "senado-5953",
@@ -28,6 +28,16 @@
         "fim": "2027-01-31"
       },
       "materias": [
+        {
+          "id": "176625",
+          "identificacao": "R.S 9/2026",
+          "sigla": "R.S",
+          "numero": "9",
+          "ano": 2026,
+          "ementa": "Recorre da decisão terminativa da Comissão de Serviços de Infraestrutura sobre o Projeto de Lei nº 6144/2025.",
+          "data": "2026-11-26",
+          "autorPrincipal": false
+        },
         {
           "id": "176604",
           "identificacao": "REQ 423/2026 - CDIR",
@@ -3428,7 +3438,7 @@
         },
         {
           "sigla": "R.S",
-          "total": 19
+          "total": 20
         },
         {
           "sigla": "RQN",
@@ -3460,6 +3470,36 @@
         "fim": "2031-01-31"
       },
       "materias": [
+        {
+          "id": "176622",
+          "identificacao": "RQS 817/2026",
+          "sigla": "RQS",
+          "numero": "817",
+          "ano": 2026,
+          "ementa": "Requer voto de aplauso à igreja Assembleia de Deus na Praia da Costa, pela celebração de seu 19º Aniversário.",
+          "data": "2026-11-26",
+          "autorPrincipal": true
+        },
+        {
+          "id": "176623",
+          "identificacao": "RQS 818/2026",
+          "sigla": "RQS",
+          "numero": "818",
+          "ano": 2026,
+          "ementa": "Requer voto de pesar pelo falecimento da Sra. Enedina Costa Lima, mãe do Senador Humberto Costa.",
+          "data": "2026-11-26",
+          "autorPrincipal": true
+        },
+        {
+          "id": "176624",
+          "identificacao": "RQS 819/2026",
+          "sigla": "RQS",
+          "numero": "819",
+          "ano": 2026,
+          "ementa": "Requer voto de congratulações ao Pr. Delano Maia dos Santos, Presidente da igreja Assembleia de Deus Ministério Fonte de Vida (ADFV), pela celebração de seus 50 anos de vida, marco que simboliza uma trajetória de fé, dedicação ao Evangelho, serviço à comunidade e relevante contribuição social, espiritual e missionária no Estado do Espírito Santo e em diversas regiões do Brasil e do exterior.",
+          "data": "2026-11-26",
+          "autorPrincipal": true
+        },
         {
           "id": "176542",
           "identificacao": "RQS 803/2026",
@@ -8204,7 +8244,7 @@
       "materiasPorTipo": [
         {
           "sigla": "RQS",
-          "total": 225
+          "total": 228
         },
         {
           "sigla": "REQ",
